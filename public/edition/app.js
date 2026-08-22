@@ -1,136 +1,253 @@
-if ("scrollRestoration" in history) history.scrollRestoration = "manual";
-window.scrollTo(0, 0);
-
-const stories = {
-  hormuz: { tag: "Qatar & Gulf", title: "Qatar warns Gulf energy exports could stop within days" },
-  oil: { tag: "Markets", title: "Oil is pricing prolonged disruption" },
-  starlink: { tag: "Aviation", title: "Qatar Airways reaches 150 Starlink widebodies" },
-  anthropic: { tag: "AI & Technology", title: "Anthropic may soften enterprise retention" },
-  micron: { tag: "AI & Technology", title: "Micron puts $10bn behind AI’s memory bottleneck" },
-  walmart: { tag: "Consumer", title: "Walmart flashes a consumer warning" }
+const body = document.body;
+const editionDate = body.dataset.editionDate || "today";
+const storyCount = body.dataset.storyCount || document.querySelectorAll(".story-list [data-story-id]").length;
+const depths = {
+  scan: {
+    label: "SCAN MODE",
+    caption: `${storyCount} developments. The essential change, relevance and next watchpoint.`,
+    copy: "Headlines are compressed, but the logic is intact."
+  },
+  briefing: {
+    label: "BRIEFING MODE",
+    caption: "Context, mechanisms and what is genuinely new are now visible.",
+    copy: "Background and interpretation added beneath every story."
+  },
+  dossier: {
+    label: "DOSSIER MODE",
+    caption: "Evidence, uncertainty, scenarios and a full living thread are open.",
+    copy: "The complete intelligence layer—not just longer summaries."
+  }
 };
 
-const captions = {
-  scan: "See the essential signal in under two minutes.",
-  briefing: "Add context, personal relevance and the next thing to watch.",
-  dossier: "Expose evidence, uncertainty, data and competing interpretations."
-};
-
-const state = {
-  depth: localStorage.getItem("brief-depth") || "scan",
-  saved: JSON.parse(localStorage.getItem("brief-saved") || "[]")
-};
-
-function setDepth(depth) {
-  state.depth = depth;
-  localStorage.setItem("brief-depth", depth);
-  document.body.dataset.depth = depth;
-  document.querySelectorAll("[data-depth]").forEach(button => {
-    button.classList.toggle("is-active", button.dataset.depth === depth);
-  });
-  document.querySelector("[data-depth-caption]").textContent = captions[depth];
-}
-
-function setView(view) {
-  document.querySelectorAll("[data-view-panel]").forEach(panel => {
-    panel.classList.toggle("is-active", panel.dataset.viewPanel === view);
-  });
-  document.querySelectorAll("[data-view]").forEach(button => {
-    button.classList.toggle("is-active", button.dataset.view === view);
-  });
-  window.scrollTo({ top: 0, behavior: "smooth" });
-  if (view === "library") renderLibrary();
-}
-
-function toggleSaved(id) {
-  const index = state.saved.indexOf(id);
-  if (index >= 0) state.saved.splice(index, 1);
-  else state.saved.push(id);
-  localStorage.setItem("brief-saved", JSON.stringify(state.saved));
-  syncSavedButtons();
-}
-
-function syncSavedButtons() {
-  document.querySelectorAll("[data-save]").forEach(button => {
-    const saved = state.saved.includes(button.dataset.save);
-    button.classList.toggle("is-saved", saved);
-    button.innerHTML = saved ? "<span>✓</span> Saved" : "<span>＋</span> Save";
-  });
-  document.querySelector("[data-saved-count]").textContent = `${state.saved.length} saved`;
-}
-
-function renderLibrary() {
-  const empty = document.querySelector("[data-library-empty]");
-  const grid = document.querySelector("[data-saved-grid]");
-  empty.hidden = state.saved.length > 0;
-  grid.innerHTML = state.saved.map(id => {
-    const story = stories[id];
-    return `<article class="saved-item"><span>${story.tag}</span><h3>${story.title}</h3><button data-remove-saved="${id}">Remove from library</button></article>`;
-  }).join("");
-}
+const dossier = document.querySelector("[data-dossier]");
+const backdrop = document.querySelector("[data-drawer-backdrop]");
 
 function openDossier() {
-  const drawer = document.querySelector("[data-dossier]");
-  const backdrop = document.querySelector("[data-drawer-backdrop]");
-  drawer.classList.add("is-open");
-  backdrop.classList.add("is-open");
-  drawer.setAttribute("aria-hidden", "false");
-  document.body.style.overflow = "hidden";
+  body.classList.add("drawer-open");
+  dossier.setAttribute("aria-hidden", "false");
+  dossier.querySelector("[data-close-dossier]")?.focus({ preventScroll: true });
 }
 
 function closeDossier() {
-  const drawer = document.querySelector("[data-dossier]");
-  const backdrop = document.querySelector("[data-drawer-backdrop]");
-  drawer.classList.remove("is-open");
-  backdrop.classList.remove("is-open");
-  drawer.setAttribute("aria-hidden", "true");
-  document.body.style.overflow = "";
+  body.classList.remove("drawer-open");
+  dossier.setAttribute("aria-hidden", "true");
 }
 
-document.addEventListener("click", event => {
-  const depth = event.target.closest("[data-depth]");
-  if (depth) setDepth(depth.dataset.depth);
-
-  const view = event.target.closest("[data-view]");
-  if (view) setView(view.dataset.view);
-
-  const save = event.target.closest("[data-save]");
-  if (save) toggleSaved(save.dataset.save);
-
-  const remove = event.target.closest("[data-remove-saved]");
-  if (remove) { toggleSaved(remove.dataset.removeSaved); renderLibrary(); }
-
-  const story = event.target.closest("[data-open-story]");
-  if (story) openDossier();
-
-  if (event.target.closest("[data-close-dossier]") || event.target.matches("[data-drawer-backdrop]")) closeDossier();
-
-  const feedback = event.target.closest("[data-feedback]");
-  if (feedback) {
-    document.querySelectorAll("[data-feedback]").forEach(button => button.classList.remove("is-active"));
-    feedback.classList.add("is-active");
-    document.querySelector("[data-feedback-note]").textContent = "Noted. Tomorrow’s edition will learn from this.";
+function setDepth(depth, fromUser = true) {
+  if (!depths[depth]) return;
+  body.dataset.depth = depth;
+  document.querySelectorAll("[data-depth]").forEach((button) => {
+    const active = button.dataset.depth === depth;
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-selected", String(active));
+  });
+  document.querySelector("[data-depth-caption]").textContent = depths[depth].caption;
+  document.querySelector("[data-depth-state-label]").textContent = depths[depth].label;
+  document.querySelector("[data-depth-state-copy]").textContent = depths[depth].copy;
+  const bar = document.querySelector(".depth-bar");
+  bar.classList.remove("mode-flash");
+  void bar.offsetWidth;
+  bar.classList.add("mode-flash");
+  const url = new URL(location.href);
+  url.searchParams.set("depth", depth);
+  history.replaceState(null, "", url);
+  if (fromUser && depth === "briefing") {
+    document.querySelector("[data-reading-zone]").scrollIntoView({ behavior: "smooth", block: "start" });
   }
+  if (fromUser && depth === "dossier") openDossier();
+}
 
-  const listen = event.target.closest("[data-action='listen']");
-  if (listen) {
-    const cover = listen.closest(".cover");
-    const active = cover.classList.toggle("is-listening");
-    listen.querySelector(".listen-button__icon").textContent = active ? "Ⅱ" : "▶";
-    listen.querySelector("strong").textContent = active ? "Playing today’s edition" : "Listen to today";
-  }
+document.querySelectorAll("[data-depth]").forEach((button) => {
+  button.addEventListener("click", () => setDepth(button.dataset.depth));
+});
+document.querySelectorAll("[data-open-dossier]").forEach((button) => button.addEventListener("click", openDossier));
+document.querySelectorAll("[data-close-dossier]").forEach((button) => button.addEventListener("click", closeDossier));
+backdrop.addEventListener("click", closeDossier);
+document.addEventListener("keydown", (event) => { if (event.key === "Escape") { closeDossier(); closeDiscuss(); } });
+
+function showView(view) {
+  document.querySelectorAll("[data-view-panel]").forEach((panel) => panel.classList.toggle("is-active", panel.dataset.viewPanel === view));
+  document.querySelectorAll("[data-view]").forEach((button) => button.classList.toggle("is-active", button.dataset.view === view));
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+document.querySelectorAll("[data-view]").forEach((button) => button.addEventListener("click", () => showView(button.dataset.view)));
+
+const storyTitles = Object.fromEntries(
+  [...document.querySelectorAll("[data-story-id]")].map((story) => [story.dataset.storyId, story.querySelector("h2").textContent])
+);
+
+const discussSheet = document.querySelector("[data-discuss-sheet]");
+const discussBackdrop = document.querySelector("[data-discuss-backdrop]");
+const discussPrompt = document.querySelector("[data-discuss-prompt]");
+let activeStory = null;
+
+document.querySelectorAll("[data-story-id]").forEach((story) => {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "discuss-action";
+  button.dataset.discuss = story.dataset.storyId;
+  button.textContent = "Discuss with Codex ↗";
+  const target = story.querySelector(".story-actions") || story.querySelector(".story-footer");
+  target.appendChild(button);
 });
 
-document.addEventListener("keydown", event => {
-  if (event.key === "Escape") closeDossier();
+function discussionText(question = "Explain why this matters beyond the headline.") {
+  const story = document.querySelector(`[data-story-id="${activeStory}"]`);
+  const changed = story?.querySelector(".scan-grid div:first-child p")?.textContent || story?.querySelector(".history-piece__deck")?.textContent || "";
+  const contextLabel = story?.classList.contains("history-piece") ? "Historical thesis" : "What changed";
+  return `From The Brief for ${editionDate}: “${storyTitles[activeStory]}”\n\n${contextLabel}: ${changed}\n\n${question} Use the linked reporting, distinguish confirmed facts from interpretation, and talk this through with me rather than giving me another summary.`;
+}
+
+function openDiscuss(id) {
+  activeStory = id;
+  document.querySelector("[data-discuss-title]").textContent = storyTitles[id];
+  discussPrompt.value = discussionText();
+  body.classList.add("discuss-open");
+  discussSheet.setAttribute("aria-hidden", "false");
+}
+
+function closeDiscuss() {
+  body.classList.remove("discuss-open");
+  discussSheet.setAttribute("aria-hidden", "true");
+}
+
+async function copyDiscussion() {
+  const text = discussPrompt.value;
+  try {
+    await navigator.clipboard.writeText(text);
+  } catch {
+    discussPrompt.select();
+    document.execCommand("copy");
+  }
+  document.querySelector("[data-handoff-note]").textContent = "Copied. Return to this Codex chat, paste and send.";
+}
+
+document.querySelectorAll("[data-discuss]").forEach((button) => button.addEventListener("click", () => openDiscuss(button.dataset.discuss)));
+document.querySelectorAll("[data-close-discuss]").forEach((button) => button.addEventListener("click", closeDiscuss));
+discussBackdrop.addEventListener("click", closeDiscuss);
+document.querySelectorAll("[data-question]").forEach((button) => button.addEventListener("click", () => {
+  discussPrompt.value = discussionText(button.dataset.question);
+}));
+document.querySelector("[data-copy-discuss]").addEventListener("click", copyDiscussion);
+document.querySelector("[data-share-discuss]").addEventListener("click", async () => {
+  if (navigator.share) {
+    try {
+      await navigator.share({ title: `Discuss: ${storyTitles[activeStory]}`, text: discussPrompt.value });
+      return;
+    } catch (error) {
+      if (error.name === "AbortError") return;
+    }
+  }
+  await copyDiscussion();
+  document.querySelector("[data-handoff-note]").textContent = "Direct sharing is unavailable here. The question is copied—return to Codex and paste it.";
 });
 
-const demoParams = new URLSearchParams(window.location.search);
-const linkedDepth = demoParams.get("depth");
-const linkedView = demoParams.get("view");
+let saved = JSON.parse(localStorage.getItem("theBriefSaved") || "[]").filter((id) => storyTitles[id]);
 
-setDepth(["scan", "briefing", "dossier"].includes(linkedDepth) ? linkedDepth : state.depth);
-syncSavedButtons();
+function renderLibrary() {
+  localStorage.setItem("theBriefSaved", JSON.stringify(saved));
+  document.querySelectorAll("[data-library-count]").forEach((node) => { node.textContent = saved.length; });
+  document.querySelectorAll("[data-save]").forEach((button) => {
+    const active = saved.includes(button.dataset.save);
+    button.classList.toggle("is-saved", active);
+    button.textContent = active ? "✓ Saved" : "＋ Save";
+  });
+  const grid = document.querySelector("[data-saved-grid]");
+  const empty = document.querySelector("[data-library-empty]");
+  empty.hidden = saved.length > 0;
+  grid.innerHTML = saved.map((id) => `<article><p class="micro-label">Saved · ${editionDate}</p><h2>${storyTitles[id]}</h2><button type="button" data-remove="${id}">Remove</button></article>`).join("");
+  grid.querySelectorAll("[data-remove]").forEach((button) => button.addEventListener("click", () => {
+    saved = saved.filter((id) => id !== button.dataset.remove);
+    renderLibrary();
+  }));
+}
+document.querySelectorAll("[data-save]").forEach((button) => button.addEventListener("click", () => {
+  const id = button.dataset.save;
+  saved = saved.includes(id) ? saved.filter((item) => item !== id) : [...saved, id];
+  renderLibrary();
+}));
 renderLibrary();
-if (["today", "threads", "library"].includes(linkedView)) setView(linkedView);
-if (demoParams.has("story")) openDossier();
+
+const audio = document.querySelector("[data-audio]");
+const audioButton = document.querySelector("[data-audio-toggle]");
+const audioIcon = document.querySelector("[data-audio-icon]");
+const audioLabel = document.querySelector("[data-audio-label]");
+const progress = document.querySelector("[data-audio-progress] span");
+const speech = window.speechSynthesis;
+let narration = null;
+
+function showAudioError() {
+  body.classList.remove("audio-playing");
+  audioIcon.textContent = "!";
+  audioLabel.textContent = "Audio could not load";
+}
+if (audio) {
+  audioButton.addEventListener("click", async () => {
+    if (audio.paused) {
+      try { await audio.play(); } catch { showAudioError(); }
+    } else { audio.pause(); }
+  });
+  audio.addEventListener("play", () => {
+    body.classList.add("audio-playing");
+    audioIcon.textContent = "Ⅱ";
+    audioLabel.textContent = "Pause today’s edition";
+  });
+  audio.addEventListener("pause", () => {
+    body.classList.remove("audio-playing");
+    audioIcon.textContent = "▶";
+    audioLabel.textContent = audio.ended ? "Replay today’s edition" : "Resume today’s edition";
+  });
+  audio.addEventListener("timeupdate", () => {
+    if (progress) progress.style.width = audio.duration ? `${(audio.currentTime / audio.duration) * 100}%` : "0%";
+  });
+  audio.addEventListener("error", showAudioError);
+} else if (speech && "SpeechSynthesisUtterance" in window) {
+  const narrationText = [
+    document.querySelector(".cover h1")?.textContent,
+    document.querySelector(".standfirst")?.textContent,
+    ...[...document.querySelectorAll(".story-list .story")].flatMap((story) => [
+      story.querySelector("h2")?.textContent,
+      story.querySelector(".scan-grid div:nth-child(1) p")?.textContent,
+      story.querySelector(".scan-grid div:nth-child(2) p")?.textContent,
+      story.querySelector(".scan-grid div:nth-child(3) p")?.textContent
+    ])
+  ].filter(Boolean).join(". ");
+
+  audioButton.addEventListener("click", () => {
+    if (speech.speaking && !speech.paused) {
+      speech.pause();
+      body.classList.remove("audio-playing");
+      audioIcon.textContent = "▶";
+      audioLabel.textContent = "Resume today’s edition";
+      return;
+    }
+    if (speech.paused) {
+      speech.resume();
+    } else {
+      narration = new SpeechSynthesisUtterance(narrationText);
+      narration.lang = "en-GB";
+      narration.rate = 1.02;
+      narration.onend = () => {
+        body.classList.remove("audio-playing");
+        audioIcon.textContent = "▶";
+        audioLabel.textContent = "Replay today’s edition";
+      };
+      narration.onerror = showAudioError;
+      speech.cancel();
+      speech.speak(narration);
+    }
+    body.classList.add("audio-playing");
+    audioIcon.textContent = "Ⅱ";
+    audioLabel.textContent = "Pause today’s edition";
+  });
+} else {
+  audioButton.addEventListener("click", showAudioError);
+}
+
+document.querySelectorAll("[data-feedback]").forEach((button) => button.addEventListener("click", () => {
+  document.querySelectorAll("[data-feedback]").forEach((item) => item.classList.toggle("is-active", item === button));
+  document.querySelector("[data-feedback-note]").textContent = button.dataset.feedback === "useful" ? "Good. Tomorrow stays this selective." : button.dataset.feedback === "irrelevant" ? "Noted. Tomorrow will cut harder." : "Noted. Tell me what was absent in Codex.";
+}));
+
+const requestedDepth = new URL(location.href).searchParams.get("depth");
+setDepth(depths[requestedDepth] ? requestedDepth : "scan", false);

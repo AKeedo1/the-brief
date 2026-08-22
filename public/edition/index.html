@@ -4,225 +4,252 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f3efe5">
-  <title>The Brief — Daily Edition</title>
-  <meta name="description" content="A private, layered daily intelligence publication.">
+  <title>The Brief — Saturday, 22 August 2026</title>
+  <meta name="description" content="Abdulla's layered daily intelligence edition for Saturday, 22 August 2026.">
+  <meta property="og:title" content="The Brief — Intelligence with memory.">
+  <meta property="og:description" content="Abdulla's private, layered daily intelligence edition.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{SITE_ORIGIN}}/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Brief — Intelligence with memory.">
+  <meta name="twitter:description" content="Abdulla's private, layered daily intelligence edition.">
+  <meta name="twitter:image" content="{{SITE_ORIGIN}}/og.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <a class="skip-link" href="#main">Skip to today’s edition</a>
+<body data-depth="scan" data-edition-date="Saturday, 22 August 2026" data-story-count="7">
+  <a class="skip-link" href="#edition">Skip to today’s edition</a>
 
   <header class="masthead">
     <div class="masthead__top wrap">
-      <button class="icon-button menu-button" aria-label="Open sections" data-action="menu">
-        <span></span><span></span>
-      </button>
-      <a class="wordmark" href="#" aria-label="The Brief home">THE BRIEF</a>
-      <button class="avatar" aria-label="Open profile">AK</button>
+      <button class="menu-button" type="button" aria-label="Open sections"><span></span><span></span></button>
+      <a class="wordmark" href="#edition">THE BRIEF</a>
+      <span class="avatar" aria-label="Abdulla">AK</span>
     </div>
-    <div class="edition-line wrap">
-      <p>Friday, 21 August 2026</p>
-      <p>Doha · Edition No. 001</p>
-      <p class="edition-line__status"><span></span> Updated 7:00 AM</p>
-    </div>
+    <div class="edition-line wrap"><span>SATURDAY, 22 AUGUST 2026</span><span>DOHA · EDITION 002</span><span class="status"><i></i> UPDATED 3:20 PM</span></div>
   </header>
 
   <nav class="section-nav" aria-label="Primary navigation">
     <div class="wrap section-nav__inner">
-      <button class="nav-link is-active" data-view="today">Today</button>
-      <button class="nav-link" data-view="threads">Living Threads <span>4</span></button>
-      <button class="nav-link" data-view="library">Library</button>
+      <button type="button" class="nav-link is-active" data-view="today">Today</button>
+      <button type="button" class="nav-link" data-view="threads">Living Threads <span>3</span></button>
+      <button type="button" class="nav-link" data-view="library">Library <span data-library-count>0</span></button>
     </div>
   </nav>
 
-  <main id="main">
+  <main id="edition">
     <section class="view is-active" data-view-panel="today">
       <div class="wrap">
         <section class="cover reveal">
-          <p class="kicker"><span>Today’s signal</span><span>7 minute edition</span></p>
-          <h1>The Gulf is entering an economic phase of the Iran war.</h1>
-          <p class="standfirst">The military risk has not disappeared. But sanctions, energy flows and the reopening of Hormuz now matter more to your day than another battlefield headline.</p>
+          <p class="kicker">The world in one sentence</p>
+          <h1>The Gulf is holding its breath for Monday’s sanctions while pressure keeps building beneath markets, air defence, chip capacity and household spending.</h1>
+          <p class="standfirst">Washington and Tehran hardened their positions without returning to open fire. Beyond that lead, Qatar acquired a sensitive detainee dispute, Ukraine’s air-defence shortage worsened, AI demand reached chip prices, and consumers kept shrinking the middle of the market.</p>
           <div class="cover__actions">
-            <button class="listen-button" data-action="listen">
-              <span class="listen-button__icon">▶</span>
-              <span><strong>Listen to today</strong><small>7 min · generated briefing</small></span>
+            <button class="listen-button" type="button" data-audio-toggle>
+              <span class="listen-button__icon" data-audio-icon>▶</span>
+              <span><strong data-audio-label>Listen to today’s edition</strong><small>6 min · narrated on your device</small></span>
             </button>
-            <div class="listen-progress" aria-hidden="true"><span></span></div>
           </div>
         </section>
 
-        <section class="depth-bar reveal" aria-labelledby="depth-title">
-          <div>
-            <p class="micro-label" id="depth-title">Reading depth</p>
-            <p class="depth-caption" data-depth-caption>See the essential signal in under two minutes.</p>
+        <section class="depth-bar reveal" aria-labelledby="depth-heading">
+          <div class="depth-bar__copy">
+            <p class="micro-label" id="depth-heading">Choose how informed you want to be</p>
+            <p data-depth-caption>7 developments. The essential change, relevance and next watchpoint.</p>
           </div>
-          <div class="segmented" role="group" aria-label="Choose reading depth">
-            <button class="is-active" data-depth="scan">Scan <span>2m</span></button>
-            <button data-depth="briefing">Briefing <span>7m</span></button>
-            <button data-depth="dossier">Dossier <span>25m</span></button>
+          <div class="segmented" role="tablist" aria-label="Reading depth">
+            <button type="button" class="is-active" data-depth="scan" role="tab" aria-selected="true">Scan <span>5m</span></button>
+            <button type="button" data-depth="briefing" role="tab" aria-selected="false">Briefing <span>15m</span></button>
+            <button type="button" data-depth="dossier" role="tab" aria-selected="false">Dossier <span>30m</span></button>
+          </div>
+          <div class="depth-state" aria-live="polite">
+            <span data-depth-state-label>SCAN MODE</span>
+            <p data-depth-state-copy>Headlines are compressed, but the logic is intact.</p>
           </div>
         </section>
 
-        <section class="lead-grid reveal" aria-label="Lead stories">
-          <article class="lead-story story-card" data-story="hormuz">
-            <div class="story-index">01</div>
-            <div class="story-body">
-              <div class="story-meta"><span class="tag tag--gulf">Qatar & Gulf</span><span>11 sources · 18 min dossier</span></div>
-              <h2>Qatar warns Gulf energy exports could stop within days</h2>
-              <p class="story-summary">Washington is preparing its toughest sanctions yet. Qatar’s warning shifts the question from rhetoric to whether the region can keep physical energy flows moving.</p>
-              <div class="briefing-layer">
-                <div><span>Why it matters to you</span><p>Qatar’s fiscal position, aviation costs, inflation and your investment environment all meet at the Strait of Hormuz.</p></div>
-                <div><span>Watch next</span><p>Actual vessel movements and Chinese cooperation—not another sanctions announcement.</p></div>
-              </div>
-              <div class="dossier-layer">
-                <div class="signal-strip"><span>Established</span><strong>Energy exports remain the decisive transmission channel.</strong></div>
-                <div class="signal-strip signal-strip--amber"><span>Contested</span><strong>Whether economic pressure reduces or raises kinetic risk.</strong></div>
-              </div>
-              <div class="story-actions">
-                <button class="text-button" data-open-story="hormuz">Understand this properly <span>↗</span></button>
-                <button class="save-button" data-save="hormuz" aria-label="Save story"><span>＋</span> Save</button>
-              </div>
-            </div>
-          </article>
-
-          <aside class="context-card">
-            <p class="micro-label">Your context</p>
-            <h3>You already know</h3>
-            <ul>
-              <li>Hormuz is the immediate energy chokepoint.</li>
-              <li>China buys most shipped Iranian oil.</li>
-              <li>Qatar benefits from oil strength but not disruption.</li>
-            </ul>
-            <h3>New today</h3>
-            <p>The pressure campaign now explicitly combines blockade and sanctions, while Qatar has attached a short operational clock to the risk.</p>
-          </aside>
+        <section class="coverage-map" aria-label="Today’s coverage">
+          <div><p class="micro-label">Today’s coverage</p><strong>Broad first. Deep by choice.</strong></div>
+          <ul><li><span>2</span>Qatar &amp; Gulf</li><li><span>1</span>World</li><li><span>1</span>Markets</li><li><span>1</span>AI &amp; tech</li><li><span>2</span>Consumer &amp; aviation</li></ul>
         </section>
 
-        <section class="story-list reveal" aria-labelledby="developments-title">
-          <div class="section-heading">
-            <div><p class="micro-label">The edition</p><h2 id="developments-title">Five developments worth knowing</h2></div>
-            <p>Ranked by consequence, not popularity.</p>
-          </div>
+        <section class="connected-picture" data-reading-zone>
+          <header class="section-heading"><p class="micro-label">The connected picture</p><h2>A pause in fighting is not a reduction in risk.</h2></header>
+          <div class="signal-strip"><article><span>HORMUZ</span><strong>Nearly still</strong><p>Oil shipments remain severely constrained while diplomacy stalls.</p></article><article><span>MONEY</span><strong>5%+</strong><p>Long US yields ended another unsettled week at restrictive levels.</p></article><article><span>DEMAND</span><strong>Selective</strong><p>Households are protecting essentials and choosing their splurges.</p></article></div>
+          <p class="connection-note briefing-layer"><strong>The mechanism:</strong> The absence of new missile exchanges lowers immediate danger, but unresolved shipping, sanctions and inflation channels keep the economic shock alive. Markets and consumers respond to the duration of uncertainty, not merely today’s battlefield activity.</p>
+        </section>
 
-          <article class="story-row story-card" data-story="oil">
-            <div class="story-index">02</div>
-            <div class="story-body">
-              <div class="story-meta"><span class="tag tag--markets">Markets</span><span>6 sources · Updated 06:42</span></div>
-              <h3>Oil is pricing prolonged disruption</h3>
-              <p class="story-summary">Prices reached a three-week high and headed for a second weekly gain as traders moved from shock to duration.</p>
-              <div class="briefing-layer"><div><span>The sharper read</span><p>Higher oil supports Qatar fiscally while simultaneously raising airline costs, inflation pressure and bond yields.</p></div></div>
-              <div class="dossier-layer"><div class="mini-chart"><span style="height:36%"></span><span style="height:42%"></span><span style="height:39%"></span><span style="height:57%"></span><span style="height:70%"></span><span style="height:82%"></span><i>Three-week oil move</i></div></div>
-              <div class="story-actions"><button class="text-button" data-open-story="oil">Open briefing <span>↗</span></button><button class="save-button" data-save="oil"><span>＋</span> Save</button></div>
+        <section class="story-list" aria-label="Today’s consequential developments">
+          <header class="story-section-heading"><p class="micro-label">The lead</p><h2>The story setting today’s conditions.</h2><span>The quiet is tactical; the economic confrontation is not.</span></header>
+          <article class="story story--lead" data-story-id="iran-sanctions-countdown">
+            <div class="story-meta"><span><b>01</b> · <em>Qatar &amp; Gulf</em></span><span>Reuters · today</span></div>
+            <h2>The US and Iran hardened their positions before Monday’s sanctions reveal.</h2>
+            <div class="scan-grid">
+              <div><span>What changed</span><p>Washington and Tehran exchanged defiant messages as the US prepared sanctions that could reach Iran’s major trading partners, including China. The sides are not exchanging fire, but neither is pursuing peace talks, and authorised oil traffic through Hormuz remains severely constrained.</p></div>
+              <div><span>Why it matters to Abdulla</span><p>Qatar remains exposed through LNG routes, aviation and regional security while also trying to preserve enough trust to mediate. Economic escalation can narrow that diplomatic space without producing a visible military event.</p></div>
+              <div><span>Watch next</span><p>The exact sanctions targets on Monday, whether secondary sanctions reach Chinese entities, and whether any commercial tanker movement tests Iran’s threat.</p></div>
             </div>
+            <div class="briefing-layer briefing-copy"><h3>What changed in the shape of the conflict</h3><p>The contest has moved from visible strikes toward control of trade, insurance, shipping and access to third-country markets. That can feel calmer while still making the conflict more global.</p><div class="known-new"><div><span>You already know</span><p>Hormuz is Iran’s principal economic lever and Qatar’s critical export route.</p></div><div><span>New now</span><p>Monday’s package may try to force decisions not only in Tehran but in Beijing and other trading capitals.</p></div></div></div>
+            <div class="dossier-layer evidence-row"><div><span>Established</span><p>The sanctions announcement is scheduled; hostile rhetoric and the shipping constraint are confirmed.</p></div><div><span>Still uncertain</span><p>Targets, enforcement, Chinese compliance and whether pressure returns the sides to talks.</p></div></div>
+            <footer class="story-footer"><div class="source-links"><a href="https://au.marketscreener.com/news/us-iran-keep-up-hostile-rhetoric-ahead-of-new-sanctions-ce7858dadf81f321" target="_blank" rel="noreferrer">Reuters ↗</a><a href="https://mofa.gov.qa/en/latest-articles/statements/qatar-strongly-condemns-iranian-attack-on-two-uae-oil-tankers-from-adnoc-while-passing-strait-of-hormuz" target="_blank" rel="noreferrer">Qatar MFA ↗</a></div><div class="story-actions"><button type="button" data-save="iran-sanctions-countdown">＋ Save</button><button type="button" class="primary-action" data-open-dossier>Open living dossier →</button></div></footer>
+          </article>
+<header class="story-section-heading story-section-heading--break"><p class="micro-label">Qatar &amp; the region</p><h2>The diplomatic consequences are becoming more personal.</h2><span>One bilateral issue moved materially today.</span></header>
+          <article class="story" data-story-id="qatar-iranian-pilots">
+            <div class="story-meta"><span><b>02</b> · <em>Qatar–Iran</em></span><span>Reuters · today</span></div>
+            <h2>A dispute over Iranian pilots has become a sensitive Qatar–Iran test.</h2>
+            <div class="scan-grid">
+              <div><span>What changed</span><p>An Iranian military official asked Qatar to move alleged detained pilots to a hospital on land and called for an ICRC air ambulance. Qatar says it is not detaining pilots, says aircraft violated its airspace, and has invited an Iranian delegation to examine the search-and-rescue record.</p></div>
+              <div><span>Why it matters</span><p>This is a narrow dispute with wider diplomatic risk: humanitarian claims, military airspace violations and an unresolved war are now bundled into one bilateral issue.</p></div>
+              <div><span>Watch next</span><p>Whether the Iranian expert team travels to Qatar, whether the ICRC becomes involved, and whether both governments converge on the basic facts.</p></div>
+            </div>
+            <div class="briefing-layer briefing-copy"><h3>Why the language matters</h3><p>Tehran is describing a detention and medical-access problem; Doha is describing an airspace incident and a transparent investigation. Until that factual gap closes, even humanitarian coordination carries political meaning.</p></div>
+            <div class="dossier-layer evidence-row"><div><span>Confirmed</span><p>Iran made the request; Qatar has denied detention and invited a delegation.</p></div><div><span>Not independently established</span><p>Where the pilots are, their condition, and the Iranian description of their treatment.</p></div></div>
+            <footer class="story-footer"><div class="source-links"><a href="https://currently.att.yahoo.com/att/iranian-official-urges-qatar-move-094100799.html" target="_blank" rel="noreferrer">Reuters ↗</a></div><div class="story-actions"><button type="button" data-save="qatar-iranian-pilots">＋ Save</button></div></footer>
+          </article>
+<header class="story-section-heading story-section-heading--break"><p class="micro-label">The world beyond the lead</p><h2>Important developments outside the Gulf narrative.</h2><span>The air-defence imbalance worsened again.</span></header>
+          <article class="story" data-story-id="ukraine-air-defence">
+            <div class="story-meta"><span><b>03</b> · <em>Russia–Ukraine</em></span><span>AP · today</span></div>
+            <h2>Ukraine’s shortage of Patriot interceptors is becoming the defining constraint of Russia’s air campaign.</h2>
+            <div class="scan-grid">
+              <div><span>What changed</span><p>Russian missile and drone attacks killed at least seven people in Ukraine on Saturday, while a Ukrainian drone attack killed two in Russia. The attacks followed Friday’s strike on a Ukrainian shopping centre that killed 16.</p></div>
+              <div><span>Why it matters</span><p>This is not just another casualty update. Russia is intensifying ballistic attacks that Ukraine struggles to stop without scarce US-made interceptors, converting allied allocation decisions directly into civilian vulnerability.</p></div>
+              <div><span>Watch next</span><p>Emergency interceptor commitments, the pace of ballistic launches, and whether Ukraine’s attacks on Russian logistics alter Moscow’s campaign.</p></div>
+            </div>
+            <div class="briefing-layer briefing-copy"><h3>The structural problem</h3><p>Ukraine can intercept many drones and cruise missiles. Ballistic missiles are the harder threat, and the only system in its arsenal designed to stop them is constrained by the supply of Patriot interceptors.</p></div>
+            <div class="dossier-layer evidence-row"><div><span>Established</span><p>The attacks and casualties are confirmed by officials on both sides.</p></div><div><span>Interpretation</span><p>The campaign appears designed to exploit air-defence scarcity; it does not itself indicate a decisive ground breakthrough.</p></div></div>
+            <footer class="story-footer"><div class="source-links"><a href="https://apnews.com/article/5e6f60963f2662907441e95c635470c4" target="_blank" rel="noreferrer">AP ↗</a></div><div class="story-actions"><button type="button" data-save="ukraine-air-defence">＋ Save</button></div></footer>
+          </article>
+<header class="story-section-heading story-section-heading--break"><p class="micro-label">Economy &amp; markets</p><h2>The durable signals beneath Friday’s rebound.</h2><span>Ignore the green close; read the cross-asset pressure.</span></header>
+          <article class="story" data-story-id="markets-week-close">
+            <div class="story-meta"><span><b>04</b> · <em>Markets &amp; investing</em></span><span>Reuters + AP · Friday close</span></div>
+            <h2>Stocks recovered on Friday, but oil and long bonds still defined the week.</h2>
+            <div class="scan-grid">
+              <div><span>What changed</span><p>US indexes rose on Friday but finished a difficult week lower. Oil settled higher for a sixth consecutive session, long Treasury yields remained unsettled, and US services activity accelerated to its strongest pace in nearly two years.</p></div>
+              <div><span>Why it matters to Abdulla</span><p>Resilient growth is not unambiguously good when oil and fiscal pressure are keeping inflation risk alive. It can delay monetary relief while the discount rate applied to equities remains high.</p></div>
+              <div><span>Watch next</span><p>Monday’s Iran sanctions, the next long-bond auction, and whether Jackson Hole reinforces or challenges the market’s higher-for-longer view.</p></div>
+            </div>
+            <div class="briefing-layer briefing-copy"><h3>The useful interpretation</h3><p>The week ended with the same difficult combination: energy pressure, strong services demand and doubts about long-term government borrowing. A one-day equity rebound did not resolve any of them.</p></div>
+            <div class="dossier-layer evidence-row"><div><span>Portfolio lens</span><p>Treat duration and financing sensitivity as the issue, not Friday’s index direction.</p></div><div><span>Unknown</span><p>Whether the bond selloff is approaching a clearing level or the start of a more persistent repricing.</p></div></div>
+            <footer class="story-footer"><div class="source-links"><a href="https://au.investing.com/news/stock-market-news/wall-st-rises-on-the-day-but-falls-for-the-week-bond-yields-and-iran-in-focus-4612192" target="_blank" rel="noreferrer">Reuters ↗</a><a href="https://apnews.com/article/96ef9586e1288e50843b4d2b1ccebc32" target="_blank" rel="noreferrer">AP ↗</a></div><div class="story-actions"><button type="button" data-save="markets-week-close">＋ Save</button></div></footer>
+          </article>
+<header class="story-section-heading story-section-heading--break"><p class="micro-label">Technology, aviation &amp; the consumer</p><h2>Capacity and resilience are becoming the product.</h2><span>Three operating signals worth understanding.</span></header>
+          <article class="story" data-story-id="samsung-foundry-pricing">
+            <div class="story-meta"><span><b>05</b> · <em>AI &amp; semiconductors</em></span><span>Reuters · structural</span></div>
+            <h2>AI demand is no longer only raising memory prices; it is tightening advanced chipmaking capacity too.</h2>
+            <div class="scan-grid">
+              <div><span>What changed</span><p>Samsung raised prices for some advanced contract-chipmaking services by as much as 15% on new orders as AI demand filled capacity. Its foundry business has been loss-making since 2022, but the shortage is improving its pricing power.</p></div>
+              <div><span>Why it matters</span><p>The AI buildout is propagating through the whole supply chain. More expensive foundry capacity raises the cost of accelerators and makes infrastructure access—not model ideas alone—a competitive advantage.</p></div>
+              <div><span>Watch next</span><p>Whether Samsung’s price increases hold, customer migration from TSMC, and whether new capacity relieves the bottleneck or simply attracts more demand.</p></div>
+            </div>
+            <div class="briefing-layer briefing-copy"><h3>Why this is different from an Nvidia headline</h3><p>Foundries manufacture designs for many companies. Tightness here affects a broader set of AI products and can transfer pricing power to suppliers that were previously struggling.</p></div>
+            <div class="dossier-layer evidence-row"><div><span>Reported</span><p>Reuters sources described increases of up to 15%; Samsung declined to comment.</p></div><div><span>Inference</span><p>The bottleneck is broadening, but one supplier’s quotes do not establish permanent industry-wide inflation.</p></div></div>
+            <footer class="story-footer"><div class="source-links"><a href="https://www.investing.com/news/stock-market-news/samsung-hikes-chipmaking-prices-by-up-to-15-on-demand-spike-sources-say-4866659" target="_blank" rel="noreferrer">Reuters ↗</a></div><div class="story-actions"><button type="button" data-save="samsung-foundry-pricing">＋ Save</button></div></footer>
           </article>
 
-          <article class="story-row story-card" data-story="starlink">
-            <div class="story-index">03</div>
-            <div class="story-body">
-              <div class="story-meta"><span class="tag tag--aviation">Aviation</span><span>4 sources · Confirmed</span></div>
-              <h3>Qatar Airways reaches 150 Starlink widebodies</h3>
-              <p class="story-summary">The world’s first connected 787-9 turns free high-speed Wi-Fi from amenity into fleet-level product strategy.</p>
-              <div class="briefing-layer"><div><span>What to measure</span><p>Passenger satisfaction, loyalty and digital engagement—not the installation count itself.</p></div></div>
-              <div class="dossier-layer"><div class="stat-pair"><span><strong>150</strong>connected widebodies</span><span><strong>1st</strong>Starlink 787-9</span></div></div>
-              <div class="story-actions"><button class="text-button" data-open-story="starlink">Open briefing <span>↗</span></button><button class="save-button" data-save="starlink"><span>＋</span> Save</button></div>
+          <article class="story" data-story-id="indigo-booking-resilience">
+            <div class="story-meta"><span><b>06</b> · <em>Aviation</em></span><span>Reuters · yesterday</span></div>
+            <h2>IndiGo restored bookings after its second reservation-system failure in one week.</h2>
+            <div class="scan-grid">
+              <div><span>What changed</span><p>India’s largest airline restored its reservation platform after users were unable to book, check in or confirm payments. It was the second disruption that week, following last year’s major rostering breakdown.</p></div>
+              <div><span>Why it matters to Abdulla</span><p>At 67% of India’s domestic market, a digital failure at IndiGo becomes transport infrastructure failure. Airlines increasingly compete on operational software resilience as much as schedule and service.</p></div>
+              <div><span>Watch next</span><p>The disclosed cause, compensation or regulatory scrutiny, and whether the repeated failures trace back to the same platform dependency.</p></div>
             </div>
+            <div class="briefing-layer briefing-copy"><h3>The operating lesson</h3><p>Digital retail, payment, check-in and recovery now form one service chain. A technically short outage can create a much longer customer and airport recovery problem.</p></div>
+            <div class="dossier-layer evidence-row"><div><span>Confirmed</span><p>The platform failed twice during the week and was restored on Friday.</p></div><div><span>Unknown</span><p>The root cause and whether the earlier incident was ever fully resolved.</p></div></div>
+            <footer class="story-footer"><div class="source-links"><a href="https://in.marketscreener.com/news/india-s-indigo-website-experiences-booking-problems-for-second-time-this-week-ce7859d3d08ff325" target="_blank" rel="noreferrer">Reuters ↗</a></div><div class="story-actions"><button type="button" data-save="indigo-booking-resilience">＋ Save</button></div></footer>
           </article>
 
-          <article class="story-row story-card" data-story="anthropic">
-            <div class="story-index">04</div>
-            <div class="story-body">
-              <div class="story-meta"><span class="tag tag--ai">AI & Technology</span><span>8 sources · Policy watch</span></div>
-              <h3>Anthropic may soften—but not remove—enterprise retention</h3>
-              <p class="story-summary">Customers may be allowed to retain required data in their own cloud. The 30-day requirement reportedly remains.</p>
-              <div class="briefing-layer"><div><span>Why it matters to you</span><p>“Enterprise” does not mean private. Architecture and contract terms matter as much as the model.</p></div></div>
-              <div class="dossier-layer"><div class="signal-strip signal-strip--amber"><span>Reported</span><strong>Not yet a final published policy.</strong></div></div>
-              <div class="story-actions"><button class="text-button" data-open-story="anthropic">Open briefing <span>↗</span></button><button class="save-button" data-save="anthropic"><span>＋</span> Save</button></div>
+          <article class="story" data-story-id="selective-consumer">
+            <div class="story-meta"><span><b>07</b> · <em>Restaurants, retail &amp; luxury</em></span><span>Reuters · cross-sector</span></div>
+            <h2>The consumer is not collapsing; the undifferentiated middle is.</h2>
+            <div class="scan-grid">
+              <div><span>What changed</span><p>Retail and restaurant results show shoppers protecting essentials, shrinking basket sizes and delaying larger purchases while preserving affordable treats and occasional premium splurges. Affluent demand remains more resilient than mass-market discretionary spending.</p></div>
+              <div><span>Why it matters to Abdulla</span><p>For Kebab King and Archetype, the signal is not simply to discount. Customers still spend when the value is obvious or the product feels meaningfully special; generic mid-tier offers face the hardest comparison.</p></div>
+              <div><span>Watch next</span><p>Traffic versus basket size, private-label growth, entry-price luxury products and whether holiday promotions train customers to wait for discounts.</p></div>
             </div>
-          </article>
-
-          <article class="story-row story-card" data-story="micron">
-            <div class="story-index">05</div>
-            <div class="story-body">
-              <div class="story-meta"><span class="tag tag--ai">AI & Technology</span><span>5 sources · Capital signal</span></div>
-              <h3>Micron puts $10bn behind AI’s memory bottleneck</h3>
-              <p class="story-summary">A long-horizon Boise research hub makes memory capacity and bandwidth—not only compute—a strategic race.</p>
-              <div class="briefing-layer"><div><span>Your hardware question</span><p>This is the same constraint beneath RTX speed versus Mac unified-memory capacity.</p></div></div>
-              <div class="dossier-layer"><div class="stat-pair"><span><strong>$10bn</strong>research commitment</span><span><strong>Years</strong>to commercial impact</span></div></div>
-              <div class="story-actions"><button class="text-button" data-open-story="micron">Open briefing <span>↗</span></button><button class="save-button" data-save="micron"><span>＋</span> Save</button></div>
-            </div>
-          </article>
-
-          <article class="story-row story-card" data-story="walmart">
-            <div class="story-index">06</div>
-            <div class="story-body">
-              <div class="story-meta"><span class="tag tag--consumer">Consumer</span><span>7 sources · Early signal</span></div>
-              <h3>Walmart flashes a consumer warning</h3>
-              <p class="story-summary">A rare sales-growth miss suggests inflation-weary households are becoming more selective. One result is not a recession.</p>
-              <div class="briefing-layer"><div><span>What would confirm it</span><p>Similar weakness across discretionary retailers, restaurants and card-spending data.</p></div></div>
-              <div class="dossier-layer"><div class="signal-strip"><span>Interpretation</span><strong>Watch the pattern; do not trade the headline.</strong></div></div>
-              <div class="story-actions"><button class="text-button" data-open-story="walmart">Open briefing <span>↗</span></button><button class="save-button" data-save="walmart"><span>＋</span> Save</button></div>
-            </div>
+            <div class="briefing-layer briefing-copy"><h3>The barbell pattern</h3><p>Value and premium can both work at the same time. The vulnerable position is an offer priced above utility but lacking the distinction, status or experience that justifies a splurge.</p></div>
+            <div class="dossier-layer evidence-row"><div><span>Observed</span><p>Smaller baskets, selective visits and continued demand for treats and prestige products recur across company results.</p></div><div><span>Do not overread</span><p>This is primarily US evidence and should inform questions, not be copied directly into Qatar pricing decisions.</p></div></div>
+            <footer class="story-footer"><div class="source-links"><a href="https://d2233.cms.socastsrm.com/2026/08/21/us-shoppers-tighten-budgets-but-still-find-room-for-treats-and-splurges/" target="_blank" rel="noreferrer">Reuters ↗</a></div><div class="story-actions"><button type="button" data-save="selective-consumer">＋ Save</button></div></footer>
           </article>
         </section>
 
-        <section class="one-thing reveal">
-          <p class="micro-label">Open one thing</p>
-          <div><span class="one-thing__number">01</span><div><h2>Qatar’s operational warning changes the Gulf risk calculation.</h2><p>Financial Times · 8 minute read</p></div><a href="https://www.ft.com/content/be122b17-e667-478d-be19-89d605e978ea" target="_blank" rel="noreferrer">Read source ↗</a></div>
+        <section class="radar-section">
+          <header><p class="micro-label">On the radar</p><h2>Useful, not headline-worthy.</h2></header>
+          <div class="radar-grid"><article><span>Qatar tourism</span><h3>F1 stopovers now bundle the flight, hotel and three-day race ticket.</h3><p>The product architecture is more interesting than the sponsorship announcement.</p><a href="https://www.qatarairways.com/press-releases/en-WW/269353-qatar-airways-holidays-launches-stopover-packages-for-formula-1-qatar-airways-qatar-grand-prix-2026/" target="_blank" rel="noreferrer">Source ↗</a></article><article><span>Doha next week</span><h3>Qatar plays China on 27 August; Run the Dome follows on 28–29 August.</h3><p>Useful local awareness, not consequential news.</p><a href="https://qna.org.qa/en/news/news-details?date=2%2F08%2F2026&amp;id=qatars-august-calendar-showcases-wide-ranging-family-cultural-and-sports-events-for-all-society-members" target="_blank" rel="noreferrer">Source ↗</a></article><article><span>Markets</span><h3>Jackson Hole and Monday’s Iran sanctions will set the next macro narrative.</h3><p>Those matter more than weekend speculation about Friday’s stock rebound.</p><a href="https://au.investing.com/news/stock-market-news/wall-st-rises-on-the-day-but-falls-for-the-week-bond-yields-and-iran-in-focus-4612192" target="_blank" rel="noreferrer">Source ↗</a></article></div>
         </section>
 
-        <section class="edition-feedback reveal">
-          <p>Was today’s edition worth your attention?</p>
-          <div><button data-feedback="useful">Useful</button><button data-feedback="thin">Too thin</button><button data-feedback="noise">Too much noise</button><button data-feedback="missing">Missing something</button></div>
-          <span data-feedback-note></span>
+        <article class="history-piece" data-story-id="history-great-stink">
+          <header class="history-piece__header"><div><p class="micro-label">The Long View · Daily history</p><span class="history-piece__time">7 min read</span></div><p class="history-piece__era">LONDON<br>1854–1875</p></header>
+          <div class="history-piece__hero"><p class="history-piece__number">02</p><div><h2>London built its modern sewers for the wrong scientific reason—and they worked anyway.</h2><p class="history-piece__deck">The Great Stink of 1858 turned an invisible public-health failure into something Parliament could no longer avoid. The politics moved because the powerful finally had to smell the system they had neglected.</p></div></div>
+          <div class="history-piece__body"><aside><p class="micro-label">Why remember this?</p><blockquote>Infrastructure often gets funded only when a diffuse public failure becomes an immediate elite inconvenience.</blockquote></aside><div class="history-piece__copy"><section><span>1 · A growing city flushes downhill</span><p>Nineteenth-century London grew faster than its sanitation. Cesspits overflowed, new flushing toilets increased the volume of waste, and local sewers emptied into the Thames. The river supplied water to parts of the same city receiving its sewage. Cholera repeatedly killed Londoners, but the dominant theory blamed poisonous air—miasma—rather than contaminated water.</p></section><section><span>2 · John Snow was right before policy was ready</span><p>During the 1854 cholera outbreak, physician John Snow mapped deaths around the Broad Street water pump and argued that polluted water carried the disease. His evidence became famous, but it did not instantly reorganise government. Scientific insight had arrived before the institutions and money needed to act on it.</p></section><section><span>3 · Then Parliament had to smell the Thames</span><p>The summer of 1858 was exceptionally hot. Sewage concentrated in the low river and produced a stench so severe that work in the riverside Houses of Parliament became difficult. Curtains were treated with chemicals; politicians discussed moving. The poor had endured the health consequences for years. The political crisis arrived when the smell crossed Westminster’s windows.</p></section><section><span>4 · Bazalgette designs for a city that does not yet exist</span><p>Parliament rapidly authorised a vast sewer programme led by engineer Joseph Bazalgette. Intercepting sewers carried waste east, pumping stations moved it through the flat landscape, and new embankments concealed pipes while creating roads and public space. Bazalgette deliberately built larger than the current calculations required. Much of the network still serves London because he allowed for growth rather than optimising only for the present.</p></section><section><span>5 · A wrong theory produces a right intervention</span><p>Many supporters wanted sewers because they believed foul air caused disease. That mechanism was wrong. But removing sewage from the city also removed the actual source of waterborne cholera, so the intervention worked. The system was not a complete environmental solution—it initially moved waste downstream rather than treating it—but it changed urban life and made later treatment possible.</p></section><section><span>6 · What the story leaves behind</span><p>The Great Stink is not simply a tale of heroic engineering. It is a lesson in political visibility. Chronic harms can remain unfunded when suffered mainly by people with little power. A crisis becomes actionable when institutions experience it directly. Good engineers then have a second responsibility: use the brief political window to build for a future larger than the crisis that opened it.</p></section></div></div>
+          <div class="history-timeline" aria-label="Historical timeline"><div><strong>1854</strong><span>John Snow links a cholera cluster to the Broad Street pump.</span></div><div><strong>SUMMER 1858</strong><span>Heat turns the polluted Thames into the Great Stink.</span></div><div><strong>1858</strong><span>Parliament authorises the main drainage programme.</span></div><div><strong>1865</strong><span>Key portions of Bazalgette’s system begin operating.</span></div><div><strong>1875</strong><span>The main London sewer network is substantially complete.</span></div></div>
+          <footer class="story-footer history-piece__footer"><div class="source-links"><a href="https://www.londonmuseum.org.uk/collections/london-stories/great-stink-of-1858/" target="_blank" rel="noreferrer">London Museum ↗</a><a href="https://collection.sciencemuseumgroup.org.uk/people/cp110961/joseph-william-bazalgette" target="_blank" rel="noreferrer">Science Museum ↗</a><a href="https://www.parliament.uk/about/living-heritage/building/palace/estatehistory/from-the-parliamentary-collections/thames/estimatethamespurification/" target="_blank" rel="noreferrer">UK Parliament ↗</a></div><div class="story-actions"><button type="button" data-save="history-great-stink">＋ Save</button></div></footer>
+        </article>
+
+        <section class="attention-grid">
+          <article><p class="micro-label">Worth your attention</p><h2>Reuters: the sanctions countdown</h2><p>The best single read for understanding why the absence of new strikes has not reduced the economic pressure around Hormuz.</p><a href="https://au.marketscreener.com/news/us-iran-keep-up-hostile-rhetoric-ahead-of-new-sanctions-ce7858dadf81f321" target="_blank" rel="noreferrer">Open the article →</a></article>
+          <article><p class="micro-label">You can safely ignore</p><h2>Friday’s stock-market rebound</h2><p>A green close after a difficult week does not change the durable signals: oil, long yields and fiscal pressure remain elevated.</p></article>
+        </section>
+
+        <section class="feedback">
+          <p>Was today’s edition useful?</p>
+          <div><button type="button" data-feedback="useful">Useful</button><button type="button" data-feedback="irrelevant">Irrelevant</button><button type="button" data-feedback="missing">Missing something</button></div>
+          <span data-feedback-note>One tap is enough.</span>
         </section>
       </div>
     </section>
 
-    <section class="view" data-view-panel="threads">
-      <div class="wrap subpage">
-        <div class="subpage__intro reveal"><p class="micro-label">Living Threads</p><h1>Stories that accumulate meaning.</h1><p>Daily updates are attached to durable context, so you never restart from zero.</p></div>
-        <div class="thread-grid">
-          <button class="thread-card thread-card--feature" data-open-story="hormuz"><span class="thread-card__status">High movement</span><p>Geopolitics · 43 updates</p><h2>Iran, Hormuz and Gulf energy</h2><div class="thread-card__line"><span style="width:78%"></span></div><footer><span>Last material change: today</span><span>18 min dossier ↗</span></footer></button>
-          <button class="thread-card"><span class="thread-card__status">Watching</span><p>Technology · 19 updates</p><h2>Enterprise AI privacy</h2><div class="thread-card__line"><span style="width:46%"></span></div><footer><span>Last material change: today</span><span>12 min dossier ↗</span></footer></button>
-          <button class="thread-card"><span class="thread-card__status">Stable</span><p>Aviation · 12 updates</p><h2>Qatar Airways product edge</h2><div class="thread-card__line"><span style="width:31%"></span></div><footer><span>Last material change: today</span><span>9 min dossier ↗</span></footer></button>
-          <button class="thread-card"><span class="thread-card__status">Watching</span><p>Markets · 26 updates</p><h2>The global consumer</h2><div class="thread-card__line"><span style="width:54%"></span></div><footer><span>Last material change: today</span><span>14 min dossier ↗</span></footer></button>
-        </div>
-      </div>
+    <section class="view subpage wrap" data-view-panel="threads">
+      <header class="subpage__intro"><p class="kicker">Living threads</p><h1>News with memory.</h1><p>The continuing stories that make today’s facts intelligible.</p></header>
+      <div class="thread-grid"><article class="thread-card thread-card--feature"><span>Updated today · critical</span><h2>Iran, Hormuz and Gulf stability</h2><p>Military pause · shipping constrained · Monday sanctions next</p><div class="thread-line"><i style="width:82%"></i></div><button type="button" data-open-dossier>Open thread →</button></article><article class="thread-card"><span>Updated today · watching</span><h2>The global repricing of debt</h2><p>Long yields, oil and the credibility of fiscal support</p><div class="thread-line"><i style="width:64%"></i></div></article><article class="thread-card"><span>Updated today · watching</span><h2>AI’s physical bottlenecks</h2><p>Foundry capacity, memory, power and the cost of scale</p><div class="thread-line"><i style="width:49%"></i></div></article></div>
     </section>
 
-    <section class="view" data-view-panel="library">
-      <div class="wrap subpage">
-        <div class="subpage__intro reveal"><p class="micro-label">Library</p><h1>Your intelligence, retained.</h1><p>Saved stories, source documents and completed explainers.</p></div>
-        <div class="library-toolbar"><button class="is-active">Saved</button><button>Sources</button><button>Explainers</button><span data-saved-count>0 saved</span></div>
-        <div class="empty-library" data-library-empty><span>＋</span><h2>Nothing saved yet</h2><p>Save anything from Today and it will collect here.</p></div>
-        <div class="saved-grid" data-saved-grid></div>
-      </div>
+    <section class="view subpage wrap" data-view-panel="library">
+      <header class="subpage__intro"><p class="kicker">Library</p><h1>What you chose to remember.</h1><p>Your saved stories stay on this device.</p></header>
+      <div class="library-empty" data-library-empty><span>＋</span><p>Save a story from Today and it will appear here.</p></div>
+      <div class="saved-grid" data-saved-grid></div>
     </section>
   </main>
 
-  <div class="drawer-backdrop" data-drawer-backdrop></div>
-  <aside class="dossier-drawer" data-dossier aria-hidden="true" aria-label="Story dossier">
-    <div class="drawer-head"><p>Living dossier</p><button class="icon-button" data-close-dossier aria-label="Close dossier">×</button></div>
-    <div class="drawer-scroll">
-      <div class="dossier-hero"><span class="tag tag--gulf">Qatar & Gulf</span><h2>Iran, Hormuz and Gulf energy</h2><p>What changed, what is established, and which signals matter next.</p><div><span>18 min read</span><span>11 sources</span><span>Updated today</span></div></div>
-      <nav class="dossier-nav" aria-label="Dossier sections"><a href="#update">Update</a><a href="#context">Context</a><a href="#scenarios">Scenarios</a><a href="#sources">Sources</a></nav>
-      <section id="update" class="dossier-section"><p class="micro-label">The update</p><h3>Economic pressure is now the active front.</h3><p>Washington has explicitly paired the blockade with a coming sanctions campaign. Qatar’s warning adds an operational timeframe: energy exports may not remain resilient if disruption continues.</p><div class="evidence-callout"><span>What changed today</span><p>The risk moved from a general threat to a short-clock operating constraint communicated by Qatar.</p></div></section>
-      <section id="context" class="dossier-section"><p class="micro-label">Context in four moves</p><ol class="timeline"><li><span>Six months ago</span><p>The US and Israel begin the current Iran war.</p></li><li><span>Then</span><p>Shipping disruption concentrates attention on Hormuz.</p></li><li><span>This week</span><p>Oil reaches a three-week high as duration replaces initial shock.</p></li><li><span>Today</span><p>Sanctions and Gulf export continuity become the decisive questions.</p></li></ol></section>
-      <section class="dossier-section"><p class="micro-label">The actors</p><div class="actor-grid"><div><span>Qatar</span><p>Needs reliable exports and regional de-escalation.</p></div><div><span>United States</span><p>Wants pressure without renewed large-scale kinetic action.</p></div><div><span>China</span><p>Buys most shipped Iranian oil and depends heavily on Gulf energy.</p></div><div><span>Iran</span><p>Has decades of sanctions resilience but fewer clean routes left.</p></div></div></section>
-      <section id="scenarios" class="dossier-section"><p class="micro-label">Next 30 days</p><div class="scenario"><span>01 · Base case</span><h4>Partial reopening, persistent sanctions</h4><p>Energy continues moving with friction. Oil risk premium remains, but acute disruption eases.</p><i>Most plausible</i></div><div class="scenario"><span>02 · Downside</span><h4>Exports materially interrupted</h4><p>Energy, aviation and inflation effects spread quickly beyond the Gulf.</p><i>Highest consequence</i></div><div class="scenario"><span>03 · Upside</span><h4>Diplomatic off-ramp</h4><p>China helps broker operational reopening without endorsing Washington’s full pressure campaign.</p><i>Watch diplomacy</i></div></section>
-      <section class="dossier-section"><p class="micro-label">What would change our view</p><ul class="change-list"><li>Verified vessel traffic normalizes through Hormuz.</li><li>China changes its enforcement posture toward Iranian oil.</li><li>Qatar retracts or extends its operational timeframe.</li><li>Sanctions trigger renewed kinetic escalation rather than negotiation.</li></ul></section>
-      <section id="sources" class="dossier-section source-room"><p class="micro-label">Source room</p><a href="https://www.ft.com/content/be122b17-e667-478d-be19-89d605e978ea" target="_blank" rel="noreferrer"><span>Primary reporting</span><strong>Qatar warns war could halt Gulf energy exports</strong><i>Financial Times ↗</i></a><a href="https://www.al-monitor.com/originals/2026/08/bessent-says-us-impose-toughest-ever-sanctions-iran-urges-china-cooperate" target="_blank" rel="noreferrer"><span>Wire report</span><strong>US announces toughest-ever sanctions plan</strong><i>Reuters via Al-Monitor ↗</i></a><p class="source-note">The Brief separates reporting, analysis and inference. Source count includes corroborating coverage not individually shown here.</p></section>
+  <div class="discuss-backdrop" data-discuss-backdrop></div>
+  <aside class="discuss-sheet" data-discuss-sheet aria-hidden="true" aria-labelledby="discuss-title">
+    <header><span>CONTINUE THE STORY</span><button type="button" data-close-discuss aria-label="Close discussion">×</button></header>
+    <div class="discuss-body">
+      <p class="micro-label">Talk with Codex</p>
+      <h2 id="discuss-title" data-discuss-title>Discuss this story</h2>
+      <p class="discuss-intro">Choose a starting point or write your own. The story context travels with your question.</p>
+      <div class="question-chips"><button type="button" data-question="Explain why this matters beyond the headline.">Why does this matter?</button><button type="button" data-question="Challenge the interpretation in The Brief. What is the strongest counterargument?">Challenge this take</button><button type="button" data-question="What important context or perspective is missing from this story?">What is missing?</button><button type="button" data-question="Connect this development to my work, businesses, or investments only where the link is real.">Connect it to my world</button></div>
+      <label for="discuss-prompt">Your question</label>
+      <textarea id="discuss-prompt" data-discuss-prompt rows="5"></textarea>
+      <div class="discuss-actions"><button type="button" class="discuss-primary" data-share-discuss>Share to ChatGPT</button><button type="button" data-copy-discuss>Copy question</button></div>
+      <p class="handoff-note" data-handoff-note>On iPhone, Share opens the system sheet; choose ChatGPT. If it is not listed, copy and return to this chat.</p>
     </div>
   </aside>
 
-  <nav class="mobile-nav" aria-label="Mobile navigation">
-    <button class="is-active" data-view="today"><span>◉</span>Today</button>
-    <button data-view="threads"><span>◎</span>Threads</button>
-    <button data-view="library"><span>▱</span>Library</button>
-  </nav>
+  <div class="drawer-backdrop" data-drawer-backdrop></div>
+  <aside class="dossier-drawer" data-dossier aria-hidden="true" aria-labelledby="dossier-title">
+    <header class="drawer-head"><span>THE BRIEF · LIVING DOSSIER</span><button type="button" data-close-dossier aria-label="Close dossier">×</button></header>
+    <div class="drawer-scroll">
+      <section class="dossier-hero">
+        <p class="kicker">Qatar & Gulf</p>
+        <h2 id="dossier-title">Iran, Hormuz and the price of stability</h2>
+        <p>The facts, the unresolved questions and the signals that would genuinely change the story.</p>
+        <div><span>18 min read</span><span>9 core sources</span><span>Updated today</span></div>
+      </section>
+      <nav class="dossier-nav"><a href="#update">Update</a><a href="#timeline">Timeline</a><a href="#actors">Actors</a><a href="#scenarios">Scenarios</a><a href="#sources">Sources</a></nav>
+      <section class="dossier-section" id="update"><p class="micro-label">The update</p><h3>Economic pressure is now the active front.</h3><p>The United States is preparing an unusually broad sanctions campaign after six months of war failed to secure a durable reopening of Hormuz. Iran is treating the strait as bargaining leverage. Qatar is simultaneously exposed to the disruption and positioned as one of the few remaining channels for diplomacy.</p><div class="change-box"><span>What changed today</span><p>This is no longer an inference from oil prices: US leaders explicitly named economic isolation as the next phase and signalled secondary sanctions.</p></div></section>
+      <section class="dossier-section" id="timeline"><p class="micro-label">How we got here</p><ol class="timeline"><li><span>28 Feb</span><p>US-Israeli war with Iran begins; Gulf airspace and infrastructure enter the risk zone.</p></li><li><span>17–18 Jun</span><p>A memorandum promises a ceasefire and free navigation, creating a negotiating track.</p></li><li><span>Jul–Aug</span><p>The arrangement unravels over Hormuz; tanker attacks and blockades continue.</p></li><li><span>18 Aug</span><p>The 60-day truce expires; Iran says the strait remains shut pending US concessions.</p></li><li><span>19 Aug</span><p>The UAE suspends trade with Iran after renewed missile fire.</p></li><li><span>21 Aug</span><p>Washington frames sanctions and coordinated isolation as the new main instrument.</p></li></ol></section>
+      <section class="dossier-section" id="actors"><p class="micro-label">The actors and their leverage</p><div class="actor-grid"><article><h4>United States</h4><p>Naval blockade, secondary sanctions, financial system access.</p></article><article><h4>Iran</h4><p>Hormuz disruption, regional strikes, nuclear and maritime bargaining power.</p></article><article><h4>Qatar & Oman</h4><p>Communication channels, mediation credibility and direct exposure to instability.</p></article><article><h4>China & India</h4><p>Oil purchases and the practical ceiling on Western economic isolation.</p></article><article><h4>UAE</h4><p>A historically important trade and re-export channel now suspended.</p></article><article><h4>Markets</h4><p>Impose an immediate price through oil, insurance and global borrowing costs.</p></article></div></section>
+      <section class="dossier-section"><p class="micro-label">Numbers that matter</p><div class="number-grid"><article><strong>$93.44</strong><span>Brent today</span></article><article><strong>~20%</strong><span>Pre-war global oil and LNG flow through Hormuz</span></article><article><strong>$21bn</strong><span>Iranian imports formerly supplied through the UAE</span></article><article><strong>5.2%+</strong><span>US 30-year yield area</span></article></div></section>
+      <section class="dossier-section" id="scenarios"><p class="micro-label">Three plausible paths</p><div class="scenario-grid"><article><span>01 · Negotiated opening</span><h4>Economic threats become bargaining chips.</h4><p>Partial navigation resumes; oil risk premium falls; Qatar/Oman regain room.</p><small>Signal: verified rise in non-Iranian vessel transits.</small></article><article class="scenario-base"><span>02 · Grinding pressure · Base case</span><h4>Sanctions expand; Hormuz stays constrained.</h4><p>Oil remains elevated, bonds volatile and regional operating costs stay high.</p><small>Signal: enforcement without renewed large-scale strikes.</small></article><article><span>03 · Wider escalation</span><h4>Secondary sanctions trigger retaliation.</h4><p>China resists, Gulf assets face renewed attacks and global growth weakens.</p><small>Signal: direct penalties on major Asian buyers.</small></article></div></section>
+      <section class="dossier-section"><p class="micro-label">What it means across Abdulla’s world</p><div class="impact-list"><article><span>Family portfolio</span><p>Gulf fiscal support and global duration pressure can coexist. Avoid one-factor thinking.</p></article><article><span>Qatar Airways</span><p>Fuel, airspace and insurance exposure dominate; stopover and network recovery remain secondary.</p></article><article><span>Kebab King</span><p>Imported inputs and household budgets become more sensitive; value clarity matters.</p></article><article><span>Archetype</span><p>Selective consumers still reward distinctive attainable luxury; vague premium is vulnerable.</p></article></div></section>
+      <section class="dossier-section source-room" id="sources"><p class="micro-label">Source room</p><h3>Start with primary evidence, then analysis.</h3><a href="https://mofa.gov.qa/en/latest-articles/statements/qatar-strongly-condemns-iranian-attack-on-two-uae-oil-tankers-from-adnoc-while-passing-strait-of-hormuz" target="_blank" rel="noreferrer"><span>Primary</span> Qatar Ministry of Foreign Affairs: Hormuz position ↗</a><a href="https://apnews.com/article/d28206ea288a3d4a9b82260ab44ce460" target="_blank" rel="noreferrer"><span>Analysis</span> AP: The limits of “economic D-Day” ↗</a><a href="https://currently.att.yahoo.com/att/oil-set-second-weekly-rise-014957202.html" target="_blank" rel="noreferrer"><span>Market</span> Reuters: Oil and supply disruption ↗</a><a href="https://ae.marketscreener.com/news/global-stocks-set-for-biggest-weekly-fall-since-mid-july-dollar-on-the-defensive-ce7858dadb89ff26" target="_blank" rel="noreferrer"><span>Market</span> Reuters: Global bonds and stocks ↗</a><a href="https://openai.com/index/pacing-model-development-cyber-capabilities/" target="_blank" rel="noreferrer"><span>Primary</span> OpenAI: Cyber-capability controls ↗</a></section>
+    </div>
+  </aside>
 
+  <nav class="mobile-nav" aria-label="Mobile navigation"><button type="button" class="is-active" data-view="today"><span>◉</span>Today</button><button type="button" data-view="threads"><span>◎</span>Threads</button><button type="button" data-view="library"><span>▱</span>Library</button></nav>
   <script src="app.js"></script>
 </body>
 </html>

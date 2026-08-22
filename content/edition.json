@@ -1,0 +1,228 @@
+{
+  "date": {
+    "display": "Saturday, 22 August 2026",
+    "edition": "002",
+    "updated": "3:20 PM"
+  },
+  "worldSentence": "The Gulf is holding its breath for Monday’s sanctions while pressure keeps building beneath markets, air defence, chip capacity and household spending.",
+  "standfirst": "Washington and Tehran hardened their positions without returning to open fire. Beyond that lead, Qatar acquired a sensitive detainee dispute, Ukraine’s air-defence shortage worsened, AI demand reached chip prices, and consumers kept shrinking the middle of the market.",
+  "listenTime": "6 min",
+  "coverage": [
+    { "count": 2, "label": "Qatar & Gulf" },
+    { "count": 1, "label": "World" },
+    { "count": 1, "label": "Markets" },
+    { "count": 1, "label": "AI & tech" },
+    { "count": 2, "label": "Consumer & aviation" }
+  ],
+  "connected": {
+    "title": "A pause in fighting is not a reduction in risk.",
+    "signals": [
+      { "label": "HORMUZ", "value": "Nearly still", "text": "Oil shipments remain severely constrained while diplomacy stalls." },
+      { "label": "MONEY", "value": "5%+", "text": "Long US yields ended another unsettled week at restrictive levels." },
+      { "label": "DEMAND", "value": "Selective", "text": "Households are protecting essentials and choosing their splurges." }
+    ],
+    "note": "The absence of new missile exchanges lowers immediate danger, but unresolved shipping, sanctions and inflation channels keep the economic shock alive. Markets and consumers respond to the duration of uncertainty, not merely today’s battlefield activity."
+  },
+  "stories": [
+    {
+      "id": "iran-sanctions-countdown",
+      "number": "01",
+      "category": "Qatar & Gulf",
+      "sourceNote": "Reuters · today",
+      "title": "The US and Iran hardened their positions before Monday’s sanctions reveal.",
+      "changed": "Washington and Tehran exchanged defiant messages as the US prepared sanctions that could reach Iran’s major trading partners, including China. The sides are not exchanging fire, but neither is pursuing peace talks, and authorised oil traffic through Hormuz remains severely constrained.",
+      "matters": "Qatar remains exposed through LNG routes, aviation and regional security while also trying to preserve enough trust to mediate. Economic escalation can narrow that diplomatic space without producing a visible military event.",
+      "watch": "The exact sanctions targets on Monday, whether secondary sanctions reach Chinese entities, and whether any commercial tanker movement tests Iran’s threat.",
+      "personal": true,
+      "lead": true,
+      "group": { "label": "The lead", "title": "The story setting today’s conditions.", "note": "The quiet is tactical; the economic confrontation is not.", "break": false },
+      "background": {
+        "title": "What changed in the shape of the conflict",
+        "text": "The contest has moved from visible strikes toward control of trade, insurance, shipping and access to third-country markets. That can feel calmer while still making the conflict more global.",
+        "known": "Hormuz is Iran’s principal economic lever and Qatar’s critical export route.",
+        "new": "Monday’s package may try to force decisions not only in Tehran but in Beijing and other trading capitals."
+      },
+      "evidence": {
+        "left": { "label": "Established", "text": "The sanctions announcement is scheduled; hostile rhetoric and the shipping constraint are confirmed." },
+        "right": { "label": "Still uncertain", "text": "Targets, enforcement, Chinese compliance and whether pressure returns the sides to talks." }
+      },
+      "sources": [
+        { "label": "Reuters", "url": "https://au.marketscreener.com/news/us-iran-keep-up-hostile-rhetoric-ahead-of-new-sanctions-ce7858dadf81f321" },
+        { "label": "Qatar MFA", "url": "https://mofa.gov.qa/en/latest-articles/statements/qatar-strongly-condemns-iranian-attack-on-two-uae-oil-tankers-from-adnoc-while-passing-strait-of-hormuz" }
+      ]
+    },
+    {
+      "id": "qatar-iranian-pilots",
+      "number": "02",
+      "category": "Qatar–Iran",
+      "sourceNote": "Reuters · today",
+      "title": "A dispute over Iranian pilots has become a sensitive Qatar–Iran test.",
+      "changed": "An Iranian military official asked Qatar to move alleged detained pilots to a hospital on land and called for an ICRC air ambulance. Qatar says it is not detaining pilots, says aircraft violated its airspace, and has invited an Iranian delegation to examine the search-and-rescue record.",
+      "matters": "This is a narrow dispute with wider diplomatic risk: humanitarian claims, military airspace violations and an unresolved war are now bundled into one bilateral issue.",
+      "watch": "Whether the Iranian expert team travels to Qatar, whether the ICRC becomes involved, and whether both governments converge on the basic facts.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "Qatar & the region", "title": "The diplomatic consequences are becoming more personal.", "note": "One bilateral issue moved materially today.", "break": true },
+      "background": { "title": "Why the language matters", "text": "Tehran is describing a detention and medical-access problem; Doha is describing an airspace incident and a transparent investigation. Until that factual gap closes, even humanitarian coordination carries political meaning." },
+      "evidence": {
+        "left": { "label": "Confirmed", "text": "Iran made the request; Qatar has denied detention and invited a delegation." },
+        "right": { "label": "Not independently established", "text": "Where the pilots are, their condition, and the Iranian description of their treatment." }
+      },
+      "sources": [
+        { "label": "Reuters", "url": "https://currently.att.yahoo.com/att/iranian-official-urges-qatar-move-094100799.html" }
+      ]
+    },
+    {
+      "id": "ukraine-air-defence",
+      "number": "03",
+      "category": "Russia–Ukraine",
+      "sourceNote": "AP · today",
+      "title": "Ukraine’s shortage of Patriot interceptors is becoming the defining constraint of Russia’s air campaign.",
+      "changed": "Russian missile and drone attacks killed at least seven people in Ukraine on Saturday, while a Ukrainian drone attack killed two in Russia. The attacks followed Friday’s strike on a Ukrainian shopping centre that killed 16.",
+      "matters": "This is not just another casualty update. Russia is intensifying ballistic attacks that Ukraine struggles to stop without scarce US-made interceptors, converting allied allocation decisions directly into civilian vulnerability.",
+      "watch": "Emergency interceptor commitments, the pace of ballistic launches, and whether Ukraine’s attacks on Russian logistics alter Moscow’s campaign.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "The world beyond the lead", "title": "Important developments outside the Gulf narrative.", "note": "The air-defence imbalance worsened again.", "break": true },
+      "background": { "title": "The structural problem", "text": "Ukraine can intercept many drones and cruise missiles. Ballistic missiles are the harder threat, and the only system in its arsenal designed to stop them is constrained by the supply of Patriot interceptors." },
+      "evidence": {
+        "left": { "label": "Established", "text": "The attacks and casualties are confirmed by officials on both sides." },
+        "right": { "label": "Interpretation", "text": "The campaign appears designed to exploit air-defence scarcity; it does not itself indicate a decisive ground breakthrough." }
+      },
+      "sources": [
+        { "label": "AP", "url": "https://apnews.com/article/5e6f60963f2662907441e95c635470c4" }
+      ]
+    },
+    {
+      "id": "markets-week-close",
+      "number": "04",
+      "category": "Markets & investing",
+      "sourceNote": "Reuters + AP · Friday close",
+      "title": "Stocks recovered on Friday, but oil and long bonds still defined the week.",
+      "changed": "US indexes rose on Friday but finished a difficult week lower. Oil settled higher for a sixth consecutive session, long Treasury yields remained unsettled, and US services activity accelerated to its strongest pace in nearly two years.",
+      "matters": "Resilient growth is not unambiguously good when oil and fiscal pressure are keeping inflation risk alive. It can delay monetary relief while the discount rate applied to equities remains high.",
+      "watch": "Monday’s Iran sanctions, the next long-bond auction, and whether Jackson Hole reinforces or challenges the market’s higher-for-longer view.",
+      "personal": true,
+      "lead": false,
+      "group": { "label": "Economy & markets", "title": "The durable signals beneath Friday’s rebound.", "note": "Ignore the green close; read the cross-asset pressure.", "break": true },
+      "background": { "title": "The useful interpretation", "text": "The week ended with the same difficult combination: energy pressure, strong services demand and doubts about long-term government borrowing. A one-day equity rebound did not resolve any of them." },
+      "evidence": {
+        "left": { "label": "Portfolio lens", "text": "Treat duration and financing sensitivity as the issue, not Friday’s index direction." },
+        "right": { "label": "Unknown", "text": "Whether the bond selloff is approaching a clearing level or the start of a more persistent repricing." }
+      },
+      "sources": [
+        { "label": "Reuters", "url": "https://au.investing.com/news/stock-market-news/wall-st-rises-on-the-day-but-falls-for-the-week-bond-yields-and-iran-in-focus-4612192" },
+        { "label": "AP", "url": "https://apnews.com/article/96ef9586e1288e50843b4d2b1ccebc32" }
+      ]
+    },
+    {
+      "id": "samsung-foundry-pricing",
+      "number": "05",
+      "category": "AI & semiconductors",
+      "sourceNote": "Reuters · structural",
+      "title": "AI demand is no longer only raising memory prices; it is tightening advanced chipmaking capacity too.",
+      "changed": "Samsung raised prices for some advanced contract-chipmaking services by as much as 15% on new orders as AI demand filled capacity. Its foundry business has been loss-making since 2022, but the shortage is improving its pricing power.",
+      "matters": "The AI buildout is propagating through the whole supply chain. More expensive foundry capacity raises the cost of accelerators and makes infrastructure access—not model ideas alone—a competitive advantage.",
+      "watch": "Whether Samsung’s price increases hold, customer migration from TSMC, and whether new capacity relieves the bottleneck or simply attracts more demand.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "Technology, aviation & the consumer", "title": "Capacity and resilience are becoming the product.", "note": "Three operating signals worth understanding.", "break": true },
+      "background": { "title": "Why this is different from an Nvidia headline", "text": "Foundries manufacture designs for many companies. Tightness here affects a broader set of AI products and can transfer pricing power to suppliers that were previously struggling." },
+      "evidence": {
+        "left": { "label": "Reported", "text": "Reuters sources described increases of up to 15%; Samsung declined to comment." },
+        "right": { "label": "Inference", "text": "The bottleneck is broadening, but one supplier’s quotes do not establish permanent industry-wide inflation." }
+      },
+      "sources": [
+        { "label": "Reuters", "url": "https://www.investing.com/news/stock-market-news/samsung-hikes-chipmaking-prices-by-up-to-15-on-demand-spike-sources-say-4866659" }
+      ]
+    },
+    {
+      "id": "indigo-booking-resilience",
+      "number": "06",
+      "category": "Aviation",
+      "sourceNote": "Reuters · yesterday",
+      "title": "IndiGo restored bookings after its second reservation-system failure in one week.",
+      "changed": "India’s largest airline restored its reservation platform after users were unable to book, check in or confirm payments. It was the second disruption that week, following last year’s major rostering breakdown.",
+      "matters": "At 67% of India’s domestic market, a digital failure at IndiGo becomes transport infrastructure failure. Airlines increasingly compete on operational software resilience as much as schedule and service.",
+      "watch": "The disclosed cause, compensation or regulatory scrutiny, and whether the repeated failures trace back to the same platform dependency.",
+      "personal": true,
+      "lead": false,
+      "background": { "title": "The operating lesson", "text": "Digital retail, payment, check-in and recovery now form one service chain. A technically short outage can create a much longer customer and airport recovery problem." },
+      "evidence": {
+        "left": { "label": "Confirmed", "text": "The platform failed twice during the week and was restored on Friday." },
+        "right": { "label": "Unknown", "text": "The root cause and whether the earlier incident was ever fully resolved." }
+      },
+      "sources": [
+        { "label": "Reuters", "url": "https://in.marketscreener.com/news/india-s-indigo-website-experiences-booking-problems-for-second-time-this-week-ce7859d3d08ff325" }
+      ]
+    },
+    {
+      "id": "selective-consumer",
+      "number": "07",
+      "category": "Restaurants, retail & luxury",
+      "sourceNote": "Reuters · cross-sector",
+      "title": "The consumer is not collapsing; the undifferentiated middle is.",
+      "changed": "Retail and restaurant results show shoppers protecting essentials, shrinking basket sizes and delaying larger purchases while preserving affordable treats and occasional premium splurges. Affluent demand remains more resilient than mass-market discretionary spending.",
+      "matters": "For Kebab King and Archetype, the signal is not simply to discount. Customers still spend when the value is obvious or the product feels meaningfully special; generic mid-tier offers face the hardest comparison.",
+      "watch": "Traffic versus basket size, private-label growth, entry-price luxury products and whether holiday promotions train customers to wait for discounts.",
+      "personal": true,
+      "lead": false,
+      "background": { "title": "The barbell pattern", "text": "Value and premium can both work at the same time. The vulnerable position is an offer priced above utility but lacking the distinction, status or experience that justifies a splurge." },
+      "evidence": {
+        "left": { "label": "Observed", "text": "Smaller baskets, selective visits and continued demand for treats and prestige products recur across company results." },
+        "right": { "label": "Do not overread", "text": "This is primarily US evidence and should inform questions, not be copied directly into Qatar pricing decisions." }
+      },
+      "sources": [
+        { "label": "Reuters", "url": "https://d2233.cms.socastsrm.com/2026/08/21/us-shoppers-tighten-budgets-but-still-find-room-for-treats-and-splurges/" }
+      ]
+    }
+  ],
+  "radar": [
+    { "label": "Qatar tourism", "title": "F1 stopovers now bundle the flight, hotel and three-day race ticket.", "text": "The product architecture is more interesting than the sponsorship announcement.", "url": "https://www.qatarairways.com/press-releases/en-WW/269353-qatar-airways-holidays-launches-stopover-packages-for-formula-1-qatar-airways-qatar-grand-prix-2026/" },
+    { "label": "Doha next week", "title": "Qatar plays China on 27 August; Run the Dome follows on 28–29 August.", "text": "Useful local awareness, not consequential news.", "url": "https://qna.org.qa/en/news/news-details?date=2%2F08%2F2026&id=qatars-august-calendar-showcases-wide-ranging-family-cultural-and-sports-events-for-all-society-members" },
+    { "label": "Markets", "title": "Jackson Hole and Monday’s Iran sanctions will set the next macro narrative.", "text": "Those matter more than weekend speculation about Friday’s stock rebound.", "url": "https://au.investing.com/news/stock-market-news/wall-st-rises-on-the-day-but-falls-for-the-week-bond-yields-and-iran-in-focus-4612192" }
+  ],
+  "attention": {
+    "title": "Reuters: the sanctions countdown",
+    "text": "The best single read for understanding why the absence of new strikes has not reduced the economic pressure around Hormuz.",
+    "url": "https://au.marketscreener.com/news/us-iran-keep-up-hostile-rhetoric-ahead-of-new-sanctions-ce7858dadf81f321"
+  },
+  "ignore": {
+    "title": "Friday’s stock-market rebound",
+    "text": "A green close after a difficult week does not change the durable signals: oil, long yields and fiscal pressure remain elevated."
+  },
+  "history": {
+    "id": "history-great-stink",
+    "number": "02",
+    "readTime": "7 min read",
+    "era": "LONDON\n1854–1875",
+    "title": "London built its modern sewers for the wrong scientific reason—and they worked anyway.",
+    "deck": "The Great Stink of 1858 turned an invisible public-health failure into something Parliament could no longer avoid. The politics moved because the powerful finally had to smell the system they had neglected.",
+    "thesis": "Infrastructure often gets funded only when a diffuse public failure becomes an immediate elite inconvenience.",
+    "sections": [
+      { "title": "A growing city flushes downhill", "text": "Nineteenth-century London grew faster than its sanitation. Cesspits overflowed, new flushing toilets increased the volume of waste, and local sewers emptied into the Thames. The river supplied water to parts of the same city receiving its sewage. Cholera repeatedly killed Londoners, but the dominant theory blamed poisonous air—miasma—rather than contaminated water." },
+      { "title": "John Snow was right before policy was ready", "text": "During the 1854 cholera outbreak, physician John Snow mapped deaths around the Broad Street water pump and argued that polluted water carried the disease. His evidence became famous, but it did not instantly reorganise government. Scientific insight had arrived before the institutions and money needed to act on it." },
+      { "title": "Then Parliament had to smell the Thames", "text": "The summer of 1858 was exceptionally hot. Sewage concentrated in the low river and produced a stench so severe that work in the riverside Houses of Parliament became difficult. Curtains were treated with chemicals; politicians discussed moving. The poor had endured the health consequences for years. The political crisis arrived when the smell crossed Westminster’s windows." },
+      { "title": "Bazalgette designs for a city that does not yet exist", "text": "Parliament rapidly authorised a vast sewer programme led by engineer Joseph Bazalgette. Intercepting sewers carried waste east, pumping stations moved it through the flat landscape, and new embankments concealed pipes while creating roads and public space. Bazalgette deliberately built larger than the current calculations required. Much of the network still serves London because he allowed for growth rather than optimising only for the present." },
+      { "title": "A wrong theory produces a right intervention", "text": "Many supporters wanted sewers because they believed foul air caused disease. That mechanism was wrong. But removing sewage from the city also removed the actual source of waterborne cholera, so the intervention worked. The system was not a complete environmental solution—it initially moved waste downstream rather than treating it—but it changed urban life and made later treatment possible." },
+      { "title": "What the story leaves behind", "text": "The Great Stink is not simply a tale of heroic engineering. It is a lesson in political visibility. Chronic harms can remain unfunded when suffered mainly by people with little power. A crisis becomes actionable when institutions experience it directly. Good engineers then have a second responsibility: use the brief political window to build for a future larger than the crisis that opened it." }
+    ],
+    "timeline": [
+      { "date": "1854", "text": "John Snow links a cholera cluster to the Broad Street pump." },
+      { "date": "SUMMER 1858", "text": "Heat turns the polluted Thames into the Great Stink." },
+      { "date": "1858", "text": "Parliament authorises the main drainage programme." },
+      { "date": "1865", "text": "Key portions of Bazalgette’s system begin operating." },
+      { "date": "1875", "text": "The main London sewer network is substantially complete." }
+    ],
+    "sources": [
+      { "label": "London Museum", "url": "https://www.londonmuseum.org.uk/collections/london-stories/great-stink-of-1858/" },
+      { "label": "Science Museum", "url": "https://collection.sciencemuseumgroup.org.uk/people/cp110961/joseph-william-bazalgette" },
+      { "label": "UK Parliament", "url": "https://www.parliament.uk/about/living-heritage/building/palace/estatehistory/from-the-parliamentary-collections/thames/estimatethamespurification/" }
+    ]
+  },
+  "threads": [
+    { "status": "Updated today · critical", "title": "Iran, Hormuz and Gulf stability", "text": "Military pause · shipping constrained · Monday sanctions next", "progress": 82 },
+    { "status": "Updated today · watching", "title": "The global repricing of debt", "text": "Long yields, oil and the credibility of fiscal support", "progress": 64 },
+    { "status": "Updated today · watching", "title": "AI’s physical bottlenecks", "text": "Foundry capacity, memory, power and the cost of scale", "progress": 49 }
+  ]
+}
