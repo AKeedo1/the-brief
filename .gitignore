@@ -39,5 +39,5 @@ yarn-error.log*
 /.wrangler/
 /outputs/
 /work/
-/.site-stage/
+/.site-stage*/
 /daily-edition-site.tar.gz
