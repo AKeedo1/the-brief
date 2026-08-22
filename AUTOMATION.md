@@ -13,7 +13,8 @@ This file is the durable runbook for `Personal Morning News Brief`.
 7. Update `content/edition.json` without changing its schema. Use direct source URLs and distinguish facts, inference and uncertainty.
 8. Run `node scripts/render-edition.mjs`, then `npm run build`.
 9. Validate the date, story count, links, Long View, depth controls, save controls, discussion handoffs and narration. If anything fails, leave the currently published edition untouched.
-10. Run `powershell -NoProfile -ExecutionPolicy Bypass -File scripts/ensure-server.ps1` and confirm `http://127.0.0.1:8789/` returns the new edition.
-11. The live reading surface is the stable private Tailscale URL `http://100.108.16.61:8789/`; the server reads the rendered files directly, so a successful render updates that URL immediately. When Sites source publishing is available, also use the Sites build and hosting skills to privately deploy the same validated build. Reuse the project ID in `.openai/hosting.json`; never create a second site. A Sites publishing failure must not invalidate a successful Tailscale edition.
+10. Commit the validated edition and archive, then push `main` to the GitHub remote. The Pages workflow publishes the static reading surface at `https://akeedo1.github.io/the-brief/`.
+11. Poll the Pages deployment until it succeeds, then confirm the live page contains the new edition date. Do not report success before the public URL is current.
+12. Optionally run `powershell -NoProfile -ExecutionPolicy Bypass -File scripts/ensure-server.ps1` to retain the private Tailscale fallback at `http://100.108.16.61:8789/`. The GitHub Pages edition is the primary surface and remains online when the PC is off.
 
-Do not redesign during a scheduled run. Do not post the edition into a conversation or Telegram. Report only the date, success or failure, and the private reading URL.
+Do not redesign during a scheduled run. Do not post the edition into a conversation or Telegram. Report only the date, success or failure, and `https://akeedo1.github.io/the-brief/`.

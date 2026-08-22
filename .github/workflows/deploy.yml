@@ -1,0 +1,42 @@
+name: Deploy The Brief to Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Prepare static edition
+        run: |
+          mkdir -p _site
+          cp -R public/edition/. _site/
+          cp public/og.png _site/og.png
+          cp public/favicon.svg _site/favicon.svg
+          sed -i 's|{{SITE_ORIGIN}}|https://akeedo1.github.io/the-brief|g' _site/index.html
+          touch _site/.nojekyll
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
