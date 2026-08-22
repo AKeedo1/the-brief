@@ -13,6 +13,7 @@ This file is the durable runbook for `Personal Morning News Brief`.
 7. Update `content/edition.json` without changing its schema. Use direct source URLs and distinguish facts, inference and uncertainty.
 8. Run `node scripts/render-edition.mjs`, then `npm run build`.
 9. Validate the date, story count, links, Long View, depth controls, save controls, discussion handoffs and narration. If anything fails, leave the currently published edition untouched.
-10. Use the Sites build and hosting skills to commit, push, package, save and privately deploy the validated site. Reuse the project ID in `.openai/hosting.json`; never create a second site.
+10. Run `powershell -NoProfile -ExecutionPolicy Bypass -File scripts/ensure-server.ps1` and confirm `http://127.0.0.1:8789/` returns the new edition.
+11. The live reading surface is the stable private Tailscale URL `http://100.108.16.61:8789/`; the server reads the rendered files directly, so a successful render updates that URL immediately. When Sites source publishing is available, also use the Sites build and hosting skills to privately deploy the same validated build. Reuse the project ID in `.openai/hosting.json`; never create a second site. A Sites publishing failure must not invalidate a successful Tailscale edition.
 
-Do not redesign during a scheduled run. Do not post the edition into a conversation or Telegram. Report only the date, success or failure, and the permanent Site URL.
+Do not redesign during a scheduled run. Do not post the edition into a conversation or Telegram. Report only the date, success or failure, and the private reading URL.
