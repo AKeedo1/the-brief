@@ -122,7 +122,10 @@ async function copyDiscussion() {
   document.querySelector("[data-handoff-note]").textContent = "Copied. Return to this Codex chat, paste and send.";
 }
 
-document.querySelectorAll("[data-discuss]").forEach((button) => button.addEventListener("click", () => openDiscuss(button.dataset.discuss)));
+document.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-discuss]");
+  if (button) openDiscuss(button.dataset.discuss);
+});
 document.querySelectorAll("[data-close-discuss]").forEach((button) => button.addEventListener("click", closeDiscuss));
 discussBackdrop.addEventListener("click", closeDiscuss);
 document.querySelectorAll("[data-question]").forEach((button) => button.addEventListener("click", () => {

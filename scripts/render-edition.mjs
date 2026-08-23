@@ -5,6 +5,7 @@ const root = resolve(import.meta.dirname, "..");
 const data = JSON.parse(await readFile(resolve(root, "content", "edition.json"), "utf8"));
 const htmlPath = resolve(root, "public", "edition", "index.html");
 let html = await readFile(htmlPath, "utf8");
+const dossierStoryId = html.match(/data-dossier-story-id="([^"]+)"/)?.[1] || data.stories.find((story) => story.lead)?.id;
 
 const esc = (value = "") => String(value)
   .replaceAll("&", "&amp;")
@@ -40,7 +41,7 @@ function storyArticle(story) {
             </div>
             ${background}
             ${evidence}
-            <footer class="story-footer"><div class="source-links">${sourceLinks(story.sources)}</div><div class="story-actions"><button type="button" data-save="${esc(story.id)}">＋ Save</button>${story.lead ? '<button type="button" class="primary-action" data-open-dossier>Open living dossier →</button>' : ""}</div></footer>
+            <footer class="story-footer"><div class="source-links">${sourceLinks(story.sources)}</div><div class="story-actions"><button type="button" data-save="${esc(story.id)}">＋ Save</button>${story.id === dossierStoryId ? '<button type="button" class="primary-action" data-open-dossier>Open living dossier →</button>' : ""}</div></footer>
           </article>`;
 }
 
