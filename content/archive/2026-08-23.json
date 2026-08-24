@@ -1,0 +1,128 @@
+{
+  "date": { "display": "Sunday, 23 August 2026", "edition": "003", "updated": "7:14 AM" },
+  "worldSentence": "North America entered a new tariff war while the Gulf, Ukraine and the AI buildout all became more expensive to keep stable.",
+  "standfirst": "U.S.–Canada trade talks failed and 50% tariffs took effect. Iran widened its warning to Gulf neighbors, France moved to accelerate Ukraine’s air defence, Germany put growth reform back at the center of government, and rising memory costs reached Nvidia server prices.",
+  "listenTime": "6 min",
+  "coverage": [
+    { "count": 1, "label": "Qatar & Gulf" },
+    { "count": 2, "label": "World" },
+    { "count": 1, "label": "Economy" },
+    { "count": 1, "label": "AI & tech" }
+  ],
+  "connected": {
+    "title": "Resilience is being repriced across alliances and infrastructure.",
+    "signals": [
+      { "label": "TRADE", "value": "50%", "text": "New U.S. tariffs on selected Canadian goods are now in force." },
+      { "label": "DEFENCE", "value": "Faster", "text": "France promised to accelerate equipment and interceptor support for Ukraine." },
+      { "label": "COMPUTE", "value": ">15%", "text": "Some Nvidia AI-server customers reportedly face higher system prices next year." }
+    ],
+    "note": "The common mechanism is the cost of lost slack. Canada’s privileged access to the U.S. market, Ukraine’s interceptor inventory and AI builders’ memory supply all looked dependable until political or physical constraints tightened. Once spare capacity disappears, bargaining power moves to whoever controls the bottleneck."
+  },
+  "stories": [
+    {
+      "id": "us-canada-trade-break", "number": "01", "category": "Geopolitics & trade", "sourceNote": "AP + Government of Canada · late Saturday",
+      "title": "The U.S.–Canada trade relationship crossed from negotiation into retaliation.",
+      "changed": "Last-ditch talks failed and the United States imposed 50% tariffs on about $20 billion of Canadian goods. Canada says it will answer dollar for dollar from 8 September across sectors including steel, dairy, appliances, farm equipment, pulp and paper, and electronics. Washington says no new talks are planned.",
+      "matters": "This is more than another tariff announcement. The two economies built production around predictable continental access; a sustained break raises costs inside integrated auto, construction, food and manufacturing supply chains and weakens confidence in the wider USMCA framework.",
+      "watch": "The detailed Canadian tariff list, exemptions for tightly integrated supply chains, business pressure for talks to restart, and whether Mexico treats the rupture as a warning ahead of the USMCA review.",
+      "personal": false, "lead": true,
+      "group": { "label": "The lead", "title": "The development resetting today’s conditions.", "note": "A deadline passed; economic separation is now policy, not leverage.", "break": false },
+      "background": { "title": "Why this break is structurally different", "text": "Tariffs between distant competitors can redirect trade. Canada and the United States instead share factories, energy systems, transport corridors and component chains. A border charge can therefore be paid several times as a product crosses during production, unless governments create exemptions.", "known": "The countries already had political friction and repeated tariff threats.", "new": "The threatened 50% duties are in force, Ottawa has set a retaliation date, and the negotiating channel has stopped." },
+      "evidence": { "left": { "label": "Confirmed", "text": "The U.S. tariffs took effect; Canada formally suspended talks and announced reciprocal measures beginning 8 September." }, "right": { "label": "Still unknown", "text": "How long the break lasts, which firms receive relief, and whether the confrontation permanently changes continental investment." } },
+      "sources": [
+        { "label": "AP", "url": "https://apnews.com/article/4d18583fe52134ca8550652ad9772d2c" },
+        { "label": "Canada PM", "url": "https://www.pm.gc.ca/en/news/readouts/2026/08/22/prime-minister-carney-chairs-first-ministers-meeting" },
+        { "label": "Reuters", "url": "https://www.investing.com/news/world-news/canada-to-impose-retaliatory-tariffs-across-a-raft-of-us-sectors-carney-says-4872377" }
+      ]
+    },
+    {
+      "id": "iran-widens-gulf-threat", "number": "02", "category": "Qatar & Gulf", "sourceNote": "AP · Saturday update",
+      "title": "Iran extended its warning from Hormuz to the Gulf’s alternative export routes.",
+      "changed": "Iran’s new top security adviser said Tehran would treat neighbors joining the U.S. economic campaign as enemies and could target oil routes that bypass the Strait of Hormuz. The warning arrived as France and Saudi Arabia prepared to discuss ports, pipelines and rail links designed to reduce dependence on the strait.",
+      "matters": "The region’s diversification infrastructure was meant to reduce one chokepoint. By explicitly threatening the alternatives, Tehran is signaling that pipelines and ports outside Hormuz are part of the same contest. Qatar has fewer physical bypass options because its LNG system remains tied to the strait.",
+      "watch": "Monday’s U.S. sanctions, the France–Saudi logistics task force, whether Gulf governments answer the threat publicly, and any change in insured commercial traffic.",
+      "personal": true, "lead": false,
+      "group": { "label": "Qatar & the region", "title": "The deterrence map widened beyond one waterway.", "note": "The threat now reaches infrastructure built to escape the threat.", "break": true },
+      "background": { "title": "The geography behind the warning", "text": "Saudi pipelines and Omani ports can move some energy exports without entering Hormuz, while proposed rail and logistics links could add redundancy. Those routes cannot quickly replace the strait’s full capacity, but they reduce Iran’s leverage at the margin—making them strategically important.", "known": "Iran has constrained Hormuz and the U.S. is preparing a broader sanctions package.", "new": "A senior Iranian official explicitly connected Gulf participation in sanctions to possible attacks on bypass routes." },
+      "evidence": { "left": { "label": "Established", "text": "The threat was made publicly; France and Saudi Arabia are scheduled to discuss alternative energy and logistics routes." }, "right": { "label": "Uncertain", "text": "Whether the warning is coercive rhetoric or an operational expansion of Iran’s target set." } },
+      "sources": [{ "label": "AP", "url": "https://apnews.com/article/middle-east-iran-israel-golan-467d9b2970e0b9855ac9a68ef90c8e75" }]
+    },
+    {
+      "id": "ukraine-defence-economic-escalation", "number": "03", "category": "Russia–Ukraine", "sourceNote": "Reuters · Saturday evening",
+      "title": "Ukraine gained a faster air-defence pledge as the economic war broadened.",
+      "changed": "France agreed to accelerate delivery of equipment and interceptor missiles, seek Patriot rounds from allies and license missile production after Russia’s deadly strikes exposed Ukraine’s shortage. Hours later, Vladimir Putin threatened retaliation against Ukraine’s most sensitive economic sectors for Kyiv’s attacks on Russian refineries and other infrastructure.",
+      "matters": "The conflict is moving on two connected tracks: scarce ballistic-missile defence determines civilian exposure, while reciprocal attacks on refineries, ports and grain systems widen the economic cost beyond the front line.",
+      "watch": "Actual delivery dates and quantities, whether the new SAMP/T-NG system arrives before spring, Monday’s Coalition of the Willing meeting, and the next Russian target set.",
+      "personal": false, "lead": false,
+      "group": { "label": "The world beyond the lead", "title": "Military scarcity is spilling into economic infrastructure.", "note": "A promised response must still become usable inventory.", "break": true },
+      "background": { "title": "What materially changed since yesterday", "text": "The shortage itself was already clear. France’s pledge creates a possible route to more interceptors and licensed production, while Putin’s statement makes the retaliatory logic around economic targets explicit. Neither development yet changes Ukraine’s inventory today.", "known": "Patriot is Ukraine’s only fielded system proven against the high-speed ballistic threat it faces.", "new": "France says deliveries will accelerate and that it will help source Patriot stocks held by other allies." },
+      "evidence": { "left": { "label": "Confirmed", "text": "Macron and Zelenskiy agreed on faster support; Putin publicly threatened Ukraine’s economic sectors." }, "right": { "label": "Not yet demonstrated", "text": "The delivery schedule, the number of interceptors, and whether licensed production can relieve the near-term shortage." } },
+      "sources": [
+        { "label": "Reuters · air defence", "url": "https://currently.att.yahoo.com/att/ukraines-zelenskiy-says-macron-agreed-133945381.html" },
+        { "label": "Reuters · economic targets", "url": "https://www.investing.com/news/commodities-news/putin-says-ukraine-opened-pandoras-box-with-strikes-on-economic-targets-4872370" }
+      ]
+    },
+    {
+      "id": "germany-growth-reform-push", "number": "04", "category": "Global economy", "sourceNote": "Reuters · this morning",
+      "title": "Germany’s government is treating implementation—not another promise—as its growth problem.",
+      "changed": "Chancellor Friedrich Merz said next week’s cabinet retreat will focus on rapidly implementing previously agreed tax, pension, deregulation and digitalisation measures, with relief for tradespeople and small and medium-sized companies as the priority.",
+      "matters": "Germany is Europe’s industrial anchor, so prolonged weak investment and administrative friction weigh beyond its borders. The important test is whether a broad reform list becomes operating change rather than another diagnosis of stagnation.",
+      "watch": "The retreat’s measurable deadlines, which tax and pension measures move first, and whether business surveys respond before capital spending does.",
+      "personal": false, "lead": false,
+      "group": { "label": "Economy & markets", "title": "The policy question is shifting from announcement to delivery.", "note": "Germany has named the constraint; execution is the evidence.", "break": true },
+      "background": { "title": "Why implementation is the story", "text": "Germany’s growth problem is not reducible to one cyclical downturn. Energy costs, slow permitting, demographic pressure and investment uncertainty interact. A cabinet retreat matters only if it assigns dates, owners and trade-offs to reforms already approved in principle." },
+      "evidence": { "left": { "label": "Established", "text": "Merz set growth and employment as the retreat’s central priority and identified the reform areas." }, "right": { "label": "Inference", "text": "Faster implementation could improve confidence, but no new timetable or economic effect has yet been demonstrated." } },
+      "sources": [{ "label": "Reuters", "url": "https://ae.marketscreener.com/news/germany-s-merz-to-press-cabinet-for-faster-pro-growth-reforms-ce7858dad188f120" }]
+    },
+    {
+      "id": "nvidia-server-price-hike", "number": "05", "category": "AI & semiconductors", "sourceNote": "Bloomberg via Reuters · overnight",
+      "title": "Memory inflation is reportedly adding more than 15% to some Nvidia AI servers.",
+      "changed": "Some large Nvidia customers have reportedly been told that systems using Vera Rubin and Grace Blackwell chips will cost more than 15% more in many configurations when shipped early next year, with soaring memory-chip costs cited as the driver.",
+      "matters": "The AI buildout’s economics are now being shaped by the whole server bill, not only accelerator availability. Higher system prices raise financing needs and make power efficiency, utilization and contract pass-through terms more important to returns.",
+      "watch": "Nvidia’s 26 August results, confirmation from Nvidia or server vendors, memory suppliers’ pricing, and whether cloud providers pass the increase through to customers.",
+      "personal": false, "lead": false,
+      "group": { "label": "Technology & operating signals", "title": "The bottleneck moved from availability into the invoice.", "note": "Pricing power is evidence of scarcity, not proof of customer returns.", "break": true },
+      "background": { "title": "The system cost matters more than the chip headline", "text": "Advanced AI servers combine accelerators with large quantities of high-bandwidth and conventional memory, networking, cooling and power equipment. A component shortage can therefore raise the delivered price even if Nvidia’s own accelerator pricing is unchanged." },
+      "evidence": { "left": { "label": "Reported", "text": "Bloomberg cited people familiar with customer communications and said increases vary by chip generation and memory configuration." }, "right": { "label": "Not confirmed", "text": "Reuters could not independently verify the report, and Nvidia had not publicly confirmed a general price schedule." } },
+      "sources": [{ "label": "Reuters", "url": "https://www.investing.com/news/stock-market-news/nvidia-customers-notified-about-airelated-price-hikes-above-15-bloomberg-news-reports-4872385" }]
+    }
+  ],
+  "radar": [
+    { "label": "Aviation", "title": "KLM’s published Gulf suspension window reaches its stated end today.", "text": "Actual restoration—not the timetable—is the useful test of network confidence around the region.", "url": "https://www.investing.com/news/stock-market-news/factboxairlines-resume-some-middle-east-flights-but-disruption-continues-4781823" },
+    { "label": "Doha today", "title": "Qatar University begins the Fall 2026 semester.", "text": "A local movement and traffic note, not a consequential national development.", "url": "https://www.qatar-tribune.com/article/220963/latest-news/qatar-university-sets-feb-25-deadline-for-graduate-applications-for-fall-2026/amp" }
+  ],
+  "attention": { "title": "AP: the U.S.–Canada relationship after the break", "text": "The best single read on why the failed negotiation reaches beyond this tariff list into the structure of a once-durable alliance.", "url": "https://apnews.com/article/4d18583fe52134ca8550652ad9772d2c" },
+  "ignore": { "title": "Weekend market targets built from one tariff headline", "text": "The policy change is real; precise Monday index predictions made before supply-chain exemptions and retaliation details are known are not." },
+  "history": {
+    "id": "history-green-revolution-system", "number": "03", "readTime": "7 min read", "era": "MEXICO TO SOUTH ASIA\n1944–1970",
+    "title": "The Green Revolution was not a miracle seed. It was a system.",
+    "deck": "Semi-dwarf wheat changed the food balance of entire countries, but only because scientists, governments, irrigation networks, credit systems and farmers were made to move together. The seed was the catalyst; coordination produced the harvest.",
+    "thesis": "A breakthrough scales when the institutions around it change at the same speed as the technology.",
+    "sections": [
+      { "title": "Mexico becomes the laboratory", "text": "In the 1940s, Mexico and the Rockefeller Foundation began a cooperative programme to raise farm productivity. Norman Borlaug and Mexican colleagues worked on wheat that could resist rust disease and perform across different environments. They used shuttle breeding—growing successive generations in contrasting Mexican locations—to shorten breeding cycles and select plants less dependent on a particular day length. The work was patient, empirical and distributed across teams; the later focus on one famous scientist can obscure the institutional network that made it possible." },
+      { "title": "A shorter stalk changes the equation", "text": "Traditional tall wheat often collapsed, or lodged, when heavy fertilizer made it grow too lush. Semi-dwarf genes associated with Japan’s Norin 10 wheat helped breeders produce shorter, stronger plants that directed more energy into grain and could tolerate intensive fertilizer. Disease resistance and broad adaptation mattered as much as height. The new varieties did not create yield from nothing: they made it possible to use water and nutrients much more productively without the plant falling over before harvest." },
+      { "title": "The seed crosses borders—but the package must travel too", "text": "Mexico became self-sufficient in wheat in the 1950s. In the 1960s, India and Pakistan tested Mexican semi-dwarf varieties as their populations grew and food-import dependence created strategic anxiety. Results were compelling, and large seed shipments followed. Yet Borlaug’s own 1970 Nobel lecture rejected the idea of a miracle variety. High yields required adapted local research, irrigation, fertilizer, pest control, machinery and knowledge. A seed placed inside the old production system would not deliver the same outcome." },
+      { "title": "Government builds the missing market", "text": "Adoption accelerated because public policy connected the pieces. Governments multiplied and distributed seed, expanded irrigation, made fertilizer and credit available, supported procurement prices and invested in agricultural research and extension. Those choices reduced the risk farmers faced when switching varieties and buying more inputs. The Green Revolution was therefore both biological and administrative: laboratories created potential, while prices, logistics and public institutions made it rational for millions of farmers to act on it." },
+      { "title": "The achievement was real—and uneven", "text": "Wheat production rose rapidly in India and Pakistan, and South Asia moved toward national grain self-sufficiency. More food became available without a matching expansion of cultivated land. But the early gains concentrated in irrigated regions and among farmers able to obtain land, water, credit and inputs. Wheat and rice advanced much more than pulses and other crops. The programme improved calorie security without automatically solving poverty, distribution or nutrition; national surplus and household hunger could coexist." },
+      { "title": "Success creates the next constraint", "text": "Intensive irrigation and poorly balanced fertilizer later contributed to falling water tables, soil stress and pollution in some regions. Crop concentration narrowed dietary and ecological diversity. Those costs do not erase the production breakthrough, just as the breakthrough does not erase the costs. The durable lesson is about complements: technology changes the limiting factor. Once seed genetics improved, water, institutions and market access became decisive; after yields rose, sustainability, nutrition and equitable access became the next system problems." }
+    ],
+    "timeline": [
+      { "date": "1944", "text": "The cooperative Mexican agricultural programme begins." },
+      { "date": "1950s", "text": "Semi-dwarf genetics and shuttle breeding reshape Mexican wheat." },
+      { "date": "1963–65", "text": "Mexican wheat is tested and then imported at scale in South Asia." },
+      { "date": "1967–70", "text": "High-yield varieties spread rapidly across irrigated wheat land." },
+      { "date": "1970", "text": "Borlaug’s Nobel lecture emphasizes the full production system, not a miracle seed." }
+    ],
+    "sources": [
+      { "label": "CIMMYT history", "url": "https://www.cimmyt.org/about/our-history/" },
+      { "label": "CIMMYT · Norin 10", "url": "https://www.cimmyt.org/news/from-east-asia-to-south-asia-via-mexico-how-one-gene-changed-the-course-of-history/" },
+      { "label": "Nobel lecture", "url": "https://www.nobelprize.org/prizes/peace/1970/borlaug/lecture/" },
+      { "label": "FAO assessment", "url": "https://www.fao.org/4/i0691e/i0691e00.pdf" }
+    ]
+  },
+  "threads": [
+    { "status": "Updated today · critical", "title": "The North American trade rupture", "text": "50% U.S. tariffs live · Canadian retaliation due 8 September", "progress": 71 },
+    { "status": "Updated today · critical", "title": "Iran, Hormuz and Gulf stability", "text": "Bypass routes threatened · Monday sanctions next", "progress": 86 },
+    { "status": "Updated today · watching", "title": "Ukraine’s air-defence constraint", "text": "French acceleration pledged · quantities and dates unresolved", "progress": 68 }
+  ]
+}

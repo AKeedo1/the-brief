@@ -1,128 +1,163 @@
 {
-  "date": { "display": "Sunday, 23 August 2026", "edition": "003", "updated": "7:14 AM" },
-  "worldSentence": "North America entered a new tariff war while the Gulf, Ukraine and the AI buildout all became more expensive to keep stable.",
-  "standfirst": "U.S.–Canada trade talks failed and 50% tariffs took effect. Iran widened its warning to Gulf neighbors, France moved to accelerate Ukraine’s air defence, Germany put growth reform back at the center of government, and rising memory costs reached Nvidia server prices.",
-  "listenTime": "6 min",
+  "date": { "display": "Monday, 24 August 2026", "edition": "004", "updated": "7:16 AM" },
+  "worldSentence": "Iran is turning today’s sanctions announcement into a test of who controls Gulf commerce, while public-health, security and fiscal systems elsewhere are being tested by shortages of their own.",
+  "standfirst": "Tehran threatened countries that support new U.S. sanctions and named vessels for possible restrictions in Hormuz. A Qatar-backed Congo process reaches its first field-verification test today, Ebola’s fastest recorded outbreak has received a vaccine that is not approved for its strain, and Ukraine disclosed a steep fall in Patriot deliveries.",
+  "listenTime": "8 min",
   "coverage": [
-    { "count": 1, "label": "Qatar & Gulf" },
-    { "count": 2, "label": "World" },
+    { "count": 2, "label": "Qatar & Gulf" },
+    { "count": 4, "label": "World" },
     { "count": 1, "label": "Economy" },
-    { "count": 1, "label": "AI & tech" }
+    { "count": 1, "label": "Tech & science" }
   ],
   "connected": {
-    "title": "Resilience is being repriced across alliances and infrastructure.",
+    "title": "The decisive variable is whether institutions can convert declarations into working capacity.",
     "signals": [
-      { "label": "TRADE", "value": "50%", "text": "New U.S. tariffs on selected Canadian goods are now in force." },
-      { "label": "DEFENCE", "value": "Faster", "text": "France promised to accelerate equipment and interceptor support for Ukraine." },
-      { "label": "COMPUTE", "value": ">15%", "text": "Some Nvidia AI-server customers reportedly face higher system prices next year." }
+      { "label": "HORMUZ", "value": "Dozens", "text": "Iran has listed vessels it says may face fines or seizure on future transits." },
+      { "label": "EBOLA", "value": "16,250", "text": "Ervebo doses reached Congo, but the Bundibugyo strain still has no approved vaccine." },
+      { "label": "AIR DEFENCE", "value": "264", "text": "Ukraine expects about 264 Patriot interceptors this year, versus 675 in 2023." }
     ],
-    "note": "The common mechanism is the cost of lost slack. Canada’s privileged access to the U.S. market, Ukraine’s interceptor inventory and AI builders’ memory supply all looked dependable until political or physical constraints tightened. Once spare capacity disappears, bargaining power moves to whoever controls the bottleneck."
+    "note": "Sanctions, peace frameworks, vaccines and weapons deliveries are all promises until an operating system enforces them. Today’s stories turn on the same gap: a policy can be announced quickly, while ships, monitors, contact tracers and interceptors remain scarce and physical."
   },
   "stories": [
     {
-      "id": "us-canada-trade-break", "number": "01", "category": "Geopolitics & trade", "sourceNote": "AP + Government of Canada · late Saturday",
-      "title": "The U.S.–Canada trade relationship crossed from negotiation into retaliation.",
-      "changed": "Last-ditch talks failed and the United States imposed 50% tariffs on about $20 billion of Canadian goods. Canada says it will answer dollar for dollar from 8 September across sectors including steel, dairy, appliances, farm equipment, pulp and paper, and electronics. Washington says no new talks are planned.",
-      "matters": "This is more than another tariff announcement. The two economies built production around predictable continental access; a sustained break raises costs inside integrated auto, construction, food and manufacturing supply chains and weakens confidence in the wider USMCA framework.",
-      "watch": "The detailed Canadian tariff list, exemptions for tightly integrated supply chains, business pressure for talks to restart, and whether Mexico treats the rupture as a warning ahead of the USMCA review.",
-      "personal": false, "lead": true,
-      "group": { "label": "The lead", "title": "The development resetting today’s conditions.", "note": "A deadline passed; economic separation is now policy, not leverage.", "break": false },
-      "background": { "title": "Why this break is structurally different", "text": "Tariffs between distant competitors can redirect trade. Canada and the United States instead share factories, energy systems, transport corridors and component chains. A border charge can therefore be paid several times as a product crosses during production, unless governments create exemptions.", "known": "The countries already had political friction and repeated tariff threats.", "new": "The threatened 50% duties are in force, Ottawa has set a retaliation date, and the negotiating channel has stopped." },
-      "evidence": { "left": { "label": "Confirmed", "text": "The U.S. tariffs took effect; Canada formally suspended talks and announced reciprocal measures beginning 8 September." }, "right": { "label": "Still unknown", "text": "How long the break lasts, which firms receive relief, and whether the confrontation permanently changes continental investment." } },
-      "sources": [
-        { "label": "AP", "url": "https://apnews.com/article/4d18583fe52134ca8550652ad9772d2c" },
-        { "label": "Canada PM", "url": "https://www.pm.gc.ca/en/news/readouts/2026/08/22/prime-minister-carney-chairs-first-ministers-meeting" },
-        { "label": "Reuters", "url": "https://www.investing.com/news/world-news/canada-to-impose-retaliatory-tariffs-across-a-raft-of-us-sectors-carney-says-4872377" }
-      ]
+      "id": "iran-sanctions-shipping-list", "number": "01", "category": "Qatar & Gulf", "sourceNote": "AP · Sunday evening",
+      "title": "Iran turned the next sanctions package into a direct warning to states and ships.",
+      "changed": "The new head of Iran’s top security body said any country supporting fresh U.S. economic measures would be treated as committing an act of war. Separately, Iran’s recently created Persian Gulf Strait Authority published a list of dozens of vessels it says violated transit arrangements and could face fines, restrictions or seizure.",
+      "matters": "The pressure is moving from a general dispute with Washington toward third-country compliance and named commercial traffic. For Gulf economies, the operational risk is no longer only an attack in the strait; it is an emerging contest over who can authorize, price and punish passage through it.",
+      "watch": "The targets in the U.S. sanctions announcement due at 6 p.m. GMT, whether China or Gulf states are covered, whether any listed vessel is actually detained, and Pakistan’s mediation visit to Tehran today.",
+      "personal": true, "lead": true,
+      "group": { "label": "The lead", "title": "Economic pressure is becoming a maritime enforcement test.", "note": "The threat is now attached to countries, vessels and a decision point today.", "break": false },
+      "background": { "title": "Why the vessel list changes the risk", "text": "For months, the conflict has reduced traffic through Hormuz and raised insurance and routing costs. A published list creates a more specific compliance problem: shipowners, charterers, cargo owners and insurers must decide whether Iran has the practical ability to enforce a system that other governments do not recognize. The authority’s claim matters only to the extent that it can affect passage.", "known": "No attack in the strait was confirmed in the preceding 48 hours, but traffic remained reduced.", "new": "Iran attached prospective fines and seizures to named vessels while widening its sanctions warning to other states." },
+      "evidence": { "left": { "label": "Confirmed", "text": "The warning and vessel list were issued publicly; the U.S. sanctions briefing is scheduled for today." }, "right": { "label": "Still unknown", "text": "The sanctions targets, whether Tehran will enforce the list, and how other governments will respond." } },
+      "sources": [{ "label": "AP", "url": "https://apnews.com/article/middle-east-iran-israel-west-bank-august-23-2026-a3fff9eba47a5510060e8014b82d794f" }]
     },
     {
-      "id": "iran-widens-gulf-threat", "number": "02", "category": "Qatar & Gulf", "sourceNote": "AP · Saturday update",
-      "title": "Iran extended its warning from Hormuz to the Gulf’s alternative export routes.",
-      "changed": "Iran’s new top security adviser said Tehran would treat neighbors joining the U.S. economic campaign as enemies and could target oil routes that bypass the Strait of Hormuz. The warning arrived as France and Saudi Arabia prepared to discuss ports, pipelines and rail links designed to reduce dependence on the strait.",
-      "matters": "The region’s diversification infrastructure was meant to reduce one chokepoint. By explicitly threatening the alternatives, Tehran is signaling that pipelines and ports outside Hormuz are part of the same contest. Qatar has fewer physical bypass options because its LNG system remains tied to the strait.",
-      "watch": "Monday’s U.S. sanctions, the France–Saudi logistics task force, whether Gulf governments answer the threat publicly, and any change in insured commercial traffic.",
+      "id": "doha-congo-verification-mission", "number": "02", "category": "Qatar diplomacy", "sourceNote": "Qatar MOFA · weekend statement",
+      "title": "The Doha process for eastern Congo reaches its first field-verification test today.",
+      "changed": "The Congolese government and AFC/M23 agreed on sequenced steps and timelines for further negotiations, established a mechanism to review implementation problems, and prepared the Expanded Joint Verification Mechanism Plus for its first ceasefire-verification mission in Minembwe on 24 August.",
+      "matters": "Qatar’s mediation now has a field mechanism, not only a signed framework. A shared way to investigate alleged ceasefire violations can reduce argument over basic facts, but a roadmap still leaves the hardest political and security protocols unresolved.",
+      "watch": "Whether today’s Minembwe mission takes place, whether MONUSCO-supported monitors can reach contested areas safely, and whether the parties adopt a standardized public record of violations.",
       "personal": true, "lead": false,
-      "group": { "label": "Qatar & the region", "title": "The deterrence map widened beyond one waterway.", "note": "The threat now reaches infrastructure built to escape the threat.", "break": true },
-      "background": { "title": "The geography behind the warning", "text": "Saudi pipelines and Omani ports can move some energy exports without entering Hormuz, while proposed rail and logistics links could add redundancy. Those routes cannot quickly replace the strait’s full capacity, but they reduce Iran’s leverage at the margin—making them strategically important.", "known": "Iran has constrained Hormuz and the U.S. is preparing a broader sanctions package.", "new": "A senior Iranian official explicitly connected Gulf participation in sanctions to possible attacks on bypass routes." },
-      "evidence": { "left": { "label": "Established", "text": "The threat was made publicly; France and Saudi Arabia are scheduled to discuss alternative energy and logistics routes." }, "right": { "label": "Uncertain", "text": "Whether the warning is coercive rhetoric or an operational expansion of Iran’s target set." } },
-      "sources": [{ "label": "AP", "url": "https://apnews.com/article/middle-east-iran-israel-golan-467d9b2970e0b9855ac9a68ef90c8e75" }]
+      "group": { "label": "Qatar & the region", "title": "Mediation is moving from documents toward verification.", "note": "The field mission is the first evidence that the mechanism can operate.", "break": true },
+      "background": { "title": "The narrow but useful advance", "text": "The Doha Framework signed in November 2025 created the structure for a comprehensive agreement, but implementation depends on resolving disputes while fighting and mistrust continue. The latest talks did not announce a final settlement. They created a sequence, an implementation-review mechanism and a first verification task—the mundane machinery without which a ceasefire cannot become observable.", "known": "A secretariat has been established and a reconnaissance mission took place on 20 August.", "new": "The parties agreed on a negotiation roadmap and scheduled the first field-verification mission for today." },
+      "evidence": { "left": { "label": "Established", "text": "The joint statement names the mechanisms, reconnaissance work and 24 August mission." }, "right": { "label": "Not yet established", "text": "Whether the mission will produce accepted findings or change conduct by armed forces." } },
+      "sources": [{ "label": "Qatar Ministry of Foreign Affairs", "url": "https://mofa.gov.qa/en/latest-articles/statements/joint-statement-between-the-representatives-of-the-government-of-the-democratic-republic-of-the-congo-and-the-representatives-of-the-alliance-fleuve-congo-march-23-movement-%28afc-m23%29-on-the-doha-process" }]
     },
     {
-      "id": "ukraine-defence-economic-escalation", "number": "03", "category": "Russia–Ukraine", "sourceNote": "Reuters · Saturday evening",
-      "title": "Ukraine gained a faster air-defence pledge as the economic war broadened.",
-      "changed": "France agreed to accelerate delivery of equipment and interceptor missiles, seek Patriot rounds from allies and license missile production after Russia’s deadly strikes exposed Ukraine’s shortage. Hours later, Vladimir Putin threatened retaliation against Ukraine’s most sensitive economic sectors for Kyiv’s attacks on Russian refineries and other infrastructure.",
-      "matters": "The conflict is moving on two connected tracks: scarce ballistic-missile defence determines civilian exposure, while reciprocal attacks on refineries, ports and grain systems widen the economic cost beyond the front line.",
-      "watch": "Actual delivery dates and quantities, whether the new SAMP/T-NG system arrives before spring, Monday’s Coalition of the Willing meeting, and the next Russian target set.",
+      "id": "congo-ebola-vaccine-gap", "number": "03", "category": "Global health", "sourceNote": "AP + WHO · Sunday update",
+      "title": "Congo received Ebola vaccine stock, but not a proven answer to this outbreak’s strain.",
+      "changed": "Congo received 16,250 doses of Ervebo, the first part of 70,000 doses allocated by WHO and partners. The outbreak is caused by Bundibugyo virus, for which there is no approved vaccine or specific treatment; WHO says Ervebo, licensed for another Ebola species, may provide some protection.",
+      "matters": "The fastest recorded Ebola outbreak has reached 5,375 confirmed cases and 2,557 deaths across six provinces before transmission has peaked. The shipment expands the response, but it should not be mistaken for a demonstrated shield against the virus driving this epidemic.",
+      "watch": "How the doses are deployed, safety and effectiveness data, the arrival of the remaining allocation, whether contact tracing begins to reconstruct more transmission chains, and protection for health workers in conflict zones.",
       "personal": false, "lead": false,
-      "group": { "label": "The world beyond the lead", "title": "Military scarcity is spilling into economic infrastructure.", "note": "A promised response must still become usable inventory.", "break": true },
-      "background": { "title": "What materially changed since yesterday", "text": "The shortage itself was already clear. France’s pledge creates a possible route to more interceptors and licensed production, while Putin’s statement makes the retaliatory logic around economic targets explicit. Neither development yet changes Ukraine’s inventory today.", "known": "Patriot is Ukraine’s only fielded system proven against the high-speed ballistic threat it faces.", "new": "France says deliveries will accelerate and that it will help source Patriot stocks held by other allies." },
-      "evidence": { "left": { "label": "Confirmed", "text": "Macron and Zelenskiy agreed on faster support; Putin publicly threatened Ukraine’s economic sectors." }, "right": { "label": "Not yet demonstrated", "text": "The delivery schedule, the number of interceptors, and whether licensed production can relieve the near-term shortage." } },
+      "group": { "label": "The world beyond the lead", "title": "A health emergency is outrunning the tools available for it.", "note": "Delivery is progress; biological fit remains the uncertainty.", "break": true },
+      "background": { "title": "Why the vaccine headline needs qualification", "text": "Ervebo has been highly useful against Zaire ebolavirus outbreaks. This epidemic is caused by the rarer Bundibugyo species, so officials are acting under severe uncertainty: a related vaccine may help, while trials and other candidate tools develop. Armed conflict, attacks on health facilities, population movement and weak infrastructure make surveillance and ring vaccination harder at the same time." },
+      "evidence": { "left": { "label": "Confirmed", "text": "The doses arrived and the case and death totals were reported by Congolese authorities." }, "right": { "label": "Unproven", "text": "The degree of protection Ervebo provides against Bundibugyo virus and when transmission will peak." } },
       "sources": [
-        { "label": "Reuters · air defence", "url": "https://currently.att.yahoo.com/att/ukraines-zelenskiy-says-macron-agreed-133945381.html" },
-        { "label": "Reuters · economic targets", "url": "https://www.investing.com/news/commodities-news/putin-says-ukraine-opened-pandoras-box-with-strikes-on-economic-targets-4872370" }
+        { "label": "AP", "url": "https://apnews.com/article/congo-ebola-vaccine-1ce25c0697bfae7656eae3e5fe6aa6ae" },
+        { "label": "WHO outbreak portal", "url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026" }
       ]
     },
     {
-      "id": "germany-growth-reform-push", "number": "04", "category": "Global economy", "sourceNote": "Reuters · this morning",
-      "title": "Germany’s government is treating implementation—not another promise—as its growth problem.",
-      "changed": "Chancellor Friedrich Merz said next week’s cabinet retreat will focus on rapidly implementing previously agreed tax, pension, deregulation and digitalisation measures, with relief for tradespeople and small and medium-sized companies as the priority.",
-      "matters": "Germany is Europe’s industrial anchor, so prolonged weak investment and administrative friction weigh beyond its borders. The important test is whether a broad reform list becomes operating change rather than another diagnosis of stagnation.",
-      "watch": "The retreat’s measurable deadlines, which tax and pension measures move first, and whether business surveys respond before capital spending does.",
+      "id": "ukraine-patriot-governance-gap", "number": "04", "category": "Russia–Ukraine", "sourceNote": "AP · Sunday briefing",
+      "title": "Ukraine disclosed both an air-defence deficit and a rupture at the top of its war administration.",
+      "changed": "Volodymyr Zelenskyy publicly explained his dismissal of Defence Minister Mykhailo Fedorov, citing disputes over spending, inaccurate information, Fedorov’s role in protests and calls for an election. He also said Ukraine expects about 264 Patriot interceptors this year, down from 675 in 2023, while seeking 300 more for winter.",
+      "matters": "The interceptor figures quantify a shortage that yesterday’s French pledge did not solve. The political dispute also shows how budget pressure, battlefield command and wartime legitimacy are converging inside Kyiv rather than remaining separate problems.",
+      "watch": "Whether allies convert pledges into the additional 300 missiles Zelenskyy seeks, the $27 billion defence-budget gap he described, Fedorov’s response, and independent confirmation of Ukraine’s claimed gains in Dnipropetrovsk.",
       "personal": false, "lead": false,
-      "group": { "label": "Economy & markets", "title": "The policy question is shifting from announcement to delivery.", "note": "Germany has named the constraint; execution is the evidence.", "break": true },
-      "background": { "title": "Why implementation is the story", "text": "Germany’s growth problem is not reducible to one cyclical downturn. Energy costs, slow permitting, demographic pressure and investment uncertainty interact. A cabinet retreat matters only if it assigns dates, owners and trade-offs to reforms already approved in principle." },
-      "evidence": { "left": { "label": "Established", "text": "Merz set growth and employment as the retreat’s central priority and identified the reform areas." }, "right": { "label": "Inference", "text": "Faster implementation could improve confidence, but no new timetable or economic effect has yet been demonstrated." } },
-      "sources": [{ "label": "Reuters", "url": "https://ae.marketscreener.com/news/germany-s-merz-to-press-cabinet-for-faster-pro-growth-reforms-ce7858dad188f120" }]
+      "group": { "label": "Security & state capacity", "title": "Ukraine’s constraint is inventory and institutional cohesion.", "note": "The numbers reveal a steeper decline than the pledge headlines suggested.", "break": true },
+      "background": { "title": "The difference between an air-defence system and an air-defence supply", "text": "Patriot batteries matter only when trained crews, launchers, radar coverage and a continuing flow of interceptors work together. Ukraine says ballistic attacks are rising while annual deliveries have fallen sharply. At the same time, bringing future defence money forward created a budget hole, making allocation decisions politically explosive inside the government." },
+      "evidence": { "left": { "label": "Zelenskyy’s account", "text": "The dismissal rationale, budget gap, delivery figures and territorial claims came from the president." }, "right": { "label": "Needs confirmation", "text": "The battlefield totals, Fedorov’s version of the dispute and the quantity allies will actually deliver." } },
+      "sources": [{ "label": "AP", "url": "https://apnews.com/article/russia-ukraine-war-zelenskyy-fedorov-15d84a5a1f52e376ffdf98082cdf9712" }]
     },
     {
-      "id": "nvidia-server-price-hike", "number": "05", "category": "AI & semiconductors", "sourceNote": "Bloomberg via Reuters · overnight",
-      "title": "Memory inflation is reportedly adding more than 15% to some Nvidia AI servers.",
-      "changed": "Some large Nvidia customers have reportedly been told that systems using Vera Rubin and Grace Blackwell chips will cost more than 15% more in many configurations when shipped early next year, with soaring memory-chip costs cited as the driver.",
-      "matters": "The AI buildout’s economics are now being shaped by the whole server bill, not only accelerator availability. Higher system prices raise financing needs and make power efficiency, utilization and contract pass-through terms more important to returns.",
-      "watch": "Nvidia’s 26 August results, confirmation from Nvidia or server vendors, memory suppliers’ pricing, and whether cloud providers pass the increase through to customers.",
+      "id": "thailand-south-coordinated-attacks", "number": "05", "category": "Asia security", "sourceNote": "AP · Sunday",
+      "title": "Fifty-one coordinated incidents tested Thailand’s containment of its southern insurgency.",
+      "changed": "Small bombs, arson and property attacks struck Narathiwat, Pattani and Yala on Saturday night. Three civilians were wounded, a damaged rail line forced local and long-distance suspensions, and Prime Minister Anutin Charnvirakul convened senior security officials on Sunday.",
+      "matters": "The low casualty count should not obscure the coordination. Dispersed attacks across three provinces can demonstrate reach, disrupt transport and force the government to divide attention while northern Thailand is also managing severe flooding.",
+      "watch": "Responsibility claims, arrests, restoration of rail service, any sustained curfew or security escalation, and whether violence moves from symbolic property targets toward civilians or security forces.",
       "personal": false, "lead": false,
-      "group": { "label": "Technology & operating signals", "title": "The bottleneck moved from availability into the invoice.", "note": "Pricing power is evidence of scarcity, not proof of customer returns.", "break": true },
-      "background": { "title": "The system cost matters more than the chip headline", "text": "Advanced AI servers combine accelerators with large quantities of high-bandwidth and conventional memory, networking, cooling and power equipment. A component shortage can therefore raise the delivered price even if Nvidia’s own accelerator pricing is unchanged." },
-      "evidence": { "left": { "label": "Reported", "text": "Bloomberg cited people familiar with customer communications and said increases vary by chip generation and memory configuration." }, "right": { "label": "Not confirmed", "text": "Reuters could not independently verify the report, and Nvidia had not publicly confirmed a general price schedule." } },
-      "sources": [{ "label": "Reuters", "url": "https://www.investing.com/news/stock-market-news/nvidia-customers-notified-about-airelated-price-hikes-above-15-bloomberg-news-reports-4872385" }]
+      "group": { "label": "Asia", "title": "A contained conflict displayed wider operational reach.", "note": "Coordination matters more than the size of any single blast.", "break": true },
+      "background": { "title": "Why the pattern matters", "text": "Thailand’s Muslim-majority deep south has experienced a long-running separatist insurgency. Saturday’s attackers largely avoided direct engagement with police or military forces, using simultaneous disruption instead. That can be a signal of capability without a decision to escalate casualties, but the intent and command structure remain unknown." },
+      "evidence": { "left": { "label": "Confirmed", "text": "Authorities recorded 51 incidents, three civilian injuries and rail damage across the three provinces." }, "right": { "label": "Unknown", "text": "Who coordinated the attacks, their strategic aim and whether another wave is planned." } },
+      "sources": [{ "label": "AP", "url": "https://apnews.com/article/thailand-south-muslim-insurgency-narathiwat-pattani-yala-863364191d84b10bd82ea9b8e47e62ca" }]
+    },
+    {
+      "id": "canada-resistance-escalation", "number": "06", "category": "Geopolitics & trade", "sourceNote": "AP · Sunday analysis",
+      "title": "The Canada tariff fight hardened from a negotiation failure into a sovereignty test.",
+      "changed": "Donald Trump renewed his suggestion that Canada should be a U.S. state, while U.S. Trade Representative Jamieson Greer said Washington was preparing additional measures in response to Canada’s planned retaliation. Mark Carney said resisting would raise costs and reduce choice for Canadians but framed integration itself as a source of coercive leverage.",
+      "matters": "Yesterday established the tariff break. Sunday clarified the political commitment behind it: Ottawa appears prepared to absorb near-term pain rather than accept deeper subordination, while Washington is signaling that retaliation may trigger another round rather than reopen talks.",
+      "watch": "The additional U.S. measures, Canada’s detailed 8 September tariff list, carve-outs for tightly integrated industries, and whether business pressure reopens a negotiating channel.",
+      "personal": false, "lead": false,
+      "group": { "label": "Trade after the break", "title": "The bargaining dispute is now about political endurance.", "note": "The next variable is not one tariff rate, but which government can sustain escalation.", "break": true },
+      "background": { "title": "Canada’s asymmetry", "text": "Nearly three-quarters of Canadian exports go to the United States, whose economy is about ten times larger. Diversification can reduce future exposure but cannot replace decades of integrated customers and supply chains quickly. That makes Canada a hard test of whether a middle power can resist economic coercion without a coalition acting alongside it.", "known": "The 50% U.S. tariffs are in force and Canada plans dollar-for-dollar retaliation.", "new": "Washington threatened further measures and both leaders placed the dispute in explicitly political terms." },
+      "evidence": { "left": { "label": "Established", "text": "Both governments stated their positions publicly; Canada acknowledged the domestic cost of retaliation." }, "right": { "label": "Open question", "text": "Whether political resolve survives industry pressure and whether other middle powers coordinate with Canada." } },
+      "sources": [{ "label": "AP", "url": "https://apnews.com/article/canada-carney-trump-tariffs-economic-coercion-trade-a180ac85a70bbfb512ea59c224cb6c31" }]
+    },
+    {
+      "id": "dollar-debt-policy-nerves", "number": "07", "category": "Economy & markets", "sourceNote": "Reuters · early Monday trade",
+      "title": "The dollar opened near multi-month lows as debt policy, tariffs and Iran converged.",
+      "changed": "The dollar began Monday near multi-month lows after its largest weekly decline against bitcoin in roughly three and a half years. Traders were weighing the U.S. Treasury’s promise to buy back more long-dated bonds, fresh Canada tariffs and today’s Iran sanctions announcement; the Canadian dollar slipped about 0.2% in early trade.",
+      "matters": "The durable signal is not one currency tick. Investors are questioning whether U.S. policy will suppress long-term yields while trade and energy conflict add inflation risk—an awkward combination for dollar credibility and long-duration assets.",
+      "watch": "The design of Treasury buybacks, the long end of the U.S. yield curve, sanctions exposure for China, policy speeches in the United States and Japan, and whether the move survives full European and North American trading.",
+      "personal": false, "lead": false,
+      "group": { "label": "Economy & markets", "title": "Policy credibility is showing up in the currency before the week is fully open.", "note": "Treat the move as a signal to test, not a trend already proven.", "break": true },
+      "background": { "title": "Why buybacks can unsettle as well as reassure", "text": "Treasury buybacks can improve market functioning by replacing less-liquid debt, but investors also read them through the wider fiscal debate. If markets believe official action is intended to cap borrowing costs while deficits, tariffs and oil risks remain high, support for bonds can coexist with concern about the currency. Early Monday liquidity makes the first move less conclusive." },
+      "evidence": { "left": { "label": "Observed", "text": "The dollar levels, weekly comparison and early Canadian-dollar move were visible in Asian trading." }, "right": { "label": "Inference", "text": "That fiscal credibility is the dominant cause rather than positioning or thin early-session liquidity." } },
+      "sources": [{ "label": "Reuters", "url": "https://finance.yahoo.com/news/dollar-trading-near-multi-month-014826780.html" }]
+    },
+    {
+      "id": "china-change7-postponed", "number": "08", "category": "Technology & science", "sourceNote": "AP · Sunday",
+      "title": "China postponed Chang’e-7 after moving the lunar probe to the launch pad.",
+      "changed": "China said the lunar south-pole mission no longer met launch conditions and could not fly in its planned 2026 window. The agency gave no technical reason, despite the spacecraft and Long March-5 rocket having been transferred to the Wenchang launch area days earlier.",
+      "matters": "Chang’e-7 was designed to search permanently shadowed craters for water ice and survey south-pole resources—work central to the next phase of lunar competition. An abrupt delay this late in preparation is meaningful, but not evidence of a program-wide failure without a cause or new date.",
+      "watch": "A technical explanation, the condition of the spacecraft and launcher, a revised window, and any knock-on effect for China’s later lunar missions and planned research station.",
+      "personal": false, "lead": false,
+      "group": { "label": "Technology & operating signals", "title": "A flagship science mission stopped at the last responsible moment.", "note": "The delay is confirmed; its cause and schedule are not.", "break": true },
+      "background": { "title": "Why the south pole matters", "text": "Permanently shadowed lunar craters may preserve water ice that can illuminate lunar history and, eventually, support exploration. Chang’e-7 follows China’s 2024 return of the first samples from the moon’s far side. The mission’s value lies in the instruments and location, so reliability can matter more than protecting a public launch date." },
+      "evidence": { "left": { "label": "Confirmed", "text": "The agency cancelled the 2026 window after a comprehensive assessment and said launch conditions were not met." }, "right": { "label": "Withheld", "text": "The failure mode, whether hardware is damaged and the next viable launch date." } },
+      "sources": [{ "label": "AP", "url": "https://apnews.com/article/china-space-lunar-probe-mission-ae23e66a64dadfdea1c7baadcc1f4da8" }]
     }
   ],
   "radar": [
-    { "label": "Aviation", "title": "KLM’s published Gulf suspension window reaches its stated end today.", "text": "Actual restoration—not the timetable—is the useful test of network confidence around the region.", "url": "https://www.investing.com/news/stock-market-news/factboxairlines-resume-some-middle-east-flights-but-disruption-continues-4781823" },
-    { "label": "Doha today", "title": "Qatar University begins the Fall 2026 semester.", "text": "A local movement and traffic note, not a consequential national development.", "url": "https://www.qatar-tribune.com/article/220963/latest-news/qatar-university-sets-feb-25-deadline-for-graduate-applications-for-fall-2026/amp" }
+    { "label": "Climate & cities", "title": "The human-caused Hawk Fire forced mass evacuation around Reno.", "text": "The fire exceeded 23 square miles on Sunday and destroyed homes; the next signal is whether shifting winds push it deeper into the urban edge.", "url": "https://apnews.com/article/aae2f4b77e2d4aa5678b365a2ee377e6" },
+    { "label": "Aviation", "title": "Europe’s biometric border system remains an operating problem in peak travel.", "text": "The policy is no longer new; queue times, airport workarounds and missed connections are the useful evidence to track.", "url": "https://www.gov.uk/government/news/transport-secretary-engages-with-eu-commissioner-on-ees-border-checks-ahead-of-summer-holidays" },
+    { "label": "AI infrastructure", "title": "Nvidia reports on Wednesday after customers were warned of higher server costs.", "text": "Watch system pricing, memory supply and customer returns—not the first share-price reaction.", "url": "https://www.investing.com/news/stock-market-news/nvidia-customers-notified-about-airelated-price-hikes-above-15-bloomberg-news-reports-4872385" }
   ],
-  "attention": { "title": "AP: the U.S.–Canada relationship after the break", "text": "The best single read on why the failed negotiation reaches beyond this tariff list into the structure of a once-durable alliance.", "url": "https://apnews.com/article/4d18583fe52134ca8550652ad9772d2c" },
-  "ignore": { "title": "Weekend market targets built from one tariff headline", "text": "The policy change is real; precise Monday index predictions made before supply-chain exemptions and retaliation details are known are not." },
+  "attention": { "title": "AP: Iran’s threat, shipping list and diplomatic split", "text": "The strongest single source for separating what changed in Hormuz from the threats and negotiations that remain unresolved.", "url": "https://apnews.com/article/middle-east-iran-israel-west-bank-august-23-2026-a3fff9eba47a5510060e8014b82d794f" },
+  "ignore": { "title": "Predictions that one Monday currency move proves the dollar’s collapse", "text": "The policy tension is real, but early Asian liquidity and event risk make a single opening move weak evidence of a lasting regime change." },
   "history": {
-    "id": "history-green-revolution-system", "number": "03", "readTime": "7 min read", "era": "MEXICO TO SOUTH ASIA\n1944–1970",
-    "title": "The Green Revolution was not a miracle seed. It was a system.",
-    "deck": "Semi-dwarf wheat changed the food balance of entire countries, but only because scientists, governments, irrigation networks, credit systems and farmers were made to move together. The seed was the catalyst; coordination produced the harvest.",
-    "thesis": "A breakthrough scales when the institutions around it change at the same speed as the technology.",
+    "id": "history-containerization-standard", "number": "04", "readTime": "7 min read", "era": "PORT NEWARK TO THE WORLD\n1956–1977",
+    "title": "The shipping container changed trade only after everyone agreed on the box.",
+    "deck": "A steel rectangle looks like a simple invention. The deeper achievement was making ships, cranes, trucks, railways, ports, insurers and customs systems conform to one interoperable unit—then accepting the disruption that followed.",
+    "thesis": "Scale often comes from standardizing the interfaces around an invention, not improving the invention itself.",
     "sections": [
-      { "title": "Mexico becomes the laboratory", "text": "In the 1940s, Mexico and the Rockefeller Foundation began a cooperative programme to raise farm productivity. Norman Borlaug and Mexican colleagues worked on wheat that could resist rust disease and perform across different environments. They used shuttle breeding—growing successive generations in contrasting Mexican locations—to shorten breeding cycles and select plants less dependent on a particular day length. The work was patient, empirical and distributed across teams; the later focus on one famous scientist can obscure the institutional network that made it possible." },
-      { "title": "A shorter stalk changes the equation", "text": "Traditional tall wheat often collapsed, or lodged, when heavy fertilizer made it grow too lush. Semi-dwarf genes associated with Japan’s Norin 10 wheat helped breeders produce shorter, stronger plants that directed more energy into grain and could tolerate intensive fertilizer. Disease resistance and broad adaptation mattered as much as height. The new varieties did not create yield from nothing: they made it possible to use water and nutrients much more productively without the plant falling over before harvest." },
-      { "title": "The seed crosses borders—but the package must travel too", "text": "Mexico became self-sufficient in wheat in the 1950s. In the 1960s, India and Pakistan tested Mexican semi-dwarf varieties as their populations grew and food-import dependence created strategic anxiety. Results were compelling, and large seed shipments followed. Yet Borlaug’s own 1970 Nobel lecture rejected the idea of a miracle variety. High yields required adapted local research, irrigation, fertilizer, pest control, machinery and knowledge. A seed placed inside the old production system would not deliver the same outcome." },
-      { "title": "Government builds the missing market", "text": "Adoption accelerated because public policy connected the pieces. Governments multiplied and distributed seed, expanded irrigation, made fertilizer and credit available, supported procurement prices and invested in agricultural research and extension. Those choices reduced the risk farmers faced when switching varieties and buying more inputs. The Green Revolution was therefore both biological and administrative: laboratories created potential, while prices, logistics and public institutions made it rational for millions of farmers to act on it." },
-      { "title": "The achievement was real—and uneven", "text": "Wheat production rose rapidly in India and Pakistan, and South Asia moved toward national grain self-sufficiency. More food became available without a matching expansion of cultivated land. But the early gains concentrated in irrigated regions and among farmers able to obtain land, water, credit and inputs. Wheat and rice advanced much more than pulses and other crops. The programme improved calorie security without automatically solving poverty, distribution or nutrition; national surplus and household hunger could coexist." },
-      { "title": "Success creates the next constraint", "text": "Intensive irrigation and poorly balanced fertilizer later contributed to falling water tables, soil stress and pollution in some regions. Crop concentration narrowed dietary and ecological diversity. Those costs do not erase the production breakthrough, just as the breakthrough does not erase the costs. The durable lesson is about complements: technology changes the limiting factor. Once seed genetics improved, water, institutions and market access became decisive; after yields rose, sustainability, nutrition and equitable access became the next system problems." }
+      { "title": "The expensive few feet between ship and shore", "text": "Mid-century cargo did not move as one stream. Longshore workers handled sacks, crates, barrels and machinery piece by piece, fitting irregular shapes into a ship’s hold and reversing the process at arrival. The work was skilled, slow and exposed goods to delay, damage and theft. Matson’s research in the 1950s found that loading and unloading—moving cargo only a few feet between vessel and pier—accounted for almost half of transport cost. Faster ships could not solve a bottleneck that happened while they were tied up." },
+      { "title": "McLean changes the object that travels", "text": "Trucking entrepreneur Malcom McLean approached the problem from land. Instead of unloading a truck into a ship, he wanted the loaded box itself to move between modes. He acquired a steamship company and converted the tanker Ideal-X. On 26 April 1956 it sailed from Newark to Houston carrying 58 loaded containers on deck. The important move was conceptual: cargo would remain sealed while the transport machinery around it changed." },
+      { "title": "A private system is not yet infrastructure", "text": "The first voyages demonstrated lower handling time and loss, but competing companies used different sizes, corner fittings and lifting methods. A container that worked only with one operator’s chassis, crane and ship could create a profitable network without creating a global system. Ports also faced large fixed investments in cranes, reinforced yards and road or rail access before traffic was certain. Coordination risk—not the steel box—became the main barrier." },
+      { "title": "Standards make the box legible everywhere", "text": "International standardization converted rival designs into an interoperable language. ISO 668 established classifications, external dimensions and ratings for Series 1 freight containers, while related standards specified corner fittings and testing. A manufacturer could build a box knowing cranes and chassis elsewhere would recognize it. A port could invest knowing it was not serving one proprietary fleet. Standards reduced the number of bilateral agreements needed for every handoff." },
+      { "title": "The port and the city are rebuilt around the interface", "text": "Containerization did not merely make existing docks more efficient. It favored vast terminals with deep water, storage yards, cranes and motorway or rail connections. Traditional waterfronts close to city centers often lacked the land and access required, so cargo activity shifted and many dock jobs disappeared or changed. Warehouses, factories and distribution centers could locate farther inland because the sealed unit moved more predictably. The geography of production followed the logistics standard." },
+      { "title": "Safety and governance arrive after scale", "text": "Rapid adoption created new risks: containers had to withstand stacking, repeated lifting and movement across sea and land under rules that differed by country. The International Maritime Organization began studying container safety in 1967. The 1972 Convention for Safe Containers established common testing, approval and maintenance requirements and reciprocal recognition across states, entering into force in 1977. The mature system joined commercial standards to public safety rules—the box became globally useful because institutions agreed how to trust it." }
     ],
     "timeline": [
-      { "date": "1944", "text": "The cooperative Mexican agricultural programme begins." },
-      { "date": "1950s", "text": "Semi-dwarf genetics and shuttle breeding reshape Mexican wheat." },
-      { "date": "1963–65", "text": "Mexican wheat is tested and then imported at scale in South Asia." },
-      { "date": "1967–70", "text": "High-yield varieties spread rapidly across irrigated wheat land." },
-      { "date": "1970", "text": "Borlaug’s Nobel lecture emphasizes the full production system, not a miracle seed." }
+      { "date": "1955", "text": "Malcom McLean acquires a steamship company to connect trucking and sea freight." },
+      { "date": "1956", "text": "Ideal-X carries 58 loaded containers from Newark to Houston." },
+      { "date": "1960s", "text": "Competing systems converge as ports, carriers and manufacturers adopt common dimensions and fittings." },
+      { "date": "1968", "text": "The first edition of ISO 668 formalizes container classification, dimensions and ratings." },
+      { "date": "1972–77", "text": "The Convention for Safe Containers is adopted and then enters into force." }
     ],
     "sources": [
-      { "label": "CIMMYT history", "url": "https://www.cimmyt.org/about/our-history/" },
-      { "label": "CIMMYT · Norin 10", "url": "https://www.cimmyt.org/news/from-east-asia-to-south-asia-via-mexico-how-one-gene-changed-the-course-of-history/" },
-      { "label": "Nobel lecture", "url": "https://www.nobelprize.org/prizes/peace/1970/borlaug/lecture/" },
-      { "label": "FAO assessment", "url": "https://www.fao.org/4/i0691e/i0691e00.pdf" }
+      { "label": "Smithsonian · waterfront transformation", "url": "https://americanhistory.si.edu/explore/exhibitions/america-on-the-move/online/transforming-waterfront" },
+      { "label": "ISO · how standards built container trade", "url": "https://www.iso.org/cms/%20render/live/en/sites/isoorg/contents/news/2017/09/Ref2215.html" },
+      { "label": "ISO 668", "url": "https://www.iso.org/standard/76912.html" },
+      { "label": "IMO · Convention for Safe Containers", "url": "https://www.imo.org/en/about/conventions/pages/international-convention-for-safe-containers-%28csc%29.aspx" },
+      { "label": "World Customs Organization history", "url": "https://www.wcoomd.org/-/media/wco/public/global/pdf/media/wco-news-magazines/wco-news-magazine-68.pdf" }
     ]
   },
   "threads": [
-    { "status": "Updated today · critical", "title": "The North American trade rupture", "text": "50% U.S. tariffs live · Canadian retaliation due 8 September", "progress": 71 },
-    { "status": "Updated today · critical", "title": "Iran, Hormuz and Gulf stability", "text": "Bypass routes threatened · Monday sanctions next", "progress": 86 },
-    { "status": "Updated today · watching", "title": "Ukraine’s air-defence constraint", "text": "French acceleration pledged · quantities and dates unresolved", "progress": 68 }
+    { "status": "Updated today · critical", "title": "Iran, Hormuz and Gulf stability", "text": "Vessels listed · sanctions details due today", "progress": 90 },
+    { "status": "Updated today · critical", "title": "Ukraine’s air-defence constraint", "text": "264 interceptors expected · 300 more sought for winter", "progress": 76 },
+    { "status": "Updated today · watching", "title": "The North American trade rupture", "text": "Escalation threatened · Canadian list due before 8 September", "progress": 78 },
+    { "status": "New today · urgent", "title": "Congo’s Bundibugyo Ebola outbreak", "text": "2,557 deaths · vaccine protection unproven", "progress": 88 }
   ]
 }
