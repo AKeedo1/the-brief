@@ -378,7 +378,10 @@ body.drawer-open .dossier-drawer { transform: translateX(0); }
 .dossier-hero { padding: 55px 52px 44px; background: linear-gradient(150deg,#252920,#10120f); }
 .dossier-hero h2 { max-width: 650px; margin: 0; font-family: var(--serif); font-size: clamp(3rem, 7vw, 5.8rem); font-weight: 400; line-height: .88; letter-spacing: -.052em; }
 .dossier-hero > p:last-child { max-width: 600px; margin: 22px 0 0; color: #c5c4b8; font-family: var(--serif); font-size: 1.2rem; line-height: 1.45; }
+.dossier-hero > div { display: flex; flex-wrap: wrap; gap: 10px 18px; margin-top: 18px; color: #c5c4b8; font-size: .72rem; }
 .dossier-nav { position: sticky; top: 0; z-index: 2; display: flex; gap: 24px; overflow-x: auto; padding: 15px 52px; border-block: 1px solid rgba(255,255,255,.13); background: rgba(23,25,21,.95); }
+.dossier-nav { scrollbar-width: none; }
+.dossier-nav::-webkit-scrollbar { display: none; }
 .dossier-nav a { color: #bbb9ae; font-size: .63rem; font-weight: 700; text-decoration: none; text-transform: uppercase; letter-spacing: .09em; }
 .dossier-section { padding: 44px 52px; border-bottom: 1px solid rgba(255,255,255,.15); scroll-margin-top: 48px; }
 .dossier-section > h3 { margin: 0 0 17px; font-family: var(--serif); font-size: 2.4rem; font-weight: 400; line-height: 1.03; }
