@@ -145,10 +145,17 @@ document.querySelector("[data-share-discuss]").addEventListener("click", async (
   document.querySelector("[data-handoff-note]").textContent = "Direct sharing is unavailable here. The question is copied—return to Codex and paste it.";
 });
 
-let saved = JSON.parse(localStorage.getItem("theBriefSaved") || "[]").filter((id) => storyTitles[id]);
+const storage = (() => {
+  try { return globalThis.localStorage || null; } catch { return null; }
+})();
+
+let saved = (() => {
+  try { return JSON.parse(storage?.getItem("theBriefSaved") || "[]").filter((id) => storyTitles[id]); }
+  catch { return []; }
+})();
 
 function renderLibrary() {
-  localStorage.setItem("theBriefSaved", JSON.stringify(saved));
+  try { storage?.setItem("theBriefSaved", JSON.stringify(saved)); } catch {}
   document.querySelectorAll("[data-library-count]").forEach((node) => { node.textContent = saved.length; });
   document.querySelectorAll("[data-save]").forEach((button) => {
     const active = saved.includes(button.dataset.save);
