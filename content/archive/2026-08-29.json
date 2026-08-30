@@ -1,0 +1,273 @@
+{
+  "date": { "display": "Saturday, 29 August 2026", "edition": "009", "updated": "7:23 AM" },
+  "worldSentence": "Governments moved from signalling to machinery: Washington claimed long control over Venezuelan oil, the Fed restored the possibility of higher rates, and U.S. sanctions reached through a major Arab bank's Gulf branches.",
+  "standfirst": "The United States and Venezuela announced a structure intended to give a new private venture rights over 17 fields holding 65 billion barrels, but the companies, contracts and development timetable remain undisclosed. Fed Chair Kevin Warsh said resilient demand and 3.7% inflation leave more tightening in play. FinCEN proposed cutting Banque Misr's UAE branches out of dollar correspondent banking, Nepal's confirmed flood toll rose to 579, and a second barrier lake briefly stopped rescue work.",
+  "listenTime": "11 min",
+  "coverage": [
+    { "count": 1, "label": "Qatar & Gulf" },
+    { "count": 3, "label": "World & security" },
+    { "count": 1, "label": "Economy & markets" },
+    { "count": 1, "label": "AI & technology" },
+    { "count": 1, "label": "Aviation & consumer" }
+  ],
+  "connected": {
+    "title": "The day's large numbers describe claims on future capacity, not capacity available today.",
+    "signals": [
+      { "label": "OIL RIGHTS", "value": "65bn bbl", "text": "Venezuelan proven reserves covered by the announced U.S.-backed structure." },
+      { "label": "U.S. INFLATION", "value": "3.7%", "text": "Twelve-month PCE inflation cited by the Fed chair against a 2% target." },
+      { "label": "FLAGGED FLOWS", "value": "$1.8bn", "text": "Transactions FinCEN says Banque Misr UAE processed for potentially Iran-linked companies." }
+    ],
+    "note": "An oil concession is not produced crude, a central-bank warning is not a rate decision, a proposed correspondent-banking measure is not yet a final rule, a chip partnership discussion is not an acquisition, and strong airline pricing is partly the consequence of reduced capacity. The useful question across today's edition is what converts an announced claim into an operating result—and who must commit capital, authority or risk before that happens."
+  },
+  "stories": [
+    {
+      "id": "us-venezuela-oil-control-agreement",
+      "number": "01",
+      "category": "Energy, state power & investment",
+      "sourceNote": "Venezuelan statement + AP/Reuters · Friday-night announcement",
+      "title": "Washington says it secured majority control over Venezuelan fields holding 65 billion barrels.",
+      "changed": "President Donald Trump and Venezuela's acting President Delcy Rodríguez announced an agreement covering 17 fields with 65 billion barrels of proven reserves. An unnamed private operator would form a new company with 100-year development rights; a U.S. official told AP that the United States would receive 55% effective output through an ownership interest and rights to buy crude at cost. Caracas projects nearly $100 billion of investment and $209 billion of tax revenue.",
+      "matters": "If the contracts survive legal, political and financing tests, the arrangement would give Washington a direct long-duration claim on roughly a fifth of the world's largest national oil reserve base and a potential source for refineries, the Strategic Petroleum Reserve and military use. It also moves the U.S. role in post-Maduro Venezuela from sanctions oversight into resource governance. But reserves are geology, not supply: Venezuela produces only about 1.25 million barrels a day, and heavy-crude infrastructure needs years of repair and investment.",
+      "watch": "The signed concession and corporate documents, the operator and equity holders, Venezuelan constitutional review, field-by-field capital plans, treatment of PDVSA and old creditor claims, participation by ExxonMobil and ConocoPhillips, production milestones, environmental obligations and whether any barrels actually flow to the United States at the stated cost terms.",
+      "personal": true,
+      "lead": true,
+      "group": { "label": "The lead", "title": "A geopolitical promise became an oil concession—on paper.", "note": "Both governments confirm the outline; the instruments that determine control, enforceability and economics have not been published.", "break": false },
+      "background": {
+        "title": "The deal substitutes long-horizon resource access for immediate Gulf supply",
+        "text": "The announcement arrives after six months of the Iran war reduced Hormuz flows, pushed U.S. gasoline above year-earlier levels and drew more than 100 million barrels from the Strategic Petroleum Reserve. Venezuela holds about 303 billion barrels of proven crude but produces a small fraction of its historic output after underinvestment, sanctions, expropriations and operating decline. Rodríguez opened the sector more widely to private participation after Nicolás Maduro's removal. The proposed venture would therefore inherit known geology and damaged institutions at the same time.",
+        "known": "Both governments describe 17 fields, 65 billion barrels, a private-sector vehicle and large intended investment; reporting identifies a century-long development right and U.S. output rights.",
+        "new": "The negotiation has moved from prospective U.S. access to an announced governing structure, although the operative agreements remain unavailable."
+      },
+      "evidence": {
+        "left": { "label": "Confirmed outline", "text": "Washington and Caracas each announced the field count, reserve volume and intended private investment structure." },
+        "right": { "label": "Unproven economics", "text": "No operator, contract, financing schedule, production profile or enforceability opinion has been disclosed." }
+      },
+      "sources": [
+        { "label": "AP · agreement details", "url": "https://apnews.com/article/trump-venezuela-oil-reserves-eb0ed5a1e99602c21a7f690c3368020e" },
+        { "label": "Reuters", "url": "https://www.investing.com/news/world-news/us-enters-into-oil-agreement-with-venezuela-trump-says-4881866" },
+        { "label": "U.S. EIA · Venezuela energy profile", "url": "https://www.eia.gov/international/content/analysis/countries_long/Venezuela/" }
+      ]
+    },
+    {
+      "id": "warsh-jackson-hole-inflation-rates",
+      "number": "02",
+      "category": "Monetary policy & markets",
+      "sourceNote": "Federal Reserve + Reuters/AP · Friday keynote",
+      "title": "Kevin Warsh put rate increases back inside the Fed's live reaction set.",
+      "changed": "In his first Jackson Hole address as Federal Reserve chair, Warsh said the economy appears to have strengthened, financial conditions are hard to call restrictive and inflation remains too high. He cited 3.7% twelve-month PCE inflation and 4.1% over six months, then said the Fed has more work to do unless underlying inflation is moving clearly and quickly toward 2%. Short-dated Treasury yields rose as traders increased rate-hike expectations.",
+      "matters": "The speech is more than a hawkish sentence. Warsh rejected routine forward guidance, said markets should generate information rather than trade mainly on Fed promises, and restored short-term rates as the predominant normal-times tool. That makes each meeting less pre-committed while raising the importance of incoming inflation breadth, credit conditions and demand. The result is a policy regime with less verbal insurance for asset prices and a wider live range of rate outcomes.",
+      "watch": "August payrolls and inflation data, the 15–16 September FOMC decision, whether other governors support a hike, the breadth of PCE components above 3%, two-year yields, lending standards and whether the Fed's quieter communication style creates useful price discovery or avoidable volatility.",
+      "personal": true,
+      "lead": false,
+      "group": { "label": "Economy & markets", "title": "The Fed offered a discipline, not a promise.", "note": "Warsh did not commit to a September hike; he made clear that holding rates is no longer the only plausible next move.", "break": true },
+      "background": {
+        "title": "The framework matters because the path is deliberately less explicit",
+        "text": "Warsh argued that normal-times forward guidance can create a hall of mirrors: markets trade on the Fed's signals while the Fed reads those same prices as economic information. He instead emphasized contemporaneous data, money and credit, a fixed 2% inflation target and discretion at each decision. His economic diagnosis supplied the reason for urgency: AI-related capital expenditure is strong, corporate profits and credit issuance are elevated, consumer spending is healthy and labor markets remain near full employment, while disinflation has slowed.",
+        "known": "The policy rate remains 3.50%–3.75%, the July committee waited for more information, and Warsh now judges price stability the predominant near-term focus.",
+        "new": "The chair publicly connected resilient demand and easy credit to a willingness to tighten again if inflation progress is insufficient."
+      },
+      "evidence": {
+        "left": { "label": "In the speech", "text": "The inflation measures, economic assessment, 2% commitment and communication principles are in the Fed's published transcript." },
+        "right": { "label": "Not a forecast", "text": "Market-implied hike odds are prices, not a committee decision or a promise from Warsh." }
+      },
+      "sources": [
+        { "label": "Federal Reserve · full speech", "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm" },
+        { "label": "Reuters · policy and market response", "url": "https://www.marketscreener.com/news/rate-hike-expectations-rise-on-warsh-speech-at-jackson-hole-ce7858dfde8af62d" },
+        { "label": "AP", "url": "https://apnews.com/article/ab896df808df3a5a3fa8b943ac5f3867" }
+      ]
+    },
+    {
+      "id": "fincen-banque-misr-uae-iran",
+      "number": "03",
+      "category": "Gulf finance & sanctions",
+      "sourceNote": "FinCEN + Reuters/AP · Friday proposal",
+      "title": "The U.S. moved its Iran pressure campaign into Banque Misr's UAE dollar network.",
+      "changed": "FinCEN proposed designating Banque Misr's UAE operation a primary money-laundering concern and barring U.S. financial institutions from maintaining correspondent accounts for it. Treasury estimates that the six UAE branches processed about $1.8 billion between January 2024 and June 2026 for 103 companies potentially linked to Iranian shadow-banking networks. Separate sanctions targeted the manager of Bank Melli's Dubai branch and a Hong Kong entity.",
+      "matters": "This is the first major institutional test of Washington's new economic campaign against Iran. Instead of sanctioning another front company, the proposal reaches into the regional dollar plumbing of Egypt's second-largest bank and requires other foreign correspondents to prevent pass-through transactions. The narrow legal target limits direct contagion, but the compliance response can spread wider as Gulf banks reassess Iranian exposure, beneficial ownership and nested correspondent relationships.",
+      "watch": "The comment period and final rule, Banque Misr's response, UAE supervisory action, whether transactions migrate to other banks or currencies, any de-risking beyond the six branches, enforcement against pass-through payments, and whether sanctions pressure changes Tehran's Hormuz terms or only deepens economic isolation.",
+      "personal": true,
+      "lead": false,
+      "group": { "label": "Qatar & the Gulf", "title": "Economic pressure acquired a regional banking test case.", "note": "The measure is proposed and applies only to Banque Misr UAE—not the bank's Egyptian or other-country operations.", "break": true },
+      "background": {
+        "title": "Correspondent access is the choke point",
+        "text": "Foreign banks rely on U.S. correspondent accounts to clear dollars. FinCEN's proposed special measure would prohibit direct accounts for Banque Misr UAE and require due diligence designed to stop transactions reaching it indirectly through other foreign banks. Egypt's central bank stressed the action's limited legal scope. Operationally, however, compliance teams must map customers, counterparties and nested payment chains, which can make a targeted measure commercially broader than its text.",
+        "known": "FinCEN published the finding, transaction estimate, legal mechanism and branch-specific scope; Egypt confirmed that the rest of Banque Misr is not covered.",
+        "new": "Washington has selected a mainstream Arab bank's Gulf network as the first high-visibility correspondent-banking target of the campaign."
+      },
+      "evidence": {
+        "left": { "label": "Proposed rule", "text": "The primary-money-laundering finding and correspondent-account prohibition are official but not yet final." },
+        "right": { "label": "Potential spillover", "text": "Broader Gulf de-risking is a likely compliance response, not a measure FinCEN formally ordered." }
+      },
+      "sources": [
+        { "label": "FinCEN · proposed special measure", "url": "https://www.fincen.gov/resources/statutes-regulations/federal-register-notices/proposal-special-measure-regarding-banque" },
+        { "label": "FinCEN · release and scope", "url": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-would-revoke-banque-misr-uaes-correspondent-banking-access" },
+        { "label": "Reuters", "url": "https://www.investing.com/news/world-news/us-issues-fresh-iranrelated-sanctions-as-war-marks-six-months-4881582" },
+        { "label": "AP", "url": "https://apnews.com/article/ae1c438ff169effa0c63a56a93ca23ae" }
+      ]
+    },
+    {
+      "id": "nepal-tibet-flood-second-lake",
+      "number": "04",
+      "category": "Climate, infrastructure & disaster",
+      "sourceNote": "Nepal disaster authority + AP · Friday updates",
+      "title": "Nepal's flood toll reached 579 while a second barrier lake interrupted the rescue.",
+      "changed": "Nepal's disaster authority raised the confirmed national toll to 579, with 1,924 people still unaccounted for; Chinese state media reported five deaths and 558 missing in Tibet. More than 3,700 people have been rescued in Nepal. A newly formed lake upstream began overflowing on Friday, briefly halting rescue work and sending residents and responders to higher ground before operations resumed.",
+      "matters": "The casualty picture now describes a cross-border mass disaster, not an isolated valley flood. The same cascade that caused the first wave—slope or glacier failure, debris dam, sudden release and confined river corridor—can repeat while roads, communications and emergency access are already damaged. The missing population includes residents, workers, trekkers and pilgrims, complicating identification and the final count.",
+      "watch": "Stability of the remaining barrier lake, fresh glacial movement or rainfall, downstream evacuation orders, the missing-person reconciliation, access to Timure and Gyirong Port, aid for the 17,000 children UNICEF says need urgent support, and independent reconstruction of the initial failure sequence.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "The world beyond the lead", "title": "The disaster zone remained physically unstable.", "note": "Counts will change; the confirmed facts are a rapidly rising toll, thousands missing and a continuing dam-break hazard.", "break": true },
+      "background": {
+        "title": "Rescue teams are working inside the mechanism that caused the disaster",
+        "text": "Preliminary scientific assessment points to a large rock-and-ice or glacier collapse that temporarily blocked a river before releasing a debris-laden surge. That wave destroyed settlements, bridges, power assets and the main Nepal–Tibet border corridor. A second debris impoundment then formed upstream. Overflow does not necessarily mean catastrophic breach, but it changes where rescuers can safely operate and makes continuous hydrological observation part of the rescue itself.",
+        "known": "Authorities report the tolls, missing counts, rescues, overflow and temporary suspension; images confirm extensive corridor damage.",
+        "new": "Nepal's confirmed deaths rose by 110 from the previous edition, and the second lake moved from a forecast risk to an active overflow event."
+      },
+      "evidence": {
+        "left": { "label": "Authority counts", "text": "The 579 deaths, 1,924 missing and 3,700-plus rescues are Nepalese official figures reported Friday." },
+        "right": { "label": "Mechanism provisional", "text": "The exact sequence, climate contribution and stability of remaining blockages require field investigation and monitoring." }
+      },
+      "sources": [
+        { "label": "AP · latest toll and rescue", "url": "https://apnews.com/article/1f3d0ccf432eed879020e18efcab3146" },
+        { "label": "AP · barrier-lake explainer", "url": "https://apnews.com/article/5086eb25e29b23019632f7817739f807" },
+        { "label": "Kathmandu Post · breach warning", "url": "https://kathmandupost.com/national/2026/08/28/barrier-lake-near-china-border-breaches-raising-fresh-flood-threat-in-nepal" }
+      ]
+    },
+    {
+      "id": "freedom-edge-trilateral-drill",
+      "number": "05",
+      "category": "Korean Peninsula & deterrence",
+      "sourceNote": "South Korean military + AP · Friday announcement",
+      "title": "Seoul, Washington and Tokyo kept a five-day trilateral drill after a failed opening to Pyongyang.",
+      "changed": "South Korea announced that Freedom Edge will run from 7 September for five days near Jeju, combining air and naval work on ballistic-missile defence, anti-submarine warfare and surveillance. The decision follows Washington's early termination of the bilateral Ulchi Freedom Shield exercise as a goodwill signal. North Korea rejected the reduction, launched about 10 short-range ballistic missiles and said talks require Washington to abandon denuclearization as a precondition.",
+      "matters": "The sequence shows the limit of symbolic de-escalation when the parties disagree on the object of negotiation. Washington reduced one exercise to create diplomatic room; Pyongyang treated the underlying alliance posture as unchanged; the allies then preserved the exercise most useful for integrating Japan into peninsula contingencies. The result is stronger three-way military interoperability and a narrower near-term path back to U.S.–North Korea talks.",
+      "watch": "North Korean launches before or during the drill, whether China or Russia joins the criticism operationally, changes to exercise scale, South Korean coordination over any Trump–Kim contact, and whether denuclearization remains a precondition or becomes a long-term objective inside a narrower risk-reduction process.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "Indo-Pacific security", "title": "A reduced exercise did not create a diplomatic exchange.", "note": "The drill is scheduled, not yet under way; escalation will depend on its scale and Pyongyang's response.", "break": true },
+      "background": {
+        "title": "Freedom Edge is an alliance-integration instrument",
+        "text": "Started in 2024, the exercise links capabilities that the three countries previously practised more separately. Missile warning, anti-submarine work and surveillance require shared tracks, communications and procedures, so repetition builds an operating architecture beyond political statements. North Korea views that architecture as hostile and also frames it as pressure on China and Russia. The failed overture therefore leaves deterrence and diplomacy moving in opposite directions.",
+        "known": "The dates, location, five-day duration and core mission sets come from South Korea's military statement; North Korea's rejection and missile response are public.",
+        "new": "The allies retained the trilateral drill even after cutting short the bilateral exercise intended to invite talks."
+      },
+      "evidence": {
+        "left": { "label": "Scheduled activity", "text": "Seoul has announced the exercise and its defensive rationale." },
+        "right": { "label": "Diplomatic inference", "text": "That the window has narrowed is supported by both sides' actions, but informal channels may still exist." }
+      },
+      "sources": [
+        { "label": "AP", "url": "https://apnews.com/article/north-korea-us-south-drill-japan-trump-kim-a953d60690bf861f134e36a021bdbd70" },
+        { "label": "Reuters · Seoul's negotiating position", "url": "https://www.marketscreener.com/news/south-korea-backs-trump-s-efforts-to-resume-north-korea-talks-ce7858dfd88cf327" }
+      ]
+    },
+    {
+      "id": "anthropic-matx-custom-chip-talks",
+      "number": "06",
+      "category": "AI infrastructure & capital",
+      "sourceNote": "Reuters exclusive · talks reported Friday",
+      "title": "Anthropic explored a $7 billion MatX purchase as frontier labs move toward owning chip design.",
+      "changed": "Anthropic discussed buying AI-chip startup MatX for roughly $7 billion before acquisition talks ended, Reuters reported from people briefed on the matter. The companies are now discussing a partnership. MatX, founded by former Google TPU engineers, is separately seeking capital at about a $4 billion valuation. Neither company confirmed the negotiations.",
+      "matters": "The report exposes the next layer of frontier-lab economics. Multi-cloud procurement secures chips designed by others; an internal accelerator can tune memory, interconnect and inference around a lab's actual models while creating leverage against Nvidia, Google and Amazon. The abandoned price also shows how scarce chip-design teams have become. A lab can spend billions for architecture capability before it owns a fab, a supply chain or a proven production chip.",
+      "watch": "Whether a partnership is signed, MatX's funding round, Anthropic hardware hires, tape-out or foundry commitments, compiler integration, dependence on Google and Amazon after any custom-chip effort, and disclosed cost or performance gains on Claude inference rather than benchmark claims.",
+      "personal": true,
+      "lead": false,
+      "group": { "label": "AI & technology", "title": "Compute strategy is moving inside the model labs.", "note": "The acquisition is not active and a partnership is only under discussion; the strategic intent is reported, not formally announced.", "break": true },
+      "background": {
+        "title": "Owning a design is different from owning supply",
+        "text": "Anthropic already runs across Nvidia, Google and Amazon hardware and has signed large external compute agreements. Custom silicon could lower unit cost or improve workload fit, but it still requires foundry capacity, advanced packaging, memory, networking, software and years of iteration. MatX brings engineers who worked on Google's TPU programme; that talent is the scarce input a transaction or partnership would secure. The relevant outcome is production economics at scale, not the headline valuation.",
+        "known": "Multiple Reuters sources described the former acquisition discussion, current partnership discussion and MatX fundraising; the companies declined or did not respond.",
+        "new": "Anthropic's hardware ambition has moved beyond diversified purchasing into reported negotiations for in-house design capability."
+      },
+      "evidence": {
+        "left": { "label": "Sourced reporting", "text": "The deal history and values come from unnamed people briefed on private negotiations." },
+        "right": { "label": "No completed deal", "text": "There is no announced acquisition, partnership, tape-out or production commitment." }
+      },
+      "sources": [
+        { "label": "Reuters exclusive", "url": "https://cio.economictimes.indiatimes.com/amp/news/artificial-intelligence/anthropic-in-talks-with-chip-start-up-matx-to-speed-up-chip-design/133581635" },
+        { "label": "Reuters · detailed syndication", "url": "https://live.euronext.com/en/financial-news/exclusive-anthropic-talks-chip-start-matx-speed-chip-design-sources-say" }
+      ]
+    },
+    {
+      "id": "virgin-australia-capacity-discipline",
+      "number": "07",
+      "category": "Aviation & consumer demand",
+      "sourceNote": "Virgin Australia results + Reuters · Friday",
+      "title": "Australia's two largest airline groups chose less capacity and higher unit revenue over volume.",
+      "changed": "Virgin Australia said it will reduce domestic capacity by 3% in the first half, matching Qantas, even as corporate and leisure demand remains strong. Virgin's underlying full-year net profit rose 22% to A$404 million and it declared its first dividend since relisting. It expects revenue per available seat kilometre to rise 6%–8%; Qantas expects an 8%–10% increase over the same period.",
+      "matters": "This is a clean example of capacity discipline transmitting a fuel shock into passenger economics. Both carriers are protecting margins by offering fewer seats, raising unit revenue and relying on hedges rather than chasing traffic. Strong demand means the strategy may work financially, but passengers face less choice and higher fares. For network airlines elsewhere, it is evidence that schedule control can matter more than headline load factors when fuel and refining margins jump.",
+      "watch": "Actual domestic seat reductions by route, fare and load-factor changes, competition from Regional Express and new entrants, whether corporate demand holds, Virgin's refining-margin exposure beyond its crude hedge, Qantas delivery timing, and intervention from Australia's competition regulator if capacity restraint becomes persistent.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "Aviation & consumer", "title": "Demand is strong; supply is being managed harder.", "note": "Revenue guidance assumes the planned cuts hold and demand absorbs higher pricing despite cost-of-living pressure.", "break": true },
+      "background": {
+        "title": "Hedging protects crude, not the whole barrel",
+        "text": "Virgin has hedged 96% of its Brent exposure for the half but only 20% of refining margins, leaving it exposed to the unusually expensive conversion of crude into jet fuel. Capacity cuts reduce variable cost and support pricing while the airline waits for the shock to ease. The same mechanism is visible at Qantas, whose unit-revenue forecast rose while it managed capacity and accelerated fleet renewal. The durable lesson is not that demand is weak; it is that profitable supply is constrained.",
+        "known": "Virgin reported the profit, dividend, hedges, capacity plan and unit-revenue guidance; Qantas separately disclosed its comparable revenue outlook.",
+        "new": "The two dominant groups have now aligned on a 3% domestic contraction for the half despite continuing demand strength."
+      },
+      "evidence": {
+        "left": { "label": "Company guidance", "text": "The capacity and revenue ranges are forward-looking statements supported by full-year results." },
+        "right": { "label": "Consumer effect", "text": "Higher fares and reduced choice are likely mechanisms, but route-level outcomes are not yet observed." }
+      },
+      "sources": [
+        { "label": "Reuters", "url": "https://au.investing.com/news/stock-market-news/virgin-australia-to-trim-domestic-capacity-in-line-with-qantas-expects-revenue-gains-4620852" },
+        { "label": "Virgin Australia · investor centre", "url": "https://www.virginaustralia.com/ae/en/about-us/investor-relations/" },
+        { "label": "Virgin Australia · FY26 presentation filing", "url": "https://www.marketindex.com.au/asx/vgn/announcements/fy26-financial-results-investor-presentation-2A1692994" }
+      ]
+    }
+  ],
+  "radar": [
+    { "label": "Ukraine", "title": "Kyiv expects technical talks soon, without expecting a quick agreement.", "text": "The diplomatic channel is moving while Russia continues strikes on cities and logistics sites. Watch participants, mandate and agenda before treating a meeting as negotiation progress.", "url": "https://currently.att.yahoo.com/att/senior-ukrainian-official-expects-technical-140526759.html" },
+    { "label": "Gulf infrastructure", "title": "Hormuz disruption is redirecting billions toward pipelines, rail and ports.", "text": "The useful signal is not another project announcement but funded capacity that bypasses the strait without simply shifting exposure to the Red Sea.", "url": "https://www.lse.co.uk/news/pipelines-and-ports-iran-war-spurs-gulf-infrastructure-investment-8xhjo9a8dhitif1.html" },
+    { "label": "Consumer brands", "title": "Gap's namesake brand extended comparable-sales growth to a tenth quarter.", "text": "A 10% increase at Gap coexists with weaker group revenue, showing how selective discretionary demand is rewarding specific brand repair rather than lifting apparel broadly.", "url": "https://www.investing.com/news/stock-market-news/gap-lifts-annual-profit-forecast-on-strength-of-namesake-brand-4880153" },
+    { "label": "Europe", "title": "Iceland votes today on whether to reopen European Union accession talks.", "text": "The ballot authorizes negotiations, not membership; any negotiated terms would face a second referendum.", "url": "https://www.devdiscourse.com/article/international/3969084-reuters-world-news-summary" }
+  ],
+  "attention": {
+    "title": "Kevin Warsh's full Jackson Hole address",
+    "text": "It is the clearest primary source for the new Fed chair's reaction framework: less routine guidance, more weight on market and credit signals, and an explicit standard for acting against persistent inflation.",
+    "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
+  },
+  "ignore": {
+    "title": "The promise that 65 billion barrels will quickly lower fuel prices",
+    "text": "The agreement concerns rights over reserves in damaged fields. Contract execution, financing, heavy-crude infrastructure and production growth will take years; the reserve number is not a near-term supply forecast."
+  },
+  "history": {
+    "id": "history-aral-sea-command-system",
+    "number": "08",
+    "readTime": "7 min read",
+    "era": "CENTRAL ASIA\nC. 1960–2005",
+    "title": "The Aral Sea disappeared because a production system treated a watershed as spare capacity.",
+    "deck": "Soviet planners did not set out merely to destroy a lake. They built an agricultural machine in which river water, cotton quotas, canals, employment and foreign exchange reinforced one another while the cost accumulated downstream. The partial recovery of the North Aral Sea later showed that ecological repair works only when institutions can define a smaller, enforceable system.",
+    "thesis": "Environmental collapse is often not one bad decision but a chain of locally rational decisions whose system has no place to record the shared loss.",
+    "sections": [
+      { "title": "The sea was the end of a mountain water system", "text": "The Aral Sea was a vast inland lake between what are now Kazakhstan and Uzbekistan, fed principally by the Syr Darya and Amu Darya. Snow and glacier melt began far away in the Tian Shan and Pamir mountains, crossed dry plains and finally balanced evaporation from the lake. That flow supported fisheries, ports, wetlands and a local climate less extreme than the surrounding desert. In 1960 the Aral covered roughly 68,000 square kilometres and was commonly described as the world's fourth-largest lake. Its apparent abundance hid a constraint: because the basin had no ocean outlet, almost every additional unit diverted upstream was a unit the sea could not replace." },
+      { "title": "Cotton turned river flow into a production input", "text": "Soviet authorities wanted Central Asia to supply cotton and other irrigated crops at enormous scale. From the 1950s and especially the 1960s, canals drew heavily from both rivers to make arid land productive. The Karakum Canal carried Amu Darya water across Turkmenistan; networks in Uzbekistan and Kazakhstan expanded the cultivated area. Cotton met state plans, sustained processing industries and earned valuable export revenue. Each farm, district and ministry could be rewarded for hectares planted and tonnes delivered. None was rewarded for water that completed its journey to the sea." },
+      { "title": "The canals multiplied output and concealed loss", "text": "Much of the irrigation network was unlined. Water seeped into soil or evaporated before reaching crops, while repeated irrigation raised salts into fields and required still more water for flushing. In another accounting system those losses might have appeared as a charge on the project. In the command system they were dispersed across agencies and geography. Upstream production was visible in quotas; downstream damage appeared gradually as a lower shoreline. Once jobs, towns and political careers depended on cotton, reducing diversions became economically and institutionally harder than starting them had been." },
+      { "title": "A lake can cross thresholds before a plan admits failure", "text": "As inflow collapsed, water level and volume fell, salinity rose and native fish could no longer support the commercial catch. Ports such as Aralsk and Moynaq were stranded kilometres from water. By 1987 the shrinking lake had separated into northern and southern bodies. Exposed seabed became the Aralkum desert; winds carried salt and agricultural residues across settlements and fields. Wetlands contracted, summers became hotter and winters colder locally, and the fishing economy disappeared. The damage was not confined to nature. It changed health, food, employment, migration and the productivity of the agriculture that had caused it." },
+      { "title": "The Soviet breakup divided one basin among several states", "text": "After 1991, the watershed crossed newly sovereign borders. Kyrgyzstan and Tajikistan controlled important headwaters and valued winter hydropower; Kazakhstan, Uzbekistan and Turkmenistan depended on summer releases for irrigation. Cotton remained central to livelihoods and state revenue, so independence did not remove the incentives behind diversion. Basin-wide restoration now required countries to exchange energy, water and trust across seasons. The sea kept shrinking while every government faced immediate domestic reasons not to surrender its share. A single centralized failure had become a collective-action problem." },
+      { "title": "The North Aral recovered when the problem became smaller", "text": "Kazakhstan and the World Bank focused on the North Aral rather than promising to restore the entire historic lake. The Kok-Aral Dam, completed in 2005, held Syr Darya water in the northern basin instead of letting it drain south. Water level rose faster than expected, salinity fell and fisheries returned. The southern basins continued to contract, and the recovery did not undo regional health or land damage. But it proved an important point: repair became possible when one government, one tributary, one barrier and measurable ecological targets could be aligned. The success was partial precisely because it was bounded." }
+    ],
+    "timeline": [
+      { "date": "C. 1960", "text": "The Aral Sea covers about 68,000 square kilometres; large-scale river diversion for irrigated cotton accelerates." },
+      { "date": "1960s–70s", "text": "Canal networks expand across Soviet Central Asia while inflow to the sea falls sharply." },
+      { "date": "1987", "text": "Falling water levels divide the Aral into northern and southern bodies." },
+      { "date": "1991", "text": "The Soviet Union dissolves, leaving the basin shared among newly independent states with different seasonal water interests." },
+      { "date": "2005", "text": "Kazakhstan completes the Kok-Aral Dam with World Bank support; the North Aral begins a measurable recovery." },
+      { "date": "2014", "text": "Satellite imagery shows the eastern lobe of the South Aral dry for the first time in the modern record." }
+    ],
+    "sources": [
+      { "label": "NASA Earth Observatory · World of Change", "url": "https://earthobservatory.nasa.gov/world-of-change/AralSea" },
+      { "label": "NASA Earth Observatory · basin history", "url": "https://science.nasa.gov/earth/earth-observatory/aral-sea-3730/" },
+      { "label": "NASA JPL · water balance and irrigation", "url": "https://www.jpl.nasa.gov/news/nasa-data-find-some-hope-for-water-in-aral-sea-basin/" },
+      { "label": "World Bank · North Aral restoration project", "url": "https://documents1.worldbank.org/curated/en/990231468251377508/pdf/377600ENGLISH01al1strategy01PUBLIC1.pdf" },
+      { "label": "AP · collapse and partial recovery", "url": "https://apnews.com/article/cb565954d5bd2ef72c02a1db8231800d" }
+    ]
+  },
+  "threads": [
+    { "status": "New today · critical", "title": "U.S. control of Venezuelan oil", "text": "65bn-barrel concession announced · contracts and operator missing", "progress": 64 },
+    { "status": "Updated today · critical", "title": "Iran, Hormuz and Gulf stability", "text": "Banque Misr UAE targeted · regional compliance spillover next", "progress": 97 },
+    { "status": "New today · watching", "title": "The Warsh monetary regime", "text": "Hikes live again · September data and coalition decide", "progress": 72 },
+    { "status": "Updated today · critical", "title": "Nepal–Tibet flood cascade", "text": "579 dead in Nepal · second barrier lake overflowed", "progress": 89 },
+    { "status": "Updated today · watching", "title": "Frontier-lab compute ownership", "text": "Anthropic explored MatX purchase · partnership unresolved", "progress": 74 }
+  ]
+}
