@@ -1,0 +1,321 @@
+{
+  "date": { "display": "Sunday, 30 August 2026", "edition": "010", "updated": "7:12 AM" },
+  "worldSentence": "Pressure revealed what institutions could actually hold: Iran acknowledged a severe economic contraction without yielding at Hormuz, Niger's junta survived an internal military challenge with Russian help, and Ukraine ordered an ammunition-storage audit after a strike killed 37 people.",
+  "standfirst": "Iran says sanctions and blockade have cut its foreign trade by nearly 35% while inflation reaches 66%, yet it still claims control over Hormuz. Niger's government says it suppressed a mutiny that reached the airport and presidency, with the ruler's whereabouts not publicly established. In Ukraine, a Russian drone strike detonated a Kyiv-area ammunition depot beside civilian buildings. Elsewhere, Washington defended its rare joint yen intervention, Venezuela supplied terms that do not reconcile cleanly with the U.S. account, and Iceland's EU-talks referendum remained too close to call.",
+  "listenTime": "13 min",
+  "coverage": [
+    { "count": 1, "label": "Qatar & Gulf" },
+    { "count": 4, "label": "World & security" },
+    { "count": 2, "label": "Economy & markets" },
+    { "count": 1, "label": "AI & technology" },
+    { "count": 1, "label": "Aviation & consumer" }
+  ],
+  "connected": {
+    "title": "The decisive variable is no longer declared policy; it is operating endurance.",
+    "signals": [
+      { "label": "IRAN TRADE", "value": "−35%", "text": "Reported contraction in imports and exports under sanctions and blockade." },
+      { "label": "NEPAL REBUILD", "value": "$4–5bn", "text": "Initial reconstruction estimate, close to a tenth of national output." },
+      { "label": "AIR INDIA LOSS", "value": "$2.33bn", "text": "Combined annual loss at Air India and Air India Express before a new capital request." }
+    ],
+    "note": "Iran can absorb economic pain while preserving its maritime leverage, Niger's junta can repel a mutiny while losing cohesion inside the army, and Ukraine can intercept drones while remaining vulnerable to unsafe storage. The yen intervention, Venezuelan oil pact, Chinese memory-chip advance and Air India recapitalisation tell the same institutional story in other forms: outcomes now depend on balance sheets, contracts, production systems and internal discipline—not the ambition of the announcement."
+  },
+  "stories": [
+    {
+      "id": "iran-trade-collapse-hormuz-posture",
+      "number": "01",
+      "category": "Qatar, Iran & Gulf security",
+      "sourceNote": "Iranian government statements + Reuters · Saturday",
+      "title": "Iran quantified the economic damage—then said Hormuz remains under its control.",
+      "changed": "President Masoud Pezeshkian said Iranian imports and exports have fallen nearly 35% under U.S. sanctions and the naval blockade. Annual inflation reached 66% last month, while the government made prices, employment and de-dollarisation central priorities. Tehran nevertheless said diplomacy and defence remain inseparable, and the Revolutionary Guards rejected U.S. claims that Hormuz is open. Preliminary tracking showed only seven commodity vessels crossed on Thursday, versus a ten-day average of 15.",
+      "matters": "This is the clearest official admission yet that Washington's economic campaign is transmitting into Iranian trade and household conditions. It is not evidence of capitulation. Iran still possesses the leverage that creates the global cost: permissioned passage through a strait that normally carries about a fifth of world oil and LNG. Qatar's mediation therefore confronts a bargaining structure in which Tehran suffers domestically while making everyone else pay through restricted shipping.",
+      "watch": "The conditions Iran gives Qatar and Oman for normal traffic, whether vessel counts rise without renewed attacks, implementation of U.S. secondary sanctions against major partners, inflation and currency controls inside Iran, the visibility and authority of Supreme Leader Mojtaba Khamenei, and whether Washington accepts a shipping arrangement short of unrestricted navigation.",
+      "personal": true,
+      "lead": true,
+      "group": { "label": "The lead", "title": "Economic pressure is working on Iran's economy—not yet on its negotiating position.", "note": "The trade and inflation figures are official claims; the strategic inference comes from Tehran's simultaneous refusal to surrender control of the strait.", "break": false },
+      "background": {
+        "title": "The strait converts domestic endurance into international bargaining power",
+        "text": "The six-month war and blockade have damaged trade, oil revenue and living standards, while U.S. sanctions now reach regional banks and third-country counterparties. Yet Iran can ration access to Hormuz at a fraction of the cost required for Washington and Gulf producers to secure alternative routes. Qatar's prime minister pressed Tehran this week to return to pre-war freedom of navigation; Iran called the discussion creative but published no terms. The asymmetry explains why visible economic pain can coexist with strategic intransigence.",
+        "known": "Iran publicly reported the trade contraction and inflation rate, Qatar confirmed its mediation, and vessel tracking continues to show traffic far below pre-war conditions.",
+        "new": "Tehran has moved from general claims of hardship to quantified economic damage while explicitly maintaining its maritime posture."
+      },
+      "evidence": {
+        "left": { "label": "Confirmed pressure", "text": "Iran's president says foreign trade is down nearly 35%; official inflation reached 66%." },
+        "right": { "label": "No demonstrated concession", "text": "There is no published Iranian commitment to unrestricted passage or a renewed ceasefire framework." }
+      },
+      "sources": [
+        { "label": "Reuters · economic toll and Hormuz posture", "url": "https://uk.marketscreener.com/news/war-weighs-on-iran-s-economy-as-us-intensifies-sanctions-ce7858dcd981f325" },
+        { "label": "Qatar MOFA · current ministry updates", "url": "https://mofa.gov.qa/en/all-mofa-news" },
+        { "label": "AP · Iran's hardened leadership", "url": "https://apnews.com/article/f2e45b2c77f5994ed9d9534ae988403b" }
+      ]
+    },
+    {
+      "id": "niger-mutiny-russia-support",
+      "number": "02",
+      "category": "Sahel security & state power",
+      "sourceNote": "Niger state television + AP/Reuters · Saturday",
+      "title": "Niger's junta says it suppressed a mutiny that reached the airport and presidency.",
+      "changed": "Young soldiers attacked the military base inside Niamey's airport and fired at sensitive sites near the presidency, briefly interrupting state broadcasting. State television said loyalists killed or arrested dozens and regained the upper hand; AP could not confirm full control and the whereabouts of junta leader Abdourahamane Tchiani remained unclear. Analysts and diplomats said Russia's Africa Corps supplied air and ground support, and Moscow's ambassador said Nigerien officers thanked it for helping suppress the rebellion.",
+      "matters": "The mutiny turns Niger's security crisis inward. The officers who seized power in 2023 justified the coup by promising to defeat jihadist violence, expelled Western partners and moved toward Russia. Repeated militant attacks have instead stretched the army and generated grievances inside it. A Russian-assisted survival may deepen dependency on Moscow without resolving the operational failure that produced the revolt.",
+      "watch": "Independent confirmation of who controls Base 101 and the presidential compound, Tchiani's public appearance, arrests or purges inside the forces, which units joined or refused the mutiny, civilian disruption at the airport, the role of Africa Corps, and whether jihadist groups exploit the diversion of troops toward regime protection.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "The world beyond the lead", "title": "A security regime confronted the insecurity inside its own army.", "note": "The government claims control; command cohesion and the ruler's status were not independently established at publication time.", "break": true },
+      "background": {
+        "title": "The coup coalition is being tested by the same violence it promised to solve",
+        "text": "Niger, Mali and Burkina Faso built a joint military architecture after breaking with Western security partners. Niamey's airport hosts both Niger's air force and the headquarters of that three-country force, making the attack operationally and symbolically central. The base has also been attacked twice this year by jihadists. Soldiers from heavily affected regions reportedly participated in the mutiny, suggesting that battlefield losses, not only elite rivalry, are eroding the regime's internal bargain.",
+        "known": "Gunfire, explosions, disrupted broadcasting, hostage-taking and arrests were reported by state media, witnesses and multiple news organisations; Russian assistance is attributed to diplomats, analysts and Moscow's ambassador.",
+        "new": "Military discontent escalated into coordinated attacks on the airport base and presidential district rather than remaining a barracks grievance."
+      },
+      "evidence": {
+        "left": { "label": "Government account", "text": "State television says loyalists arrested or incapacitated the mutineers and restored the upper hand." },
+        "right": { "label": "Control not fully verified", "text": "AP could not independently confirm full control, and Tchiani had not publicly appeared." }
+      },
+      "sources": [
+        { "label": "AP · mutiny, arrests and Russian support", "url": "https://apnews.com/article/niger-niamey-gunfire-explosions-airport-presidential-district-77d0c701e5729f2779580ea557e0a2c3" },
+        { "label": "Reuters · attack and strategic implications", "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/30/gunfire-blasts-heard-in-several-areas-of-niger-capital-niamey-witness-says" }
+      ]
+    },
+    {
+      "id": "ukraine-mykolaiv-ammunition-depot-blast",
+      "number": "03",
+      "category": "Ukraine war & military resilience",
+      "sourceNote": "Ukrainian presidency and defence ministry + Reuters · Saturday",
+      "title": "A Russian drone strike detonated a Kyiv-area ammunition depot and killed at least 37 people.",
+      "changed": "A strike on a military facility at Myla set off artillery shells, mines and drones stored near homes and a care facility. President Volodymyr Zelenskiy said at least 37 people died, dozens were injured and hundreds evacuated; he blamed terrible negligence and announced criminal cases. The Defence Ministry ordered a full audit of weapons-storage locations. It was the second strike-triggered ammunition detonation near Kyiv in two months.",
+      "matters": "Russia's expanding drone campaign exposed a Ukrainian vulnerability that air defence alone cannot solve. Dispersal, hardening, separation from civilians and storage discipline determine whether one penetrating drone destroys a stockpile and a neighbourhood. The second similar failure means the loss is not only tactical inventory; it is evidence that wartime logistics have not adapted quickly enough to the threat.",
+      "watch": "The storage audit, criminal findings, relocation or hardening of depots, casualty revisions, the amount and type of ammunition lost, continuity of supply to front-line units, deployment of counter-drone systems around logistics sites, and whether Russia sustains its multi-day pressure on Kyiv.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "Europe & security", "title": "A successful strike became a mass-casualty logistics failure.", "note": "Russia caused the initiating attack; Ukrainian authorities themselves identify unsafe storage as the multiplier.", "break": true },
+      "background": {
+        "title": "Survivability is a property of the logistics network",
+        "text": "Russia has increased the number and speed of drones and ballistic missiles aimed at Kyiv and other regions. Ukraine cannot intercept every target, so resilience depends on what happens after penetration: smaller dispersed stocks, distance from civilians, blast separation, concealment and redundant routes. The July detonation at Vyshneve killed ten and damaged hundreds of homes. A second event creates a pattern serious enough for a nationwide audit rather than a site-specific repair.",
+        "known": "Ukraine confirmed the military function of the site, the stored munitions, casualties, evacuation and negligence investigations.",
+        "new": "The government publicly acknowledged the storage failure and ordered a system-wide review after a second comparable event."
+      },
+      "evidence": {
+        "left": { "label": "Confirmed by Kyiv", "text": "The facility, munitions, death toll, audit and criminal proceedings come from Ukraine's president and Defence Ministry." },
+        "right": { "label": "Loss still incomplete", "text": "The ammunition quantity, operational effect and final civilian toll have not been disclosed." }
+      },
+      "sources": [
+        { "label": "Reuters · strike, blast and audit", "url": "https://www.streetinsider.com/Reuters/Russian%2Bstrike%2Bon%2BKyiv-area%2Bammunition%2Bdepot%2Btriggers%2Bblast%2C%2Bkilling%2B37/26999521.html" }
+      ]
+    },
+    {
+      "id": "nepal-flood-reconstruction-bill",
+      "number": "04",
+      "category": "Climate, infrastructure & development",
+      "sourceNote": "Nepal finance minister + Reuters · Saturday estimate",
+      "title": "Nepal's initial flood-reconstruction bill reached almost a tenth of its economy.",
+      "changed": "Finance Minister Swarnim Wagle estimated that rebuilding after the Himalayan flood will cost $4 billion to $5 billion. More than 600 people have died across Nepal and Tibet and over 2,000 remain unaccounted for. The torrent levelled border towns, cut roads and bridges, and damaged hydropower plants representing more than 12% of Nepal's generating capacity. Authorities separately said the immediate risk from a second barrier lake had eased.",
+      "matters": "The disaster is becoming a sovereign development shock. Nepal depends on remittances, tourism and hydropower; the flood damaged the physical system meant to turn mountain water into domestic electricity and export revenue. A reconstruction programme near 10% of GDP will compete with ordinary public spending and may require concessional finance, grants and technical capacity well beyond emergency relief.",
+      "watch": "A formal damage assessment, donor and multilateral commitments, hydropower-restoration timelines, fiscal financing, tourism cancellations, the missing-person count, monitoring of remaining barrier lakes, and whether reconstruction rebuilds the same exposed corridor or changes its siting and standards.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "Climate & infrastructure", "title": "The rescue phase is turning into a national balance-sheet problem.", "note": "The $4–5 billion range is preliminary; the direction and scale are clear, but the asset-by-asset bill is not.", "break": true },
+      "background": {
+        "title": "Hydropower damage links physical loss to future fiscal capacity",
+        "text": "Nepal's geography concentrates settlements, roads, trade links and power assets in narrow river corridors. The same flow that supports hydropower can transmit glacier, rock and debris failures across multiple systems at once. Wagle expects a smaller bill than the 2015 earthquake, which cost roughly $9 billion, but this flood damages revenue-generating energy infrastructure as well as communities. That makes restoration sequencing—access, power, housing and trade—a macroeconomic decision.",
+        "known": "The finance minister supplied the estimate; authorities and reporting confirm the casualties, missing people and damage to more than 12% of generating capacity.",
+        "new": "The edition now has a first official scale for reconstruction rather than only a human toll and evolving hazard map."
+      },
+      "evidence": {
+        "left": { "label": "Initial official estimate", "text": "$4–5 billion, subject to ongoing loss-and-damage assessment." },
+        "right": { "label": "Financing unknown", "text": "No complete donor package, borrowing plan or reconstruction schedule exists yet." }
+      },
+      "sources": [
+        { "label": "Reuters · reconstruction estimate", "url": "https://www.streetinsider.com/Reuters/Exclusive-Nepal%27s%2Bflood%2Bdamage%2Bmay%2Bcost%2Bup%2Bto%2Ba%2Btenth%2Bof%2Beconomy%2Bto%2Brebuild/26999497.html" },
+        { "label": "AP · rescue and missing-person context", "url": "https://apnews.com/article/1f3d0ccf432eed879020e18efcab3146" }
+      ]
+    },
+    {
+      "id": "us-japan-yen-intervention-defence",
+      "number": "05",
+      "category": "Currencies, rates & financial stability",
+      "sourceNote": "U.S. Treasury letter + Reuters · posted Friday, detailed Saturday",
+      "title": "Washington said its rare yen intervention was meant to prevent a global forced unwind.",
+      "changed": "Treasury Secretary Scott Bessent disclosed that the United States used foreign-currency assets in its Exchange Stabilization Fund to buy yen alongside Japan on 31 July. He argued that a disorderly yen and Japanese-bond selloff could force leveraged positions to unwind, destabilise global markets and raise U.S. borrowing costs. The yen recovered from a 40-year low near 164 per dollar after the intervention but weakened back toward 160 following Kevin Warsh's hawkish Fed speech.",
+      "matters": "The letter defines the action as systemic-risk management, not an attempt to select a convenient exchange rate. Japan's large bond market, global carry trades and foreign asset holdings mean rapid currency moves can propagate through collateral and funding markets. The difficulty is that U.S. rate expectations still push in the opposite direction: a potentially tighter Fed widens the yield incentive to sell yen.",
+      "watch": "Whether 160 triggers another operation, Bank of Japan rate action, changes in leveraged yen-funded positions, Japanese government-bond liquidity, coordination language from Tokyo and Washington, the size and duration of Exchange Stabilization Fund use, and whether intervention changes trend or only volatility.",
+      "personal": true,
+      "lead": false,
+      "group": { "label": "Economy & markets", "title": "The United States treated the yen as financial plumbing, not somebody else's currency.", "note": "The intervention is confirmed; its ability to overcome the rate differential remains unproven.", "break": true },
+      "background": {
+        "title": "A currency threshold matters because of the positions clustered around it",
+        "text": "Investors borrow cheaply in yen to buy higher-yielding assets elsewhere. When the yen moves sharply, hedges and leverage can reverse together, forcing sales across unrelated markets. Japan also sits at the centre of a vast government-bond market and a large pool of overseas capital. Bessent's justification is therefore about second-order effects on global funding. Yet every intervention spends credibility if macro policy keeps recreating the same pressure.",
+        "known": "Treasury confirmed the date, mechanism and financial-stability rationale; market prices confirm a temporary rebound followed by renewed weakening.",
+        "new": "Washington has publicly explained why it joined Tokyo and identified forced unwinds as the transmission channel it was trying to stop."
+      },
+      "evidence": {
+        "left": { "label": "Documented action", "text": "The Exchange Stabilization Fund swapped foreign-currency assets for yen in a coordinated purchase." },
+        "right": { "label": "Durability uncertain", "text": "The yen's return toward 160 shows that intervention has not removed the underlying rate pressure." }
+      },
+      "sources": [
+        { "label": "Reuters · Bessent letter and market context", "url": "https://www.streetinsider.com/Reuters/Bessent%2Bsays%2Bdisorderly%2Byen%2Bmoves%2Bcan%2Bdestabilize%2Bglobal%2Bmarkets/26999571.html" }
+      ]
+    },
+    {
+      "id": "venezuela-oil-terms-diverge",
+      "number": "06",
+      "category": "Energy contracts & state power",
+      "sourceNote": "Venezuelan address + AP/Reuters · Saturday updates",
+      "title": "Caracas supplied a 25-year oil target that does not reconcile cleanly with Washington's 100-year concession account.",
+      "changed": "Acting President Delcy Rodríguez said the U.S.–Venezuela energy agreement will last 25 years, preserve Venezuelan ownership of its resources and target output above 1.5 million barrels a day. AP, citing the two governments and a U.S. official, reported that a newly formed company received 100-year rights over 17 fields and that the United States would receive 55% effective output through ownership and at-cost purchase rights. Reuters separately reported that Washington plans a 35% passive stake in businessman Alejandro Betancourt's North American Blue Energy Partners.",
+      "matters": "The new detail reduces rather than resolves uncertainty. A 25-year bilateral framework could coexist with a 100-year field concession, and a government stake could sit inside the unnamed operating vehicle—but none of the documents is public. Until those layers are mapped, the deal cannot be evaluated for control, economics, legal durability or who funds the promised $100 billion of investment.",
+      "watch": "Publication of the framework and concession texts, identification of the operating company and Betancourt vehicle's exact role, Venezuelan legislative or constitutional approval, U.S. congressional oversight, capital commitments, production baselines and milestones, creditor treatment, and whether Chevron or another established operator participates.",
+      "personal": true,
+      "lead": false,
+      "group": { "label": "Energy & investment", "title": "More terms appeared, but the legal architecture became harder to see.", "note": "The statements may describe different layers of one transaction; without documents, that is an inference rather than a reconciliation.", "break": true },
+      "background": {
+        "title": "Duration, ownership and offtake are different forms of control",
+        "text": "A state can retain constitutional ownership of underground resources while granting a company long operating rights, taking taxes and royalties, and giving another government preferential access to produced barrels. The 25-year and 100-year figures therefore need not be mutually exclusive. What matters is which instrument can be terminated, who owns shares and equipment, how costs are recovered, and whose law governs disputes. The public reserve number does not answer any of those questions.",
+        "known": "Both governments confirm 17 fields and 65 billion barrels; Rodríguez added a 25-year term and 1.5 million-bpd target; AP describes 100-year field rights and 55% U.S. effective output.",
+        "new": "The first post-announcement address exposed distinct durations and a possible 35% U.S. corporate stake without publishing the chain that connects them."
+      },
+      "evidence": {
+        "left": { "label": "Multiple public descriptions", "text": "Caracas, Washington and sourced reporting now provide field, output, duration and ownership claims." },
+        "right": { "label": "No operative documents", "text": "The concession, shareholder agreement, financing commitments and dispute terms remain unavailable." }
+      },
+      "sources": [
+        { "label": "AP · known terms and open questions", "url": "https://apnews.com/article/venezuela-oil-trump-deal-unknown-questions-reserves-c229bc39b6e1a3d5dd16f7f9e67fef3f" },
+        { "label": "Reuters · Rodríguez's 25-year description", "url": "https://finance.yahoo.com/news/venezuelas-interim-president-says-us-022944840.html" },
+        { "label": "Reuters · reported 35% U.S. stake", "url": "https://finance.yahoo.com/news/us-35-stake-venezuelan-mogul-020106280.html" }
+      ]
+    },
+    {
+      "id": "cxmt-lpddr6-xiaomi-mass-production",
+      "number": "07",
+      "category": "Semiconductors & technology sovereignty",
+      "sourceNote": "CXMT and Xiaomi announcements + Reuters · Saturday",
+      "title": "China's CXMT moved LPDDR6 memory into a flagship Xiaomi device less than a year after its previous generation.",
+      "changed": "CXMT said it has begun mass-producing LPDDR6 mobile memory for Xiaomi's 18 Fold, due in September; Xiaomi confirmed the supply plan. The phone is also expected to use Xiaomi's in-house three-nanometre Xring O3 processor. CXMT reported first-half revenue of 150.3 billion yuan, up 874% year on year, and a return to profit. It also sued the Pentagon over its designation as a company aiding China's military.",
+      "matters": "The important development is not another phone specification. Memory, processors and system integration are converging inside a Chinese flagship without relying entirely on the leading foreign supply chain. LPDDR6 mass production narrows a known technology gap with Samsung and SK Hynix and gives Chinese device makers a domestic path for high-bandwidth, low-power computing. Commercial scale will matter more than the announcement.",
+      "watch": "Independent yield and performance data, volumes supplied to Xiaomi, server and automotive qualification, equipment or material bottlenecks, whether other handset makers adopt CXMT, the Pentagon lawsuit, export-control responses, and whether revenue growth converts into sustainable margins after the current capacity build.",
+      "personal": true,
+      "lead": false,
+      "group": { "label": "AI & technology", "title": "China's chip strategy reached a product integration milestone.", "note": "Mass production and customer confirmation are real; parity with global leaders has not been independently demonstrated.", "break": true },
+      "background": {
+        "title": "A sovereign stack is assembled one qualified component at a time",
+        "text": "Advanced computing needs more than logic chips. Memory bandwidth, power use, packaging, software and production yield determine whether a design works economically inside a real device. CXMT's rapid move from LPDDR5 to LPDDR6, combined with Xiaomi's in-house processor, creates a domestic integration test visible to consumers. It does not eliminate foreign dependencies across manufacturing equipment and materials, but it shifts the constraint from whether a component exists to whether it can perform at scale.",
+        "known": "Both companies confirmed the device and memory pairing; CXMT disclosed mass production, revenue and profit direction.",
+        "new": "The latest memory generation has moved from samples into an announced flagship production programme."
+      },
+      "evidence": {
+        "left": { "label": "Company-confirmed deployment", "text": "CXMT and Xiaomi each announced LPDDR6 supply for the September foldable." },
+        "right": { "label": "Performance unverified", "text": "No independent yield, cost, bandwidth or power comparison has been published." }
+      },
+      "sources": [
+        { "label": "Reuters · CXMT production and Xiaomi adoption", "url": "https://www.streetinsider.com/Reuters/China%27s%2BCXMT%2Bto%2Bsupply%2Bmemory%2Bchip%2Bfor%2BXiaomi%27s%2Bupcoming%2Bfolding%2Bphone/26999490.html" },
+        { "label": "Reuters · Pentagon designation lawsuit", "url": "https://www.streetinsider.com/Reuters/Chipmaker%2BCXMT%2Bsues%2BPentagon%2Bover%2B%27Chinese%2Bmilitary%2Bcompany%27%2Bdesignation/26999409.html" }
+      ]
+    },
+    {
+      "id": "iceland-eu-referendum-partial-count",
+      "number": "08",
+      "category": "Europe, trade & sovereignty",
+      "sourceNote": "RÚV count + Reuters · early Sunday partial result",
+      "title": "Iceland's EU-talks referendum opened with a 51.2% yes lead—but the reliable result is still hours away.",
+      "changed": "RÚV reported 51.2% support and 48.8% opposition after 87,000 of roughly 270,000 eligible voters were counted. Election officials said a reliable result may not arrive until midday because ballots travel from remote communities by road, boat and aircraft. The advisory vote asks whether to restart accession negotiations; any eventual membership terms would face a second referendum.",
+      "matters": "Even a narrow yes would reopen a strategic choice Iceland suspended in 2013. The immediate negotiation would concern fisheries, sovereignty, economic rules and the prospect of eventually replacing an 8% domestic policy rate with euro-area monetary conditions. Geopolitical anxiety and U.S. pressure around Greenland added urgency, but the campaign remained grounded mainly in mortgages, prices and control of fishing waters.",
+      "watch": "The final national margin and turnout, rural versus Reykjavík results, whether parliament treats the advisory result as binding, the government's proposed end-2026 negotiating start, EU flexibility on fisheries, and the coalition's stability if the vote remains extremely close.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "Europe", "title": "A potentially historic choice is visible but not settled.", "note": "The 51.2% figure is explicitly partial; the edition does not project the final result.", "break": true },
+      "background": {
+        "title": "This vote authorises discovery of terms, not accession",
+        "text": "Iceland already participates in the European single market through the EEA and in Schengen, but it has no vote over many rules it applies. Supporters want to test whether full membership can lower financing costs and strengthen security; opponents value policy independence and fear the common fisheries framework. Talks could take 18 to 24 months. The second referendum means today's decision expands the option set without committing the country to accept the final package.",
+        "known": "The partial count, referendum question, second-vote requirement and possible negotiating timetable are public.",
+        "new": "Voting is complete and the first count shows a margin too narrow for a responsible final call."
+      },
+      "evidence": {
+        "left": { "label": "Partial count", "text": "51.2% yes from 87,000 counted votes." },
+        "right": { "label": "Outcome unresolved", "text": "Officials do not expect a reliable result until later Sunday." }
+      },
+      "sources": [
+        { "label": "Reuters · partial result and implications", "url": "https://www.marketscreener.com/news/iceland-votes-on-whether-to-start-eu-membership-talks-ce7858dcd98eff20" },
+        { "label": "Iceland government · referendum scope", "url": "https://island.is/en/p/public-referendum-2026/news/public-referendum-29-august-2026" },
+        { "label": "RÚV · live count", "url": "https://www.ruv.is/english/2026-08-29-iceland-votes-eu-accession-talks-referendum-live-blog-485377" }
+      ]
+    },
+    {
+      "id": "sia-air-india-capital-exposure",
+      "number": "09",
+      "category": "Aviation strategy & capital allocation",
+      "sourceNote": "Temasek letter + Reuters · Saturday",
+      "title": "Temasek backed Singapore Airlines' Air India strategy without committing to the next $1.5 billion request.",
+      "changed": "Singapore's state investor publicly supported Singapore Airlines' long-term 25.1% stake in Air India as scrutiny grew over a reported $1.5 billion equity request to Tata Sons and SIA. Temasek said a transformation of this scale will be complex and non-linear, but did not say whether it supports a new contribution. Air India and Air India Express lost a combined $2.33 billion in the year to March, weighing on SIA's profit.",
+      "matters": "The strategic logic—access to India's growing aviation market and a network partnership with Tata—now meets a harder capital-allocation test. Airspace closures, high fuel costs, integration problems and the aftermath of last year's fatal crash make operational repair more expensive and less predictable. Supporting the thesis is different from underwriting every funding round; SIA's board must decide how much option value justifies further exposure.",
+      "watch": "The formal capital request, SIA board approval, split between Tata and SIA, restructuring milestones attached to fresh equity, fleet and network integration, reliability and safety metrics, Pakistan and Gulf airspace access, fuel exposure, and whether losses narrow before another recapitalisation becomes necessary.",
+      "personal": true,
+      "lead": false,
+      "group": { "label": "Aviation & consumer", "title": "A network bet became a repeated-capital question.", "note": "Temasek endorsed the long-term strategy; it did not promise funding for the reported request.", "break": true },
+      "background": {
+        "title": "Minority ownership limits control while preserving the obligation to choose",
+        "text": "Tata owns 74.9% of Air India and controls the operating transformation; SIA owns enough to share materially in gains and losses but not to direct the programme. That asymmetry is acceptable when integration milestones are visible and the market opportunity compounds. It becomes harder when external shocks and internal execution consume capital faster than improvement appears. The next decision should therefore be read as a price for continued participation, not merely support for Indian aviation growth.",
+        "known": "The ownership, reported request, Temasek letter and combined annual loss are public; SIA says it will assess any request against its other capital needs.",
+        "new": "Temasek has defended the strategic horizon while deliberately leaving the immediate cheque undecided."
+      },
+      "evidence": {
+        "left": { "label": "Strategic support", "text": "Temasek says it supports SIA's long-term Air India investment." },
+        "right": { "label": "Funding not approved", "text": "Neither Temasek nor SIA has committed to the reported $1.5 billion request." }
+      },
+      "sources": [
+        { "label": "Reuters · Temasek response and Air India losses", "url": "https://ca.marketscreener.com/news/temasek-backs-singapore-airlines-air-india-investment-amid-growing-scrutiny-ce7858dcd980f722" }
+      ]
+    }
+  ],
+  "radar": [
+    { "label": "Trade & industry", "title": "GM's Canadian union deal ties C$1.1 billion of investment to a tariff-exposed production base.", "text": "The package includes a next-generation heavy-duty pickup in Oshawa and new transmission work, but worker approval is pending and U.S. vehicle tariffs could rise to 50% in January.", "url": "https://www.streetinsider.com/Reuters/GM%2Bunion%2Bdeal%2Bwould%2Binvest%2BC%241.1%2Bbillion%2Bin%2BCanada%2Bauto%2Bfactories%2Bamid%2BUS%2Btariff%2Bpressure/26999582.html" },
+    { "label": "AI policy", "title": "Washington will ask G20 technology ministers to endorse light-touch AI regulation.", "text": "The proposed non-binding approach would avoid new regulators and favour company-government testing. Watch the text other members are willing to sign, not the executive speaker list.", "url": "https://cio.economictimes.indiatimes.com/news/corporate-news/openai-nvidia-ceos-to-speak-at-tech-focused-g20-meeting/133604276" },
+    { "label": "AI products", "title": "OpenAI set a 12 November cutoff for models inside SpaceX-owned Cursor.", "text": "OpenAI cites contract and terms-of-service risk after the change of control; Cursor says it is seeking resolution and Anthropic plans more Claude capacity. The operational lesson is provider concentration.", "url": "https://www.streetinsider.com/Reuters/OpenAI%2Bto%2Bcut%2Boff%2BAI%2Bmodels%2Bfor%2BSpaceX-owned%2BCursor%2C%2Bescalating%2Bfeud%2Bwith%2BMusk/26999467.html" },
+    { "label": "East Asia", "title": "South Korea replaced its finance, justice and defence ministers in a broad cabinet reshuffle.", "text": "The finance appointment matters if it changes fiscal or market policy; watch the first programme from veteran technocrat Lee Hyoung-il before assigning direction.", "url": "https://www.marketscreener.com/news/south-korea-names-veteran-technocrat-lee-hyoung-il-as-new-finance-chief-in-cabinet-reshuffle-ce7858dcdb80f521" }
+  ],
+  "attention": {
+    "title": "AP's account of the Niger mutiny",
+    "text": "It best connects the attack itself to the deeper failure: a military regime founded on restoring security now depends on Russian support to contain rebellion among soldiers exposed to worsening violence.",
+    "url": "https://apnews.com/article/niger-niamey-gunfire-explosions-airport-presidential-district-77d0c701e5729f2779580ea557e0a2c3"
+  },
+  "ignore": {
+    "title": "Any definitive call on Iceland's referendum this morning",
+    "text": "The first count is close, incomplete and geographically uneven. A 51.2% partial lead is information about the race—not the result."
+  },
+  "history": {
+    "id": "history-netherlands-delta-works",
+    "number": "10",
+    "readTime": "7 min read",
+    "era": "THE NETHERLANDS\n1953–1997",
+    "title": "The Netherlands did not defeat the sea. It built an institution that could keep renegotiating the boundary.",
+    "deck": "The North Sea flood of 1953 killed more than 1,800 people in the Netherlands and exposed warnings that had existed before the storm. The Delta Works that followed are remembered as concrete and steel, but their deeper achievement was political: a country converted catastrophe into standards, long-duration funding, specialised engineering and eventually an ecological compromise that changed the original plan.",
+    "thesis": "Resilience is not one barrier strong enough to end risk; it is a durable system that can revise protection as knowledge, values and the hazard itself change.",
+    "sections": [
+      { "title": "The storm found a coast already known to be vulnerable", "text": "On the night of 31 January 1953, a severe North Sea storm drove water toward the low-lying coasts of the Netherlands, Britain and Belgium. In the Dutch southwest, high water and waves overtopped and breached defences across islands and estuaries. More than 1,800 people died in the Netherlands, livestock drowned, farmland took salt water and communities were cut off in darkness. The event was exceptional, but the weakness was not wholly surprising. Rijkswaterstaat studies in the late 1930s had warned that the southwest delta's sea defences could not withstand a major surge; war damage, reconstruction priorities, erosion and incomplete closures left the system exposed." },
+      { "title": "Closing estuaries changed the geometry of defence", "text": "Repairing every kilometre of the existing coastline would preserve a long, irregular perimeter with many weak points. The Delta Commission instead proposed shortening the boundary between land and sea. By damming most tidal inlets in Zeeland and South Holland, engineers could replace hundreds of kilometres of vulnerable dykes with a smaller number of high-standard structures. This was a systems move: reduce the length that must be defended, control water levels behind the new line and connect formerly separated islands with roads built across the works." },
+      { "title": "A programme survived because it became law, sequence and organisation", "text": "The government appointed the Delta Commission within weeks of the disaster, and construction on the first barrier began within a year. The Delta Act of 1958 translated urgency into a programme that could outlast any one cabinet. Rijkswaterstaat created specialised capacity, while contractors developed methods for foundations, caissons, gates and work in tidal currents. Projects were sequenced rather than attempted all at once. The Hollandsche IJssel barrier protected the densely populated economic heart first; later dams and sluices progressively reduced exposure while knowledge accumulated." },
+      { "title": "The original plan solved safety by erasing an estuary", "text": "The Eastern Scheldt was initially meant to be closed by a solid dam. That would simplify flood protection and create calmer water, but it would also eliminate normal tides and transform a saltwater ecosystem and shellfish economy. By the 1970s, environmental values had acquired political force that the 1950s plan had barely represented. Fishers, scientists and campaigners argued that safety did not require treating the living estuary as expendable. The conflict delayed the project and raised costs, but it also forced the programme to state what it was protecting beyond dry land." },
+      { "title": "A movable barrier made safety conditional instead of permanent", "text": "The compromise was the Oosterscheldekering: normally open so tides and salt water continue to move, but closable when a dangerous surge approaches. Building it required enormous piers, gates and seabed preparation on a scale that made it the most technically complex part of the Delta Works. The barrier opened in 1986. It did not preserve the estuary unchanged—tidal range and sediment movement still altered—but it replaced the binary choice between an open, dangerous inlet and a sealed, ecologically transformed lake with an operating rule." },
+      { "title": "Completion did not end the programme's logic", "text": "The Delta Works are conventionally marked complete with the Maeslant barrier in 1997, but the Netherlands did not declare the water problem solved. Sea-level rise, land subsidence, river flooding and ecological damage change the design conditions. Modern Dutch policy therefore combines barriers and strengthened dykes with space for rivers, nourishment of coasts, monitoring and periodic standards. Some waters cut off by earlier dams now need restoration of exchange and migration. The enduring invention is the capacity to revisit the boundary—technically, fiscally and politically—before the next disaster makes revision compulsory." }
+    ],
+    "timeline": [
+      { "date": "LATE 1930s", "text": "Rijkswaterstaat studies warn that the southwest delta's sea defences are inadequate for a major surge." },
+      { "date": "31 JAN–1 FEB 1953", "text": "Storm surge breaches Dutch defences; more than 1,800 people die in the Netherlands." },
+      { "date": "1953", "text": "The Delta Commission is appointed within weeks and begins defining a shorter, stronger line of defence." },
+      { "date": "1958", "text": "The Delta Act gives the multi-decade programme a legal and funding framework." },
+      { "date": "1986", "text": "The movable Eastern Scheldt barrier opens after the original solid-dam plan is changed to preserve tidal ecology." },
+      { "date": "1997", "text": "The Maeslant storm-surge barrier opens, conventionally completing the Delta Works while adaptation continues." }
+    ],
+    "sources": [
+      { "label": "Rijkswaterstaat · institutional history", "url": "https://www.rijkswaterstaat.nl/en/about-us/our-organisation/our-history" },
+      { "label": "NASA Earth Observatory · flood and defence history", "url": "https://science.nasa.gov/earth/earth-observatory/fighting-back-the-sea-92334/" },
+      { "label": "Watersnoodmuseum · history of the Delta Works", "url": "https://www.watersnoodmuseum.nl/en/water-knowledge/learn-about-water-safety/articles/the-history-the-delta-works" },
+      { "label": "Rijkswaterstaat · Eastern Scheldt barrier", "url": "https://www.rijkswaterstaat.nl/en/projects/iconic-structures/eastern-scheldt-barrier" },
+      { "label": "PBL Netherlands · ecological consequences and restoration", "url": "https://www.pbl.nl/en/publications/management-options-for-restoring-estuarine-dynamics-and-implications-for-ecosystems-a-quantitative-approach-for" }
+    ]
+  },
+  "threads": [
+    { "status": "Updated today · critical", "title": "Iran, Hormuz and Gulf stability", "text": "Trade down nearly 35% · Tehran still claims passage control", "progress": 98 },
+    { "status": "Updated today · critical", "title": "U.S. control of Venezuelan oil", "text": "25-year framework vs 100-year rights · documents still missing", "progress": 69 },
+    { "status": "New today · critical", "title": "Niger military cohesion", "text": "Mutiny suppressed with Russian help · command status unclear", "progress": 77 },
+    { "status": "Updated today · critical", "title": "Nepal–Tibet flood cascade", "text": "$4–5bn rebuild estimate · hydropower damage now central", "progress": 92 },
+    { "status": "New today · watching", "title": "Yen intervention regime", "text": "Washington cites forced-unwind risk · 160 threshold returns", "progress": 73 }
+  ]
+}
