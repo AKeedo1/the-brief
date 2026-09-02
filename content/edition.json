@@ -1,12 +1,12 @@
 {
   "date": {
-    "display": "Tuesday, 1 September 2026",
-    "edition": "012",
+    "display": "Wednesday, 2 September 2026",
+    "edition": "013",
     "updated": "7:05 AM"
   },
-  "worldSentence": "Renewed fire around Hormuz widened into a direct Iranian drone attack on the UAE, while disasters, defence spending and financial regulators all delivered the same warning: systems built for efficiency are being forced to prove their resilience.",
-  "standfirst": "The UAE intercepted a drone approaching from Iran and reserved the right to respond, turning Sunday’s U.S.–Iran exchange into a wider Gulf event. Beyond the lead, the Nepal–China flood toll passed 950 as hundreds of hydropower workers remained trapped; Greece bought a €3 billion Israeli air-defence network; Japan put autonomous weapons and AI command at the centre of its next military budget; and Russia returned in person to the G20 without winning a promise of relief. Qatar reported faster business formation but only QAR 253 million of investment across 28 factories started this year. The Financial Stability Board elevated frontier-AI cyber risk, while Shein’s Hong Kong debut exposed the strain on ultra-cheap cross-border retail.",
-  "listenTime": "15 min",
+  "worldSentence": "The U.S.–Iran war returned to sustained strikes as Hormuz traffic stalled, while bond markets and the G20 exposed how quickly security shocks become financing and coordination shocks.",
+  "standfirst": "U.S. forces struck Iranian air-defence, maritime, mine-laying and communications targets on Tuesday; Iran answered against U.S. assets in Jordan and Iraq and said it also attacked Bahrain. With tanker traffic through Hormuz reduced to a trickle, Brent moved above $95 and sovereign yields climbed across major markets. Beyond the lead, China withheld consent from a G20 finance statement on trade imbalances, Russia extended its heaviest run of attacks on Kyiv, Xi Jinping arrived in Egypt to deepen a relationship spanning ports, industry and defence, and the United States asked G20 members to avoid broad new AI rules. Qatar Airways will restore four Saudi gateways and lift winter service above 155 weekly flights.",
+  "listenTime": "16 min",
   "coverage": [
     {
       "count": 2,
@@ -17,518 +17,538 @@
       "label": "World & security"
     },
     {
-      "count": 1,
+      "count": 2,
       "label": "Economy & markets"
     },
     {
       "count": 1,
-      "label": "Technology & consumer"
+      "label": "Technology"
     },
     {
       "count": 1,
-      "label": "Aviation radar"
+      "label": "Aviation"
     }
   ],
   "connected": {
-    "title": "Resilience is moving from a slogan into a bill.",
+    "title": "The cost of fragmentation is arriving through routes, rules and rates.",
     "signals": [
       {
-        "label": "NEPAL",
-        "value": "950+",
-        "text": "Deaths across Nepal and China passed the threshold as hydropower failures multiplied the disaster."
+        "label": "HORMUZ",
+        "value": "0",
+        "text": "Kpler registered no commodity-vessel transit on Sunday after only five on Saturday."
       },
       {
-        "label": "GREECE",
-        "value": "€3BN",
-        "text": "Athens committed to a national, multi-layered Israeli air-defence architecture."
+        "label": "G20",
+        "value": "19–1",
+        "text": "Every member present except China accepted the chair’s statement on trade imbalances."
       },
       {
-        "label": "SHEIN",
-        "value": "−10%",
-        "text": "The retailer’s shares fell around 10% in early Hong Kong trading after a $1.7 billion IPO."
+        "label": "QATAR–KSA",
+        "value": "155+",
+        "text": "Qatar Airways plans more than 155 weekly Saudi flights this winter."
       }
     ],
-    "note": "The stories are not one narrative, but they reveal the same governing constraint. The UAE and Greece are paying for defence against projectiles; Nepal is discovering the cost of concentrating power generation in exposed river corridors; Japan wants cheaper autonomous weapons because people and inventories are scarce; banks are being warned that AI changes the economics of attack; and Shein is learning that a retail model optimized around tariff exemptions and frictionless logistics can lose its edge when those assumptions change. Announcements show intent. Redundancy, execution and adaptation determine resilience."
+    "note": "Hormuz is a physical route that now depends on security assurances no actor can supply alone. Sovereign bonds are the price of governments asking markets to absorb more debt while oil raises inflation risk. The G20 could record broad agreement but not consensus because China rejected key language. AI governance is moving toward competing regulatory blocs. Qatar Airways, by contrast, is adding redundancy and frequency inside a regional network. Fragmentation does not always stop activity; it changes who bears the risk, how much capital costs and which routes remain usable."
   },
   "stories": [
     {
-      "id": "iran-drone-uae-gulf-widening",
+      "id": "us-iran-strikes-hormuz-war-footing",
       "number": "01",
-      "category": "Qatar, Iran & Gulf security",
-      "sourceNote": "UAE defence and foreign ministries + AP · Monday",
-      "title": "Iran’s retaliation widened to the UAE after the weekend exchange with the United States.",
-      "changed": "The UAE said its air force intercepted a drone detected over its territorial waters while approaching from Iran on Monday. The Foreign Ministry called it a direct Iranian attack, said no threat to UAE sovereignty would be tolerated and reserved the right to respond. Iranian officials separately said two people were killed and several wounded in Sunday’s U.S. strike on launchers at Larak Island; missiles Iran fired at U.S. sites in Jordan were intercepted.",
-      "matters": "Yesterday’s lead could still be read as a contained U.S.–Iran exchange. A projectile directed toward the UAE changes that frame. It restores the risk that Gulf states hosting U.S. forces or essential energy and aviation infrastructure become active targets even when they are not conducting the initiating strike. For Qatar, the immediate issue is not a reported attack at home but regional force protection, airspace reliability, mediation room and the possibility that one intercepted weapon creates a chain of sovereign responses.",
-      "watch": "Whether Iran acknowledges or explains the UAE-bound drone; whether Abu Dhabi exercises the response it reserved; additional launches toward Gulf states; Qatar, Oman or Saudi mediation; changes to airspace, airport or shipping operations; U.S. force-protection measures; independently verified casualties at Larak; and whether Brent, tanker traffic and war-risk insurance remain elevated.",
+      "category": "Iran, Qatar & Gulf security",
+      "sourceNote": "U.S. CENTCOM, Iranian statements + AP/Reuters · Tuesday night",
+      "title": "The U.S.–Iran exchange became a new strike cycle as Hormuz traffic approached standstill.",
+      "changed": "U.S. Central Command said it completed strikes on Iranian air-defence sites, radar, maritime facilities, mine-laying capabilities and communications systems. Iran said it struck U.S. assets in Jordan and Iraq; Iranian media also reported an attack on Bahrain. Tehran said five people were killed and dozens wounded when a U.S. strike hit a wedding, a claim not independently verified in the cited reporting. Ship data showed only five commodity vessels crossing Hormuz on Saturday and none registered on Sunday, versus 31 the previous weekend.",
+      "matters": "This is materially worse than yesterday’s single UAE-bound drone. Washington is degrading the systems Iran uses to control the strait, while Tehran is widening the geography of retaliation and treating shipping access as leverage. For Qatar, exposure runs through LNG export reliability, airspace, force protection, imported-goods costs and narrowing mediation room. Interception can protect a site; it cannot restore confidence to shipowners, crews and insurers deciding whether to enter a contested chokepoint.",
+      "watch": "Further strike waves; verified casualties and target damage; any confirmed attack in Bahrain or on Qatar-linked infrastructure; tanker transits and AIS-dark movements; war-risk premiums; Brent and LNG benchmarks; Qatar–Oman–Pakistan mediation; and whether a shipping framework separates commercial passage from military traffic.",
       "personal": true,
       "lead": true,
       "group": {
         "label": "The lead",
-        "title": "The strike–response cycle now touches a second Gulf state.",
-        "note": "The interception and direction of approach are official UAE claims; Iran has not publicly supplied a matching account of the drone in the cited reporting.",
+        "title": "A tactical exchange is hardening into an operating environment.",
+        "note": "CENTCOM’s target list is official. Iranian casualty and Bahrain claims require confirmation; ship counts omit vessels travelling without transponders.",
         "break": false
       },
       "background": {
-        "title": "Interception prevented damage, not escalation",
-        "text": "The drone followed the first significant U.S.–Iran military action in more than a month. Washington said the Larak launchers were being prepared to deploy sea mines in the Strait of Hormuz; Tehran called the strike deadly and answered against U.S. sites in Jordan. The UAE incident occurred after those launches, making it part of the same retaliation window even though the target, mission and command chain have not been independently established. The UAE’s wording matters: its defence statement initially described responding to a UAV, while its foreign ministry explicitly called the event a hostile Iranian attack and asserted a legal right to respond.",
-        "known": "The UAE detected and intercepted a drone over its waters approaching from Iran; no damage or casualties were reported in the cited official statements.",
-        "new": "Retaliation expanded beyond U.S. sites in Jordan to a sovereign Gulf state, and Abu Dhabi formally reserved a response."
+        "title": "The battlefield and the chokepoint are now one system",
+        "text": "Sunday’s U.S. strike on launchers at Larak Island ended a month-long lull. Tuesday’s broader wave targeted radar, air defence, communications and mine-laying capacity—the infrastructure through which Iran detects, coordinates and enforces control near Hormuz. Iran’s answer pushed the stated target set into Iraq and Bahrain. Commercial operators already faced tanker attacks and uncertain permission to transit. Even if navies can clear a route, traffic will not normalize until owners, charterers, crews and insurers believe the clearance will persist. Diplomacy about shipping rules may therefore matter as much as the next military assessment.",
+        "known": "CENTCOM confirms a multi-category strike wave; Iran confirms retaliation toward U.S. assets; tracked commodity traffic fell sharply.",
+        "new": "The United States moved from a limited launcher strike to a broader campaign against Iran’s operating system around the strait."
       },
       "evidence": {
         "left": {
-          "label": "Wider target set",
-          "text": "The UAE says an Iranian attack reached its territorial waters after the Jordan launches."
+          "label": "Military escalation",
+          "text": "Radar, air defence, maritime, mine-laying and communications targets were struck in one U.S. wave."
         },
         "right": {
-          "label": "Intent still unclear",
-          "text": "The drone’s precise target, payload and Iranian command account have not been publicly established."
+          "label": "Commercial paralysis",
+          "text": "Tracked weekend commodity transits fell from 31 to five, with none registered Sunday."
         }
       },
       "sources": [
         {
-          "label": "UAE MoFA · condemnation and reserved response",
-          "url": "https://www.mofa.gov.ae/en/MediaHub/News/2026/8/31/UAE-iran"
+          "label": "CENTCOM · 1 September strike statement",
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4588389/centcom-completes-strikes-on-irgc-targets-in-iran/"
         },
         {
-          "label": "WAM · defence ministry interception statement",
-          "url": "https://www.wam.ae/en/article/c20f0m3-uae-air-force-responds-uav-over-territorial-waters"
+          "label": "AP · strikes, responses and casualty claims",
+          "url": "https://apnews.com/article/ad84a64884aedbbd1e5914182bb3cd8d"
         },
         {
-          "label": "AP · regional context and Larak casualties",
-          "url": "https://apnews.com/article/iran-us-war-uea-august-31-2026-9f34873bad9a928574c36ee984c3f96b"
+          "label": "Reuters · renewed war footing",
+          "url": "https://au.marketscreener.com/news/us-and-iran-exchange-attacks-as-lull-in-war-appears-over-ce7858d2dd88f32c"
+        },
+        {
+          "label": "Reuters · Hormuz vessel counts",
+          "url": "https://www.gulf-times.com/article/731298/shopping/shipping-slows-through-strait-of-hormuz-after-tanker-attacks"
         }
       ]
     },
     {
-      "id": "nepal-china-flood-hydropower-system",
+      "id": "nepal-flood-toll-thousand-adaptation-limit",
       "number": "02",
       "category": "Climate disaster & infrastructure",
-      "sourceNote": "Nepal disaster agency, power producers + AP · Monday",
-      "title": "The Nepal–China flood toll passed 950 as hydropower tunnels became rescue sites.",
-      "changed": "Authorities counted at least 939 deaths in Nepal and 16 in China, with more than 4,400 people missing across the two countries. Nepal’s power-producer association said at least 900 workers were unaccounted for at 12 damaged hydropower projects and about 500 were believed trapped in tunnels; four bodies had been recovered from three tunnels. Flood damage also knocked out about 10% of Nepal’s electricity capacity.",
-      "matters": "This is both a mass-casualty disaster and a national-infrastructure failure. Hydropower supplies Nepal’s grid, supports export revenue and concentrates workers, tunnels, roads and substations in steep river corridors where floods, landslides and debris can cascade. The immediate race is to reach people. The strategic question is whether reconstruction restores the same single points of failure or adds warning systems, alternate routes, backup power and financial capacity before the next Himalayan extreme event.",
-      "watch": "Contact with trapped workers; tunnel access, oxygen and rescue outcomes; reconciled missing-person counts, especially foreigners; restoration of the lost generating capacity; independent information from the Chinese side; the investigation into downstream warning failures; reconstruction standards; insurance and financing; and decisions on hydropower projects not yet built.",
+      "sourceNote": "Nepal authorities, scientists + AP · Tuesday night",
+      "title": "Nepal began mass burials as the flood toll passed 1,000 and the adaptation limit came into view.",
+      "changed": "The confirmed toll across Nepal and China passed 1,000, with Nepal reporting 987 deaths and 3,916 people still missing in the latest accessible count. Search teams continued while Kathmandu buried dozens of victims. Scientists said the 26 August event began with a glacier collapse powerful enough to register as a magnitude 5.2 seismic event, sending water, rock and mud through valleys exposed by rapid Himalayan warming.",
+      "matters": "Yesterday established the hydropower and rescue failure. Today’s evidence clarifies the hazard: this was a compound mountain event capable of overwhelming defences designed around older conditions. Nearly two billion people depend on rivers that begin in the Himalayas. The choice is no longer simply stronger barriers; it includes where settlements and power projects should exist, how workers receive warnings, and when retreat is safer than rebuilding.",
+      "watch": "Reconciled counts; contact with trapped workers; attribution of the glacier failure; access to the Chinese side; disease and shelter conditions; electricity restoration; reconstruction conditions; and which valleys scientists identify as beyond practical protection.",
       "personal": false,
       "lead": false,
       "group": {
         "label": "The world beyond the lead",
-        "title": "A humanitarian emergency exposed an energy-development model.",
-        "note": "Death and missing counts remain provisional and may overlap as records are reconciled; the hydropower figures come from the industry association.",
+        "title": "The emergency became a question about where resilience stops.",
+        "note": "Counts remain provisional and can fall as missing people are located or records are reconciled.",
         "break": true
       },
       "background": {
-        "title": "The same tunnels that make electricity possible became shelters and traps",
-        "text": "Run-of-river projects use diversion and access tunnels large enough for vehicles, placing construction teams and critical machinery beside fast, steep waterways. Workers reportedly moved into some tunnels for shelter when the flood arrived. At Upper Trishuli-1 alone, 576 people were missing and about 300 were believed inside a tunnel. Nepal’s broader exposure is structural: disaster-resilience researchers estimate $124 billion of infrastructure faces climate-driven hazards, while annual losses approach $760 million and public disaster funds cover only a fraction. Climate change does not prove the cause of a single event by itself, but warming glaciers, unstable slopes, degraded permafrost and erratic rainfall are raising the regional hazard baseline.",
-        "known": "Official and industry counts establish the scale of deaths, missing workers, damaged projects and power loss; rescuers had not established contact with all trapped groups.",
-        "new": "The disaster’s infrastructure dimension is now measurable: a dozen projects were hit, roughly a tenth of national power capacity was lost and tunnel rescues became central."
+        "title": "Warming changes the map, not only the weather",
+        "text": "The Himalayas combine steep gradients, earthquakes, glaciers, unstable moraine and densely used river corridors. Warming can enlarge glacial lakes, weaken frozen ground and alter rainfall; a collapse can then entrain rock and sediment into a moving wall. The event damaged villages and a significant share of Nepal’s hydropower system at once. Traditional adaptation assumes a known hazard range that stronger construction and evacuation can manage. Scientists interviewed by AP said some areas may be crossing a threshold where those measures are insufficient, changing the burden of proof before rebuilding.",
+        "known": "The combined toll exceeds 1,000; thousands remain missing; seismic data support a major glacier collapse.",
+        "new": "Scientific assessment now frames parts of the region as potentially beyond conventional adaptation."
       },
       "evidence": {
         "left": {
-          "label": "Immediate catastrophe",
-          "text": "More than 950 people are confirmed dead and thousands remain missing."
+          "label": "Human scale",
+          "text": "Nepal reported 987 deaths and nearly 4,000 people missing."
         },
         "right": {
-          "label": "Long recovery",
-          "text": "Power, roads, bridges, schools and health facilities failed across the same exposed corridors."
+          "label": "Physical scale",
+          "text": "The initiating collapse registered like a magnitude 5.2 seismic event."
         }
       },
       "sources": [
         {
-          "label": "AP · deaths, missing people and tunnel rescues",
-          "url": "https://apnews.com/article/nepal-tibet-china-flash-floods-744fe6e15ae7751e15efcd6dff70170c"
+          "label": "AP · mass burials and updated toll",
+          "url": "https://apnews.com/article/835459b2978adcd2b3bcf6e0595aee6c"
         },
         {
-          "label": "AP · hydropower loss and resilience analysis",
-          "url": "https://apnews.com/article/nepal-floods-hydro-dams-climate-change-021880ee5a7ac49ac376c6b3378ff97e"
+          "label": "AP · Himalayan warming and adaptation limits",
+          "url": "https://apnews.com/article/8e299c879d1e0c9a3026b8d96d8da5d4"
         },
         {
-          "label": "Radio Nepal · national disaster authority count",
-          "url": "https://radionepalonline.com/en/2026/08/31/435175.html"
+          "label": "AP · hydropower exposure",
+          "url": "https://apnews.com/article/021880ee5a7ac49ac376c6b3378ff97e"
         }
       ]
     },
     {
-      "id": "greece-israel-achilles-shield",
+      "id": "russia-sixth-day-kyiv-air-campaign",
       "number": "03",
-      "category": "Europe, defence & capital allocation",
-      "sourceNote": "Greek and Israeli defence ministries + AP · Monday",
-      "title": "Greece committed €3 billion to an Israeli-built national air-defence shield.",
-      "changed": "Greece and Israel signed the intergovernmental agreement for Achilles Shield, a multi-layered network against aircraft, ballistic missiles and drones with a unified command-and-control system. The package uses Israel’s David’s Sling, SPYDER and BARAK MX systems and is described by both governments as worth about €3 billion. A separate €26 million agreement adds Rafael’s Drone Dome. Greece says it is the first EU country to adopt this complete model.",
-      "matters": "This is not a single battery purchase. It makes Israeli systems architecture part of Greece’s national defence and deepens a bilateral alignment shaped partly by tensions with fellow NATO member Turkey. It also demonstrates how the Iran war and the battlefield evidence of drones and missiles are converting into long-lived procurement. For Israel, the deal extends record defence exports; for Europe, it is another example of security spending moving toward layered interception and integrated software rather than only aircraft and armour.",
-      "watch": "Delivery and operational timelines; financing and lifecycle costs; how the Israeli systems integrate with Greece’s existing Patriot network and NATO command; deployment around islands and critical infrastructure; local industrial participation; Turkey’s military and diplomatic response; parliamentary scrutiny; and whether other EU states adopt the same architecture.",
+      "category": "Ukraine, civilian infrastructure & aviation",
+      "sourceNote": "Ukrainian authorities + AP · Tuesday",
+      "title": "Russia extended its assault on Kyiv into an unprecedented sixth straight day.",
+      "changed": "Russian missiles and drones struck Kyiv for more than 12 hours, killing at least 12 people in the cited reporting. Ukrainian authorities described it as the sixth consecutive day of heavy attacks on the capital, the longest such run since the full-scale invasion began. President Volodymyr Zelenskyy said Russia was targeting energy and transport; he also warned airlines and insurers that Ukrainian long-range attacks were making Russian airspace dangerous.",
+      "matters": "Duration matters as much as the daily casualty count. A continuous campaign tests interceptor stocks, repair crews, electricity systems, public sleep and the ability of schools and firms to function. Ukraine’s warning adds a reciprocal economic strategy: impose risk and insurance costs on Russia’s internal aviation network. This raises the chance that civilian transport becomes a persistent pressure point on both sides.",
+      "watch": "Further consecutive attack days; casualty revisions; power and railway outages; Ukrainian strikes near major Russian cities; airline cancellations and insurer exclusions; interceptor supply; and European air-defence deliveries.",
       "personal": false,
       "lead": false,
       "group": {
-        "label": "Defence & industrial policy",
-        "title": "A weapons sale became an operating architecture.",
-        "note": "The agreement and headline value are official; detailed delivery schedules, site maps and total lifecycle costs are not public in the cited releases.",
+        "label": "Europe & war",
+        "title": "Sustained pressure, not a single barrage, is the tactic.",
+        "note": "Casualty and target claims come from Ukrainian authorities; Russia’s stated account was not included in accessible reporting.",
         "break": true
       },
       "background": {
-        "title": "Air defence is becoming a network problem",
-        "text": "Different threats require different sensors, interceptors, ranges and costs. Achilles Shield combines several families of Israeli equipment under one command layer rather than asking a single system to stop everything. Greece argues that drones, ballistic missiles, cyber threats and connected battlefields have made its older defence doctrine obsolete. The architecture also creates dependence: software integration, interceptor replenishment, maintenance and upgrades bind the customer to suppliers for years. That makes the political relationship as important as the hardware. The deal follows Greek purchases of Israeli training, rockets, anti-tank weapons and drones and arrives as Israeli arms exports exceed $19 billion.",
-        "known": "The ministries signed a roughly €3 billion agreement covering a unified, multi-layered system; named component families and a separate Drone Dome purchase are public.",
-        "new": "Greece moved from planning to a signed national architecture, the largest defence agreement between the two countries."
+        "title": "A campaign can exhaust a city without a breakthrough",
+        "text": "Ukraine must decide which threats to intercept, keep repair teams operating under repeated alerts and preserve enough power and transport for ordinary life. Russia can use relatively cheap drones to force expensive responses and mix in ballistic missiles that compress warning time. Ukraine’s long-range drone campaign seeks a mirror effect by disrupting Russian airports and insurance calculations. Neither side needs to close every runway permanently; repeated uncertainty can reduce schedules, raise costs and consume defence resources.",
+        "known": "Kyiv endured more than 12 hours of attacks, at least 12 people were reported killed and officials count six consecutive days.",
+        "new": "The streak is unprecedented in the full-scale war, while Ukraine explicitly connected deep strikes to Russian commercial aviation."
       },
       "evidence": {
         "left": {
-          "label": "Integrated scope",
-          "text": "Aircraft, missile and drone defence will share a national command-and-control layer."
+          "label": "Pressure on Kyiv",
+          "text": "Six straight days turn raids into an endurance campaign against city systems."
         },
         "right": {
-          "label": "Execution opaque",
-          "text": "Deployment dates, readiness milestones and full ownership costs remain undisclosed."
+          "label": "Pressure on Russia",
+          "text": "Ukraine is telling airlines and insurers to price Russian airspace as an active war zone."
         }
       },
       "sources": [
         {
-          "label": "Greek MoD · signed agreement and system scope",
-          "url": "https://www.mod.mil.gr/en/achilles-shield-dome-agreement-signing-in-tel-aviv/"
+          "label": "AP · Kyiv bombardment and casualties",
+          "url": "https://apnews.com/article/7564a892bfb99a853aa150c8710b7985"
         },
         {
-          "label": "Israel MoD · value and named systems",
-          "url": "https://mod.gov.il/en/press-releases/press-room/israel-ministry-of-defense-spokespersons-statement"
+          "label": "Ukraine presidency · 1 September address",
+          "url": "https://www.president.gov.ua/en/news/rosijske-nebo-de-fakto-bude-zakrivatisya-vijna-sho-rozvyazan-106201"
         },
         {
-          "label": "AP · strategic and export context",
-          "url": "https://apnews.com/article/israel-greece-weapons-deal-5bcedf73e5b5f6f5e3653405abdc70b9"
+          "label": "Reuters · warning to airlines",
+          "url": "https://in.marketscreener.com/news/zelenskiy-says-ukrainian-drones-have-effectively-closed-russian-airspace-ce7858d2d88ff427"
         }
       ]
     },
     {
-      "id": "japan-fy2027-autonomous-defence",
+      "id": "china-blocks-g20-finance-consensus",
       "number": "04",
-      "category": "Japan, technology & military power",
-      "sourceNote": "Japan defence ministry + AP · Monday",
-      "title": "Japan put autonomous weapons and AI command at the centre of its next defence budget.",
-      "changed": "Japan’s Defence Ministry submitted an initial ¥8.9 trillion ($55.6 billion) request for the fiscal year beginning April 2027. It seeks funding—some amounts still unspecified—for air- and underwater-launched attack drones, submarine-launched hypersonic missiles, an integrated AI command platform, a secure defence cloud and government-owned factories operated by private contractors.",
-      "matters": "The headline budget barely exceeds this year’s request, but the unpriced items mean the final total will be higher. The more important change is composition: Japan is linking cheap autonomous systems to long-range counterstrike, AI-assisted target assessment and state-backed production capacity. That is a response to China, lessons from Ukraine, personnel scarcity and the risk that private suppliers exit strategically essential production. It shifts the Self-Defense Forces further from territorial denial toward sustained, networked counterstrike.",
-      "watch": "The revised national security strategy later this year; prices assigned to the uncosted items; legal and human-control rules for target selection; domestic versus foreign AI suppliers; submarine missile development; factory ownership and contractor selection; recruitment trends; Chinese and North Korean responses; and the final budget approved by the Diet.",
-      "personal": false,
-      "lead": false,
-      "group": {
-        "label": "Asia security",
-        "title": "Japan is redesigning force structure around scarcity.",
-        "note": "This is a ministry request, not an enacted budget; several of its most consequential programmes have no published cost yet.",
-        "break": true
-      },
-      "background": {
-        "title": "Autonomy is being asked to solve three different shortages",
-        "text": "Japan’s five-year strategy has already doubled defence spending toward roughly 2% of GDP. The next proposal uses uncrewed weapons to reduce personnel exposure, mass cheaper strike assets and offset an ageing population that makes recruitment harder. AI is proposed for battlefield assessment, target selection and coordination across multiple systems through an ‘AI orchestrator’. A defence cloud would carry sensitive data, while state-owned, contractor-operated factories would preserve production when commercial suppliers cannot justify remaining in the market. These pieces form one industrial model: the state owns more of the bottleneck while software coordinates a larger number of lower-cost weapons.",
-        "known": "The ¥8.9 trillion initial request and programme categories are published; Japan’s existing five-year build-up and 2%-of-GDP direction are established.",
-        "new": "Attack drones, AI command and government-owned production were joined in the same fiscal request as instruments of counterstrike and resilience."
-      },
-      "evidence": {
-        "left": {
-          "label": "Clear direction",
-          "text": "Autonomous strike, AI command, secure cloud and production capacity reinforce one another."
-        },
-        "right": {
-          "label": "Unpriced commitment",
-          "text": "The request understates the eventual total because major programmes are listed without amounts."
-        }
-      },
-      "sources": [
-        {
-          "label": "AP · request, drones, AI and factory model",
-          "url": "https://apnews.com/article/japan-defense-budget-drones-ai-bdda63e2831ff47a214d786bd4e45907"
-        },
-        {
-          "label": "Japan MoF · five-year defence spending framework",
-          "url": "https://www.mof.go.jp/english/policy/budget/budget/fy2025/02.pdf"
-        }
-      ]
-    },
-    {
-      "id": "qatar-q2-business-industrial-dashboard",
-      "number": "05",
-      "category": "Qatar economy & diversification",
-      "sourceNote": "Ministry of Commerce and Industry via QNA · Tuesday",
-      "title": "Qatar’s business registrations accelerated, while new factory investment remained measured.",
-      "changed": "The Ministry of Commerce and Industry reported 6,745 new commercial registrations in the second quarter, up 6.6% from the first, and 5,272 newly established non-Qatari companies, up 60%. It said 28 factories with combined investment of QAR 253 million began production in the first half. Private-sector exports rose from QAR 0.8 billion to QAR 0.9 billion quarter-on-quarter, and the share of factories exporting increased from 23% to 25%.",
-      "matters": "The useful signal is not the QAR 248.44 billion cumulative industrial-investment headline, which is a stock without a disclosed comparison period. It is the flow underneath: more registrations, wider electronic processing, modest new productive capacity and a small increase in private exports. The figures support a direction of greater business activity, but registrations are not the same as operating firms, and non-Qatari company counts are not a disclosed measure of foreign capital deployed.",
-      "watch": "Survival and operating rates for new registrations; sector and ownership breakdowns for the 5,272 non-Qatari companies; jobs and output from the 28 factories; how much of QAR 253 million is domestic or foreign; export destinations and product mix; whether the exporting-factory share continues to rise; and a comparable time series for the QAR 248.44 billion cumulative stock.",
-      "personal": true,
-      "lead": false,
-      "group": {
-        "label": "Qatar",
-        "title": "The flow data are more informative than the cumulative headline.",
-        "note": "All figures are ministry-reported; the release provides quarter-on-quarter comparisons for activity but not for total industrial investment.",
-        "break": true
-      },
-      "background": {
-        "title": "Digital administration is scaling faster than industrial capital",
-        "text": "The Single Window processed 131,269 transactions in the quarter, 86% electronically, while initial industrial approval time fell to one working day. Those are meaningful reductions in administrative friction. Yet the production data show why diversification should be evaluated in layers. Twenty-eight factories starting in six months is operational progress, but QAR 253 million of combined investment is about one-tenth of one percent of the reported cumulative industrial stock. The release also records 83,339 inspection visits and 3,498 specialised licences, showing a ministry dashboard that mixes market formation, regulation and consumer oversight. The next test is whether easier formation produces durable output, exports and employment.",
-        "known": "The ministry supplied registration, factory, export, transaction and inspection counts; the QAR 248.44 billion figure is explicitly cumulative.",
-        "new": "Second-quarter flow indicators show faster company formation and exports, alongside a measurable but comparatively small batch of new factory investment."
-      },
-      "evidence": {
-        "left": {
-          "label": "Administrative momentum",
-          "text": "Registrations rose, 86% of Single Window transactions were electronic and approvals accelerated."
-        },
-        "right": {
-          "label": "Economic outcome pending",
-          "text": "The release does not show firm survival, jobs, realised foreign capital or value added."
-        }
-      },
-      "sources": [
-        {
-          "label": "QNA · full Ministry of Commerce and Industry dashboard",
-          "url": "https://qna.org.qa/en/news/news-details?date=1/09/2026&id=minister-of-commerce-and-industry-qar-24844-billion-investments-in-industrial-sector-in-q2-of-2026"
-        }
-      ]
-    },
-    {
-      "id": "fsb-frontier-ai-cyber-systemic-risk",
-      "number": "06",
-      "category": "Financial stability & AI",
-      "sourceNote": "Financial Stability Board + Reuters · Monday",
-      "title": "The global financial watchdog called frontier-AI cyber risk its most immediate AI concern.",
-      "changed": "Financial Stability Board Chair Andrew Bailey told G20 finance ministers that frontier models could materially change the speed, scale and economics of cyberattacks and undermine confidence across the financial system. The same letter warned that sovereign-debt fragility, private credit, stretched valuations and the Middle East energy shock increase the chance that multiple vulnerabilities crystallise together.",
-      "matters": "This is a shift from treating AI mainly as a productivity or conduct issue to treating its offensive capability as a potential financial-stability channel. Banks already plan for fraud, ransomware and operational outages; autonomous models can lower attacker cost, accelerate discovery and coordination and compress the time available for containment. The systemic risk is not that one model causes a crash directly. It is that simultaneous attacks, uncertain attribution or a failed critical provider trigger loss of confidence while debt and asset markets are already stretched.",
-      "watch": "Concrete supervisory expectations after the G20; incident reporting and shared exercises; model-release safeguards; requirements for banks’ third-party AI and cloud providers; whether cyber insurers reprice coverage; evidence of autonomous agents operating outside intended environments; concentration in payment and cloud infrastructure; and whether authorities define a cross-border response protocol.",
-      "personal": true,
-      "lead": false,
-      "group": {
-        "label": "Technology & markets",
-        "title": "Cyber defence now has a macroprudential dimension.",
-        "note": "The FSB is identifying a risk channel, not reporting that an AI-driven systemic incident has already occurred.",
-        "break": true
-      },
-      "background": {
-        "title": "Faster attacks can turn operational risk into confidence risk",
-        "text": "Financial institutions are connected through payments, clearing, markets, data vendors and common cloud providers. A successful intrusion at one node can therefore cause uncertainty elsewhere even before losses are known. Frontier AI may improve reconnaissance, exploit generation and adaptation enough to make attacks cheaper and more simultaneous. Defenders gain tools too, but they must protect legacy systems continuously while attackers need one opening. Bailey’s letter places that asymmetry beside traditional vulnerabilities: record debt, private-credit opacity and expensive assets. In that environment, a cyber event could be the trigger rather than the underlying weakness.",
-        "known": "The FSB formally elevated frontier-AI cyber capability in a letter submitted to the G20 and linked it to existing market vulnerabilities.",
-        "new": "The board’s chair described cyber impact as the financial system’s most immediate concern from frontier AI and asked authorities to support safe release and deployment."
-      },
-      "evidence": {
-        "left": {
-          "label": "Recognised channel",
-          "text": "A global standard setter now treats AI-enabled cyberattack economics as a financial-stability issue."
-        },
-        "right": {
-          "label": "Probability unquantified",
-          "text": "The letter provides no incident forecast, loss estimate or agreed regulatory response."
-        }
-      },
-      "sources": [
-        {
-          "label": "FSB · chair’s letter to G20 finance leaders",
-          "url": "https://www.fsb.org/2026/08/fsb-chairs-letter-to-g20-finance-ministers-and-central-bank-governors-august-2026/"
-        },
-        {
-          "label": "Reuters · financial-system risk analysis",
-          "url": "https://www.marketscreener.com/news/ai-driven-cyber-risk-is-top-concern-for-global-financial-stability-watchdog-says-ce7858dcdc88f623"
-        }
-      ]
-    },
-    {
-      "id": "shein-hong-kong-ipo-model-test",
-      "number": "07",
-      "category": "Retail, luxury adjacency & capital markets",
-      "sourceNote": "HKEX filing + AP/Reuters · Tuesday",
-      "title": "Shein raised $1.7 billion in Hong Kong, then fell about 10% in early trading.",
-      "changed": "Shein’s long-delayed public listing priced at HK$48.56 a share, raising about $1.7 billion and valuing the company near $26.5 billion—roughly 70% below its 2022 private-market peak. Shares fell to around HK$44 in early trading. The retailer disclosed a $99 million first-quarter loss versus a $395 million profit a year earlier as revenue growth slowed, tariffs rose and logistics costs remained elevated.",
-      "matters": "The signal is larger than a first-day share move. Shein built a category-defining model around fast demand sensing, direct parcel delivery and exemption from duties on low-value shipments. The U.S. and EU removal of de minimis advantages and higher freight costs attack that model’s cost structure, while slower growth reduces the valuation investors will pay. The listing also returns a China-founded global consumer company to Hong Kong after failed U.S. and London routes, revealing where capital-market access remains available under geopolitical scrutiny.",
-      "watch": "The closing price after a full trading session; first public earnings; gross margin and price increases; European and U.S. tariff enforcement; order frequency and customer retention; use of IPO proceeds; supply-chain compliance disclosures; whether Hong Kong investors absorb the initial selling; and how Temu and established apparel groups respond.",
-      "personal": true,
-      "lead": false,
-      "group": {
-        "label": "Consumer & markets",
-        "title": "Public markets are repricing the assumptions beneath ultra-cheap retail.",
-        "note": "The IPO proceeds and disclosures are established; the early share decline is intraday and should not be treated as a settled verdict.",
-        "break": true
-      },
-      "background": {
-        "title": "A logistics advantage became a policy exposure",
-        "text": "Shein compresses the fashion cycle by testing many products in small batches, reading demand quickly and shipping successful items directly from Chinese suppliers. That lowered inventory risk and let low-value parcels reach consumers without the full tariff burden faced by conventional imports. Policy changes in the United States and European Union remove part of that advantage just as the Iran war raises logistics costs. Shein can raise prices, localise inventory or accept lower margins, but each response weakens a different part of the original proposition. The IPO crystallises the trade-off: access to public capital arrived, but at a fraction of the valuation once attached to frictionless global growth.",
-        "known": "The listing price, proceeds, early trading level and first-quarter loss are public; regulatory and logistics pressures are documented.",
-        "new": "Shein completed a Hong Kong listing after years of delay, giving public investors their first live price for the post-de-minimis business model."
-      },
-      "evidence": {
-        "left": {
-          "label": "Capital secured",
-          "text": "The company raised about $1.7 billion in one of Hong Kong’s largest listings this year."
-        },
-        "right": {
-          "label": "Model discounted",
-          "text": "The valuation is far below its private peak and first-quarter profitability reversed."
-        }
-      },
-      "sources": [
-        {
-          "label": "AP · debut, valuation pressure and profit reversal",
-          "url": "https://apnews.com/article/shein-hong-kong-debut-listing-shares-126f7d325f24f37d5bc067b19e98901a"
-        },
-        {
-          "label": "HKEX · Shein listing and market launch",
-          "url": "https://www.hkex.com.hk/News/News-Release/2026/260828news?sc_lang=en"
-        },
-        {
-          "label": "Reuters · IPO structure and slower growth",
-          "url": "https://www.investing.com/news/stock-market-news/shein-launches-up-to-18-billion-hong-kong-ipo-4872479"
-        }
-      ]
-    },
-    {
-      "id": "russia-in-person-g20-return",
-      "number": "08",
-      "category": "G20, Russia & global economic governance",
-      "sourceNote": "Finance ministers + Reuters · Monday night",
-      "title": "Russia returned to the G20 finance table in person, exposing a U.S.–Europe split without securing relief.",
-      "changed": "Russian Finance Minister Anton Siluanov attended a G20 finance-ministers meeting in person for the first time since Russia’s 2022 invasion of Ukraine. European officials objected and refused to include him in the traditional family photograph. U.S. Treasury Secretary Scott Bessent met Siluanov but, according to a source briefed on the exchange, said no economic relief or other agreements were possible before the war ends.",
-      "matters": "The event separates diplomatic access from policy concession. Washington’s decision to receive Russia normalises a channel that Europe has tried to keep politically costly, even while the United States says sanctions relief is unavailable. That disagreement matters because sanctions work through coalition discipline. It also complicates a G20 meeting already tasked with Iran, China’s trade surplus, record global debt and the financing demands of the AI investment boom.",
-      "watch": "The G20 communiqué and any language on Ukraine; whether Bessent’s condition becomes stated U.S. policy; Europe’s next sanctions package; follow-up U.S.–Russia financial contacts; oil-licence exceptions created by the Iran supply shock; Russian access at other multilateral meetings; and whether disagreement weakens enforcement rather than merely ceremony.",
+      "category": "G20, China & global trade",
+      "sourceNote": "U.S. Treasury + AP · Tuesday night",
+      "title": "China withheld consent from the G20 finance statement as 19 members challenged export-led imbalances.",
+      "changed": "The U.S. presidency issued a chair’s statement rather than a consensus communiqué after China objected to four paragraphs on global imbalances, trade, financial regulation and growth. Treasury Secretary Scott Bessent said the other 19 members present agreed that a continuing stream of cheap exports from non-market economies was unsustainable. China, whose goods trade surplus reached nearly $1.2 trillion in 2025, rejected the framing.",
+      "matters": "The 19–1 split is politically striking but operationally incomplete. The United States and Europe increasingly agree that Chinese overcapacity creates domestic pressure, yet do not share one remedy. A chair’s statement can isolate a dissenter; it cannot create enforcement. Consequences will come through national trade measures, procurement rules and negotiations with Beijing.",
+      "watch": "A Chinese counterstatement; U.S. tariff action; EU anti-subsidy cases; December summit language; whether the 19-country alignment holds; Chinese steps to boost household demand; and sector restrictions on vehicles, batteries, solar equipment or machinery.",
       "personal": false,
       "lead": false,
       "group": {
         "label": "Global economy",
-        "title": "A seat at the table did not mean a deal—but it changed the coalition signal.",
-        "note": "Siluanov’s attendance and European objections are on the record; Bessent’s private wording comes from an attributed source rather than a published meeting transcript.",
+        "title": "Broad agreement produced a record of disagreement, not a common policy.",
+        "note": "The Treasury statement records China’s objection; Bessent’s 19-member formulation is the U.S. chair’s characterization.",
         "break": true
       },
       "background": {
-        "title": "Sanctions depend on a shared political boundary",
-        "text": "In 2022, even virtual Russian participation prompted walkouts by Western officials. Four years later, the U.S. host invited Siluanov into the room while German and Polish ministers publicly objected. The United States has not removed its core sanctions and recently conditioned relief on ending the war, but it has also issued limited oil licences as the Iran conflict tightened supply. Those actions can coexist tactically: preserve leverage, keep communication open and make exceptions for energy. Strategically, however, allies must still agree on what access signals and which exceptions are temporary. Without that clarity, Russia can test the space between European isolation and American transaction.",
-        "known": "Siluanov attended, met Bessent and was excluded from the family photo after European objections; Europe is preparing further sanctions.",
-        "new": "Russia regained in-person access to the G20 finance process while the U.S. and Europe displayed different approaches to diplomatic treatment."
+        "title": "A surplus is a fact; overcapacity is a diagnosis",
+        "text": "China’s export strength reflects scale, productivity, subsidies, weak consumption and industrial strategy in proportions that vary by sector. Importers see low prices but also plant closures and dependence. The G20 text says persistent imbalances create vulnerabilities and calls for adjustment by surplus and deficit economies, yet China objected. When the largest surplus economy rejects the diagnosis, action migrates from the forum to tariffs, subsidies and bilateral bargaining.",
+        "known": "Nineteen members accepted the chair’s text; China rejected four paragraphs; the document lacks full consensus.",
+        "new": "The disagreement is now formal and specific."
       },
       "evidence": {
         "left": {
-          "label": "Contact restored",
-          "text": "Russia’s finance minister joined the table and held a U.S. bilateral meeting."
+          "label": "Political alignment",
+          "text": "Every participating member except China accepted the imbalances language."
         },
         "right": {
-          "label": "Relief withheld",
-          "text": "The U.S. source says Bessent rejected economic agreements before the war ends."
+          "label": "Policy gap",
+          "text": "No common remedy or enforcement mechanism emerged."
         }
       },
       "sources": [
         {
-          "label": "Reuters · attendance, objections and meeting substance",
-          "url": "https://www.marketscreener.com/news/us-irks-g20-ministers-by-bringing-back-russia-barring-journalists-ce7858dddb80f420"
+          "label": "U.S. Treasury · G20 chair’s statement",
+          "url": "https://home.treasury.gov/news/press-releases/sb0620/"
         },
         {
-          "label": "Reuters · U.S. condition on economic relief",
-          "url": "https://www.marketscreener.com/news/bessent-told-russian-finance-minister-no-economic-relief-until-ukraine-war-ends-source-says-ce7858ddda89ff21"
+          "label": "AP · Bessent’s 19–1 account",
+          "url": "https://apnews.com/article/426a8b4d10c6610c2d7200bab412fe1b"
+        },
+        {
+          "label": "Axios · statement blocked",
+          "url": "https://www.axios.com/2026/09/02/china-g20-bessent-trade"
+        }
+      ]
+    },
+    {
+      "id": "global-bonds-oil-fiscal-risk-repricing",
+      "number": "05",
+      "category": "Markets, inflation & sovereign debt",
+      "sourceNote": "Market data + AP/Reuters · Tuesday close",
+      "title": "Oil above $95 and heavy government borrowing pushed the global bond selloff deeper.",
+      "changed": "Government yields rose across major markets as renewed fighting lifted oil and investors demanded more compensation for inflation, deficits and debt issuance. Brent traded above $95 after its largest daily gain since 24 July. U.S. futures implied roughly a two-thirds chance of a 25-basis-point Federal Reserve increase on 16 September, up from about 40% a week earlier.",
+      "matters": "This matters more than a weak equity session. Sovereign yields price mortgages, corporate debt, projects and assets. Oil creates an inflation impulse just as governments ask investors to absorb record borrowing. If central banks cannot ease, refinancing costs move through public budgets and private investment. For a long-horizon portfolio, the signal is a higher discount rate and wider outcomes—not a one-day reason to trade.",
+      "watch": "Hormuz flows and Brent; inflation breakevens versus real yields; debt auctions; Federal Reserve guidance; persistence of rate-hike pricing; credit spreads; and evidence that yields weaken business investment or housing.",
+      "personal": true,
+      "lead": false,
+      "group": {
+        "label": "Economy & markets",
+        "title": "The security shock reached the price of money.",
+        "note": "Probabilities and prices move continuously; the structural signal is inflation risk plus fiscal supply and term premium.",
+        "break": true
+      },
+      "background": {
+        "title": "Why bonds can matter more than the equity headline",
+        "text": "A bond yield combines expected short rates, inflation and a term premium. Oil can lift inflation and make central banks less willing to cut. Deficits increase the debt markets must absorb. Political uncertainty can add a premium. When those arrive together, prices fall and yields rise. The impact spreads because corporate bonds, mortgages and infrastructure are priced from sovereign curves. The test is persistence: a brief energy spike can reverse, while a lasting rise in term premium changes capital allocation.",
+        "known": "Oil rose sharply, sovereign yields increased and markets priced a greater probability of a September Fed increase.",
+        "new": "The Iran exchange joined fiscal and supply concerns, making the selloff global."
+      },
+      "evidence": {
+        "left": {
+          "label": "Inflation impulse",
+          "text": "Brent moved above $95 as fresh strikes reduced hopes of de-escalation."
+        },
+        "right": {
+          "label": "Financing pressure",
+          "text": "Investors demand more yield while governments issue historically large debt volumes."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · why bond yields are rising",
+          "url": "https://apnews.com/article/52d5e82d851a624b95bc142a0c90d924"
+        },
+        {
+          "label": "Reuters · bond selloff and fiscal risk",
+          "url": "https://ca.marketscreener.com/news/bond-selloff-deepens-as-inflation-oil-prices-jolt-markets-ce7858d2dd88ff25"
+        },
+        {
+          "label": "Reuters · oil above $95",
+          "url": "https://hk.marketscreener.com/news/oil-up-nearly-1-as-us-and-iran-trade-fresh-strikes-ce7858d2da8ff523"
+        }
+      ]
+    },
+    {
+      "id": "g20-carolina-principles-ai-regulation",
+      "number": "06",
+      "category": "AI, regulation & industrial power",
+      "sourceNote": "G20 technology meeting + Reuters · Tuesday",
+      "title": "The United States asked G20 members to treat most AI uses under existing law.",
+      "changed": "At the G20 innovation ministerial, U.S. technology adviser Michael Kratsios promoted 'Carolina Principles' under which governments would avoid entirely new AI regulation and write new rules only for genuinely novel situations. The approach aligns with U.S. AI companies and the effort to keep international markets inside the American technology ecosystem. Accessible reporting did not establish which countries signed or how binding the principles are.",
+      "matters": "The argument shifts the burden of proof. Governments would first test whether competition, consumer, labour, product-safety or cybersecurity law covers the harm. That can reduce duplication and speed deployment, but can leave gaps where autonomous systems create scale or opacity that old law did not anticipate. Regulatory compatibility can determine which models, clouds and chips become default infrastructure.",
+      "watch": "The final signatory list and text; EU and Chinese responses; treatment of high-risk agents, children and employment decisions; liability for autonomous actions; export-control alignment; and exceptions after recent agent-security failures.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "Technology & rules",
+        "title": "AI governance is becoming a market-access strategy.",
+        "note": "The principles were described by U.S. officials; signatories, legal effect and enforcement were incomplete at publication.",
+        "break": true
+      },
+      "background": {
+        "title": "Existing law first is a framework, not no regulation",
+        "text": "AI can mislead a consumer, discriminate in hiring, violate privacy or facilitate a cyberattack; each harm may already sit inside a regulator’s mandate. The U.S. proposal says novelty should trigger an AI-specific layer. The difficult question is whether novelty lies in the harm or in autonomy, speed and cross-domain action. American firms favour interoperability and lower friction; other jurisdictions favour duties before deployment because model behaviour is hard to inspect afterward.",
+        "known": "U.S. officials promoted a presumption against broad new AI rules at the G20.",
+        "new": "That domestic philosophy is now an international set of principles."
+      },
+      "evidence": {
+        "left": {
+          "label": "Innovation case",
+          "text": "Use established tools when the harm is familiar, reducing overlapping regimes."
+        },
+        "right": {
+          "label": "Governance risk",
+          "text": "Autonomy and scale may create failures visible only after old rules are tested."
+        }
+      },
+      "sources": [
+        {
+          "label": "Reuters · Carolina Principles",
+          "url": "https://www.japantimes.co.jp/business/2026/09/02/tech/us-ai-regulation-g20/"
+        },
+        {
+          "label": "Reuters mirror · meeting and security context",
+          "url": "https://www.marketscreener.com/news/us-to-urge-hands-off-ai-regulation-at-g-20-official-says-ce7858ddde88f725"
+        },
+        {
+          "label": "White House · U.S. AI policy",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+        }
+      ]
+    },
+    {
+      "id": "qatar-airways-four-saudi-gateways",
+      "number": "07",
+      "category": "Qatar, aviation & Saudi tourism",
+      "sourceNote": "Qatar Airways + QNA · Tuesday afternoon",
+      "title": "Qatar Airways will restore four Saudi gateways and exceed 155 weekly flights this winter.",
+      "changed": "Twice-weekly flights to Qassim resume on 25 October and Taif on 31 October, followed by Yanbu on 2 January 2027 and Tabuk on 3 January. The carrier says its Saudi schedule will exceed 155 weekly flights, more than 10% above summer. It carried over 2.3 million passengers between Saudi Arabia and its network in 12 months and increased Riyadh from 35 to 49 weekly flights in June.",
+      "matters": "The signal is network density, not four thin routes alone. Riyadh frequency protects corporate connectivity; secondary gateways feed pilgrimage, regional business and tourism into Doha’s long-haul banks. The schedule makes Qatar Airways a distribution partner for Saudi destination growth while competing with Saudia and Riyadh Air. Two weekly flights are a test; the 155-flight system is the commitment.",
+      "watch": "Bookings; timetable placement; onward connection quality; whether routes gain frequency; Riyadh Air’s response; airport incentives; airspace disruption; and the mix between Saudi-origin and connecting traffic.",
+      "personal": true,
+      "lead": false,
+      "group": {
+        "label": "Aviation & tourism",
+        "title": "Regional depth is becoming part of Doha’s long-haul advantage.",
+        "note": "Dates, frequencies and passenger totals are airline figures; profitability and incentives are not public.",
+        "break": true
+      },
+      "background": {
+        "title": "A small spoke can still improve a hub",
+        "text": "A hub values a route by local fares and the connections it feeds. These gateways add catchments that otherwise require surface travel or domestic connections. If schedules meet Doha’s banks, twice-weekly flights can sell into dozens of markets. Low frequency is less useful for business travel and vulnerable to disruption. Qatar Airways is pairing those probes with very high Riyadh frequency: dense core service plus option-like secondary routes.",
+        "known": "Four routes have dates and twice-weekly service; total winter Saudi service is above 155 flights.",
+        "new": "The carrier is rebuilding secondary access while lifting the kingdom schedule by more than 10%."
+      },
+      "evidence": {
+        "left": {
+          "label": "Scale",
+          "text": "More than 155 weekly flights make Saudi Arabia one of the densest regional markets."
+        },
+        "right": {
+          "label": "Experiment",
+          "text": "Each restored gateway begins at only two weekly frequencies."
+        }
+      },
+      "sources": [
+        {
+          "label": "Qatar Airways · route dates and scale",
+          "url": "https://www.qatarairways.com/press-releases/en-WW/269934-qatar-airways-resumes-flights-to-qassim-taif-tabuk-and-yanbu-in-saudi-arabia/"
+        },
+        {
+          "label": "QNA · totals and Riyadh frequency",
+          "url": "https://qna.org.qa/en/news/news-details?date=1%2F09%2F2026&id=qatar-airways-resumes-flights-to-four-saudi-gateways-during-winter"
+        }
+      ]
+    },
+    {
+      "id": "xi-egypt-middle-east-portfolio",
+      "number": "08",
+      "category": "China, Egypt & Middle East alignment",
+      "sourceNote": "Egyptian state media + AP/Reuters · Tuesday night",
+      "title": "Xi Jinping arrived in Egypt as Beijing expanded a Middle East relationship beyond trade.",
+      "changed": "Xi began his first visit to Egypt in a decade. The relationship includes investment in the Suez Canal economic zone, construction, diplomatic coordination and defence contacts. Recent joint air exercises brought Chinese J-16 fighters to Africa for the first time alongside Egypt’s French-built Rafales. Xi presents China as a stable economic partner while the Iran war complicates confidence in the U.S.-centred security order.",
+      "matters": "Egypt is not replacing Washington with Beijing; it is building a portfolio. Cairo needs capital, industrial investment, arms options and diplomatic room while retaining U.S. military ties and European markets. China gains access to the Suez Canal, a large Arab and African market, and a platform for its technology and defence products. Middle powers increasingly seek overlapping relationships rather than exclusive alignment.",
+      "watch": "Investment commitments; Suez-zone projects; currency or debt arrangements; military procurement; telecom agreements; Chinese mediation language; U.S. response; and whether ceremony becomes funded projects with delivery dates and local jobs.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "Middle powers",
+        "title": "Egypt is adding options without declaring a new camp.",
+        "note": "The visit and exercises are confirmed; strategic realignment is interpretation and needs concrete agreements.",
+        "break": true
+      },
+      "background": {
+        "title": "Diversification is not defection",
+        "text": "Egypt’s geography gives it leverage: Suez connects Asian and European trade, while Cairo remains central to Arab diplomacy. China offers infrastructure and equipment without Western political conditions. Yet the United States remains a major security relationship, Europe a critical market and Gulf states important investors. The likely model is layered dependence rather than a pivot. Beijing’s advantage is that commercial projects create standards and political familiarity; Cairo’s challenge is productive capacity rather than more debt or prestige assets.",
+        "known": "Xi arrived for the first visit in ten years; economic ties and joint air exercises have deepened.",
+        "new": "The visit packages trade, infrastructure, diplomacy and defence at a moment of regional uncertainty."
+      },
+      "evidence": {
+        "left": {
+          "label": "Chinese reach",
+          "text": "Industrial zones, construction and military exercises sit inside one portfolio."
+        },
+        "right": {
+          "label": "Egyptian hedge",
+          "text": "Cairo preserves U.S., European and Gulf ties rather than choosing one patron."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · Xi’s visit and influence",
+          "url": "https://apnews.com/article/946c3b90b6251c08fdcb219e24a088a2"
+        },
+        {
+          "label": "Reuters · economic and defence context",
+          "url": "https://au.marketscreener.com/news/china-s-xi-lands-in-egypt-as-iran-war-reshapes-middle-east-alliances-ce7858d2d88bfe26"
         }
       ]
     }
   ],
   "radar": [
     {
-      "label": "Aviation",
-      "title": "A second day of industrial action delayed and cancelled flights at Nairobi’s main airport.",
-      "text": "Kenya Airports Authority told passengers to check before travelling as Kenya Airways and Jambojet reported extended delays. The disruption is material for an East African hub, but negotiations and a reliable end time were not established.",
-      "url": "https://apnews.com/article/kenya-nairobi-airport-strike-b98bfc7e11eec7164d44973213117f28"
+      "label": "AI infrastructure",
+      "title": "Dell lifted its annual revenue outlook by $25 billion as AI-server demand accelerated.",
+      "text": "Evidence that compute investment is reaching server assemblers, not only chipmakers. Watch order concentration and cash conversion.",
+      "url": "https://sa.marketscreener.com/news/dell-again-lifts-forecasts-as-ai-demand-powers-record-results-ce7858d2d880f32d"
     },
     {
-      "label": "West Africa",
-      "title": "Guinea-Bissau authorities said the constitutional ‘yes’ side won.",
-      "text": "The result would advance a text that expands presidential power before December elections. A complete official tally, turnout reconciliation and independent validation were not available in the accessible reporting at publication time.",
-      "url": "https://amp.dw.com/pt-002/referendo-na-guin%C3%A9-bissau-o-sim-ganhou-dizem-autoridades/a-78578824"
+      "label": "Climate law",
+      "title": "A federal judge struck down New York’s plan to charge fossil-fuel producers $75 billion.",
+      "text": "A legal setback for state climate-damage funds; appeals and parallel laws will determine whether the model survives.",
+      "url": "https://apnews.com/article/9fed7c732b27435528342eb37c093c23"
     },
     {
-      "label": "Saudi technology",
-      "title": "LEAP 2026 opened in Riyadh with AI, robotics and investment as its core agenda.",
-      "text": "The conference is a useful announcement watchlist rather than a story by itself. Separate binding investments, procurement or deployed products from stage commitments over the next three days.",
-      "url": "https://qna.org.qa/en/general/"
+      "label": "Consumer & cooling",
+      "title": "Air-conditioning demand is saving lives while increasing power and refrigerant pressure.",
+      "text": "The durable question is whether efficient equipment, cleaner grids and lower-warming refrigerants scale with heat exposure.",
+      "url": "https://apnews.com/article/fdddd1efe2992032f027ed81d05ca51b"
     }
   ],
   "attention": {
-    "title": "AP’s reconstruction of the Nepal hydropower disaster",
-    "text": "It connects the human rescue, the missing-worker count, the electricity loss and the design choices that will determine whether reconstruction repeats the same exposure.",
-    "url": "https://apnews.com/article/nepal-floods-hydro-dams-climate-change-021880ee5a7ac49ac376c6b3378ff97e"
+    "title": "The U.S. Treasury’s G20 chair’s statement",
+    "text": "Read the footnote: it identifies exactly which paragraphs China rejected and separates alignment from consensus.",
+    "url": "https://home.treasury.gov/news/press-releases/sb0620/"
   },
   "ignore": {
-    "title": "Treating Shein’s first-hour price as a final verdict",
-    "text": "The valuation reset and profit reversal matter; an intraday move does not establish durable investor judgment. The first earnings and margin response will."
+    "title": "Treating Tuesday’s equity decline as the main market story",
+    "text": "Stocks reacted to oil and yields. The durable information is the cost of sovereign financing and persistence of the energy shock."
   },
   "history": {
-    "id": "history-brazil-real-plan-urv",
+    "id": "history-montreal-protocol-adaptive-treaty",
     "number": "09",
     "readTime": "7 min read",
-    "era": "BRAZIL\n1985–1999",
-    "title": "Brazil stopped hyperinflation by teaching the economy to count in stable money before it could spend it.",
-    "deck": "Brazil tried freezes, new currencies and even blocked citizens’ bank deposits, yet prices kept accelerating because contracts, wages and expectations were trained to chase yesterday’s inflation. The Real Plan broke that inertia with an unusual bridge: for four months, people paid in a collapsing currency while increasingly pricing in a stable unit that did not yet exist as cash.",
-    "thesis": "When a shared measuring system has lost credibility, changing the label is not enough; transition works when people can coordinate on a new unit before the old behaviour is switched off.",
+    "era": "GLOBAL\n1974–PRESENT",
+    "title": "The Montreal Protocol worked because the treaty was designed to become stricter after it was signed.",
+    "deck": "The world did not wait for perfect certainty, demand identical sacrifice from every country or freeze one rulebook in 1987. It built a mechanism that could tighten as evidence improved, finance conversion in poorer states and let industry replace chemicals on a schedule. The ozone layer’s slow repair is the result of that institutional design.",
+    "thesis": "International cooperation survives uncertainty when evidence, adjustment, money and enforcement are built into the operating system—not left to goodwill after the ceremony.",
     "sections": [
       {
-        "title": "Inflation had become an operating system",
-        "text": "By the late 1980s and early 1990s, Brazil did not merely suffer occasional price rises. Inflation was embedded in how the economy coordinated. Wages, rents, taxes, financial contracts and supplier prices were indexed or repeatedly renegotiated so that yesterday’s loss of purchasing power became tomorrow’s increase. Businesses changed prices defensively because competitors and inputs would move; workers demanded adjustment because waiting meant a real pay cut. The result was inertial inflation: even if one immediate shock faded, the memory of previous inflation kept propagating through contracts. It also redistributed wealth. Firms and households with bank access could protect cash in indexed instruments, while people paid in ordinary money watched purchasing power disappear between payday and the supermarket. Any successful plan had to stop government financing and excess demand, but it also had to solve a coordination problem: how could millions of prices become stable together when nobody trusted anybody else to stop first?"
+        "title": "A useful chemical escaped the factory",
+        "text": "Chlorofluorocarbons looked like an industrial triumph: stable, non-flammable and comparatively non-toxic, they served refrigeration, aerosols, foam and solvents. Stability was the hidden problem. CFCs persisted long enough to reach the stratosphere. In 1974, Mario Molina and F. Sherwood Rowland argued that ultraviolet light would break them apart and release chlorine atoms capable of destroying ozone repeatedly. The ozone layer absorbs harmful ultraviolet radiation, so thinning meant higher risks to skin, eyes, crops and ecosystems. The mechanism was plausible and serious, but early observations did not yet offer the dramatic image that later organized public attention. Governments faced a familiar dilemma: constrain a valuable industry before every step of the damage was measured."
       },
       {
-        "title": "Six failed plans made credibility scarce",
-        "text": "Between 1985 and 1993, policymakers launched six stabilisation programmes. Several changed the currency, froze prices or wages and tried to command inflation downward. The 1986 Cruzado Plan initially produced relief and public enthusiasm, but shortages, distorted relative prices and renewed inflation followed. In 1990, the Collor Plan went further by freezing a large share of bank deposits along with prices. It damaged savings and activity without ending the underlying process. These failures taught economic actors to treat every new announcement as temporary. A merchant who believed a freeze would collapse had reason to raise a price beforehand or hide stock; a worker had reason to protect the next wage adjustment. Repeated surprise attacks on inflation therefore made the next plan harder. By 1993, the designers around Finance Minister Fernando Henrique Cardoso needed a transition that reduced the advantage of guessing what the government would do next."
+        "title": "The Antarctic hole turned a model into an alarm",
+        "text": "In 1985, British Antarctic Survey scientists reported that springtime ozone over Antarctica had fallen far more than expected. The hole was not empty space but extreme seasonal thinning. Its scale surprised researchers because some automated datasets had filtered very low readings as errors. Fieldwork clarified why Antarctica was exceptional: cold polar clouds convert chlorine into reactive forms, and returning spring sunlight activates rapid destruction. The discovery did not replace the 1974 mechanism; it made the consequences visible. It also demonstrated the value of independent monitoring. Repeated atmospheric measurements created a common constraint governments and manufacturers had to explain."
       },
       {
-        "title": "The URV separated the ruler from the cash",
-        "text": "The plan’s distinctive instrument was the Unidade Real de Valor, or URV. From March 1994 it served as a unit of account whose value in the existing cruzeiro real was updated daily using price indexes and linked closely to the U.S. dollar. People could not carry URV notes or use it directly at the till. They still paid in cruzeiros reais, but wages, public contracts, taxes and gradually private prices were quoted in URV. A product priced at ten URV could require more cruzeiros tomorrow, yet its URV price stayed ten. This separated two functions of money that inflation had fused: the old currency remained the means of payment while the URV became a more stable measuring stick. Instead of freezing every price by decree, the system let relative prices adjust during the transition and made it visible whether a seller was changing the real price rather than merely following the collapsing unit."
+        "title": "Vienna separated cooperation from sacrifice",
+        "text": "The 1985 Vienna Convention created research, monitoring and information exchange without firm cuts. That sequencing solved a political problem. Countries could agree the atmosphere needed protection before agreeing which chemicals, quantities and dates to regulate. Scientific networks and diplomatic routines developed while evidence strengthened. When negotiators met in Montreal in 1987, they added controls to an existing framework. The first protocol required reductions in selected CFCs and halons but was designed for adjustment. Parties could tighten schedules as science, technology and economics changed. The agreement was a ratchet, not a once-and-for-all bargain."
       },
       {
-        "title": "Four months created a rehearsal for stable money",
-        "text": "The transition was deliberately short but not instantaneous. Wages, social-security benefits and public contracts entered the URV first; other prices followed through a mixture of requirement and negotiation. The central bank published the conversion rate each day. That gave households and firms time to learn the new scale, update accounts, negotiate contracts and see a growing part of the economy use the same reference. Meanwhile, the central bank and mint faced a physical operation: more than 940 million banknotes and 688 million coins had to be produced and distributed while the old currency still circulated. On 1 July 1994, one URV became one real and the virtual ruler became spendable cash. The conversion did not ask society to believe that a freshly named currency was stable. It made society practise stable pricing first, then changed the means of payment to match the unit already in use."
+        "title": "Different timetables made participation possible",
+        "text": "A uniform immediate ban would have asked countries with different incomes and refrigeration needs to absorb the same cost. The protocol gave developing countries longer timetables and created a Multilateral Fund to pay agreed conversion costs, technical assistance and institutional support. This was part of compliance design, not charity. Rich countries had used most chemicals historically and possessed alternatives; poorer states needed refrigeration for food and medicine without obsolete equipment. Trade controls with non-parties also reduced the incentive for production to migrate. By 2009, Vienna and Montreal became the first treaties in the U.N. system to achieve universal participation."
       },
       {
-        "title": "The trick worked because it was not only a trick",
-        "text": "The URV is the memorable part, but it could not carry the plan alone. The programme also sought fiscal flexibility, tightened money and credit, opened space for imports and used the exchange rate as an anchor. Inflation fell dramatically: the central bank’s twelve-month IPCA measure dropped from 4,922% in June 1994 to 916% by December, then to 22% in 1995. Unlike earlier freezes, the plan retained broad public support because it did not depend on confiscating deposits or forcing every relative price to remain fixed. Stable money changed daily life and politics, and Cardoso won the presidency later in 1994. Yet the early real was expensive to defend. High interest rates and an appreciated exchange rate attracted capital and restrained tradable prices, while also increasing fiscal and external vulnerability. Success ended hyperinflation; it did not abolish macroeconomic trade-offs."
+        "title": "Industry changed when the schedule became credible",
+        "text": "The protocol did not succeed because substitutes were perfect in advance. A credible phase-out changed the return to finding them. Manufacturers redesigned aerosols, foams, solvents and cooling equipment; governments tightened schedules at later meetings. Some replacements damaged ozone less but remained transitional. Hydrofluorocarbons protected ozone yet trapped heat, creating a climate problem. In 2016, parties adopted the Kigali Amendment to phase down HFCs through the same machinery. This is not one regulation picking one clean technology. It is policy creating demand for innovation, monitoring revealing consequences and the regime adjusting again."
       },
       {
-        "title": "A currency launch became an institutional sequence",
-        "text": "External shocks in Mexico, Asia and Russia tested the exchange-rate regime, and Brazil entered a severe crisis in 1998. In January 1999 the real was allowed to float. Brazil then built a new framework around inflation targeting, fiscal primary-surplus goals and a more developed system of bank supervision. That later architecture matters to the history because it converted a brilliant transition into a durable monetary order. The lesson is not that every inflation problem needs a virtual currency: Brazil’s inertial indexation, financial system and political conditions were specific. The deeper lesson is about sequencing. The plan changed the unit people used to coordinate, supplied fiscal and monetary constraints, executed the physical conversion and then replaced its exchange-rate anchor with institutions capable of surviving shocks. A new name for money would have failed. A bridge between behaviours gave the name credibility."
+        "title": "Recovery is slow enough to test patience",
+        "text": "The 2022 scientific assessment concluded that nearly 99% of banned ozone-depleting substances had been phased out and recovery was advancing. Yet long atmospheric lifetimes mean Antarctic ozone is not expected to return to 1980 levels until roughly 2066, with earlier recovery elsewhere. Weather changes the hole year to year, and unexpected emissions can appear. Monitoring detected a rise in CFC-11 in the 2010s, allowing investigators to locate and reduce the source. The achievement is not that the problem was declared solved in 1987. Measurement, expert assessment, finance, trade rules, compliance review and amendment stayed active for decades."
       }
     ],
     "timeline": [
       {
-        "date": "1986",
-        "text": "The Cruzado Plan changes the currency and freezes prices; early relief gives way to shortages and renewed inflation."
+        "date": "1974",
+        "text": "Molina and Rowland publish the CFC–ozone destruction mechanism."
       },
       {
-        "date": "1990",
-        "text": "The Collor Plan blocks a large share of bank deposits but fails to end inflation."
+        "date": "1985",
+        "text": "Scientists report the Antarctic ozone hole; states adopt the Vienna Convention."
       },
       {
-        "date": "1993",
-        "text": "Finance Ministry, central bank and mint teams design the three-stage Real Plan."
+        "date": "16 SEP 1987",
+        "text": "The Montreal Protocol is adopted with initial controls and an adjustable structure."
       },
       {
-        "date": "MAR 1994",
-        "text": "The URV begins operating as a daily adjusted unit of account while payments remain in cruzeiros reais."
+        "date": "1990–92",
+        "text": "Parties strengthen phase-outs and establish the Multilateral Fund and compliance procedure."
       },
       {
-        "date": "1 JUL 1994",
-        "text": "One URV converts into one real; the new notes and coins enter circulation nationwide."
+        "date": "2009",
+        "text": "The Vienna Convention and Montreal Protocol achieve universal participation."
       },
       {
-        "date": "1999",
-        "text": "Brazil lets the real float and adopts inflation targeting after external crises exhaust the earlier exchange-rate anchor."
+        "date": "2016",
+        "text": "The Kigali Amendment extends the regime to high-warming HFCs."
+      },
+      {
+        "date": "2022",
+        "text": "The assessment confirms nearly 99% phase-out and continued recovery."
       }
     ],
     "sources": [
       {
-        "label": "Banco Central do Brasil · Real Plan and URV",
-        "url": "https://www.bcb.gov.br/en/monetarypolicy/realplan"
+        "label": "UNEP Ozone Secretariat · milestone timeline",
+        "url": "https://ozone.unep.org/ozone-timeline"
       },
       {
-        "label": "Banco Central do Brasil · 30-year plan archive",
-        "url": "https://www.bcb.gov.br/controleinflacao/30anosreal"
+        "label": "UNEP · treaty evolution and participation",
+        "url": "https://ozone.unep.org/treaties/montreal-protocol-substances-deplete-ozone-layer/introduction"
       },
       {
-        "label": "IMF Independent Evaluation Office · Brazil annex",
-        "url": "https://www.imf.org/external/np/ieo/2003/cac/pdf/Bra.pdf"
+        "label": "UNEP · protocol and Multilateral Fund",
+        "url": "https://www.unep.org/ozonaction/who-we-are/about-montreal-protocol"
       },
       {
-        "label": "IMF · Ending Moderate Inflations",
-        "url": "https://www.elibrary.imf.org/display/book/9781557756992/ch003.xml"
+        "label": "UNEP/WMO · 2022 assessment",
+        "url": "https://www.unep.org/resources/publication/scientific-assessment-ozone-layer-depletion-2022"
       },
       {
-        "label": "FGV Historical Atlas · Plano Real",
-        "url": "https://atlas.fgv.br/verbete/6303"
+        "label": "NOAA · assessment summary",
+        "url": "https://csl.noaa.gov/assessments/ozone/2022/downloads/FrontMatter-ExecutiveSummary_2022OzoneAssessment.pdf"
       },
       {
-        "label": "World Bank · Brazilian macroeconomic crises",
-        "url": "https://documents1.worldbank.org/curated/en/299611468769167111/pdf/Macroeconomic-crises-policies-and-growth-in-Brazil-1964-90.pdf"
+        "label": "UNEP · original final act",
+        "url": "https://www.unep.org/resources/report/montreal-protocol-substances-deplete-ozone-layer-final-act"
       }
     ]
   },
@@ -536,32 +556,32 @@
     {
       "status": "Updated today · critical",
       "title": "Iran, Hormuz and Gulf stability",
-      "text": "UAE drone intercepted · response reserved · mediation space narrows",
-      "progress": 99
+      "text": "Broader U.S. strikes · wider Iranian response · tracked transits near zero",
+      "progress": 100
     },
     {
-      "status": "New today · critical",
+      "status": "Updated today · critical",
       "title": "Nepal–China flood recovery",
-      "text": "950+ dead · tunnel rescues · 10% of Nepal power offline",
-      "progress": 88
+      "text": "1,000+ dead · adaptation threshold · rescue and relocation decisions",
+      "progress": 94
+    },
+    {
+      "status": "New today · structural",
+      "title": "Global bond repricing",
+      "text": "Oil shock · fiscal supply · September rate path",
+      "progress": 77
     },
     {
       "status": "New today · watching",
-      "title": "European air-defence build-out",
-      "text": "Greece signs €3bn network · integration and delivery next",
-      "progress": 66
+      "title": "G20 trade alignment",
+      "text": "19 members accept text · China dissents · national measures next",
+      "progress": 62
     },
     {
       "status": "New today · watching",
-      "title": "Frontier AI and financial stability",
-      "text": "Cyber channel elevated · supervisory response not yet defined",
-      "progress": 52
-    },
-    {
-      "status": "New today · watching",
-      "title": "Shein’s public-market test",
-      "text": "$1.7bn raised · early decline · first earnings decisive",
-      "progress": 57
+      "title": "International AI rulemaking",
+      "text": "Carolina Principles · signatories and exceptions unclear",
+      "progress": 48
     }
   ]
 }
