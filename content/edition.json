@@ -1,19 +1,19 @@
 {
   "date": {
-    "display": "Wednesday, 2 September 2026",
-    "edition": "013",
-    "updated": "7:05 AM"
+    "display": "Thursday, 3 September 2026",
+    "edition": "014",
+    "updated": "7:15 AM"
   },
-  "worldSentence": "The U.S.–Iran war returned to sustained strikes as Hormuz traffic stalled, while bond markets and the G20 exposed how quickly security shocks become financing and coordination shocks.",
-  "standfirst": "U.S. forces struck Iranian air-defence, maritime, mine-laying and communications targets on Tuesday; Iran answered against U.S. assets in Jordan and Iraq and said it also attacked Bahrain. With tanker traffic through Hormuz reduced to a trickle, Brent moved above $95 and sovereign yields climbed across major markets. Beyond the lead, China withheld consent from a G20 finance statement on trade imbalances, Russia extended its heaviest run of attacks on Kyiv, Xi Jinping arrived in Egypt to deepen a relationship spanning ports, industry and defence, and the United States asked G20 members to avoid broad new AI rules. Qatar Airways will restore four Saudi gateways and lift winter service above 155 weekly flights.",
-  "listenTime": "16 min",
+  "worldSentence": "Conflict is spreading costs through Gulf airspace and oil, while governments and institutions redraw the rules for climate risk, digital infrastructure, public health and AI.",
+  "standfirst": "Iran widened retaliation to Kuwait and Bahrain after the latest U.S. strikes, and Qatar moved from mediation language to an explicit condemnation of Tehran’s attacks on neighboring states. Beyond the Gulf, Congo’s Bundibugyo Ebola outbreak passed 3,000 reported deaths, UNEP formally accepted that 1.5°C warming will be exceeded, and Qatar advanced new cloud-computing and competition laws. Markets are caught between weak U.S. hiring and persistent price pressure; the U.S. Justice Department backed the fair-use case for AI training; Snowflake reported measurable enterprise AI adoption; Brazil defined election deepfakes before October’s vote; and U.S. travel leaders confronted another fall in foreign arrivals.",
+  "listenTime": "18 min",
   "coverage": [
     {
       "count": 2,
       "label": "Qatar & Gulf"
     },
     {
-      "count": 4,
+      "count": 3,
       "label": "World & security"
     },
     {
@@ -21,534 +21,606 @@
       "label": "Economy & markets"
     },
     {
-      "count": 1,
-      "label": "Technology"
+      "count": 4,
+      "label": "Technology & law"
+    },
+    {
+      "count": 2,
+      "label": "Climate & health"
     },
     {
       "count": 1,
-      "label": "Aviation"
+      "label": "Aviation & tourism"
     }
   ],
   "connected": {
-    "title": "The cost of fragmentation is arriving through routes, rules and rates.",
+    "title": "Institutions are being forced to price risks they once treated as external.",
     "signals": [
       {
-        "label": "HORMUZ",
-        "value": "0",
-        "text": "Kpler registered no commodity-vessel transit on Sunday after only five on Saturday."
+        "label": "GULF",
+        "value": "3",
+        "text": "Qatar named Jordan, Bahrain and Kuwait in its condemnation of Iran’s renewed attacks."
       },
       {
-        "label": "G20",
-        "value": "19–1",
-        "text": "Every member present except China accepted the chair’s statement on trade imbalances."
+        "label": "EBOLA",
+        "value": "15–20%",
+        "text": "Only this share of confirmed new cases was being found among known contacts."
       },
       {
-        "label": "QATAR–KSA",
-        "value": "155+",
-        "text": "Qatar Airways plans more than 155 weekly Saudi flights this winter."
+        "label": "QATAR LAW",
+        "value": "2",
+        "text": "Draft cloud-computing and competition laws now move to the Shura Council."
       }
     ],
-    "note": "Hormuz is a physical route that now depends on security assurances no actor can supply alone. Sovereign bonds are the price of governments asking markets to absorb more debt while oil raises inflation risk. The G20 could record broad agreement but not consensus because China rejected key language. AI governance is moving toward competing regulatory blocs. Qatar Airways, by contrast, is adding redundancy and frequency inside a regional network. Fragmentation does not always stop activity; it changes who bears the risk, how much capital costs and which routes remain usable."
+    "note": "A military strike becomes an insurance premium, a flight path and a fuel bill. Missed Ebola transmission chains become regional risk. Climate overshoot turns a distant target into a present allocation problem between mitigation, adaptation and carbon removal. Qatar’s draft laws attempt the same conversion in digital markets: make data access, provider obligations, concentration and dominance legible before disputes arrive. AI copyright and election cases show governments doing this after deployment has already outrun the rulebook. Across the edition, the common move is to turn unpriced uncertainty into an operating rule—and the common danger is doing it too late."
   },
   "stories": [
     {
       "id": "us-iran-strikes-hormuz-war-footing",
       "number": "01",
       "category": "Iran, Qatar & Gulf security",
-      "sourceNote": "U.S. CENTCOM, Iranian statements + AP/Reuters · Tuesday night",
-      "title": "The U.S.–Iran exchange became a new strike cycle as Hormuz traffic approached standstill.",
-      "changed": "U.S. Central Command said it completed strikes on Iranian air-defence sites, radar, maritime facilities, mine-laying capabilities and communications systems. Iran said it struck U.S. assets in Jordan and Iraq; Iranian media also reported an attack on Bahrain. Tehran said five people were killed and dozens wounded when a U.S. strike hit a wedding, a claim not independently verified in the cited reporting. Ship data showed only five commodity vessels crossing Hormuz on Saturday and none registered on Sunday, versus 31 the previous weekend.",
-      "matters": "This is materially worse than yesterday’s single UAE-bound drone. Washington is degrading the systems Iran uses to control the strait, while Tehran is widening the geography of retaliation and treating shipping access as leverage. For Qatar, exposure runs through LNG export reliability, airspace, force protection, imported-goods costs and narrowing mediation room. Interception can protect a site; it cannot restore confidence to shipowners, crews and insurers deciding whether to enter a contested chokepoint.",
-      "watch": "Further strike waves; verified casualties and target damage; any confirmed attack in Bahrain or on Qatar-linked infrastructure; tanker transits and AIS-dark movements; war-risk premiums; Brent and LNG benchmarks; Qatar–Oman–Pakistan mediation; and whether a shipping framework separates commercial passage from military traffic.",
+      "sourceNote": "Qatar MOFA + AP · Wednesday night",
+      "title": "Iran widened retaliation to Gulf states, and Qatar explicitly condemned Tehran’s attacks.",
+      "changed": "After the latest U.S. strikes, Iran launched drones toward Kuwait and Bahrain and said American-linked targets in Jordan and Iraq were also attacked. Kuwait and Bahrain reported no casualties in the cited coverage; Kurdish authorities said 10 explosive drones were intercepted around Irbil. Qatar’s Foreign Ministry condemned the renewed attacks on Jordan, Bahrain and Kuwait, called them violations of sovereignty and international law, and held Iran legally responsible. Brent remained near $95 while commercial traffic through Hormuz stayed severely constrained.",
+      "matters": "The political shift in Doha’s wording is as important as another night of interceptions. Qatar is still calling for negotiation, but it is no longer describing escalation in neutral terms: it has publicly assigned responsibility to Iran for attacks on neighboring states. Tehran’s strategy appears designed to make U.S. partnerships costly across the region, not only to contest the strait. That increases the burden on Gulf air defence, narrows mediators’ room, and keeps energy, aviation and insurance exposed even without a mass-casualty strike.",
+      "watch": "Any Iranian response to Qatar’s statement; further attacks on Gulf territory; confirmed casualties or infrastructure damage; U.S. targeting; Hormuz vessel counts and war-risk cover; Brent and LNG benchmarks; airspace notices; and whether Qatar, Oman or Pakistan can preserve a channel after Doha’s harder public position.",
       "personal": true,
       "lead": true,
       "group": {
         "label": "The lead",
-        "title": "A tactical exchange is hardening into an operating environment.",
-        "note": "CENTCOM’s target list is official. Iranian casualty and Bahrain claims require confirmation; ship counts omit vessels travelling without transponders.",
+        "title": "The war’s geography widened, and Qatar’s diplomatic posture hardened.",
+        "note": "The attacks and official condemnations are confirmed; Iranian target claims and battlefield effects remain only partly verified.",
         "break": false
       },
       "background": {
-        "title": "The battlefield and the chokepoint are now one system",
-        "text": "Sunday’s U.S. strike on launchers at Larak Island ended a month-long lull. Tuesday’s broader wave targeted radar, air defence, communications and mine-laying capacity—the infrastructure through which Iran detects, coordinates and enforces control near Hormuz. Iran’s answer pushed the stated target set into Iraq and Bahrain. Commercial operators already faced tanker attacks and uncertain permission to transit. Even if navies can clear a route, traffic will not normalize until owners, charterers, crews and insurers believe the clearance will persist. Diplomacy about shipping rules may therefore matter as much as the next military assessment.",
-        "known": "CENTCOM confirms a multi-category strike wave; Iran confirms retaliation toward U.S. assets; tracked commodity traffic fell sharply.",
-        "new": "The United States moved from a limited launcher strike to a broader campaign against Iran’s operating system around the strait."
+        "title": "Deterrence is moving from the strait into the alliance network",
+        "text": "Tuesday’s U.S. wave targeted air defence, radar, maritime facilities, mine-laying capability and communications—the systems Iran uses to detect, coordinate and threaten passage near Hormuz. Tehran’s answer spread pressure across states hosting or supporting U.S. interests. This does not require Iran to defeat Gulf defences; repeated alerts can raise insurance, interrupt schedules and create political friction between Washington and its partners. Qatar’s condemnation defends a regional sovereignty principle while preserving its call for dialogue. The tension is structural: mediation requires access to Iran, but domestic and Gulf credibility requires naming attacks on neighbors as unacceptable.",
+        "known": "Iranian drones targeted Kuwait and Bahrain; Qatar issued a formal condemnation naming Iran; Gulf states reported no casualties in the cited reporting.",
+        "new": "Doha moved from general de-escalation language to holding Iran fully and legally responsible for attacks on neighboring states."
       },
       "evidence": {
         "left": {
-          "label": "Military escalation",
-          "text": "Radar, air defence, maritime, mine-laying and communications targets were struck in one U.S. wave."
+          "label": "Military spread",
+          "text": "Iran’s stated and reported target set now spans Jordan, Iraq, Kuwait and Bahrain."
         },
         "right": {
-          "label": "Commercial paralysis",
-          "text": "Tracked weekend commodity transits fell from 31 to five, with none registered Sunday."
+          "label": "Diplomatic cost",
+          "text": "Qatar publicly assigned responsibility while still calling for an immediate halt and renewed talks."
         }
       },
       "sources": [
         {
-          "label": "CENTCOM · 1 September strike statement",
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4588389/centcom-completes-strikes-on-irgc-targets-in-iran/"
+          "label": "Qatar MOFA · condemnation of Iranian attacks",
+          "url": "https://mofa.gov.qa/en/latest-articles/statements/qatar-condemns-renewed-iranian-attacks-on-neighboring-countries"
         },
         {
-          "label": "AP · strikes, responses and casualty claims",
-          "url": "https://apnews.com/article/ad84a64884aedbbd1e5914182bb3cd8d"
+          "label": "AP · Gulf attacks and the Hormuz struggle",
+          "url": "https://apnews.com/article/iran-us-strikes-hormuz-trump-september-2-2026-cc891e22860d7a53bf7ade9a3d74c0ae"
         },
         {
-          "label": "Reuters · renewed war footing",
-          "url": "https://au.marketscreener.com/news/us-and-iran-exchange-attacks-as-lull-in-war-appears-over-ce7858d2dd88f32c"
+          "label": "AP · regional developments",
+          "url": "https://apnews.com/article/e0165815fef56d94b1a07793d24fdee3"
         },
         {
-          "label": "Reuters · Hormuz vessel counts",
-          "url": "https://www.gulf-times.com/article/731298/shopping/shipping-slows-through-strait-of-hormuz-after-tanker-attacks"
+          "label": "Reuters · markets after the renewed exchange",
+          "url": "https://za.investing.com/news/economy-news/shares-bonds-rally-as-markets-await-signals-for-fed-rates-4452459"
         }
       ]
     },
     {
-      "id": "nepal-flood-toll-thousand-adaptation-limit",
+      "id": "congo-ebola-three-thousand-deaths",
       "number": "02",
-      "category": "Climate disaster & infrastructure",
-      "sourceNote": "Nepal authorities, scientists + AP · Tuesday night",
-      "title": "Nepal began mass burials as the flood toll passed 1,000 and the adaptation limit came into view.",
-      "changed": "The confirmed toll across Nepal and China passed 1,000, with Nepal reporting 987 deaths and 3,916 people still missing in the latest accessible count. Search teams continued while Kathmandu buried dozens of victims. Scientists said the 26 August event began with a glacier collapse powerful enough to register as a magnitude 5.2 seismic event, sending water, rock and mud through valleys exposed by rapid Himalayan warming.",
-      "matters": "Yesterday established the hydropower and rescue failure. Today’s evidence clarifies the hazard: this was a compound mountain event capable of overwhelming defences designed around older conditions. Nearly two billion people depend on rivers that begin in the Himalayas. The choice is no longer simply stronger barriers; it includes where settlements and power projects should exist, how workers receive warnings, and when retreat is safer than rebuilding.",
-      "watch": "Reconciled counts; contact with trapped workers; attribution of the glacier failure; access to the Chinese side; disease and shelter conditions; electricity restoration; reconstruction conditions; and which valleys scientists identify as beyond practical protection.",
+      "category": "Public health, Congo & regional security",
+      "sourceNote": "Congo health data, WHO + AP · Wednesday",
+      "title": "Congo’s Bundibugyo Ebola outbreak passed 3,000 reported deaths while transmission remained largely unseen.",
+      "changed": "Congo reported 6,186 confirmed cases and 3,007 deaths in the outbreak declared in May, making it the country’s deadliest Ebola outbreak and the fastest-growing recorded. The virus has reached six provinces. U.S. CDC analysis cited by AP said containment remained below response targets and only 15%–20% of confirmed new cases were identified among known contacts, meaning most transmission chains were not being followed before illness appeared. WHO has warned that true infections may be three to four times the surveillance count.",
+      "matters": "The threshold is not symbolic. Contact tracing works when investigators can map most exposures, isolate cases and support families before onward transmission. Here, conflict, attacks on health workers, unpaid staff, mining mobility and weak infrastructure are breaking that chain. The Bundibugyo strain has no licensed vaccine or specific approved treatment, removing tools available against the better-known Zaire ebolavirus. A regional emergency becomes harder to contain when the surveillance system sees deaths more reliably than infections.",
+      "watch": "The share of cases linked to known contacts; geographic spread beyond the 60 affected health zones reported last week; health-worker pay and security; treatment-bed capacity; trial vaccine and therapeutic data; cross-border cases; safe-burial coverage; and whether the growth rate begins to fall.",
       "personal": false,
       "lead": false,
       "group": {
         "label": "The world beyond the lead",
-        "title": "The emergency became a question about where resilience stops.",
-        "note": "Counts remain provisional and can fall as missing people are located or records are reconciled.",
+        "title": "An epidemic is outrunning the system designed to see it.",
+        "note": "Official counts understate infections; WHO modelling suggests three- to four-fold under-ascertainment.",
         "break": true
       },
       "background": {
-        "title": "Warming changes the map, not only the weather",
-        "text": "The Himalayas combine steep gradients, earthquakes, glaciers, unstable moraine and densely used river corridors. Warming can enlarge glacial lakes, weaken frozen ground and alter rainfall; a collapse can then entrain rock and sediment into a moving wall. The event damaged villages and a significant share of Nepal’s hydropower system at once. Traditional adaptation assumes a known hazard range that stronger construction and evacuation can manage. Scientists interviewed by AP said some areas may be crossing a threshold where those measures are insufficient, changing the burden of proof before rebuilding.",
-        "known": "The combined toll exceeds 1,000; thousands remain missing; seismic data support a major glacier collapse.",
-        "new": "Scientific assessment now frames parts of the region as potentially beyond conventional adaptation."
+        "title": "The critical number is not only cases—it is how many cases were expected",
+        "text": "Ebola response depends on a chain: identify a patient, list contacts, monitor them, isolate symptoms quickly, provide safe care and bury the dead without exposing families. When only a small minority of new patients were already known to tracers, transmission is occurring outside the response map. Bundibugyo virus was first recognized in Uganda in 2007 and has caused far fewer documented outbreaks than Zaire ebolavirus. Diagnostics now exist, but licensed vaccines and targeted treatments do not. The result is a response that depends even more heavily on trust, staffing, surveillance and early supportive care in a conflict-affected region.",
+        "known": "Reported deaths exceeded 3,000, six provinces are affected and most confirmed cases were not previously listed contacts.",
+        "new": "The official toll crossed a major threshold while evidence of uncontrolled, unseen transmission strengthened."
       },
       "evidence": {
         "left": {
-          "label": "Human scale",
-          "text": "Nepal reported 987 deaths and nearly 4,000 people missing."
+          "label": "Recorded burden",
+          "text": "6,186 confirmed cases and 3,007 deaths were reported by Congo’s health ministry."
         },
         "right": {
-          "label": "Physical scale",
-          "text": "The initiating collapse registered like a magnitude 5.2 seismic event."
+          "label": "Hidden burden",
+          "text": "WHO modelling indicates actual infections could be three to four times the surveillance total."
         }
       },
       "sources": [
         {
-          "label": "AP · mass burials and updated toll",
-          "url": "https://apnews.com/article/835459b2978adcd2b3bcf6e0595aee6c"
+          "label": "AP · 3,000 deaths and uncontrolled expansion",
+          "url": "https://apnews.com/article/congo-ebola-disease-outbreak-deaths-79042056c1bd20cb1233a013fedf30d3"
         },
         {
-          "label": "AP · Himalayan warming and adaptation limits",
-          "url": "https://apnews.com/article/8e299c879d1e0c9a3026b8d96d8da5d4"
+          "label": "WHO · August emergency committee assessment",
+          "url": "https://www.who.int/news/item/28-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo---meeting-report"
         },
         {
-          "label": "AP · hydropower exposure",
-          "url": "https://apnews.com/article/021880ee5a7ac49ac376c6b3378ff97e"
+          "label": "WHO · Bundibugyo outbreak background",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602"
+        },
+        {
+          "label": "WHO · first emergency-listed diagnostic",
+          "url": "https://www.who.int/news/item/02-07-2026-who-adds-first-diagnostic-test-for-ebola-bundibugyo-virus-to-its-emergency-use-listing"
         }
       ]
     },
     {
-      "id": "russia-sixth-day-kyiv-air-campaign",
+      "id": "unep-one-point-five-overshoot",
       "number": "03",
-      "category": "Ukraine, civilian infrastructure & aviation",
-      "sourceNote": "Ukrainian authorities + AP · Tuesday",
-      "title": "Russia extended its assault on Kyiv into an unprecedented sixth straight day.",
-      "changed": "Russian missiles and drones struck Kyiv for more than 12 hours, killing at least 12 people in the cited reporting. Ukrainian authorities described it as the sixth consecutive day of heavy attacks on the capital, the longest such run since the full-scale invasion began. President Volodymyr Zelenskyy said Russia was targeting energy and transport; he also warned airlines and insurers that Ukrainian long-range attacks were making Russian airspace dangerous.",
-      "matters": "Duration matters as much as the daily casualty count. A continuous campaign tests interceptor stocks, repair crews, electricity systems, public sleep and the ability of schools and firms to function. Ukraine’s warning adds a reciprocal economic strategy: impose risk and insurance costs on Russia’s internal aviation network. This raises the chance that civilian transport becomes a persistent pressure point on both sides.",
-      "watch": "Further consecutive attack days; casualty revisions; power and railway outages; Ukrainian strikes near major Russian cities; airline cancellations and insurer exclusions; interceptor supply; and European air-defence deliveries.",
+      "category": "Climate, infrastructure & capital",
+      "sourceNote": "UNEP report + AP · Wednesday",
+      "title": "The UN formally shifted from preventing 1.5°C to managing an unavoidable overshoot.",
+      "changed": "A new UNEP report says exceeding 1.5°C of long-term warming is now unavoidable under current policies and plausible near-term trajectories, likely within the next few years. Its best-case pathway peaks near 1.8°C around mid-century before temperatures decline; current policies point toward roughly 2.6°C by 2100. UNEP now frames the remaining task as limiting the height and duration of overshoot, adapting while risks rise, and building enough durable carbon removal to return below 1.5°C.",
+      "matters": "This is a strategic reset, not permission to abandon the target. Every additional tenth of a degree raises damage, adaptation cost and the probability of irreversible thresholds; every year above the line prolongs exposure. The new framework also makes a difficult sequencing problem explicit: rapid emissions cuts determine the peak, adaptation limits harm during overshoot, and carbon removal affects whether decline is possible. Governments and investors can no longer treat those as interchangeable substitutes.",
+      "watch": "Whether national plans distinguish emissions reduction from removal; financing for adaptation in exposed states; how carbon-removal durability is verified; revised infrastructure standards; methane and fossil-fuel policy; and whether “overshoot” becomes a discipline for faster action or a rhetorical license for delay.",
       "personal": false,
       "lead": false,
       "group": {
-        "label": "Europe & war",
-        "title": "Sustained pressure, not a single barrage, is the tactic.",
-        "note": "Casualty and target claims come from Ukrainian authorities; Russia’s stated account was not included in accessible reporting.",
+        "label": "Climate & systems",
+        "title": "The goal remains; the route now approaches it from above.",
+        "note": "The precise peak and return date are scenarios, not forecasts; higher and longer overshoot creates greater risk.",
         "break": true
       },
       "background": {
-        "title": "A campaign can exhaust a city without a breakthrough",
-        "text": "Ukraine must decide which threats to intercept, keep repair teams operating under repeated alerts and preserve enough power and transport for ordinary life. Russia can use relatively cheap drones to force expensive responses and mix in ballistic missiles that compress warning time. Ukraine’s long-range drone campaign seeks a mirror effect by disrupting Russian airports and insurance calculations. Neither side needs to close every runway permanently; repeated uncertainty can reduce schedules, raise costs and consume defence resources.",
-        "known": "Kyiv endured more than 12 hours of attacks, at least 12 people were reported killed and officials count six consecutive days.",
-        "new": "The streak is unprecedented in the full-scale war, while Ukraine explicitly connected deep strikes to Russian commercial aviation."
+        "title": "Overshoot is a pathway, not a single threshold crossing",
+        "text": "Climate is measured over long averages, so one hot year above 1.5°C is not the same as sustained long-term exceedance. UNEP’s curve has three parts: temperatures rise beyond the goal, reach a peak and then decline as net emissions turn negative. The peak depends primarily on how fast gross emissions fall. The descent depends on removing carbon and keeping it out of the atmosphere. Some harms—species loss, ice-sheet change or adaptation failure—may not reverse when the average temperature later falls. That is why a 1.8°C peak and a 2.6°C trajectory are not minor variants of the same future.",
+        "known": "The world is near 1.4°C on a long-term basis and UNEP says sustained 1.5°C exceedance is now unavoidable.",
+        "new": "The UN has adopted “overshoot, peak and decline” as the best remaining operating framework."
       },
       "evidence": {
         "left": {
-          "label": "Pressure on Kyiv",
-          "text": "Six straight days turn raids into an endurance campaign against city systems."
+          "label": "Best available path",
+          "text": "Ambitious action still implies a peak near 1.8°C before a possible return below 1.5°C."
         },
         "right": {
-          "label": "Pressure on Russia",
-          "text": "Ukraine is telling airlines and insurers to price Russian airspace as an active war zone."
+          "label": "Current-policy path",
+          "text": "Policies now in force point toward approximately 2.6°C of warming by 2100."
         }
       },
       "sources": [
         {
-          "label": "AP · Kyiv bombardment and casualties",
-          "url": "https://apnews.com/article/7564a892bfb99a853aa150c8710b7985"
+          "label": "UNEP · Limiting Overshoot report",
+          "url": "https://www.unep.org/resources/limiting-overshoot-navigating-exceedance"
         },
         {
-          "label": "Ukraine presidency · 1 September address",
-          "url": "https://www.president.gov.ua/en/news/rosijske-nebo-de-fakto-bude-zakrivatisya-vijna-sho-rozvyazan-106201"
+          "label": "UNEP · report release and key findings",
+          "url": "https://www.unep.org/news-and-stories/press-release/unep-world-set-cross-15degc-global-warming-can-still-limit-adapt-and"
         },
         {
-          "label": "Reuters · warning to airlines",
-          "url": "https://in.marketscreener.com/news/zelenskiy-says-ukrainian-drones-have-effectively-closed-russian-airspace-ce7858d2d88ff427"
+          "label": "UNEP · overshoot explained",
+          "url": "https://www.unep.org/news-and-stories/story/overshoot-explained-5-things-understand-about-world-beyond-15degc"
+        },
+        {
+          "label": "AP · the policy shift",
+          "url": "https://apnews.com/article/climate-change-threshold-catastrophe-overshoot-un-warming-1b2d126e8359ba77e5546f27d8f4a4e1"
         }
       ]
     },
     {
-      "id": "china-blocks-g20-finance-consensus",
+      "id": "qatar-cloud-competition-draft-laws",
       "number": "04",
-      "category": "G20, China & global trade",
-      "sourceNote": "U.S. Treasury + AP · Tuesday night",
-      "title": "China withheld consent from the G20 finance statement as 19 members challenged export-led imbalances.",
-      "changed": "The U.S. presidency issued a chair’s statement rather than a consensus communiqué after China objected to four paragraphs on global imbalances, trade, financial regulation and growth. Treasury Secretary Scott Bessent said the other 19 members present agreed that a continuing stream of cheap exports from non-market economies was unsustainable. China, whose goods trade surplus reached nearly $1.2 trillion in 2025, rejected the framing.",
-      "matters": "The 19–1 split is politically striking but operationally incomplete. The United States and Europe increasingly agree that Chinese overcapacity creates domestic pressure, yet do not share one remedy. A chair’s statement can isolate a dissenter; it cannot create enforcement. Consequences will come through national trade measures, procurement rules and negotiations with Beijing.",
-      "watch": "A Chinese counterstatement; U.S. tariff action; EU anti-subsidy cases; December summit language; whether the 19-country alignment holds; Chinese steps to boost household demand; and sector restrictions on vehicles, batteries, solar equipment or machinery.",
-      "personal": false,
+      "category": "Qatar, digital policy & competition",
+      "sourceNote": "Qatar Cabinet via QNA · Wednesday",
+      "title": "Qatar advanced draft laws for cloud computing and competition to the Shura Council.",
+      "changed": "The Cabinet approved and referred two draft laws. The cloud-computing bill would govern digital-data storage and disclosure, lawful access, privacy, international cooperation, provider obligations, neutral access, fair pricing, non-discrimination, interoperability and customer choice. The competition bill would replace the 2006 law, create a Competition Regulation Committee, define prohibited agreements and abuse of dominance, review economic concentrations on set timelines, and establish investigations, penalties, appeals and settlements.",
+      "matters": "Together, the drafts address the infrastructure and market structure of Qatar’s digital economy. Cloud investment depends on credible rules for data custody, government access and cross-border cooperation; competition policy determines whether large providers, platforms and concentrated transactions can foreclose rivals. The opportunity is to make Qatar a trusted regional data-hosting location. The unresolved issue is implementation: broad statutory goals become investable only when jurisdiction, thresholds, timelines and enforcement practice are predictable.",
+      "watch": "Shura Council changes; publication of the bill texts; data-localization scope; cross-border transfer and lawful-access rules; which providers are covered; merger-notification thresholds; Competition Regulation Committee independence and staffing; penalty levels; transition periods; and interaction with existing privacy and telecom rules.",
+      "personal": true,
       "lead": false,
       "group": {
-        "label": "Global economy",
-        "title": "Broad agreement produced a record of disagreement, not a common policy.",
-        "note": "The Treasury statement records China’s objection; Bessent’s 19-member formulation is the U.S. chair’s characterization.",
+        "label": "Qatar",
+        "title": "Doha is writing rules for the infrastructure and conduct of a digital market.",
+        "note": "These are draft laws referred to the Shura Council; final text, commencement dates and implementing rules are not yet established.",
         "break": true
       },
       "background": {
-        "title": "A surplus is a fact; overcapacity is a diagnosis",
-        "text": "China’s export strength reflects scale, productivity, subsidies, weak consumption and industrial strategy in proportions that vary by sector. Importers see low prices but also plant closures and dependence. The G20 text says persistent imbalances create vulnerabilities and calls for adjustment by surplus and deficit economies, yet China objected. When the largest surplus economy rejects the diagnosis, action migrates from the forum to tariffs, subsidies and bilateral bargaining.",
-        "known": "Nineteen members accepted the chair’s text; China rejected four paragraphs; the document lacks full consensus.",
-        "new": "The disagreement is now formal and specific."
+        "title": "Trust requires rules for both data and power",
+        "text": "A data-centre strategy is not only electricity, land and fibre. Enterprise buyers ask where data sits, when authorities may obtain it, whether providers can discriminate, how services interoperate and how customers exit. Competition law asks a parallel set of questions about market power: which agreements are prohibited, when concentration requires review and what remedy follows abuse. Qatar’s Cabinet summary signals answers but not yet the operational detail. If the final framework is clear and enforceable, it can reduce due-diligence friction. If obligations are vague or overlapping, it can add a compliance layer without creating trust.",
+        "known": "Both drafts were approved by Cabinet and sent to the Shura Council with stated objectives and institutional features.",
+        "new": "Cloud-provider conduct and economic-concentration review are moving into a modernized legislative framework."
       },
       "evidence": {
         "left": {
-          "label": "Political alignment",
-          "text": "Every participating member except China accepted the imbalances language."
+          "label": "Cloud framework",
+          "text": "The draft links privacy and lawful access with interoperability, neutral access and provider transparency."
         },
         "right": {
-          "label": "Policy gap",
-          "text": "No common remedy or enforcement mechanism emerged."
+          "label": "Competition framework",
+          "text": "The draft covers dominance, prohibited agreements, concentration review, investigations and penalties."
         }
       },
       "sources": [
         {
-          "label": "U.S. Treasury · G20 chair’s statement",
-          "url": "https://home.treasury.gov/news/press-releases/sb0620/"
+          "label": "QNA · Cabinet meeting and full draft-law summary",
+          "url": "https://qna.org.qa/en/news/news-details?date=2%2F09%2F2026&id=cabinet-holds-weekly-meeting"
         },
         {
-          "label": "AP · Bessent’s 19–1 account",
-          "url": "https://apnews.com/article/426a8b4d10c6610c2d7200bab412fe1b"
+          "label": "Qatar Tribune/QNA · cloud and competition measures",
+          "url": "https://www.qatar-tribune.com/article/251854/front/cabinet-approves-draft-law-on-cloud-computing"
         },
         {
-          "label": "Axios · statement blocked",
-          "url": "https://www.axios.com/2026/09/02/china-g20-bessent-trade"
+          "label": "Al Arab · Arabic Cabinet summary",
+          "url": "https://alarab.qa/article/02/09/2026/%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D9%8A%D9%88%D8%A7%D9%81%D9%82-%D8%B9%D9%84%D9%89-%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D9%8A-%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A-%D8%A7%D9%84%D8%AD%D9%88%D8%B3%D8%A8%D8%A9-%D8%A7%D9%84%D8%B3%D8%AD%D8%A7%D8%A8%D9%8A%D8%A9-%D9%88%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9"
         }
       ]
     },
     {
-      "id": "global-bonds-oil-fiscal-risk-repricing",
+      "id": "us-rates-weak-hiring-price-pressure",
       "number": "05",
-      "category": "Markets, inflation & sovereign debt",
-      "sourceNote": "Market data + AP/Reuters · Tuesday close",
-      "title": "Oil above $95 and heavy government borrowing pushed the global bond selloff deeper.",
-      "changed": "Government yields rose across major markets as renewed fighting lifted oil and investors demanded more compensation for inflation, deficits and debt issuance. Brent traded above $95 after its largest daily gain since 24 July. U.S. futures implied roughly a two-thirds chance of a 25-basis-point Federal Reserve increase on 16 September, up from about 40% a week earlier.",
-      "matters": "This matters more than a weak equity session. Sovereign yields price mortgages, corporate debt, projects and assets. Oil creates an inflation impulse just as governments ask investors to absorb record borrowing. If central banks cannot ease, refinancing costs move through public budgets and private investment. For a long-horizon portfolio, the signal is a higher discount rate and wider outcomes—not a one-day reason to trade.",
-      "watch": "Hormuz flows and Brent; inflation breakevens versus real yields; debt auctions; Federal Reserve guidance; persistence of rate-hike pricing; credit spreads; and evidence that yields weaken business investment or housing.",
+      "category": "Economy, rates & consumer demand",
+      "sourceNote": "Federal Reserve, ADP + Reuters · Wednesday/Thursday",
+      "title": "Weak hiring and stubborn input costs left the Fed with a two-sided September decision.",
+      "changed": "ADP estimated that U.S. private employers added 38,000 jobs in August, below the 48,000 Reuters consensus, with manufacturing and several other industries losing jobs. The Federal Reserve’s Beige Book found modest activity, slight employment growth and moderate prices, but strong input pressure from energy, transport, metals, petrochemicals and tariffs. Consumers were resisting pass-through. After a global bond selloff, yields eased Thursday; futures still implied roughly a two-in-three chance of a 25-basis-point Fed increase this month.",
+      "matters": "This is not a clean slowdown signal. The labor side is soft enough to make tightening costly, while the price side remains exposed to oil and supply shocks that monetary policy cannot produce away. Firms caught between higher inputs and price-sensitive customers absorb the difference in margins, hiring or investment. The durable market question is whether Friday’s payroll report confirms weakness strongly enough to outweigh inflation risk—not whether one relief rally lasts.",
+      "watch": "Friday’s nonfarm payrolls, unemployment and wage growth; next week’s inflation data; Fed communication; Brent and shipping costs; the September 15–16 decision; long-duration yields; corporate margin commentary; and whether consumer resistance turns into broader demand weakness.",
       "personal": true,
       "lead": false,
       "group": {
         "label": "Economy & markets",
-        "title": "The security shock reached the price of money.",
-        "note": "Probabilities and prices move continuously; the structural signal is inflation risk plus fiscal supply and term premium.",
+        "title": "The central bank’s inflation problem now has a weaker labor market attached.",
+        "note": "ADP is an imperfect preview of official payrolls; futures probabilities can change quickly with data and war news.",
         "break": true
       },
       "background": {
-        "title": "Why bonds can matter more than the equity headline",
-        "text": "A bond yield combines expected short rates, inflation and a term premium. Oil can lift inflation and make central banks less willing to cut. Deficits increase the debt markets must absorb. Political uncertainty can add a premium. When those arrive together, prices fall and yields rise. The impact spreads because corporate bonds, mortgages and infrastructure are priced from sovereign curves. The test is persistence: a brief energy spike can reverse, while a lasting rise in term premium changes capital allocation.",
-        "known": "Oil rose sharply, sovereign yields increased and markets priced a greater probability of a September Fed increase.",
-        "new": "The Iran exchange joined fiscal and supply concerns, making the selloff global."
+        "title": "A supply shock creates a choice, not a mechanical rate answer",
+        "text": "Higher oil, freight and tariff costs can lift prices while reducing household real income and business margins. Raising rates may restrain demand and expectations, but it does not reopen Hormuz or create energy supply. Holding rates protects employment but risks validating persistent inflation. The Beige Book shows the mechanism at firm level: inputs rise, customers resist higher selling prices, and businesses decide whether to absorb the cost, cut activity or invest anyway. Data-centre and defence demand remain strong in some districts, making the aggregate picture even less uniform.",
+        "known": "Hiring slowed in ADP’s measure, activity remained modest and input prices were broadly elevated.",
+        "new": "The latest evidence sharpened the conflict between labor softness and oil-linked inflation before September’s decision."
       },
       "evidence": {
         "left": {
-          "label": "Inflation impulse",
-          "text": "Brent moved above $95 as fresh strikes reduced hopes of de-escalation."
+          "label": "Labor",
+          "text": "ADP reported 38,000 private jobs in August against a 48,000 consensus estimate."
         },
         "right": {
-          "label": "Financing pressure",
-          "text": "Investors demand more yield while governments issue historically large debt volumes."
+          "label": "Prices",
+          "text": "Eight Fed districts reported moderate price increases while energy and transport lifted input costs."
         }
       },
       "sources": [
         {
-          "label": "AP · why bond yields are rising",
-          "url": "https://apnews.com/article/52d5e82d851a624b95bc142a0c90d924"
+          "label": "Federal Reserve · August Beige Book summary",
+          "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202608-summary.htm"
         },
         {
-          "label": "Reuters · bond selloff and fiscal risk",
-          "url": "https://ca.marketscreener.com/news/bond-selloff-deepens-as-inflation-oil-prices-jolt-markets-ce7858d2dd88ff25"
+          "label": "Reuters · ADP payrolls and factory orders",
+          "url": "https://www.marketscreener.com/news/us-private-payrolls-growth-slows-in-august-adp-says-ce7858d2d08bf02c"
         },
         {
-          "label": "Reuters · oil above $95",
-          "url": "https://hk.marketscreener.com/news/oil-up-nearly-1-as-us-and-iran-trade-fresh-strikes-ce7858d2da8ff523"
+          "label": "Reuters · rates, yields and Thursday markets",
+          "url": "https://za.investing.com/news/economy-news/shares-bonds-rally-as-markets-await-signals-for-fed-rates-4452459"
+        },
+        {
+          "label": "Reuters · Beige Book interpretation",
+          "url": "https://www.marketscreener.com/news/economic-activity-edged-up-and-prices-rose-moderately-in-recent-weeks-fed-survey-shows-ce7858d3db8af62d"
         }
       ]
     },
     {
-      "id": "g20-carolina-principles-ai-regulation",
+      "id": "doj-openai-training-fair-use",
       "number": "06",
-      "category": "AI, regulation & industrial power",
-      "sourceNote": "G20 technology meeting + Reuters · Tuesday",
-      "title": "The United States asked G20 members to treat most AI uses under existing law.",
-      "changed": "At the G20 innovation ministerial, U.S. technology adviser Michael Kratsios promoted 'Carolina Principles' under which governments would avoid entirely new AI regulation and write new rules only for genuinely novel situations. The approach aligns with U.S. AI companies and the effort to keep international markets inside the American technology ecosystem. Accessible reporting did not establish which countries signed or how binding the principles are.",
-      "matters": "The argument shifts the burden of proof. Governments would first test whether competition, consumer, labour, product-safety or cybersecurity law covers the harm. That can reduce duplication and speed deployment, but can leave gaps where autonomous systems create scale or opacity that old law did not anticipate. Regulatory compatibility can determine which models, clouds and chips become default infrastructure.",
-      "watch": "The final signatory list and text; EU and Chinese responses; treatment of high-risk agents, children and employment decisions; liability for autonomous actions; export-control alignment; and exceptions after recent agent-security failures.",
+      "category": "AI, copyright & industrial policy",
+      "sourceNote": "U.S. court filing + AP · Wednesday night",
+      "title": "The U.S. Justice Department backed the fair-use case for training AI on copyrighted text.",
+      "changed": "In a filing in the consolidated New York Times litigation, the Justice Department supported OpenAI and Microsoft’s argument that training large language models on copyrighted text can qualify as fair use. The government argued that the public and creative benefits of model training outweigh claimed competitive harm and warned that a broad infringement rule would impede scientific and economic progress. The filing is the government’s position, not a judicial ruling.",
+      "matters": "The cost structure of frontier AI depends heavily on whether training requires licenses for vast corpora. A court adopting the government’s reasoning would strengthen developers’ ability to train first and litigate outputs or market harm separately. Publishers argue that models can substitute for their products while using the reporting that sustains them. The case may define not only liability, but the bargaining power behind future licensing markets for journalism and other creative work.",
+      "watch": "The court’s treatment of training versus memorized outputs; evidence of market substitution; discovery disputes; any distinction between public, paywalled and pirated copies; appeals; congressional action; and whether publishers gain leverage through product access and licensing even if fair use wins.",
+      "personal": true,
+      "lead": false,
+      "group": {
+        "label": "Technology & law",
+        "title": "Washington put industrial-policy weight behind one side of AI’s central copyright question.",
+        "note": "A Justice Department filing can influence the court, but it does not decide the case or create precedent.",
+        "break": true
+      },
+      "background": {
+        "title": "Training, output and competition are related—but legally distinct",
+        "text": "Copyright disputes often collapse three questions into one. First, did the developer copy protected works while creating a model? Second, can the model reproduce protected expression? Third, does the resulting product damage the market for the originals? Fair use weighs purpose, nature, amount and market effect, and courts may treat a statistical training process differently from output that reproduces an article. The Justice Department’s intervention emphasizes public benefit and national competitiveness. The publishers’ strongest counter is that a commercial system built from their work can become a substitute for accessing it.",
+        "known": "The government urged the court to reject a blanket claim that LLM training on copyrighted text is infringement.",
+        "new": "The executive branch has formally aligned its innovation policy with the defendants’ fair-use theory in this landmark case."
+      },
+      "evidence": {
+        "left": {
+          "label": "Developer economics",
+          "text": "Mandatory corpus-wide licensing could materially increase training cost and favor the largest firms."
+        },
+        "right": {
+          "label": "Publisher economics",
+          "text": "If models substitute for source access, unlicensed training can weaken the market that produces the material."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · Justice Department intervention",
+          "url": "https://apnews.com/article/justice-department-new-york-times-openai-copyright-dbb22e8e02c660ee5a8644915dec39a4"
+        },
+        {
+          "label": "OpenAI · case chronology and company position",
+          "url": "https://openai.com/new-york-times/"
+        },
+        {
+          "label": "AP · earlier ruling allowing claims to proceed",
+          "url": "https://apnews.com/article/cc19ef2cf3f23343738e892b60d6d7a6"
+        }
+      ]
+    },
+    {
+      "id": "snowflake-ai-adoption-revenue",
+      "number": "07",
+      "category": "Enterprise AI & capital allocation",
+      "sourceNote": "SEC filing, Snowflake + Reuters · Wednesday night",
+      "title": "Snowflake put customer counts behind the claim that enterprise AI is becoming paid infrastructure.",
+      "changed": "Snowflake raised its full-year product-revenue outlook after a third consecutive quarter of accelerating growth. Management said AI products contributed roughly half of the latest acceleration. Its Cortex Code assistant passed 9,100 accounts after adding more than 2,000 in the quarter, while its CoWork enterprise chatbot reached 5,800 accounts. The company’s SEC-filed release described strength in both the core data platform and a meaningful increase in AI revenue.",
+      "matters": "AI spending is easier to believe when it appears as usage inside a data platform rather than only as chip orders or pilot announcements. Snowflake sits where governed enterprise data, compute consumption and new agent interfaces meet. The numbers still do not prove durable returns for customers: account adoption can precede sustained workloads, and revenue may remain concentrated. But they show that the infrastructure cycle is broadening from model builders and server vendors into enterprise software consumption.",
+      "watch": "Net revenue retention; consumption growth after initial trials; paid usage per AI account; gross-margin effects from model inference; customer concentration; renewal behavior; the $6 billion AWS commitment; and whether coding assistants and chatbots expand core warehouse workloads or merely repackage them.",
+      "personal": true,
+      "lead": false,
+      "group": {
+        "label": "Enterprise technology",
+        "title": "The AI capex story is beginning to show up as software usage.",
+        "note": "Product adoption counts are company-reported; customer productivity and long-run unit economics remain unproven.",
+        "break": true
+      },
+      "background": {
+        "title": "The important bridge is from demonstration to consumption",
+        "text": "Enterprise AI often begins as a seat, trial or showcase. Snowflake’s business model is more revealing when customers run queries, models and agents against governed data and pay for consumption. Its platform can benefit twice: AI features consume compute directly, and they make existing data estates more active. That creates a plausible flywheel, but also a cost risk if inference expenses grow faster than revenue or if customers optimize usage. The useful signal is not the share-price reaction; it is whether AI-linked workload growth persists alongside retention and margin.",
+        "known": "Snowflake’s core product growth accelerated and thousands of accounts used its coding and enterprise-chat products.",
+        "new": "Management attributed about half of the acceleration to AI and raised the annual product-revenue forecast."
+      },
+      "evidence": {
+        "left": {
+          "label": "Adoption",
+          "text": "Cortex Code exceeded 9,100 accounts; CoWork reached 5,800."
+        },
+        "right": {
+          "label": "Monetization",
+          "text": "Snowflake said AI produced roughly half of the quarter’s growth acceleration."
+        }
+      },
+      "sources": [
+        {
+          "label": "SEC · Snowflake Q2 FY2027 results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/fy2027q2earnings.htm"
+        },
+        {
+          "label": "SEC · filing index",
+          "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/0001640147-26-000033-index.html"
+        },
+        {
+          "label": "Reuters · results and product adoption",
+          "url": "https://ca.marketscreener.com/news/snowflake-lifts-annual-product-revenue-forecast-on-demand-for-cloud-data-platform-ce7858d3db81f42c"
+        }
+      ]
+    },
+    {
+      "id": "brazil-election-deepfake-standard",
+      "number": "08",
+      "category": "Brazil, elections & synthetic media",
+      "sourceNote": "Brazil electoral court + AP · Wednesday",
+      "title": "Brazil’s electoral court defined the deepfake standard it will enforce in October’s election.",
+      "changed": "Brazil’s top electoral court ruled that political advertising can be treated as a deepfake when AI or equivalent technology creates or alters the image, voice or speech of any living, dead or fictional person with sufficient realism. The case arose after opposition candidate Flávio Bolsonaro’s party convention used an AI-generated version of his imprisoned father to endorse him. The court set the standard weeks before the presidential election, though enforcement boundaries remain to be tested.",
+      "matters": "The ruling moves beyond labels and focuses on realistic synthetic representation. That matters in a country where electoral courts already play an unusually active role in online campaigning and misinformation disputes. A broad definition may make obvious impersonation easier to sanction, including use of deceased or fictional figures. It may also create hard line-drawing questions for satire, dubbing, editing and disclosed synthetic content. The October campaign will be the first real stress test.",
+      "watch": "The written judgment; disclosure requirements; remedies and takedown speed; treatment of satire and parody; platform cooperation; repeat violations; synthetic audio in private messaging; appeals; and whether enforcement is even-handed across parties.",
       "personal": false,
       "lead": false,
       "group": {
-        "label": "Technology & rules",
-        "title": "AI governance is becoming a market-access strategy.",
-        "note": "The principles were described by U.S. officials; signatories, legal effect and enforcement were incomplete at publication.",
+        "label": "Democracy & information",
+        "title": "A court is trying to define synthetic persuasion before voting begins.",
+        "note": "The definition is established; its application to borderline content and private distribution remains uncertain.",
         "break": true
       },
       "background": {
-        "title": "Existing law first is a framework, not no regulation",
-        "text": "AI can mislead a consumer, discriminate in hiring, violate privacy or facilitate a cyberattack; each harm may already sit inside a regulator’s mandate. The U.S. proposal says novelty should trigger an AI-specific layer. The difficult question is whether novelty lies in the harm or in autonomy, speed and cross-domain action. American firms favour interoperability and lower friction; other jurisdictions favour duties before deployment because model behaviour is hard to inspect afterward.",
-        "known": "U.S. officials promoted a presumption against broad new AI rules at the G20.",
-        "new": "That domestic philosophy is now an international set of principles."
+        "title": "A definition is necessary, but distribution is the harder system",
+        "text": "Election law can prohibit a realistic fabricated endorsement, yet the harm often occurs before a court can act. Synthetic clips move through public platforms, closed groups and reposts that strip context or disclosure. A workable regime therefore needs a definition, evidence preservation, rapid adjudication and cooperation from distributors. Brazil’s standard is notable for covering living, deceased and fictional people and for including voice and speech as well as image. That breadth closes obvious loopholes while increasing the importance of intent, realism and context.",
+        "known": "The electoral court adopted a definition covering realistic AI-generated or manipulated identity and speech.",
+        "new": "The rule emerged from an actual presidential-campaign use and will govern the final weeks before October’s vote."
       },
       "evidence": {
         "left": {
-          "label": "Innovation case",
-          "text": "Use established tools when the harm is familiar, reducing overlapping regimes."
+          "label": "Scope",
+          "text": "The standard covers altered image, voice or speech involving living, dead or fictional people."
         },
         "right": {
-          "label": "Governance risk",
-          "text": "Autonomy and scale may create failures visible only after old rules are tested."
+          "label": "Test",
+          "text": "October’s election will reveal whether courts and platforms can apply it before false content finishes circulating."
         }
       },
       "sources": [
         {
-          "label": "Reuters · Carolina Principles",
-          "url": "https://www.japantimes.co.jp/business/2026/09/02/tech/us-ai-regulation-g20/"
-        },
-        {
-          "label": "Reuters mirror · meeting and security context",
-          "url": "https://www.marketscreener.com/news/us-to-urge-hands-off-ai-regulation-at-g-20-official-says-ce7858ddde88f725"
-        },
-        {
-          "label": "White House · U.S. AI policy",
-          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+          "label": "AP · ruling and Bolsonaro campaign case",
+          "url": "https://apnews.com/article/d17e9ba58b40e6d1f9db87d70b148809"
         }
       ]
     },
     {
-      "id": "qatar-airways-four-saudi-gateways",
-      "number": "07",
-      "category": "Qatar, aviation & Saudi tourism",
-      "sourceNote": "Qatar Airways + QNA · Tuesday afternoon",
-      "title": "Qatar Airways will restore four Saudi gateways and exceed 155 weekly flights this winter.",
-      "changed": "Twice-weekly flights to Qassim resume on 25 October and Taif on 31 October, followed by Yanbu on 2 January 2027 and Tabuk on 3 January. The carrier says its Saudi schedule will exceed 155 weekly flights, more than 10% above summer. It carried over 2.3 million passengers between Saudi Arabia and its network in 12 months and increased Riyadh from 35 to 49 weekly flights in June.",
-      "matters": "The signal is network density, not four thin routes alone. Riyadh frequency protects corporate connectivity; secondary gateways feed pilgrimage, regional business and tourism into Doha’s long-haul banks. The schedule makes Qatar Airways a distribution partner for Saudi destination growth while competing with Saudia and Riyadh Air. Two weekly flights are a test; the 155-flight system is the commitment.",
-      "watch": "Bookings; timetable placement; onward connection quality; whether routes gain frequency; Riyadh Air’s response; airport incentives; airspace disruption; and the mix between Saudi-origin and connecting traffic.",
+      "id": "us-foreign-tourism-friction",
+      "number": "09",
+      "category": "Aviation, tourism & consumer demand",
+      "sourceNote": "U.S. Commerce data + Reuters · Wednesday",
+      "title": "U.S. travel executives asked for growth while policy friction kept foreign arrivals falling.",
+      "changed": "President Donald Trump met executives from American Airlines, Marriott, MGM, Carnival and other travel groups to discuss raising annual foreign visitors toward 100 million. The World Cup lifted June travel spending 6.2% year over year to $122.1 billion, but overseas visitors were still down 4.7% through July 2026 after total foreign arrivals fell 5.5% in 2025 to about 68 million. Industry leaders cited visa delays, fares, immigration policy, tariffs, travel restrictions and visitor bonds in 50 countries.",
+      "matters": "A mega-event can fill planes and hotels without repairing a destination’s underlying conversion funnel. Long-haul travel is unusually sensitive to visa uncertainty, border treatment and total trip cost because visitors commit money months before arrival. The U.S. has airport capacity, brands and events, but policy can function like a demand tax. Airlines and hotels cannot market their way around entry friction if travelers choose destinations with simpler rules.",
+      "watch": "Visa interview wait times; changes to visitor-bond programs; July and August arrival data by origin; Canadian demand; biometric connection lanes; airline international capacity; 2027 bookings; and whether the administration changes policy after hearing the industry rather than relying on promotion.",
       "personal": true,
       "lead": false,
       "group": {
         "label": "Aviation & tourism",
-        "title": "Regional depth is becoming part of Doha’s long-haul advantage.",
-        "note": "Dates, frequencies and passenger totals are airline figures; profitability and incentives are not public.",
+        "title": "The World Cup delivered a spike; the destination system still loses visitors.",
+        "note": "June spending was event-boosted; year-to-date arrivals and 2025 totals show the underlying weakness.",
         "break": true
       },
       "background": {
-        "title": "A small spoke can still improve a hub",
-        "text": "A hub values a route by local fares and the connections it feeds. These gateways add catchments that otherwise require surface travel or domestic connections. If schedules meet Doha’s banks, twice-weekly flights can sell into dozens of markets. Low frequency is less useful for business travel and vulnerable to disruption. Qatar Airways is pairing those probes with very high Riyadh frequency: dense core service plus option-like secondary routes.",
-        "known": "Four routes have dates and twice-weekly service; total winter Saudi service is above 155 flights.",
-        "new": "The carrier is rebuilding secondary access while lifting the kingdom schedule by more than 10%."
+        "title": "Tourism demand begins at the border, not the advertisement",
+        "text": "Destination competitiveness combines desire, price, access and confidence. A traveler who cannot obtain a timely interview, faces a refundable or nonrefundable bond, or worries about border disruption may not enter the booking funnel at all. The World Cup temporarily overrode some friction because the event was scarce and time-bound. A 100-million target requires repeatable ordinary demand. Operational improvements such as family screening and faster international connections help after arrival; visa and entry rules determine whether the traveler gets that far.",
+        "known": "World Cup spending was strong, but foreign arrivals remained below the prior year through July.",
+        "new": "Travel-sector CEOs brought the gap between the administration’s growth target and its entry policies directly to the White House."
       },
       "evidence": {
         "left": {
-          "label": "Scale",
-          "text": "More than 155 weekly flights make Saudi Arabia one of the densest regional markets."
+          "label": "Event lift",
+          "text": "June travel spending rose 6.2% to $122.1 billion during the World Cup."
         },
         "right": {
-          "label": "Experiment",
-          "text": "Each restored gateway begins at only two weekly frequencies."
+          "label": "Underlying trend",
+          "text": "Overseas arrivals were down another 4.7% through July after a 5.5% decline in 2025."
         }
       },
       "sources": [
         {
-          "label": "Qatar Airways · route dates and scale",
-          "url": "https://www.qatarairways.com/press-releases/en-WW/269934-qatar-airways-resumes-flights-to-qassim-taif-tabuk-and-yanbu-in-saudi-arabia/"
+          "label": "Reuters · White House travel meeting and arrival data",
+          "url": "https://www.marketscreener.com/news/trump-meets-with-travel-industry-ceos-on-push-to-boost-foreign-tourism-ce7858d3d88af720"
         },
         {
-          "label": "QNA · totals and Riyadh frequency",
-          "url": "https://qna.org.qa/en/news/news-details?date=1%2F09%2F2026&id=qatar-airways-resumes-flights-to-four-saudi-gateways-during-winter"
-        }
-      ]
-    },
-    {
-      "id": "xi-egypt-middle-east-portfolio",
-      "number": "08",
-      "category": "China, Egypt & Middle East alignment",
-      "sourceNote": "Egyptian state media + AP/Reuters · Tuesday night",
-      "title": "Xi Jinping arrived in Egypt as Beijing expanded a Middle East relationship beyond trade.",
-      "changed": "Xi began his first visit to Egypt in a decade. The relationship includes investment in the Suez Canal economic zone, construction, diplomatic coordination and defence contacts. Recent joint air exercises brought Chinese J-16 fighters to Africa for the first time alongside Egypt’s French-built Rafales. Xi presents China as a stable economic partner while the Iran war complicates confidence in the U.S.-centred security order.",
-      "matters": "Egypt is not replacing Washington with Beijing; it is building a portfolio. Cairo needs capital, industrial investment, arms options and diplomatic room while retaining U.S. military ties and European markets. China gains access to the Suez Canal, a large Arab and African market, and a platform for its technology and defence products. Middle powers increasingly seek overlapping relationships rather than exclusive alignment.",
-      "watch": "Investment commitments; Suez-zone projects; currency or debt arrangements; military procurement; telecom agreements; Chinese mediation language; U.S. response; and whether ceremony becomes funded projects with delivery dates and local jobs.",
-      "personal": false,
-      "lead": false,
-      "group": {
-        "label": "Middle powers",
-        "title": "Egypt is adding options without declaring a new camp.",
-        "note": "The visit and exercises are confirmed; strategic realignment is interpretation and needs concrete agreements.",
-        "break": true
-      },
-      "background": {
-        "title": "Diversification is not defection",
-        "text": "Egypt’s geography gives it leverage: Suez connects Asian and European trade, while Cairo remains central to Arab diplomacy. China offers infrastructure and equipment without Western political conditions. Yet the United States remains a major security relationship, Europe a critical market and Gulf states important investors. The likely model is layered dependence rather than a pivot. Beijing’s advantage is that commercial projects create standards and political familiarity; Cairo’s challenge is productive capacity rather than more debt or prestige assets.",
-        "known": "Xi arrived for the first visit in ten years; economic ties and joint air exercises have deepened.",
-        "new": "The visit packages trade, infrastructure, diplomacy and defence at a moment of regional uncertainty."
-      },
-      "evidence": {
-        "left": {
-          "label": "Chinese reach",
-          "text": "Industrial zones, construction and military exercises sit inside one portfolio."
-        },
-        "right": {
-          "label": "Egyptian hedge",
-          "text": "Cairo preserves U.S., European and Gulf ties rather than choosing one patron."
-        }
-      },
-      "sources": [
-        {
-          "label": "AP · Xi’s visit and influence",
-          "url": "https://apnews.com/article/946c3b90b6251c08fdcb219e24a088a2"
+          "label": "U.S. Commerce · I-94 international arrivals",
+          "url": "https://www.trade.gov/i-94-arrivals-program"
         },
         {
-          "label": "Reuters · economic and defence context",
-          "url": "https://au.marketscreener.com/news/china-s-xi-lands-in-egypt-as-iran-war-reshapes-middle-east-alliances-ce7858d2d88bfe26"
+          "label": "U.S. Commerce · official tourism forecasts",
+          "url": "https://www.trade.gov/travel-and-tourism-forecasts"
         }
       ]
     }
   ],
   "radar": [
     {
-      "label": "AI infrastructure",
-      "title": "Dell lifted its annual revenue outlook by $25 billion as AI-server demand accelerated.",
-      "text": "Evidence that compute investment is reaching server assemblers, not only chipmakers. Watch order concentration and cash conversion.",
-      "url": "https://sa.marketscreener.com/news/dell-again-lifts-forecasts-as-ai-demand-powers-record-results-ce7858d2d880f32d"
+      "label": "Consumer & capital",
+      "title": "Shein’s second trading day reinforced a valuation reset from nearly $100 billion to $26.5 billion.",
+      "text": "The durable signal is pressure on the low-value cross-border parcel model from tariffs, customs costs, competition and regulation—not a 3% daily share move.",
+      "url": "https://www.investing.com/news/stock-market-news/shein-shares-slip-more-than-3-on-second-day-of-hong-kong-trading-4885370"
     },
     {
-      "label": "Climate law",
-      "title": "A federal judge struck down New York’s plan to charge fossil-fuel producers $75 billion.",
-      "text": "A legal setback for state climate-damage funds; appeals and parallel laws will determine whether the model survives.",
-      "url": "https://apnews.com/article/9fed7c732b27435528342eb37c093c23"
+      "label": "AI security",
+      "title": "CrowdStrike and OpenAI are pairing runtime controls for coding agents with frontier cyber models.",
+      "text": "Watch whether agent security becomes a distinct enterprise-control layer rather than another dashboard feature.",
+      "url": "https://crowdstrike.gcs-web.com/news-releases/news-release-details/crowdstrike-and-openai-expand-partnership-secure-agentic-era"
     },
     {
-      "label": "Consumer & cooling",
-      "title": "Air-conditioning demand is saving lives while increasing power and refrigerant pressure.",
-      "text": "The durable question is whether efficient equipment, cleaner grids and lower-warming refrigerants scale with heat exposure.",
-      "url": "https://apnews.com/article/fdddd1efe2992032f027ed81d05ca51b"
+      "label": "Russia & aviation",
+      "title": "Ukraine formally told ICAO that Russian airspace is unsafe as Moscow airports faced disruption.",
+      "text": "The consequence will show in airline cancellations, insurer exclusions and repeated operational closures—not rhetoric alone.",
+      "url": "https://au.marketscreener.com/news/moscow-vows-to-avoid-airspace-disruption-despite-zelenskiy-s-warning-ce7858d3d988fe27"
     }
   ],
   "attention": {
-    "title": "The U.S. Treasury’s G20 chair’s statement",
-    "text": "Read the footnote: it identifies exactly which paragraphs China rejected and separates alignment from consensus.",
-    "url": "https://home.treasury.gov/news/press-releases/sb0620/"
+    "title": "UNEP’s Limiting Overshoot report",
+    "text": "It is the clearest statement of what the 1.5°C goal means once the world approaches it from above.",
+    "url": "https://www.unep.org/resources/limiting-overshoot-navigating-exceedance"
   },
   "ignore": {
-    "title": "Treating Tuesday’s equity decline as the main market story",
-    "text": "Stocks reacted to oil and yields. The durable information is the cost of sovereign financing and persistence of the energy shock."
+    "title": "The idea that a one-day bond rally resolved the rates problem",
+    "text": "The underlying conflict—weakening hiring, oil-linked input costs and heavy sovereign financing—remains intact before payrolls and inflation data."
   },
   "history": {
-    "id": "history-montreal-protocol-adaptive-treaty",
-    "number": "09",
+    "id": "history-shinkansen-capacity-system",
+    "number": "10",
     "readTime": "7 min read",
-    "era": "GLOBAL\n1974–PRESENT",
-    "title": "The Montreal Protocol worked because the treaty was designed to become stricter after it was signed.",
-    "deck": "The world did not wait for perfect certainty, demand identical sacrifice from every country or freeze one rulebook in 1987. It built a mechanism that could tighten as evidence improved, finance conversion in poorer states and let industry replace chemicals on a schedule. The ozone layer’s slow repair is the result of that institutional design.",
-    "thesis": "International cooperation survives uncertainty when evidence, adjustment, money and enforcement are built into the operating system—not left to goodwill after the ceremony.",
+    "era": "JAPAN\n1945–PRESENT",
+    "title": "The Shinkansen was built because the old railway was full—not because Japan wanted a prestige train.",
+    "deck": "Japan’s bullet train became a symbol of speed, but its decisive innovation was separation. A new standard-gauge passenger railway freed the crowded old Tōkaidō line for local and freight traffic, removed level crossings, automated speed control and made high frequency safer. The train succeeded because engineers designed an operating system around a capacity constraint.",
+    "thesis": "Transformative infrastructure often begins by separating incompatible jobs, then designing the whole system around the flow that matters most.",
     "sections": [
       {
-        "title": "A useful chemical escaped the factory",
-        "text": "Chlorofluorocarbons looked like an industrial triumph: stable, non-flammable and comparatively non-toxic, they served refrigeration, aerosols, foam and solvents. Stability was the hidden problem. CFCs persisted long enough to reach the stratosphere. In 1974, Mario Molina and F. Sherwood Rowland argued that ultraviolet light would break them apart and release chlorine atoms capable of destroying ozone repeatedly. The ozone layer absorbs harmful ultraviolet radiation, so thinning meant higher risks to skin, eyes, crops and ecosystems. The mechanism was plausible and serious, but early observations did not yet offer the dramatic image that later organized public attention. Governments faced a familiar dilemma: constrain a valuable industry before every step of the damage was measured."
+        "title": "Postwar growth filled the main artery",
+        "text": "By the 1950s, Japan’s recovery was concentrating people and production along the Tōkaidō corridor linking Tokyo, Nagoya and Osaka. The conventional railway carried express passengers, local trains and freight on the same narrow-gauge route. Those services wanted different speeds and stopping patterns, so each fast train consumed more than one train-sized piece of capacity: it had to overtake slower services and fit through mixed traffic. Adding more trains could not solve a timetable already constrained by the variety of trains using it. The visible problem was slow travel. The deeper problem was that the country’s most important corridor had become a shared resource with incompatible users."
       },
       {
-        "title": "The Antarctic hole turned a model into an alarm",
-        "text": "In 1985, British Antarctic Survey scientists reported that springtime ozone over Antarctica had fallen far more than expected. The hole was not empty space but extreme seasonal thinning. Its scale surprised researchers because some automated datasets had filtered very low readings as errors. Fieldwork clarified why Antarctica was exceptional: cold polar clouds convert chlorine into reactive forms, and returning spring sunlight activates rapid destruction. The discovery did not replace the 1974 mechanism; it made the consequences visible. It also demonstrated the value of independent monitoring. Repeated atmospheric measurements created a common constraint governments and manufacturers had to explain."
+        "title": "The controversial answer was a second railway",
+        "text": "Japan had debated broader-gauge trunk lines before the war, but the postwar proposal did not simply widen the existing track. It created a new 1,435-millimetre standard-gauge line reserved for high-speed passenger trains, while the old 1,067-millimetre network continued carrying local passengers and freight. Critics called the plan risky and expensive; aviation and expressways appeared to be the future. Japanese National Railways president Shinji Sogō and engineer Hideo Shima argued that a dedicated line would provide capacity an incremental upgrade could not. Construction began in 1959. A World Bank loan of $80 million in 1961 supplied only part of the cost, but external appraisal and a fixed project commitment helped make reversal harder."
       },
       {
-        "title": "Vienna separated cooperation from sacrifice",
-        "text": "The 1985 Vienna Convention created research, monitoring and information exchange without firm cuts. That sequencing solved a political problem. Countries could agree the atmosphere needed protection before agreeing which chemicals, quantities and dates to regulate. Scientific networks and diplomatic routines developed while evidence strengthened. When negotiators met in Montreal in 1987, they added controls to an existing framework. The first protocol required reductions in selected CFCs and halons but was designed for adjustment. Parties could tighten schedules as science, technology and economics changed. The agreement was a ratchet, not a once-and-for-all bargain."
+        "title": "Speed came from removing conflicts",
+        "text": "A train capable of 210 kilometres per hour would be dangerous if it crossed roads, followed freight trains or relied on a driver seeing trackside signals at speed. The Shinkansen therefore used a complete system: dedicated track, no level crossings, continuous welded rail, electric multiple-unit trains, cab signalling, Automatic Train Control and centralized traffic control. ATC could enforce a safe speed when a train approached another movement or a stopping point. The broad lesson is that the famous nose and motor were only the visible layer. Reliability came from eliminating conflicting traffic and letting track, signalling, rolling stock, maintenance and timetable share one design logic."
       },
       {
-        "title": "Different timetables made participation possible",
-        "text": "A uniform immediate ban would have asked countries with different incomes and refrigeration needs to absorb the same cost. The protocol gave developing countries longer timetables and created a Multilateral Fund to pay agreed conversion costs, technical assistance and institutional support. This was part of compliance design, not charity. Rich countries had used most chemicals historically and possessed alternatives; poorer states needed refrigeration for food and medicine without obsolete equipment. Trade controls with non-parties also reduced the incentive for production to migrate. By 2009, Vienna and Montreal became the first treaties in the U.N. system to achieve universal participation."
+        "title": "The Olympics supplied a deadline, not the economic case",
+        "text": "The Tōkaidō Shinkansen opened on 1 October 1964, nine days before the Tokyo Olympics. The timing made it a global emblem of Japan’s reconstruction, but the corridor’s demand justified the line before the ceremony. The original journey between Tokyo and Osaka took four hours, down from roughly six and a half on the conventional route; later improvements reduced it further. Separating express passengers also released capacity on the old line. This is why treating the railway as an Olympic prestige project misses the mechanism. The event concentrated political attention and enforced a schedule. The enduring value came from solving a transport bottleneck."
       },
       {
-        "title": "Industry changed when the schedule became credible",
-        "text": "The protocol did not succeed because substitutes were perfect in advance. A credible phase-out changed the return to finding them. Manufacturers redesigned aerosols, foams, solvents and cooling equipment; governments tightened schedules at later meetings. Some replacements damaged ozone less but remained transitional. Hydrofluorocarbons protected ozone yet trapped heat, creating a climate problem. In 2016, parties adopted the Kigali Amendment to phase down HFCs through the same machinery. This is not one regulation picking one clean technology. It is policy creating demand for innovation, monitoring revealing consequences and the regime adjusting again."
+        "title": "Frequency turned a fast train into ordinary infrastructure",
+        "text": "A single record-setting train is a demonstration. A transport system matters when people can arrive at a station without organizing their day around one departure. The Tōkaidō line evolved from roughly two trains per hour at opening to a high-density service measured in many trains per hour, while stations in city centres reduced the access penalty that airports face. Frequent departures, predictable journey time and simple interchange made the railway useful for business and ordinary trips. The time saved was not only minutes at top speed; it was less waiting, less schedule risk and a wider radius of same-day activity."
       },
       {
-        "title": "Recovery is slow enough to test patience",
-        "text": "The 2022 scientific assessment concluded that nearly 99% of banned ozone-depleting substances had been phased out and recovery was advancing. Yet long atmospheric lifetimes mean Antarctic ozone is not expected to return to 1980 levels until roughly 2066, with earlier recovery elsewhere. Weather changes the hole year to year, and unexpected emissions can appear. Monitoring detected a rise in CFC-11 in the 2010s, allowing investigators to locate and reduce the source. The achievement is not that the problem was declared solved in 1987. Measurement, expert assessment, finance, trade rules, compliance review and amendment stayed active for decades."
+        "title": "Safety became an organizational practice",
+        "text": "The full-standard Shinkansen network has carried passengers for decades without a collision or derailment causing a passenger fatality. That record cannot be explained by one device. Automatic control, dedicated infrastructure, inspection trains, earthquake detection, disciplined maintenance and continuous replacement of track and rolling stock all contribute. Reliability is produced repeatedly, not installed once. The system also kept changing: new trainsets reduced weight and energy use, schedules became denser, and travel times fell. In 1987, the breakup and privatization of Japanese National Railways transferred the Tōkaidō line to JR Central, changing ownership without abandoning the integrated operating discipline."
+      },
+      {
+        "title": "Success created a model—and a temptation",
+        "text": "The first line demonstrated that high-speed rail could compete with air and road travel in a dense corridor, and Japan extended the network. France, China and others developed different systems around their own geography and institutions. But the Shinkansen’s fame can encourage imitation of the object rather than the logic. A line needs sufficient demand, useful station locations, reliable feeders, operating competence and a financing model that survives beyond construction. The lesson is not that every country needs a bullet train. It is that Japan identified a saturated corridor, separated incompatible flows and matched technology to a specific operating problem."
       }
     ],
     "timeline": [
       {
-        "date": "1974",
-        "text": "Molina and Rowland publish the CFC–ozone destruction mechanism."
+        "date": "1957",
+        "text": "Japanese National Railways begins formal study of a new high-capacity Tōkaidō passenger line."
       },
       {
-        "date": "1985",
-        "text": "Scientists report the Antarctic ozone hole; states adopt the Vienna Convention."
+        "date": "1959",
+        "text": "Construction starts on a dedicated standard-gauge route between Tokyo and Osaka."
       },
       {
-        "date": "16 SEP 1987",
-        "text": "The Montreal Protocol is adopted with initial controls and an adjustable structure."
+        "date": "2 MAY 1961",
+        "text": "The World Bank approves an $80 million loan for the New Tōkaidō Line."
       },
       {
-        "date": "1990–92",
-        "text": "Parties strengthen phase-outs and establish the Multilateral Fund and compliance procedure."
+        "date": "1 OCT 1964",
+        "text": "The Shinkansen opens at up to 210 km/h, nine days before the Tokyo Olympics."
       },
       {
-        "date": "2009",
-        "text": "The Vienna Convention and Montreal Protocol achieve universal participation."
+        "date": "1970",
+        "text": "Japan adopts a national framework for extending the Shinkansen network."
       },
       {
-        "date": "2016",
-        "text": "The Kigali Amendment extends the regime to high-warming HFCs."
+        "date": "1987",
+        "text": "JNR is broken up and privatized; JR Central inherits the Tōkaidō line."
       },
       {
-        "date": "2022",
-        "text": "The assessment confirms nearly 99% phase-out and continued recovery."
+        "date": "1992",
+        "text": "Nozomi service cuts the Tokyo–Osaka journey to roughly two and a half hours."
+      },
+      {
+        "date": "PRESENT",
+        "text": "Dedicated infrastructure, automatic control and continual renewal sustain dense, reliable service."
       }
     ],
     "sources": [
       {
-        "label": "UNEP Ozone Secretariat · milestone timeline",
-        "url": "https://ozone.unep.org/ozone-timeline"
+        "label": "World Bank · loans to Japan and 1961 project",
+        "url": "https://www.worldbank.org/en/country/japan/brief/world-banks-loans-to-japan"
       },
       {
-        "label": "UNEP · treaty evolution and participation",
-        "url": "https://ozone.unep.org/treaties/montreal-protocol-substances-deplete-ozone-layer/introduction"
+        "label": "World Bank · the Bank and Japan’s bullet trains",
+        "url": "https://documents1.worldbank.org/curated/en/120191468195565266/pdf/104633-WP-PUBLIC-2003-02-The-Bank-and-Japans-Bullet-Trains.pdf"
       },
       {
-        "label": "UNEP · protocol and Multilateral Fund",
-        "url": "https://www.unep.org/ozonaction/who-we-are/about-montreal-protocol"
+        "label": "UIC · high-speed rail history and system design",
+        "url": "https://uic.org/passenger/highspeed/article/high-speed-rail-history"
       },
       {
-        "label": "UNEP/WMO · 2022 assessment",
-        "url": "https://www.unep.org/resources/publication/scientific-assessment-ozone-layer-depletion-2022"
+        "label": "JR Central · corporate and service history",
+        "url": "https://global.jr-central.co.jp/en/company/ir/annualreport/_pdf/annualreport2024-03.pdf"
       },
       {
-        "label": "NOAA · assessment summary",
-        "url": "https://csl.noaa.gov/assessments/ozone/2022/downloads/FrontMatter-ExecutiveSummary_2022OzoneAssessment.pdf"
+        "label": "Japan transport ministry · 50-year operating record",
+        "url": "https://www.mlit.go.jp/hakusyo/mlit/h26/hakusho/h27/html/n2612c00.html"
       },
       {
-        "label": "UNEP · original final act",
-        "url": "https://www.unep.org/resources/report/montreal-protocol-substances-deplete-ozone-layer-final-act"
+        "label": "Nippon.com · safety and social impact",
+        "url": "https://www.nippon.com/en/in-depth/d01045/"
       }
     ]
   },
@@ -556,32 +628,32 @@
     {
       "status": "Updated today · critical",
       "title": "Iran, Hormuz and Gulf stability",
-      "text": "Broader U.S. strikes · wider Iranian response · tracked transits near zero",
+      "text": "Gulf targets widen · Qatar condemns Iran · shipping and airspace exposed",
       "progress": 100
     },
     {
       "status": "Updated today · critical",
-      "title": "Nepal–China flood recovery",
-      "text": "1,000+ dead · adaptation threshold · rescue and relocation decisions",
-      "progress": 94
+      "title": "Congo Bundibugyo Ebola",
+      "text": "3,007 reported deaths · most chains unseen · no licensed vaccine",
+      "progress": 98
     },
     {
       "status": "New today · structural",
-      "title": "Global bond repricing",
-      "text": "Oil shock · fiscal supply · September rate path",
-      "progress": 77
+      "title": "Climate overshoot",
+      "text": "1.5°C exceedance unavoidable · peak and decline framework · adaptation limits",
+      "progress": 86
     },
     {
-      "status": "New today · watching",
-      "title": "G20 trade alignment",
-      "text": "19 members accept text · China dissents · national measures next",
-      "progress": 62
+      "status": "New today · Qatar",
+      "title": "Cloud and competition law",
+      "text": "Two drafts to Shura · provider rules · concentration review",
+      "progress": 68
     },
     {
-      "status": "New today · watching",
-      "title": "International AI rulemaking",
-      "text": "Carolina Principles · signatories and exceptions unclear",
-      "progress": 48
+      "status": "Updated today · watching",
+      "title": "Global rate repricing",
+      "text": "Weak ADP hiring · firm input costs · payrolls next",
+      "progress": 72
     }
   ]
 }
