@@ -61,7 +61,9 @@ document.querySelectorAll("[data-depth]").forEach((button) => {
   button.addEventListener("click", () => setDepth(button.dataset.depth));
 });
 document.querySelectorAll("[data-open-dossier]").forEach((button) => button.addEventListener("click", openDossier));
-document.querySelectorAll("[data-close-dossier]").forEach((button) => button.addEventListener("click", closeDossier));
+document.addEventListener("click", (event) => {
+  if (event.target.closest("[data-close-dossier]")) closeDossier();
+});
 backdrop.addEventListener("click", closeDossier);
 document.addEventListener("keydown", (event) => { if (event.key === "Escape") { closeDossier(); closeDiscuss(); } });
 
