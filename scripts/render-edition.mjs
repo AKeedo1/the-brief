@@ -96,6 +96,7 @@ replaceRequired(/<title>[\s\S]*?<\/title>/, `<title>The Brief — ${esc(data.dat
 replaceRequired(/<meta name="description" content="[^"]*">/, `<meta name="description" content="Abdulla's layered daily intelligence edition for ${esc(data.date.display)}.">`, "description");
 replaceRequired(/<body[^>]*>/, `<body data-depth="scan" data-edition-date="${esc(data.date.display)}" data-story-count="${data.stories.length}">`, "body");
 replaceRequired(/<div class="edition-line wrap">[\s\S]*?<\/div>/, `<div class="edition-line wrap"><span>${esc(data.date.display.toUpperCase())}</span><span>DOHA · EDITION ${esc(data.date.edition)}</span><span class="status"><i></i> UPDATED ${esc(data.date.updated)}</span></div>`, "edition line");
+replaceRequired(/(<button type="button" class="nav-link" data-view="threads">Living Threads <span>)[^<]*(<\/span><\/button>)/, `$1${data.threads.length}$2`, "living thread count");
 replaceRequired(/<section class="cover reveal">[\s\S]*?<\/section>/, cover, "cover");
 replaceRequired(/<p data-depth-caption>[\s\S]*?<\/p>/, `<p data-depth-caption>${data.stories.length} developments. The essential change, relevance and next watchpoint.</p>`, "depth caption");
 replaceRequired(/<section class="coverage-map"[\s\S]*?<\/section>/, coverage, "coverage map");
