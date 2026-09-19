@@ -5,7 +5,7 @@ const root = resolve(import.meta.dirname, "..");
 const data = JSON.parse(await readFile(resolve(root, "content", "edition.json"), "utf8"));
 const htmlPath = resolve(root, "public", "edition", "index.html");
 let html = await readFile(htmlPath, "utf8");
-const dossierStoryId = html.match(/data-dossier-story-id="([^"]+)"/)?.[1] || data.stories.find((story) => story.lead)?.id;
+const dossierStoryId = data.stories.find((story) => story.lead)?.id || data.stories[0]?.id;
 
 const esc = (value = "") => String(value)
   .replaceAll("&", "&amp;")
@@ -92,6 +92,31 @@ const attention = `<section class="attention-grid">
 
 const threads = `<div class="thread-grid">${data.threads.map((thread, index) => `<article class="thread-card${index === 0 ? " thread-card--feature" : ""}"><span>${esc(thread.status)}</span><h2>${esc(thread.title)}</h2><p>${esc(thread.text)}</p><div class="thread-line"><i style="width:${esc(thread.progress)}%"></i></div>${index === 0 ? '<button type="button" data-open-dossier>Open thread →</button>' : ""}</article>`).join("")}</div>`;
 
+const dossierStory = data.stories.find((story) => story.id === dossierStoryId);
+const dossierSources = [...new Map(
+  data.stories.flatMap((story) => story.sources || []).map((source) => [source.url, source])
+).values()];
+const dossierDate = data.date.display.replace(/^[^,]+,\s*/, "");
+const dossier = `<aside class="dossier-drawer" data-dossier data-dossier-story-id="${esc(dossierStoryId)}" aria-hidden="true" aria-labelledby="dossier-title">
+    <header class="drawer-head"><span>THE BRIEF · LIVING DOSSIER</span><button type="button" data-close-dossier aria-label="Close dossier">×</button></header>
+    <div class="drawer-scroll">
+      <section class="dossier-hero">
+        <p class="kicker">${esc(dossierStory.category)}</p>
+        <h2 id="dossier-title">${esc(dossierStory.group?.title || dossierStory.title)}</h2>
+        <p>${esc(dossierStory.background?.text || dossierStory.matters)}</p>
+        <div><span>30 min read</span><span>${dossierSources.length} core sources</span><span>Updated ${esc(dossierDate)}</span></div>
+      </section>
+      <nav class="dossier-nav"><a href="#update">Update</a><a href="#timeline">Evidence</a><a href="#actors">System</a><a href="#scenarios">Scenarios</a><a href="#sources">Sources</a></nav>
+      <section class="dossier-section" id="update"><p class="micro-label">The update</p><h3>${esc(dossierStory.title)}</h3><p>${esc(dossierStory.changed)}</p><div class="change-box"><span>Why the interpretation changed</span><p>${esc(dossierStory.matters)}</p></div></section>
+      <section class="dossier-section" id="timeline"><p class="micro-label">The evidence chain</p><ol class="timeline"><li><span>Established</span><p>${esc(dossierStory.background?.known || dossierStory.evidence?.left?.text)}</p></li><li><span>New now</span><p>${esc(dossierStory.background?.new || dossierStory.changed)}</p></li><li><span>Confirmed</span><p>${esc(dossierStory.evidence?.left?.text || dossierStory.changed)}</p></li><li><span>Uncertain</span><p>${esc(dossierStory.evidence?.right?.text || dossierStory.group?.note)}</p></li><li><span>Next test</span><p>${esc(dossierStory.watch)}</p></li></ol></section>
+      <section class="dossier-section" id="actors"><p class="micro-label">How the system fits together</p><div class="actor-grid"><article><h4>The physical buffer</h4><p>${esc(data.connected.signals[0]?.text)}</p></article><article><h4>The security cost</h4><p>${esc(data.connected.signals[1]?.text)}</p></article><article><h4>The financial transmission</h4><p>${esc(data.connected.signals[2]?.text)}</p></article><article><h4>The mechanism</h4><p>${esc(data.connected.note)}</p></article></div></section>
+      <section class="dossier-section"><p class="micro-label">Numbers that matter</p><div class="number-grid">${data.connected.signals.map((signal) => `<article><strong>${esc(signal.value)}</strong><span>${esc(signal.label)} · ${esc(signal.text)}</span></article>`).join("")}</div></section>
+      <section class="dossier-section" id="scenarios"><p class="micro-label">Three plausible paths</p><div class="scenario-grid"><article><span>01 · Stabilization</span><h4>The buffer holds while diplomacy restores physical flow.</h4><p>Shipping and supply improve before inventories, military stocks or household resilience are materially depleted.</p><small>Signal: several watchpoints improve together, not merely a one-day market move.</small></article><article class="scenario-base"><span>02 · Managed strain · Base case</span><h4>The system continues functioning, but at permanently higher cost.</h4><p>${esc(dossierStory.evidence?.right?.text || dossierStory.group?.note)}</p><small>Signal: the confirmed direction persists while the central uncertainty remains unresolved.</small></article><article><span>03 · Buffer failure</span><h4>The underlying constraint outlasts the inventories and institutional capacity absorbing it.</h4><p>Physical disruption then passes more directly into prices, policy, capacity and political risk.</p><small>Signal: deterioration across the lead watchlist rather than one isolated incident.</small></article></div></section>
+      <section class="dossier-section"><p class="micro-label">What it means across the system</p><div class="impact-list"><article><span>Qatar & Gulf</span><p>The value of high energy prices depends on safe, insurable and continuous delivery through regional routes.</p></article><article><span>Markets</span><p>Track physical flows, inflation expectations and benchmark yields together; none is sufficient alone.</p></article><article><span>Operators</span><p>Separate the headline shock from the specific cost, route, inventory or demand channel affecting each business.</p></article><article><span>Policy</span><p>Buffers create negotiating time, but only a change in the underlying constraint makes relief durable.</p></article></div></section>
+      <section class="dossier-section source-room" id="sources"><p class="micro-label">Source room</p><h3>Start with the lead evidence, then test it against the wider security, market and policy record.</h3>${dossierSources.map((source) => `<a href="${esc(source.url)}" target="_blank" rel="noreferrer"><span>${esc(source.label)}</span> Open source ↗</a>`).join("")}</section>
+    </div>
+  </aside>`;
+
 replaceRequired(/<title>[\s\S]*?<\/title>/, `<title>The Brief — ${esc(data.date.display)}</title>`, "document title");
 replaceRequired(/<meta name="description" content="[^"]*">/, `<meta name="description" content="Abdulla's layered daily intelligence edition for ${esc(data.date.display)}.">`, "description");
 replaceRequired(/<body[^>]*>/, `<body data-depth="scan" data-edition-date="${esc(data.date.display)}" data-story-count="${data.stories.length}">`, "body");
@@ -106,6 +131,7 @@ replaceRequired(/<section class="radar-section">[\s\S]*?<\/section>/, radar, "ra
 replaceRequired(/<article class="history-piece"[\s\S]*?<\/article>/, history, "history");
 replaceRequired(/<section class="attention-grid">[\s\S]*?<\/section>/, attention, "attention");
 replaceRequired(/<div class="thread-grid">[\s\S]*?<\/div>\s*<\/section>/, `${threads}\n    </section>`, "living threads");
+replaceRequired(/<aside class="dossier-drawer"[\s\S]*?<\/aside>/, dossier, "living dossier");
 
 await writeFile(htmlPath, html);
 console.log(`Rendered ${data.date.display}: ${data.stories.length} stories + The Long View.`);

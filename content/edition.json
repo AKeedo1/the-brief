@@ -1,205 +1,601 @@
 {
-  "date": {"display": "Friday, 18 September 2026", "edition": "027", "updated": "8:03 AM"},
-  "worldSentence": "The Gulf crisis has crossed from threatened routes into direct casualties while the world's central banks are tightening against the same energy shock, turning one regional war into a test of security, inflation control and political restraint at once.",
-  "standfirst": "Saudi and Houthi forces exchanged fresh strikes, Saudi Arabia reported its first death in the latest escalation, civilians fled Yemen by boat and an oil tanker was hit near Hormuz. Yet next week's UN General Assembly has also become the clearest available diplomatic window: Iranian leaders received U.S. visas, Gulf leaders are due to meet President Trump, and all sides must decide whether to widen the war or negotiate. Beyond the lead, Russia and China blocked renewed UN monitoring of Iran sanctions; the Federal Reserve raised rates for the first time since 2023 and Qatar followed; the Bank of Japan lifted its rate to a 31-year high; U.S. consumers spent more strongly than forecast; airlines began cutting marginal routes as fuel costs rose; Huawei unveiled a scale-out AI architecture; and U.S. and Chinese experts proposed military-AI red lines before the Trump-Xi meeting.",
-  "listenTime": "32 min",
+  "date": {
+    "display": "Saturday, 19 September 2026",
+    "edition": "028",
+    "updated": "8:18 AM"
+  },
+  "worldSentence": "The systems cushioning a long war are becoming as consequential as the battlefield: China’s oil stockpile is containing the price shock, governments are hardening sanctions and infrastructure, and expensive energy is being converted into expensive money.",
+  "standfirst": "China’s years of oil stockpiling, electrification and supplier diversification have kept a partially closed Strait of Hormuz from becoming the price catastrophe once forecast—and made Xi Jinping unusually important to next week’s diplomatic window. Beyond the lead, the U.S. military put the Iran war’s cost at $43.6 billion; Washington enacted sweeping Russia sanctions; Denmark, Greenland and the United States reached a security compromise that preserves sovereignty; global bond markets accepted a higher-rate regime; British shoppers remained resilient; U.S. H-1B restrictions were extended; AI risk became a visible political divide; and a millisecond software defect was blamed for more than 2,000 cancelled UK flights.",
+  "listenTime": "34 min",
   "coverage": [
-    {"count": 3, "label": "Qatar & Gulf"},
-    {"count": 4, "label": "World & security"},
-    {"count": 4, "label": "Economy & markets"},
-    {"count": 2, "label": "AI & technology"},
-    {"count": 1, "label": "Consumer & retail"},
-    {"count": 1, "label": "Aviation & tourism"}
+    {
+      "count": 2,
+      "label": "Qatar & Gulf"
+    },
+    {
+      "count": 4,
+      "label": "World & security"
+    },
+    {
+      "count": 3,
+      "label": "Economy & markets"
+    },
+    {
+      "count": 2,
+      "label": "AI & technology"
+    },
+    {
+      "count": 1,
+      "label": "Consumer & retail"
+    },
+    {
+      "count": 1,
+      "label": "Aviation & tourism"
+    }
   ],
   "connected": {
-    "title": "One supply shock is now forcing simultaneous choices by armies, central banks and transport networks.",
+    "title": "Resilience now depends on buffers built before the crisis—and on how quickly those buffers are consumed.",
     "signals": [
-      {"label": "SAUDI CASUALTY", "value": "1", "text": "The first death Riyadh has announced since the latest Saudi–Houthi escalation began."},
-      {"label": "FED RANGE", "value": "3.75–4%", "text": "The new U.S. policy-rate range after a unanimous quarter-point increase."},
-      {"label": "AIRLINE COST", "value": "$1BN", "text": "American Airlines' estimate of added fourth-quarter fuel expense from the latest jump."}
+      {
+        "label": "CHINA OIL BUFFER",
+        "value": "1.4BN",
+        "text": "Estimated barrels in China’s strategic stockpile at the end of 2025."
+      },
+      {
+        "label": "U.S. WAR COST",
+        "value": "$43.6BN",
+        "text": "CENTCOM’s latest estimate through 3 September, excluding base damage."
+      },
+      {
+        "label": "U.S. 10-YEAR",
+        "value": "5%",
+        "text": "The Treasury yield reached its highest level since 2007 after the global tightening turn."
+      }
     ],
-    "note": "Security and economics are no longer moving on separate clocks. Every additional strike raises the risk premium on oil and shipping; that premium enters inflation; central banks respond with tighter money; airlines and other fuel-intensive businesses remove marginal capacity; and households absorb higher energy, credit and travel costs. The path back is therefore conjunctive rather than sequential: de-escalation must become credible, routes must actually reopen, energy futures must normalize and inflation expectations must follow. A statement at the UN can begin that process, but it cannot substitute for safe physical passage."
+    "note": "An oil reserve, a missile-interceptor stockpile and a household balance sheet look unrelated until a prolonged shock begins drawing on all three. China’s stored crude has reduced immediate competition for seaborne supply; military inventories are being consumed faster and at far greater cost; and resilient consumers give central banks room to keep tightening. The practical question in each case is not whether the buffer exists, but how long it lasts and whether policy uses the time to remove the underlying constraint."
   },
   "stories": [
     {
-      "id": "saudi-houthi-escalation-first-death", "number": "01", "category": "Saudi Arabia, Yemen & energy routes", "sourceNote": "Reuters / AP · Thursday",
-      "title": "The Saudi–Houthi fight produced its first reported death as civilians fled and both oil exits stayed exposed.",
-      "changed": "Saudi Arabia said debris from an intercepted Houthi drone killed a Yemeni resident and injured two people in Taif, the first death Riyadh has announced in repeated Houthi attacks since the escalation began last week. Houthi media reported Saudi airstrikes in Hajjah and near Taiz; civilians crossed the Bab el-Mandeb by boat; and an estimated 125,000 people have fled the Houthi coastal advance. Iran's Revolutionary Guards also said a Togo-flagged tanker caught fire after being hit while trying to pass Hormuz. The claims about individual strikes remain partly contested, but the geographic widening is confirmed.",
-      "matters": "Yesterday's edition described a coalition problem around threatened routes. Today the conflict has acquired a direct human and political cost inside Saudi Arabia while displacement grows in Yemen. Riyadh must protect cities, repair the East-West Pipeline and preserve access to Yanbu without exhausting interceptors or being pulled into a deeper Yemen war. At the same time, constrained Hormuz traffic means Bab el-Mandeb is not a secondary theatre: it is the maritime continuation of the Gulf's main land bypass. Escalation at either end keeps the energy shock alive even if daily oil prices briefly fall.",
-      "watch": "Verified damage and casualty reports; Saudi interceptor resupply; the Houthi Friday mobilization; further Saudi air operations; humanitarian access around the Red Sea coast; tanker movements at Hormuz; repair progress on the East-West Pipeline; Yanbu loadings; any U.S. security support; and whether Gulf diplomacy produces a ceasefire format before UN leaders meet next week.",
-      "personal": false, "lead": true,
-      "group": {"label": "The lead", "title": "The route crisis is becoming a war with its own momentum.", "note": "The death and renewed strikes are reported by the parties and major agencies. Full battlefield attribution and damage remain incomplete.", "break": false},
-      "background": {"title": "Saudi Arabia now has to defend a chain, not a single asset", "text": "Hormuz normally carries the largest share of Gulf energy exports. Saudi Arabia's East-West Pipeline can bypass it by moving crude to Yanbu, but recent attacks impaired that line. Cargo loaded on the Red Sea side then still has to pass Bab el-Mandeb for efficient access to Asian markets. The Houthi coastal advance therefore threatens the sea leg of the same bypass whose land leg was already damaged. Missile defense can reduce immediate harm, but it cannot by itself restore insurance confidence, repair pumping capacity or provide safe navigation through two separate chokepoints.", "known": "Saudi Arabia and the Houthis exchanged strikes, one person was reported killed in Taif and civilians are fleeing coastal fighting.", "new": "The latest escalation has moved from infrastructure and political warnings into a reported Saudi-side death and a broader humanitarian flight."},
-      "evidence": {"left": {"label": "Confirmed direction", "text": "Fighting widened across the Saudi-Yemeni border while both Hormuz and Red Sea access remained impaired."}, "right": {"label": "Still uncertain", "text": "Individual strike attribution, damage, Houthi intent around Mecca and the durability of export disruption remain disputed."}},
+      "id": "china-energy-buffer-gulf-war",
+      "number": "01",
+      "category": "China, Gulf energy & the Trump–Xi summit",
+      "sourceNote": "AP / Reuters · Saturday",
+      "title": "China’s oil buffer has kept the Hormuz shock below its worst forecasts—and given Xi leverage over what happens next.",
+      "changed": "A new assessment of the six-month Iran war shows why oil has remained near $100 rather than doubling: China entered the conflict with an estimated 1.4 billion barrels in strategic storage, cut seaborne purchases after Hormuz traffic collapsed, expanded non-Iranian supply and reduced oil demand through electric vehicles. Separately, Reuters reported that Beijing asked Tehran to restrain the Houthis after a Saudi appeal. These are not acts of alliance with Washington; they are China protecting its own exposure to a global energy shock before Xi Jinping meets President Trump next week.",
+      "matters": "China is Iran’s largest oil customer, the world’s second-largest oil consumer and one of the few states with meaningful influence in both Tehran and Riyadh. Its stored crude lowered the marginal bid for disrupted barrels, while its diplomacy helped create a reason for markets to believe the Red Sea front might be contained. That makes the next Trump–Xi meeting relevant to Gulf security, not only trade. The arrangement is fragile: stored oil is finite, the Saudi East-West Pipeline remains impaired, Houthi control of Red Sea positions persists and planned Gulf talks on reopening Hormuz were postponed.",
+      "watch": "Whether Trump and Xi discuss a shared demand for safe passage; evidence that Iran restrains Houthi attacks; the rescheduling of Gulf maritime talks; Chinese crude imports and inventory draws; Saudi pipeline repairs; Hormuz and Bab el-Mandeb traffic; and whether oil prices fall because physical flows improve rather than because traders expect diplomacy.",
+      "personal": false,
+      "lead": true,
+      "group": {
+        "label": "The lead",
+        "title": "The most important stabilizer was built before the war.",
+        "note": "China’s stockpile and lower imports are documented. The degree of Beijing’s influence over Tehran and the Houthis remains an inference to test.",
+        "break": false
+      },
+      "background": {
+        "title": "A strategic reserve buys time; it does not reopen a strait",
+        "text": "Beijing accumulated crude for years because dependence on maritime supply was a strategic vulnerability. When Hormuz traffic collapsed, inventories let refiners keep operating without bidding aggressively for every available cargo. Electrification and alternative suppliers reduced the strain further. That helped cap the world price, but it shifted risk from today’s market into tomorrow’s stocks. If the conflict outlasts the reserve draw, or if Red Sea disruption removes more alternative supply, China eventually has to return as a large buyer. Diplomacy is therefore not charity: it is how Beijing tries to preserve the buffer it built.",
+        "known": "China has the world’s largest estimated oil reserve, reduced imports after Hormuz disruption and asked Iran to help restrain the Houthis.",
+        "new": "The war’s price outcome now looks partly like the return on China’s pre-war resilience strategy, creating a concrete shared interest for the Trump–Xi summit."
+      },
+      "evidence": {
+        "left": {
+          "label": "Confirmed stabilizers",
+          "text": "Large inventories, lower imports, electric-vehicle adoption and diversified supply reduced China’s immediate call on disrupted barrels."
+        },
+        "right": {
+          "label": "Unresolved limit",
+          "text": "Reserve data are estimates, the draw rate is opaque and Beijing cannot guarantee the behavior of Iran or the Houthis."
+        }
+      },
       "sources": [
-        {"label": "Reuters · cross-border strikes, first reported death, displacement and tanker incident", "url": "https://www.marketscreener.com/news/saudis-and-houthis-exchange-strikes-yemenis-take-to-boats-to-flee-as-middle-east-war-spreads-ce785bd3d981f125"},
-        {"label": "AP · casualty report, Houthi response and scale of displacement", "url": "https://apnews.com/article/mideast-iran-us-strikes-un-claims-september-17-2026-742e1eebb7d099ea42372d978e271900"},
-        {"label": "AP · what the Red Sea advance means for Saudi energy exports", "url": "https://apnews.com/article/22e64e72775886625da676aee92edca2"}
+        {
+          "label": "AP · China’s stockpile, demand shift and role in the oil-price outcome",
+          "url": "https://apnews.com/article/trump-xi-iran-oil-china-78b8ccd21cbc4bc0ab19a79f68372ec0"
+        },
+        {
+          "label": "Reuters · China’s request to Iran and Friday’s oil-market reaction",
+          "url": "https://hk.marketscreener.com/news/global-shares-edge-higher-as-central-banks-double-down-on-inflation-fight-ce785adadf8afe2c"
+        }
       ]
     },
     {
-      "id": "unga-iran-decision-window", "number": "02", "category": "Iran war, Gulf diplomacy & the UN", "sourceNote": "AP / Axios · Thursday",
-      "title": "Washington let Iran's leadership attend the UN as Trump approached a decision on widening the war.",
-      "changed": "The United States approved visas for Iran's president and foreign minister to attend next week's UN General Assembly despite the active conflict. President Trump separately said he was nearing a decision on whether to resume major attacks on Iran and is expected to meet leaders from Qatar, Saudi Arabia, the UAE, Bahrain, Kuwait and Oman on the UN sidelines. Qatar and Singapore also used a Doha meeting to call for restored transit through Hormuz and dialogue. None of this is a negotiation yet, but it creates physical access and a timetable that did not exist yesterday.",
-      "matters": "A diplomatic window matters most when military options are becoming more costly. Gulf states want Hormuz reopened without further attacks on their territory; Iran wants sanctions and blockade relief; Washington wants maritime access and nuclear concessions. The UN week places the principals and intermediaries in one city, but their objectives are not aligned. Visas permit contact; they do not signal policy convergence. The danger is that public threats harden positions before private channels can test a narrower bargain.",
-      "watch": "Whether U.S. and Iranian officials meet directly or through Qatar or Oman; the agenda and readout from Trump's Gulf-leaders meeting; any temporary shipping arrangement; Iranian nuclear access; a pause in attacks on Gulf infrastructure; movement restrictions on the Iranian delegation; and whether the U.S. decision on renewed strikes is made before or after diplomacy is tested.",
-      "personal": false, "lead": false,
-      "group": {"label": "The world beyond the lead", "title": "The next decision point has a place and a date.", "note": "Attendance and meetings are confirmed; a negotiating mandate, ceasefire proposal or reopening agreement is not.", "break": true},
-      "background": {"title": "Access is necessary but bargaining space is still narrow", "text": "Host-country obligations normally require the United States to admit delegations to the UN, although Washington can limit movement and has sometimes denied access in exceptional cases. The practical value is not ceremony. UN week creates dense bilateral and mediated contact among actors that otherwise lack formal channels. Qatar and Oman can carry messages; Gulf leaders can explain the regional cost of renewed attacks; and Iran can test whether maritime concessions would unlock sanctions or military restraint. The talks fail if each side treats attendance as evidence the other has already yielded.", "known": "Iranian leaders received visas, Trump plans Gulf consultations and Qatar continues to advocate a negotiated reopening.", "new": "The first credible calendar for leader-level contact has formed around next week's UN General Assembly."},
-      "evidence": {"left": {"label": "Diplomatic opening", "text": "Key Iranian, U.S. and Gulf decision-makers are expected in New York with mediation channels active."}, "right": {"label": "Military overhang", "text": "Trump has kept renewed large-scale strikes under consideration and no post-June negotiation has begun."}},
+      "id": "iran-war-cost-43-billion",
+      "number": "02",
+      "category": "Iran war, U.S. spending & interceptor stocks",
+      "sourceNote": "AP / CENTCOM · Friday",
+      "title": "The U.S. military put the Iran war’s cost at $43.6 billion—and more than half is munitions.",
+      "changed": "U.S. Central Command gave lawmakers a new estimate of $43.6 billion through 3 September, up from the Congressional Budget Office’s $38 billion estimate through 1 August. CBO expects roughly $3 billion in additional monthly cost while the conflict continues. The CENTCOM total covers operations, equipment losses and medical support but excludes damage to American bases across Qatar and seven other regional states. Munitions—especially Patriot and THAAD defensive interceptors—make up well over half of the bill.",
+      "matters": "The number changes the political and strategic arithmetic. A war funded through supplemental requests competes with a proposed $1.5 trillion defense budget while drawing down interceptors already described by U.S. and NATO officials as critically scarce. Money can replace weapons only after factories expand; near-term scarcity is operational. For Qatar and other hosts of U.S. bases, the exclusion of physical damage also means the headline understates the total regional cost.",
+      "watch": "Congressional scrutiny of the $95 billion supplemental request; a fuller casualty and damage accounting; interceptor production contracts and delivery times; allied requests for Patriot and THAAD stocks; whether CENTCOM’s monthly burn rate changes; and any war-powers challenge before the November elections.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "The world beyond the lead",
+        "title": "The war is consuming both money and scarce defensive capacity.",
+        "note": "The $43.6 billion figure is a military estimate through 3 September and does not include all damage or wider economic losses.",
+        "break": true
+      },
+      "background": {
+        "title": "The expensive part is stopping what is incoming",
+        "text": "A prolonged missile-and-drone war reverses the familiar cost asymmetry. Attackers can use relatively cheap systems to force defenders to fire limited, sophisticated interceptors. The bill therefore measures more than sorties and fuel: it reflects depletion of inventories needed for Europe, Asia and homeland defense. Production lines cannot instantly replenish those stocks, so the marginal cost of another month includes reduced readiness elsewhere even before Congress appropriates replacement money.",
+        "known": "CENTCOM estimates $43.6 billion through 3 September; munitions are the largest component and base damage is excluded.",
+        "new": "The newest official accounting exposes the interceptor burden and raises the documented cost above the earlier CBO baseline."
+      },
+      "evidence": {
+        "left": {
+          "label": "Documented cost",
+          "text": "$43.6 billion in U.S. military operations, losses and support, with 18 deaths and more than 830 wounded in the Pentagon system."
+        },
+        "right": {
+          "label": "Missing from total",
+          "text": "Regional base damage, allied spending, civilian harm and the macroeconomic cost of disrupted energy routes."
+        }
+      },
       "sources": [
-        {"label": "AP · U.S. visas for Iran's president and foreign minister", "url": "https://apnews.com/article/trump-iran-war-united-nations-visas-3f91ccc8def4a9d5499b7c8620450864"},
-        {"label": "Axios · Trump decision and planned meeting with six Gulf leaders", "url": "https://www.axios.com/2026/09/17/trump-axios-interview-iran-war"},
-        {"label": "QNA · Qatar-Singapore call for secure shipping and diplomacy", "url": "https://qna.org.qa/en/news/news-details?date=17%2F09%2F2026&id=joint-statement-on-third-meeting-of-qatarsingapore-implementation-monitoring-mechanism-in-doha"}
+        {
+          "label": "AP · CENTCOM estimate, CBO comparison and interceptor burden",
+          "url": "https://apnews.com/article/iran-war-costs-us-military-congress-interceptors-7541f88490d17747537ee3fdbc119af8"
+        }
       ]
     },
     {
-      "id": "iran-sanctions-monitoring-veto", "number": "03", "category": "UN Security Council & nuclear monitoring", "sourceNote": "AP · Thursday",
-      "title": "Russia and China blocked a UN panel that would have monitored enforcement of Iran sanctions.",
-      "changed": "Russia and China vetoed a U.S.-drafted Security Council resolution to extend the mandate of an expert panel monitoring Iran sanctions. The panel had been authorized but its proposed members were never approved. The veto now leaves the UN without that independent reporting mechanism while inspectors remain unable to verify the status of Iran's previously reported 440.9 kilograms of uranium enriched to 60%. France said it would examine an alternative monitoring arrangement with partners.",
-      "matters": "Sanctions regimes depend on evidence: shipment records, procurement networks, financial routes and documented violations. Removing the expert panel does not remove sanctions, but it makes enforcement less transparent and more dependent on intelligence released by individual governments. That weakens the shared factual base precisely when negotiators need to distinguish verified nuclear activity from accusation. An allied monitoring group could preserve information, but it would carry less international legitimacy than a Security Council-mandated panel.",
-      "watch": "A French, British, German and U.S. replacement mechanism; public reporting standards; access for the International Atomic Energy Agency; Chinese and Russian enforcement behavior; procurement and shipping evidence; and whether monitoring becomes part of the UN-week bargaining package.",
-      "personal": false, "lead": false,
-      "group": {"label": "Institutions under pressure", "title": "The legal regime remains; its shared fact-finding arm does not.", "note": "The veto is final for this resolution. Alternative monitoring can be created outside the council but will not have the same mandate.", "break": false},
-      "background": {"title": "Verification is an institution, not a press release", "text": "Expert panels collect and reconcile evidence across jurisdictions, giving governments a common record even when they disagree about policy. Without one, sanctions enforcement fragments: each coalition publishes its own claims, states sympathetic to Iran contest them, and private firms face greater uncertainty about what activity is prohibited or tolerated. The North Korea precedent shows that an outside monitoring team can continue reporting after a veto, but the move changes the audience from the whole Security Council to a coalition of willing governments.", "known": "Russia and China vetoed the extension and Iran's high-enriched uranium stockpile has not been recently verified by inspectors.", "new": "The sanctions system has lost its intended independent monitoring channel before it became fully operational."},
-      "evidence": {"left": {"label": "What remains", "text": "The sanctions measures and national enforcement authorities continue to exist."}, "right": {"label": "What disappears", "text": "There is no Security Council-mandated expert body to investigate and publish violations."}},
-      "sources": [{"label": "AP · veto, monitoring gap and possible replacement team", "url": "https://apnews.com/article/united-nations-iran-sanctions-russia-china-c509e344bc45ba87670b9a668afbbb49"}]
-    },
-    {
-      "id": "fed-qatar-rate-hikes", "number": "04", "category": "Federal Reserve, Qatar & inflation", "sourceNote": "Federal Reserve / QNA · Wednesday",
-      "title": "The Fed raised rates for the first time since 2023, and Qatar moved its policy corridor with it.",
-      "changed": "The Federal Open Market Committee unanimously raised the federal-funds target by 25 basis points to 3.75–4.00%, saying activity and domestic spending remain solid while inflation is elevated. Qatar Central Bank raised its deposit rate to 4.10%, lending rate to 4.60% and repo rate to 4.35%, all by 25 basis points and effective Thursday. The U.S. move had been widely expected; the consequential change is the Fed's explicit return to tightening and the renewed transmission of that stance through the dollar-linked Gulf.",
-      "matters": "The oil shock is no longer merely delaying rate cuts. It has pushed the leading central bank back into increases while growth remains resilient enough to tolerate them. Qatar's currency peg makes broad alignment with U.S. rates important for monetary stability, but domestic borrowers and businesses experience the result through financing costs rather than through U.S. inflation statistics. If energy disruption persists, policy can tighten even while the shock reduces real purchasing power—a difficult combination for rate-sensitive sectors.",
-      "watch": "The Fed's next inflation and labor readings; whether officials deliver another hike before year-end; U.S. and Qatar credit conditions; bank deposit and lending repricing; mortgage and corporate funding costs; oil and shipping futures; and signs that tighter money is slowing demand faster than supply routes recover.",
-      "personal": false, "lead": false,
-      "group": {"label": "Economy and markets", "title": "The energy shock has put tightening back into the base case.", "note": "The rate decisions are confirmed. The duration and number of further increases remain policy-dependent.", "break": true},
-      "background": {"title": "A dollar peg imports the stance, not the exact economy", "text": "The Federal Reserve sets policy for U.S. employment and inflation. Qatar manages rates in a system anchored by the riyal's fixed exchange rate to the dollar. Keeping interest-rate conditions broadly aligned supports the peg by limiting incentives for destabilizing capital movement, even though Qatar's fiscal position, banking conditions and growth mix differ from America's. This does not make every QCB move automatic, but it means a U.S. tightening cycle quickly becomes a local financing condition.", "known": "Both central banks raised their core rates by a quarter point after energy-driven inflation pressure intensified.", "new": "The Fed has ended a multi-year period without increases, and Qatar has reset its full policy corridor higher."},
-      "evidence": {"left": {"label": "Policy fact", "text": "The Fed vote was 12–0 and Qatar lifted deposit, lending and repo rates by the same increment."}, "right": {"label": "Open question", "text": "One hike does not establish the terminal rate; persistence depends on inflation, growth and the war."}},
+      "id": "us-russia-sanctions-law",
+      "number": "03",
+      "category": "Russia, Ukraine & energy sanctions",
+      "sourceNote": "AP · Friday",
+      "title": "Washington turned a long-debated Russia sanctions package into law, with buyers of Russian energy now exposed.",
+      "changed": "President Trump signed a bipartisan sanctions law targeting Russian officials, banks, defense and energy businesses, and the shadow fleet that moves oil outside conventional channels. The measure also directs the president to impose tariffs of up to 100% on the five largest importers of Russian oil or gas, with exceptions for countries taking significant steps to reduce imports and for a narrow class of gas buyers. The bill passed 86–11 in the Senate and 262–159 in the House after more than a year of negotiation.",
+      "matters": "The law moves pressure from Russian entities toward the countries and traders that keep export revenue flowing. That can increase leverage over Moscow, but it also risks redirecting trade, tightening already stressed energy markets and creating disputes with large buyers. Its effect will depend less on the headline ceiling than on implementation: which importers are designated, how exceptions are interpreted and whether enforcement reaches shipping, finance and insurance networks.",
+      "watch": "The first implementing orders; the identity of the five targeted importers; exemptions or waivers; sanctions on tankers, insurers and banks; oil-price effects; responses from China and India; Russian discounts and rerouting; and whether the package changes Moscow’s negotiating position on Ukraine.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "State power and trade",
+        "title": "A sanctions regime becomes consequential at the enforcement edge.",
+        "note": "The law is signed. Its economic force depends on designations, waivers and enforcement that have not yet been published.",
+        "break": false
+      },
+      "background": {
+        "title": "Secondary pressure changes who must choose",
+        "text": "Direct sanctions tell American firms not to transact with a target. Measures aimed at major buyers force third countries to weigh access to U.S. markets against continued Russian energy purchases. That can shrink revenue more effectively, but it also encourages alternative settlement systems and evasive shipping. The law’s tariff authority is broad enough to matter; the executive branch’s willingness to use it against large trading partners is the test.",
+        "known": "The law targets Russian institutions and the shadow fleet and authorizes tariffs against leading energy importers.",
+        "new": "A proposal debated for more than a year now has statutory force and bipartisan political backing."
+      },
+      "evidence": {
+        "left": {
+          "label": "Pressure channel",
+          "text": "Banks, tankers and large energy buyers face potential loss of access or sharply higher trade costs."
+        },
+        "right": {
+          "label": "Policy uncertainty",
+          "text": "The administration still controls designations, exceptions and the timing of the largest penalties."
+        }
+      },
       "sources": [
-        {"label": "Federal Reserve · September policy statement", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"},
-        {"label": "QNA · Qatar Central Bank rate decision", "url": "https://qna.org.qa/en/news/news-details?date=16%2F09%2F2026&id=qatar-central-bank-hikes-rates"},
-        {"label": "Reuters · why markets see a wider global tightening cycle", "url": "https://www.marketscreener.com/news/major-central-banks-on-tightening-path-amid-energy-price-shock-ce785bd3dc89f325"}
+        {
+          "label": "AP · signed law, vote margins and main sanctions provisions",
+          "url": "https://apnews.com/article/donald-trump-russia-sanctions-ukraine-lindsey-graham-d1715ad5e8feccba76bfae51c5f28c45"
+        }
       ]
     },
     {
-      "id": "boj-rate-31-year-high", "number": "05", "category": "Japan, currencies & global rates", "sourceNote": "Bank of Japan / AP · Friday",
-      "title": "The Bank of Japan raised its benchmark to 1.25%, the highest level in 31 years.",
-      "changed": "The Bank of Japan raised its policy rate from 1.0% to 1.25% at the end of its two-day meeting. The increase was expected and follows the Federal Reserve's move this week. Japan is normalizing after decades of near-zero rates while higher imported energy costs add inflation pressure; the dollar remains near 155 yen after earlier moving above 160 and prompting coordinated intervention.",
-      "matters": "Japan is unusually exposed to imported oil and gas, so a weaker yen magnifies the same energy shock that central banks elsewhere are fighting. Higher Japanese rates can support the currency and restrain prices, but they also raise financing costs in an economy accustomed to cheap money and can unwind global trades funded in yen. The 1.25% level is low in absolute terms; its significance lies in the distance travelled from Japan's former negative-rate regime.",
-      "watch": "The BOJ statement and vote detail; wage and services inflation; yen reaction; another U.S.-Japan currency intervention; Japanese government-bond yields; bank lending; household consumption; and whether markets price an additional increase this year or early next year.",
-      "personal": false, "lead": false,
-      "group": {"label": "Global monetary turn", "title": "Japan is tightening because imported inflation and currency weakness now outweigh inertia.", "note": "The decision is confirmed and was expected. Its global spillovers depend on the yen and investor positioning.", "break": false},
-      "background": {"title": "A small Japanese rate can have a large signaling effect", "text": "For years, investors could borrow cheaply in yen and place capital in higher-yielding assets elsewhere. As the BOJ raises rates and the Fed also tightens, that arithmetic changes at both ends. The immediate effect is not necessarily a disorderly unwind: markets anticipated today's move. But sustained Japanese normalization reduces the structural subsidy behind yen-funded positions and gives domestic savers and banks a different return landscape.", "known": "The BOJ lifted the benchmark by 25 basis points to a 31-year high amid energy inflation and yen weakness.", "new": "Japan and the United States have raised rates in the same week, reinforcing a broader shift toward restrictive policy."},
-      "evidence": {"left": {"label": "Domestic rationale", "text": "Imported energy inflation and a weak currency make further normalization easier to justify."}, "right": {"label": "Global channel", "text": "Yen funding and bond-market reactions can transmit a modest domestic move into global portfolios."}},
+      "id": "greenland-security-sovereignty-deal",
+      "number": "04",
+      "category": "Arctic security, Denmark & Greenland",
+      "sourceNote": "AP / Reuters · Friday",
+      "title": "The United States gained a larger, permanent security role in Greenland without gaining sovereignty.",
+      "changed": "The United States, Denmark and Greenland announced an agreement for a significantly expanded U.S. military presence and restrictions on adversarial security investments in Greenland. Washington describes the arrangement as permanent security control; Denmark says it explicitly preserves Danish and Greenlandic sovereignty, territorial integrity and self-determination. The three governments expect to sign during next week’s UN General Assembly, after which Danish and Greenlandic parliamentary approval is still required.",
+      "matters": "The compromise separates the strategic problem from the territorial demand. Washington can strengthen Arctic surveillance, basing and denial of Russian or Chinese military footholds without annexation; Copenhagen and Nuuk retain legal ownership and political consent. It may repair part of the NATO damage caused by earlier threats to take the island by force. The remaining dispute is in the words: “security control” can mean broad operational authority, while sovereignty and local approval constrain what can actually be built.",
+      "watch": "Publication of the agreement text; parliamentary votes in Copenhagen and Nuuk; the geographic scope and duration of U.S. access; local consultation and revenue; mineral-investment screening; environmental conditions; force levels and construction timetables; and whether NATO incorporates the arrangement into Arctic planning.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "A territorial dispute becomes an access agreement",
+        "title": "Security objectives were separated from the question of ownership.",
+        "note": "Political agreement is announced, but signatures and two parliamentary approvals are still outstanding.",
+        "break": false
+      },
+      "background": {
+        "title": "Basing rights can deliver strategic control without a transfer of territory",
+        "text": "Great powers often seek access, denial rights and infrastructure rather than formal annexation. Greenland’s location matters for missile warning, North Atlantic movement, space surveillance and Arctic routes. Denmark already permits U.S. operations, but an expanded agreement can make that role more durable and block rival investments. For Greenland, the bargain is acceptable only if security cooperation does not erase self-government or turn resource policy into an external veto.",
+        "known": "All three governments acknowledge the framework; Denmark and Greenland say sovereignty and self-determination remain intact.",
+        "new": "Months of coercive rhetoric have produced a negotiable basing-and-investment arrangement instead of a territorial transfer."
+      },
+      "evidence": {
+        "left": {
+          "label": "Strategic gain",
+          "text": "The United States can expand military access and screen hostile security investments in a pivotal Arctic location."
+        },
+        "right": {
+          "label": "Democratic constraint",
+          "text": "The agreement is not yet in force and requires consent from both Danish and Greenlandic legislatures."
+        }
+      },
       "sources": [
-        {"label": "AP · decision, inflation context and yen level", "url": "https://apnews.com/article/japan-economy-interest-rates-inflation-67e71246d3af41bcfc61aa788f9959c7"},
-        {"label": "Bank of Japan · 2026 monetary-policy statements", "url": "https://www.boj.or.jp/en/mopo/mpmdeci/state_2026/index.htm"}
+        {
+          "label": "AP · agreement, sovereignty language and parliamentary steps",
+          "url": "https://apnews.com/article/trump-greenland-military-denmark-4cf77cb4608b685a70410bd679479193"
+        },
+        {
+          "label": "Reuters · permanent security role and limits on adversarial bases",
+          "url": "https://www.marketscreener.com/news/us-and-denmark-reach-deal-on-greenland-trump-says-ce785adadf8cff22"
+        }
       ]
     },
     {
-      "id": "us-retail-demand-resilience", "number": "06", "category": "Consumer demand & inflation", "sourceNote": "U.S. Census / Reuters · Wednesday",
-      "title": "U.S. retail sales rose 1.2% in August, giving the Fed room to tighten—but not proving households are comfortable.",
-      "changed": "U.S. retail and food-service sales reached $773.9 billion in August, up 1.2% from July and 6.0% from a year earlier. The monthly gain exceeded the 0.8% consensus reported by Reuters; core sales used to inform consumer-spending estimates rose 1.4%, the strongest since September 2024. Restaurant and bar receipts increased 1.2%. The figures are not adjusted for inflation, and 3.1% growth in gasoline-station receipts shows that part of the rise was higher prices rather than more consumption.",
-      "matters": "Demand has not cracked under the energy shock, which reduces the immediate recession signal and supports the Fed's decision to raise rates. But strong nominal sales can conceal stress when households pay more for fuel and essentials. Lower-income consumers face falling real wages and deteriorating sentiment, while higher-income spending and price increases can hold the aggregate up. The right conclusion is resilience with distributional strain—not an all-clear for consumers.",
-      "watch": "Inflation-adjusted personal consumption; September card and fuel data; restaurant traffic versus ticket size; delinquency and revolving-credit measures; consumer sentiment; wage growth by income; holiday ordering; and whether higher rates cool discretionary categories without collapsing employment.",
-      "personal": false, "lead": false,
-      "group": {"label": "Consumer economy", "title": "Spending is stronger than sentiment, but part of the strength is inflation.", "note": "The sales increase is official and nominal. Volume, household distribution and September persistence are unresolved.", "break": false},
-      "background": {"title": "Retail sales measure receipts, not wellbeing", "text": "The Census series is timely and broad, but it counts dollars spent rather than quantities purchased and covers mostly goods plus food service, not the full services economy. Rising gasoline prices can lift the headline even when households buy the same or less fuel. Core measures remove several volatile categories and better map to gross domestic product, yet they still remain nominal. Reading the release well requires combining it with prices, wages, credit and traffic.", "known": "August receipts increased substantially and beat expectations across headline and core measures.", "new": "The consumer side of the U.S. economy remains strong enough that the Fed can prioritize inflation control for now."},
-      "evidence": {"left": {"label": "Resilience signal", "text": "Headline sales rose 1.2%; the core control measure rose 1.4%."}, "right": {"label": "Stress signal", "text": "The data are nominal, fuel receipts surged and real-income pressure is concentrated among lower-income households."}},
+      "id": "global-markets-higher-rate-regime",
+      "number": "05",
+      "category": "Bonds, central banks & portfolio risk",
+      "sourceNote": "Reuters · Friday close",
+      "title": "Markets ended rate week by accepting a more durable tightening cycle, with the U.S. 10-year yield at 5%.",
+      "changed": "The U.S. 10-year Treasury yield finished around 5%, its highest level since 2007, after the Federal Reserve’s first increase in three years and hawkish signals from other major central banks. The Bank of Japan raised its policy rate to 1.25%; the European Central Bank had already tightened; the Bank of England warned it may follow; and Australian policymakers said inflation risks were materializing. Global shares were almost flat Friday, but European equities lost 1.1% and major bond markets ended a punishing week.",
+      "matters": "This is more than a daily market move. The discount rate used to value companies, property and long-duration assets is being reset upward while the energy shock threatens growth. Higher yields also raise government refinancing costs and make cash and short-duration bonds more competitive with risk assets. Equity indexes can still rise if earnings hold, but the margin for expensive assets narrows when investors can earn roughly 5% in benchmark government debt.",
+      "watch": "Whether the 10-year yield holds above 5%; inflation expectations rather than spot oil alone; credit spreads and refinancing stress; the Fed’s next hike signal; November odds for the Bank of England; Japanese capital repatriation; earnings guidance from rate-sensitive companies; and any physical reopening of Gulf routes that weakens the inflation case.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "Economy and markets",
+        "title": "The market regime is changing faster than headline indexes suggest.",
+        "note": "Friday’s closing levels can reverse. The durable signal is synchronized hawkish policy and a materially higher risk-free rate.",
+        "break": true
+      },
+      "background": {
+        "title": "A 5% benchmark changes every relative-value calculation",
+        "text": "Long bond yields combine expected short rates, inflation and compensation for uncertainty. When they rise because central banks are fighting an external energy shock, borrowers face higher nominal costs without a matching improvement in productivity. Companies with distant cash flows, leveraged real estate and governments rolling large debts are most exposed. Resilient consumption can postpone recession, but it also gives policymakers room to keep rates high.",
+        "known": "The 10-year Treasury reached 5%, the Fed and BOJ raised rates, and other central banks signaled tighter policy.",
+        "new": "After the policy meetings, markets are treating higher rates as a regime rather than a brief interruption to easing."
+      },
+      "evidence": {
+        "left": {
+          "label": "Policy convergence",
+          "text": "Fed, ECB and BOJ tightening plus hawkish Bank of England and Australian guidance point in the same direction."
+        },
+        "right": {
+          "label": "Market ambiguity",
+          "text": "Equities remained resilient, so investors have not yet priced a clear recession or earnings collapse."
+        }
+      },
       "sources": [
-        {"label": "U.S. Census Bureau · August advance retail sales", "url": "https://www.census.gov/retail/sales.html"},
-        {"label": "Reuters · category detail, expectations and household strain", "url": "https://au.marketscreener.com/news/robust-us-retail-sales-underscore-economy-s-resilience-inflation-pressures-building-ce785bd2df8af021"}
+        {
+          "label": "Reuters · global market close, bond yields and central-bank turn",
+          "url": "https://hk.marketscreener.com/news/global-shares-edge-higher-as-central-banks-double-down-on-inflation-fight-ce785adadf8afe2c"
+        }
       ]
     },
     {
-      "id": "us-airlines-cut-fuel-exposed-capacity", "number": "07", "category": "Aviation, fares & capacity", "sourceNote": "Reuters · Wednesday",
-      "title": "American, United and Southwest began removing marginal flights as the fuel shock changed route economics.",
-      "changed": "Executives at three large U.S. airlines said they are scaling back planned schedules after another rise in jet-fuel prices. American estimates the latest move adds about $1 billion to fourth-quarter costs. United is removing some December flights and may cut more in early 2027. Southwest has roughly halved its planned 2026 capacity growth and could trim again. Demand has so far remained strong after fare increases, so the first response is to remove less-profitable flying rather than launch broad discounting.",
-      "matters": "This is the operating-economy transmission of the oil shock. Airlines cannot reprice every ticket instantly, hedging varies and thin routes have little margin to absorb fuel. Cutting capacity protects profit but can also keep fares high, reduce frequency and weaken smaller-city connectivity. The effect may spread beyond U.S. carriers if elevated refining and shipping costs persist, even where passenger demand itself remains healthy.",
-      "watch": "Published winter schedules; cuts by market and aircraft type; fare and load-factor trends; jet-fuel crack spreads; airline hedging disclosures; fourth-quarter guidance; international capacity; cargo surcharges; and whether strong demand survives fewer seats and higher prices into 2027.",
-      "personal": false, "lead": false,
-      "group": {"label": "Aviation and tourism", "title": "Fuel inflation is now taking seats out of the timetable.", "note": "The announced adjustments are targeted. A broad demand collapse or industry-wide capacity contraction has not been established.", "break": true},
-      "background": {"title": "Schedule pruning is the airline industry's fastest margin defense", "text": "Aircraft orders and fleet structures change slowly. Schedules can change within months. When fuel rises, carriers first reassess flights whose fares, connections and ancillary revenue do not cover the new trip cost. Removing those flights raises average network profitability and can support pricing on the seats that remain. It also means passengers experience an energy shock through convenience and frequency, not only through a visible fuel surcharge.", "known": "Three major carriers have disclosed schedule or capacity reductions while reporting that demand remains resilient.", "new": "The latest fuel increase has converted a cost forecast into concrete winter and 2027 network decisions."},
-      "evidence": {"left": {"label": "Cost response", "text": "American sees roughly $1 billion of added quarterly expense; United and Southwest are cutting planned flying."}, "right": {"label": "Demand condition", "text": "Executives say bookings remain strong after higher fares, so capacity—not demand—is moving first."}},
-      "sources": [{"label": "Reuters · airline cost, schedule and demand detail", "url": "https://www.marketscreener.com/news/american-airlines-warns-high-fuel-prices-could-force-capacity-adjustments-ce785bd2df8efe2d"}]
-    },
-    {
-      "id": "huawei-peerium-ai-compute", "number": "08", "category": "AI infrastructure & Chinese chips", "sourceNote": "Huawei / AP · Thursday",
-      "title": "Huawei answered chip constraints with an architecture designed to make enormous clusters behave like one machine.",
-      "changed": "Huawei announced its Peerium Computing Architecture and UnifiedBus interconnect, claiming they can coordinate processors at million-unit scale through nested parallelism, unified memory addressing and peer connections. The company said a 256,000-card Atlas 950 SuperCluster is being deployed and an Atlas 960 system is under test; AP reported the Atlas 960 as a faster successor aimed at training and inference, with Ascend 970 and 980 chip series planned for 2028 and 2029. Independent performance evidence is not yet public.",
-      "matters": "U.S. controls restrict China's access to the most advanced individual accelerators and chipmaking equipment. Huawei's response is architectural: compensate for weaker or scarcer chips by networking many more of them efficiently. That can narrow usable system-level performance without matching Nvidia device for device, but only if interconnect, software, power, cooling and reliability scale together. The announcement is therefore strategically important and technically unproven at the claimed scale.",
-      "watch": "Third-party benchmarks; actual card count and utilization in deployed clusters; energy and cooling requirements; software compatibility; yields and supply for future Ascend chips; Chinese customer adoption; U.S. export-control changes; and whether the open UnifiedBus protocol attracts vendors beyond Huawei.",
-      "personal": false, "lead": false,
-      "group": {"label": "AI infrastructure", "title": "China is trying to turn scale-out engineering into a substitute for frontier silicon.", "note": "The architecture and product plans are announced. Performance, efficiency and deployment at full scale remain vendor claims.", "break": false},
-      "background": {"title": "AI performance is a system problem, not only a chip problem", "text": "Large-model training splits work across accelerators that must exchange parameters and intermediate results rapidly. Adding chips helps only while communication overhead, memory bottlenecks and failures remain controlled. Nvidia's advantage includes interconnects, networking and a mature software stack as well as silicon. Huawei is targeting that whole system layer. If it succeeds, export controls on individual chips become less decisive; if communication and efficiency lag, enormous card counts can produce expensive underutilization.", "known": "Huawei has disclosed the architecture, interconnect and first product roadmap amid continuing access constraints.", "new": "Its public strategy now centers on treating up to a million processors as one coordinated compute system."},
-      "evidence": {"left": {"label": "Strategic logic", "text": "Scale and interconnect can offset part of a per-chip disadvantage and build a domestic ecosystem."}, "right": {"label": "Evidence gap", "text": "No independent benchmark verifies the million-processor claim, efficiency or total cost."}},
+      "id": "uk-retail-sales-resilience",
+      "number": "06",
+      "category": "Consumer demand & retail",
+      "sourceNote": "Reuters / ONS · Friday",
+      "title": "British retail volumes rose 0.5% when economists expected a decline, complicating the inflation trade-off.",
+      "changed": "UK retail-sales volumes increased 0.5% in August from July and 2.4% from a year earlier, against economists’ expectation of a 0.2% monthly fall. Online, department-store, clothing and food sales rose, while fuel volumes fell 1.3%. The aggregate is stronger than recent company reports: Primark’s underlying UK sales were flat, John Lewis reported wider first-half losses and Next cut its forward sales-growth forecast.",
+      "matters": "Consumers are not responding uniformly to the energy squeeze. They are still buying goods while reducing fuel volumes and leaving individual retailers with very different outcomes. For the Bank of England, resilient demand makes a rate increase easier to justify even as household energy costs rise. For operators, the lesson is narrower: category, channel and value proposition matter more than the comforting headline that “the consumer is resilient.”",
+      "watch": "September card and footfall data; food-versus-discretionary volumes; promotional intensity; fuel demand; retailer margin guidance; wage growth; the inflation peak now expected above 4%; and whether online strength persists once households absorb higher energy bills.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "The consumer under pressure",
+        "title": "Aggregate resilience is hiding sharper choices underneath.",
+        "note": "Sales volumes are official data; the mechanism behind the category shifts remains an interpretation and may change month to month.",
+        "break": false
+      },
+      "background": {
+        "title": "Volume data answer a different question from company earnings",
+        "text": "Official retail volumes try to strip out price changes and measure how much consumers bought across the economy. Company reports reflect mix, market share, discounting, costs and execution. Both can be true: households can purchase more overall while a retailer’s margins deteriorate or customers migrate between channels. The split between rising online and department-store sales and falling fuel volumes is more informative than one national number.",
+        "known": "Official volumes rose unexpectedly, led by online and department stores, while fuel sales declined.",
+        "new": "The UK joined the U.S. in showing demand resilience even as energy inflation pushes central banks toward tighter policy."
+      },
+      "evidence": {
+        "left": {
+          "label": "Resilient aggregate",
+          "text": "Volumes rose 0.5% month on month and 2.4% year on year, beating forecasts."
+        },
+        "right": {
+          "label": "Uneven operators",
+          "text": "Several major retailers reported flat sales, losses or weaker forward expectations despite the national gain."
+        }
+      },
       "sources": [
-        {"label": "Huawei · Peerium architecture, UnifiedBus and deployment claims", "url": "https://www.huawei.com/en/news/2026/9/new-computing-architecture-peerium"},
-        {"label": "AP · product roadmap and geopolitical context", "url": "https://apnews.com/article/huawei-ai-chips-nvidia-superpod-technology-26ab418df1339c518483918218ffbe57"}
+        {
+          "label": "Reuters · official retail volumes, categories and retailer context",
+          "url": "https://ca.marketscreener.com/news/british-retail-sales-unexpectedly-rise-in-august-ce785adad98ef526"
+        }
       ]
     },
     {
-      "id": "us-china-military-ai-guardrails", "number": "09", "category": "U.S.–China AI safety & military risk", "sourceNote": "Reuters / AP · Thursday",
-      "title": "U.S. and Chinese experts proposed red lines to stop autonomous AI from turning an incident into a strategic crisis.",
-      "changed": "Experts in a bilateral dialogue proposed keeping AI out of nuclear-use decisions, requiring human control over strategically consequential cyber operations, prohibiting autonomous attacks on nuclear command systems and creating a hotline for AI incidents. Their work is nonbinding but feeds official discussions scheduled before President Trump and President Xi meet on 24 September. Both governments recognize some danger, yet U.S. officials doubt that limits can be verified and China argues safety must not become a technology-containment tool.",
-      "matters": "AI can compress decision time in exactly the systems where uncertainty is most dangerous. A cyber operation that appears autonomous or an AI-generated warning inside nuclear command could leave leaders minutes to decide whether the other state attacked intentionally. The proposed rules do not solve frontier-model competition, but they identify a narrower area where mutual restraint is rational even without trust: keep machines from independently creating strategic effects and build a channel to explain incidents before retaliation.",
-      "watch": "Whether the Trump-Xi meeting produces any shared language; the definition of meaningful human control; verification and incident attribution; a dedicated hotline; military-to-military participation; protections for civilian critical infrastructure; and whether chip controls are separated from, or traded against, safety cooperation.",
-      "personal": false, "lead": false,
-      "group": {"label": "Technology and state power", "title": "The first useful agreement may govern incidents, not model development.", "note": "The recommendations are Track II expert proposals. Neither government has adopted them as binding policy.", "break": false},
-      "background": {"title": "Guardrails can be valuable even when capability limits are unverifiable", "text": "A treaty to slow all AI development would require measuring hidden training runs, compute and capabilities across commercial and military systems. Incident rules are narrower. States can reaffirm that humans retain nuclear authority, define protected command systems, create emergency contact procedures and investigate dangerous autonomous behavior after it occurs. Those steps do not require trust in the other's entire AI program; they require confidence that both sides prefer clarification to accidental escalation.", "known": "Experts from both countries have published concrete proposals before planned government talks.", "new": "The debate has moved from general AI danger to operational rules for nuclear, cyber and crisis communication."},
-      "evidence": {"left": {"label": "Possible common interest", "text": "Both countries benefit from preventing software errors or ambiguous cyber activity from triggering military escalation."}, "right": {"label": "Core obstacle", "text": "Strategic rivalry, verification doubts and technology controls make broad cooperation politically fragile."}},
+      "id": "us-h1b-restrictions-extended",
+      "number": "07",
+      "category": "Technology talent & U.S. immigration",
+      "sourceNote": "White House / Reuters · Friday",
+      "title": "The United States extended its $100,000 H-1B entry condition for another year and added layoff scrutiny.",
+      "changed": "President Trump extended for 12 months the rule restricting entry for certain new H-1B workers unless the sponsoring petition carries a $100,000 payment, with discretionary national-interest exceptions. A companion order directs agencies to consider whether a sponsor conducted or plans layoffs affecting similarly situated U.S. workers. The White House says registrations from the largest IT staffing and outsourcing firms fell 92% under the first year of the policy and that selected applicants shifted toward higher degrees and wages.",
+      "matters": "The policy changes the economics of international hiring rather than closing the program. A six-figure entry cost favors large employers, genuinely scarce roles and candidates whose expected value is easy to defend; it weakens staffing and outsourcing models built on volume. Linking petitions to recent layoffs also turns workforce planning into an immigration risk. The administration’s outcome claims are not yet a complete evaluation: fewer registrations can indicate reduced abuse, reduced legitimate access or both.",
+      "watch": "Agency guidance on what counts as a related layoff; national-interest exemptions; litigation; employer location and outsourcing changes; wage data; university-to-work transitions; the next H-1B lottery; whether the $100,000 condition is renewed again; and independent evidence on productivity, wages and displaced recruitment.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "Technology and labor",
+        "title": "Talent policy is being used as industrial policy.",
+        "note": "The extension is official. The causal claims about worker protection and program quality are the administration’s and need independent testing.",
+        "break": false
+      },
+      "background": {
+        "title": "A price gate selects for employer confidence, not automatically for public value",
+        "text": "When a visa becomes much more expensive, sponsors reserve it for fewer candidates. That can deter low-margin labor arbitrage and raise the average salary of selected roles. It can also exclude startups, research groups and smaller employers unable to pay the fee even when the worker is highly valuable. The layoff test adds a second filter: firms must explain why importing a specialist is consistent with recent domestic workforce decisions.",
+        "known": "The restriction, payment condition and interagency layoff review were formally renewed or ordered.",
+        "new": "The temporary 2025 experiment is now a second-year labor-market regime with additional scrutiny of sponsoring employers."
+      },
+      "evidence": {
+        "left": {
+          "label": "Administration evidence",
+          "text": "Large-outsourcer registrations reportedly fell 92%, while the selected pool shifted toward advanced degrees and higher wage levels."
+        },
+        "right": {
+          "label": "Evaluation gap",
+          "text": "The public data do not yet isolate abuse reduction from foregone hiring, offshoring or reduced access for smaller firms."
+        }
+      },
       "sources": [
-        {"label": "Reuters · expert proposals, red lines and planned official talks", "url": "https://www.investing.com/news/world-news/us-china-security-experts-propose-nuclearstyle-safeguards-for-ai-risks-4904798"},
-        {"label": "AP · competing U.S. and Chinese positions before the summit", "url": "https://apnews.com/article/china-us-ai-safety-trump-xi-cd680bd072ec95e5f4b9c99dbee91319"}
+        {
+          "label": "White House · proclamation extending the entry restriction and payment condition",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/09/restriction-on-entry-of-certain-nonimmigrant-workers-faad/"
+        },
+        {
+          "label": "White House · executive order adding interagency and layoff review",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/09/enhancing-program-integrity-and-integrity-and-interagency-coordination-in-the-administration-of-the-h-1b-nonimmigrant-visa-program/"
+        }
+      ]
+    },
+    {
+      "id": "ai-risk-us-political-divide",
+      "number": "08",
+      "category": "AI governance & U.S. politics",
+      "sourceNote": "AP / OpenAI · Friday",
+      "title": "AI safety moved from a technical dispute into an explicit U.S. political divide.",
+      "changed": "California Governor Gavin Newsom signed an order accelerating independent oversight and shutdown capabilities under state AI law, one day after Pennsylvania Governor Josh Shapiro outlined local safeguards. Democratic candidates are presenting federal inaction as a political issue; President Trump has dismissed the recent warnings and argued that his administration is the needed guardrail. The clash follows OpenAI’s publication of six model-misalignment cases and industry calls for stronger oversight after agentic security incidents.",
+      "matters": "Once frontier risk becomes partisan, the chance of a durable national framework can either rise through electoral pressure or fall through identity-based opposition. States can force disclosures, testing and procurement rules, but they cannot govern a global training market alone. The useful policy question is narrower than “pause or accelerate”: who performs independent evaluations, which incidents must be reported, what shutdown authority actually works and how rules apply across firms rather than only to those volunteering evidence.",
+      "watch": "The text and implementation of California’s order; federal legislation; common testing and incident-reporting standards; access for independent evaluators; responses from major labs; whether bipartisan concern survives campaigning; U.S.–China military-AI talks; and evidence that proposed shutdown controls work under adversarial conditions.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "AI and technology",
+        "title": "The argument is shifting from whether risk exists to who has authority to respond.",
+        "note": "The political actions are confirmed. Claims about catastrophic probability and the adequacy of specific controls remain contested.",
+        "break": true
+      },
+      "background": {
+        "title": "Voluntary disclosure created evidence; politics will decide the enforcement layer",
+        "text": "A laboratory can report surprising behavior and improve internal controls without proving that every frontier developer will do the same. Public oversight adds consistency but faces a technical competence problem: evaluators need deep access and expertise while remaining independent of the firms they assess. State action can create pressure and prototypes, yet model development, cloud infrastructure and deployment cross borders. A national or interoperable framework is therefore the institutional bottleneck.",
+        "known": "California accelerated oversight, other political figures proposed safeguards and OpenAI published a structured incident-reporting framework.",
+        "new": "AI risk has become a visible electoral fault line rather than an industry-only governance debate."
+      },
+      "evidence": {
+        "left": {
+          "label": "Institutional movement",
+          "text": "States are implementing oversight tools and a leading lab has committed to structured public reporting of selected incidents."
+        },
+        "right": {
+          "label": "Governance gap",
+          "text": "No shared federal regime yet defines mandatory reporting, independent access or enforceable emergency controls."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · California order and emerging political divide",
+          "url": "https://apnews.com/article/ai-trump-democrats-newsom-shapiro-warnings-danger-10cdebf21fd6dfcfc46676b0f095bb2c"
+        },
+        {
+          "label": "OpenAI · model-misalignment reporting framework and six disclosed cases",
+          "url": "https://openai.com/index/model-misalignment-reporting-framework/"
+        }
+      ]
+    },
+    {
+      "id": "uk-air-traffic-software-defect",
+      "number": "09",
+      "category": "Aviation infrastructure & software resilience",
+      "sourceNote": "AP / NATS · Friday",
+      "title": "A millisecond software defect was blamed for more than 2,000 UK flight cancellations.",
+      "changed": "Britain’s air-traffic service NATS said a defect in a small subsection of its flight-data software triggered the 8 September outage that cancelled more than 2,000 flights and affected hundreds of thousands of passengers. The system allocates identification codes used by controllers; the failure occurred within a millisecond and was not caused by military or civil operators. NATS says mitigations are in place while a permanent fix is tested. The Civil Aviation Authority will independently review the findings and resilience investment.",
+      "matters": "Aviation reliability depends on tiny pieces of shared infrastructure whose failure propagates across airlines, airports, crews and passenger itineraries. The incident was brief at the software layer but took days to unwind operationally. The key issue is therefore not only the coding defect. It is whether testing, redundancy and graceful degradation prevented a rare input from becoming a national capacity collapse—and whether ownership and regulation created enough incentive to invest before failure.",
+      "watch": "The full technical report; the triggering input; failover and recovery design; deployment of the permanent fix; the independent CAA review; compensation and airline claims; NATS capital spending; comparisons with the 2023 outage; and whether other air-navigation providers share the same software or failure mode.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "Aviation and tourism",
+        "title": "A tiny defect exposed a system-sized dependency.",
+        "note": "NATS has issued a preliminary cause. The independent review has not yet validated the root cause or adequacy of the fix.",
+        "break": false
+      },
+      "background": {
+        "title": "Operational systems fail through propagation, not just duration",
+        "text": "Airlines plan aircraft, crews and airport slots as a tightly coupled network. When central traffic capacity drops, a cancelled flight strands an aircraft and crew that may be needed elsewhere hours later. Recovery therefore lasts much longer than the originating event. Resilience requires validated fallbacks, isolation of malformed data, recovery drills and capacity to run safely in a degraded mode—not merely high average uptime.",
+        "known": "NATS traced the outage to a flight-data software defect and says operator error was not involved.",
+        "new": "The preliminary report converts a week of speculation into a specific technical failure that regulators can test."
+      },
+      "evidence": {
+        "left": {
+          "label": "Identified mechanism",
+          "text": "A small code path in the national flight-data system failed in a millisecond and forced capacity reductions."
+        },
+        "right": {
+          "label": "Open accountability",
+          "text": "The cause, testing failure and sufficiency of mitigations still require independent technical review."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · preliminary cause, scale of disruption and independent review",
+          "url": "https://apnews.com/article/britain-air-traffic-control-software-glitch-cb76f4a96aa9e03d0a2fdc503efe02da"
+        }
       ]
     }
   ],
   "radar": [
-    {"label": "Markets", "title": "Oil and bond yields eased for a day, but longer-dated energy expectations remain elevated.", "text": "Wall Street had its best day in six weeks as Brent and Treasury yields fell after the Fed decision. Treat the rally as relief, not resolution: the durable signal is whether shipping, futures and inflation expectations normalize together.", "url": "https://apnews.com/article/26a4da336d561d213a3f28f260f25d2c"},
-    {"label": "Saudi defense", "title": "Washington approved a possible $24.3 billion sale of 48 F-35s and support equipment to Saudi Arabia.", "text": "The approval matters strategically but does not solve the immediate interceptor shortage or drone-defense problem. Watch congressional review, delivery timing and the mix of systems Riyadh seeks for near-term protection.", "url": "https://apnews.com/article/mideast-iran-us-strikes-un-claims-september-17-2026-742e1eebb7d099ea42372d978e271900"},
-    {"label": "Clean energy", "title": "High fossil-fuel prices are accelerating some clean-energy decisions without yet lowering global emissions.", "text": "The war strengthens the economics of alternatives, but investment fell year on year and the installed fossil system still dominates. Separate accelerated adoption from claims that the shock has already produced a climate transition.", "url": "https://apnews.com/article/48bb12e1cd5713764bca103e9104309d"}
+    {
+      "label": "France",
+      "title": "Macron ordered a plan to defend critical infrastructure from drones and cyberattacks.",
+      "text": "The order responds to what Paris calls an intensifying Russian hybrid threat and is paired with a proposed G7 meeting on the energy crisis. Watch the actual protective measures and whether allies coordinate standards, not only the rhetoric.",
+      "url": "https://apnews.com/article/russia-macron-france-cyberattacks-29767a3fe6723ecffed343f0a4847e95"
+    },
+    {
+      "label": "Qatar aviation",
+      "title": "Qatar Airways retained its five-star rating and won four Skytrax awards.",
+      "text": "The recognition supports brand positioning but is not an operating result. Watch whether service awards translate into premium yield and loyalty while fuel and route economics tighten.",
+      "url": "https://qna.org.qa/en/economy"
+    },
+    {
+      "label": "Airport security",
+      "title": "Luxembourg briefly stopped flights after unauthorized drones were detected near its airport.",
+      "text": "Operations resumed, but the event reinforces the infrastructure-protection problem now visible across Europe. Watch attribution, counter-drone rules and repeat incidents.",
+      "url": "https://au.marketscreener.com/news/flights-resume-at-luxembourg-airport-after-temporary-shutdown-over-drone-activity-ce785adade8dfe2c"
+    }
   ],
-  "attention": {"title": "The Federal Reserve's September statement", "text": "Open the primary statement. It is short, unanimous and unusually direct: activity is solid, domestic spending is resilient, inflation remains elevated and the committee has returned to increases to deliver price stability.", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"},
-  "ignore": {"title": "Treating Thursday's equity rebound as proof the energy shock is over", "text": "Oil and yields fell from recent highs, but the physical routes remain impaired, airlines are cutting capacity and central banks are tightening. One relief session changes positioning, not the underlying system."},
+  "attention": {
+    "title": "The U.S.–Denmark–Greenland security compromise",
+    "text": "Open the AP account because it distinguishes what each side is claiming: Washington gains durable military access, while Denmark and Greenland preserve sovereignty and require parliamentary consent. The exact agreement text remains the next source that matters.",
+    "url": "https://apnews.com/article/trump-greenland-military-denmark-4cf77cb4608b685a70410bd679479193"
+  },
+  "ignore": {
+    "title": "Reading Friday’s nearly flat global equity close as evidence that the rate shock was absorbed",
+    "text": "The index move was small; the 5% U.S. 10-year yield and synchronized central-bank tightening are the durable information. A calm close does not make refinancing risk disappear."
+  },
   "history": {
-    "id": "history-standard-time", "number": "10", "readTime": "8 min read", "era": "STANDARD TIME\n1840–1967",
-    "title": "Time zones did not follow the clock. They followed the networks that could no longer function without agreement.",
-    "deck": "For most of human history, noon was local: the sun reached its highest point, a town clock was set and neighboring places could disagree by minutes without much cost. Railways and telegraphs made that tolerance untenable. Trains crossed the distance between local times faster than passengers could reason through dozens of timetables; dispatchers needed a common sequence to prevent mistakes; weather observers and financial markets wanted simultaneous records. Private railroads first imposed regional standards, cities adopted them because coordination was useful, diplomats later selected Greenwich as the shared prime meridian, and legislatures eventually turned practice into law. The modern time zone is therefore not a natural division of the Earth. It is a negotiated operating system: mathematically regular in theory, politically bent in practice, and powerful because millions of institutions agree to treat it as real.",
-    "thesis": "Standard time succeeded when coordination value became greater than the cultural cost of surrendering local noon.",
+    "id": "history-birth-of-anaesthesia",
+    "number": "10",
+    "readTime": "8 min read",
+    "era": "THE CONQUEST OF SURGICAL PAIN\n1842–1950s",
+    "title": "Anaesthesia did not simply remove pain. It turned surgery from speed under terror into controlled physiology.",
+    "deck": "Before reliable anaesthesia, surgery was constrained by what a conscious patient could survive. Operations were brutally fast, anatomically limited and avoided until danger outweighed agony. Ether changed that after a public demonstration in Boston in 1846, but the drug alone was not the revolution. Practitioners had to learn dosage, airway control, monitoring and recovery; specialists had to assume responsibility for a patient whose protective reflexes were deliberately suspended; and antisepsis, transfusion and better instruments had to develop alongside them. The result was a new division of labor in medicine. Surgeons gained time to enter the chest, abdomen and brain. Anaesthetists learned to manage breathing, circulation and pain as a continuous system. Modern surgery emerged not from one miracle substance, but from making reversible unconsciousness predictable enough to organize an institution around it.",
+    "thesis": "The decisive invention was not unconsciousness itself; it was the ability to control and monitor a patient’s physiology while surgery proceeded.",
     "sections": [
-      {"title": "Local time worked while most life stayed local", "text": "A town could set noon by the sun and regulate its public clock accordingly. Because longitude changes continuously, nearby towns naturally differed by minutes. That was not an error; it accurately represented local solar time. A traveler moving by horse or sailing ship rarely crossed enough longitude fast enough for the difference to become an operational crisis. Calendars, bells and human routines absorbed the variation. The problem appeared when machines made distant places interdependent within the same working day."},
-      {"title": "Railways turned minutes into a safety and scheduling problem", "text": "By the mid-nineteenth century, railroads connected towns that kept different local times. Companies created their own railway times so crews and passengers could read timetables consistently, but competing lines used different standards. Smithsonian records note that American railroads once operated under roughly fifty regional times. Stations could display several clocks; a long journey required repeated watch changes. The confusion was commercially costly, and when trains shared tracks, exact sequence mattered to safety as well as convenience."},
-      {"title": "The telegraph made a common clock technically possible", "text": "Standardization required more than drawing lines on a map. Observatories could determine precise astronomical time, and telegraph signals could distribute it faster than any train travelled. Railways, jewelers, exchanges and public clocks began synchronizing to transmitted signals. The network produced a reinforcing loop: more synchronized nodes made timetables more reliable, which made the shared standard more valuable, which encouraged more towns and businesses to join."},
-      {"title": "Private operators changed North American time before Congress did", "text": "In 1881 railroad managers commissioned William Frederick Allen to simplify the patchwork. His plan used hour-wide zones tied to central meridians fifteen degrees apart. On 18 November 1883, most U.S. and Canadian railroads adopted five North American zones. Many cities quickly followed even though the change had not been enacted by national law. The railroads could coordinate because they controlled a network people needed; adoption spread because businesses and travelers gained from using the same clock."},
-      {"title": "Greenwich became the global reference through diplomacy and installed advantage", "text": "Canadian engineer Sandford Fleming advocated a worldwide zone system. At the 1884 International Meridian Conference in Washington, delegates recommended Greenwich as the prime meridian, a universal day beginning at Greenwich and longitude counted east and west from zero. Greenwich already carried practical weight because its observatory's navigational publications were widely used. The choice was not geophysically inevitable. It combined scientific convenience, maritime infrastructure and British imperial reach, then accumulated value as more users coordinated around it."},
-      {"title": "Law followed practice—and politics bent the geometry", "text": "The United States did not legally recognize the zone system until the Standard Time Act of 1918, more than three decades after railway adoption. The same law introduced daylight saving time, which Congress soon repealed after public resistance. Later wartime rules and the Uniform Time Act of 1966 tried again to reduce the patchwork. Even today, zone boundaries zigzag around states, borders, commerce and local preference instead of following perfect fifteen-degree bands. The system is standardized, not uniform."},
-      {"title": "Precision kept increasing after zones solved the social problem", "text": "Railway time synchronized human schedules to hours and minutes. Radio later distributed signals more widely; quartz and atomic clocks raised measurement precision; international laboratories now combine atomic-clock data into Coordinated Universal Time. Leap seconds reveal the remaining compromise between atomic regularity and the Earth's irregular rotation. The architecture has layers: physics supplies a measurement, institutions produce a reference and societies decide how civil clocks map onto daily life."},
-      {"title": "The durable invention was agreement at scale", "text": "No clock forced cities to abandon local noon. The shift worked because railways, telegraphs, observatories, businesses, governments and eventually households received more value from synchronization than from preserving exact solar time. Standard time made national transport, communications, broadcasting, finance and computing easier by giving events a shared order. Its history is a model for infrastructure standards generally: technical elegance helps, but adoption depends on a network, an authority people can use and enough collective benefit to make an invented convention feel natural."}
+      {
+        "title": "Pain placed a hard ceiling on what surgery could attempt",
+        "text": "Surgeons operated before 1846, but their repertoire was bounded by speed and access. Amputations, removal of superficial growths and drainage of obvious disease were possible; long exploration inside the body was not. Alcohol, opium, cold and physical restraint could blunt suffering but not create a stable operating field. A patient might move, collapse from shock or refuse an operation altogether. Surgical fame therefore attached to speed, yet speed was a response to the technology of pain rather than proof that haste was medically ideal."
+      },
+      {
+        "title": "Several people found the effect; one public demonstration made it travel",
+        "text": "Georgia physician Crawford Long used ether for minor surgery in 1842 but did not publish promptly. Dentist Horace Wells tried nitrous oxide publicly in 1845, and the demonstration appeared to fail when the patient cried out. On 16 October 1846, dentist William Morton administered ether to Gilbert Abbott at Massachusetts General Hospital while surgeon John Collins Warren removed a neck tumour. Abbott later recalled parts of the event, but he did not display the distress expected from such an operation. The audience saw a method that could be repeated and taught."
+      },
+      {
+        "title": "Communication converted a local event into a global technique",
+        "text": "The Boston result was described in letters and the medical press. By December, practitioners in Britain were using ether; Robert Liston performed a public amputation under it in London on 21 December. The speed of adoption mattered because the apparatus was simple and ether was already available. No central authority licensed the discovery. Surgeons and dentists repeated it, modified inhalers and reported outcomes. Diffusion was imperfect and credit became bitterly contested, but the technique spread because its effect was immediately legible to both patients and doctors."
+      },
+      {
+        "title": "Chloroform widened acceptance—and revealed that unconsciousness carried its own danger",
+        "text": "James Young Simpson introduced chloroform in 1847 and promoted its use in childbirth. It was easier to inhale and less irritating than ether, and Queen Victoria’s use during childbirth helped weaken moral and religious objections. Yet chloroform could suddenly stop the heart; ether could irritate airways and burn. The problem had shifted. Medicine could now suppress pain, but doing so safely required control of concentration, breathing and circulation rather than simply applying more vapour."
+      },
+      {
+        "title": "John Snow made administration into measurement",
+        "text": "The London physician John Snow studied how vapours behaved, built inhalers that controlled concentration and observed patients systematically. He treated anaesthesia as a dose-response problem rather than a theatrical trick. That mindset—prepare the patient, titrate the agent, watch physiological signs and adjust continuously—helped separate the anaesthetist’s role from the surgeon’s. The operator could focus on anatomy because another practitioner focused on keeping the unconscious patient alive."
+      },
+      {
+        "title": "The airway became the central engineering problem",
+        "text": "Unconscious patients lose protective reflexes and may stop breathing effectively. Masks and simple inhalers were enough for short procedures, but deeper and longer operations required a secure route for gases and ventilation. Endotracheal tubes, cuffs, laryngoscopes and mechanical ventilators developed over decades. These tools did more than deliver drugs: they let clinicians protect the airway, control oxygen and carbon dioxide, and operate inside the chest where spontaneous breathing could not be assumed."
+      },
+      {
+        "title": "Anaesthesia and antisepsis unlocked each other’s value",
+        "text": "Pain control alone did not make surgery safe; patients could still die from infection or blood loss. Antiseptic practice, sterile technique, transfusion, antibiotics and better monitoring reduced those hazards. But each advance increased the value of the others. Once infection could be controlled, longer internal operations became worth attempting; once anaesthesia could sustain a patient, surgeons could work carefully enough to exploit sterility and anatomical knowledge. Major surgery emerged as a system of complementary technologies."
+      },
+      {
+        "title": "A specialty grew around the interval when a patient cannot protect themselves",
+        "text": "By the twentieth century, anaesthesiology encompassed pre-operative assessment, intra-operative monitoring, resuscitation, recovery, intensive care and pain medicine. The specialty’s defining responsibility is unusual: deliberately suspend consciousness and reflexes, then maintain the conditions for life until they can safely return. Its success is often invisible. The patient remembers nothing, the surgeon has time and the room treats physiological stability as normal. That normality is the institutional achievement."
+      }
     ],
     "timeline": [
-      {"date": "1840s", "text": "British railways increasingly use London or railway time rather than each town's local solar time."},
-      {"date": "1850s", "text": "U.S. railroads operate with dozens of regional standards as telegraph time signals spread."},
-      {"date": "1876", "text": "Sandford Fleming publishes a proposal for worldwide time zones."},
-      {"date": "1881", "text": "Railroad managers ask William Frederick Allen to design a simpler North American system."},
-      {"date": "1883", "text": "Most U.S. and Canadian railroads adopt five standardized zones on 18 November."},
-      {"date": "1884", "text": "The International Meridian Conference recommends Greenwich as the prime meridian and a universal day."},
-      {"date": "1918", "text": "The U.S. Standard Time Act makes zones federal law and introduces daylight saving time."},
-      {"date": "1967", "text": "The Uniform Time Act takes effect, reducing the U.S. patchwork while preserving local exceptions."}
+      {
+        "date": "1842",
+        "text": "Crawford Long uses ether during minor surgery in Georgia but does not promptly publish the result."
+      },
+      {
+        "date": "1845",
+        "text": "Horace Wells’s public nitrous-oxide demonstration is judged a failure after the patient cries out."
+      },
+      {
+        "date": "1846",
+        "text": "William Morton publicly demonstrates ether anaesthesia at Massachusetts General Hospital on 16 October."
+      },
+      {
+        "date": "1846",
+        "text": "News reaches Britain; Robert Liston performs a public amputation under ether on 21 December."
+      },
+      {
+        "date": "1847",
+        "text": "James Young Simpson introduces chloroform and John Snow advances controlled inhaler design."
+      },
+      {
+        "date": "1853",
+        "text": "Snow administers chloroform to Queen Victoria during childbirth, accelerating social acceptance."
+      },
+      {
+        "date": "1930s",
+        "text": "Cuffed endotracheal tubes and specialist training improve airway control and positive-pressure ventilation."
+      },
+      {
+        "date": "1950s",
+        "text": "Modern machines, monitoring and muscle relaxants help make complex chest and abdominal surgery routine."
+      }
     ],
     "sources": [
-      {"label": "Smithsonian National Museum of American History · local, railroad and standard time", "url": "https://americanhistory.si.edu/ontime/synchronizing/zones.html"},
-      {"label": "Smithsonian Time and Navigation · the 1883 zones and 1884 prime meridian", "url": "https://timeandnavigation.si.edu/timeline2"},
-      {"label": "Library of Congress · legal history from railway time to federal law", "url": "https://blogs.loc.gov/law/2024/11/whose-time-is-it-anyway-a-brief-history-of-standardized-time-zones-in-the-united-states/"},
-      {"label": "NIST · world time scales, Greenwich and modern coordination", "url": "https://www.nist.gov/pml/time-and-frequency-division/popular-links/walk-through-time/walk-through-time-world-time-scales"},
-      {"label": "Library of Congress · the day of two noons and William Frederick Allen", "url": "https://guides.loc.gov/this-month-in-business-history/november/day-of-two-noons"}
+      {
+        "label": "Royal College of Anaesthetists · ether, chloroform, John Snow and professional development",
+        "url": "https://www.rcoa.ac.uk/about-us/heritage/history-anaesthesia"
+      },
+      {
+        "label": "PubMed · historical review of the 1846 demonstration and its consequences",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9090947/"
+      },
+      {
+        "label": "PMC · evolution from Morton’s inhaler to the anaesthetic machine and ventilation",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9373687/"
+      },
+      {
+        "label": "National Library of Medicine · contemporary historical account of ether’s discovery",
+        "url": "https://digirepo.nlm.nih.gov/ext/dw/101669409/PDF/101669409.pdf"
+      },
+      {
+        "label": "Wellcome Collection · Robert Liston’s 1846 operation and contemporary report",
+        "url": "https://iiif.wellcomecollection.org/pdf/b21015648"
+      }
     ]
   },
   "threads": [
-    {"status": "Updated today · active escalation", "title": "Gulf export-route resilience", "text": "First reported Saudi death · Yemen displacement · UN window ahead", "progress": 100},
-    {"status": "Updated today · leader diplomacy", "title": "Iran-war off-ramp", "text": "Iran visas approved · six Gulf leaders due · no talks yet", "progress": 94},
-    {"status": "Updated today · monetary policy", "title": "Oil, inflation and global rates", "text": "Fed 3.75–4% · QCB corridor +25bp · BOJ 1.25%", "progress": 99},
-    {"status": "New today · aviation", "title": "Fuel shock and airline capacity", "text": "American +$1bn · United cuts December · Southwest halves growth", "progress": 78},
-    {"status": "Updated today · AI competition", "title": "Chinese compute self-reliance", "text": "Peerium announced · 256k-card deployment claim · benchmarks absent", "progress": 82},
-    {"status": "New today · strategic safety", "title": "U.S.–China military AI rules", "text": "Nuclear red lines · human cyber control · hotline proposed", "progress": 74}
+    {
+      "status": "Updated today · strategic buffer",
+      "title": "Gulf export-route resilience",
+      "text": "China stocks 1.4bn barrels · Beijing presses Tehran · routes still impaired",
+      "progress": 96
+    },
+    {
+      "status": "Updated today · fiscal and military strain",
+      "title": "Iran-war endurance",
+      "text": "$43.6bn through 3 Sep · interceptors dominate · base damage excluded",
+      "progress": 98
+    },
+    {
+      "status": "Updated today · sanctions enforcement",
+      "title": "Russia’s energy revenue",
+      "text": "U.S. law signed · shadow fleet targeted · buyer tariffs pending",
+      "progress": 87
+    },
+    {
+      "status": "New today · Arctic compromise",
+      "title": "Greenland security settlement",
+      "text": "U.S. access expands · sovereignty retained · parliaments must approve",
+      "progress": 76
+    },
+    {
+      "status": "Updated today · higher-rate regime",
+      "title": "Oil, inflation and global rates",
+      "text": "U.S. 10-year 5% · central banks align · resilient demand complicates easing",
+      "progress": 100
+    },
+    {
+      "status": "Updated today · governance split",
+      "title": "Frontier AI oversight",
+      "text": "State action accelerates · federal divide hardens · common rules absent",
+      "progress": 83
+    }
   ]
 }
