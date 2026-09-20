@@ -1,11 +1,26 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, stat } from "node:fs/promises";
 import { resolve } from "node:path";
+import { validateAudio, formatTime } from "./audio-contract.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const data = JSON.parse(await readFile(resolve(root, "content", "edition.json"), "utf8"));
 const htmlPath = resolve(root, "public", "edition", "index.html");
 let html = await readFile(htmlPath, "utf8");
 const dossierStoryId = data.stories.find((story) => story.lead)?.id || data.stories[0]?.id;
+let audioData = null;
+try {
+  const manifest = JSON.parse(await readFile(resolve(root, 'content/audio-manifest.json'), 'utf8'));
+  const editionBytes = await readFile(resolve(root, 'content/edition.json'));
+  const scriptBytes = await readFile(resolve(root, 'content/audio-script.json'));
+  for (const recording of validateAudio(editionBytes, scriptBytes, manifest)) {
+    const info = await stat(resolve(root, 'public/edition', recording.src));
+    if (!info.isFile() || info.size < 1000) throw new Error(`Invalid audio file: ${recording.src}`);
+  }
+  audioData = { ...manifest, sampleText: JSON.parse(scriptBytes).sample };
+} catch (error) {
+  // A missing manifest is a supported silent edition; incomplete existing audio is not.
+  if (error.code !== 'ENOENT' || error.path !== resolve(root, 'content/audio-manifest.json')) throw error;
+}
 
 const esc = (value = "") => String(value)
   .replaceAll("&", "&amp;")
@@ -21,6 +36,30 @@ function replaceRequired(pattern, replacement, label) {
 function sourceLinks(sources = []) {
   return sources.map((source) => `<a href="${esc(source.url)}" target="_blank" rel="noreferrer">${esc(source.label)} ↗</a>`).join("");
 }
+
+function listenAction(id) {
+  if (!audioData?.tracks[id]) return '';
+  return `<button type="button" class="story-listen" data-listen-story="${esc(id)}">▶ Listen · ${formatTime(audioData.tracks[id].recordings[audioData.defaultVoice].duration)}</button>`;
+}
+
+const audioControls = audioData ? `
+            <button class="listen-button" type="button" data-audio-toggle>
+              <span class="listen-button__icon" data-audio-icon>▶</span>
+              <span><strong data-audio-label>Listen to the short briefing</strong><small><span data-briefing-duration>${formatTime(audioData.tracks.briefing.recordings[audioData.defaultVoice].duration)}</span> · AI narration${audioData.voices.length === 1 ? ` · <span data-narrator-name>${esc(audioData.voices[0].label.split(' · ')[0])}</span>` : ''}</small></span>
+            </button>
+            ${audioData.voices.length > 1 ? `<details class="narrator-picker"><summary>Voice · <span data-narrator-name>${esc(audioData.voices.find(voice => voice.id === audioData.defaultVoice).label)}</span></summary>
+              <fieldset><legend>Choose your narrator</legend>${audioData.voices.map(voice => `<div class="narrator-option"><label><input type="radio" name="narrator" value="${esc(voice.id)}"${voice.id === audioData.defaultVoice ? ' checked' : ''}> ${esc(voice.label)}</label><button type="button" data-preview-voice="${esc(voice.id)}" aria-label="Preview ${esc(voice.label)}">Preview voice</button></div>`).join('')}</fieldset>
+            </details>` : ''}` : '<p class="audio-unavailable">Recorded audio is not available for this edition.</p>';
+
+const audioChrome = audioData ? `<!-- RECORDED_AUDIO_START -->
+  <aside class="audio-dock" data-audio-dock aria-label="Audio player" hidden>
+    <div class="audio-dock__heading"><div><strong data-audio-title>Your short briefing</strong><p data-audio-status aria-live="polite"></p></div><button type="button" data-close-audio aria-label="Close audio player">×</button></div>
+    <audio data-recorded-audio controls preload="none" aria-label="Edition recording"></audio>
+    <details data-transcript-disclosure><summary>Read transcript</summary><p data-audio-transcript></p></details>
+  </aside>
+  <script type="application/json" id="edition-audio-data">${JSON.stringify(audioData).replaceAll('<', '\\u003c')}</script>
+  <script type="module" src="audio-player.js"></script>
+  <!-- RECORDED_AUDIO_END -->` : '';
 
 function storyHeader(story) {
   if (!story.group) return "";
@@ -41,7 +80,7 @@ function storyArticle(story) {
             </div>
             ${background}
             ${evidence}
-            <footer class="story-footer"><div class="source-links">${sourceLinks(story.sources)}</div><div class="story-actions"><button type="button" data-save="${esc(story.id)}">＋ Save</button>${story.id === dossierStoryId ? '<button type="button" class="primary-action" data-open-dossier>Open living dossier →</button>' : ""}</div></footer>
+            <footer class="story-footer"><div class="source-links">${sourceLinks(story.sources)}</div><div class="story-actions">${listenAction(story.id)}<button type="button" data-save="${esc(story.id)}">＋ Save</button>${story.id === dossierStoryId ? '<button type="button" class="primary-action" data-open-dossier>Open living dossier →</button>' : ""}</div></footer>
           </article>`;
 }
 
@@ -50,10 +89,7 @@ const cover = `<section class="cover reveal">
           <h1>${esc(data.worldSentence)}</h1>
           <p class="standfirst">${esc(data.standfirst)}</p>
           <div class="cover__actions">
-            <button class="listen-button" type="button" data-audio-toggle>
-              <span class="listen-button__icon" data-audio-icon>▶</span>
-              <span><strong data-audio-label>Listen to today’s edition</strong><small>${esc(data.listenTime)} · narrated on your device</small></span>
-            </button>
+            ${audioControls}
           </div>
         </section>`;
 
@@ -82,7 +118,7 @@ const history = `<article class="history-piece" data-story-id="${esc(data.histor
           <div class="history-piece__hero"><p class="history-piece__number">${esc(data.history.number)}</p><div><h2>${esc(data.history.title)}</h2><p class="history-piece__deck">${esc(data.history.deck)}</p></div></div>
           <div class="history-piece__body"><aside><p class="micro-label">Why remember this?</p><blockquote>${esc(data.history.thesis)}</blockquote></aside><div class="history-piece__copy">${data.history.sections.map((section, index) => `<section><span>${index + 1} · ${esc(section.title)}</span><p>${esc(section.text)}</p></section>`).join("")}</div></div>
           <div class="history-timeline" aria-label="Historical timeline">${data.history.timeline.map((item) => `<div><strong>${esc(item.date)}</strong><span>${esc(item.text)}</span></div>`).join("")}</div>
-          <footer class="story-footer history-piece__footer"><div class="source-links">${sourceLinks(data.history.sources)}</div><div class="story-actions"><button type="button" data-save="${esc(data.history.id)}">＋ Save</button></div></footer>
+          <footer class="story-footer history-piece__footer"><div class="source-links">${sourceLinks(data.history.sources)}</div><div class="story-actions">${listenAction(data.history.id)}<button type="button" data-save="${esc(data.history.id)}">＋ Save</button></div></footer>
         </article>`;
 
 const attention = `<section class="attention-grid">
@@ -133,5 +169,8 @@ replaceRequired(/<section class="attention-grid">[\s\S]*?<\/section>/, attention
 replaceRequired(/<div class="thread-grid">[\s\S]*?<\/div>\s*<\/section>/, `${threads}\n    </section>`, "living threads");
 replaceRequired(/<aside class="dossier-drawer"[\s\S]*?<\/aside>/, dossier, "living dossier");
 
-await writeFile(htmlPath, html);
+html = html.replace(/\s*<!-- RECORDED_AUDIO_START -->[\s\S]*?<!-- RECORDED_AUDIO_END -->\s*/g, '\n');
+replaceRequired(/\s*<script src="app.js"><\/script>/, `\n  ${audioChrome}\n  <script src="app.js"></script>`, 'audio player mount');
+
+await writeFile(htmlPath, html.replace(/[\t ]+$/gm, ''));
 console.log(`Rendered ${data.date.display}: ${data.stories.length} stories + The Long View.`);

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "edition": "029",
+  "date": "Sunday, 20 September 2026",
+  "editionHash": "027cb7ce5fe339e2414910cd9a12224ec3ae7c35d947661a4096117261a44091",
+  "scriptHash": "61bb441041b94eb856f990480939d9c0b15e454f49b2eacdbba276930edd7c76",
+  "defaultVoice": "am_michael",
+  "voices": [
+    {
+      "id": "am_michael",
+      "label": "Michael · American",
+      "sample": {
+        "src": "audio/029/am_michael-sample-7077734b3b52.mp3",
+        "duration": 16.82
+      }
+    }
+  ],
+  "tracks": {
+    "briefing": {
+      "title": "Your short briefing",
+      "text": "Good morning. This is The Brief for Sunday, the twentieth of September. Here are the developments to understand today.\n\nStart with the Gulf. The United States military says protected shipping through the Strait of Hormuz has reached a six-month high. It reports supporting more than two thousand commercial transits over the past two months. That is evidence of improving capacity, according to the military. But independent monitors still put traffic below prewar levels, and attacks continue. The distinction is important: a route can become more usable without becoming safe or commercially normal. Watch actual vessel movements and insurance costs, alongside the official claims.\n\nThe pressure is also spreading. Saudi Arabia says it intercepted a Houthi missile aimed at Riyadh, along with threats against other civilian infrastructure, including Yanbu. Yanbu matters because it is the Red Sea outlet for a major pipeline that bypasses Hormuz. Saudi authorities reported no casualties or damage in Riyadh. Houthi claims of damage elsewhere remain unverified. The concern is that both the main shipping route and an alternative export route are coming under pressure.\n\nThere is a diplomatic channel, too. Iran says it sent Washington conditions for ending the war through Qatar. The reported terms include ending the fighting, releasing seized Iranian assets, and lifting the American naval blockade. This is a statement of Iran's position, not an agreed deal. The next useful signal is an American response, and clarity on what would happen first.\n\nBeyond the region, President Trump is preparing to host China's President Xi for a state visit. The reporting describes a softer approach after tariffs failed to deliver the intended leverage. Trade, critical minerals, the Iran war, and artificial intelligence give both sides reasons to keep talking. The test will be specific commitments that survive the ceremony.\n\nIn Bolivia, Congress approved a one-point-nine-billion-dollar International Monetary Fund programme, and the government ended its diesel subsidy. The Fund's board still has to approve disbursement. Removing the subsidy may relieve shortages and budget pressure, but it also pushes costs into transport and food. Watch whether promised compensation reaches households and whether fuel supply improves.\n\nCloser to home, Qatar's central-bank governor and sovereign-wealth chairman held investment discussions in New York with Jeff Bezos, Steven Mnuchin, and Ashmore's chief. The meetings are confirmed. No investment terms were disclosed. They show where conversations are happening, not where money has been committed.\n\nFinally, two connected stories in artificial intelligence. Anthropic says its models now lead twenty-six percent of its model research and development, under human supervision. Other labs describe similar ambitions. The figures use different definitions, so they do not establish autonomous self-improvement. Separately, subscribers have sued several leading labs over alleged coordination to slow development. That is an allegation, not a court finding. Together, these stories raise a practical question: how can research accelerate while safety coordination remains accountable and lawful?\n\nThat is the short edition. The stories below each have their own listening button if you want more detail. The Long View is separate, too: how the world's postal services became one international network.",
+      "recordings": {
+        "am_michael": {
+          "src": "audio/029/am_michael-briefing-75c42ea00d46.mp3",
+          "duration": 231.58
+        }
+      }
+    },
+    "hormuz-protected-flow-recovery": {
+      "title": "Protected traffic through Hormuz reached a six-month high—but the recovery is still partial and contested.",
+      "text": "Shipping through Hormuz is improving, according to the United States military, but the recovery remains incomplete. Central Command says American forces supported one billion barrels of crude and more than two thousand commercial vessel passages over two months. It says the main transit lanes are clear of mines, and recent cargo volumes are at their highest since the war began.\n\nThose are military claims. The Associated Press also reports that independent monitors still place traffic well below prewar levels, while Iran continues to attack ships. Both parts matter. Escorts and mine clearance can restore operating capacity without removing the risks that determine whether owners and insurers will accept a voyage.\n\nFor Gulf exporters, including Qatar, more reliable passage could ease immediate scarcity and support revenue. But the test is sustained daily movement, not a large cumulative number. Watch independent vessel counts, cargo volumes, attack success and war-risk insurance costs. A falling oil price, on its own, would not prove that physical supply has recovered.",
+      "recordings": {
+        "am_michael": {
+          "src": "audio/029/am_michael-hormuz-protected-flow-recovery-0d3009857bac.mp3",
+          "duration": 74.9
+        }
+      }
+    },
+    "houthi-riyadh-yanbu-escalation": {
+      "title": "A Houthi missile reached for Riyadh as the new Yemen front widened from export routes toward the Saudi capital.",
+      "text": "Saudi Arabia says it intercepted a Houthi ballistic missile aimed at Riyadh. Its authorities also reported thwarting attacks against civilian infrastructure in Yanbu and other locations. No casualties or damage were reported in Riyadh. The Houthis claimed damage at sensitive sites, but supplied no evidence in the reporting.\n\nThe geographic shift is the important part. Riyadh is the capital. Yanbu is where the East-West crude pipeline reaches the Red Sea, providing an alternative to exports through Hormuz. Pressure on both locations reaches beyond an isolated shipping incident. It combines political coercion with a threat to an alternative energy route.\n\nAn interception prevents immediate damage, but repeated attacks still consume defensive capacity and can raise the cost of operating ports and pipelines. Watch for further attempts against Riyadh or Yanbu, independently verified damage, changes in pipeline operations, and the response of maritime insurers. Keep reported interceptions separate from unverified claims of successful strikes.",
+      "recordings": {
+        "am_michael": {
+          "src": "audio/029/am_michael-houthi-riyadh-yanbu-escalation-cba8a330471b.mp3",
+          "duration": 73.63
+        }
+      }
+    },
+    "iran-terms-through-qatar": {
+      "title": "Iran says its terms for ending the war are now with Washington—and Qatar carried the message.",
+      "text": "Iran says it has sent Washington its conditions for ending the war, using Qatar as the channel. Iranian security official Mohsen Rezaei described the conditions as ending the war on all fronts, releasing seized Iranian assets, and ending the American naval blockade. He also said Iran wants the Yemen-Saudi fighting stopped.\n\nThe reporting does not establish when the message was delivered. Neither Qatar nor Washington had publicly validated the complete package described by Iran. This is evidence of a stated negotiating position, not evidence of agreement.\n\nQatar's role is the channel. The parties still have to decide what they will concede, in what order, and whether any arrangement can include restraint by the Houthis. Watch for an American acknowledgment or counterproposal, and for specifics on the sequence of blockade relief and an end to attacks. The existence of talks matters, but shipping conditions are a separate test of whether diplomacy is changing events.",
+      "recordings": {
+        "am_michael": {
+          "src": "audio/029/am_michael-iran-terms-through-qatar-d771acb2bcb9.mp3",
+          "duration": 66.72
+        }
+      }
+    },
+    "trump-xi-state-visit-reset": {
+      "title": "Trump is receiving Xi with ceremony after tariffs failed to produce the intended leverage.",
+      "text": "President Trump is preparing to receive President Xi for a state visit and dinner on Thursday. The Associated Press describes a change from earlier confrontation toward managing the relationship through direct engagement.\n\nThere are limits to what the tariff campaign achieved. The reporting points to China's continued manufacturing strength, its position in rare earths, and uncertainty about trade diverted through other countries. A narrower bilateral deficit does not capture all of those effects.\n\nThe Iran war, energy flows and the artificial-intelligence race also create problems neither government can manage entirely alone. Personal rapport may reduce the immediate risk of escalation. It may also produce attractive photographs without durable changes.\n\nThe useful follow-up is therefore concrete: written commitments on trade, critical minerals, military communication or regional security. Watch what is enforceable, what can be independently measured, and whether the arrangements last after the visit. The ceremony opens negotiating space; it does not tell us what that space will produce.",
+      "recordings": {
+        "am_michael": {
+          "src": "audio/029/am_michael-trump-xi-state-visit-reset-69daf0220977.mp3",
+          "duration": 75.0
+        }
+      }
+    },
+    "bolivia-imf-diesel-subsidy": {
+      "title": "Bolivia approved a $1.9 billion IMF program and immediately ended the diesel subsidy that had become fiscally impossible.",
+      "text": "Bolivia's Congress has approved a three-year, one-point-nine-billion-dollar agreement with the International Monetary Fund. President Rodrigo Paz then ended the diesel subsidy. Gasoline remains subsidized for now, and the Fund's board still needs to approve disbursement.\n\nThe immediate problem is financing. Declining gas exports reduced the dollars available to import fuel, while the Iran war raised the international cost of maintaining cheap domestic diesel. Ending the subsidy may reduce shortages and fiscal pressure. But it also passes higher costs to truckers, farmers and bus operators, with consequences for food and transport prices.\n\nThe government paired the change with cash support and preferential loans. Their delivery matters as much as the announcement. Watch fuel availability, household compensation, inflation, protests and the timing of external financing. This is a stabilization attempt with a difficult distributional trade-off. Its success depends on whether improved supply and targeted support arrive quickly enough for people absorbing the higher prices.",
+      "recordings": {
+        "am_michael": {
+          "src": "audio/029/am_michael-bolivia-imf-diesel-subsidy-341023b9fb78.mp3",
+          "duration": 75.14
+        }
+      }
+    },
+    "qia-global-capital-meetings": {
+      "title": "Qatar’s central-bank and sovereign-wealth chairman opened New York investment talks with Bezos, Mnuchin and Ashmore’s chief.",
+      "text": "Qatar's central-bank governor and sovereign-wealth chairman held separate meetings in New York with Jeff Bezos, Steven Mnuchin and Ashmore chief Mark Coombs. Qatar's news agency said they discussed international financial and investment developments ahead of a special Qatar Economic Forum event.\n\nThe meetings are confirmed. No investment amounts, transaction terms or commitments were disclosed. That distinction keeps a useful relationship signal from becoming an invented deal.\n\nThe counterparties point toward different parts of the investment landscape: technology and infrastructure, strategic private capital, and emerging-market asset management. They show the range of conversations, not the eventual allocation.\n\nWatch for specific announcements from the forum: a fund, partnership, infrastructure project or disclosed investment. Until then, the evidence is access and dialogue. In an environment shaped by energy disruption and high financing costs, the meaningful next step is where discussions become deployed capital, and on what terms.",
+      "recordings": {
+        "am_michael": {
+          "src": "audio/029/am_michael-qia-global-capital-meetings-7d03945d5a04.mp3",
+          "duration": 70.39
+        }
+      }
+    },
+    "ai-recursive-research-capability": {
+      "title": "AI labs are publishing the first operating metrics for models helping to build their successors.",
+      "text": "Artificial-intelligence labs are starting to describe how much of their own research is being carried out by models. Anthropic says Claude leads twenty-six percent of its model research and development, with most of those tasks completed from a high-level prompt under human supervision. Other labs describe their own research assistants and ambitions for greater automation.\n\nThese are company disclosures using different definitions. They should not be treated as a common benchmark, or as proof that a model can independently improve itself across generations.\n\nThe near-term significance is still substantial: a tool that helps run experiments may reduce research costs and speed development of the next tool. The harder questions are how often people intervene, how errors are caught, and whether faster experimentation actually produces better models.\n\nWatch for independently replicated results, clear definitions of autonomy, and measured gains rather than task counts alone. Useful supervised assistance and a fully autonomous research loop are different claims, requiring different evidence.",
+      "recordings": {
+        "am_michael": {
+          "src": "audio/029/am_michael-ai-recursive-research-capability-40eb7deeb8f1.mp3",
+          "duration": 72.26
+        }
+      }
+    },
+    "ai-slowdown-antitrust-lawsuit": {
+      "title": "A subscriber lawsuit is testing whether rival AI labs can coordinate safety restraint without explicit government protection.",
+      "text": "Four paid subscribers have filed a proposed class action alleging that major artificial-intelligence companies coordinated a slowdown in development. The complaint points to public statements about industry-wide pacing and argues that restraint would reduce the value of subscriptions.\n\nThis is a lawsuit's allegation. No court has found an agreement or an antitrust violation, and the companies had not responded to the Associated Press's request for comment in the edition's reporting.\n\nThe broader question is how competitors can work together on safety without restricting competition. Common standards may reduce the incentive to cut corners. But private agreements to restrain innovation can also protect incumbents and harm customers. The design of government rules, oversight and any narrow legal protection therefore matters.\n\nWatch the motions to dismiss and whether evidence emerges of an actual agreement, rather than similar public statements. The case may fail while the coordination problem remains. Neither the filing nor a promise of restraint demonstrates that development has actually slowed.",
+      "recordings": {
+        "am_michael": {
+          "src": "audio/029/am_michael-ai-slowdown-antitrust-lawsuit-c694fbf39629.mp3",
+          "duration": 74.09
+        }
+      }
+    },
+    "history-universal-postal-union-network": {
+      "title": "The world’s mail became a network when countries stopped settling every letter as a separate international bargain.",
+      "text": "The world’s mail became a network when countries stopped settling every letter as a separate international bargain.\n\nIn the nineteenth century, sending a letter abroad could require a chain of bilateral treaties, different rates, transit charges and accounting between postal administrations. A stamp that worked at home did not by itself create a global service. Britain’s prepaid Penny Black simplified the domestic transaction in 1840, but international mail remained a maze. Postal officials gradually discovered that the system would scale only if governments accepted common rules and stopped pricing every border crossing as a bespoke exchange. Twenty-two countries signed the Treaty of Bern in 1874, creating what became the Universal Postal Union. Its core move was conceptual: member states formed a single postal territory, guaranteed transit and standardized basic treatment of letters. Each national post could accept an item, hand it across borders and trust other administrations to carry and deliver it. The arrangement was imperfect and later struggled with parcel imbalances and e-commerce, but it proved that a global network can emerge before global government when participants standardize interfaces, simplify settlement and build a permanent institution for revision.\n\nA national stamp solved payment, not international routing. Before prepaid postage, recipients often paid on delivery. That made every undelivered or refused letter a collection problem. Britain’s 1840 reform charged a uniform domestic rate by weight and let the sender prepay with a stamp. The change simplified demand, accounting and handling inside one jurisdiction. Other countries followed. Yet a letter crossing borders still entered administrations with different currencies, distance rules, transit fees and treaty obligations. The physical journey might use railways and steamships, but the institutional journey could still be slower than the vehicle carrying it.\n\nBilateral treaties multiplied faster than the network could manage. Each pair of countries could negotiate how mail would be exchanged and how revenue would be divided. That worked when international correspondence was limited and routes were simple. As trade, migration and imperial connections expanded, bilateralism produced a dense web of exceptions. A letter passing through a third country could trigger additional rules and accounts. Postal administrations needed clerks who understood routes, rates and settlements specific to each destination. The network’s complexity rose roughly with the number of relationships rather than the number of members—a classic scaling failure.\n\nThe 1863 Paris conference defined principles but could not create one service. U.S. Postmaster General Montgomery Blair invited postal representatives to Paris in 1863. Delegates from fifteen European and American countries agreed on useful general principles, showing that technical officials could see the common problem. They did not conclude a binding universal agreement. The episode mattered because it moved postal reform from bilateral diplomacy toward multilateral design. The remaining task was to turn shared preferences into rules that administrations would accept even when individual traffic balances were unequal.\n\nHeinrich von Stephan designed the union around a single territory. Heinrich von Stephan, a senior postal official in the North German Confederation and later imperial Germany, developed a plan for an international union. At his suggestion, Switzerland convened a conference in Bern in September 1874. Representatives of twenty-two nations signed the Treaty of Bern on 9 October. The agreement created the General Postal Union, established an International Bureau and treated the member countries as one territory for exchanging letter post. The treaty entered into force on 1 July 1875.\n\nThree rules converted separate posts into an interoperable network. The first rule was a single postal territory: a letter accepted by one member entered a common service space. The second was freedom of transit, so intermediate administrations could not arbitrarily block the route. The third was greater standardization of charges and treatment. Early arrangements also simplified settlement by allowing the originating post to keep much of the postage rather than calculating compensation for every letter. The rule was not perfectly fair, but it sharply reduced transaction cost. Like later technical standards, it favored scale and usability over exact accounting at each handoff.\n\nRapid accession showed that the value of the union grew with membership. Countries joined quickly because every new member gained access to the whole network rather than negotiating separately with each participant. In 1878 the organization changed its name from the General Postal Union to the Universal Postal Union. That same year an international parcel-post framework expanded what the network could carry. The service became a practical layer of globalization: families, firms, newspapers and governments could address foreign destinations through familiar national institutions while the complexity of interchange was handled behind the counter.\n\nA permanent bureau mattered because standards age. The treaty was not a one-time act of harmonization. Postal congresses revised rules as routes, technologies and products changed. Reply coupons, airmail, small packets and later electronic data required new interfaces. The International Bureau in Bern supplied continuity and technical memory between political meetings. In 1948 the UPU became a specialized agency of the United Nations, but its operating logic remained older and more practical: administrations cooperate because mutual interoperability creates more value than isolated sovereignty over every transaction.\n\nE-commerce revealed the bargain hidden inside simple postage. The original settlement logic was built for relatively balanced flows of letters. Small parcels from global e-commerce created large asymmetries: one country could collect low postage while another bore expensive last-mile delivery. Disputes over terminal dues showed that interoperability does not eliminate distributional conflict; it relocates conflict into the standard-setting institution. The union survived because members could renegotiate rates without dismantling the network. Its deeper lesson is therefore not that one rule lasts forever, but that a shared revision mechanism is part of the infrastructure.",
+      "recordings": {
+        "am_michael": {
+          "src": "audio/029/am_michael-history-universal-postal-union-network-53c5de996f11.mp3",
+          "duration": 453.48
+        }
+      }
+    }
+  }
+}

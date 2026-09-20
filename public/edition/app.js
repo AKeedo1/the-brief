@@ -36,7 +36,7 @@ function closeDossier() {
 function setDepth(depth, fromUser = true) {
   if (!depths[depth]) return;
   body.dataset.depth = depth;
-  document.querySelectorAll("[data-depth]").forEach((button) => {
+  document.querySelectorAll("button[data-depth]").forEach((button) => {
     const active = button.dataset.depth === depth;
     button.classList.toggle("is-active", active);
     button.setAttribute("aria-selected", String(active));
@@ -57,7 +57,7 @@ function setDepth(depth, fromUser = true) {
   if (fromUser && depth === "dossier") openDossier();
 }
 
-document.querySelectorAll("[data-depth]").forEach((button) => {
+document.querySelectorAll("button[data-depth]").forEach((button) => {
   button.addEventListener("click", () => setDepth(button.dataset.depth));
 });
 document.querySelectorAll("[data-open-dossier]").forEach((button) => button.addEventListener("click", openDossier));
@@ -179,82 +179,6 @@ document.querySelectorAll("[data-save]").forEach((button) => button.addEventList
   renderLibrary();
 }));
 renderLibrary();
-
-const audio = document.querySelector("[data-audio]");
-const audioButton = document.querySelector("[data-audio-toggle]");
-const audioIcon = document.querySelector("[data-audio-icon]");
-const audioLabel = document.querySelector("[data-audio-label]");
-const progress = document.querySelector("[data-audio-progress] span");
-const speech = window.speechSynthesis;
-let narration = null;
-
-function showAudioError() {
-  body.classList.remove("audio-playing");
-  audioIcon.textContent = "!";
-  audioLabel.textContent = "Audio could not load";
-}
-if (audio) {
-  audioButton.addEventListener("click", async () => {
-    if (audio.paused) {
-      try { await audio.play(); } catch { showAudioError(); }
-    } else { audio.pause(); }
-  });
-  audio.addEventListener("play", () => {
-    body.classList.add("audio-playing");
-    audioIcon.textContent = "Ⅱ";
-    audioLabel.textContent = "Pause today’s edition";
-  });
-  audio.addEventListener("pause", () => {
-    body.classList.remove("audio-playing");
-    audioIcon.textContent = "▶";
-    audioLabel.textContent = audio.ended ? "Replay today’s edition" : "Resume today’s edition";
-  });
-  audio.addEventListener("timeupdate", () => {
-    if (progress) progress.style.width = audio.duration ? `${(audio.currentTime / audio.duration) * 100}%` : "0%";
-  });
-  audio.addEventListener("error", showAudioError);
-} else if (speech && "SpeechSynthesisUtterance" in window) {
-  const narrationText = [
-    document.querySelector(".cover h1")?.textContent,
-    document.querySelector(".standfirst")?.textContent,
-    ...[...document.querySelectorAll(".story-list .story")].flatMap((story) => [
-      story.querySelector("h2")?.textContent,
-      story.querySelector(".scan-grid div:nth-child(1) p")?.textContent,
-      story.querySelector(".scan-grid div:nth-child(2) p")?.textContent,
-      story.querySelector(".scan-grid div:nth-child(3) p")?.textContent
-    ])
-  ].filter(Boolean).join(". ");
-
-  audioButton.addEventListener("click", () => {
-    if (speech.speaking && !speech.paused) {
-      speech.pause();
-      body.classList.remove("audio-playing");
-      audioIcon.textContent = "▶";
-      audioLabel.textContent = "Resume today’s edition";
-      return;
-    }
-    if (speech.paused) {
-      speech.resume();
-    } else {
-      narration = new SpeechSynthesisUtterance(narrationText);
-      narration.lang = "en-GB";
-      narration.rate = 1.02;
-      narration.onend = () => {
-        body.classList.remove("audio-playing");
-        audioIcon.textContent = "▶";
-        audioLabel.textContent = "Replay today’s edition";
-      };
-      narration.onerror = showAudioError;
-      speech.cancel();
-      speech.speak(narration);
-    }
-    body.classList.add("audio-playing");
-    audioIcon.textContent = "Ⅱ";
-    audioLabel.textContent = "Pause today’s edition";
-  });
-} else {
-  audioButton.addEventListener("click", showAudioError);
-}
 
 document.querySelectorAll("[data-feedback]").forEach((button) => button.addEventListener("click", () => {
   document.querySelectorAll("[data-feedback]").forEach((item) => item.classList.toggle("is-active", item === button));

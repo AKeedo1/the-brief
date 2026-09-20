@@ -1,6 +1,7 @@
 import { createServer } from "node:http";
 import { readFile } from "node:fs/promises";
 import { extname, resolve } from "node:path";
+import { serveFile } from './serve-file.mjs';
 
 const root = resolve(import.meta.dirname, "..", "public", "edition");
 const port = Number(process.argv[2] || 8790);
@@ -10,11 +11,12 @@ const types = { ".html": "text/html; charset=utf-8", ".css": "text/css; charset=
 createServer(async (request, response) => {
   const pathname = new URL(request.url, `http://${request.headers.host}`).pathname;
   const name = pathname === "/" ? "index.html" : pathname.replace(/^\/edition\//, "").replace(/^\//, "");
-  if (!new Set(["index.html", "styles.css", "app.js", "og.png"]).has(name)) {
+  if (!new Set(["index.html", "styles.css", "app.js", "audio-player.js", "og.png"]).has(name) && !/^audio\/[\w-]+\/[\w-]+\.mp3$/.test(name)) {
     response.writeHead(404).end("Not found");
     return;
   }
   try {
+    if (name.endsWith('.mp3')) { await serveFile(request, response, resolve(root, name), 'audio/mpeg'); return; }
     const filePath = name === "og.png" ? resolve(root, "..", "og.png") : resolve(root, name);
     const body = await readFile(filePath);
     const payload = name === "index.html" ? body.toString("utf8").replaceAll("{{SITE_ORIGIN}}", `http://${request.headers.host}`) : body;
