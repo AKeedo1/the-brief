@@ -35,40 +35,25 @@ a { color: inherit; }
 .masthead { border-bottom: 1px solid var(--ink); background: var(--paper); }
 .masthead__top {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: center;
-  min-height: 90px;
+  place-items: center;
+  min-height: 100px;
+  padding-block: 22px 20px;
 }
 .wordmark {
   display: inline-flex;
   align-items: baseline;
-  gap: .28em;
+  gap: .24em;
   white-space: nowrap;
   font-family: var(--serif);
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(2.25rem, 6vw, 3.25rem);
   font-weight: 600;
-  letter-spacing: -.055em;
+  letter-spacing: -.045em;
   line-height: 1;
   text-decoration: none;
 }
 /* Crop the app icon's padding for a masthead-sized, baseline-aligned symbol. */
-.wordmark__symbol { position: relative; display: block; width: 1em; height: .647em; overflow: hidden; flex: none; }
-.wordmark__symbol img { position: absolute; display: block; width: 1.544em; height: 1.544em; max-width: none; left: -.272em; top: -.436em; }
-.menu-button { width: 38px; height: 38px; padding: 9px 5px; border: 0; color: var(--ink); background: none; cursor: pointer; }
-.menu-button span { display: block; width: 27px; height: 1px; margin: 7px 0; background: currentColor; }
-.avatar {
-  justify-self: end;
-  display: grid;
-  place-items: center;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  color: var(--paper);
-  background: var(--olive);
-  font-size: .8125rem;
-  font-weight: 700;
-  letter-spacing: .08em;
-}
+.wordmark__symbol { position: relative; display: block; width: .86em; height: .556em; overflow: hidden; flex: none; }
+.wordmark__symbol img { position: absolute; display: block; width: 1.328em; height: 1.328em; max-width: none; left: -.234em; top: -.375em; }
 .edition-line {
   display: flex;
   gap: 24px;
@@ -434,7 +419,7 @@ body.drawer-open .dossier-drawer { transform: translateX(0); }
 
 @media (max-width: 820px) {
   .wrap { width: min(calc(100% - 40px), 720px); max-width: 100%; }
-  .masthead__top { min-height: 72px; }
+  .masthead__top { min-height: 84px; }
   .edition-line { gap: 10px; font-size: .6875rem; }
   .edition-line span:nth-child(2) { display: none; }
   .section-nav { display: none; }
