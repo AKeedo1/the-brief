@@ -20,3 +20,7 @@ This file is the durable runbook for `Personal Morning News Brief`.
 14. Optionally run `powershell -NoProfile -ExecutionPolicy Bypass -File scripts/ensure-server.ps1` to retain the private Tailscale fallback at `http://100.108.16.61:8789/`. The GitHub Pages edition is the primary surface and remains online when the PC is off.
 
 Do not redesign during a scheduled run. Do not post the edition into a conversation or Telegram. Report only the date, success or failure, and `https://akeedo1.github.io/the-brief/`.
+
+## Brand
+
+The publication is Daymark. Keep the Daymark masthead, application metadata, manifest and icon references intact when rendering each edition. Use Daymark in briefing audio track titles. The existing GitHub repository and public URL remain unchanged.

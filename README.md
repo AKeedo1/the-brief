@@ -1,4 +1,4 @@
-# The Brief
+# Daymark
 
 Daily reading and recorded audio: https://akeedo1.github.io/the-brief/
 

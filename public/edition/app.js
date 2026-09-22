@@ -97,7 +97,7 @@ function discussionText(question = "Explain why this matters beyond the headline
   const story = document.querySelector(`[data-story-id="${activeStory}"]`);
   const changed = story?.querySelector(".scan-grid div:first-child p")?.textContent || story?.querySelector(".history-piece__deck")?.textContent || "";
   const contextLabel = story?.classList.contains("history-piece") ? "Historical thesis" : "What changed";
-  return `From The Brief for ${editionDate}: “${storyTitles[activeStory]}”\n\n${contextLabel}: ${changed}\n\n${question} Use the linked reporting, distinguish confirmed facts from interpretation, and talk this through with me rather than giving me another summary.`;
+  return `From Daymark for ${editionDate}: “${storyTitles[activeStory]}”\n\n${contextLabel}: ${changed}\n\n${question} Use the linked reporting, distinguish confirmed facts from interpretation, and talk this through with me rather than giving me another summary.`;
 }
 
 function openDiscuss(id) {

@@ -16,7 +16,7 @@ try {
     const info = await stat(resolve(root, 'public/edition', recording.src));
     if (!info.isFile() || info.size < 1000) throw new Error(`Invalid audio file: ${recording.src}`);
   }
-  audioData = { ...manifest, sampleText: JSON.parse(scriptBytes).sample };
+  audioData = { ...manifest, tracks: { ...manifest.tracks, briefing: { ...manifest.tracks.briefing, title: `Daymark · ${data.date.display}` } }, sampleText: JSON.parse(scriptBytes).sample };
 } catch (error) {
   // A missing manifest is a supported silent edition; incomplete existing audio is not.
   if (error.code !== 'ENOENT' || error.path !== resolve(root, 'content/audio-manifest.json')) throw error;
@@ -134,7 +134,7 @@ const dossierSources = [...new Map(
 ).values()];
 const dossierDate = data.date.display.replace(/^[^,]+,\s*/, "");
 const dossier = `<aside class="dossier-drawer" data-dossier data-dossier-story-id="${esc(dossierStoryId)}" aria-hidden="true" aria-labelledby="dossier-title">
-    <header class="drawer-head"><span>THE BRIEF · LIVING DOSSIER</span><button type="button" data-close-dossier aria-label="Close dossier">×</button></header>
+    <header class="drawer-head"><span>DAYMARK · LIVING DOSSIER</span><button type="button" data-close-dossier aria-label="Close dossier">×</button></header>
     <div class="drawer-scroll">
       <section class="dossier-hero">
         <p class="kicker">${esc(dossierStory.category)}</p>
@@ -153,7 +153,7 @@ const dossier = `<aside class="dossier-drawer" data-dossier data-dossier-story-i
     </div>
   </aside>`;
 
-replaceRequired(/<title>[\s\S]*?<\/title>/, `<title>The Brief — ${esc(data.date.display)}</title>`, "document title");
+replaceRequired(/<title>[\s\S]*?<\/title>/, `<title>Daymark — ${esc(data.date.display)}</title>`, "document title");
 replaceRequired(/<meta name="description" content="[^"]*">/, `<meta name="description" content="Abdulla's layered daily intelligence edition for ${esc(data.date.display)}.">`, "description");
 replaceRequired(/<body[^>]*>/, `<body data-depth="scan" data-edition-date="${esc(data.date.display)}" data-story-count="${data.stories.length}">`, "body");
 replaceRequired(/<div class="edition-line wrap">[\s\S]*?<\/div>/, `<div class="edition-line wrap"><span>${esc(data.date.display.toUpperCase())}</span><span>DOHA · EDITION ${esc(data.date.edition)}</span><span class="status"><i></i> UPDATED ${esc(data.date.updated)}</span></div>`, "edition line");

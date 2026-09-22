@@ -6,12 +6,12 @@ import { serveFile } from './serve-file.mjs';
 const root = resolve(import.meta.dirname, "..", "public", "edition");
 const port = Number(process.argv[2] || 8790);
 const host = process.argv[3] || "127.0.0.1";
-const types = { ".html": "text/html; charset=utf-8", ".css": "text/css; charset=utf-8", ".js": "text/javascript; charset=utf-8" };
+const types = { ".html": "text/html; charset=utf-8", ".css": "text/css; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".png": "image/png", ".webmanifest": "application/manifest+json" };
 
 createServer(async (request, response) => {
   const pathname = new URL(request.url, `http://${request.headers.host}`).pathname;
   const name = pathname === "/" ? "index.html" : pathname.replace(/^\/edition\//, "").replace(/^\//, "");
-  if (!new Set(["index.html", "styles.css", "app.js", "audio-player.js", "og.png"]).has(name) && !/^audio\/[\w-]+\/[\w-]+\.mp3$/.test(name)) {
+  if (!new Set(["index.html", "styles.css", "app.js", "audio-player.js", "og.png", "manifest.webmanifest", ...[32,180,192,512].map(size => `daymark-icon-${size}-v1.png`)]).has(name) && !/^audio\/[\w-]+\/[\w-]+\.mp3$/.test(name)) {
     response.writeHead(404).end("Not found");
     return;
   }
