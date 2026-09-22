@@ -1,0 +1,339 @@
+{
+  "date": {
+    "display": "Monday, 21 September 2026",
+    "edition": "030",
+    "updated": "8:04 AM"
+  },
+  "worldSentence": "Qatar is answering regional disruption with a new domestic-investment platform and a $60 billion project pipeline, while selective restraint at Bab el-Mandeb, record drone warfare over Moscow, and synchronized monetary tightening show how security shocks are being translated into economic systems.",
+  "standfirst": "Qatar launched Doha Investment to manage QIA's domestic portfolio and announced more than $60 billion of infrastructure, real-estate and hospitality opportunities over five years. Elsewhere, the Houthis offered U.S. shipping a carve-out while continuing pressure on Saudi Arabia; Ukraine mounted the largest reported drone attack on Moscow; Russia's wartime election extended voting into occupied Ukrainian territory; the Fed's first hike since 2023 reinforced a higher-rate regime; the yen weakened after the Bank of Japan raised rates; Washington proposed an AI-incident notification mechanism with China; the U.N. opened a high-level week dominated by wars, climate and AI; and restaurant brands kept crossing the U.S.–China divide despite political tension.",
+  "listenTime": "35 min",
+  "coverage": [
+    { "count": 2, "label": "Qatar & Gulf" },
+    { "count": 4, "label": "World & security" },
+    { "count": 3, "label": "Economy & markets" },
+    { "count": 2, "label": "AI & technology" },
+    { "count": 1, "label": "Consumer & retail" },
+    { "count": 0, "label": "Aviation & tourism" }
+  ],
+  "connected": {
+    "title": "The common move is selective openness: keep capital, trade and information flowing while narrowing the channels judged too risky.",
+    "signals": [
+      { "label": "QATAR PIPELINE", "value": "$60BN+", "text": "Five-year value of announced infrastructure and private-investment opportunities." },
+      { "label": "DRONE WAVE", "value": "1,000+", "text": "Ukrainian drones Russia said were launched in the overnight attack." },
+      { "label": "BOJ RATE", "value": "1.25%", "text": "Japan's highest policy rate in 31 years, despite a weaker yen afterward." }
+    ],
+    "note": "Doha Investment is meant to open more of Qatar's domestic growth to private capital without surrendering strategic direction. The Houthis are distinguishing U.S. vessels from Saudi-linked shipping rather than ending maritime coercion. Washington wants China to share warnings about national-security AI incidents without slowing the technological race. These are not broad settlements. They are attempts to preserve useful exchange inside a more adversarial world. The test in each case is whether the boundary is clear, credible and enforceable."
+  },
+  "stories": [
+    {
+      "id": "qatar-doha-investment-pipeline",
+      "number": "01",
+      "category": "Qatar investment, private capital & diversification",
+      "sourceNote": "QIA / Gulf Times · Sunday",
+      "title": "Qatar launched a new domestic-investment platform and put more than $60 billion of projects into the five-year pipeline.",
+      "changed": "Prime Minister Sheikh Mohammed bin Abdulrahman Al Thani announced Doha Investment, a platform that will manage QIA's domestic portfolio and invest in national champions and priority non-hydrocarbon sectors. QIA says the opening portfolio includes more than 40 companies operating across more than 80 markets. In the same address, the prime minister said Qatar would launch about $38.5 billion of infrastructure projects, including public-private partnerships, and seek $22.5 billion of private investment in real estate and hospitality over five years. Initial infrastructure tenders are intended to begin immediately.",
+      "matters": "This is both an institutional change and a project-market signal. Separating active domestic development into a dedicated platform can make objectives, partnerships and capital allocation more legible than leaving them inside a broad sovereign portfolio. The announced pipeline also gives contractors, lenders, operators and investors a forward map of demand. But the $60 billion figure is opportunity value, not money already awarded or financed. The quality of the shift depends on competitive tenders, genuine private risk-taking, governance and the commercial performance of the resulting assets.",
+      "watch": "The legal and governance structure of Doha Investment; which QIA holdings transfer and at what valuations; the first tenders from the $38.5 billion infrastructure pipeline; the funding mix and risk allocation in public-private partnerships; specific projects within the $22.5 billion real-estate and hospitality program; domestic listings or exits that deepen capital markets; and measurable private-sector participation rather than state-linked recycling of capital.",
+      "personal": false,
+      "lead": true,
+      "group": { "label": "The lead", "title": "Qatar has moved from resilience rhetoric to a named investment vehicle and a quantified pipeline.", "note": "The launch is real; deployment, governance and private additionality are the next evidence layer.", "break": false },
+      "background": {
+        "title": "A domestic portfolio is becoming an active development platform",
+        "text": "QIA's domestic holdings already span companies such as Qatar Airways, QNB, Ooredoo, Qatari Diar, Katara Hospitality and Hassad Food. Doha Investment is intended to manage that portfolio while building new national champions in advanced technology, manufacturing, supply chains and healthcare. This makes the platform more than a passive holding company on paper: it is expected to combine ownership, growth capital and partnerships. The accompanying project pipeline links that institutional mandate to visible investment demand in infrastructure, real estate and hospitality.",
+        "known": "QIA confirms the platform, its domestic mandate, a portfolio of more than 40 companies and priority sectors; the prime minister quantified the five-year opportunity at more than $60 billion.",
+        "new": "Qatar has created a named vehicle for domestic portfolio development and paired it with near-term tendering rather than presenting diversification only as a long-range strategy."
+      },
+      "evidence": {
+        "left": { "label": "Committed architecture", "text": "The platform exists, its mandate and opening portfolio are defined, and the government has attached quantified project categories and an immediate tendering intention." },
+        "right": { "label": "Execution still open", "text": "No complete project list, financing structure, return target, governance framework or awarded-contract schedule has yet been published." }
+      },
+      "sources": [
+        { "label": "QIA · official Doha Investment launch and opening portfolio", "url": "https://www.qia.qa/en/Newsroom/Pages/Qatar-launches-Doha-Investment-to-accelerate-next-phase-of-economic-growth.aspx" },
+        { "label": "Gulf Times · $60bn pipeline, project categories and tender timing", "url": "https://www.gulf-times.com/article/733764/qatar/qatar-unveils-5-year-pipeline-of-60bn-projects-opportunities/amp" }
+      ]
+    },
+    {
+      "id": "houthi-us-shipping-carveout",
+      "number": "02",
+      "category": "Yemen, Saudi Arabia & Bab el-Mandeb",
+      "sourceNote": "AP · Sunday",
+      "title": "The Houthis offered U.S. vessels a carve-out—but kept Saudi shipping and regional partners under threat.",
+      "changed": "Houthi political official Mohamed al-Bukhaiti told AP that the group had assured the Trump administration it would not attack U.S. vessels in the Red Sea and said indirect contacts had taken place through Oman. He simultaneously warned other countries not to join Saudi Arabia in Yemen's revived war and said attacks on the kingdom would continue until Riyadh ended restrictions on Houthi-held areas and allowed vessels into ports under rebel control. The statement followed the intercepted missile aimed at Riyadh and continued attacks on Saudi-linked shipping and oil facilities.",
+      "matters": "This is selective deconfliction, not maritime normalization. A U.S. carve-out could reduce the chance of direct American-Houthi escalation while leaving Saudi vessels, energy infrastructure and any supporting state exposed. It also shows the Houthis trying to separate external actors from Riyadh and turn control near Bab el-Mandeb into negotiating leverage. Shipping markets care about the breadth and credibility of restraint: an assurance covering one flag or one adversary does not restore a common safe corridor.",
+      "watch": "Whether attacks on U.S. or other non-Saudi vessels actually stop; the terms and participants in any Oman-hosted contact; Saudi policy on ports and the blockade; further strikes on Riyadh, Yanbu or Red Sea shipping; countries that respond to the warning; insurance treatment of Saudi-linked versus other traffic; and whether a narrow deconfliction becomes a broader Yemen negotiation.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "Gulf security", "title": "The Red Sea risk map is being divided by affiliation, not cleared.", "note": "The pledge is attributable to a Houthi official; behavior at sea is the verification test.", "break": true },
+      "background": {
+        "title": "A ceasefire with one actor can coexist with coercion against another",
+        "text": "Oman brokered a 2025 arrangement in which U.S. bombing stopped in exchange for an end to Houthi attacks on American vessels. The new comments revive that logic while the Saudi-Houthi conflict is widening. The Houthis have advanced along Yemen's western coast toward Bab el-Mandeb and declared a blockade on Saudi shipping. Their stated demand combines port access and an end to Saudi restrictions with a threat to continue attacks, making commercial navigation part of the bargaining structure.",
+        "known": "A senior Houthi official publicly described indirect U.S. contacts through Oman and a promise not to target U.S. vessels.",
+        "new": "The group is explicitly distinguishing American traffic from Saudi and potentially allied targets while claiming capacity to fight on multiple fronts."
+      },
+      "evidence": {
+        "left": { "label": "Declared restraint", "text": "The Houthi statement identifies a channel, a protected category of shipping and the conditions it says would end attacks on Saudi Arabia." },
+        "right": { "label": "Operational uncertainty", "text": "No public agreement text or independent enforcement mechanism establishes which ships qualify or how mistakes and proxy actions would be handled." }
+      },
+      "sources": [
+        { "label": "AP · Houthi warning, U.S. carve-out and Oman channel", "url": "https://apnews.com/article/yemen-houthis-iran-saudi-arabia-red-sea-93dfe17125c63897b232f6461d81d85c" }
+      ]
+    },
+    {
+      "id": "ukraine-largest-moscow-drone-wave",
+      "number": "03",
+      "category": "Ukraine war & long-range drone escalation",
+      "sourceNote": "AP · Sunday",
+      "title": "Ukraine sent more than 1,000 drones toward Russia in a single night, including Moscow's largest reported attack.",
+      "changed": "Russian officials said Ukraine launched more than 1,000 drones overnight into Sunday. Moscow's mayor said 186 were downed over the city and the regional governor reported 249 destroyed across the wider region. The attack damaged the Moscow Oil Refinery and a residential building; regional authorities said two people were killed and 20 wounded. Ukraine did not publicly confirm every Russian count in AP's account, so the scale and interception totals remain claims from the defending state even though damage was visible.",
+      "matters": "The strike demonstrates how inexpensive, distributed systems can project pressure deep into a large country even when most are intercepted. Targeting a refinery alongside the capital's airspace combines economic disruption, public signaling and an attempt to force Russia to allocate more defenses away from the front. It also increases civilian risk and escalation pressure. The relevant capability is not a single drone's success rate but the attacker's ability to manufacture, coordinate and repeat saturation waves faster than defenses can adapt.",
+      "watch": "Independent confirmation of launch and interception numbers; refinery outage duration and fuel effects; the mix of decoys and strike drones; Russian retaliation; changes to air-defense deployment around Moscow; Ukraine's production rate; whether mass attacks become routine; and whether civilian casualties alter diplomatic support or escalation thresholds.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "The world beyond the lead", "title": "Long-range warfare is shifting from exquisite weapons toward repeatable industrial-scale swarms.", "note": "Russian authorities provide the counts; visible damage confirms penetration, not every claimed launch or interception.", "break": false },
+      "background": {
+        "title": "The air war is expanding as the ground front slows",
+        "text": "Dense drone and robotic surveillance has made troop movement along the roughly 1,250-kilometer front more dangerous. Both sides have responded by striking logistics, energy and urban targets far behind it. Ukraine's domestically produced long-range systems let it reach Russia without relying entirely on donated missiles. Russia still has greater mass and regularly attacks Ukrainian cities, but deep Ukrainian raids impose a defense and political cost inside territory the Kremlin presents as secure.",
+        "known": "Damage occurred at the Moscow Oil Refinery and a residential building, and Russian regional authorities reported deaths, injuries and evacuations.",
+        "new": "The reported wave crossed the thousand-drone threshold and Moscow's mayor described the capital component as the largest yet."
+      },
+      "evidence": {
+        "left": { "label": "Visible consequence", "text": "Images and official reporting show fire at the refinery, residential damage and casualties in the Moscow region." },
+        "right": { "label": "Contested scale", "text": "Launch and interception totals come primarily from Russian officials and are not a complete independently audited battle record." }
+      },
+      "sources": [
+        { "label": "AP · reported drone totals, Moscow damage and strategic context", "url": "https://apnews.com/article/ukraine-russia-war-drones-moscow-5f7889d027c0247ca2c2c64425b9ffa9" }
+      ]
+    },
+    {
+      "id": "russia-wartime-election-occupied-territories",
+      "number": "04",
+      "category": "Russia, wartime rule & occupied Ukraine",
+      "sourceNote": "AP · Monday",
+      "title": "Russia's first wartime parliamentary election folded occupied Ukrainian regions into a tightly controlled vote.",
+      "changed": "Early official returns showed United Russia near 58% of the party-list vote with about 58% of precincts counted, putting the Kremlin's party on course to retain dominance. The election was conducted with meaningful opposition largely absent and included Crimea plus four Ukrainian regions that Moscow claims to have annexed but does not fully control. Kyiv rejected voting there as illegal, and the European Union called the extension of the election into occupied territory a violation of international law.",
+      "matters": "The result is less an uncertain electoral contest than an institutional claim about sovereignty and permanence. By assigning representation to occupied areas, Moscow is embedding territorial annexation inside its domestic political system even while control remains incomplete and internationally rejected. That can make future negotiation harder because compromise would collide not only with battlefield narratives but with seats, laws and constituencies the Kremlin has formally treated as Russian.",
+      "watch": "Final seat distribution and turnout; credible evidence of coercion or manipulation; the treatment of votes from occupied territories; new legislation presented as a mandate; elite or public reaction to the war; international sanctions or recognition measures; and whether battlefield or economic pressure creates any visible dissent inside the governing coalition.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "Political systems", "title": "The ballot is being used to harden a territorial claim that the battlefield has not settled.", "note": "Official returns describe the result; the competitive quality and occupied-territory voting are the legitimacy questions.", "break": false },
+      "background": {
+        "title": "An election can consolidate power without creating uncertainty about who wins",
+        "text": "United Russia already dominates the State Duma, and repression, exclusions and media control have narrowed organized opposition. The wartime vote matters because it refreshes the formal mandate of the legislature and integrates claimed Ukrainian regions into that process. Residents in Donetsk, Luhansk, Kherson and Zaporizhzhia were included even though Russia does not fully control those territories; Crimea, annexed in 2014, was included as well.",
+        "known": "Voting ended Sunday, early official returns favored United Russia decisively, and ballots were organized in internationally disputed occupied territories.",
+        "new": "This is the first national parliamentary vote of the full-scale war and the first to treat the four 2022 annexation claims as electoral constituencies."
+      },
+      "evidence": {
+        "left": { "label": "Official outcome", "text": "The Central Election Commission's early count points to continued United Russia control." },
+        "right": { "label": "Legitimacy constraint", "text": "Opposition was heavily restricted, and voting in occupied Ukrainian territory is rejected by Kyiv and the European Union." }
+      },
+      "sources": [
+        { "label": "AP · early results, political controls and occupied-region voting", "url": "https://apnews.com/article/russia-election-parliament-duma-putin-ukraine-6f3df3716cbcf8c96711b688762b450b" }
+      ]
+    },
+    {
+      "id": "fed-higher-rate-regime",
+      "number": "05",
+      "category": "United States monetary policy & capital costs",
+      "sourceNote": "AP · Sunday",
+      "title": "The Fed's first hike since 2023 looks less like a one-meeting reversal than evidence of a structurally higher cost of capital.",
+      "changed": "The Federal Reserve raised its benchmark range by a quarter point to 3.75%–4.00%, its first increase in three years, as inflation remained persistent and growth held up despite repeated shocks. AP's new analysis argues that forces outside the policy rate are also keeping long-term borrowing costs elevated: strong consumer and business demand, oil disruption from the Iran war, large federal deficits and heavy data-center borrowing. The average U.S. 30-year mortgage rate reached 6.95% last week.",
+      "matters": "The investment implication is broader than the next Fed meeting. If fiscal borrowing, energy scarcity and AI infrastructure demand keep competing for capital, long-duration assets and leveraged business models face a tougher hurdle even after inflation eventually eases. Healthy growth can support earnings, but it also reduces the pressure for quick cuts. The low-rate decade after the global financial crisis should not be treated as the automatic baseline to which markets return.",
+      "watch": "October rate expectations; labor-market data; core inflation and energy pass-through; Treasury term premia; data-center bond issuance; mortgage rates; fiscal financing needs; whether supply constraints ease; and signs that higher borrowing costs finally weaken consumption or business investment enough to change the Fed's path.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "Economy and markets", "title": "Policy is tightening inside an economy where private and public borrowers already compete heavily for capital.", "note": "The rate increase is confirmed; the claim that a durable regime shift is underway remains an evidence-based interpretation.", "break": true },
+      "background": {
+        "title": "The neutral backdrop has changed",
+        "text": "After 2008, weak demand, low inflation and abundant global savings supported very low borrowing costs. The current mix is different: fiscal deficits remain large, households and businesses are spending, oil supply is disrupted and technology firms are financing a rapid physical buildout of data centers, power and chips. A central bank can influence the short rate, but it cannot by itself remove those competing claims on savings or repair supply bottlenecks.",
+        "known": "The Fed raised rates to 3.75%–4.00%, inflation remains above comfort, growth is resilient and long-term household borrowing costs have risen.",
+        "new": "The first hike since 2023 is being interpreted alongside structural demand for capital rather than as a short-lived policy detour."
+      },
+      "evidence": {
+        "left": { "label": "Current pressure", "text": "The policy hike, persistent inflation, resilient demand and a 6.95% mortgage rate all point in the same direction." },
+        "right": { "label": "Regime not proven", "text": "A recession, energy normalization, fiscal change or productivity gains could still lower equilibrium borrowing costs." }
+      },
+      "sources": [
+        { "label": "AP · Fed hike and the case for a higher-rate environment", "url": "https://apnews.com/article/federal-reserve-interest-rates-inflation-a633de46f84a3487f3bdc03f788188fa" }
+      ]
+    },
+    {
+      "id": "yen-boj-intervention-watch",
+      "number": "06",
+      "category": "Japan, currencies & central-bank signaling",
+      "sourceNote": "Reuters · Monday",
+      "title": "Japan raised rates to a 31-year high and the yen weakened anyway, putting intervention back on watch.",
+      "changed": "The Bank of Japan lifted its policy rate to 1.25% on Friday, the highest in 31 years, but two dissenting votes and the absence of an explicitly hawkish path disappointed currency markets. The yen lost about 2% last week and traded near 156.64 per dollar on Monday. Nikkei reported that Japanese officials conducted rate checks—requests for bank quotes that traders often read as preparation for direct currency intervention—while thin holiday liquidity amplified attention to the move.",
+      "matters": "A rate rise does not support a currency if markets believe other central banks will tighten faster or the domestic path lacks conviction. Yen weakness raises imported energy and food costs, especially during a Middle East supply shock, but faster tightening can damage indebted households, firms and government finances. Intervention can interrupt momentum; it rarely changes a durable interest-rate differential without supporting policy and credible guidance.",
+      "watch": "Confirmation of official rate checks or intervention; yen moves around 160 per dollar; the Bank of Japan's next guidance; wage and inflation data; the Fed's October decision; Japanese bond yields; energy import costs; repatriation by domestic investors; and whether intervention is coordinated with the United States or conducted unilaterally.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "Currency signal", "title": "The direction of a rate move mattered less than the credibility of what comes next.", "note": "The rate and market move are observed; reported rate checks are a warning signal, not proof that intervention occurred.", "break": false },
+      "background": {
+        "title": "Japan is tightening into a world that is tightening too",
+        "text": "The yen had strengthened earlier in September as investors anticipated faster Japanese normalization and capital returning home. The Bank of Japan did raise rates, but the Federal Reserve and European Central Bank also tightened and warned that the energy shock could require more. Currency values respond to relative paths. A cautious Japanese signal can therefore weaken the yen even when the headline rate moves upward.",
+        "known": "The Bank of Japan raised its policy rate to 1.25%, the yen fell roughly 2% over the week and officials were reported to have requested market quotes.",
+        "new": "The post-hike decline exposed a communication gap and renewed speculation that the finance ministry may defend the currency directly."
+      },
+      "evidence": {
+        "left": { "label": "Market fact", "text": "The yen weakened after a widely expected hike while the dollar strengthened on a more hawkish Fed path." },
+        "right": { "label": "Policy inference", "text": "A rate check is commonly associated with intervention preparation but does not guarantee that currency sales or purchases follow." }
+      },
+      "sources": [
+        { "label": "Reuters via MarketScreener · yen move, BOJ decision and intervention watch", "url": "https://ca.marketscreener.com/news/volatile-yen-draws-intervention-watch-other-currencies-subdued-ce785adbd989f624" }
+      ]
+    },
+    {
+      "id": "us-china-ai-incident-notification",
+      "number": "07",
+      "category": "United States, China & AI risk governance",
+      "sourceNote": "AP · Sunday",
+      "title": "Washington proposed an AI-incident notification channel with China without asking either side to slow the race.",
+      "changed": "Treasury Secretary Scott Bessent said the United States proposed a notification mechanism for artificial-intelligence incidents that could affect national security during talks with Chinese Vice Premier He Lifeng. He framed the proposal as a move from opacity toward transparency between the world's two leading AI powers. The sides also agreed to operationalize a Board of Trade discussed in May and continued negotiating lower tariffs on selected nonsensitive goods ahead of Thursday's Trump–Xi meeting.",
+      "matters": "An incident channel is a modest but concrete form of risk reduction. Nuclear and military hotlines do not end rivalry; they create a way to clarify dangerous events before uncertainty drives escalation. AI systems could produce cyber incidents, model theft, autonomous behavior or false warning signals whose origin and intent are difficult to establish quickly. A channel could help if both states define reportable events, share enough evidence and trust that disclosure will not simply reveal vulnerabilities.",
+      "watch": "Whether Xi and Trump endorse the mechanism; its scope, thresholds and contact points; whether private labs are included; rules for cyber events and model compromise; verification and confidentiality; the operating details of the Board of Trade; tariff reductions on nonsensitive goods; and any separation between safety communication and export-control disputes.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "AI and technology", "title": "The two powers are exploring a hotline logic for AI while continuing to compete at full speed.", "note": "A U.S. proposal is confirmed; Chinese acceptance, operational rules and actual reporting behavior are not.", "break": true },
+      "background": {
+        "title": "Transparency can reduce accident risk without resolving strategic conflict",
+        "text": "The United States and China remain divided over chips, models, trade and military technology. The Trump administration has also rejected a general slowdown in AI development. That makes the proposal narrow by design: it does not ask either side to sacrifice capability, only to communicate when an incident could threaten national security. Similar mechanisms work only when definitions and escalation procedures are agreed before a crisis.",
+        "known": "Bessent publicly described the proposal after talks with He Lifeng, and the two governments are preparing for a leaders' meeting on Thursday.",
+        "new": "AI risk communication has moved from broad shared concern to a proposed bilateral notification mechanism."
+      },
+      "evidence": {
+        "left": { "label": "Diplomatic movement", "text": "The proposal was raised in senior talks and publicly tied to national-security incidents and greater transparency." },
+        "right": { "label": "Mechanism undefined", "text": "No agreed text, reporting threshold, verification process or Chinese commitment has been released." }
+      },
+      "sources": [
+        { "label": "AP · U.S. AI notification proposal and trade-talk context", "url": "https://apnews.com/article/bessent-ai-xi-trump-china-trade-2c7f54f07e755f506d9db9b91df282bd" }
+      ]
+    },
+    {
+      "id": "unga81-crisis-capacity-test",
+      "number": "08",
+      "category": "United Nations, war diplomacy & institutional reform",
+      "sourceNote": "AP / UN · Monday",
+      "title": "The U.N.'s high-level week opened with six major wars, climate overshoot and AI risk competing for an institution short on enforcement power.",
+      "changed": "High-level week at the 81st U.N. General Assembly began in New York, with about 130 heads of state or government expected to speak from Tuesday. The agenda concentrates wars in Iran, Gaza, Ukraine, Sudan, Congo and Myanmar alongside rising prices, blocked shipping routes, climate shocks and concerns over advanced AI. A separate U.N. climate summit on Wednesday is explicitly framed around an era in which overshooting 1.5 degrees Celsius is considered inevitable. Member states have endorsed a broad reform package, but Security Council structure and veto power remain unchanged.",
+      "matters": "The gathering is still the only venue where nearly every government can meet in the same week, which makes bilateral and small-group diplomacy more important than the speeches alone. Yet the concentration of crises exposes the gap between convening power and enforcement capacity. Outcomes should be judged by specific ceasefire channels, financing commitments, monitoring arrangements and institutional changes—not by the number of leaders who describe the same problems.",
+      "watch": "Trump and Macron's Tuesday speeches; Zelenskyy and Pezeshkian on Wednesday; Qatar's mediation meetings; any Iran-war or Yemen contact group; climate-finance commitments; language on AI governance; Security Council reform proposals; succession discussions for the secretary-general; and whether private meetings produce written mechanisms or only declarations.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "Diplomacy", "title": "The U.N. remains the world's meeting room even when it cannot act as the world's executive.", "note": "The attendance and agenda are known; useful outcomes will emerge from concrete side agreements and follow-through.", "break": false },
+      "background": {
+        "title": "Convening is a capability, but not the same capability as enforcement",
+        "text": "The General Assembly gives all 193 members a forum, while the Security Council can authorize binding measures but remains constrained by vetoes held by five powers from the post-1945 settlement. That division matters when several permanent members are directly involved in current conflicts. High-level week therefore works through layers: public speeches set positions, bilateral meetings test bargains and specialized summits assemble finance or technical coalitions outside the blocked core.",
+        "known": "High-level week has begun, the general debate starts Tuesday, about 130 national leaders are expected and the climate summit is scheduled for Wednesday.",
+        "new": "This year's agenda explicitly brings AI risk and inevitable climate overshoot into the same diplomatic week as multiple active wars and a leadership succession."
+      },
+      "evidence": {
+        "left": { "label": "Unique reach", "text": "No other institution routinely places nearly all governments, major financial actors and multilateral agencies in one diplomatic calendar." },
+        "right": { "label": "Persistent constraint", "text": "Agreement on broad reform has not changed veto power, stopped the wars or supplied reliable financing for every stated priority." }
+      },
+      "sources": [
+        { "label": "AP · UNGA agenda, attendance and institutional constraints", "url": "https://apnews.com/article/un-assembly-leaders-ai-trump-netanyahu-climate-c4727651b9030d6e7f81c0457a33440b" },
+        { "label": "United Nations · 2026 climate summit program and overshoot framing", "url": "https://www.un.org/en/climatechange/climate-summit-2026" }
+      ]
+    },
+    {
+      "id": "us-china-fast-food-crossing",
+      "number": "09",
+      "category": "Restaurants, consumer brands & cross-border expansion",
+      "sourceNote": "AP · Sunday",
+      "title": "Restaurant brands are crossing the U.S.–China divide in both directions—and the operating models are not symmetric.",
+      "changed": "American chains are accelerating expansion in China while Chinese beverage and fast-food brands test the United States. Church's Texas Chicken plans at least 600 more Chinese stores, Wendy's is targeting 1,000 over a decade and McDonald's expects 10,000 in China by 2028. In the other direction, Mixue opened its first three U.S. stores in December and has announced at least two dozen more; Heytea has 40 U.S. locations and Luckin Coffee has 20 in New York. Several Chinese entrants compete through low prices and snack or beverage formats.",
+      "matters": "Political tension does not erase consumer demand, but it changes how expansion is structured. U.S. brands often rely on Chinese partners for property knowledge, capital and execution, then localize menus while preserving recognizable signatures. Chinese brands entering America bring dense-store economics, supply discipline and value pricing but face unfamiliar labor, real-estate, data and political risks. Store announcements show ambition; repeat traffic, unit economics and franchisee health will show whether the models travel.",
+      "watch": "Same-store sales rather than opening counts; local partnership structures; menu adaptation; price gaps against domestic competitors; store-level labor and occupancy costs; supply-chain localization; customer-data scrutiny; tariff exposure; franchisee returns; and whether novelty converts into sustained frequency after launch queues disappear.",
+      "personal": false,
+      "lead": false,
+      "group": { "label": "Consumer and restaurants", "title": "Brands cross borders by translating economics and habits, not by exporting a menu unchanged.", "note": "Expansion targets are company plans; long-term U.S. performance for the Chinese entrants remains largely unproven.", "break": true },
+      "background": {
+        "title": "Each market offers scale for a different reason",
+        "text": "China offers population density and underpenetrated inland cities, but weak consumer spending and intense competition make local execution difficult. The United States is smaller by population yet accounts for roughly one-third of global restaurant revenue, making it attractive even to brands with enormous Asian networks. American entrants can trade on familiarity and perceived premium quality; Chinese entrants often arrive with faster buildout systems and sharper value pricing.",
+        "known": "Large U.S. chains have published aggressive China targets, and multiple Chinese brands have opened or announced U.S. locations.",
+        "new": "The cross-border restaurant flow is now visibly two-way, with Chinese chains testing whether operating advantages developed at home can survive U.S. costs and regulation."
+      },
+      "evidence": {
+        "left": { "label": "Real expansion", "text": "Brands on both sides have operating stores, disclosed counts and identifiable pipelines rather than only licensing announcements." },
+        "right": { "label": "Economics not established", "text": "Opening plans do not disclose mature store margins, repeat rates or the cost of adapting supply chains and compliance." }
+      },
+      "sources": [
+        { "label": "AP · U.S. chains in China and Chinese chains entering America", "url": "https://apnews.com/article/9bd3cf5e539f51791d346b97432293ba" }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Qatar cruise tourism",
+      "title": "Qatar Tourism and Old Doha Port met major cruise operators to build future Gulf itineraries.",
+      "text": "The meetings included Carnival Maritime, AROYA, MSC, Celestyal and Aman at Sea. They indicate commercial outreach, not confirmed calls. Watch signed itineraries, turnaround volumes, passenger stays and shore-spend conversion.",
+      "url": "https://www.gulf-times.com/article/733769/qatar/qatar-tourism-and-old-doha-port-expand-global-cruise-ties"
+    },
+    {
+      "label": "Qatar property",
+      "title": "August recorded QR1.29bn of property sales—but mortgage value was concentrated.",
+      "text": "QNA reported 424 sales and QR4.01bn of mortgage transactions. The ten largest mortgages represented 89% of mortgage value, so headline financing volume should not be mistaken for broad-based depth.",
+      "url": "https://qna.org.qa/en/news/news-details?date=20%2F09%2F2026&id=qatars-real-estate-transactions-reach-qr129-billion-in-august"
+    },
+    {
+      "label": "China trade",
+      "title": "The Trump–Xi summit now has an operational trade board and a possible list of lower-tariff goods to work from.",
+      "text": "Officials named consumer and agricultural goods, energy products and medical devices as possible nonsensitive categories. Watch the written list and enforcement rules after Thursday's meeting.",
+      "url": "https://apnews.com/article/bessent-ai-xi-trump-china-trade-2c7f54f07e755f506d9db9b91df282bd"
+    }
+  ],
+  "attention": {
+    "title": "QIA's Doha Investment launch statement",
+    "text": "Open it because it defines the new platform's actual portfolio, market reach and priority sectors—the institutional facts that matter more than the headline pipeline alone.",
+    "url": "https://www.qia.qa/en/Newsroom/Pages/Qatar-launches-Doha-Investment-to-accelerate-next-phase-of-economic-growth.aspx"
+  },
+  "ignore": {
+    "title": "Treating Qatar's $60bn pipeline as $60bn already spent",
+    "text": "It is a five-year opportunity set spanning public projects and expected private investment. Tender awards, financing, additional private capital and delivered assets are the useful measures."
+  },
+  "history": {
+    "id": "history-tambora-year-without-summer",
+    "number": "10",
+    "readTime": "7 min read",
+    "era": "A VOLCANO WITHOUT BORDERS\n1812–1818",
+    "title": "Tambora erupted in Indonesia. A year later, harvests failed across the Northern Hemisphere.",
+    "deck": "On 10 April 1815, Mount Tambora on the island of Sumbawa produced the largest observed eruption in recorded history. Pyroclastic flows destroyed communities close to the volcano; ash darkened the region; hunger and disease multiplied the immediate death toll. The farther-reaching mechanism was harder for contemporaries to see. Sulfur injected high into the atmosphere formed reflective aerosols that reduced incoming sunlight and disturbed climate far beyond Southeast Asia. In 1816, cold, rain and summer frost damaged crops across parts of Europe and North America. Food prices rose, migration accelerated and disease spread through already vulnerable populations emerging from the Napoleonic Wars. The episode became known as the Year Without a Summer. Tambora did not cause every hardship of 1816: climate was already cool, impacts varied by region and social conditions determined who suffered most. Its importance lies in the chain it revealed. A local geological event can become an atmospheric shock, then an agricultural shortage, then a price and public-health crisis. People experienced the consequences long before science could connect the system end to end.",
+    "thesis": "Tambora's global consequence came not from the ash people could see, but from sulfur aerosols high in the stratosphere interacting with vulnerable food and social systems.",
+    "sections": [
+      { "title": "The mountain warned for years, then removed its own summit", "text": "Tambora had shown unrest from about 1812. A moderate eruption on 5 April 1815 was heard at great distance and was initially mistaken in some places for cannon fire. The much larger explosions came on 10 and 11 April. Eruption columns rose high above Sumbawa, pyroclastic flows swept down the slopes and reached the sea, and the collapse of the summit formed a vast caldera. USGS estimates indicate roughly 50 cubic kilometers of magma in dense-rock equivalent; other measures put the volume of fragmented material much higher. The event rates 7 on the eight-point Volcanic Explosivity Index." },
+      { "title": "The first catastrophe was local and immediate", "text": "Villages near the volcano were destroyed by hot flows, falling material and tsunamis. Ash ruined crops, contaminated water and killed livestock across neighboring islands. The eruption's direct violence was followed by famine and disease as transport and food systems failed. Modern death estimates vary because records were incomplete and later mortality is difficult to attribute precisely. The uncertainty should not hide the structure of the disaster: many people survived the explosion only to enter an economy in which food, clean water and exchange had collapsed." },
+      { "title": "Ash fell out; sulfur stayed high enough to change the climate", "text": "The common image is a cloud of ash blocking the sun. Large ash particles usually settle within days or weeks and mainly drive local and regional effects. Tambora also released an enormous mass of sulfur gases into the stratosphere. There, sulfur dioxide reacted to form sulfate aerosols: tiny reflective droplets that could spread around the planet and persist far longer. By returning part of the sun's energy to space, the aerosol veil cooled the surface and altered circulation and rainfall patterns. The invisible chemistry mattered more globally than the visible dust." },
+      { "title": "1816 became the Year Without a Summer, but not everywhere in the same way", "text": "Tree-ring evidence places 1816 among the coldest Northern Hemisphere summers in centuries. New England suffered repeated frosts, including during months normally safe for crops. Much of Europe experienced an abnormally cold, wet growing season. Harvest failure raised grain prices and killed livestock. Effects were uneven, and the Southern Hemisphere record is less clear. Researchers also warn that Tambora amplified an already cool period rather than creating every anomaly by itself. A global forcing produced regional weather, filtered through geography and existing climate conditions." },
+      { "title": "A weather shock became a food-price shock", "text": "Nineteenth-century food systems had little storage, weak transport and limited fiscal capacity compared with modern states. When harvests failed across several producing regions, consumers could not easily substitute supply from an unaffected continent. Grain and bread prices rose sharply. Riots broke out in parts of Europe, and rural households sold assets or moved. In New England, repeated crop failure contributed to migration toward lands farther west and south. The social consequence was shaped not only by temperature but by who had reserves, market access and political protection." },
+      { "title": "Malnutrition gave disease a larger field", "text": "Hunger weakens immune systems and sends people onto roads, into crowded relief settings and across borders. Typhus and dysentery spread through parts of Europe after the harvest crisis. Ireland suffered severe mortality. Causation becomes difficult at this stage: war damage, poverty, sanitation and pre-existing disease all mattered. Tambora was not a single-cause explanation. It was an upstream shock that intensified several already dangerous conditions at once, which is why mortality far from the volcano cannot be reduced to one neat number." },
+      { "title": "Culture recorded the weather before science explained it", "text": "Dark skies and persistent rain shaped the summer that Mary Shelley, Percy Shelley and Lord Byron spent near Lake Geneva. Their indoor storytelling became part of the origin of Frankenstein, the episode's most famous cultural afterlife. Paintings and diaries also preserved unusual light and weather. Yet Europeans did not possess the atmospheric observations needed to connect a distant Indonesian eruption to their failed harvests with confidence. The experience was global before the explanation was." },
+      { "title": "The durable lesson is about chains, not analogies", "text": "Tambora is often invoked whenever a modern volcano erupts, but eruptions differ in sulfur content, altitude, latitude and scale. A repeat of the 1815 event is rare. The useful model is the transmission chain: hazard, atmospheric mechanism, regional climate, crop response, price, migration and health. Resilience can be added at every link through monitoring, diversified supply, trade routes, reserves, income support and public health. The event matters because it showed that distance does not insulate a society from a shock carried by a planetary system." }
+    ],
+    "timeline": [
+      { "date": "1812", "text": "Tambora begins several years of visible unrest after a long quiet period." },
+      { "date": "5 Apr 1815", "text": "A major preliminary eruption sends ash eastward and explosions are heard hundreds of kilometers away." },
+      { "date": "10–11 Apr", "text": "The climactic eruption produces pyroclastic flows, tsunamis and collapse of the summit caldera." },
+      { "date": "Mid–1815", "text": "Ash, crop loss, hunger and disease deepen the catastrophe across Sumbawa and nearby islands." },
+      { "date": "1816", "text": "Cold, rain and summer frost damage harvests in parts of Europe and North America." },
+      { "date": "1816–17", "text": "Food prices, unrest, migration and disease turn a climate anomaly into a social crisis." },
+      { "date": "1818", "text": "Weather and harvest conditions broadly recover, though communities continue absorbing the losses." },
+      { "date": "20th century", "text": "Ice cores, tree rings and atmospheric science establish the eruption-to-climate mechanism more clearly." }
+    ],
+    "sources": [
+      { "label": "USGS · eruption sequence, magnitude and global effects", "url": "https://www.usgs.gov/observatories/hvo/news/volcano-watch-infamous-mount-tambora-rumbling-again" },
+      { "label": "USGS · geological history and 1815 eruption volume", "url": "https://pubs.usgs.gov/bul/1855/report.pdf" },
+      { "label": "NASA Earth Observatory · recorded-history scale and global cooling", "url": "https://science.nasa.gov/earth/earth-observatory/mount-tambora-volcano-sumbawa-island-indonesia-39412/" },
+      { "label": "Smithsonian National Museum of Natural History · volcanic mechanism and historical comparison", "url": "https://naturalhistory.si.edu/education/teaching-resources/earth-science/when-volcanoes-erupt" },
+      { "label": "Smithsonian · famine, disease and the attribution caveat", "url": "https://www.smithsonianmag.com/history/blast-from-the-past-65102374/" },
+      { "label": "U.S. National Weather Service · why sulfate aerosols, not ash alone, cool the planet", "url": "https://www.weather.gov/media/aly/stormbuster/Fall13SB.pdf" }
+    ]
+  },
+  "threads": [
+    { "status": "New today · institutional launch", "title": "Qatar domestic-capital architecture", "text": "Doha Investment · 40+ companies · $60bn+ five-year opportunity", "progress": 72 },
+    { "status": "Updated today · selective deconfliction", "title": "Red Sea and Yemen escalation", "text": "U.S. vessel carve-out · Saudi pressure continues · Oman channel", "progress": 93 },
+    { "status": "Updated today · saturation warfare", "title": "Ukraine long-range strike capacity", "text": "1,000+ drones claimed · Moscow refinery hit · repeatability next", "progress": 91 },
+    { "status": "Updated today · political consolidation", "title": "Russia's wartime state", "text": "United Russia dominant · occupied regions included · legitimacy contested", "progress": 96 },
+    { "status": "Updated today · capital repricing", "title": "Higher-rate global regime", "text": "Fed hikes · BOJ at 1.25% · yen still weak", "progress": 86 },
+    { "status": "New today · proposed mechanism", "title": "U.S.–China AI guardrails", "text": "Incident notification proposed · summit Thursday · rules undefined", "progress": 61 }
+  ]
+}
