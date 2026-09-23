@@ -1,12 +1,12 @@
 {
   "date": {
-    "display": "Tuesday, 22 September 2026",
-    "edition": "031",
-    "updated": "8:12 AM"
+    "display": "Wednesday, 23 September 2026",
+    "edition": "032",
+    "updated": "7:25 AM"
   },
-  "worldSentence": "Qatar rejected a pipeline escape from Hormuz for its LNG, while Britain entered Saudi air-defense support, Europe searched farther for jet fuel, and policymakers confronted the cost of repeated shocks.",
-  "standfirst": "QatarEnergy says a Hormuz bypass is uneconomic and two damaged LNG trains may need three years of repairs. Britain will refuel Saudi aircraft for weeks as Houthi attacks continue. Russian strikes followed Ukraine’s large drone wave, U.S.–China trade pledges remain partly unimplemented, and Fed officials are more openly debating the employment cost of persistent inflation. Separate air-traffic failures disrupted the U.K. and U.S.; a 60-member coalition promised better AI access in underrepresented languages; and Europe’s jet-fuel supply gap is forcing longer import routes.",
-  "listenTime": "33 min",
+  "worldSentence": "U.S. and Iranian representatives finally met after months of war, but the gulf between contact and settlement remains large as energy, inflation, food and infrastructure risks keep spreading through the global economy.",
+  "standfirst": "Donald Trump said his envoys held a three-hour meeting with Iranian mediators after he threatened Iran from the U.N. podium; Qatar’s Amir argued that the region needs a collective-security system, not another temporary pause. Russia and Ukraine escalated their air campaigns around a Trump–Zelenskyy meeting. The EU and Philippines moved closer to a trade pact, central-bank tightening supported the dollar even as oil eased on diplomacy hopes, and an extreme El Niño raised new food-price risks. Alibaba unveiled a new AI chip and much larger model plans; luxury executives described a worsening value problem; and the U.S. aviation outage left a concrete bill for resilience.",
+  "listenTime": "35 min",
   "coverage": [
     {
       "count": 1,
@@ -25,525 +25,533 @@
       "label": "AI & technology"
     },
     {
-      "count": 0,
+      "count": 1,
       "label": "Consumer & retail"
     },
     {
-      "count": 2,
+      "count": 1,
       "label": "Aviation & tourism"
     }
   ],
   "connected": {
-    "title": "The recurring constraint is resilience that costs money and requires working infrastructure.",
+    "title": "Today’s announcements all need an operating test.",
     "signals": [
       {
-        "label": "LNG REPAIR",
-        "value": "3 YEARS",
-        "text": "QatarEnergy chief’s estimate for two damaged Ras Laffan LNG trains."
+        "label": "IRAN TALKS",
+        "value": "3 HOURS",
+        "text": "Trump’s description of the first reported direct contact, without published terms."
       },
       {
-        "label": "JET FUEL GAP",
-        "value": "510K BPD",
-        "text": "Analyst forecast of Europe’s fourth-quarter jet-fuel deficit."
+        "label": "AI PLAN",
+        "value": "5–10TN",
+        "text": "Alibaba’s target parameter range for a future model, not a capability result."
       },
       {
-        "label": "AI LANGUAGES",
-        "value": "3.4BN",
-        "text": "Estimated people represented by the coalition’s five-year access goal."
+        "label": "FAA ASK",
+        "value": "$20BN",
+        "text": "Additional U.S. funding sought after primary and backup communications failed."
       }
     ],
-    "note": "A gas pipeline cannot simply move finished LNG around a closed strait. Europe can source jet fuel from farther away, but longer routes do not erase a regional deficit. Air-traffic systems can recover from a cut line, yet passengers absorb the cascading delay. In each case a backup is only real when its economics, capacity and operational tests work under stress."
+    "note": "A meeting is not a peace agreement, substantial trade alignment is not a ratified tariff schedule, a larger model is not proven performance, and a backup is not resilient if it shares the same failure path. Across diplomacy, trade, technology and aviation, the useful question is what works under real conditions—not what has been announced."
   },
   "stories": [
     {
-      "id": "qatar-lng-hormuz-no-pipeline",
+      "id": "us-iran-talks-qatar-security",
       "number": "01",
-      "category": "Qatar energy, LNG & Hormuz",
-      "sourceNote": "QNA · Monday",
-      "title": "Qatar ruled out a pipeline bypass for LNG and disclosed years of repair work at Ras Laffan.",
-      "changed": "QatarEnergy chief Saad Al Kaabi said Qatar has decided against piping gas around the Strait of Hormuz and building replacement liquefaction at a receiving terminal, on commercial and technical grounds. He said attacks damaged two LNG trains and a gas-to-liquids plant at Ras Laffan. The GTL repair is expected in the first quarter of 2027; the LNG train repairs could take three years. He said normal operations could resume within weeks of Hormuz reopening, while the first Golden Pass LNG train in the United States has begun shipments.",
-      "matters": "This separates two constraints that can be confused: passage through Hormuz and damage to production assets. A reopened strait may restore some exports quickly, but it cannot immediately replace capacity from damaged trains. The bypass decision also limits an appealing but expensive resilience option. For customers, counterparties and Qatar’s fiscal outlook, shipment timing depends on both maritime access and plant restoration, not only a ceasefire headline.",
-      "watch": "A durable Hormuz reopening; actual cargo and production volumes; independent detail on the damaged trains; repair milestones and contract treatment; Golden Pass ramp-up; and whether QatarEnergy proposes another export-resilience route.",
+      "category": "Qatar diplomacy, Iran & Hormuz",
+      "sourceNote": "AP · Tuesday night · QNA",
+      "title": "U.S. and Iranian representatives met for three hours, while Qatar argued that a settlement needs a regional security structure.",
+      "changed": "President Donald Trump said envoys Steve Witkoff and Jared Kushner held a three-hour meeting with Iranian mediators on Tuesday and called it productive, but he published no terms. The contact followed his U.N. threat to annihilate Iran if no deal is reached. At the same gathering, Qatar’s Amir said reopening the Strait of Hormuz and returning to negotiations could end the crisis, but argued that the deeper regional failure is the absence of a collective-security system respecting sovereignty and non-interference.",
+      "matters": "Direct contact is more consequential than another prediction that a deal is close, yet the public evidence still shows process rather than settlement. Hormuz, attacks on Gulf infrastructure and the war’s energy shock cannot be stabilized by a private meeting alone. Qatar’s proposal shifts the frame from a bilateral U.S.–Iran bargain toward rules that neighboring states would have to accept and enforce. That is a larger diplomatic project—and a harder one.",
+      "watch": "Whether Iranian officials confirm the meeting; any written ceasefire sequence; terms for reopening Hormuz; verification and sanctions arrangements; attacks on Gulf states and shipping; and whether GCC and Iranian officials engage Qatar’s collective-security proposal.",
       "personal": false,
       "lead": true,
       "group": {
         "label": "The lead",
-        "title": "Qatar has drawn a practical limit around its LNG resilience options.",
-        "note": "The minister made a public decision statement and gave distinct repair estimates.",
+        "title": "Contact has resumed, but no settlement has been demonstrated.",
+        "note": "Trump reported a three-hour meeting; Qatar set out a wider regional framework.",
         "break": false
       },
       "background": {
-        "title": "Two different bottlenecks",
-        "text": "A pipeline can move natural gas, but LNG is a cryogenic liquid made in a liquefaction plant. Routing gas overland to avoid the strait would require costly new liquefaction capacity at the far end, effectively duplicating part of Qatar’s North Field investment. Al Kaabi rejected that option while describing damage to two existing LNG trains. His estimate of weeks to restart normal operations after the strait opens refers to operations that can run; the three-year repair estimate is a separate constraint on lost train capacity.",
-        "known": "The minister made a public decision statement and gave distinct repair estimates.",
-        "new": "The bypass has been explicitly rejected and the extent of longer-lived plant damage was quantified."
+        "title": "A negotiation has at least three layers",
+        "text": "The immediate layer is stopping attacks and restoring safe passage through Hormuz. A second layer covers the U.S.–Iran dispute itself: military pressure, sanctions, security guarantees and whatever verification a deal requires. Qatar’s Amir added a third layer—regional rules intended to prevent one confrontation from pulling neighboring states and their infrastructure into war. Tuesday produced evidence of contact and a public architecture for diplomacy. It did not produce a ceasefire, signed terms or a reopening schedule.",
+        "known": "Trump said his envoys met Iranian mediators for three hours; Qatar’s Amir publicly called for negotiations and collective security.",
+        "new": "The first reported direct contact followed the U.N. speeches, while Qatar specified the institutional gap it wants addressed."
       },
       "evidence": {
         "left": {
-          "label": "Confirmed statement",
-          "text": "QNA reports Al Kaabi’s decision, the train and GTL damage, and the repair and restart estimates."
+          "label": "Confirmed public claims",
+          "text": "AP documented Trump’s account; QNA and the Amiri Diwan published the Amir’s speech."
         },
         "right": {
-          "label": "Delivery uncertainty",
-          "text": "Neither a full engineering schedule nor future cargo allocations has been published."
+          "label": "Still unverified",
+          "text": "Iranian confirmation, the participants’ mandate, negotiating text and implementation sequence are not public."
         }
       },
       "sources": [
         {
-          "label": "QNA · QatarEnergy chief on LNG, Hormuz and Ras Laffan repairs",
-          "url": "https://qna.org.qa/en/news/news-details?date=21%2F09%2F2026&id=minister-of-state-for-energy-affairs-lng-cannot-be-transported-via-pipelines"
+          "label": "AP · Trump reports the three-hour U.S.–Iran contact",
+          "url": "https://apnews.com/article/692e1e171a791be0c9b9c1f56718a0d0"
+        },
+        {
+          "label": "QNA · Amir calls for a regional collective-security system",
+          "url": "https://qna.org.qa/en/news/news-details?date=22%2F09%2F2026&id=hh-the-amir-core-of-current-dangerous-situation-is-absence-of-regional-collective-security-system"
+        },
+        {
+          "label": "Amiri Diwan · full diplomatic framing and Hormuz proposal",
+          "url": "https://www.diwan.gov.qa/en/briefing-room/news/international-occasions/2026/september/22/hh-the-amir-participates-in-opening-session-of-un-general-assembly"
         }
       ]
     },
     {
-      "id": "uk-saudi-aerial-refueling",
+      "id": "ukraine-trump-meeting-air-war",
       "number": "02",
-      "category": "Yemen, Saudi Arabia & UK defense",
-      "sourceNote": "AP · Monday",
-      "title": "Britain agreed to refuel Saudi aircraft for weeks as Houthi attacks continue.",
-      "changed": "Prime Minister Andy Burnham said the Royal Air Force will provide air-to-air refueling for Saudi planes for a matter of weeks, subject to review. He described the assistance as limited support in response to Houthi missile and drone attacks on Saudi Arabia, including an intercepted strike toward Riyadh. The Houthis have declared a blockade on Saudi-linked shipping in the Red Sea and Bab el-Mandeb.",
-      "matters": "A new outside government has moved from condemnation to operational support. Refueling can extend aircraft endurance and sortie reach without Britain directly striking Yemen, but it still creates a clearer British role in a widening conflict. The immediate aim is to help Saudi Arabia defend itself and keep oil routes open. Whether the limited mission remains limited depends on the attack pattern and the rules governing those aircraft.",
-      "watch": "The exact RAF deployment and mission rules; whether support is confined to defensive operations; Houthi response; attacks on Saudi energy assets and shipping; the promised review after several weeks; and any impact on Yemen diplomacy or humanitarian access.",
-      "personal": false,
-      "lead": false,
-      "group": {
-        "label": "Gulf security",
-        "title": "A narrow British deployment changes the coalition around Saudi defense.",
-        "note": "Burnham publicly specified air-to-air refueling for a matter of weeks.",
-        "break": true
-      },
-      "background": {
-        "title": "Support short of a strike campaign",
-        "text": "Sunday’s edition described a Houthi carve-out for U.S. ships that did not cover Saudi traffic. Monday’s British decision shows how that selective threat map can pull in another power. Air-to-air refueling is a support function, not evidence that RAF aircraft will bomb Houthi positions. But the line between defense support and involvement can become contested if Saudi missions expand or British assets are targeted.",
-        "known": "Burnham publicly specified air-to-air refueling for a matter of weeks.",
-        "new": "The United Kingdom has committed a defined military support function."
-      },
-      "evidence": {
-        "left": {
-          "label": "Operational commitment",
-          "text": "AP reports the prime minister’s stated mission and review period."
-        },
-        "right": {
-          "label": "Scope unresolved",
-          "text": "Rules of engagement, exact flight numbers and whether the mission broadens remain undisclosed."
-        }
-      },
-      "sources": [
-        {
-          "label": "AP · UK aerial refueling decision and Yemen context",
-          "url": "https://apnews.com/article/britain-saudi-arabia-yemen-burnham-c736f6485b0e9293eee733e12adc9bcd"
-        }
-      ]
-    },
-    {
-      "id": "russia-ukraine-strikes-unga",
-      "number": "03",
-      "category": "Ukraine war & diplomatic limits",
-      "sourceNote": "AP · Monday",
-      "title": "Russia struck Ukrainian cities after the weekend drone barrage, with no sign of a pause for the U.N. week.",
-      "changed": "Russian strikes hit Zaporizhzhia and other Ukrainian areas on Monday after Ukraine’s reported thousand-drone weekend attack on Russia. AP reported a Russian drone struck a home in the Kharkiv region, killing a woman and seriously injuring her teenage son. President Volodymyr Zelenskyy said he expected to meet President Trump at the U.N. gathering. Trump shifted from urging restraint on refinery strikes earlier this month to saying Russia had lost control of diesel production.",
-      "matters": "The new strikes show that a spectacular attack on Moscow did not interrupt Russia’s own campaign against civilians and infrastructure. The U.N. meetings create a diplomatic venue, but battlefield incentives remain active. Trump’s comments also expose a tension between pressure on Russian energy and concern about world fuel supply. A meeting is useful only if it changes military aid, negotiation terms or protection for civilians.",
-      "watch": "Verified casualty and damage totals; the scale of Russia’s retaliation; Ukrainian refinery-strike policy; what Zelenskyy and Trump agree at the U.N.; and any credible ceasefire mechanism rather than meeting optics.",
+      "category": "Ukraine war, air defense & energy",
+      "sourceNote": "AP · Tuesday",
+      "title": "Trump and Zelenskyy discussed an end to the war while strikes intensified and Ukraine still lacked a clear answer on Patriot interceptors.",
+      "changed": "President Volodymyr Zelenskyy met Trump at the U.N. after Russian overnight missiles and drones killed five people across at least four Ukrainian regions. Ukraine said it damaged two more Russian oil refineries. Trump called the refinery campaign both a serious hit on Russia and a contributor to higher diesel prices. Zelenskyy later said Washington remained positive about Patriot support but had not given a concrete answer.",
+      "matters": "The meeting exposed the collision between three objectives: weaken Russia’s war economy, limit global fuel disruption and defend Ukrainian cities. Refinery strikes can pressure Moscow while tightening diesel markets; Patriot scarcity links Ukraine’s needs to interceptor use in the Middle East. A broad statement that a deal may happen does not resolve these allocation and targeting choices.",
+      "watch": "A concrete U.S. air-defense package; further Russian casualty and damage reports; the scale of Ukrainian refinery attacks; any targeting understanding; and whether a proposed Trump–Putin–Zelenskyy meeting acquires a date, agenda and accepted participants.",
       "personal": false,
       "lead": false,
       "group": {
         "label": "The world beyond the lead",
-        "title": "The air war continued into a week built for diplomacy.",
-        "note": "AP documented new strikes and the stated expectation of a Trump–Zelenskyy meeting.",
+        "title": "Diplomacy met an air war that is still widening.",
+        "note": "The leaders met, but no ceasefire or air-defense commitment followed.",
         "break": false
       },
       "background": {
-        "title": "Reciprocal strikes are not a negotiation",
-        "text": "Ukraine’s long-range drones pressure Russian fuel and air defenses; Russia continues to attack Ukrainian population centers and energy. Each side can impose costs without approaching a settlement. The conflict now intersects with fuel markets because damaged Russian refineries affect diesel output while Gulf supplies remain constrained. Diplomatic meetings can address air defense and war aims, but they do not by themselves stop daily launches.",
-        "known": "AP documented new strikes and the stated expectation of a Trump–Zelenskyy meeting.",
-        "new": "The weekend’s Moscow-scale attack was followed by renewed Russian attacks as leaders gathered."
+        "title": "One interceptor pool, several wars",
+        "text": "Ukraine has repeatedly asked for Patriot missiles against advanced Russian ballistic threats. The United States and allies are also using high-end air defenses against Iranian and Houthi attacks, making supply a strategic allocation problem rather than a simple procurement request. At the same time, attacks on refineries connect the military campaign to civilian fuel prices. The negotiation therefore concerns weapons, targets and economic spillovers—not only territory.",
+        "known": "The meeting occurred; AP reported five deaths, two additional damaged Russian refineries and no concrete Patriot answer.",
+        "new": "Trump publicly acknowledged both the military effect and diesel-price cost of Ukraine’s refinery campaign."
       },
       "evidence": {
         "left": {
-          "label": "Observed consequence",
-          "text": "AP reports the Kharkiv death and injury and strikes on Zaporizhzhia."
+          "label": "Observed escalation",
+          "text": "Russian strikes killed five people and Ukraine reported new refinery damage."
         },
         "right": {
-          "label": "Diplomatic gap",
-          "text": "No ceasefire or changed targeting rule has been announced."
+          "label": "Diplomacy incomplete",
+          "text": "No three-way meeting, ceasefire mechanism or Patriot commitment has been announced."
         }
       },
       "sources": [
         {
-          "label": "AP · Monday strikes and U.N. diplomacy",
-          "url": "https://apnews.com/article/russia-ukraine-war-united-nations-drones-445b619fc9b2d002df1edaac8b320d09"
+          "label": "AP · Trump–Zelenskyy meeting, strikes and Patriot request",
+          "url": "https://apnews.com/article/russia-ukraine-united-nations-zelenskyy-trump-us-9c3d38e7e97132884f915e157dbf9ef1"
         }
       ]
     },
     {
-      "id": "us-china-trade-implementation-gap",
-      "number": "04",
-      "category": "U.S.–China trade & diplomacy",
+      "id": "eu-philippines-trade-substantial-agreement",
+      "number": "03",
+      "category": "Trade diversification & Southeast Asia",
       "sourceNote": "AP · Tuesday",
-      "title": "The Trump–Xi meeting approaches with earlier trade promises still only partly implemented.",
-      "changed": "AP’s review of the May U.S.–China framework found uneven follow-through before Xi Jinping’s Washington visit this week. A proposed Board of Trade and reciprocal tariff reductions on up to $30 billion of goods in each direction remain prospective. Both governments continue to seek strategic stability, but restrictions on technology and investment persist. Analysts cautioned that the visit itself may be the main deliverable.",
-      "matters": "Summit announcements should be judged against the commitments already on the ledger. A narrow tariff package could help selected businesses, but it would not settle export controls, AI competition or Taiwan tensions. The difference between a framework and an implemented customs schedule matters to capital allocation: firms need written product lists, effective dates and enforcement details before treating access as changed.",
-      "watch": "A signed Board of Trade charter; actual tariff schedules and eligible products; any changes to technology controls; verification of prior commitments; and how Beijing and Washington describe implementation after Thursday.",
+      "title": "The EU and Philippines reached substantial agreement on a trade pact built around diversification.",
+      "changed": "European and Philippine negotiators said they had reached substantial agreement on a free-trade deal, although final legal work, signature and ratification remain. The proposed pact is part of the EU’s effort to widen commercial relationships while ties with China, Russia and the United States remain strained.",
+      "matters": "This is a concrete example of trade fragmentation producing new links rather than only tariffs. A deal could improve market access and supply-chain options between a 27-country bloc and a fast-growing Southeast Asian economy. But the economic value depends on the final schedules, rules of origin, services access and implementation—not the phrase substantial agreement.",
+      "watch": "The final text; tariff phase-out schedules; treatment of agriculture, autos, services and critical minerals; labor and sustainability provisions; signature and ratification timetables; and how businesses use the agreement after entry into force.",
       "personal": false,
       "lead": false,
       "group": {
         "label": "Global economy",
-        "title": "Implementation is a better test than summit symbolism.",
-        "note": "May commitments and the coming visit are public; implementation remains incomplete.",
+        "title": "Diversification is moving from strategy into negotiated market access.",
+        "note": "Political agreement is advanced, but the legal and commercial details remain decisive.",
         "break": true
       },
       "background": {
-        "title": "Promises need customs instructions",
-        "text": "The May meeting established a language of constructive strategic stability and floated a trade board and reciprocal tariff relief. AP found that those measures had not yet fully arrived. The upcoming state visit may help both leaders keep rivalry bounded, but companies cannot price a headline handshake. A concrete trade change requires a published schedule specifying goods, rates, dates and administration.",
-        "known": "May commitments and the coming visit are public; implementation remains incomplete.",
-        "new": "A pre-summit audit now distinguishes announced architecture from operational changes."
+        "title": "Bilateral deals as a hedge against bloc risk",
+        "text": "The EU has increasingly pursued bilateral agreements to create alternative demand, sourcing and investment channels. The Philippines offers a large consumer market and a position inside ASEAN; Europe offers scale and regulatory credibility. Yet firms trade under customs rules, not geopolitical intentions. The durable change begins only when eligible products, origin requirements, services permissions and dispute procedures are published and ratified.",
+        "known": "Both sides report substantial agreement on a new free-trade pact.",
+        "new": "Negotiations have moved beyond broad intent, though the agreement is not yet operational."
       },
       "evidence": {
         "left": {
-          "label": "Framework on paper",
-          "text": "The two sides discussed a Board of Trade and reciprocal reductions."
+          "label": "Negotiating breakthrough",
+          "text": "AP reports substantial agreement and the EU’s explicit diversification rationale."
         },
         "right": {
-          "label": "Execution pending",
-          "text": "The final dollar value and eligible goods have not been published."
+          "label": "Not yet market access",
+          "text": "Final text, signature, ratification and effective dates are still pending."
         }
       },
       "sources": [
         {
-          "label": "AP · audit of U.S.–China May commitments before Xi visit",
-          "url": "https://apnews.com/article/trump-xi-beijing-washington-summit-8488ef4c2944d348193f441199179ae6"
+          "label": "AP · EU–Philippines trade negotiations",
+          "url": "https://apnews.com/article/eu-philippines-free-trade-deal-european-union-85e74be2f192e180614a4b763ccfeae9"
         }
       ]
     },
     {
-      "id": "fed-officials-inflation-tradeoff",
+      "id": "dollar-rates-oil-diplomacy",
+      "number": "04",
+      "category": "Currencies, rates & oil",
+      "sourceNote": "Reuters · Wednesday",
+      "title": "The dollar held near a two-month high as rate expectations outweighed tentative relief in oil.",
+      "changed": "The dollar index stood around 100.56 in early Wednesday trading, near its strongest level in two months. Markets expect more tightening from major central banks after recent hikes and hawkish guidance. Brent traded near $99.22 a barrel, down from recent highs on hopes that U.N. diplomacy could advance an Iran settlement, but still 37% above its level when the conflict began in late February.",
+      "matters": "The market is separating two forces that had recently moved together. Peace hopes can lower oil and near-term inflation pressure, while persistent demand and rate differentials can still support the dollar. That combination affects imported costs, global financing conditions and assets priced in dollars. It also means one diplomatic headline cannot by itself reverse the higher-rate regime.",
+      "watch": "Published U.S.–Iran terms; Hormuz shipping flows; Brent and refined-product spreads; U.S. inflation and labor data; guidance from voting Fed members; yen intervention signals; and whether market pricing outruns central-bank projections.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "Economy & markets",
+        "title": "Oil relief and monetary tightening are no longer the same trade.",
+        "note": "Diplomacy eased energy prices while rate differentials kept supporting the dollar.",
+        "break": false
+      },
+      "background": {
+        "title": "A stronger dollar can survive softer oil",
+        "text": "The Iran war pushed up energy prices and inflation expectations, encouraging central banks to tighten. Now crude can fall on negotiation hopes while interest-rate expectations remain elevated because domestic demand and broader inflation are still firm. Currency values respond to expected returns across economies, not only commodity prices. The present dollar level is therefore evidence of a rate story as well as a geopolitical one.",
+        "known": "Reuters documented the early-Wednesday currency, oil and rate-pricing levels.",
+        "new": "Markets are pricing tentative energy relief without abandoning expectations of further tightening."
+      },
+      "evidence": {
+        "left": {
+          "label": "Market signal",
+          "text": "Dollar strength persists even with Brent below recent peaks."
+        },
+        "right": {
+          "label": "Policy uncertainty",
+          "text": "Futures may price more tightening than central banks ultimately deliver."
+        }
+      },
+      "sources": [
+        {
+          "label": "Reuters · dollar, oil and central-bank expectations",
+          "url": "https://sa.marketscreener.com/news/dollar-holds-near-2-month-high-as-markets-weigh-rate-hikes-iran-diplomacy-ce785ad9d88ff025"
+        },
+        {
+          "label": "Reuters · Barkin says inflation pressure extends beyond energy",
+          "url": "https://in.marketscreener.com/news/fed-s-barkin-says-economy-may-be-firming-inflation-not-limited-to-energy-tariff-shocks-ce785ad8d18af624"
+        }
+      ]
+    },
+    {
+      "id": "extreme-el-nino-food-risk",
       "number": "05",
-      "category": "Federal Reserve & inflation",
-      "sourceNote": "AP · Monday",
-      "title": "Fed officials made the cost of persistent inflation more explicit after last week’s rate increase.",
-      "changed": "Boston Fed president Susan Collins said Monday that stalled inflation progress and renewed Middle East fighting supported last week’s quarter-point hike to roughly 3.9%; she penciled in another increase this year. Chicago Fed president Austan Goolsbee argued repeated supply shocks and strong demand may require higher rates even at the cost of weaker employment. Neither official votes on rate decisions this year, though both participate in deliberations.",
-      "matters": "The remarks add a visible policy split over how much labor-market pain the Fed should tolerate. Chair Kevin Warsh said last week he did not believe job harm was necessary to reach the target; Goolsbee said it may be. For investors and borrowers, the issue is whether energy and tariffs are temporary shocks to look through or persistent pressures that force demand lower. One interview does not settle the committee’s next vote.",
-      "watch": "Core inflation and wage data; October policy expectations; whether voting members echo these arguments; oil and diesel supply; and evidence that hiring is slowing as financing costs rise.",
+      "category": "Climate, food & Asian economies",
+      "sourceNote": "AP · Tuesday",
+      "title": "A potentially record El Niño is turning Asia’s drought into a second global food shock.",
+      "changed": "The U.S. National Oceanic and Atmospheric Administration assigns a 69% chance that the current El Niño will become the strongest in records dating to 1950. Drought, heat, fires and depleted water supplies are already affecting parts of Southeast Asia. The World Food Program estimates the event could push at least 49 million additional people into acute food insecurity by the end of 2027.",
+      "matters": "Energy and fertilizer stress from the Iran war has already reduced governments’ fiscal room and raised farm costs. A severe weather shock can now hit rice, palm oil, fisheries and other supply chains at the same time. The risk is not merely a bad harvest in one country; export restrictions and precautionary buying can transmit local shortages into world prices.",
+      "watch": "The expected December peak; rainfall and reservoir data; rice and palm-oil yields; wildfire and haze conditions; export controls; food-subsidy spending; WFP funding; and whether the 69% forecast is revised as Pacific temperatures evolve.",
       "personal": false,
       "lead": false,
       "group": {
-        "label": "Economy and markets",
-        "title": "The rate debate has moved from whether to hike toward what pain a hike may cause.",
-        "note": "The officials’ statements are attributable and their voting status is known.",
-        "break": false
-      },
-      "background": {
-        "title": "Supply shocks meet strong demand",
-        "text": "Last week’s first Fed hike since 2023 was already covered. Monday brought detail on policymakers’ reasoning. Collins described disappointing inflation progress and a possible additional increase. Goolsbee emphasized a repeated sequence of supply shocks rather than a one-off oil spike. His willingness to accept employment weakness contrasts with the chair’s public optimism. The range of views is informative, but the two speakers are not 2026 voters.",
-        "known": "The officials’ statements are attributable and their voting status is known.",
-        "new": "The internal trade-off is now stated more sharply in public."
-      },
-      "evidence": {
-        "left": {
-          "label": "Clear policy views",
-          "text": "Both officials explained the inflation case for higher rates."
-        },
-        "right": {
-          "label": "Committee outcome open",
-          "text": "Neither casts a vote this year; future data and voting members determine policy."
-        }
-      },
-      "sources": [
-        {
-          "label": "AP · Collins and Goolsbee on inflation, rates and jobs",
-          "url": "https://apnews.com/article/inflation-goolsbee-federal-reserve-rates-5acf1f7e4f38ac77329fa0b9aaddd30f"
-        }
-      ]
-    },
-    {
-      "id": "air-traffic-system-failures",
-      "number": "06",
-      "category": "Aviation infrastructure & resilience",
-      "sourceNote": "NATS / Reuters · Monday",
-      "title": "Separate network failures disrupted flights in Britain and the U.S. on the same day.",
-      "changed": "Britain’s NATS said a connectivity fault at its Prestwick center forced traffic restrictions in Scotland on Monday; it said the problem was fixed and unrelated to its outage earlier this month. In the United States, an accidentally cut telecommunications line in New Jersey interrupted FAA systems, halting arrivals at major New York-area airports plus Philadelphia and Boston for hours. Officials said services were restored later, but delays continued.",
-      "matters": "The incidents are unrelated, yet both expose dependence on fragile communications paths in air-traffic control. A local network failure can spread through tightly scheduled airline networks and impose costs on passengers and carriers well outside the original fault. The useful question is not whether all failures can be prevented, but whether backup circuits, failover tests and recovery procedures prevent a single break from becoming a regional shutdown.",
-      "watch": "NATS’ technical explanation and passenger-delay totals; the FAA’s root-cause and backup-circuit review; upgrade funding and implementation; whether residual delays clear; and evidence of tested failover rather than only planned investment.",
-      "personal": false,
-      "lead": false,
-      "group": {
-        "label": "Aviation and tourism",
-        "title": "Two separate failures showed the operational cost of weak communications redundancy.",
-        "note": "Both agencies reported faults and restoration; the causes are distinct.",
+        "label": "Food-system risk",
+        "title": "The next inflation shock may come from weather layered onto war.",
+        "note": "The forecast is probabilistic, but physical effects are already visible.",
         "break": true
       },
       "background": {
-        "title": "Network resilience is a public transport issue",
-        "text": "NATS linked its Scottish restriction to connectivity, not the software defect behind its earlier disruption. The U.S. problem began when construction work cut a line; reporting also indicated a damaged backup path. These are different technical failures, so they should not be treated as one coordinated event. They do illustrate a shared design challenge: air traffic networks must degrade safely while preserving enough capacity to avoid cascading delays.",
-        "known": "Both agencies reported faults and restoration; the causes are distinct.",
-        "new": "The U.S. and U.K. experienced separate same-day air-traffic disruptions."
+        "title": "A climate event becomes an economic cascade",
+        "text": "El Niño begins with unusually warm Pacific waters and alters rainfall across distant regions. The agricultural damage depends on timing, local crops, irrigation and policy responses. A moderate harvest loss can become a larger price shock when countries restrict exports or importers build inventories simultaneously. Current energy and fertilizer constraints make adaptation costlier and leave less public money for subsidies or emergency imports.",
+        "known": "Drought, wildfire and water stress are already present; NOAA and WFP supplied the forecast probabilities and food-security estimate.",
+        "new": "The event is now being assessed as a plausible record and a compound shock rather than a routine climate cycle."
       },
       "evidence": {
         "left": {
-          "label": "Agency accounts",
-          "text": "NATS described its fault; Reuters reported FAA restoration and airport effects."
+          "label": "Physical evidence",
+          "text": "AP documented depleted reservoirs, peatland fires and affected fisheries and farms."
         },
         "right": {
-          "label": "Root-cause detail",
-          "text": "Full failover and system-reliability reports are still pending."
+          "label": "Forecast range",
+          "text": "Regional impacts and the final strength of the event remain uncertain."
         }
       },
       "sources": [
         {
-          "label": "NATS · Prestwick connectivity fault",
-          "url": "https://www.nats.aero/news/technical-issue-at-prestwick-centre/"
-        },
-        {
-          "label": "Reuters · U.S. FAA telecom outage and recovery",
-          "url": "https://uk.marketscreener.com/news/us-halts-flights-at-busy-east-coast-airports-says-fiber-line-cut-at-construction-site-ce785adbde8ef620"
+          "label": "AP · extreme El Niño and Asian food-system exposure",
+          "url": "https://apnews.com/article/asia-el-nino-drought-rice-palm-oil-31c88df9ce8f67bcbfe3ea7f39431d57"
         }
       ]
     },
     {
-      "id": "ai-language-access-coalition",
+      "id": "alibaba-zhenwu-qwen-scale",
+      "number": "06",
+      "category": "China AI chips & models",
+      "sourceNote": "AP · Tuesday",
+      "title": "Alibaba paired a new domestic AI chip claim with plans for a five-to-ten-trillion-parameter model.",
+      "changed": "At its Hangzhou conference, Alibaba introduced new AI chip technology including Zhenwu 810E, which it described as China’s most powerful AI chip. It also said its latest Qwen3.8-Max model has 2.4 trillion parameters and that it intends to train a successor in the five-to-ten-trillion range. The announcement arrived before Xi Jinping’s Washington visit, where AI competition is expected to feature.",
+      "matters": "The package shows China pursuing hardware and model scale together under U.S. technology restrictions. A competitive domestic accelerator could reduce exposure to imported chips; a larger model could expand capability. Both conclusions remain hypotheses until independent benchmarks, availability, training economics and developer adoption are visible. Parameter count alone does not measure reasoning quality or cost.",
+      "watch": "Independent chip and model benchmarks; shipment volumes; foundry and memory supply; model release terms; inference prices; developer uptake; power requirements; and any U.S.–China agreement or new restriction affecting AI hardware.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "Technology",
+        "title": "China’s AI strategy is coupling model ambition to a domestic compute stack.",
+        "note": "The scale claims are public; performance and supply remain to be tested.",
+        "break": false
+      },
+      "background": {
+        "title": "Scale is an input, not the result",
+        "text": "Parameters are adjustable values learned during training. More can increase capacity, but results also depend on data, architecture, training method, software and inference resources. Chips face a parallel distinction: a design announcement is not equivalent to reliable production at volume. Alibaba’s integrated position in cloud services, models and applications could help adoption, yet independent evidence is needed before ranking the system against U.S. alternatives.",
+        "known": "Alibaba announced the chip, the current 2.4-trillion-parameter model and the future training target.",
+        "new": "The company has made a specific, much larger scale commitment tied to domestic hardware."
+      },
+      "evidence": {
+        "left": {
+          "label": "Strategic commitment",
+          "text": "Alibaba is funding both the compute layer and the model layer."
+        },
+        "right": {
+          "label": "Capability unproven",
+          "text": "The company’s superlative and future scale target lack independent operating results."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · Alibaba chip and Qwen model plans",
+          "url": "https://apnews.com/article/alibaba-ai-chip-qwen-zhenwu-china-us-b29908e516faff9f5a82b201ba954aab"
+        }
+      ]
+    },
+    {
+      "id": "luxury-value-wellness-shift",
       "number": "07",
-      "category": "AI access, language & public services",
-      "sourceNote": "Gates Foundation · Monday",
-      "title": "Sixty organizations set a five-year goal for AI that works in underrepresented languages and voices.",
-      "changed": "A coalition announced through the Gates Foundation set a goal to make usable AI tools available in the languages and voices of an estimated 3.4 billion people whose languages are poorly supported. Sixty initial signatories include AI labs, researchers, governments, philanthropies and implementation groups. Their four work areas are open language data, honest measurement, working models and applications, and privacy, consent and data sovereignty.",
-      "matters": "AI usefulness is currently concentrated in languages with abundant training data and benchmarks. That gap affects access to health, education, agriculture and public services, especially when voice is the natural interface. The number 3.4 billion is a population estimate and a goal, not people served today. The coalition’s value will depend on whether locally led datasets and independent evaluations improve actual comprehension across dialects.",
-      "watch": "Published language coverage and benchmarks; data licensing and consent; local governance; funding commitments; working voice systems; and independent tests in low-resource languages, including dialects rather than only standardized forms.",
+      "category": "Luxury, pricing & consumer priorities",
+      "sourceNote": "Reuters · Tuesday",
+      "title": "Luxury executives say high prices and shifting priorities are deepening the sector’s slowdown.",
+      "changed": "Ahead of Milan and Paris fashion weeks, executives and advisers described a recovery that is failing to arrive. LVMH shares were down 37% for the year and Kering had erased gains made since its chief executive arrived. Industry figures said repeated price rises have sharpened value concerns even among wealthy customers, while some spending is moving toward wellness, health, longevity, hotels and restaurants.",
+      "matters": "The sector’s problem is not only a temporary fall in traffic. Years of price-led growth may have weakened the perceived exchange between product, novelty and price. Cutting prices risks margin and brand signaling; holding them requires stronger desirability. A shift toward experiences and wellbeing also changes which competitors capture affluent discretionary spending.",
+      "watch": "Fashion-week product reception; store traffic and full-price sell-through; entry-price products; China, U.S. and Gulf demand; inventory discipline; brand-level results; and evidence that wellness and hospitality spending is substituting for goods rather than merely adding to it.",
       "personal": false,
       "lead": false,
       "group": {
-        "label": "AI and technology",
-        "title": "AI access is being framed as a measurable language infrastructure problem.",
-        "note": "The signatory list, five-year goal and four work areas were published.",
-        "break": false
+        "label": "Consumer & retail",
+        "title": "The luxury slowdown is becoming a value proposition problem.",
+        "note": "Industry commentary links price fatigue to a broader shift in affluent spending.",
+        "break": true
       },
       "background": {
-        "title": "Translation alone does not solve access",
-        "text": "Most model benchmarks favor high-resource written languages. In many communities, speech, local dialect and context are more important than polished standard text. The signatories propose to build shared data and tools while measuring whether people can actually use them. This is an institutional commitment, not a deployed service; workstream governance is still being developed.",
-        "known": "The signatory list, five-year goal and four work areas were published.",
-        "new": "A large multi-organization coalition has attached a target population to language access."
+        "title": "Price can protect exclusivity until it exposes sameness",
+        "text": "Luxury companies used large increases to expand revenue and preserve scarcity through recent disruption. That works when creative renewal, service and cultural relevance keep pace. When customers see the product as familiar but much dearer, even high-income buyers compare value. Brands then face an awkward triangle: lower price and risk prestige, reduce volume and lose sales, or invest through the downturn to make the proposition compelling again.",
+        "known": "Reuters documented market performance and comments from executives and advisers before the shows.",
+        "new": "The industry is discussing preference shifts more openly instead of assuming a near-term cyclical rebound."
       },
       "evidence": {
         "left": {
-          "label": "Commitment made",
-          "text": "Sixty organizations joined the initial statement."
+          "label": "Demand signal",
+          "text": "Share performance and management commentary show worsening expectations."
         },
         "right": {
-          "label": "Impact unproven",
-          "text": "The governance, financing and end-user performance measures are not yet complete."
+          "label": "Substitution uncertain",
+          "text": "The scale and durability of spending shifts toward experiences are not yet quantified."
         }
       },
       "sources": [
         {
-          "label": "Gates Foundation · original 60-signatory announcement",
-          "url": "https://www.gatesfoundation.org/ideas/media-center/press-releases/2026/09/ai-language-partnership"
+          "label": "Reuters · luxury slowdown, pricing and spending shifts",
+          "url": "https://www.investing.com/news/stock-market-news/the-show-must-go-on-struggling-luxury-brands-seek-catwalk-boost-in-milan-and-paris-4909868"
         }
       ]
     },
     {
-      "id": "europe-jet-fuel-supply-gap",
+      "id": "faa-outage-recovery-overhaul",
       "number": "08",
-      "category": "Jet fuel, aviation cost & energy",
-      "sourceNote": "Reuters · Monday",
-      "title": "Europe faces a fourth-quarter jet-fuel deficit despite longer supply routes from Asia and elsewhere.",
-      "changed": "Reuters reported that consultancy Energy Aspects forecasts a European fourth-quarter jet-fuel deficit of 510,000 barrels a day. Middle Eastern disruption has cut off about half of Europe’s former jet-fuel imports from that region. South Korean exports to Europe were running near 129,000 barrels a day so far in September, the highest since October 2022, according to Kpler; Nigeria, the United States and Canada are also supplying the continent.",
-      "matters": "The rerouting shows trade can adapt but at a cost. Longer voyages, tight regional balances and the risk of another Gulf interruption can keep airline fuel costs high even if crude prices briefly ease. This is a forecast of a regional supply gap, not evidence that airports are about to run dry. Airlines may respond through hedging, pricing, tankering or schedule changes, each with its own limit.",
-      "watch": "Actual fourth-quarter arrivals and inventories; jet-fuel cracks and airline surcharges; South Korean export persistence; Gulf flows; and whether carriers trim capacity or merely absorb higher costs.",
+      "category": "Aviation systems & resilience",
+      "sourceNote": "AP · Tuesday",
+      "title": "The Northeast aviation outage became a case for a $20 billion U.S. control-system overhaul.",
+      "changed": "Airlines were still repositioning aircraft and crews on Tuesday after Monday’s communications failure, with nearly 100 flights canceled by midday. AP reported that a switch on the primary line at the Philadelphia control facility failed; the backup fiber had separately been cut by railway construction. Transportation Secretary Sean Duffy used the outage to press Congress for another $20 billion for the next modernization phase.",
+      "matters": "The incident moved from a generic technical failure to a specific resilience lesson: the primary system and its supposed backup were both unavailable. Restoration did not immediately restore the network because tightly scheduled fleets and crews had moved out of place. Funding may be justified, but the design test is whether new communications paths are genuinely independent and routinely exercised.",
+      "watch": "The FAA investigation; independent routing for backup circuits; replacement of the failed switch; Congressional treatment of the $20 billion request; airline recovery time; and whether modernization milestones include tested failover rather than equipment installation alone.",
       "personal": false,
       "lead": false,
       "group": {
-        "label": "Aviation economics",
-        "title": "Supply is moving farther, but the European jet-fuel balance remains exposed.",
-        "note": "The Reuters report attributes the forecast and flow estimate to named data sources.",
+        "label": "Aviation",
+        "title": "A backup failed the only test that matters: being available when the primary path broke.",
+        "note": "Tuesday’s recovery revealed the operational tail and the funding response.",
         "break": false
       },
       "background": {
-        "title": "A fuel market can rewire without becoming secure",
-        "text": "Jet fuel is a refined product with its own transport and quality constraints. Replacement barrels from distant exporters take longer to arrive and can cost more. The 510,000-barrel-a-day figure is an analyst forecast; Kpler’s South Korean flow is observed shipping data. Together they suggest resilience through rerouting but not full restoration of the previous supply network.",
-        "known": "The Reuters report attributes the forecast and flow estimate to named data sources.",
-        "new": "South Korea has become a material new supplier while a fourth-quarter gap is still projected."
+        "title": "Network recovery lasts longer than repair",
+        "text": "An air-traffic communications fault can stop arrivals immediately. Once flights are canceled or diverted, crews time out, aircraft miss later rotations and gates and passenger connections fall out of sequence. That is why Tuesday still carried cancellations after Monday evening’s technical restoration. The infrastructure question is equally practical: redundancy must avoid common routes and common dependencies, or a second line exists on paper without providing real resilience.",
+        "known": "Both lines were unavailable, flights resumed Monday evening and cancellations continued Tuesday.",
+        "new": "Officials identified the distinct primary and backup failures and attached a specific modernization funding request."
       },
       "evidence": {
         "left": {
-          "label": "Observed rerouting",
-          "text": "Shipping data show substantial South Korean deliveries to Europe."
+          "label": "Failure chain",
+          "text": "A failed primary switch coincided with a construction-severed backup fiber."
         },
         "right": {
-          "label": "Forecast risk",
-          "text": "The size of the deficit and airline cost pass-through will depend on future flows."
+          "label": "Spending test",
+          "text": "The proposed funding is not yet an approved plan or proof of independent redundancy."
         }
       },
       "sources": [
         {
-          "label": "Reuters · Europe jet-fuel balance and South Korean flows",
-          "url": "https://hk.marketscreener.com/news/europe-faces-q4-jet-fuel-supply-deficit-even-as-south-korea-becomes-latest-big-supplier-ce785adad08af22c"
+          "label": "AP · outage recovery and air-traffic overhaul request",
+          "url": "https://apnews.com/article/faa-flights-laguardia-newark-jfk-airport-05e563809c8f954e175dfb93b9cf781d"
         }
       ]
     }
   ],
   "radar": [
     {
-      "label": "Qatar tourism",
-      "title": "Qatar Tourism and Old Doha Port joined a Mediterranean cruise trade event.",
-      "text": "It is relationship-building rather than signed itineraries. Watch confirmed Gulf calls, turnaround passengers and shore spending.",
-      "url": "https://qna.org.qa/en/news/news-details?date=21%2F09%2F2026&id=qatar-tourism-old-doha-port-participate-in-seatrade-cruise-med-2026-in-spain"
+      "label": "Qatar financial services",
+      "title": "Apex Group plans a regional Lusail office after a new Invest Qatar partnership.",
+      "text": "The expansion could add fund-administration and asset-servicing capacity. Watch actual staffing, licensed activities and client mandates rather than the partnership announcement alone.",
+      "url": "https://qna.org.qa/en/news/news-details?date=22%2F09%2F2026&id=invest-qatar-apex-group-partner-to-advance-qatars-financial-services-ecosystem"
     },
     {
-      "label": "Consumer & restaurants",
-      "title": "Darden and Costco report later this week, offering fresh demand signals.",
-      "text": "The earnings dates are calendar items, not new operating results. Wait for traffic, check size and margin detail before drawing conclusions.",
-      "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      "label": "Qatar 2036",
+      "title": "The Olympic bid chief framed Doha’s campaign as a regional first built on existing infrastructure.",
+      "text": "This is bid positioning, not an IOC decision. Watch the formal process, competing cities, venue plan, climate strategy and public cost.",
+      "url": "https://qna.org.qa/en/news/news-details?date=23%2F09%2F2026&id=ceo-of-qatars-2036-olympic-bid-says-country-hopes-to-host-exceptional-edition"
     },
     {
       "label": "AI governance",
-      "title": "OpenAI called for U.S.-led frontier AI standards and common incident reporting.",
-      "text": "The proposal is an institutional position, not an enacted international rule. Watch whether governments agree on shared measures.",
-      "url": "https://www.marketscreener.com/news/openai-calls-for-us-to-take-lead-in-global-efforts-to-develop-technical-standards-ce785adbde8bff27"
+      "title": "Britain called for global AI transparency and access rules as the U.S. rejected a global regulatory scheme.",
+      "text": "The disagreement is now explicit but still rhetorical. Watch draft standards, government signatories and whether model providers accept enforceable reporting.",
+      "url": "https://apnews.com/article/692e1e171a791be0c9b9c1f56718a0d0"
     }
   ],
   "attention": {
-    "title": "QatarEnergy chief’s full Hormuz and production remarks",
-    "text": "Open the primary account for the distinction between restarting operations after passage opens and repairing two damaged LNG trains.",
-    "url": "https://qna.org.qa/en/news/news-details?date=21%2F09%2F2026&id=minister-of-state-for-energy-affairs-lng-cannot-be-transported-via-pipelines"
+    "title": "Qatar’s argument for Gulf collective security",
+    "text": "Read the primary account for the distinction between reopening Hormuz, negotiating a bilateral settlement and building rules that protect every regional state.",
+    "url": "https://qna.org.qa/en/news/news-details?date=22%2F09%2F2026&id=hh-the-amir-core-of-current-dangerous-situation-is-absence-of-regional-collective-security-system"
   },
   "ignore": {
-    "title": "Treating every U.N. meeting as a breakthrough",
-    "text": "The meaningful evidence will be signed terms, operational changes and follow-through. Speeches and photo opportunities are diplomatic signals, not settlements."
+    "title": "Parameter count as a league table for AI capability",
+    "text": "Alibaba’s scale target is strategically important, but quality, cost, availability and independent benchmarks determine whether the system is useful."
   },
   "history": {
-    "id": "history-haber-bosch-nitrogen",
+    "id": "history-dojima-rice-futures",
     "number": "09",
     "readTime": "7 min read",
-    "era": "CHEMISTRY, AGRICULTURE & POWER\n1909–PRESENT",
-    "title": "The factory that made fertilizer from air—and changed the world’s constraints.",
-    "deck": "In 1913, a German chemical plant began making ammonia continuously from nitrogen in the air and hydrogen. Fritz Haber had established the reaction; Carl Bosch and his team made it survive industrial pressure, heat and scale. The resulting fertilizer helped expand food production, while the same chemistry supported munitions. A century later, energy use and escaped nitrogen remain costs of the breakthrough.",
-    "thesis": "Haber–Bosch converted a natural nitrogen limit into an industrial supply chain, then shifted the pressure to energy, distribution and ecological absorption.",
+    "era": "JAPAN, RICE & MARKET INFRASTRUCTURE\n1600s–PRESENT",
+    "title": "Osaka’s rice merchants built a futures market before finance had the language for one.",
+    "deck": "In Tokugawa Japan, tax rice flowed into Osaka warehouses while samurai governments needed spendable money before every harvest or shipment arrived. Merchants turned warehouse claims and future delivery into tradable contracts. In 1730, the shogunate authorized the Dōjima market, complete with membership, margining, cash settlement and clearing functions. The result was not merely speculation: it was an information and risk system built around the country’s fiscal grain.",
+    "thesis": "Futures markets emerged at Dōjima because a physical supply chain, a credit system and a volatile fiscal asset all needed one trusted price—and rules for surviving disagreement about the future.",
     "sections": [
       {
-        "title": "The problem was hidden in abundant air",
-        "text": "Nitrogen makes up most of the atmosphere, yet its paired atoms hold together so tightly that crops cannot use the gas directly. Plants need reactive nitrogen compounds to build proteins and grow. Before industrial synthesis, farmers depended on manure, crop rotations with legumes, and deposits such as Chilean nitrate and guano. Those sources worked, but land, transport and access constrained supply. As urban populations grew, chemists and states saw a food-production ceiling. The question was not whether the world contained enough nitrogen; it was how to convert an inert atmospheric stock into a reliable agricultural flow. That distinction shaped one of the twentieth century’s most consequential industries."
+        "title": "Rice was food, tax revenue and political finance",
+        "text": "Tokugawa Japan’s domains collected much of their revenue in rice. Bales moved from producing regions to warehouse-residences in commercial cities, especially Osaka. The ruling warrior class, however, paid expenses in money. That created a recurring conversion problem: the value of the tax base changed with harvests, transport and demand, while obligations continued every month. Osaka’s warehouse district became the place where physical rice, official finance and merchant credit met. The market did not begin with an abstract desire to invent derivatives. It began because people held claims on a crop whose arrival, quality and price were uncertain, and they needed liquidity before every bale could be inspected and sold."
       },
       {
-        "title": "Haber made a difficult reaction work in the laboratory",
-        "text": "At Karlsruhe, Fritz Haber and colleagues showed that nitrogen and hydrogen could combine to form ammonia under high pressure, high temperature and a catalyst. The chemistry was only the first challenge. The reaction yielded a small amount in each pass and demanded careful control of heat and pressure. Haber’s apparatus demonstrated a route, not an affordable national fertilizer supply. His 1918 Nobel Prize recognized the synthesis of ammonia from its elements. The scientific breakthrough mattered because it made a previously scarce input manufacturable in principle. Its wider consequence required someone to turn a laboratory apparatus into a continuous industrial plant."
+        "title": "Warehouse claims became easier to move than grain",
+        "text": "Domains auctioned stored tax rice and issued rice bills promising exchange for specified quantities. Some bills covered rice already in Osaka; others referred to deliveries still on the way or future harvests. The paper claim could circulate without the holder moving heavy bales through the city. That separation of ownership from immediate physical possession made trade faster, but it also required trust in issuers, warehouses and settlement. A rice bill was useful only if participants believed that the underlying obligation would be honored. The financial instrument therefore grew out of logistics. Warehousing created standardized claims; standardized claims created a market; and the market created demand for common rules."
       },
       {
-        "title": "Bosch had to invent the factory around the reaction",
-        "text": "Carl Bosch’s BASF team faced failures that a laboratory bench could hide. Hydrogen weakened steel under pressure; vessels leaked; catalysts were expensive or unreliable; compressors and pipes had to withstand continuous operation. Bosch’s team developed stronger high-pressure equipment and a practical iron-based catalyst system. BASF opened the first industrial ammonia synthesis plant at Oppau in September 1913. This was an engineering achievement as much as a chemical one. The lesson of the plant is that a process becomes civilization-scale only when materials, energy, maintenance, financing and organization let it run every day. Bosch later shared the 1931 Nobel Prize for high-pressure chemical methods."
+        "title": "Dōjima organized disagreement about tomorrow’s price",
+        "text": "By the late seventeenth century, rice trading had concentrated around Dōjima. In 1730, the Tokugawa shogunate formally authorized both a spot market for rice bills and a book-based futures market in representative grades. Traders could agree today on a price for settlement later, allowing someone exposed to falling rice prices to transfer part of that risk to someone willing to take the opposite view. The Bank of Japan describes the market as having margining and cash settlement; Japan Exchange Group notes membership and clearing functions resembling later exchanges. Those details matter. A future price becomes socially useful only when participants know who may trade, how losses are covered and how contracts end."
       },
       {
-        "title": "The first uses revealed a double edge",
-        "text": "Ammonia could be turned into fertilizer, raising the potential yield of cultivated land. It could also be turned into nitrates for explosives. During the First World War, Germany’s access to overseas nitrate supplies was restricted, and synthetic ammonia helped sustain fertilizer and munitions production. Haber himself supervised Germany’s early use of chlorine gas at Ypres in 1915. These histories should not be flattened into either a heroic food story or a single moral verdict on chemistry. The same industrial capacity served agriculture and war; decisions by governments and individuals determined its use. The dual use is part of the invention’s history, not a footnote."
+        "title": "Price discovery traveled faster than the commodity",
+        "text": "The Dōjima price became a reference beyond the streets where trading occurred. Couriers and flag signals carried quotations hundreds of kilometers to Edo and other cities. Rice itself moved by ship and cart; information about rice moved through a communications network. That difference in speed let a local market coordinate decisions across regions. A domain assessing revenue, a merchant financing inventory and a buyer planning future needs could respond to a shared signal rather than isolated local rumors. The exchange’s importance therefore came from more than the volume traded. It produced a public benchmark from private bids, compressing dispersed judgments about harvests, transport, inventories and demand into one observable price."
       },
       {
-        "title": "Synthetic nitrogen changed the food system over decades",
-        "text": "Fertilizer was not a magic substitute for seeds, irrigation, transport or fair access to land. Its effect grew as farms combined it with improved crop varieties, water, mechanization and extension services. More nitrogen let plants produce more biomass and grain on the same area when other inputs were present. The result was a substantial expansion of food-production capacity in the twentieth century. Claims that the process alone “fed half the world” compress a complicated chain of agricultural and social changes into one number. A sounder conclusion is that cheap fixed nitrogen became a foundational input to modern yields, while its benefits depended on who could afford and apply it."
+        "title": "Hedging and speculation were inseparable partners",
+        "text": "A producer or holder of rice could use futures to reduce exposure to a price fall. That contract required another participant willing to accept the risk, perhaps because that trader expected prices to rise. Modern debates often imagine hedging as legitimate and speculation as an unwanted addition, but a market needs counterparties and liquidity. Historical research also cautions against romanticizing Dōjima as perfectly efficient. Studies find changing performance across seasons and periods, with producer hedging stronger in some markets and financial trading more prominent in others. The useful achievement was not eliminating volatility or bad judgment. It was creating a governed arena in which different expectations could meet and obligations could be settled."
       },
       {
-        "title": "The input came with an energy bill",
-        "text": "Industrial ammonia normally obtains hydrogen from fossil fuels, especially natural gas, and uses energy to sustain high pressures and temperatures. The International Energy Agency estimates that ammonia production consumes around two percent of global final energy and produces substantial direct carbon dioxide emissions. Gas prices therefore affect fertilizer prices, and energy shocks can become food-production shocks. The process that loosened one constraint on agriculture created a new dependence on fuel, industrial plants and international trade. This does not erase its contribution; it makes the system’s exposure more visible. Today, lower-emission hydrogen and better process efficiency are active engineering problems."
+        "title": "Government alternated between using the market and blaming it",
+        "text": "The shogunate authorized Dōjima partly because rice prices were politically important. Later governments also intervened when prices became unacceptable. Japan Exchange Group records that the Meiji government banned Dōjima trading in 1869 amid steep price rises, then revived a rice exchange in 1871 to restore active trade. This cycle is familiar: authorities value market liquidity and information during normal times, then suspect speculation when prices cause hardship. Sometimes manipulation is real; sometimes the market is revealing scarcity that policy would rather not confront. Closing an exchange can suppress a signal without producing more grain. The institutional challenge is to police abuse while preserving price discovery and risk transfer."
       },
       {
-        "title": "Too much reactive nitrogen escapes the field",
-        "text": "Crops do not absorb every unit of fertilizer applied. Nitrogen can run into rivers and coastal waters, feed algal blooms and lower oxygen levels. It can enter groundwater as nitrate, or escape as ammonia and nitrous oxide. UNEP identifies excess reactive nitrogen as a source of water pollution, biodiversity loss, air-quality harm and climate forcing. The agricultural objective is therefore not simply “more fertilizer.” It is enough nitrogen at the right place and time, measured against the harvest and the losses. Soil management, precision application and crop rotations reduce waste while preserving productivity."
+        "title": "A futures market is infrastructure, not a prediction machine",
+        "text": "Dōjima’s lasting lesson is not that traders learned to see the future. Futures prices can be wrong, distorted or overwhelmed by events. The achievement was to build a system around uncertainty: standardized claims, membership, collateral, clearing, settlement and rapid communication. Each element answered a practical failure mode. Without standards, contracts were incomparable. Without margin, losing positions could default. Without clearing and enforcement, a chain of private promises could collapse. Without price transmission, the benchmark stayed local. Modern exchanges use electronic order books and global clearing houses, but the underlying problem is recognizable. Markets become durable when their rules make disagreement survivable."
       },
       {
-        "title": "The lasting story is a changed constraint",
-        "text": "Haber and Bosch turned atmospheric nitrogen into an industrial commodity. That made much larger harvests possible, strengthened wartime industry, and tied food production to energy and ecological cycles. The story’s tension remains alive: societies still need affordable fertilizer, but they also need to produce it with less carbon and keep surplus nitrogen out of air and water. The useful mental model is a moving bottleneck. Solving a shortage at one link can reveal pressure at the next: first chemical fixation, then factory scale, then affordable distribution, then environmental absorption. Progress comes from tracing the whole chain rather than celebrating or condemning one invention in isolation."
+        "title": "The market’s origin changes how finance should be judged",
+        "text": "The world’s early organized futures market grew around a staple food and a tax system, not around financial fashion. It helped turn future rice into present liquidity and scattered information into a common price. It also created opportunities for leverage, speculation and political conflict. Both sides belong in the history. A derivative is neither productive nor destructive by name; its value depends on the exposure it serves, the transparency of its price, the integrity of settlement and the concentration of losses when forecasts fail. Dōjima’s merchants did not solve uncertainty. They built civic machinery for carrying it."
       }
     ],
     "timeline": [
       {
-        "date": "1909",
-        "text": "Haber demonstrates a workable laboratory route to synthesize ammonia."
+        "date": "Early 1600s",
+        "text": "A rice market develops near the Osaka merchant Yodoya’s shop."
       },
       {
-        "date": "1913",
-        "text": "BASF starts the first industrial ammonia plant at Oppau under Bosch’s engineering leadership."
+        "date": "Late 1600s",
+        "text": "Domains expand Osaka warehouses and issue tradable rice bills against tax grain."
       },
       {
-        "date": "1915",
-        "text": "Haber supervises the German chlorine-gas attack at Ypres; synthetic nitrogen also supports wartime production."
+        "date": "c. 1697",
+        "text": "The concentrated rice market moves to Dōjima."
       },
       {
-        "date": "1918",
-        "text": "Haber receives the Nobel Prize in Chemistry for ammonia synthesis."
+        "date": "1730",
+        "text": "The shogunate authorizes Dōjima’s spot and book-based futures markets."
       },
       {
-        "date": "1931",
-        "text": "Bosch shares the Nobel Prize for industrial high-pressure chemical methods."
+        "date": "1811",
+        "text": "Trading reaches a recorded peak as Dōjima serves the late-feudal economy."
       },
       {
-        "date": "Mid-20th century",
-        "text": "Synthetic fertilizer becomes a core input to rising agricultural yields."
+        "date": "1869–1871",
+        "text": "The Meiji government bans the exchange during a price surge, then revives rice trading."
+      },
+      {
+        "date": "1939",
+        "text": "The successor exchange is abolished under Japan’s controlled wartime economy."
       },
       {
         "date": "Today",
-        "text": "The engineering agenda includes lower-emission production and reduced nitrogen losses from fields."
+        "text": "Margin, clearing, settlement and shared prices remain the core infrastructure of futures markets."
       }
     ],
     "sources": [
       {
-        "label": "BASF · Bosch and the 1913 Oppau plant",
-        "url": "https://www.basf.com/basf/www/global/en/who-we-are/history/Carl-Bosch"
+        "label": "Japan Exchange Group · Dōjima Rice Exchange history and chronology",
+        "url": "https://www.jpx.co.jp/dojima/en/"
       },
       {
-        "label": "Nobel Prize · Haber’s 1918 award",
-        "url": "https://www.nobelprize.org/prizes/chemistry/1918/haber/facts/"
+        "label": "Bank of Japan · margining, cash settlement and the exchange’s social role",
+        "url": "https://www.boj.or.jp/en/about/press/koen_2012/ko120726a.htm"
       },
       {
-        "label": "Nobel Prize · Bosch’s 1931 award",
-        "url": "https://www.nobelprize.org/prizes/chemistry/1931/summary/"
+        "label": "Journal of Banking & Finance · forwards and futures in Tokugawa Japan",
+        "url": "https://www.sciencedirect.com/science/article/pii/0378426689900289"
       },
       {
-        "label": "Science History Institute · Haber, fertilizer and chemical warfare",
-        "url": "https://www.sciencehistory.org/education/scientific-biographies/fritz-haber/"
+        "label": "Journal of Banking & Finance · efficiency and seasonal character at Dōjima",
+        "url": "https://www.sciencedirect.com/science/article/pii/S037842660000087X"
       },
       {
-        "label": "IEA · ammonia energy and emissions",
-        "url": "https://www.iea.org/reports/ammonia-technology-roadmap/executive-summary"
-      },
-      {
-        "label": "UNEP · nitrogen pollution and fertilizer",
-        "url": "https://www.unep.org/interactives/beat-nitrogen-pollution/"
+        "label": "Food Policy · what later rice-futures failure reveals about market prerequisites",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0306919224001283"
       }
     ]
   },
   "threads": [
     {
-      "status": "Updated today · route rejected",
-      "title": "Qatar LNG and Hormuz",
-      "text": "No pipeline bypass · two train repairs estimated at three years",
-      "progress": 89
+      "status": "Updated today · direct contact",
+      "title": "Iran war and Hormuz",
+      "text": "Three-hour U.S.–Iran meeting · no published terms",
+      "progress": 91
     },
     {
-      "status": "Updated today · UK support",
-      "title": "Red Sea and Yemen escalation",
-      "text": "RAF refueling Saudi aircraft · Houthi blockade and strikes continue",
-      "progress": 95
+      "status": "Updated today · framework proposed",
+      "title": "Gulf collective security",
+      "text": "Qatar calls for regional rules beyond a temporary pause",
+      "progress": 62
     },
     {
-      "status": "Updated today · reciprocal strikes",
+      "status": "Updated today · leaders met",
       "title": "Ukraine long-range war",
-      "text": "Russian strikes followed weekend drone wave · U.N. talks ahead",
-      "progress": 92
+      "text": "Five killed · refinery strikes continue · Patriots unresolved",
+      "progress": 94
     },
     {
-      "status": "Updated today · execution gap",
-      "title": "U.S.–China economic truce",
-      "text": "Trade board and tariff relief remain prospective before Xi visit",
-      "progress": 67
+      "status": "New today · substantial agreement",
+      "title": "EU trade diversification",
+      "text": "Philippines pact advanced · final text and ratification pending",
+      "progress": 68
     },
     {
-      "status": "Updated today · policy split",
+      "status": "Updated today · rates dominate",
       "title": "Higher-rate global regime",
-      "text": "Fed officials debate inflation versus employment costs",
-      "progress": 88
+      "text": "Dollar near two-month high · oil eases on diplomacy hopes",
+      "progress": 90
     },
     {
-      "status": "New today · access pledge",
-      "title": "AI language infrastructure",
-      "text": "60 signatories · 3.4bn-person goal · benchmarks and governance next",
-      "progress": 55
+      "status": "New today · integrated stack",
+      "title": "China AI infrastructure",
+      "text": "Alibaba chip claim · 5–10tn parameter plan · benchmarks next",
+      "progress": 58
     }
   ]
 }
