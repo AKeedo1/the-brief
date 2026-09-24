@@ -1,0 +1,557 @@
+{
+  "date": {
+    "display": "Wednesday, 23 September 2026",
+    "edition": "032",
+    "updated": "7:25 AM"
+  },
+  "worldSentence": "U.S. and Iranian representatives finally met after months of war, but the gulf between contact and settlement remains large as energy, inflation, food and infrastructure risks keep spreading through the global economy.",
+  "standfirst": "Donald Trump said his envoys held a three-hour meeting with Iranian mediators after he threatened Iran from the U.N. podium; Qatar’s Amir argued that the region needs a collective-security system, not another temporary pause. Russia and Ukraine escalated their air campaigns around a Trump–Zelenskyy meeting. The EU and Philippines moved closer to a trade pact, central-bank tightening supported the dollar even as oil eased on diplomacy hopes, and an extreme El Niño raised new food-price risks. Alibaba unveiled a new AI chip and much larger model plans; luxury executives described a worsening value problem; and the U.S. aviation outage left a concrete bill for resilience.",
+  "listenTime": "35 min",
+  "coverage": [
+    {
+      "count": 1,
+      "label": "Qatar & Gulf"
+    },
+    {
+      "count": 2,
+      "label": "World & security"
+    },
+    {
+      "count": 2,
+      "label": "Economy & markets"
+    },
+    {
+      "count": 1,
+      "label": "AI & technology"
+    },
+    {
+      "count": 1,
+      "label": "Consumer & retail"
+    },
+    {
+      "count": 1,
+      "label": "Aviation & tourism"
+    }
+  ],
+  "connected": {
+    "title": "Today’s announcements all need an operating test.",
+    "signals": [
+      {
+        "label": "IRAN TALKS",
+        "value": "3 HOURS",
+        "text": "Trump’s description of the first reported direct contact, without published terms."
+      },
+      {
+        "label": "AI PLAN",
+        "value": "5–10TN",
+        "text": "Alibaba’s target parameter range for a future model, not a capability result."
+      },
+      {
+        "label": "FAA ASK",
+        "value": "$20BN",
+        "text": "Additional U.S. funding sought after primary and backup communications failed."
+      }
+    ],
+    "note": "A meeting is not a peace agreement, substantial trade alignment is not a ratified tariff schedule, a larger model is not proven performance, and a backup is not resilient if it shares the same failure path. Across diplomacy, trade, technology and aviation, the useful question is what works under real conditions—not what has been announced."
+  },
+  "stories": [
+    {
+      "id": "us-iran-talks-qatar-security",
+      "number": "01",
+      "category": "Qatar diplomacy, Iran & Hormuz",
+      "sourceNote": "AP · Tuesday night · QNA",
+      "title": "U.S. and Iranian representatives met for three hours, while Qatar argued that a settlement needs a regional security structure.",
+      "changed": "President Donald Trump said envoys Steve Witkoff and Jared Kushner held a three-hour meeting with Iranian mediators on Tuesday and called it productive, but he published no terms. The contact followed his U.N. threat to annihilate Iran if no deal is reached. At the same gathering, Qatar’s Amir said reopening the Strait of Hormuz and returning to negotiations could end the crisis, but argued that the deeper regional failure is the absence of a collective-security system respecting sovereignty and non-interference.",
+      "matters": "Direct contact is more consequential than another prediction that a deal is close, yet the public evidence still shows process rather than settlement. Hormuz, attacks on Gulf infrastructure and the war’s energy shock cannot be stabilized by a private meeting alone. Qatar’s proposal shifts the frame from a bilateral U.S.–Iran bargain toward rules that neighboring states would have to accept and enforce. That is a larger diplomatic project—and a harder one.",
+      "watch": "Whether Iranian officials confirm the meeting; any written ceasefire sequence; terms for reopening Hormuz; verification and sanctions arrangements; attacks on Gulf states and shipping; and whether GCC and Iranian officials engage Qatar’s collective-security proposal.",
+      "personal": false,
+      "lead": true,
+      "group": {
+        "label": "The lead",
+        "title": "Contact has resumed, but no settlement has been demonstrated.",
+        "note": "Trump reported a three-hour meeting; Qatar set out a wider regional framework.",
+        "break": false
+      },
+      "background": {
+        "title": "A negotiation has at least three layers",
+        "text": "The immediate layer is stopping attacks and restoring safe passage through Hormuz. A second layer covers the U.S.–Iran dispute itself: military pressure, sanctions, security guarantees and whatever verification a deal requires. Qatar’s Amir added a third layer—regional rules intended to prevent one confrontation from pulling neighboring states and their infrastructure into war. Tuesday produced evidence of contact and a public architecture for diplomacy. It did not produce a ceasefire, signed terms or a reopening schedule.",
+        "known": "Trump said his envoys met Iranian mediators for three hours; Qatar’s Amir publicly called for negotiations and collective security.",
+        "new": "The first reported direct contact followed the U.N. speeches, while Qatar specified the institutional gap it wants addressed."
+      },
+      "evidence": {
+        "left": {
+          "label": "Confirmed public claims",
+          "text": "AP documented Trump’s account; QNA and the Amiri Diwan published the Amir’s speech."
+        },
+        "right": {
+          "label": "Still unverified",
+          "text": "Iranian confirmation, the participants’ mandate, negotiating text and implementation sequence are not public."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · Trump reports the three-hour U.S.–Iran contact",
+          "url": "https://apnews.com/article/692e1e171a791be0c9b9c1f56718a0d0"
+        },
+        {
+          "label": "QNA · Amir calls for a regional collective-security system",
+          "url": "https://qna.org.qa/en/news/news-details?date=22%2F09%2F2026&id=hh-the-amir-core-of-current-dangerous-situation-is-absence-of-regional-collective-security-system"
+        },
+        {
+          "label": "Amiri Diwan · full diplomatic framing and Hormuz proposal",
+          "url": "https://www.diwan.gov.qa/en/briefing-room/news/international-occasions/2026/september/22/hh-the-amir-participates-in-opening-session-of-un-general-assembly"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-trump-meeting-air-war",
+      "number": "02",
+      "category": "Ukraine war, air defense & energy",
+      "sourceNote": "AP · Tuesday",
+      "title": "Trump and Zelenskyy discussed an end to the war while strikes intensified and Ukraine still lacked a clear answer on Patriot interceptors.",
+      "changed": "President Volodymyr Zelenskyy met Trump at the U.N. after Russian overnight missiles and drones killed five people across at least four Ukrainian regions. Ukraine said it damaged two more Russian oil refineries. Trump called the refinery campaign both a serious hit on Russia and a contributor to higher diesel prices. Zelenskyy later said Washington remained positive about Patriot support but had not given a concrete answer.",
+      "matters": "The meeting exposed the collision between three objectives: weaken Russia’s war economy, limit global fuel disruption and defend Ukrainian cities. Refinery strikes can pressure Moscow while tightening diesel markets; Patriot scarcity links Ukraine’s needs to interceptor use in the Middle East. A broad statement that a deal may happen does not resolve these allocation and targeting choices.",
+      "watch": "A concrete U.S. air-defense package; further Russian casualty and damage reports; the scale of Ukrainian refinery attacks; any targeting understanding; and whether a proposed Trump–Putin–Zelenskyy meeting acquires a date, agenda and accepted participants.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "The world beyond the lead",
+        "title": "Diplomacy met an air war that is still widening.",
+        "note": "The leaders met, but no ceasefire or air-defense commitment followed.",
+        "break": false
+      },
+      "background": {
+        "title": "One interceptor pool, several wars",
+        "text": "Ukraine has repeatedly asked for Patriot missiles against advanced Russian ballistic threats. The United States and allies are also using high-end air defenses against Iranian and Houthi attacks, making supply a strategic allocation problem rather than a simple procurement request. At the same time, attacks on refineries connect the military campaign to civilian fuel prices. The negotiation therefore concerns weapons, targets and economic spillovers—not only territory.",
+        "known": "The meeting occurred; AP reported five deaths, two additional damaged Russian refineries and no concrete Patriot answer.",
+        "new": "Trump publicly acknowledged both the military effect and diesel-price cost of Ukraine’s refinery campaign."
+      },
+      "evidence": {
+        "left": {
+          "label": "Observed escalation",
+          "text": "Russian strikes killed five people and Ukraine reported new refinery damage."
+        },
+        "right": {
+          "label": "Diplomacy incomplete",
+          "text": "No three-way meeting, ceasefire mechanism or Patriot commitment has been announced."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · Trump–Zelenskyy meeting, strikes and Patriot request",
+          "url": "https://apnews.com/article/russia-ukraine-united-nations-zelenskyy-trump-us-9c3d38e7e97132884f915e157dbf9ef1"
+        }
+      ]
+    },
+    {
+      "id": "eu-philippines-trade-substantial-agreement",
+      "number": "03",
+      "category": "Trade diversification & Southeast Asia",
+      "sourceNote": "AP · Tuesday",
+      "title": "The EU and Philippines reached substantial agreement on a trade pact built around diversification.",
+      "changed": "European and Philippine negotiators said they had reached substantial agreement on a free-trade deal, although final legal work, signature and ratification remain. The proposed pact is part of the EU’s effort to widen commercial relationships while ties with China, Russia and the United States remain strained.",
+      "matters": "This is a concrete example of trade fragmentation producing new links rather than only tariffs. A deal could improve market access and supply-chain options between a 27-country bloc and a fast-growing Southeast Asian economy. But the economic value depends on the final schedules, rules of origin, services access and implementation—not the phrase substantial agreement.",
+      "watch": "The final text; tariff phase-out schedules; treatment of agriculture, autos, services and critical minerals; labor and sustainability provisions; signature and ratification timetables; and how businesses use the agreement after entry into force.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "Global economy",
+        "title": "Diversification is moving from strategy into negotiated market access.",
+        "note": "Political agreement is advanced, but the legal and commercial details remain decisive.",
+        "break": true
+      },
+      "background": {
+        "title": "Bilateral deals as a hedge against bloc risk",
+        "text": "The EU has increasingly pursued bilateral agreements to create alternative demand, sourcing and investment channels. The Philippines offers a large consumer market and a position inside ASEAN; Europe offers scale and regulatory credibility. Yet firms trade under customs rules, not geopolitical intentions. The durable change begins only when eligible products, origin requirements, services permissions and dispute procedures are published and ratified.",
+        "known": "Both sides report substantial agreement on a new free-trade pact.",
+        "new": "Negotiations have moved beyond broad intent, though the agreement is not yet operational."
+      },
+      "evidence": {
+        "left": {
+          "label": "Negotiating breakthrough",
+          "text": "AP reports substantial agreement and the EU’s explicit diversification rationale."
+        },
+        "right": {
+          "label": "Not yet market access",
+          "text": "Final text, signature, ratification and effective dates are still pending."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · EU–Philippines trade negotiations",
+          "url": "https://apnews.com/article/eu-philippines-free-trade-deal-european-union-85e74be2f192e180614a4b763ccfeae9"
+        }
+      ]
+    },
+    {
+      "id": "dollar-rates-oil-diplomacy",
+      "number": "04",
+      "category": "Currencies, rates & oil",
+      "sourceNote": "Reuters · Wednesday",
+      "title": "The dollar held near a two-month high as rate expectations outweighed tentative relief in oil.",
+      "changed": "The dollar index stood around 100.56 in early Wednesday trading, near its strongest level in two months. Markets expect more tightening from major central banks after recent hikes and hawkish guidance. Brent traded near $99.22 a barrel, down from recent highs on hopes that U.N. diplomacy could advance an Iran settlement, but still 37% above its level when the conflict began in late February.",
+      "matters": "The market is separating two forces that had recently moved together. Peace hopes can lower oil and near-term inflation pressure, while persistent demand and rate differentials can still support the dollar. That combination affects imported costs, global financing conditions and assets priced in dollars. It also means one diplomatic headline cannot by itself reverse the higher-rate regime.",
+      "watch": "Published U.S.–Iran terms; Hormuz shipping flows; Brent and refined-product spreads; U.S. inflation and labor data; guidance from voting Fed members; yen intervention signals; and whether market pricing outruns central-bank projections.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "Economy & markets",
+        "title": "Oil relief and monetary tightening are no longer the same trade.",
+        "note": "Diplomacy eased energy prices while rate differentials kept supporting the dollar.",
+        "break": false
+      },
+      "background": {
+        "title": "A stronger dollar can survive softer oil",
+        "text": "The Iran war pushed up energy prices and inflation expectations, encouraging central banks to tighten. Now crude can fall on negotiation hopes while interest-rate expectations remain elevated because domestic demand and broader inflation are still firm. Currency values respond to expected returns across economies, not only commodity prices. The present dollar level is therefore evidence of a rate story as well as a geopolitical one.",
+        "known": "Reuters documented the early-Wednesday currency, oil and rate-pricing levels.",
+        "new": "Markets are pricing tentative energy relief without abandoning expectations of further tightening."
+      },
+      "evidence": {
+        "left": {
+          "label": "Market signal",
+          "text": "Dollar strength persists even with Brent below recent peaks."
+        },
+        "right": {
+          "label": "Policy uncertainty",
+          "text": "Futures may price more tightening than central banks ultimately deliver."
+        }
+      },
+      "sources": [
+        {
+          "label": "Reuters · dollar, oil and central-bank expectations",
+          "url": "https://sa.marketscreener.com/news/dollar-holds-near-2-month-high-as-markets-weigh-rate-hikes-iran-diplomacy-ce785ad9d88ff025"
+        },
+        {
+          "label": "Reuters · Barkin says inflation pressure extends beyond energy",
+          "url": "https://in.marketscreener.com/news/fed-s-barkin-says-economy-may-be-firming-inflation-not-limited-to-energy-tariff-shocks-ce785ad8d18af624"
+        }
+      ]
+    },
+    {
+      "id": "extreme-el-nino-food-risk",
+      "number": "05",
+      "category": "Climate, food & Asian economies",
+      "sourceNote": "AP · Tuesday",
+      "title": "A potentially record El Niño is turning Asia’s drought into a second global food shock.",
+      "changed": "The U.S. National Oceanic and Atmospheric Administration assigns a 69% chance that the current El Niño will become the strongest in records dating to 1950. Drought, heat, fires and depleted water supplies are already affecting parts of Southeast Asia. The World Food Program estimates the event could push at least 49 million additional people into acute food insecurity by the end of 2027.",
+      "matters": "Energy and fertilizer stress from the Iran war has already reduced governments’ fiscal room and raised farm costs. A severe weather shock can now hit rice, palm oil, fisheries and other supply chains at the same time. The risk is not merely a bad harvest in one country; export restrictions and precautionary buying can transmit local shortages into world prices.",
+      "watch": "The expected December peak; rainfall and reservoir data; rice and palm-oil yields; wildfire and haze conditions; export controls; food-subsidy spending; WFP funding; and whether the 69% forecast is revised as Pacific temperatures evolve.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "Food-system risk",
+        "title": "The next inflation shock may come from weather layered onto war.",
+        "note": "The forecast is probabilistic, but physical effects are already visible.",
+        "break": true
+      },
+      "background": {
+        "title": "A climate event becomes an economic cascade",
+        "text": "El Niño begins with unusually warm Pacific waters and alters rainfall across distant regions. The agricultural damage depends on timing, local crops, irrigation and policy responses. A moderate harvest loss can become a larger price shock when countries restrict exports or importers build inventories simultaneously. Current energy and fertilizer constraints make adaptation costlier and leave less public money for subsidies or emergency imports.",
+        "known": "Drought, wildfire and water stress are already present; NOAA and WFP supplied the forecast probabilities and food-security estimate.",
+        "new": "The event is now being assessed as a plausible record and a compound shock rather than a routine climate cycle."
+      },
+      "evidence": {
+        "left": {
+          "label": "Physical evidence",
+          "text": "AP documented depleted reservoirs, peatland fires and affected fisheries and farms."
+        },
+        "right": {
+          "label": "Forecast range",
+          "text": "Regional impacts and the final strength of the event remain uncertain."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · extreme El Niño and Asian food-system exposure",
+          "url": "https://apnews.com/article/asia-el-nino-drought-rice-palm-oil-31c88df9ce8f67bcbfe3ea7f39431d57"
+        }
+      ]
+    },
+    {
+      "id": "alibaba-zhenwu-qwen-scale",
+      "number": "06",
+      "category": "China AI chips & models",
+      "sourceNote": "AP · Tuesday",
+      "title": "Alibaba paired a new domestic AI chip claim with plans for a five-to-ten-trillion-parameter model.",
+      "changed": "At its Hangzhou conference, Alibaba introduced new AI chip technology including Zhenwu 810E, which it described as China’s most powerful AI chip. It also said its latest Qwen3.8-Max model has 2.4 trillion parameters and that it intends to train a successor in the five-to-ten-trillion range. The announcement arrived before Xi Jinping’s Washington visit, where AI competition is expected to feature.",
+      "matters": "The package shows China pursuing hardware and model scale together under U.S. technology restrictions. A competitive domestic accelerator could reduce exposure to imported chips; a larger model could expand capability. Both conclusions remain hypotheses until independent benchmarks, availability, training economics and developer adoption are visible. Parameter count alone does not measure reasoning quality or cost.",
+      "watch": "Independent chip and model benchmarks; shipment volumes; foundry and memory supply; model release terms; inference prices; developer uptake; power requirements; and any U.S.–China agreement or new restriction affecting AI hardware.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "Technology",
+        "title": "China’s AI strategy is coupling model ambition to a domestic compute stack.",
+        "note": "The scale claims are public; performance and supply remain to be tested.",
+        "break": false
+      },
+      "background": {
+        "title": "Scale is an input, not the result",
+        "text": "Parameters are adjustable values learned during training. More can increase capacity, but results also depend on data, architecture, training method, software and inference resources. Chips face a parallel distinction: a design announcement is not equivalent to reliable production at volume. Alibaba’s integrated position in cloud services, models and applications could help adoption, yet independent evidence is needed before ranking the system against U.S. alternatives.",
+        "known": "Alibaba announced the chip, the current 2.4-trillion-parameter model and the future training target.",
+        "new": "The company has made a specific, much larger scale commitment tied to domestic hardware."
+      },
+      "evidence": {
+        "left": {
+          "label": "Strategic commitment",
+          "text": "Alibaba is funding both the compute layer and the model layer."
+        },
+        "right": {
+          "label": "Capability unproven",
+          "text": "The company’s superlative and future scale target lack independent operating results."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · Alibaba chip and Qwen model plans",
+          "url": "https://apnews.com/article/alibaba-ai-chip-qwen-zhenwu-china-us-b29908e516faff9f5a82b201ba954aab"
+        }
+      ]
+    },
+    {
+      "id": "luxury-value-wellness-shift",
+      "number": "07",
+      "category": "Luxury, pricing & consumer priorities",
+      "sourceNote": "Reuters · Tuesday",
+      "title": "Luxury executives say high prices and shifting priorities are deepening the sector’s slowdown.",
+      "changed": "Ahead of Milan and Paris fashion weeks, executives and advisers described a recovery that is failing to arrive. LVMH shares were down 37% for the year and Kering had erased gains made since its chief executive arrived. Industry figures said repeated price rises have sharpened value concerns even among wealthy customers, while some spending is moving toward wellness, health, longevity, hotels and restaurants.",
+      "matters": "The sector’s problem is not only a temporary fall in traffic. Years of price-led growth may have weakened the perceived exchange between product, novelty and price. Cutting prices risks margin and brand signaling; holding them requires stronger desirability. A shift toward experiences and wellbeing also changes which competitors capture affluent discretionary spending.",
+      "watch": "Fashion-week product reception; store traffic and full-price sell-through; entry-price products; China, U.S. and Gulf demand; inventory discipline; brand-level results; and evidence that wellness and hospitality spending is substituting for goods rather than merely adding to it.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "Consumer & retail",
+        "title": "The luxury slowdown is becoming a value proposition problem.",
+        "note": "Industry commentary links price fatigue to a broader shift in affluent spending.",
+        "break": true
+      },
+      "background": {
+        "title": "Price can protect exclusivity until it exposes sameness",
+        "text": "Luxury companies used large increases to expand revenue and preserve scarcity through recent disruption. That works when creative renewal, service and cultural relevance keep pace. When customers see the product as familiar but much dearer, even high-income buyers compare value. Brands then face an awkward triangle: lower price and risk prestige, reduce volume and lose sales, or invest through the downturn to make the proposition compelling again.",
+        "known": "Reuters documented market performance and comments from executives and advisers before the shows.",
+        "new": "The industry is discussing preference shifts more openly instead of assuming a near-term cyclical rebound."
+      },
+      "evidence": {
+        "left": {
+          "label": "Demand signal",
+          "text": "Share performance and management commentary show worsening expectations."
+        },
+        "right": {
+          "label": "Substitution uncertain",
+          "text": "The scale and durability of spending shifts toward experiences are not yet quantified."
+        }
+      },
+      "sources": [
+        {
+          "label": "Reuters · luxury slowdown, pricing and spending shifts",
+          "url": "https://www.investing.com/news/stock-market-news/the-show-must-go-on-struggling-luxury-brands-seek-catwalk-boost-in-milan-and-paris-4909868"
+        }
+      ]
+    },
+    {
+      "id": "faa-outage-recovery-overhaul",
+      "number": "08",
+      "category": "Aviation systems & resilience",
+      "sourceNote": "AP · Tuesday",
+      "title": "The Northeast aviation outage became a case for a $20 billion U.S. control-system overhaul.",
+      "changed": "Airlines were still repositioning aircraft and crews on Tuesday after Monday’s communications failure, with nearly 100 flights canceled by midday. AP reported that a switch on the primary line at the Philadelphia control facility failed; the backup fiber had separately been cut by railway construction. Transportation Secretary Sean Duffy used the outage to press Congress for another $20 billion for the next modernization phase.",
+      "matters": "The incident moved from a generic technical failure to a specific resilience lesson: the primary system and its supposed backup were both unavailable. Restoration did not immediately restore the network because tightly scheduled fleets and crews had moved out of place. Funding may be justified, but the design test is whether new communications paths are genuinely independent and routinely exercised.",
+      "watch": "The FAA investigation; independent routing for backup circuits; replacement of the failed switch; Congressional treatment of the $20 billion request; airline recovery time; and whether modernization milestones include tested failover rather than equipment installation alone.",
+      "personal": false,
+      "lead": false,
+      "group": {
+        "label": "Aviation",
+        "title": "A backup failed the only test that matters: being available when the primary path broke.",
+        "note": "Tuesday’s recovery revealed the operational tail and the funding response.",
+        "break": false
+      },
+      "background": {
+        "title": "Network recovery lasts longer than repair",
+        "text": "An air-traffic communications fault can stop arrivals immediately. Once flights are canceled or diverted, crews time out, aircraft miss later rotations and gates and passenger connections fall out of sequence. That is why Tuesday still carried cancellations after Monday evening’s technical restoration. The infrastructure question is equally practical: redundancy must avoid common routes and common dependencies, or a second line exists on paper without providing real resilience.",
+        "known": "Both lines were unavailable, flights resumed Monday evening and cancellations continued Tuesday.",
+        "new": "Officials identified the distinct primary and backup failures and attached a specific modernization funding request."
+      },
+      "evidence": {
+        "left": {
+          "label": "Failure chain",
+          "text": "A failed primary switch coincided with a construction-severed backup fiber."
+        },
+        "right": {
+          "label": "Spending test",
+          "text": "The proposed funding is not yet an approved plan or proof of independent redundancy."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · outage recovery and air-traffic overhaul request",
+          "url": "https://apnews.com/article/faa-flights-laguardia-newark-jfk-airport-05e563809c8f954e175dfb93b9cf781d"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Qatar financial services",
+      "title": "Apex Group plans a regional Lusail office after a new Invest Qatar partnership.",
+      "text": "The expansion could add fund-administration and asset-servicing capacity. Watch actual staffing, licensed activities and client mandates rather than the partnership announcement alone.",
+      "url": "https://qna.org.qa/en/news/news-details?date=22%2F09%2F2026&id=invest-qatar-apex-group-partner-to-advance-qatars-financial-services-ecosystem"
+    },
+    {
+      "label": "Qatar 2036",
+      "title": "The Olympic bid chief framed Doha’s campaign as a regional first built on existing infrastructure.",
+      "text": "This is bid positioning, not an IOC decision. Watch the formal process, competing cities, venue plan, climate strategy and public cost.",
+      "url": "https://qna.org.qa/en/news/news-details?date=23%2F09%2F2026&id=ceo-of-qatars-2036-olympic-bid-says-country-hopes-to-host-exceptional-edition"
+    },
+    {
+      "label": "AI governance",
+      "title": "Britain called for global AI transparency and access rules as the U.S. rejected a global regulatory scheme.",
+      "text": "The disagreement is now explicit but still rhetorical. Watch draft standards, government signatories and whether model providers accept enforceable reporting.",
+      "url": "https://apnews.com/article/692e1e171a791be0c9b9c1f56718a0d0"
+    }
+  ],
+  "attention": {
+    "title": "Qatar’s argument for Gulf collective security",
+    "text": "Read the primary account for the distinction between reopening Hormuz, negotiating a bilateral settlement and building rules that protect every regional state.",
+    "url": "https://qna.org.qa/en/news/news-details?date=22%2F09%2F2026&id=hh-the-amir-core-of-current-dangerous-situation-is-absence-of-regional-collective-security-system"
+  },
+  "ignore": {
+    "title": "Parameter count as a league table for AI capability",
+    "text": "Alibaba’s scale target is strategically important, but quality, cost, availability and independent benchmarks determine whether the system is useful."
+  },
+  "history": {
+    "id": "history-dojima-rice-futures",
+    "number": "09",
+    "readTime": "7 min read",
+    "era": "JAPAN, RICE & MARKET INFRASTRUCTURE\n1600s–PRESENT",
+    "title": "Osaka’s rice merchants built a futures market before finance had the language for one.",
+    "deck": "In Tokugawa Japan, tax rice flowed into Osaka warehouses while samurai governments needed spendable money before every harvest or shipment arrived. Merchants turned warehouse claims and future delivery into tradable contracts. In 1730, the shogunate authorized the Dōjima market, complete with membership, margining, cash settlement and clearing functions. The result was not merely speculation: it was an information and risk system built around the country’s fiscal grain.",
+    "thesis": "Futures markets emerged at Dōjima because a physical supply chain, a credit system and a volatile fiscal asset all needed one trusted price—and rules for surviving disagreement about the future.",
+    "sections": [
+      {
+        "title": "Rice was food, tax revenue and political finance",
+        "text": "Tokugawa Japan’s domains collected much of their revenue in rice. Bales moved from producing regions to warehouse-residences in commercial cities, especially Osaka. The ruling warrior class, however, paid expenses in money. That created a recurring conversion problem: the value of the tax base changed with harvests, transport and demand, while obligations continued every month. Osaka’s warehouse district became the place where physical rice, official finance and merchant credit met. The market did not begin with an abstract desire to invent derivatives. It began because people held claims on a crop whose arrival, quality and price were uncertain, and they needed liquidity before every bale could be inspected and sold."
+      },
+      {
+        "title": "Warehouse claims became easier to move than grain",
+        "text": "Domains auctioned stored tax rice and issued rice bills promising exchange for specified quantities. Some bills covered rice already in Osaka; others referred to deliveries still on the way or future harvests. The paper claim could circulate without the holder moving heavy bales through the city. That separation of ownership from immediate physical possession made trade faster, but it also required trust in issuers, warehouses and settlement. A rice bill was useful only if participants believed that the underlying obligation would be honored. The financial instrument therefore grew out of logistics. Warehousing created standardized claims; standardized claims created a market; and the market created demand for common rules."
+      },
+      {
+        "title": "Dōjima organized disagreement about tomorrow’s price",
+        "text": "By the late seventeenth century, rice trading had concentrated around Dōjima. In 1730, the Tokugawa shogunate formally authorized both a spot market for rice bills and a book-based futures market in representative grades. Traders could agree today on a price for settlement later, allowing someone exposed to falling rice prices to transfer part of that risk to someone willing to take the opposite view. The Bank of Japan describes the market as having margining and cash settlement; Japan Exchange Group notes membership and clearing functions resembling later exchanges. Those details matter. A future price becomes socially useful only when participants know who may trade, how losses are covered and how contracts end."
+      },
+      {
+        "title": "Price discovery traveled faster than the commodity",
+        "text": "The Dōjima price became a reference beyond the streets where trading occurred. Couriers and flag signals carried quotations hundreds of kilometers to Edo and other cities. Rice itself moved by ship and cart; information about rice moved through a communications network. That difference in speed let a local market coordinate decisions across regions. A domain assessing revenue, a merchant financing inventory and a buyer planning future needs could respond to a shared signal rather than isolated local rumors. The exchange’s importance therefore came from more than the volume traded. It produced a public benchmark from private bids, compressing dispersed judgments about harvests, transport, inventories and demand into one observable price."
+      },
+      {
+        "title": "Hedging and speculation were inseparable partners",
+        "text": "A producer or holder of rice could use futures to reduce exposure to a price fall. That contract required another participant willing to accept the risk, perhaps because that trader expected prices to rise. Modern debates often imagine hedging as legitimate and speculation as an unwanted addition, but a market needs counterparties and liquidity. Historical research also cautions against romanticizing Dōjima as perfectly efficient. Studies find changing performance across seasons and periods, with producer hedging stronger in some markets and financial trading more prominent in others. The useful achievement was not eliminating volatility or bad judgment. It was creating a governed arena in which different expectations could meet and obligations could be settled."
+      },
+      {
+        "title": "Government alternated between using the market and blaming it",
+        "text": "The shogunate authorized Dōjima partly because rice prices were politically important. Later governments also intervened when prices became unacceptable. Japan Exchange Group records that the Meiji government banned Dōjima trading in 1869 amid steep price rises, then revived a rice exchange in 1871 to restore active trade. This cycle is familiar: authorities value market liquidity and information during normal times, then suspect speculation when prices cause hardship. Sometimes manipulation is real; sometimes the market is revealing scarcity that policy would rather not confront. Closing an exchange can suppress a signal without producing more grain. The institutional challenge is to police abuse while preserving price discovery and risk transfer."
+      },
+      {
+        "title": "A futures market is infrastructure, not a prediction machine",
+        "text": "Dōjima’s lasting lesson is not that traders learned to see the future. Futures prices can be wrong, distorted or overwhelmed by events. The achievement was to build a system around uncertainty: standardized claims, membership, collateral, clearing, settlement and rapid communication. Each element answered a practical failure mode. Without standards, contracts were incomparable. Without margin, losing positions could default. Without clearing and enforcement, a chain of private promises could collapse. Without price transmission, the benchmark stayed local. Modern exchanges use electronic order books and global clearing houses, but the underlying problem is recognizable. Markets become durable when their rules make disagreement survivable."
+      },
+      {
+        "title": "The market’s origin changes how finance should be judged",
+        "text": "The world’s early organized futures market grew around a staple food and a tax system, not around financial fashion. It helped turn future rice into present liquidity and scattered information into a common price. It also created opportunities for leverage, speculation and political conflict. Both sides belong in the history. A derivative is neither productive nor destructive by name; its value depends on the exposure it serves, the transparency of its price, the integrity of settlement and the concentration of losses when forecasts fail. Dōjima’s merchants did not solve uncertainty. They built civic machinery for carrying it."
+      }
+    ],
+    "timeline": [
+      {
+        "date": "Early 1600s",
+        "text": "A rice market develops near the Osaka merchant Yodoya’s shop."
+      },
+      {
+        "date": "Late 1600s",
+        "text": "Domains expand Osaka warehouses and issue tradable rice bills against tax grain."
+      },
+      {
+        "date": "c. 1697",
+        "text": "The concentrated rice market moves to Dōjima."
+      },
+      {
+        "date": "1730",
+        "text": "The shogunate authorizes Dōjima’s spot and book-based futures markets."
+      },
+      {
+        "date": "1811",
+        "text": "Trading reaches a recorded peak as Dōjima serves the late-feudal economy."
+      },
+      {
+        "date": "1869–1871",
+        "text": "The Meiji government bans the exchange during a price surge, then revives rice trading."
+      },
+      {
+        "date": "1939",
+        "text": "The successor exchange is abolished under Japan’s controlled wartime economy."
+      },
+      {
+        "date": "Today",
+        "text": "Margin, clearing, settlement and shared prices remain the core infrastructure of futures markets."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Japan Exchange Group · Dōjima Rice Exchange history and chronology",
+        "url": "https://www.jpx.co.jp/dojima/en/"
+      },
+      {
+        "label": "Bank of Japan · margining, cash settlement and the exchange’s social role",
+        "url": "https://www.boj.or.jp/en/about/press/koen_2012/ko120726a.htm"
+      },
+      {
+        "label": "Journal of Banking & Finance · forwards and futures in Tokugawa Japan",
+        "url": "https://www.sciencedirect.com/science/article/pii/0378426689900289"
+      },
+      {
+        "label": "Journal of Banking & Finance · efficiency and seasonal character at Dōjima",
+        "url": "https://www.sciencedirect.com/science/article/pii/S037842660000087X"
+      },
+      {
+        "label": "Food Policy · what later rice-futures failure reveals about market prerequisites",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0306919224001283"
+      }
+    ]
+  },
+  "threads": [
+    {
+      "status": "Updated today · direct contact",
+      "title": "Iran war and Hormuz",
+      "text": "Three-hour U.S.–Iran meeting · no published terms",
+      "progress": 91
+    },
+    {
+      "status": "Updated today · framework proposed",
+      "title": "Gulf collective security",
+      "text": "Qatar calls for regional rules beyond a temporary pause",
+      "progress": 62
+    },
+    {
+      "status": "Updated today · leaders met",
+      "title": "Ukraine long-range war",
+      "text": "Five killed · refinery strikes continue · Patriots unresolved",
+      "progress": 94
+    },
+    {
+      "status": "New today · substantial agreement",
+      "title": "EU trade diversification",
+      "text": "Philippines pact advanced · final text and ratification pending",
+      "progress": 68
+    },
+    {
+      "status": "Updated today · rates dominate",
+      "title": "Higher-rate global regime",
+      "text": "Dollar near two-month high · oil eases on diplomacy hopes",
+      "progress": 90
+    },
+    {
+      "status": "New today · integrated stack",
+      "title": "China AI infrastructure",
+      "text": "Alibaba chip claim · 5–10tn parameter plan · benchmarks next",
+      "progress": 58
+    }
+  ]
+}
