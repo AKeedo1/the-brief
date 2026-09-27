@@ -1,357 +1,449 @@
 {
   "date": {
-    "display": "Saturday, 26 September 2026",
-    "edition": "035",
+    "display": "Sunday, 27 September 2026",
+    "edition": "036",
     "updated": "7:00 AM"
   },
-  "worldSentence": "Diplomacy is finally pressing on the war’s economic choke points, but every apparent opening—from Hormuz to AI agents—still depends on enforceable terms, accountable operators and systems that work outside the announcement.",
-  "standfirst": "U.S. and Iranian negotiators are discussing a phased exchange around Hormuz and the American blockade, yet Tehran says its nuclear programme is not negotiable; oil fell 2% on hope rather than agreement. Qatar Airways retired its last passenger A330s and seconded pilots as high fuel costs and regional disruption reshape capacity. Washington preserved almost all of a $400 million Ukraine-aid appropriation. Brazil abruptly banned online betting and paired the move with a large household-debt programme. Congo’s Ebola response is finding only a fraction of expected contacts. The U.S. FTC chair argued that developers—not supposedly independent agents—should bear responsibility for agent behaviour, while Microsoft moved persistent agents deeper into office work.",
-  "listenTime": "31 min",
+  "worldSentence": "The weekend’s agreements and warnings share a hard boundary: narrow channels can reduce friction, but they do not remove the military, technical or physical systems still generating risk.",
+  "standfirst": "Trump rejected Iran’s proposed Hormuz sequence even as Tehran kept the mediated channel open. Washington and Beijing announced limited tariff relief and an AI incident line, while Australia summoned two AI chiefs after an agent accessed government sites. China drilled around Scarborough Shoal. Bangkok began draining almost 300 millimetres of rain, and a nor’easter disrupted power and aviation across the U.S. Northeast.",
+  "listenTime": "29 min",
   "coverage": [
-    { "count": 2, "label": "Qatar & Gulf" },
-    { "count": 3, "label": "World & security" },
-    { "count": 1, "label": "Economy & markets" },
-    { "count": 2, "label": "AI & technology" },
-    { "count": 1, "label": "Consumer & regulation" },
-    { "count": 1, "label": "Aviation" },
-    { "count": 1, "label": "Public health" }
+    {
+      "count": 1,
+      "label": "Qatar & Gulf"
+    },
+    {
+      "count": 2,
+      "label": "World & security"
+    },
+    {
+      "count": 1,
+      "label": "Economy & markets"
+    },
+    {
+      "count": 2,
+      "label": "AI & technology"
+    },
+    {
+      "count": 2,
+      "label": "Climate & infrastructure"
+    },
+    {
+      "count": 1,
+      "label": "Aviation"
+    }
   ],
   "connected": {
-    "title": "The headline move is only as real as the operating system beneath it.",
+    "title": "A channel is useful only when the systems on both sides can act through it.",
     "signals": [
       {
-        "label": "HORMUZ TALKS",
-        "value": "PHASED",
-        "text": "Negotiators are discussing reciprocal steps, but the nuclear file remains blocked."
+        "label": "HORMUZ OFFER",
+        "value": "REJECTED",
+        "text": "Iran says formal mediation continues despite Trump’s public answer."
       },
       {
-        "label": "QATAR CAPACITY",
-        "value": "−12% FLIGHTS",
-        "text": "War disruption is accelerating fleet renewal and pilot redeployment."
+        "label": "U.S.–CHINA TRADE",
+        "value": "$30BN EACH",
+        "text": "Targeted tariff relief leaves the strategic contest intact."
       },
       {
-        "label": "EBOLA TRACING",
-        "value": "30K / 400K",
-        "text": "Most expected contacts remain outside the surveillance net."
+        "label": "BANGKOK RAIN",
+        "value": "~300 MM",
+        "text": "Drainage is accelerating after a two-day deluge."
       }
     ],
-    "note": "Oil moved on the possibility of a deal before the terms existed. A fleet plan changed because operating economics changed, not because demand vanished forever. A government can ban a product overnight, but enforcement and illicit substitution determine the result. An AI agent can be described as autonomous, yet permissions, instructions and liability still belong to people and firms. Today’s stories separate announcement from execution."
+    "note": "A peace proposal without acceptance does not reopen a waterway. An AI incident line without reporting rules does not create safety. A disaster declaration does not drain a city, and better weather does not instantly restore an airline network. Today’s developments are about the difference between creating a channel and making it carry the intended result."
   },
   "stories": [
     {
-      "id": "iran-hormuz-phased-talks-oil",
+      "id": "iran-hormuz-plan-rejected",
       "number": "01",
-      "category": "Iran war, Hormuz & energy",
-      "sourceNote": "Reuters · Friday close",
-      "title": "U.S.–Iran talks acquired a phased structure, but the nuclear dispute still blocks a war-ending bargain.",
-      "changed": "U.S. and Iranian negotiators in New York are exploring a sequence in which Tehran reopens the Strait of Hormuz and Washington lifts its economic blockade. Iran simultaneously said it would show no flexibility on its nuclear programme even if the Hormuz proposal advances. Brent fell 2.1% to $104.32 and WTI 2.3% to $92.41 on Friday, while Kpler estimated crude flows through the strait at 33.7 million barrels for the week beginning 20 September—roughly level with the previous week.",
-      "matters": "The talks now have a mechanism rather than only a diplomatic aspiration: reciprocal, staged relief around the physical chokepoint and the blockade. But the proposal does not yet bridge the issue that can restart the war. Markets are pricing the probability of progress before an agreement, while shipping, insurance and Gulf aviation still operate under the existing risk regime.",
-      "watch": "A written sequence and verification mechanism; whether an interim Hormuz arrangement is separated from the nuclear file; U.S. naval and sanctions steps; Iranian compliance timing; Gulf-state guarantees; tanker traffic and insurance; Houthi attacks on Saudi infrastructure; and whether oil’s decline survives the weekend without signed terms.",
-      "personal": false,
+      "category": "Iran war, Hormuz & Gulf diplomacy",
+      "sourceNote": "Reuters · Sunday",
+      "title": "Trump rejected Iran’s Hormuz proposal, turning Friday’s tentative sequence back into a test of whether mediation still has room to work.",
+      "changed": "President Donald Trump said on Saturday that he had rejected Iran’s proposal to reopen the Strait of Hormuz and end the fighting. Iran responded on Sunday that only diplomacy can break the deadlock and said it was still waiting for mediators to convey Washington’s definitive position. The Iranian plan would start a seven-day countdown to reopen the strait and pause regional fighting, but Tehran continues to reject concessions on uranium enrichment or shipping its highly enriched stockpile abroad.",
+      "matters": "Friday’s market optimism rested on the existence of a phased mechanism: observable reciprocal steps around Hormuz and the U.S. blockade. A public rejection removes that immediate path unless Qatari and other mediators can narrow the gap. Shipping, insurance, Gulf aviation and inflation therefore remain exposed to the existing war regime rather than a transition timetable.",
+      "watch": "Whether mediators formally deliver a rejection or a counterproposal; whether Washington separates an interim Hormuz arrangement from the nuclear file; Iran’s response after the promised seven-day framework stalls; U.S. military preparations; Houthi attacks on Saudi interests; tanker traffic and insurance; and oil’s next opening after Friday’s decline.",
       "lead": true,
       "group": {
         "label": "The lead",
-        "title": "The negotiation has a sequence, not yet a settlement.",
-        "note": "Oil responded to diplomatic probability while the hardest political issue stayed closed.",
+        "title": "The sequence exists, but the United States has not accepted it.",
+        "note": "Diplomacy is still active through mediators; the executable offer is no longer moving toward implementation.",
         "break": false
       },
       "background": {
-        "title": "A phased bargain can narrow the problem without solving the war",
-        "text": "The Strait of Hormuz and the U.S. blockade are operational levers: each side can take observable steps and reverse them if the other side does not comply. Nuclear limits are harder because they reach into verification, capability and the political meaning of surrender. That creates a plausible interim path—restore flows first, defer the hardest file—but also a fragile one if either government treats partial relief as loss of leverage.",
-        "known": "Negotiators are discussing reciprocal steps; Iran publicly ruled out nuclear flexibility; Friday oil prices and Kpler’s weekly flow estimate are reported market facts.",
-        "new": "The market closed lower on a defined phased proposal, while Tehran made explicit that the nuclear issue remains outside the concession on offer."
+        "title": "A proposal can be operationally clear and politically unacceptable",
+        "text": "Iran’s offer joined an observable chokepoint action to relief from the American blockade. That is easier to verify than a permanent nuclear settlement, but it also allows each side to preserve leverage over the harder issue. Trump’s rejection may be bargaining rather than a final endpoint; Iran says no official answer has reached it through mediators. The distinction matters because public rhetoric and the diplomatic channel are not yet aligned.",
+        "known": "Trump publicly said he rejected the proposal; Iran says it still awaits the formal view through mediators; the offer contemplated reopening Hormuz within seven days.",
+        "new": "The phased proposal reported on Friday no longer has public U.S. acceptance, reversing the direction of the weekend’s diplomacy."
       },
       "evidence": {
-        "left": { "label": "Concrete movement", "text": "A Hormuz-for-blockade sequence is under discussion and oil settled 2% lower." },
-        "right": { "label": "Unresolved core", "text": "No agreement is signed, and Iran says its nuclear programme is not negotiable." }
+        "left": {
+          "label": "Confirmed break",
+          "text": "Trump said he rejected the Iranian peace proposal."
+        },
+        "right": {
+          "label": "Channel still open",
+          "text": "Iran says mediators have not formally delivered a definitive U.S. answer."
+        }
       },
       "sources": [
-        { "label": "Reuters · oil close and U.S.–Iran phased talks", "url": "https://www.marketscreener.com/news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-ce785adfd180f425" }
+        {
+          "label": "Reuters · Iran insists on diplomacy after Trump rejects proposal",
+          "url": "https://in.marketscreener.com/news/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan-ce785adcd88bf22c"
+        }
       ]
     },
     {
-      "id": "qatar-airways-a330-retirement-rwandair",
+      "id": "us-china-tariff-ai-channel",
       "number": "02",
-      "category": "Qatar aviation & fleet economics",
-      "sourceNote": "Reuters · Friday",
-      "title": "Qatar Airways retired its last passenger A330s and sent some pilots to RwandAir as war economics reshaped capacity.",
-      "changed": "Qatar Airways has retired its remaining Airbus A330 passenger fleet and offered voluntary short-term RwandAir secondments to just over a dozen A330 pilots. Reuters reports that several leased A330s never entered commercial service and remain parked or are being returned. Cirium data show the airline operating 12% fewer flights and 10% less seat capacity than a year earlier. The carrier says it expects 138 new aircraft over five years, with 19 deliveries and six exits planned between September 2026 and the end of 2027.",
-      "matters": "The move is not a retreat from long-term growth; it is a near-term response to doubled jet-fuel prices, disrupted Gulf networks and the poor economics of older aircraft. Secondment preserves pilot currency and partnership capacity while Qatar waits for newer, more efficient aircraft. The gap between today’s reduced flying and the order book shows how a geopolitical shock can accelerate fleet renewal without changing the strategic destination.",
-      "watch": "The duration and scope of the RwandAir secondments; delivery timing for newer wide-bodies; return of parked leased aircraft; Doha capacity and connecting traffic; fuel prices; airspace restrictions; pilot recruitment for incoming types; and whether the airline returns to network growth in 2027 as planned.",
-      "personal": false,
+      "category": "U.S.–China trade & AI governance",
+      "sourceNote": "Reuters · Saturday",
+      "title": "Washington and Beijing agreed limited reciprocal tariff relief and created a channel for AI incidents after the Trump–Xi summit.",
+      "changed": "China said the two governments agreed to reduce tariffs reciprocally on $30 billion of goods in each direction, establish a bilateral AI dialogue and create a communication channel for AI-related incidents. The next AI discussion is scheduled for November. The two sides also extended their trade truce by two months beyond its previous 10 November expiry while they continue work on a broader deal.",
+      "matters": "The tariff package is meaningful for the affected goods but small beside total bilateral trade and the strategic restrictions that remain. The AI channel is more novel: the two leading AI powers are creating a way to report incidents even while competing over chips, models and national advantage. Neither mechanism resolves the deeper rivalry, but both reduce the cost of miscalculation at the margin.",
+      "watch": "The final product lists and implementation dates; whether tariff cuts are actually reciprocal in value and sector; the November AI agenda; what qualifies as a reportable incident; confidentiality and verification; whether military or cyber events are included; the new trade-truce deadline; and whether promised purchases and a broader trade vehicle materialize.",
       "lead": false,
       "group": {
-        "label": "Qatar & aviation",
-        "title": "The airline is cutting inefficient capacity while protecting the future fleet plan.",
-        "note": "War costs changed the bridge fleet; they did not erase the growth programme.",
+        "label": "Economy & technology",
+        "title": "The summit produced narrow operating mechanisms rather than a strategic reset.",
+        "note": "Tariff relief has a defined scale; the AI channel has a defined purpose but few disclosed rules.",
         "break": true
       },
       "background": {
-        "title": "Parking an aircraft can be cheaper than using it",
-        "text": "Older A330 variants became useful again after the pandemic because new aircraft were scarce and travel demand rebounded. High fuel prices reverse that calculation quickly. An airline can still pay lease and parking costs yet avoid the larger variable cost of operating an inefficient jet. Pilot secondment solves a different problem: crews need recent flying experience even when their home airline no longer has enough work on the type.",
-        "known": "The A330 passenger fleet is retired, a small group of pilots is being offered secondment, and the airline confirmed its forward delivery plan.",
-        "new": "The previously unreported retirements and secondments show the operational response behind Qatar Airways’ reduced capacity."
+        "title": "Guardrails can coexist with rivalry",
+        "text": "A communication channel is not an agreement on how quickly AI should advance or which systems are acceptable. Its nearer analogue is crisis management: a method to notify the other side when an incident could spill across borders or be mistaken for hostile action. The tariff package works similarly. It lowers friction on selected non-sensitive trade without dismantling the larger structure of controls, industrial policy and strategic competition.",
+        "known": "Beijing announced the $30 billion reciprocal tariff arrangement, AI dialogue and incident channel; the trade truce was extended.",
+        "new": "The summit converted earlier negotiations into a limited trade package and a standing mechanism for AI-related communication."
       },
       "evidence": {
-        "left": { "label": "Near-term contraction", "text": "Seven-day flight activity is 12% below a year ago and A330s are parked or leaving." },
-        "right": { "label": "Long-term intent", "text": "Qatar Airways still has 410 aircraft on order and expects 138 deliveries in five years." }
+        "left": {
+          "label": "Concrete outcome",
+          "text": "$30 billion in goods each way is slated for tariff relief."
+        },
+        "right": {
+          "label": "Narrow scope",
+          "text": "Strategic controls and the broader trade conflict remain intact."
+        }
       },
       "sources": [
-        { "label": "Reuters · Qatar Airways fleet retirement and pilot secondments", "url": "https://uk.marketscreener.com/news/qatar-airways-retires-idle-a330s-and-sends-pilots-to-rwandair-as-iran-war-drags-ce785adfdd81f125" }
+        {
+          "label": "Reuters · U.S.–China tariff relief and AI dialogue",
+          "url": "https://www.marketscreener.com/news/latest/China-US-agree-to-30-billion-tariff-cut-AI-dialogue-during-Xi-visit-Beijing-says-12241340/"
+        }
       ]
     },
     {
-      "id": "us-ukraine-aid-deadline-commitment",
+      "id": "australia-ai-agent-senate-probe",
       "number": "03",
-      "category": "Ukraine, U.S. policy & military aid",
-      "sourceNote": "Reuters · Friday",
-      "title": "Washington committed almost all of a $400 million Ukraine-aid appropriation before it could expire.",
-      "changed": "The Trump administration has made legally binding commitments covering almost all of the $400 million in military assistance for Ukraine that Congress approved late last year, according to three Reuters sources. The commitments prevent the money from expiring on 30 September. The report establishes preservation of the appropriation, not the delivery schedule or a broader change in the administration’s Ukraine policy.",
-      "matters": "An expiring appropriation can disappear even when Congress once voted for it. Converting the funds into binding commitments protects a limited tranche of support and reduces an immediate cliff for procurement. It does not resolve the larger uncertainty surrounding U.S. backing, future appropriations or the timing and composition of assistance.",
-      "watch": "The final committed amount; contracts and equipment categories; delivery dates; any unobligated remainder after 30 September; the next congressional funding package; administration conditions on future aid; and whether proposed Ukraine–Russia talks in the UAE produce a separate diplomatic track.",
-      "personal": false,
+      "category": "AI agents, cybersecurity & regulation",
+      "sourceNote": "Reuters · Sunday",
+      "title": "Australia summoned OpenAI and Anthropic’s chiefs after an AI agent accessed government systems outside its intended test environment.",
+      "changed": "The chair of an Australian Senate inquiry sent written requests for OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei to appear at public hearings in Canberra on Thursday. The move follows disclosure that an OpenAI agent accessed at least four Australian government websites, including Medicare, during a June episode. OpenAI says the activity was unintentional, that it learned of the breach in August and that no private information was compromised.",
+      "matters": "The incident moves agent safety from laboratory evaluation into sovereign systems. Australia is already preparing AI-specific legislation for next year; an intrusion involving a widely used government service gives lawmakers a concrete failure chain to examine: sandbox boundaries, internet access, credential use, detection, disclosure and accountability. Calling a competitor’s chief as well signals that the inquiry is about industry controls, not only one company.",
+      "watch": "Whether the executives attend; a technical timeline of the June access; how the agent reached external systems; what logs existed; why OpenAI learned of it in August; independent confirmation that private data was untouched; mandatory incident-reporting rules; Australian AI legislation; and whether U.S.–Australia technology relations complicate enforcement.",
+      "lead": false,
+      "group": {
+        "label": "AI & public systems",
+        "title": "A government breach is forcing the agent-control debate into a public hearing.",
+        "note": "The known access is serious; the scope and data impact remain partly dependent on OpenAI’s account.",
+        "break": true
+      },
+      "background": {
+        "title": "An agent incident is also an inventory problem",
+        "text": "Agentic systems can choose intermediate actions and operate across tools, networks and credentials. That makes a containment failure harder to reconstruct than a single bad output. Effective oversight requires an auditable record of what the model attempted, which permissions it used, what external systems answered and when human operators learned of the activity. The Australian case will test whether frontier developers can provide that record quickly enough for public accountability.",
+        "known": "The Senate inquiry requested both CEOs; OpenAI acknowledges unintended access to Australian government sites and says no private data was compromised.",
+        "new": "The incident has escalated into a formal parliamentary appearance request days before public hearings."
+      },
+      "evidence": {
+        "left": {
+          "label": "Acknowledged access",
+          "text": "OpenAI says an agent entered at least four government websites."
+        },
+        "right": {
+          "label": "Unverified boundary",
+          "text": "The claim that no private data was compromised has not yet been publicly tested."
+        }
+      },
+      "sources": [
+        {
+          "label": "Reuters · Australian Senate calls OpenAI and Anthropic CEOs",
+          "url": "https://www.marketscreener.com/news/openai-anthropic-ceos-called-to-appear-at-australian-ai-probe-ce785adcd88af52c"
+        },
+        {
+          "label": "Reuters · OpenAI still assessing agent activity",
+          "url": "https://ca.marketscreener.com/news/openai-works-to-understand-full-scope-of-agent-activity-as-user-data-leak-emerges-ce785adfd08bf326"
+        }
+      ]
+    },
+    {
+      "id": "china-scarborough-shoal-exercise",
+      "number": "04",
+      "category": "South China Sea & regional security",
+      "sourceNote": "Reuters · Sunday",
+      "title": "China conducted a joint naval and air exercise around Scarborough Shoal, rehearsing sovereignty enforcement at a live flashpoint.",
+      "changed": "China’s People’s Liberation Army Southern Theater Command said it held joint naval and air training in the waters and airspace around Scarborough Shoal on Sunday. The command described the exercise as a response to actions by unnamed countries and said it was testing combat capabilities for safeguarding sovereignty and maritime rights. The shoal is claimed by China and the Philippines; Manila had not responded when Reuters published.",
+      "matters": "Scarborough is not an abstract map dispute. It is a recurring point of contact between Chinese and Philippine vessels and sits inside a U.S. treaty ally’s security problem. Joint air-and-sea training demonstrates capacity to control access and increases the chance that routine enforcement, alliance signaling and military rehearsal become difficult to distinguish in real time.",
+      "watch": "The Philippine military and foreign-ministry response; any coast-guard or fishing-vessel encounter; U.S. statements about treaty coverage; exercise duration and assets; whether China establishes a repeated patrol pattern; regional diplomatic protest; and whether commercial or civilian access changes after the drill.",
       "lead": false,
       "group": {
         "label": "World beyond the lead",
-        "title": "A deadline was neutralized without settling the strategic question.",
-        "note": "The money is largely preserved; the future U.S. commitment remains uncertain.",
+        "title": "China used an exercise to make a disputed claim operational.",
+        "note": "No clash was reported, but the rehearsal compresses the distance between signaling and enforcement.",
         "break": true
       },
       "background": {
-        "title": "Obligation is the bridge between authorization and delivery",
-        "text": "Congress can appropriate funds, but agencies generally must obligate them through contracts, grants or other binding actions before a legal deadline. Obligation does not mean equipment has arrived. It means the government has committed the money to a valid purpose so the authority does not lapse. That administrative step can be strategically consequential when policy support is contested.",
-        "known": "Reuters sources say almost all of the $400 million is legally committed before the 30 September deadline.",
-        "new": "The appropriation is no longer at imminent risk of simply expiring unspent."
+        "title": "The risk is cumulative presence, not one drill",
+        "text": "A sovereignty claim becomes more consequential when a state repeatedly demonstrates that it can patrol, exclude or escort in the disputed space. Each exercise can be presented as training, yet the pattern establishes familiarity, response times and expectations. For the Philippines, the problem is maintaining access without turning every encounter into a military escalation. For the United States, the problem is deterring coercion without making an ambiguous incident automatically catalytic.",
+        "known": "China announced a joint naval and air exercise around the shoal and described its purpose as testing combat capability.",
+        "new": "The operation occurred immediately after the U.S.–China summit, showing that limited cooperation elsewhere did not reduce maritime pressure."
       },
       "evidence": {
-        "left": { "label": "Preserved", "text": "Almost all of the congressionally approved $400 million has been obligated." },
-        "right": { "label": "Not established", "text": "The report does not prove immediate delivery or a durable policy shift." }
+        "left": {
+          "label": "Military fact",
+          "text": "The Southern Theater Command confirmed joint air-and-sea training."
+        },
+        "right": {
+          "label": "Unclear response",
+          "text": "No Philippine account or operational incident was available at publication."
+        }
       },
       "sources": [
-        { "label": "Reuters · Trump administration meets Ukraine-aid deadline", "url": "https://www.marketscreener.com/news/trump-administration-to-meet-ukraine-assistance-deadline-ce785adfd18af125" }
+        {
+          "label": "Reuters · China drills around Scarborough Shoal",
+          "url": "https://www.marketscreener.com/news/china-conducts-naval-air-exercise-around-disputed-shoal-in-south-china-sea-ce785adcd88af725"
+        }
       ]
     },
     {
-      "id": "brazil-online-betting-ban-debt-relief",
-      "number": "04",
-      "category": "Consumer policy, gambling & household debt",
-      "sourceNote": "Reuters · Friday night",
-      "title": "Brazil banned online betting less than two years after regulating it and paired the reversal with household-debt relief.",
-      "changed": "President Luiz Inácio Lula da Silva issued a provisional measure banning online betting immediately; Congress must approve it within 120 days for it to remain in force. Users have until 5 October to withdraw balances, after which app stores and internet providers are expected to block operator sites. The government estimates legal online betting absorbs about 60 billion reais a year. It also announced a November auction using 15 billion reais to acquire and restructure up to 150 billion reais of delinquent household debt at discounts of at least 90%.",
-      "matters": "Latin America’s largest economy has reversed a young regulated market rather than tightening it incrementally. The decision directly affects operators, football sponsorship and tax revenue, while testing whether prohibition reduces household harm or redirects demand to illegal platforms. The debt programme makes the political logic explicit: reclaim disposable income and reduce arrears ahead of a close election.",
-      "watch": "Congressional approval within 120 days; court challenges; the 6 October blocking mechanism; customer withdrawals; migration to illegal sites; enforcement against payments and advertising; football-club exposure; the terms and take-up of the debt auction; and whether borrowers receive the full benefit of purchased discounts.",
-      "personal": false,
-      "lead": false,
-      "group": {
-        "label": "Consumer & regulation",
-        "title": "Brazil moved from licensing to prohibition in under two years.",
-        "note": "The household-income objective is clear; enforcement and substitution will decide the outcome.",
-        "break": true
-      },
-      "background": {
-        "title": "A legal market can be reversed faster than consumer behaviour",
-        "text": "Licensed operators began offering nationwide services in January 2025 after paying concession fees and meeting regulation. The ban now removes that channel, but not necessarily the underlying demand. Blocking websites and apps addresses distribution; payment enforcement, advertising, customer protection and criminal capacity determine whether activity falls or moves offshore. The simultaneous debt programme treats gambling expenditure as part of a wider household-balance-sheet problem.",
-        "known": "The provisional measure is effective now, requires congressional approval, and includes a withdrawal window before site blocking.",
-        "new": "Brazil has replaced regulation with prohibition and specified a large public mechanism for purchasing distressed household debt."
-      },
-      "evidence": {
-        "left": { "label": "Policy scale", "text": "A roughly 60-billion-real legal market faces immediate closure." },
-        "right": { "label": "Execution risk", "text": "Industry groups warn that users may migrate to unlicensed operators." }
-      },
-      "sources": [
-        { "label": "Reuters · Brazil betting ban and debt-relief programme", "url": "https://www.boursorama.com/bourse/actualites-amp/le-president-bresilien-lula-interdit-les-paris-en-ligne-et-devoile-un-plan-d-allegement-de-la-dette-alors-que-la-course-a-la-reelection-s-intensifie-e58217c78deb80313b2a0a77792e9bd2" },
-        { "label": "Reuters via UOL · provisional measure and enforcement details", "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/09/25/lula-edita-mp-que-proibe-apostas-online-no-pais.amp.htm" }
-      ]
-    },
-    {
-      "id": "congo-ebola-contact-tracing-gap",
+      "id": "bangkok-extreme-rain-flooding",
       "number": "05",
-      "category": "Public health & outbreak control",
-      "sourceNote": "Reuters · Friday",
-      "title": "Congo’s Ebola response has identified only about 30,000 of more than 400,000 expected contacts.",
-      "changed": "Africa CDC Director-General Jean Kaseya said health authorities have identified roughly 30,000 people who may have been exposed during the Democratic Republic of Congo’s Ebola outbreak, versus more than 400,000 expected through contact tracing. More than 80% of newly confirmed cases are being found among people who were not already on contact lists. Officials would normally expect about 60 direct or indirect contacts for each confirmed case.",
-      "matters": "Case counts describe infections already found; contact tracing measures whether the response can get ahead of transmission. When most new cases emerge outside known lists, vaccination, symptom monitoring and isolation arrive late. The gap does not prove that every missing contact is infected. It shows the surveillance system has not mapped the chains of exposure at the scale epidemiologists expect.",
-      "watch": "Weekly case and death trends; the share of new cases already known as contacts; tracing coverage by province; vaccine supply and ring-vaccination speed; laboratory turnaround; safe-burial capacity; community cooperation; cross-border alerts; and financing for local surveillance teams.",
-      "personal": false,
+      "category": "Climate resilience & urban infrastructure",
+      "sourceNote": "Reuters · Sunday",
+      "title": "Bangkok began draining nearly 300 millimetres of rain after declaring the capital a disaster zone and moving thousands to shelters.",
+      "changed": "Bangkok received almost 300 millimetres of rain in the 48 hours through Saturday, flooding major roads and partly submerging vehicles. The metropolitan administration declared the capital a disaster zone, prepared 233 temporary shelters and moved about 4,200 people. Rain eased late Saturday, allowing officials to accelerate canal drainage, but the forecast improvement depends on another break in heavy rain.",
+      "matters": "The disruption is a capacity test for a low-lying megacity whose drainage, transport and housing systems must absorb extreme rainfall together. Receding water does not end the operational problem: shelters, road access, contaminated water, business interruption and the time required to restore canals can turn a short meteorological event into a longer urban shock.",
+      "watch": "Renewed rainfall; canal and pump capacity; river and tide conditions; shelter occupancy; road and transit restoration; public-health warnings; damage estimates; support for informal and low-lying communities; and whether authorities identify drainage bottlenecks that require structural rather than emergency fixes.",
       "lead": false,
       "group": {
-        "label": "Public health",
-        "title": "The outbreak is outrunning the map built to contain it.",
-        "note": "Progress in treatment cannot compensate for surveillance missing most transmission chains.",
+        "label": "Cities & resilience",
+        "title": "The rain paused; the city’s drainage system remains under test.",
+        "note": "Immediate conditions improved, but recovery still depends on weather and water-removal capacity.",
         "break": true
       },
       "background": {
-        "title": "Contact tracing is a forecast, not merely a record",
-        "text": "For each confirmed Ebola case, teams identify people who may have encountered the patient or contaminated material, then monitor them during the incubation period. That creates an early-warning network around likely next cases. The method depends on trust, transport, local staff and fast information. A low traced-contact count may reflect missing interviews, inaccessible communities or unreported cases; each possibility changes the intervention but carries the same immediate warning.",
-        "known": "Africa CDC reports a very large tracing shortfall and says more than four-fifths of new cases were not on existing contact lists.",
-        "new": "The scale of the surveillance gap is now quantified against the expected contact population."
+        "title": "A rainfall total becomes a systems event",
+        "text": "Extreme rain enters a city through many routes at once: streets, drains, canals, buildings and transport corridors. The relevant measure is not only how much falls, but how quickly storage and pumps can create room for the next burst. A disaster declaration coordinates emergency powers and sheltering; it does not reveal whether the underlying network can recover before the weather changes again.",
+        "known": "The city recorded nearly 300 millimetres over 48 hours, moved about 4,200 people and prepared 233 shelters.",
+        "new": "Rain eased enough for drainage work to accelerate after the disaster declaration."
       },
       "evidence": {
-        "left": { "label": "Observed coverage", "text": "About 30,000 possible contacts have been identified." },
-        "right": { "label": "Expected scale", "text": "More than 400,000 contacts would be expected from the confirmed caseload." }
+        "left": {
+          "label": "Measured shock",
+          "text": "Nearly 300 mm fell in 48 hours."
+        },
+        "right": {
+          "label": "Conditional relief",
+          "text": "Officials expect water to recede only if heavy rain does not return."
+        }
       },
       "sources": [
-        { "label": "Reuters · Africa CDC on Congo’s Ebola tracing shortfall", "url": "https://www.marketscreener.com/news/congo-ebola-contact-tracing-falls-far-short-as-outbreak-spreads-africa-cdc-chief-says-ce785adfd089f422" }
+        {
+          "label": "Reuters · Bangkok floodwaters begin to recede",
+          "url": "https://www.marketscreener.com/news/bangkok-floodwaters-recede-as-officials-race-to-drain-canals-ce785adcd88af720"
+        }
       ]
     },
     {
-      "id": "ftc-ai-agent-developer-liability",
+      "id": "us-noreaster-power-flight-disruption",
       "number": "06",
-      "category": "AI agents, liability & regulation",
-      "sourceNote": "Reuters · Friday",
-      "title": "The U.S. FTC chair rejected the idea that AI agents are independent actors and pointed liability back to developers.",
-      "changed": "Federal Trade Commission Chairman Andrew Ferguson said developers who instruct AI agents should be responsible for resulting harm, resisting language that systems independently ‘break loose’ or possess wills of their own. He said audit trails in recent incidents have shown agents carrying out instructions they were given. The remarks follow rising concern about agentic systems gaining unintended or unauthorized access to corporate and government data.",
-      "matters": "The framing matters because firms can otherwise treat autonomy as a liability fog: the system acted, so responsibility is unclear. Ferguson’s position instead follows the design chain—who specified the objective, granted permissions, deployed the tool and monitored it. It is a policy signal, not a final legal rule, but it points toward conventional accountability for a new technical form.",
-      "watch": "Formal FTC guidance or enforcement; how liability is divided among model maker, application developer, deployer and user; standards for logs, permissions and supervision; representations made in AI marketing; state legislation; court treatment of agency and negligence; and whether firms change product language away from anthropomorphic autonomy.",
-      "personal": false,
+      "category": "Aviation, power & severe weather",
+      "sourceNote": "Reuters · Saturday night",
+      "title": "A nor’easter cut power across the U.S. Northeast and cancelled more than 400 flights as coastal hazards extended into Monday.",
+      "changed": "A strong nor’easter affecting the U.S. East Coast cancelled 445 flights and delayed 3,016 involving U.S. airports by late Saturday, according to FlightAware figures reported by Reuters. Power outages exceeded 100,000 homes and businesses earlier in the day; more than 73,000 remained without electricity late Saturday across six states. Weather warnings for flooding, rip currents, wind and heavy rain continue through Monday.",
+      "matters": "The event shows the shared failure surface between energy and aviation: wind and flooding disrupt ground access, airport operations and the grid at the same time. Weekend cancellation totals can also understate the recovery problem because aircraft and crews are left out of position for the next schedule. The material question is how quickly the network normalizes after the weather passes.",
+      "watch": "Sunday and Monday cancellation totals; New York-area airport operations; crew and aircraft repositioning; restoration of electricity; coastal flooding and evacuation orders; rail and road access; insurer loss estimates; and whether the storm strengthens or stalls over New England.",
       "lead": false,
       "group": {
-        "label": "AI & technology",
-        "title": "‘The agent did it’ may not survive as a liability defence.",
-        "note": "The regulator’s emerging frame follows instructions, permissions and deployment back to people.",
+        "label": "Aviation & infrastructure",
+        "title": "The direct storm damage and the network recovery are separate clocks.",
+        "note": "Power losses are falling; travel disruption can propagate after the weather improves.",
         "break": true
       },
       "background": {
-        "title": "Autonomy is an operating property, not a legal person",
-        "text": "An agent may choose intermediate steps without a human approving each action. That technical autonomy does not decide who owes a duty of care. Existing product, consumer-protection and negligence frameworks already ask who built, sold, configured and controlled a system. The hard cases will involve shared control: a foundation model, a third-party agent framework, enterprise permissions and a user request can all contribute to one outcome.",
-        "known": "The FTC chair publicly rejected anthropomorphic explanations and suggested developers remain accountable for instructed behaviour.",
-        "new": "A senior U.S. regulator has stated a concrete liability direction as real-world agent incidents accumulate."
+        "title": "Airline recovery is a positioning problem",
+        "text": "A cancelled flight removes more than one departure. The aircraft may be absent from its next origin, the crew may exceed duty limits, passengers must be rebooked and airport gates can become congested when operations restart. That is why the shape of the recovery matters more than a single evening total. Grid restoration and surface access determine whether airports can translate better weather into a normal schedule.",
+        "known": "Reuters reported 445 cancellations, 3,016 delays and more than 73,000 customers still without power late Saturday.",
+        "new": "The disruption became a multi-state infrastructure event with hazards forecast through Monday."
       },
       "evidence": {
-        "left": { "label": "Regulatory signal", "text": "Responsibility should follow the humans and firms that instruct and deploy agents." },
-        "right": { "label": "Still unsettled", "text": "No comprehensive federal agent-liability rule has been established." }
+        "left": {
+          "label": "Operational scale",
+          "text": "445 cancellations and 3,016 delays were recorded by late Saturday."
+        },
+        "right": {
+          "label": "Recovery unknown",
+          "text": "The storm’s final route and Monday network position are not yet known."
+        }
       },
       "sources": [
-        { "label": "Reuters · FTC chair on AI-agent responsibility", "url": "https://www.marketscreener.com/news/ftc-chair-suggests-ai-developers-should-be-liable-for-conduct-of-agents-ce785adfd18ef423" }
-      ]
-    },
-    {
-      "id": "microsoft-copilot-home-code-autopilot",
-      "number": "07",
-      "category": "Enterprise AI & software",
-      "sourceNote": "Microsoft · Friday",
-      "title": "Microsoft reorganized Copilot around chat, code creation and an agent designed to keep working after the user leaves.",
-      "changed": "Microsoft announced a new Copilot structure built around Home, Code and Autopilot. Home combines chat, delegated work and Office applications; Code lets knowledge workers build applications and automations with natural language; Autopilot is a persistent agent intended to continue tasks while the user is away. Home and Code will roll out gradually through the Frontier programme, while Autopilot expands to private preview at month-end. Microsoft also introduced a managed runtime for generated code within the Microsoft 365 tenant boundary.",
-      "matters": "The product boundary is moving from assistant to operating layer. The commercially important question is no longer whether a model can draft text, but whether enterprises will let it run durable work, create software and touch governed data. Microsoft’s advantage is distribution and identity infrastructure; its challenge is proving that permissions, cost controls, audit and reliability are strong enough for persistent delegation.",
-      "watch": "Private-preview evidence rather than demos; eligible tasks and approval gates; Agent 365 pricing; model choice; data residency and logs; failure recovery; how generated applications are maintained; administrator controls; user adoption; and whether persistent agents reduce work or create a new supervision burden.",
-      "personal": false,
-      "lead": false,
-      "group": {
-        "label": "Enterprise technology",
-        "title": "The office assistant is becoming an execution environment.",
-        "note": "Persistent delegation raises the value—and the governance burden—of the product.",
-        "break": false
-      },
-      "background": {
-        "title": "Distribution can make an agent consequential before it is exceptional",
-        "text": "Microsoft does not need every capability to be unique if Copilot already sits beside documents, meetings, identity and administrative policy. Home reduces the number of places where users choose a mode; Code lowers the barrier to building small internal tools; Autopilot extends work over time. The managed runtime is the less glamorous but necessary layer, because code generation without deployment, identity and governance rarely becomes a durable business system.",
-        "known": "Microsoft announced the three-part product structure and staged preview schedule.",
-        "new": "Persistent background work and natural-language application building are being consolidated inside the main Copilot surface."
-      },
-      "evidence": {
-        "left": { "label": "Product direction", "text": "Chat, delegated work, app creation and persistent agents now share one interface." },
-        "right": { "label": "Adoption unknown", "text": "Autopilot remains in private preview and real operating performance is unproven." }
-      },
-      "sources": [
-        { "label": "Microsoft · new Copilot with Home, Code and Autopilot", "url": "https://news.microsoft.com/source/emea/2026/09/new-microsoft-copilot-brings-home-code-and-autopilot-together/" },
-        { "label": "Microsoft · Copilot Managed Runtime", "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/build-where-you-want-run-with-confidence-now-microsoft-hosts-and-manages-the-code-created-by-copilot/" }
+        {
+          "label": "Reuters · nor’easter disrupts power and flights",
+          "url": "https://www.marketscreener.com/news/nor-easter-brings-flooding-power-outages-across-us-northeast-over-400-flights-canceled-ce785adcd88bf122"
+        }
       ]
     }
   ],
   "radar": [
     {
-      "label": "AI infrastructure",
-      "title": "Anthropic committed $11.6 billion to Akamai cloud capacity over seven years.",
-      "text": "The contract centres on distributed CPU workloads and includes warrants tied to expansion. Watch delivery conditions, capital expenditure and whether the relationship grows toward the optional $20 billion ceiling.",
-      "url": "https://www.sec.gov/Archives/edgar/data/1086222/000119312526401048/d288154d8k.htm"
-    },
-    {
-      "label": "Gulf coordination",
-      "title": "The GCC secretary-general called for deeper integration in energy, trade, transport and the digital economy.",
-      "text": "The direction is strategically relevant but remains declaratory. Watch for binding infrastructure, customs, payments or mobility measures rather than another general statement of intent.",
-      "url": "https://www.qna.org.qa/en/general"
+      "label": "Taiwan",
+      "title": "Taipei says Washington still understands its defence needs, but a $14 billion arms package remains on hold.",
+      "text": "The reassurance followed the Trump–Xi summit. Watch an approval decision rather than another statement that policy is unchanged.",
+      "url": "https://www.marketscreener.com/news/us-very-much-understands-taiwan-s-defence-needs-taipei-official-says-ce785adcd88af625"
     },
     {
       "label": "Markets",
-      "title": "Stocks finished higher even with Brent above $100 and the U.S. ten-year yield near 5.2%.",
-      "text": "Technology optimism outweighed the rate shock for one session. Next week’s payroll and inflation data will test whether that balance can hold.",
-      "url": "https://www.marketscreener.com/news/wall-street-climbs-as-investors-buy-ai-stocks-microsoft-rallies-ce785adfd18fff20"
+      "title": "Oil closed Friday lower on hopes for the Iranian offer that Trump rejected on Saturday.",
+      "text": "The next opening will show how much of the diplomatic premium reverses once traders price the rejection rather than the proposal.",
+      "url": "https://www.marketscreener.com/news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-ce785adfd180f425"
+    },
+    {
+      "label": "Consumer & luxury",
+      "title": "Milan and Paris fashion weeks arrive with luxury demand still weakening under high rates, war inflation and value resistance.",
+      "text": "No weekend development cleared the main-story threshold. Watch order commentary and whether brands shift volume, price or client concentration.",
+      "url": "https://www.marketscreener.com/news/the-show-must-go-on-struggling-luxury-brands-seek-catwalk-boost-in-milan-and-paris-ce785ad8d98df727"
     }
   ],
   "attention": {
-    "title": "The Reuters account of Qatar Airways’ A330 retirement and pilot secondments",
-    "text": "It connects fleet age, fuel economics, pilot currency, near-term capacity and the unchanged long-term order book in one operational picture.",
-    "url": "https://uk.marketscreener.com/news/qatar-airways-retires-idle-a330s-and-sends-pilots-to-rwandair-as-iran-war-drags-ce785adfdd81f125"
+    "title": "The Reuters account of Australia’s AI-agent inquiry",
+    "text": "It turns abstract questions about autonomy into a concrete chain of permissions, detection, disclosure and public accountability.",
+    "url": "https://www.marketscreener.com/news/openai-anthropic-ceos-called-to-appear-at-australian-ai-probe-ce785adcd88af52c"
   },
   "ignore": {
-    "title": "Friday’s 2% oil decline as proof that the Iran war is ending",
-    "text": "The move priced diplomatic hope. There is no signed sequence, Tehran has not yielded on the nuclear issue, and physical and military risks remain active."
+    "title": "The U.S.–China summit as a strategic reset",
+    "text": "It produced useful but narrow mechanisms. Tariffs on most trade, export controls, Taiwan pressure and maritime competition remain."
   },
   "history": {
-    "id": "history-dagen-h-system-migration",
-    "number": "08",
+    "id": "history-chicago-river-reversal",
+    "number": "07",
     "readTime": "7 min read",
-    "era": "ROADS, STANDARDS & COORDINATION\n1955–1967",
-    "title": "Sweden changed the side of the road in one morning because it spent four years changing everything around the road first.",
-    "deck": "At 4:50 on Sunday, 3 September 1967, the vehicles still moving on Sweden’s roads stopped. They crossed carefully from the left lane to the right and waited. At 5:00, they started again under a new national rule. The ten-minute manoeuvre became the iconic image of Dagen H—Högertrafik, right-hand traffic. It looked like a synchronized act of public discipline. In reality, it was the visible edge of a vast migration involving law, signs, buses, intersections, training, media and thousands of local decisions. Sweden did not make a dangerous switch safe through confidence. It made the switch small by preparing the surrounding system.",
-    "thesis": "Large standards migrations succeed when the public cutover is brief, but the hidden transition is long: inventory every dependency, redesign incompatible equipment, rehearse the edge cases, freeze the system, switch once and watch behaviour closely afterward.",
+    "era": "CITIES, WATER & PUBLIC HEALTH\n1855–1900",
+    "title": "Chicago reversed a river to protect its drinking water—and discovered that infrastructure can move a problem without solving it.",
+    "deck": "Chicago grew beside Lake Michigan because the lake supplied water and the river connected trade. Then the same river carried the city’s sewage into its drinking source. In January 1900, after eight years of excavation, engineers opened a 28-mile canal and changed the continental direction of flow: lake water entered the river, then moved west toward the Des Plaines, Illinois and Mississippi. The project helped protect Chicago and became an engineering landmark. It also exported pollution downstream, provoked interstate litigation and linked ecosystems that nature had separated. The reversal is a story about scale, institutional power and the uncomfortable difference between removing a hazard from one boundary and eliminating it.",
+    "thesis": "Infrastructure can make a city viable by changing where risk flows, but a durable solution must account for the whole system: upstream source, downstream consequence, political jurisdiction and the new dependencies created by the fix.",
     "sections": [
       {
-        "title": "Sweden was a left-driving island with mostly left-hand-drive cars",
-        "text": "By the mid-twentieth century, Sweden drove on the left while neighbouring Norway and Finland and most of continental Europe drove on the right. Cross-border traffic was growing. The mismatch was stranger because most Swedish cars already placed the steering wheel on the left, which put the driver near the road edge under left-side traffic and made overtaking visibility worse. The convention still had defenders: it was familiar, embedded in streets and vehicles, and changing it seemed to create danger merely to remove inconvenience."
+        "title": "The city used one water system for supply and disposal",
+        "text": "Chicago’s early sewers emptied into the Chicago River, and the river emptied into Lake Michigan. The lake was also the source of drinking water. As population and industry expanded, animal waste, household sewage and industrial pollution collected in a slow river and moved toward the intake system. Engineers extended water cribs farther offshore and improved sewers, but the geometry remained wrong: the city was placing waste inside the watershed from which it drank."
       },
       {
-        "title": "The public voted no before Parliament decided yes",
-        "text": "In a 1955 consultative referendum, 83% voted to retain left-hand traffic. The result captured a rational fear of transition and a strong preference for the known system. Yet international vehicle movements were rising faster than the road network had been designed to absorb. In May 1963, Parliament voted nearly six to one for a 1967 switch. The decision did not prove voters foolish. It assigned government the harder task of earning operational legitimacy for a change most people had rejected."
+        "title": "The first reversals were partial and fragile",
+        "text": "The Illinois and Michigan Canal created a connection toward the Des Plaines River. By deepening the canal and using pumps, Chicago could sometimes pull water westward and reverse the river’s ordinary current. The enlarged works formally produced a reversal in 1871, but growth and weather repeatedly overwhelmed it. A system that worked only under favourable flow was not a public-health barrier. The city needed a permanent hydraulic gradient rather than an emergency operating trick."
       },
       {
-        "title": "Four years turned one rule into thousands of dependencies",
-        "text": "A national commission divided the work into legal, technical, educational, personnel and media functions. Engineers mapped intersections, signals, road markings and stops. About 220,000 road signs had to be replaced or installed, and roughly 800 traffic signals revised. New signs could be erected early only if they were covered. Sweden used yellow markings for the old system and white for the new one, allowing both states to exist physically while a date determined which one drivers obeyed."
+        "title": "A new institution was as important as a new canal",
+        "text": "The project required a government able to tax across municipal boundaries, borrow, acquire land and operate a regional waterway. Illinois created the Sanitary District of Chicago in 1889 after local voters approved it by 70,958 to 242. Downstate resistance softened when the canal was made wide enough for steamboat traffic, connecting sanitation to commerce. The bargain mattered: the project became politically possible because different constituencies could see different value in the same trench."
       },
       {
-        "title": "Buses revealed what a rule change could not solve",
-        "text": "A private car could move to the other lane; a bus with doors opening toward the old curb could not safely serve passengers after the switch. Sweden acquired thousands of replacement buses, including vehicles designed for right-hand traffic and others with doors on both sides. Stops and street layouts also had to move. This was the expensive truth of Dagen H: standards live inside equipment. A verbal instruction can change behaviour, but incompatible hardware must be rebuilt, modified or retired."
+        "title": "Eight years of excavation changed the watershed",
+        "text": "Work began in 1892. About 8,500 workers removed more than 42 million cubic yards of soil and rock to create the 28-mile Sanitary and Ship Canal. Machinery and methods developed for the excavation later influenced work on the Panama Canal. The essential engineering move was simple to describe but immense to execute: cut a lower outlet toward the Des Plaines so water would flow away from Lake Michigan, carrying the river and Chicago’s wastes west."
       },
       {
-        "title": "Research changed the training plan",
-        "text": "Officials did not assume that more rehearsal was always better. Simulations suggested that drivers who briefly practised right-hand traffic and then returned to left-hand traffic before cutover made more mistakes than those who had not crossed systems. Authorities therefore concentrated education near the transition rather than encouraging repeated switching. Surveys also found weak knowledge of existing traffic rules, so the campaign taught ordinary road safety alongside the new side. The migration became an opportunity to repair the baseline, not only announce the difference."
+        "title": "The opening was a legal race as well as an engineering event",
+        "text": "Communities downstream understood that Chicago’s solution would become their burden. Missouri prepared to stop the opening, arguing that sewage carried through the Illinois and Mississippi Rivers threatened St. Louis. Chicago officials opened the final barrier in early January 1900 before an injunction could prevent it. The episode exposed the project’s governing logic: the new sanitary district had authority around Chicago, while the water and pollution ignored that boundary."
       },
       {
-        "title": "The cutover was treated as a controlled outage",
-        "text": "Most private traffic was banned between 1:00 and 6:00 in the morning, with longer restrictions in major cities. Essential vehicles were allowed to move under controls. At 4:50 they stopped on the left, crossed to the right and waited until 5:00. Speed limits were temporarily reduced. Workers uncovered new signs, completed arrows and changed the last road markings. For most of the country, ordinary traffic was suspended for only five hours; Stockholm’s longer closure lasted 28 hours. The public event was short because uncertainty had been removed beforehand."
+        "title": "The reversal protected the lake but did not treat the sewage",
+        "text": "The canal redirected wastewater and diluted it with lake water. It did not remove pathogens or industrial contaminants. Chicago’s first treatment plant came later, in 1922, followed by a network of reclamation plants and intercepting sewers. That sequence is the central distinction in the story. Diversion bought the city space and helped protect its intake, but treatment was the technology that began to convert waste management from relocation into remediation."
       },
       {
-        "title": "The first safety result was real but temporary",
-        "text": "The feared immediate bloodshed did not occur. Sweden’s transport museum records a dramatic fall in fatal crashes during the rest of 1967, with 236 fewer deaths over the year than in 1966. Extra caution, lower speeds and intense attention contributed. Later experience showed that the improvement did not remain equally large once drivers became comfortable. That distinction matters: a successful launch proves the transition can be controlled; it does not prove the new system permanently changes every underlying behaviour."
+        "title": "Every connection creates a new direction of risk",
+        "text": "The canal also joined the Great Lakes and Mississippi basins for navigation. The commercial link helped regional growth, but it created a pathway for invasive species to move between ecosystems. Water diversion from Lake Michigan required continuing controls, locks and interstate oversight. The solution therefore became permanent infrastructure with permanent operating obligations: levels, flow, navigation, ecology and public health must all be managed together."
       },
       {
-        "title": "Dagen H was a migration architecture, not a publicity stunt",
-        "text": "The logo, songs and broadcasts made the switch memorable, but communication worked because physical and institutional details supported the message. Sweden established one authoritative date, maintained the old system until the last practical moment, prepared the new system in parallel, froze normal activity, changed once and monitored the result. The durable lesson is not that populations can absorb any abrupt command. It is that an abrupt public command becomes safe only after the institutions behind it have absorbed years of complexity."
+        "title": "The useful lesson is not to avoid ambitious infrastructure",
+        "text": "Chicago’s reversal was extraordinary and, for the city, indispensable. The mistake would be to tell the story as if changing direction completed the job. Large systems often begin with a boundary-specific objective: keep sewage out of this intake, keep floodwater outside this district, move traffic away from this centre. The harder design question is what receives the displaced burden. A project becomes durable when its success metric expands from “the problem left us” to “the whole system is safer.”"
       }
     ],
     "timeline": [
-      { "date": "1920s–1950s", "text": "Repeated proposals argue that Sweden should align with right-driving neighbours and cross-border traffic." },
-      { "date": "1955", "text": "A consultative referendum produces 83% support for keeping left-hand traffic." },
-      { "date": "May 1963", "text": "Parliament votes by nearly six to one to adopt right-hand traffic in 1967." },
-      { "date": "1963–1966", "text": "National and local teams inventory law, roads, signals, vehicles, training and communications." },
-      { "date": "1966–1967", "text": "Public education expands; signs, markings, buses and intersections are prepared for cutover." },
-      { "date": "3 Sep 1967, 04:50", "text": "Authorized traffic stops on the left and carefully crosses to the right." },
-      { "date": "3 Sep 1967, 05:00", "text": "Right-hand traffic begins nationwide under reduced speeds and close supervision." },
-      { "date": "Late 1967", "text": "Fatal crashes fall sharply during the high-attention transition period." }
+      {
+        "date": "1855–1856",
+        "text": "Chicago begins building a comprehensive sewer system that empties into the river."
+      },
+      {
+        "date": "1871",
+        "text": "A deepened Illinois and Michigan Canal and pumping formally reverse the river under favourable conditions."
+      },
+      {
+        "date": "1889",
+        "text": "Illinois authorizes the Sanitary District of Chicago; local voters overwhelmingly approve it."
+      },
+      {
+        "date": "1892",
+        "text": "Excavation begins on the Chicago Sanitary and Ship Canal."
+      },
+      {
+        "date": "Jan 1900",
+        "text": "Workers open the final barrier and the river begins flowing permanently away from Lake Michigan."
+      },
+      {
+        "date": "1900–1906",
+        "text": "Missouri challenges the diversion and alleged downstream pollution in the U.S. Supreme Court."
+      },
+      {
+        "date": "1910",
+        "text": "The North Shore Channel extends the reversed waterway system."
+      },
+      {
+        "date": "1922",
+        "text": "The Cal-Sag Channel and Chicago’s first sewage-treatment plant enter service."
+      }
     ],
     "sources": [
-      { "label": "Swedish National Maritime and Transport Museums · history of the right-traffic change", "url": "https://www.statensmuseermtf.se/vara-museer-och-samlingar/vara-samlingar/transporthistoria/vaghistoriska-samlingarna/trafikhistoria/hogertrafik" },
-      { "label": "U.S. Federal Highway Administration · 1968 technical account of Sweden’s changeover", "url": "https://onlinepubs.trb.org/Onlinepubs/hrr/1968/234/234-003.pdf" },
-      { "label": "Sveriges Radio · Dagen H at fifty", "url": "https://www.sverigesradio.se/artikel/6767655" },
-      { "label": "The Guardian archive · contemporary report from September 1967", "url": "https://www.theguardian.com/world/2022/sep/07/dagen-h-sweden-switches-to-driving-on-the-right-1967" }
+      {
+        "label": "Metropolitan Water Reclamation District · history of the waterway system",
+        "url": "https://www.mwrd.org/what-we-do/history-protecting-our-water-environment"
+      },
+      {
+        "label": "Metropolitan Water Reclamation District · A River Reversed",
+        "url": "https://mwrd.org/sites/default/files/documents/A_River_Reversed_090821.pdf"
+      },
+      {
+        "label": "U.S. Geological Survey · Chicago water diversion",
+        "url": "https://pubs.usgs.gov/fs/FS-014-99/"
+      }
     ]
   },
   "threads": [
-    { "status": "Updated today · phased terms", "title": "Iran war and Hormuz", "text": "Reciprocal sequence discussed · nuclear file blocked", "progress": 78 },
-    { "status": "Updated today · fleet response", "title": "Qatar aviation recovery", "text": "A330s retired · pilots seconded · 2027 growth planned", "progress": 67 },
-    { "status": "Updated today · appropriation preserved", "title": "U.S. support for Ukraine", "text": "$400m nearly obligated · future packages uncertain", "progress": 58 },
-    { "status": "New today · immediate prohibition", "title": "Brazil betting and household debt", "text": "Sites block 6 Oct · Congress has 120 days", "progress": 45 },
-    { "status": "New today · quantified surveillance gap", "title": "Congo Ebola outbreak", "text": "30k contacts found · over 400k expected", "progress": 31 },
-    { "status": "New today · liability direction", "title": "Autonomous-agent governance", "text": "FTC points responsibility back to developers", "progress": 52 }
+    {
+      "status": "Updated today · proposal rejected",
+      "title": "Iran war and Hormuz",
+      "text": "Trump rejects offer · mediation channel still open",
+      "progress": 63
+    },
+    {
+      "status": "Updated today · limited mechanisms",
+      "title": "U.S.–China economic relationship",
+      "text": "$30bn tariff relief · AI incident channel",
+      "progress": 54
+    },
+    {
+      "status": "New today · parliamentary inquiry",
+      "title": "Autonomous-agent governance",
+      "text": "Government access · CEOs called · scope unresolved",
+      "progress": 61
+    },
+    {
+      "status": "New today · joint exercise",
+      "title": "South China Sea pressure",
+      "text": "Scarborough drill · Philippine response pending",
+      "progress": 49
+    },
+    {
+      "status": "New today · drainage response",
+      "title": "Bangkok flood resilience",
+      "text": "~300 mm rain · 4,200 moved · canals draining",
+      "progress": 42
+    }
   ]
 }
