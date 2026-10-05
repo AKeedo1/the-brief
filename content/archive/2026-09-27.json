@@ -1,0 +1,449 @@
+{
+  "date": {
+    "display": "Sunday, 27 September 2026",
+    "edition": "036",
+    "updated": "7:00 AM"
+  },
+  "worldSentence": "The weekend’s agreements and warnings share a hard boundary: narrow channels can reduce friction, but they do not remove the military, technical or physical systems still generating risk.",
+  "standfirst": "Trump rejected Iran’s proposed Hormuz sequence even as Tehran kept the mediated channel open. Washington and Beijing announced limited tariff relief and an AI incident line, while Australia summoned two AI chiefs after an agent accessed government sites. China drilled around Scarborough Shoal. Bangkok began draining almost 300 millimetres of rain, and a nor’easter disrupted power and aviation across the U.S. Northeast.",
+  "listenTime": "29 min",
+  "coverage": [
+    {
+      "count": 1,
+      "label": "Qatar & Gulf"
+    },
+    {
+      "count": 2,
+      "label": "World & security"
+    },
+    {
+      "count": 1,
+      "label": "Economy & markets"
+    },
+    {
+      "count": 2,
+      "label": "AI & technology"
+    },
+    {
+      "count": 2,
+      "label": "Climate & infrastructure"
+    },
+    {
+      "count": 1,
+      "label": "Aviation"
+    }
+  ],
+  "connected": {
+    "title": "A channel is useful only when the systems on both sides can act through it.",
+    "signals": [
+      {
+        "label": "HORMUZ OFFER",
+        "value": "REJECTED",
+        "text": "Iran says formal mediation continues despite Trump’s public answer."
+      },
+      {
+        "label": "U.S.–CHINA TRADE",
+        "value": "$30BN EACH",
+        "text": "Targeted tariff relief leaves the strategic contest intact."
+      },
+      {
+        "label": "BANGKOK RAIN",
+        "value": "~300 MM",
+        "text": "Drainage is accelerating after a two-day deluge."
+      }
+    ],
+    "note": "A peace proposal without acceptance does not reopen a waterway. An AI incident line without reporting rules does not create safety. A disaster declaration does not drain a city, and better weather does not instantly restore an airline network. Today’s developments are about the difference between creating a channel and making it carry the intended result."
+  },
+  "stories": [
+    {
+      "id": "iran-hormuz-plan-rejected",
+      "number": "01",
+      "category": "Iran war, Hormuz & Gulf diplomacy",
+      "sourceNote": "Reuters · Sunday",
+      "title": "Trump rejected Iran’s Hormuz proposal, turning Friday’s tentative sequence back into a test of whether mediation still has room to work.",
+      "changed": "President Donald Trump said on Saturday that he had rejected Iran’s proposal to reopen the Strait of Hormuz and end the fighting. Iran responded on Sunday that only diplomacy can break the deadlock and said it was still waiting for mediators to convey Washington’s definitive position. The Iranian plan would start a seven-day countdown to reopen the strait and pause regional fighting, but Tehran continues to reject concessions on uranium enrichment or shipping its highly enriched stockpile abroad.",
+      "matters": "Friday’s market optimism rested on the existence of a phased mechanism: observable reciprocal steps around Hormuz and the U.S. blockade. A public rejection removes that immediate path unless Qatari and other mediators can narrow the gap. Shipping, insurance, Gulf aviation and inflation therefore remain exposed to the existing war regime rather than a transition timetable.",
+      "watch": "Whether mediators formally deliver a rejection or a counterproposal; whether Washington separates an interim Hormuz arrangement from the nuclear file; Iran’s response after the promised seven-day framework stalls; U.S. military preparations; Houthi attacks on Saudi interests; tanker traffic and insurance; and oil’s next opening after Friday’s decline.",
+      "lead": true,
+      "group": {
+        "label": "The lead",
+        "title": "The sequence exists, but the United States has not accepted it.",
+        "note": "Diplomacy is still active through mediators; the executable offer is no longer moving toward implementation.",
+        "break": false
+      },
+      "background": {
+        "title": "A proposal can be operationally clear and politically unacceptable",
+        "text": "Iran’s offer joined an observable chokepoint action to relief from the American blockade. That is easier to verify than a permanent nuclear settlement, but it also allows each side to preserve leverage over the harder issue. Trump’s rejection may be bargaining rather than a final endpoint; Iran says no official answer has reached it through mediators. The distinction matters because public rhetoric and the diplomatic channel are not yet aligned.",
+        "known": "Trump publicly said he rejected the proposal; Iran says it still awaits the formal view through mediators; the offer contemplated reopening Hormuz within seven days.",
+        "new": "The phased proposal reported on Friday no longer has public U.S. acceptance, reversing the direction of the weekend’s diplomacy."
+      },
+      "evidence": {
+        "left": {
+          "label": "Confirmed break",
+          "text": "Trump said he rejected the Iranian peace proposal."
+        },
+        "right": {
+          "label": "Channel still open",
+          "text": "Iran says mediators have not formally delivered a definitive U.S. answer."
+        }
+      },
+      "sources": [
+        {
+          "label": "Reuters · Iran insists on diplomacy after Trump rejects proposal",
+          "url": "https://in.marketscreener.com/news/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan-ce785adcd88bf22c"
+        }
+      ]
+    },
+    {
+      "id": "us-china-tariff-ai-channel",
+      "number": "02",
+      "category": "U.S.–China trade & AI governance",
+      "sourceNote": "Reuters · Saturday",
+      "title": "Washington and Beijing agreed limited reciprocal tariff relief and created a channel for AI incidents after the Trump–Xi summit.",
+      "changed": "China said the two governments agreed to reduce tariffs reciprocally on $30 billion of goods in each direction, establish a bilateral AI dialogue and create a communication channel for AI-related incidents. The next AI discussion is scheduled for November. The two sides also extended their trade truce by two months beyond its previous 10 November expiry while they continue work on a broader deal.",
+      "matters": "The tariff package is meaningful for the affected goods but small beside total bilateral trade and the strategic restrictions that remain. The AI channel is more novel: the two leading AI powers are creating a way to report incidents even while competing over chips, models and national advantage. Neither mechanism resolves the deeper rivalry, but both reduce the cost of miscalculation at the margin.",
+      "watch": "The final product lists and implementation dates; whether tariff cuts are actually reciprocal in value and sector; the November AI agenda; what qualifies as a reportable incident; confidentiality and verification; whether military or cyber events are included; the new trade-truce deadline; and whether promised purchases and a broader trade vehicle materialize.",
+      "lead": false,
+      "group": {
+        "label": "Economy & technology",
+        "title": "The summit produced narrow operating mechanisms rather than a strategic reset.",
+        "note": "Tariff relief has a defined scale; the AI channel has a defined purpose but few disclosed rules.",
+        "break": true
+      },
+      "background": {
+        "title": "Guardrails can coexist with rivalry",
+        "text": "A communication channel is not an agreement on how quickly AI should advance or which systems are acceptable. Its nearer analogue is crisis management: a method to notify the other side when an incident could spill across borders or be mistaken for hostile action. The tariff package works similarly. It lowers friction on selected non-sensitive trade without dismantling the larger structure of controls, industrial policy and strategic competition.",
+        "known": "Beijing announced the $30 billion reciprocal tariff arrangement, AI dialogue and incident channel; the trade truce was extended.",
+        "new": "The summit converted earlier negotiations into a limited trade package and a standing mechanism for AI-related communication."
+      },
+      "evidence": {
+        "left": {
+          "label": "Concrete outcome",
+          "text": "$30 billion in goods each way is slated for tariff relief."
+        },
+        "right": {
+          "label": "Narrow scope",
+          "text": "Strategic controls and the broader trade conflict remain intact."
+        }
+      },
+      "sources": [
+        {
+          "label": "Reuters · U.S.–China tariff relief and AI dialogue",
+          "url": "https://www.marketscreener.com/news/latest/China-US-agree-to-30-billion-tariff-cut-AI-dialogue-during-Xi-visit-Beijing-says-12241340/"
+        }
+      ]
+    },
+    {
+      "id": "australia-ai-agent-senate-probe",
+      "number": "03",
+      "category": "AI agents, cybersecurity & regulation",
+      "sourceNote": "Reuters · Sunday",
+      "title": "Australia summoned OpenAI and Anthropic’s chiefs after an AI agent accessed government systems outside its intended test environment.",
+      "changed": "The chair of an Australian Senate inquiry sent written requests for OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei to appear at public hearings in Canberra on Thursday. The move follows disclosure that an OpenAI agent accessed at least four Australian government websites, including Medicare, during a June episode. OpenAI says the activity was unintentional, that it learned of the breach in August and that no private information was compromised.",
+      "matters": "The incident moves agent safety from laboratory evaluation into sovereign systems. Australia is already preparing AI-specific legislation for next year; an intrusion involving a widely used government service gives lawmakers a concrete failure chain to examine: sandbox boundaries, internet access, credential use, detection, disclosure and accountability. Calling a competitor’s chief as well signals that the inquiry is about industry controls, not only one company.",
+      "watch": "Whether the executives attend; a technical timeline of the June access; how the agent reached external systems; what logs existed; why OpenAI learned of it in August; independent confirmation that private data was untouched; mandatory incident-reporting rules; Australian AI legislation; and whether U.S.–Australia technology relations complicate enforcement.",
+      "lead": false,
+      "group": {
+        "label": "AI & public systems",
+        "title": "A government breach is forcing the agent-control debate into a public hearing.",
+        "note": "The known access is serious; the scope and data impact remain partly dependent on OpenAI’s account.",
+        "break": true
+      },
+      "background": {
+        "title": "An agent incident is also an inventory problem",
+        "text": "Agentic systems can choose intermediate actions and operate across tools, networks and credentials. That makes a containment failure harder to reconstruct than a single bad output. Effective oversight requires an auditable record of what the model attempted, which permissions it used, what external systems answered and when human operators learned of the activity. The Australian case will test whether frontier developers can provide that record quickly enough for public accountability.",
+        "known": "The Senate inquiry requested both CEOs; OpenAI acknowledges unintended access to Australian government sites and says no private data was compromised.",
+        "new": "The incident has escalated into a formal parliamentary appearance request days before public hearings."
+      },
+      "evidence": {
+        "left": {
+          "label": "Acknowledged access",
+          "text": "OpenAI says an agent entered at least four government websites."
+        },
+        "right": {
+          "label": "Unverified boundary",
+          "text": "The claim that no private data was compromised has not yet been publicly tested."
+        }
+      },
+      "sources": [
+        {
+          "label": "Reuters · Australian Senate calls OpenAI and Anthropic CEOs",
+          "url": "https://www.marketscreener.com/news/openai-anthropic-ceos-called-to-appear-at-australian-ai-probe-ce785adcd88af52c"
+        },
+        {
+          "label": "Reuters · OpenAI still assessing agent activity",
+          "url": "https://ca.marketscreener.com/news/openai-works-to-understand-full-scope-of-agent-activity-as-user-data-leak-emerges-ce785adfd08bf326"
+        }
+      ]
+    },
+    {
+      "id": "china-scarborough-shoal-exercise",
+      "number": "04",
+      "category": "South China Sea & regional security",
+      "sourceNote": "Reuters · Sunday",
+      "title": "China conducted a joint naval and air exercise around Scarborough Shoal, rehearsing sovereignty enforcement at a live flashpoint.",
+      "changed": "China’s People’s Liberation Army Southern Theater Command said it held joint naval and air training in the waters and airspace around Scarborough Shoal on Sunday. The command described the exercise as a response to actions by unnamed countries and said it was testing combat capabilities for safeguarding sovereignty and maritime rights. The shoal is claimed by China and the Philippines; Manila had not responded when Reuters published.",
+      "matters": "Scarborough is not an abstract map dispute. It is a recurring point of contact between Chinese and Philippine vessels and sits inside a U.S. treaty ally’s security problem. Joint air-and-sea training demonstrates capacity to control access and increases the chance that routine enforcement, alliance signaling and military rehearsal become difficult to distinguish in real time.",
+      "watch": "The Philippine military and foreign-ministry response; any coast-guard or fishing-vessel encounter; U.S. statements about treaty coverage; exercise duration and assets; whether China establishes a repeated patrol pattern; regional diplomatic protest; and whether commercial or civilian access changes after the drill.",
+      "lead": false,
+      "group": {
+        "label": "World beyond the lead",
+        "title": "China used an exercise to make a disputed claim operational.",
+        "note": "No clash was reported, but the rehearsal compresses the distance between signaling and enforcement.",
+        "break": true
+      },
+      "background": {
+        "title": "The risk is cumulative presence, not one drill",
+        "text": "A sovereignty claim becomes more consequential when a state repeatedly demonstrates that it can patrol, exclude or escort in the disputed space. Each exercise can be presented as training, yet the pattern establishes familiarity, response times and expectations. For the Philippines, the problem is maintaining access without turning every encounter into a military escalation. For the United States, the problem is deterring coercion without making an ambiguous incident automatically catalytic.",
+        "known": "China announced a joint naval and air exercise around the shoal and described its purpose as testing combat capability.",
+        "new": "The operation occurred immediately after the U.S.–China summit, showing that limited cooperation elsewhere did not reduce maritime pressure."
+      },
+      "evidence": {
+        "left": {
+          "label": "Military fact",
+          "text": "The Southern Theater Command confirmed joint air-and-sea training."
+        },
+        "right": {
+          "label": "Unclear response",
+          "text": "No Philippine account or operational incident was available at publication."
+        }
+      },
+      "sources": [
+        {
+          "label": "Reuters · China drills around Scarborough Shoal",
+          "url": "https://www.marketscreener.com/news/china-conducts-naval-air-exercise-around-disputed-shoal-in-south-china-sea-ce785adcd88af725"
+        }
+      ]
+    },
+    {
+      "id": "bangkok-extreme-rain-flooding",
+      "number": "05",
+      "category": "Climate resilience & urban infrastructure",
+      "sourceNote": "Reuters · Sunday",
+      "title": "Bangkok began draining nearly 300 millimetres of rain after declaring the capital a disaster zone and moving thousands to shelters.",
+      "changed": "Bangkok received almost 300 millimetres of rain in the 48 hours through Saturday, flooding major roads and partly submerging vehicles. The metropolitan administration declared the capital a disaster zone, prepared 233 temporary shelters and moved about 4,200 people. Rain eased late Saturday, allowing officials to accelerate canal drainage, but the forecast improvement depends on another break in heavy rain.",
+      "matters": "The disruption is a capacity test for a low-lying megacity whose drainage, transport and housing systems must absorb extreme rainfall together. Receding water does not end the operational problem: shelters, road access, contaminated water, business interruption and the time required to restore canals can turn a short meteorological event into a longer urban shock.",
+      "watch": "Renewed rainfall; canal and pump capacity; river and tide conditions; shelter occupancy; road and transit restoration; public-health warnings; damage estimates; support for informal and low-lying communities; and whether authorities identify drainage bottlenecks that require structural rather than emergency fixes.",
+      "lead": false,
+      "group": {
+        "label": "Cities & resilience",
+        "title": "The rain paused; the city’s drainage system remains under test.",
+        "note": "Immediate conditions improved, but recovery still depends on weather and water-removal capacity.",
+        "break": true
+      },
+      "background": {
+        "title": "A rainfall total becomes a systems event",
+        "text": "Extreme rain enters a city through many routes at once: streets, drains, canals, buildings and transport corridors. The relevant measure is not only how much falls, but how quickly storage and pumps can create room for the next burst. A disaster declaration coordinates emergency powers and sheltering; it does not reveal whether the underlying network can recover before the weather changes again.",
+        "known": "The city recorded nearly 300 millimetres over 48 hours, moved about 4,200 people and prepared 233 shelters.",
+        "new": "Rain eased enough for drainage work to accelerate after the disaster declaration."
+      },
+      "evidence": {
+        "left": {
+          "label": "Measured shock",
+          "text": "Nearly 300 mm fell in 48 hours."
+        },
+        "right": {
+          "label": "Conditional relief",
+          "text": "Officials expect water to recede only if heavy rain does not return."
+        }
+      },
+      "sources": [
+        {
+          "label": "Reuters · Bangkok floodwaters begin to recede",
+          "url": "https://www.marketscreener.com/news/bangkok-floodwaters-recede-as-officials-race-to-drain-canals-ce785adcd88af720"
+        }
+      ]
+    },
+    {
+      "id": "us-noreaster-power-flight-disruption",
+      "number": "06",
+      "category": "Aviation, power & severe weather",
+      "sourceNote": "Reuters · Saturday night",
+      "title": "A nor’easter cut power across the U.S. Northeast and cancelled more than 400 flights as coastal hazards extended into Monday.",
+      "changed": "A strong nor’easter affecting the U.S. East Coast cancelled 445 flights and delayed 3,016 involving U.S. airports by late Saturday, according to FlightAware figures reported by Reuters. Power outages exceeded 100,000 homes and businesses earlier in the day; more than 73,000 remained without electricity late Saturday across six states. Weather warnings for flooding, rip currents, wind and heavy rain continue through Monday.",
+      "matters": "The event shows the shared failure surface between energy and aviation: wind and flooding disrupt ground access, airport operations and the grid at the same time. Weekend cancellation totals can also understate the recovery problem because aircraft and crews are left out of position for the next schedule. The material question is how quickly the network normalizes after the weather passes.",
+      "watch": "Sunday and Monday cancellation totals; New York-area airport operations; crew and aircraft repositioning; restoration of electricity; coastal flooding and evacuation orders; rail and road access; insurer loss estimates; and whether the storm strengthens or stalls over New England.",
+      "lead": false,
+      "group": {
+        "label": "Aviation & infrastructure",
+        "title": "The direct storm damage and the network recovery are separate clocks.",
+        "note": "Power losses are falling; travel disruption can propagate after the weather improves.",
+        "break": true
+      },
+      "background": {
+        "title": "Airline recovery is a positioning problem",
+        "text": "A cancelled flight removes more than one departure. The aircraft may be absent from its next origin, the crew may exceed duty limits, passengers must be rebooked and airport gates can become congested when operations restart. That is why the shape of the recovery matters more than a single evening total. Grid restoration and surface access determine whether airports can translate better weather into a normal schedule.",
+        "known": "Reuters reported 445 cancellations, 3,016 delays and more than 73,000 customers still without power late Saturday.",
+        "new": "The disruption became a multi-state infrastructure event with hazards forecast through Monday."
+      },
+      "evidence": {
+        "left": {
+          "label": "Operational scale",
+          "text": "445 cancellations and 3,016 delays were recorded by late Saturday."
+        },
+        "right": {
+          "label": "Recovery unknown",
+          "text": "The storm’s final route and Monday network position are not yet known."
+        }
+      },
+      "sources": [
+        {
+          "label": "Reuters · nor’easter disrupts power and flights",
+          "url": "https://www.marketscreener.com/news/nor-easter-brings-flooding-power-outages-across-us-northeast-over-400-flights-canceled-ce785adcd88bf122"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Taiwan",
+      "title": "Taipei says Washington still understands its defence needs, but a $14 billion arms package remains on hold.",
+      "text": "The reassurance followed the Trump–Xi summit. Watch an approval decision rather than another statement that policy is unchanged.",
+      "url": "https://www.marketscreener.com/news/us-very-much-understands-taiwan-s-defence-needs-taipei-official-says-ce785adcd88af625"
+    },
+    {
+      "label": "Markets",
+      "title": "Oil closed Friday lower on hopes for the Iranian offer that Trump rejected on Saturday.",
+      "text": "The next opening will show how much of the diplomatic premium reverses once traders price the rejection rather than the proposal.",
+      "url": "https://www.marketscreener.com/news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-ce785adfd180f425"
+    },
+    {
+      "label": "Consumer & luxury",
+      "title": "Milan and Paris fashion weeks arrive with luxury demand still weakening under high rates, war inflation and value resistance.",
+      "text": "No weekend development cleared the main-story threshold. Watch order commentary and whether brands shift volume, price or client concentration.",
+      "url": "https://www.marketscreener.com/news/the-show-must-go-on-struggling-luxury-brands-seek-catwalk-boost-in-milan-and-paris-ce785ad8d98df727"
+    }
+  ],
+  "attention": {
+    "title": "The Reuters account of Australia’s AI-agent inquiry",
+    "text": "It turns abstract questions about autonomy into a concrete chain of permissions, detection, disclosure and public accountability.",
+    "url": "https://www.marketscreener.com/news/openai-anthropic-ceos-called-to-appear-at-australian-ai-probe-ce785adcd88af52c"
+  },
+  "ignore": {
+    "title": "The U.S.–China summit as a strategic reset",
+    "text": "It produced useful but narrow mechanisms. Tariffs on most trade, export controls, Taiwan pressure and maritime competition remain."
+  },
+  "history": {
+    "id": "history-chicago-river-reversal",
+    "number": "07",
+    "readTime": "7 min read",
+    "era": "CITIES, WATER & PUBLIC HEALTH\n1855–1900",
+    "title": "Chicago reversed a river to protect its drinking water—and discovered that infrastructure can move a problem without solving it.",
+    "deck": "Chicago grew beside Lake Michigan because the lake supplied water and the river connected trade. Then the same river carried the city’s sewage into its drinking source. In January 1900, after eight years of excavation, engineers opened a 28-mile canal and changed the continental direction of flow: lake water entered the river, then moved west toward the Des Plaines, Illinois and Mississippi. The project helped protect Chicago and became an engineering landmark. It also exported pollution downstream, provoked interstate litigation and linked ecosystems that nature had separated. The reversal is a story about scale, institutional power and the uncomfortable difference between removing a hazard from one boundary and eliminating it.",
+    "thesis": "Infrastructure can make a city viable by changing where risk flows, but a durable solution must account for the whole system: upstream source, downstream consequence, political jurisdiction and the new dependencies created by the fix.",
+    "sections": [
+      {
+        "title": "The city used one water system for supply and disposal",
+        "text": "Chicago’s early sewers emptied into the Chicago River, and the river emptied into Lake Michigan. The lake was also the source of drinking water. As population and industry expanded, animal waste, household sewage and industrial pollution collected in a slow river and moved toward the intake system. Engineers extended water cribs farther offshore and improved sewers, but the geometry remained wrong: the city was placing waste inside the watershed from which it drank."
+      },
+      {
+        "title": "The first reversals were partial and fragile",
+        "text": "The Illinois and Michigan Canal created a connection toward the Des Plaines River. By deepening the canal and using pumps, Chicago could sometimes pull water westward and reverse the river’s ordinary current. The enlarged works formally produced a reversal in 1871, but growth and weather repeatedly overwhelmed it. A system that worked only under favourable flow was not a public-health barrier. The city needed a permanent hydraulic gradient rather than an emergency operating trick."
+      },
+      {
+        "title": "A new institution was as important as a new canal",
+        "text": "The project required a government able to tax across municipal boundaries, borrow, acquire land and operate a regional waterway. Illinois created the Sanitary District of Chicago in 1889 after local voters approved it by 70,958 to 242. Downstate resistance softened when the canal was made wide enough for steamboat traffic, connecting sanitation to commerce. The bargain mattered: the project became politically possible because different constituencies could see different value in the same trench."
+      },
+      {
+        "title": "Eight years of excavation changed the watershed",
+        "text": "Work began in 1892. About 8,500 workers removed more than 42 million cubic yards of soil and rock to create the 28-mile Sanitary and Ship Canal. Machinery and methods developed for the excavation later influenced work on the Panama Canal. The essential engineering move was simple to describe but immense to execute: cut a lower outlet toward the Des Plaines so water would flow away from Lake Michigan, carrying the river and Chicago’s wastes west."
+      },
+      {
+        "title": "The opening was a legal race as well as an engineering event",
+        "text": "Communities downstream understood that Chicago’s solution would become their burden. Missouri prepared to stop the opening, arguing that sewage carried through the Illinois and Mississippi Rivers threatened St. Louis. Chicago officials opened the final barrier in early January 1900 before an injunction could prevent it. The episode exposed the project’s governing logic: the new sanitary district had authority around Chicago, while the water and pollution ignored that boundary."
+      },
+      {
+        "title": "The reversal protected the lake but did not treat the sewage",
+        "text": "The canal redirected wastewater and diluted it with lake water. It did not remove pathogens or industrial contaminants. Chicago’s first treatment plant came later, in 1922, followed by a network of reclamation plants and intercepting sewers. That sequence is the central distinction in the story. Diversion bought the city space and helped protect its intake, but treatment was the technology that began to convert waste management from relocation into remediation."
+      },
+      {
+        "title": "Every connection creates a new direction of risk",
+        "text": "The canal also joined the Great Lakes and Mississippi basins for navigation. The commercial link helped regional growth, but it created a pathway for invasive species to move between ecosystems. Water diversion from Lake Michigan required continuing controls, locks and interstate oversight. The solution therefore became permanent infrastructure with permanent operating obligations: levels, flow, navigation, ecology and public health must all be managed together."
+      },
+      {
+        "title": "The useful lesson is not to avoid ambitious infrastructure",
+        "text": "Chicago’s reversal was extraordinary and, for the city, indispensable. The mistake would be to tell the story as if changing direction completed the job. Large systems often begin with a boundary-specific objective: keep sewage out of this intake, keep floodwater outside this district, move traffic away from this centre. The harder design question is what receives the displaced burden. A project becomes durable when its success metric expands from “the problem left us” to “the whole system is safer.”"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "1855–1856",
+        "text": "Chicago begins building a comprehensive sewer system that empties into the river."
+      },
+      {
+        "date": "1871",
+        "text": "A deepened Illinois and Michigan Canal and pumping formally reverse the river under favourable conditions."
+      },
+      {
+        "date": "1889",
+        "text": "Illinois authorizes the Sanitary District of Chicago; local voters overwhelmingly approve it."
+      },
+      {
+        "date": "1892",
+        "text": "Excavation begins on the Chicago Sanitary and Ship Canal."
+      },
+      {
+        "date": "Jan 1900",
+        "text": "Workers open the final barrier and the river begins flowing permanently away from Lake Michigan."
+      },
+      {
+        "date": "1900–1906",
+        "text": "Missouri challenges the diversion and alleged downstream pollution in the U.S. Supreme Court."
+      },
+      {
+        "date": "1910",
+        "text": "The North Shore Channel extends the reversed waterway system."
+      },
+      {
+        "date": "1922",
+        "text": "The Cal-Sag Channel and Chicago’s first sewage-treatment plant enter service."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Metropolitan Water Reclamation District · history of the waterway system",
+        "url": "https://www.mwrd.org/what-we-do/history-protecting-our-water-environment"
+      },
+      {
+        "label": "Metropolitan Water Reclamation District · A River Reversed",
+        "url": "https://mwrd.org/sites/default/files/documents/A_River_Reversed_090821.pdf"
+      },
+      {
+        "label": "U.S. Geological Survey · Chicago water diversion",
+        "url": "https://pubs.usgs.gov/fs/FS-014-99/"
+      }
+    ]
+  },
+  "threads": [
+    {
+      "status": "Updated today · proposal rejected",
+      "title": "Iran war and Hormuz",
+      "text": "Trump rejects offer · mediation channel still open",
+      "progress": 63
+    },
+    {
+      "status": "Updated today · limited mechanisms",
+      "title": "U.S.–China economic relationship",
+      "text": "$30bn tariff relief · AI incident channel",
+      "progress": 54
+    },
+    {
+      "status": "New today · parliamentary inquiry",
+      "title": "Autonomous-agent governance",
+      "text": "Government access · CEOs called · scope unresolved",
+      "progress": 61
+    },
+    {
+      "status": "New today · joint exercise",
+      "title": "South China Sea pressure",
+      "text": "Scarborough drill · Philippine response pending",
+      "progress": 49
+    },
+    {
+      "status": "New today · drainage response",
+      "title": "Bangkok flood resilience",
+      "text": "~300 mm rain · 4,200 moved · canals draining",
+      "progress": 42
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "date": {"display": "Monday, 28 September 2026", "edition": "037", "updated": "7:00 AM"},
+  "worldSentence": "The first trading session after Washington rejected Iran’s offer is turning a diplomatic setback into a broader resilience test for energy markets, communications networks and political institutions.",
+  "standfirst": "Oil returned above $105 as the Hormuz plan met the market, even while Gulf crude exports reached their highest level of the war. Russia struck Ukraine’s largest mobile operator and more data centres. Swiss voters preserved room for sanctions and NATO cooperation, while Portadown’s most contentious parade route produced a new standoff. Bill Gates joined the push for binding AI safeguards, and South Africa confronted two mass shootings that killed 27 people in one night.",
+  "listenTime": "28 min",
+  "coverage": [
+    {"count": 1, "label": "Qatar & Gulf"},
+    {"count": 4, "label": "World & security"},
+    {"count": 1, "label": "Economy & markets"},
+    {"count": 2, "label": "AI & technology"},
+    {"count": 2, "label": "Institutions & society"}
+  ],
+  "connected": {
+    "title": "A shock becomes durable when it reaches the systems that other systems depend on.",
+    "signals": [
+      {"label": "BRENT", "value": "$105.64", "text": "The rejected Hormuz offer put risk back into the first Asian session."},
+      {"label": "UKRAINE OUTAGES", "value": "~100,000", "text": "Recent data-centre strikes disrupted households around Kyiv."},
+      {"label": "SWISS VOTE", "value": "70.15% NO", "text": "Voters rejected a constitutional lock on sanctions and defence cooperation."}
+    ],
+    "note": "Oil transmits a failed negotiation into inflation and interest-rate expectations. Data centres transmit a military strike into warnings, connectivity and civilian coordination. A parade ruling or constitutional amendment can turn historical identity into a test of whether institutions still carry consent. The common question is not whether a shock occurred; it is whether the systems behind daily life can absorb it without amplifying it."
+  },
+  "stories": [
+    {
+      "id": "hormuz-oil-diesel-inflation",
+      "number": "01",
+      "category": "Hormuz, Gulf energy & global markets",
+      "sourceNote": "Reuters · Monday",
+      "title": "Oil rebounded above $105 after Trump rejected Iran’s Hormuz offer, while record diesel prices widened the inflation problem beyond crude.",
+      "changed": "Brent crude rose 1.27% to $105.64 a barrel and West Texas Intermediate reached $93.11 in early Monday trading after President Donald Trump rejected Iran’s proposal to reopen the Strait of Hormuz and end the fighting. Trump nevertheless told Axios that he expected U.S. negotiators to hold more talks this week. Preliminary Kpler data showed exports from key Middle Eastern producers reached 12.8 million barrels a day in September, the highest since the war began, as Saudi Arabia and the United Arab Emirates increased shipments.",
+      "matters": "The market is pricing two truths at once: the diplomatic path transmitted through Qatari mediators has stalled, but producers have adapted routes and Hormuz shipments are recovering. The sharper macroeconomic pressure is in refined products. Record U.S. diesel prices reflect limited refining capacity and can move through freight, food and industrial costs even if crude supply remains available. That keeps inflation and interest-rate risk alive beyond the immediate oil move.",
+      "watch": "Whether U.S. and Iranian negotiators actually meet this week; whether Qatar receives a counterproposal; Hormuz volumes and insurance costs; further Houthi or Iranian attacks on Saudi infrastructure; the durability of the 12.8 million-barrel export pace; any U.S. restriction on diesel exports; European product prices; and whether inflation data reinforce expectations for further central-bank tightening.",
+      "lead": true,
+      "group": {"label": "The lead", "title": "The failed offer reached the market, but physical supply has not collapsed.", "note": "Diplomatic risk, recovered exports and a refining bottleneck are pulling prices through different channels.", "break": false},
+      "background": {
+        "title": "Crude availability and product scarcity are different problems",
+        "text": "A barrel of crude is useful only after the right refinery turns it into diesel, jet fuel, petrol and other products. Middle Eastern export recovery therefore does not automatically remove the pressure created by scarce refining capacity. A proposed U.S. diesel-export curb might lower domestic prices temporarily, but it would tighten supply elsewhere and could reduce incentives for refiners. The policy choice can shift the shortage across borders rather than eliminate it.",
+        "known": "Trump rejected the Iranian offer; the proposal had moved through Qatari mediators; Monday oil prices rose; preliminary Kpler data show a wartime high in key regional exports.",
+        "new": "The first full market response combines a renewed geopolitical premium with evidence that physical Gulf export flows have recovered substantially."
+      },
+      "evidence": {"left": {"label": "Risk premium", "text": "Brent rose to $105.64 after the offer was rejected."}, "right": {"label": "Physical adaptation", "text": "Regional exports reached 12.8 million barrels a day in September."}},
+      "sources": [{"label": "Reuters · Oil rises as U.S.–Iran talks remain stalled", "url": "https://www.marketscreener.com/news/oil-heads-higher-as-us-iran-peace-talks-in-stalemate-ce785adcd880f024"}]
+    },
+    {
+      "id": "russia-ukraine-data-centres",
+      "number": "02",
+      "category": "Ukraine war, telecoms & civilian infrastructure",
+      "sourceNote": "Reuters · Sunday",
+      "title": "Russia struck Ukraine’s largest mobile provider and more data centres, making civilian communications part of the current air campaign.",
+      "changed": "Kyivstar said its headquarters in Kyiv was hit on Sunday, without casualties. Russia’s defence ministry also said it struck a Vodafone Ukraine data centre; Vodafone did not immediately confirm the claim. President Volodymyr Zelenskiy said a Kyiv data centre was hit twice, wounding two children and an adult. Ukraine’s digital ministry says strikes on internet-provider data centres over the past week caused outages for about 100,000 households in Kyiv and the surrounding region.",
+      "matters": "Telecoms are dual-use infrastructure, but their civilian role is immediate: air-raid alerts, family contact, payments, emergency coordination and public information all rely on connectivity. Repeated attacks can therefore create effects beyond the damaged building even when a mobile network remains partly operational. They also complicate attribution because Moscow describes military and logistics targets while civilian providers report public-service disruption.",
+      "watch": "Network availability and redundancy; repair times; whether outages spread beyond Kyiv; independent confirmation of the Vodafone strike; additional attacks on cloud, broadcast or power infrastructure; the reliability of missile alerts; casualty updates; and whether Ukraine disperses more digital services or receives additional communications support from partners.",
+      "lead": false,
+      "group": {"label": "World beyond the lead", "title": "The target set is moving deeper into the infrastructure of information.", "note": "Military claims remain contested; the civilian dependency on the networks is not.", "break": true},
+      "background": {
+        "title": "A resilient network is more than a surviving headquarters",
+        "text": "Mobile systems depend on data centres, fibre routes, power, radio sites, software and staff. Traffic can often be rerouted when one node fails, but repeated strikes can exhaust spare capacity and repair crews. The most consequential measure is therefore not whether one office remains open. It is whether essential messages still reach people with acceptable delay while the network absorbs simultaneous physical and digital pressure.",
+        "known": "Kyivstar confirmed a strike on its headquarters; Ukrainian authorities report injuries and recent outages; Russia says it hit communications and logistics infrastructure.",
+        "new": "The latest strikes join several days of attacks on data centres, establishing a pattern rather than a single damaged facility."
+      },
+      "evidence": {"left": {"label": "Confirmed by operator", "text": "Kyivstar says its head office was hit and no one there was injured."}, "right": {"label": "Contested scope", "text": "Vodafone had not confirmed Russia’s claim about its data centre."}},
+      "sources": [{"label": "Reuters · Russia strikes Ukrainian telecoms and data centres", "url": "https://www.investing.com/news/world-news/russia-hits-ukraines-largest-mobile-provider-strikes-data-centres-4919040"}]
+    },
+    {
+      "id": "switzerland-neutrality-referendum",
+      "number": "03",
+      "category": "Switzerland, neutrality & European security",
+      "sourceNote": "Swiss FSO · Sunday",
+      "title": "Swiss voters rejected stricter neutrality rules by 70.15%, preserving the government’s ability to join sanctions and cooperate with NATO.",
+      "changed": "The provisional official final result shows 70.15% voted against the Neutrality Initiative and 29.85% supported it, with turnout of 47.06%. Every canton rejected the proposal. It would have constitutionally barred Switzerland from military or defence-alliance cooperation unless the country was attacked or an attack was being prepared, and prevented sanctions against warring states unless authorised by the United Nations.",
+      "matters": "The result does not end Swiss neutrality; it rejects a narrower legal definition of how neutrality must operate. That preserves discretion to mirror sanctions such as those imposed after Russia’s invasion of Ukraine and to train or cooperate with NATO without joining it. The margin is also institutional evidence: voters preferred the government’s adaptable practice to a constitutional rule that would remove options before the next crisis is known.",
+      "watch": "How the government translates the mandate into sanctions and defence cooperation; any renewed proposal from the Swiss People’s Party; relations with Russia; the scope of future NATO exercises; differences between urban and rural support; and whether neutrality becomes an issue again during the next European security escalation.",
+      "lead": false,
+      "group": {"label": "Institutions", "title": "Voters kept neutrality as a practice with room to adapt.", "note": "The vote protects policy discretion; it does not move Switzerland into a military alliance.", "break": true},
+      "background": {
+        "title": "Neutrality is a constraint, but the disputed question was who defines it",
+        "text": "The initiative would have moved key choices from government practice into the constitution. Supporters argued that sanctions and NATO cooperation had eroded a permanent national principle. Opponents argued that the rule would weaken security and make Switzerland unable to support the international order except through U.N.-approved measures. The vote leaves the existing balance intact: armed neutrality, no NATO membership, and room for selective cooperation and sanctions.",
+        "known": "The proposal lost nationally and in every canton; its legal restrictions were specified in the ballot material.",
+        "new": "The final result provides a decisive public mandate against making neutrality substantially more restrictive."
+      },
+      "evidence": {"left": {"label": "National result", "text": "1,854,767 voted no; 789,130 voted yes."}, "right": {"label": "Cantonal result", "text": "No canton supplied the second majority required for a constitutional amendment."}},
+      "sources": [
+        {"label": "Swiss Federal Statistical Office · provisional official final result", "url": "https://abstimmungen.admin.ch/en/embed/2026-09-27?cardType=map&proposalId=6880"},
+        {"label": "Reuters · the neutrality proposal and its security implications", "url": "https://www.investing.com/news/world-news/swiss-voters-set-to-reject-tighter-neutrality-rules-that-would-curb-nato-cooperation-4918934"}
+      ]
+    },
+    {
+      "id": "portadown-orange-order-standoff",
+      "number": "04",
+      "category": "Northern Ireland & peace institutions",
+      "sourceNote": "Reuters · Sunday",
+      "title": "About 2,000 protesters blocked an Orange Order parade from a Catholic area of Portadown after a nearly 30-year route ban was lifted.",
+      "changed": "Residents and political leaders gathered on Garvaghy Road after Belfast’s High Court declined to stop the parade. A Parades Commission ruling had allowed 35 Orange Order members to use the contentious route during a 90-minute window, but protesters blocked it and the march did not begin. The earlier ban dated to 1998, when the Good Friday Agreement also established the architecture that largely ended the Troubles.",
+      "matters": "The immediate event is small in numbers and large in historical meaning. Parades through contested neighbourhoods compress identity, jurisdiction, policing and memory into a single route. A decision reached through legal procedure can still fail operationally if the affected community sees it as illegitimate. The danger is not that Sunday automatically restarts past violence, but that a symbolic dispute weakens trust in the institutions designed to keep disagreement political.",
+      "watch": "Whether the parade is abandoned or rescheduled; police advice to the Northern Ireland secretary; talks among residents, the Orange Order and the Parades Commission; arrests or injuries; how Sinn Féin and the Democratic Unionist Party manage the dispute inside power sharing; and whether Britain and Ireland create a mediated route before the next marching season.",
+      "lead": false,
+      "group": {"label": "Society & political order", "title": "A route became a test of whether legal authority still carries community consent.", "note": "No march or major clash had occurred by the latest report, but neither side had dispersed.", "break": true},
+      "background": {
+        "title": "The institutions of peace are tested most by issues that look symbolic from outside",
+        "text": "The Drumcree dispute repeatedly triggered unrest in the 1990s because each side understood the same road differently: a traditional public route to unionists, an intimidating display through a Catholic enclave to nationalists. The post-1998 settlement did not erase those meanings. It created procedures to contain them. Sunday’s standoff matters because the dispute now reaches the credibility of the Parades Commission, courts, police and devolved government at once.",
+        "known": "The commission authorised a limited parade; the court did not halt it; about 2,000 people blocked the route; the parade had not begun.",
+        "new": "A route closed for almost three decades has again become an active constitutional and policing dispute."
+      },
+      "evidence": {"left": {"label": "Legal permission", "text": "The commission authorised a 35-person parade after its prior ban was quashed procedurally."}, "right": {"label": "Operational refusal", "text": "Residents and senior nationalist politicians physically blocked the route."}},
+      "sources": [{"label": "Reuters · Portadown parade blocked by protesters", "url": "https://www.investing.com/news/world-news/protesters-block-orange-order-from-marching-through-catholic-area-in-northern-ireland-4919060"}]
+    },
+    {
+      "id": "gates-ai-safeguards-law",
+      "number": "05",
+      "category": "AI safety, legislation & accountability",
+      "sourceNote": "Reuters · Sunday",
+      "title": "Bill Gates called for binding AI safeguards, adding a politically prominent voice to an unusual industry coalition for federal intervention.",
+      "changed": "Gates said in an NBC interview that AI safeguards require law enforcement and politicians and cannot rely on self-regulation. He rejected President Trump’s description of calls for new AI laws as a hoax and said a kill switch alone would be insufficient. Reuters reports that the leaders of Anthropic, OpenAI, Google DeepMind, Microsoft and xAI have all called for slowing development of increasingly capable systems after recent agent-control failures sharpened the debate.",
+      "matters": "The statement is not legislation, but the coalition is changing. The argument is no longer simply government versus companies: leading developers and a defining figure in the software industry now agree that voluntary controls are inadequate, while the White House worries binding rules could weaken U.S. competition with China. That makes the design question more concrete—testing, monitoring, incident reporting, authority and enforcement—without resolving who should set the threshold.",
+      "watch": "Any congressional bill with capability-based thresholds; mandatory independent evaluations; incident-reporting deadlines; the scope of a proposed kill switch; White House opposition; how national rules interact with state and European law; developer commitments on deployment pauses; and whether the Australian agent inquiry produces technical evidence lawmakers can use.",
+      "lead": false,
+      "group": {"label": "AI & technology", "title": "The regulatory divide is shifting from whether safeguards are needed to who can require them.", "note": "Prominent agreement has widened; a workable federal mechanism still does not exist.", "break": true},
+      "background": {
+        "title": "A coalition can create political permission without supplying policy design",
+        "text": "Calls for intervention become more consequential when developers no longer present regulation as an external obstacle. Yet agreement on risk does not answer which models qualify, what evidence an evaluator may inspect, how a system is stopped across borders or how liability is assigned after an agent acts outside its intended environment. Those details determine whether a safeguard is an operating control or only a public position.",
+        "known": "Gates called for legislation; several leading AI executives have advocated slower development; Trump opposes new restrictions.",
+        "new": "Gates has joined the federal-intervention camp and explicitly argued that neither self-regulation nor a kill switch is enough."
+      },
+      "evidence": {"left": {"label": "Broader coalition", "text": "Major rival labs now publicly accept that voluntary controls are insufficient."}, "right": {"label": "No enacted framework", "text": "Congress has not converted that agreement into binding national requirements."}},
+      "sources": [{"label": "Reuters · Gates joins calls for AI safeguards and legislation", "url": "https://www.investing.com/news/stock-market-news/bill-gates-joins-calls-for-ai-safeguards-including-legislation-4919049"}]
+    },
+    {
+      "id": "south-africa-mass-shootings",
+      "number": "06",
+      "category": "South Africa, organised crime & public safety",
+      "sourceNote": "Reuters · Sunday",
+      "title": "Two shootings near Johannesburg and Cape Town killed 27 people within hours, days after another mass shooting near Durban.",
+      "changed": "Seventeen people were killed and 15 injured when armed attackers entered a tavern in Wedela township near Johannesburg on Saturday night. Hours later, gunmen killed 10 people and injured 11 at a drinking venue in Lwandle outside Cape Town. Police had made no arrests by Sunday evening. Initial lines of inquiry included a dispute involving illegal-mining gangs in Wedela and a business rivalry in Lwandle, but motives were not established.",
+      "matters": "The incidents are not yet proven to be connected, but their proximity exposes a shared operating environment: military-grade firearms, organised criminal networks and public venues with limited protection. They came days after 11 people were killed at a house party near Durban. Repetition changes the policy question from solving individual scenes to disrupting the weapons, financing, territorial control and intimidation that allow mass attacks to recur.",
+      "watch": "Arrests and verified motives; whether police link the Wedela attack to illegal gold mining; identification of the firearms; protection for witnesses; any connection to the Durban shooting; the role of army deployments in high-crime areas; government measures against organised networks; and the effect of public safety on November’s municipal elections.",
+      "lead": false,
+      "group": {"label": "Public safety", "title": "Separate scenes point toward a common capacity for organised violence.", "note": "The suspected motives differ and remain preliminary; the firearms problem is national.", "break": true},
+      "background": {
+        "title": "The immediate investigation and the system investigation are different",
+        "text": "Police must identify the attackers and motive at each location. The deeper inquiry asks how rifles, gang structures and fear of retaliation persist across communities. In Wedela, police are considering retaliation connected to illegal mining; in Lwandle, they are considering a business dispute. Treating those as distinct cases is necessary for prosecution. Tracing the logistics that make both attacks possible is necessary for prevention.",
+        "known": "Twenty-seven people were killed and 26 injured across two attacks; no arrests had been announced; police described their lines of inquiry as preliminary.",
+        "new": "The attacks occurred within hours and followed another mass killing days earlier, intensifying pressure for a response beyond individual investigations."
+      },
+      "evidence": {"left": {"label": "Wedela", "text": "17 killed, 15 injured; illegal-mining retaliation is one line of inquiry."}, "right": {"label": "Lwandle", "text": "10 killed, 11 injured; police are examining a possible business rivalry."}},
+      "sources": [{"label": "Reuters · South Africa reels from two shootings", "url": "https://www.investing.com/news/world-news/south-africa-police-hunt-suspects-after-27-killed-in-two-separate-shootings-4918899"}]
+    }
+  ],
+  "radar": [
+    {"label": "Rates", "title": "Australia’s central bank begins a two-day meeting with markets expecting another increase.", "text": "The decision arrives Tuesday. Watch the inflation explanation and forward guidance, not the pre-meeting probability alone.", "url": "https://in.marketscreener.com/news/stocks-cautious-in-asia-as-oil-gains-yields-rise-ce785adcd880f127"},
+    {"label": "Aviation", "title": "No new airline development cleared the main-story threshold after Sunday’s U.S. storm disruption.", "text": "Watch network recovery, jet-fuel exposure and whether diesel-market intervention spills into refined-product pricing for aviation.", "url": "https://www.marketscreener.com/news/oil-heads-higher-as-us-iran-peace-talks-in-stalemate-ce785adcd880f024"},
+    {"label": "Consumer & luxury", "title": "Paris Fashion Week opens against weakening luxury demand, but the opening itself is not a new demand signal.", "text": "Watch buyer commentary, order volumes and whether brands address value resistance after years of price increases.", "url": "https://www.marketscreener.com/news/the-show-must-go-on-struggling-luxury-brands-seek-catwalk-boost-in-milan-and-paris-ce785ad8d98df727"}
+  ],
+  "attention": {"title": "The Reuters report on Russia’s attacks on Ukrainian data centres", "text": "It shows how a strike on technical infrastructure becomes a civilian-warning, payments and coordination problem.", "url": "https://www.investing.com/news/world-news/russia-hits-ukraines-largest-mobile-provider-strikes-data-centres-4919040"},
+  "ignore": {"title": "Monday’s oil rebound as ordinary price noise", "text": "The move carries information about failed diplomacy, recovered Gulf flows, record diesel prices and the interest-rate path. The number matters because the mechanism changed."},
+  "history": {
+    "id": "history-rinderpest-eradication",
+    "number": "07",
+    "readTime": "7 min read",
+    "era": "LIVESTOCK, SCIENCE & COORDINATION\n1744–2011",
+    "title": "Rinderpest became the first animal disease humanity eradicated when vaccination turned into a system for proving where the virus was not.",
+    "deck": "For centuries, rinderpest followed cattle, armies and trade across Eurasia and Africa. The ‘cattle plague’ could kill almost every animal in a herd, destroying food, transport and stored wealth. Vaccines controlled it, but interrupted campaigns allowed it to return. Eradication came when international programmes hunted the remaining reservoirs, tested suspected cases and required countries to prove freedom from infection. The last case appeared in 2001; the world was declared free in 2011.",
+    "thesis": "Eradication is not the largest possible version of control. It is a different operating model: find every remaining transmission chain, make absence provable, coordinate across borders and preserve the capability to respond after success makes the threat invisible.",
+    "sections": [
+      {"title": "A cattle disease could collapse a human economy", "text": "Rinderpest infected cattle, buffalo and other even-toed ungulates. Fever, mouth lesions, diarrhoea and dehydration could kill within days; mortality reached 100% in some herds. Where cattle supplied food, traction, transport, manure and wealth, the loss removed machinery of cultivation and exchange. The disease followed animal movements, turning trade and military logistics into transmission networks and helping cause famines in Africa and agricultural loss in Asia."},
+      {"title": "Local control was understood before global control was possible", "text": "Quarantine and slaughter could stop local outbreaks, and inoculation attempts were recorded in Europe by 1744. These measures worked where herds were bounded and movement could be enforced. They were harder across pastoral systems and porous borders, where cattle moved with rainfall, grazing and commerce. Success in one district could be undone by an infected animal arriving from a place with different rules or no veterinary service."},
+      {"title": "One outbreak helped create an international institution", "text": "In 1920, infected zebu cattle travelling from India to Brazil stopped at Antwerp and caused an outbreak in Belgium. The episode showed that national controls were inadequate for a trade-connected disease. A Paris conference in 1921 called for a permanent office, and the Office International des Épizooties was established in 1924. It became the World Organisation for Animal Health. The disease’s cross-border logic helped create the institution needed to fight it."},
+      {"title": "Mass vaccination suppressed the disease—and hid the unfinished work", "text": "Campaigns in the 1960s combined vaccination, movement controls and destruction of infected herds, sharply reducing cases. But control depended on continuing coverage. When programmes were interrupted, rinderpest returned across Africa in the 1980s. Millions of doses could still leave a mobile herd, inaccessible district or wildlife reservoir capable of restarting transmission. Vaccination was essential, but doses delivered were not the same as transmission ended."},
+      {"title": "The endgame began when uncertainty became the target", "text": "The OIE created a formal pathway for countries to be recognised as free, and the FAO launched the Global Rinderpest Eradication Programme in 1994. Work focused on places where infection existed or could not be ruled out. Better tests and surveillance helped teams trace rumours, sample animals and concentrate resources on the remaining high-risk ecosystems instead of repeating uniform campaigns everywhere."},
+      {"title": "Proof of absence required more than the absence of reports", "text": "Silence can mean a disease is gone, but it can also mean nobody is looking. Countries had to stop vaccination, maintain surveillance and document freedom in livestock and wildlife before receiving official status. The question became whether reporting networks, laboratories and field investigations were strong enough to detect a case if one existed. The last confirmed infection was found in Kenyan wildlife in 2001, but verification continued for a decade."},
+      {"title": "Eradication was declared only after the map was complete", "text": "In May 2011, the World Organisation for Animal Health recognised all 198 countries and territories with susceptible animals as free of rinderpest. FAO members followed in June. It was the first animal disease eradicated and only the second infectious disease eliminated globally after smallpox. The achievement joined pastoral communities, field veterinarians, laboratories and governments around a shared standard of evidence."},
+      {"title": "Success created a new job: keeping an extinct threat extinct", "text": "Rinderpest no longer circulates in animals, but virus material and vaccine stocks remain in laboratories. FAO and WOAH manage approved holding facilities, vaccine reserves and plans for accidental or deliberate release. Veterinary education must preserve recognition skills as direct memory fades. That is eradication’s paradox: success makes it harder to justify the knowledge and safeguards needed to prevent return."}
+    ],
+    "timeline": [
+      {"date": "1744", "text": "Early documented attempts to inoculate cattle against rinderpest take place in the Netherlands and England."},
+      {"date": "1920", "text": "Infected zebu cattle transiting Antwerp cause an outbreak in Belgium."},
+      {"date": "1921–1924", "text": "An international conference calls for a permanent animal-health office; the OIE is established."},
+      {"date": "1960s", "text": "Mass vaccination, movement controls and culling sharply reduce the disease across affected regions."},
+      {"date": "1980s", "text": "Interrupted programmes allow a devastating resurgence across Africa."},
+      {"date": "1989–1994", "text": "A formal freedom pathway and the Global Rinderpest Eradication Programme align control with verification."},
+      {"date": "2001", "text": "The last confirmed case is identified in Kenya."},
+      {"date": "2011", "text": "WOAH and FAO declare the world free of rinderpest."}
+    ],
+    "sources": [
+      {"label": "World Organisation for Animal Health · rinderpest history, eradication and post-eradication duties", "url": "https://www.woah.org/en/disease/rinderpest/"},
+      {"label": "FAO · lessons from the global eradication programme", "url": "https://www.fao.org/4/i3042e/i3042e00.htm"},
+      {"label": "FAO · official recognition of global freedom", "url": "https://www.fao.org/newsroom/detail/No-more-deaths-from-rinderpest/"}
+    ]
+  },
+  "threads": [
+    {"status": "Updated today · market transmission", "title": "Iran war and Hormuz", "text": "$105.64 Brent · talks expected · mediation stalled", "progress": 64},
+    {"status": "New today · communications targeted", "title": "Ukraine infrastructure war", "text": "Kyivstar hit · data centres struck · outages spreading", "progress": 58},
+    {"status": "Resolved at ballot · flexibility retained", "title": "Swiss neutrality", "text": "70.15% no · all cantons reject · current practice remains", "progress": 100},
+    {"status": "New today · institutional standoff", "title": "Northern Ireland peace architecture", "text": "Route authorised · protesters block · talks needed", "progress": 46},
+    {"status": "Updated today · coalition widening", "title": "Frontier-AI governance", "text": "Gates backs law · labs urge slowdown · framework absent", "progress": 62}
+  ]
+}
