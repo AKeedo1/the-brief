@@ -1,262 +1,310 @@
 {
-  "date": {"display": "Monday, 5 October 2026", "edition": "038", "updated": "7:00 AM"},
-  "worldSentence": "Military force, market prices and financial plumbing are converging on the same question: who can keep access open when the route itself becomes the risk?",
-  "standfirst": "Saudi-backed forces claimed effective control of Bab el-Mandeb as Yemen’s dormant war reopened, while record Gulf oil flows met a fresh run of tanker attacks around Hormuz. Qatar connected its domestic government debt market to Euroclear. Global bond yields remained near generational highs despite a weak U.S. jobs report. Brazil moved to a Bolsonaro–Lula runoff, the flydubai cockpit attack exposed an insider-security failure, Deutsche Telekom put a number on AI savings, and DFI took control of more than 1,100 Starbucks stores across Asia.",
-  "listenTime": "32 min",
+  "date": {"display": "Tuesday, 6 October 2026", "edition": "039", "updated": "8:00 AM"},
+  "worldSentence": "Promises are becoming operational tests: alliances are deploying forces, institutions are exposing weak controls, and markets are separating formal commitments from systems that actually work.",
+  "standfirst": "Saudi Arabia, Pakistan and Türkiye activated the Mecca Alliance and ordered forces toward the kingdom as the Yemen coalition struck maritime weapons around Hodeidah. Spain called a snap election over housing, while Quebec returned separatists to power without a majority. The Nasdaq reached a record even as long yields and European fiscal risk stayed elevated. South Korea tied a widening bank-hack campaign to suspected AI use, an unpatched third-party platform exposed FBI staff, Australia’s public broadcaster rejected an AI copyright carve-out, Becton Dickinson pledged $3 billion for U.S. manufacturing, and India’s fight over the words ‘energy drink’ widened.",
+  "listenTime": "38 min",
   "coverage": [
     {"count": 2, "label": "Qatar & Gulf"},
     {"count": 3, "label": "World & security"},
     {"count": 2, "label": "Economy & markets"},
-    {"count": 1, "label": "Aviation"},
-    {"count": 1, "label": "AI & technology"},
-    {"count": 1, "label": "Consumer & restaurants"}
+    {"count": 3, "label": "AI & technology"},
+    {"count": 2, "label": "Consumer & industry"}
   ],
   "connected": {
-    "title": "Access is not an abstraction; it is a chain of institutions, routes and counterparties.",
+    "title": "The meaningful line is no longer between promise and refusal; it is between promise and execution.",
     "signals": [
-      {"label": "BAB EL-MANDEB", "value": "CONTESTED", "text": "Government forces claimed effective control while fighting continued."},
-      {"label": "GULF CRUDE", "value": "18.3M BPD", "text": "The seven-day export average exceeded pre-war levels at September’s end."},
-      {"label": "U.S. 10-YEAR", "value": "5.27%", "text": "Weak hiring cooled rate-hike bets without removing the debt and inflation premium."},
-      {"label": "BRAZIL RUNOFF", "value": "25 OCT", "text": "Flávio Bolsonaro led Lula by 1.87 percentage points in round one."}
+      {"label": "MECCA ALLIANCE", "value": "ACTIVATED", "text": "Members ordered agreed forces and assets prepared for rapid deployment to Saudi Arabia."},
+      {"label": "U.S. 10-YEAR", "value": "5.35%", "text": "Long yields touched a 24-year high even as the Nasdaq closed at a record."},
+      {"label": "KOREAN BREACHES", "value": "7 FIRMS", "text": "Confirmed leaks spread beyond major banks while the precise role of AI remained undisclosed."},
+      {"label": "QUEBEC", "value": "<64 SEATS", "text": "Separatists won but lacked the majority needed to govern alone."}
     ],
-    "note": "A strait can be physically open yet commercially dangerous. A domestic bond can exist yet remain awkward for global investors to hold. A technology can perform yet fail to lower costs until it changes operating routines. Today’s strongest stories separate nominal access from access that is secure, liquid and usable."
+    "note": "A treaty deters only if forces can be integrated. A cybersecurity policy protects only if patches reach the systems contractors run. Copyright law allocates value only if licensing is enforceable. An election victory governs only if seats can pass legislation. Today’s edition follows the conversion point where declared intent meets institutional capacity."
   },
   "stories": [
     {
-      "id": "yemen-bab-el-mandeb-offensive",
+      "id": "mecca-alliance-force-deployment",
       "number": "01",
-      "category": "Yemen, Saudi Arabia & Red Sea security",
-      "sourceNote": "Reuters / AP · Monday",
-      "title": "Saudi-backed Yemeni forces seized positions at Bab el-Mandeb as a dormant civil war became an active fight for a global shipping chokepoint.",
-      "changed": "Yemen’s internationally recognised government launched a broad campaign against the Houthis and said its forces had taken key positions in the Dhubab district at the narrowest part of Bab el-Mandeb. Information Minister Moammar al-Eryani told Reuters that government forces had effective control of the strait, although fighting continued and Houthi media disputed government advances elsewhere. Saudi Arabia supplied heavy air support; the coalition said 100 aircraft were involved.",
-      "matters": "Bab el-Mandeb links the Red Sea and Suez route to the Indian Ocean. Control of shoreline positions does not by itself make commercial passage safe, but it changes the military geometry around vessels already exposed to missiles, drones and insurance restrictions. The operation also ends the assumption that Yemen’s long front lines would remain mostly frozen while the wider Iran conflict played out around them.",
-      "watch": "Independent confirmation of territorial control; whether shipping advisories and war-risk premiums change; the durability of government supply lines; Houthi counterattacks around Taiz and Dhubab; civilian displacement; Saudi aircraft losses or escalation; U.N. diplomacy; and whether the campaign stays focused on the strait or expands toward Houthi-held population centres.",
+      "category": "Saudi Arabia, Türkiye & Pakistan",
+      "sourceNote": "Official statement / Reuters / QNA · Monday night",
+      "title": "The Mecca Alliance activated its mutual-defence commitments and ordered Turkish and Pakistani forces prepared for rapid deployment to Saudi Arabia.",
+      "changed": "Saudi Arabia, Pakistan and Türkiye held an emergency committee meeting in Riyadh and agreed to implement the defence pact signed in August. Their joint statement called for agreed forces and capabilities to be mobilised for rapid deployment to Saudi Arabia under approved arrangements and national law. The announcement followed attempted strikes on Mecca and Medina and renewed Houthi attacks on Saudi cities and infrastructure. It did not specify troop numbers, units, arrival dates, command arrangements or rules of engagement.",
+      "matters": "This is the alliance’s first operational test. Pakistan contributes nuclear-backed deterrence and a large military; Türkiye brings NATO experience, air defence and a substantial defence industry; Saudi Arabia brings geography, capital and the immediate threat. But deterrence depends on visible, interoperable capability rather than combined headline numbers. Deployment also creates escalation risk: personnel from three states can turn a Saudi–Houthi confrontation into a wider regional commitment.",
+      "watch": "Which units and assets actually move; basing and command authority; whether the mission is air defence, maritime security or combat support; parliamentary or legal constraints in Pakistan and Türkiye; NATO consultation; Iranian and Houthi responses; duration and cost; whether deployment protects cities, energy infrastructure or the Yemen campaign; and whether other states are invited to join.",
       "lead": true,
-      "group": {"label": "The lead", "title": "A shipping lane is becoming a battlefield rather than merely a target set.", "note": "Government claims are ahead of independent verification, but the scale and location of the offensive are confirmed.", "break": false},
+      "group": {"label": "The lead", "title": "A new alliance has crossed from language into force posture.", "note": "Activation is official. The scale, timetable and operational mandate remain undisclosed.", "break": false},
       "background": {
-        "title": "Holding the coast is different from securing the route",
-        "text": "The strait is only about 29 kilometres wide at its narrowest point. Land-based missiles, drones, mines and small craft can threaten traffic without a force controlling every kilometre of shoreline. Government troops may therefore improve surveillance and deny launch areas while commercial risk remains elevated. The operational measure is not a flag on a district; it is whether vessels, insurers and navies judge repeated passage sustainable.",
-        "known": "The government announced the offensive; Saudi aircraft are supporting it; forces seized positions around Dhubab; fighting continues.",
-        "new": "The anti-Houthi campaign has moved from planning and local clashes to a declared, Saudi-backed operation at the strait itself."
+        "title": "Collective defence becomes credible through command, logistics and political endurance",
+        "text": "The August agreement treats an attack on one member as an attack on all three, but a clause is not a combined military. Forces need communications, airspace rules, intelligence sharing, supply chains, identification procedures and a commander able to make decisions under pressure. A small, well-integrated air-defence deployment could matter more than a larger force with ambiguous authority. The first deployment will therefore define what the treaty means in practice.",
+        "known": "The three governments met, activated the pact and ordered agreed forces and assets readied for rapid deployment to Saudi Arabia.",
+        "new": "A two-month-old political promise is becoming a real force posture in response to active attacks, not a future exercise plan."
       },
-      "evidence": {"left": {"label": "Government claim", "text": "Yemen’s information minister said government forces had effective control of Bab el-Mandeb."}, "right": {"label": "Material uncertainty", "text": "Houthi reports dispute advances on other fronts, and independent territorial verification is incomplete."}},
+      "evidence": {"left": {"label": "Official commitment", "text": "The joint statement confirms immediate implementation and rapid deployment preparations."}, "right": {"label": "Operational unknown", "text": "No force size, composition, timetable, commander or rules of engagement were published."}},
       "sources": [
-        {"label": "Reuters · government forces advance on Bab el-Mandeb", "url": "https://au.marketscreener.com/news/yemeni-government-forces-advance-on-bab-el-mandeb-strait-ce785ddbd18cf424"},
-        {"label": "AP · Saudi-led aircraft support Yemen offensive", "url": "https://apnews.com/article/e87beb84a0d146e4f0546b50508f7e32"}
+        {"label": "Pakistan Foreign Ministry · joint statement of the emergency alliance meeting", "url": "https://mofa.gov.pk/press-releases/joint-statementemergency-meeting-of-the-strategic-political-and-defense-committee-of-the-makkah-alliance-for-defense-riyadh-5-october-2026"},
+        {"label": "Reuters · Pakistan and Türkiye agree rapid Saudi deployment", "url": "https://today.lorientlejour.com/article/1549804/pakistan-saudi-arabia-turkey-agree-rapid-force-deployment-in-saudi-arabia.html"},
+        {"label": "AP · the pact and its original mutual-defence commitment", "url": "https://apnews.com/article/58048d4a100befd4d2c18e0cbae58b7c"}
       ]
     },
     {
-      "id": "gulf-oil-flows-tanker-attacks",
+      "id": "hodeidah-maritime-weapons-operation",
       "number": "02",
-      "category": "Hormuz, Gulf energy & maritime risk",
-      "sourceNote": "Reuters / UKMTO · Monday",
-      "title": "Gulf crude exports briefly exceeded pre-war levels, but seven tanker attacks showed why recovered volume is not the same as a normal market.",
-      "changed": "Provisional Kpler data put the seven-day moving average of regional crude exports at 18.3 million barrels a day on 30 September, with flows above pre-war levels on 14 days during the month. Saudi Arabia loaded through both the Red Sea and Gulf after damage to its East-West pipeline. At the same time, UKMTO recorded a renewed series of attacks near Hormuz, including vessels struck by unknown projectiles, and maritime advisers warned of an increasingly unpredictable kinetic threat.",
-      "matters": "The export recovery weakens the simplest shortage story and shows how producers, escorts and terminals have adapted. Yet each voyage now carries additional security, scheduling and insurance cost. Markets can receive enough barrels while still embedding a persistent risk premium in crude, refined products and freight. That distinction matters for inflation: physical availability can improve before delivered cost and confidence normalise.",
-      "watch": "The origin and pattern of the attacks; casualties or pollution; escort rules; insurer exclusions and premiums; whether the 18.3 million-barrel pace persists; Saudi pipeline repairs; Hormuz and Red Sea traffic counts; diesel availability; and whether Iran, the Houthis or another actor claims responsibility.",
+      "category": "Yemen & Bab el-Mandeb",
+      "sourceNote": "Coalition statement / AP · Monday night",
+      "title": "Coalition naval forces struck weapons stores, explosive boats and mines around Hodeidah, widening the Bab el-Mandeb campaign from territorial advance to maritime denial.",
+      "changed": "The Saudi-led coalition said its naval forces carried out an operation in Yemen’s Hodeidah governorate and destroyed weapons depots, booby-trapped boats and naval mines intended to threaten navigation. The claim followed government forces’ advance around Dhubab and other positions near Bab el-Mandeb. The coalition said the operation foiled a plot against shipping; independent battle-damage confirmation and the precise locations of the targets were not available at publication.",
+      "matters": "Yesterday’s ground advance could deny shoreline launch areas. A naval strike on mines and explosive boats targets the threat system itself. That combination may reduce risk to vessels, but it also extends the coalition’s campaign along the Red Sea coast and closer to Houthi-held Hodeidah. Commercial confidence will depend on repeated safe passage and mine clearance, not one announcement.",
+      "watch": "Independent imagery or maritime confirmation; additional mines or unmanned boats; traffic and insurance changes; Houthi retaliation against Saudi ports or ships; civilian and port damage; whether coalition operations approach Hodeidah city; humanitarian access through Red Sea ports; and whether the alliance deployment supplies naval or air-defence support.",
       "lead": false,
-      "group": {"label": "The Gulf system", "title": "More oil moved through the system just as the system became more dangerous to use.", "note": "Volume answers the supply question; attacks answer the reliability question.", "break": true},
+      "group": {"label": "The Gulf system", "title": "The fight for the strait is becoming a combined land-and-sea campaign.", "note": "The coalition’s target list is specific; the results remain a belligerent claim.", "break": true},
       "background": {
-        "title": "A resilient flow can still be an expensive flow",
-        "text": "Exports are counted when cargoes move, but customers pay for more than crude. Tanker availability, war-risk cover, naval procedures, route length and refinery compatibility affect the final price. A state-backed cargo under escort can keep national exports moving while an independent operator declines the same route. Aggregate barrels can therefore conceal a narrowing set of firms willing to carry them.",
-        "known": "Kpler observed a temporary export pace above pre-war levels; UKMTO issued multiple attack warnings around Hormuz.",
-        "new": "The strongest physical recovery of the war now coexists with the most concentrated recent burst of vessel attacks."
+        "title": "Route security requires removing launch systems, not only holding terrain",
+        "text": "Mines, explosive boats, drones and coastal missiles can be prepared inland, moved through ports and launched from dispersed positions. Territorial control around the narrowest point helps surveillance, but Hodeidah’s port and storage network can continue supplying maritime threats farther north. A durable reduction in risk requires intelligence, clearance, interception and rules that preserve civilian trade.",
+        "known": "Coalition forces announced a naval operation after government troops retook positions around the strait.",
+        "new": "The campaign now explicitly targets the stored and mobile systems used to threaten commercial navigation."
       },
-      "evidence": {"left": {"label": "Flow recovered", "text": "The seven-day average reached 18.3 million barrels a day at September’s end."}, "right": {"label": "Passage deteriorated", "text": "At least seven vessels were attacked around the strait in the renewed wave."}},
+      "evidence": {"left": {"label": "Coalition account", "text": "Weapons stores, explosive boats and naval mines were reported destroyed."}, "right": {"label": "Verification gap", "text": "No independent damage assessment or complete target map was available."}},
       "sources": [
-        {"label": "Reuters · Gulf exports recover as tanker attacks increase", "url": "https://www.marketscreener.com/news/middle-east-oil-exports-top-pre-war-levels-for-part-of-september-but-tanker-attacks-increase-ce785ddbd18ef622"},
-        {"label": "UKMTO · current maritime warnings", "url": "https://www.ukmto.org/"}
+        {"label": "Asharq Al-Awsat · coalition operation in Hodeidah", "url": "https://english.aawsat.com/arab-world/5326387-coalition-carries-out-military-operation-yemen%E2%80%99s-hodeidah-protect-marine"},
+        {"label": "AP · Saudi-backed forces advance around Bab el-Mandeb", "url": "https://apnews.com/article/e87beb84a0d146e4f0546b50508f7e32"}
       ]
     },
     {
-      "id": "qatar-euroclear-government-debt",
+      "id": "spain-snap-election-housing",
       "number": "03",
-      "category": "Qatar capital markets",
-      "sourceNote": "Qatar Central Bank / QNA · Monday",
-      "title": "Qatar is linking riyal government bonds and sukuk to Euroclear, removing a practical barrier between the domestic debt market and global investors.",
-      "changed": "Qatar Central Bank and Euroclear announced an international settlement link that will make eligible riyal-denominated government bonds and sukuk accessible through Euroclear Bank. Euroclear will act as issuer central securities depository, Qatar Central Securities Depository as the local investor CSD, and QCB as issuer and paying agent. The announcement did not provide an implementation date or list the first eligible securities.",
-      "matters": "International investors often avoid a market not because the credit is unattractive, but because custody, settlement, cash movement and operational onboarding are fragmented. Euroclearability lets institutions use familiar accounts and processes to hold Qatari instruments. Over time that can broaden demand, improve secondary-market liquidity and strengthen price discovery, though the link itself cannot create issuance depth or trading activity.",
-      "watch": "Launch timing; eligible maturities and sukuk structures; tax and account rules; first foreign participation data; dealer quoting and bid-ask spreads; repo eligibility; settlement volumes; whether more sovereign issuance shifts into riyals; and any inclusion response from fixed-income index providers.",
+      "category": "Spain, housing & European politics",
+      "sourceNote": "AP / Reuters · Monday",
+      "title": "Pedro Sánchez called a 29 November snap election after parliament rejected emergency housing measures and street protests turned shelter costs into Spain’s defining political issue.",
+      "changed": "Spain’s prime minister dissolved parliament and scheduled an election roughly eight months early. The decision followed the defeat of two emergency housing decrees and repeated demonstrations after the eviction of an 87-year-old Madrid woman. Tens of thousands marched and a protest camp formed in Puerta del Sol. Sánchez wants the vote framed around rent, eviction and speculation; his Socialist party still trails the centre-right People’s Party in most polling.",
+      "matters": "Housing has converted a slow affordability squeeze into a national legitimacy test. Spain has been a comparatively strong euro-area economy, but growth does not resolve who captures urban land value or whether younger households can form independent lives. The election will test whether incumbents can turn a blocked policy agenda into mobilisation rather than punishment.",
+      "watch": "Whether the housing decrees are revived before dissolution; party coalitions on the left and right; polling after the protests; turnout among renters and younger voters; proposals on supply, tourist rentals and eviction; Catalan parties; fiscal promises; and whether the campaign broadens back to corruption, migration and regional autonomy.",
       "lead": false,
-      "group": {"label": "Qatar", "title": "The market is gaining international plumbing before it gains international scale.", "note": "The access mechanism is confirmed; its effect on demand and liquidity must be measured after launch.", "break": true},
+      "group": {"label": "World beyond the lead", "title": "Material pressures are reorganising electoral politics faster than ideology alone.", "note": "The election date is set; the protest coalition is not the same thing as an electoral coalition.", "break": true},
       "background": {
-        "title": "Settlement infrastructure can determine who is able to invest",
-        "text": "A central securities depository records ownership and coordinates delivery against payment. When a global investor can settle a Qatari bond through an existing Euroclear relationship, it avoids building a separate local custody chain for each purchase. That reduces friction and operational risk. It does not remove currency, duration or credit risk, and it does not guarantee a liquid secondary market.",
-        "known": "QCB and Euroclear agreed the link and defined the institutional roles for eligible local government debt.",
-        "new": "Qatar’s domestic sovereign instruments are being connected directly to one of the main settlement networks used by global fixed-income investors."
+        "title": "A parliamentary defeat became a campaign strategy",
+        "text": "Sánchez governs through a fragmented coalition and lost the votes needed for emergency relief. Calling an election lets him argue that parliament blocked popular measures, but it also exposes him to voters who blame the government for allowing the crisis to deepen. The same event can energise renters and consolidate an opposition majority.",
+        "known": "Parliament rejected the measures, protests expanded and the election was called for 29 November.",
+        "new": "Spain will decide its government early, with housing rather than a conventional macroeconomic dispute at the centre."
       },
-      "evidence": {"left": {"label": "Access change", "text": "Eligible QAR bonds and sukuk will become settleable through Euroclear Bank."}, "right": {"label": "Impact unknown", "text": "No go-live date, eligible list or foreign-flow target was announced."}},
+      "evidence": {"left": {"label": "Public mandate sought", "text": "Sánchez is asking voters for a larger majority after parliament blocked the decrees."}, "right": {"label": "Electoral risk", "text": "Polling still places the People’s Party ahead, and protest anger is not owned by the government."}},
       "sources": [
-        {"label": "Qatar News Agency · QCB and Euroclear announce the settlement link", "url": "https://qna.org.qa/en/news/news-details?date=5%2F10%2F2026&id=qcb-and-euroclear-to-enhance-global-investors-access-to-qatars-government-debt-market"}
+        {"label": "AP · Spain calls an early election over the housing crisis", "url": "https://apnews.com/article/7d8347e35f1a9e2965ea5b0f8c012bd8"},
+        {"label": "Reuters · Sánchez’s high-risk housing election", "url": "https://quews.news/spains-sanchez-gambles-on/"}
       ]
     },
     {
-      "id": "global-bonds-weak-us-jobs",
+      "id": "quebec-separatist-minority-win",
       "number": "04",
-      "category": "Global economy, rates & markets",
-      "sourceNote": "BLS / Reuters / AP · Friday–Monday",
-      "title": "Weak U.S. hiring cooled expectations for another near-term rate increase, but long bond yields stayed near two-decade highs.",
-      "changed": "The United States added 29,000 jobs in September, unemployment rose to 4.2%, and July and August payrolls were revised down by a combined 60,000. Traders reduced bets on another Federal Reserve increase in October. Yet the 10-year Treasury yield was still about 5.27% on Monday after reaching 5.34% last week, its highest since 2002. French, Japanese and other government borrowing costs also rose sharply during the global selloff.",
-      "matters": "The labour report weakens the case for immediate monetary tightening, but it does not erase the forces pushing long rates higher: oil-driven inflation risk, heavy government borrowing, fiscal uncertainty and investors demanding more compensation for duration. That separation makes the economy harder to read. A central bank can pause while mortgages, corporate debt and public refinancing remain expensive.",
-      "watch": "Wednesday’s Fed minutes; September inflation; Treasury auctions; the term premium; French budget politics and the France–Germany spread; oil and diesel prices; whether employment revisions continue downward; credit spreads; housing activity; and any sign that higher long rates are breaking leveraged positions.",
+      "category": "Canada & constitutional politics",
+      "sourceNote": "AP / Reuters · Tuesday",
+      "title": "Quebec’s separatist Parti Québécois returned to power but fell short of a majority, reviving the independence question without giving it unilateral control of the timetable.",
+      "changed": "The Parti Québécois won Monday’s provincial election and was on course for about 60 seats, below the 64 required for a majority in the 127-seat National Assembly. Leader Paul St-Pierre Plamondon campaigned on holding another independence referendum after Donald Trump leaves office. A minority government must obtain opposition support for budgets and confidence votes.",
+      "matters": "The result restores separatism to government for the first time in more than a decade while constraining it institutionally. Prime Minister Mark Carney must manage national unity alongside U.S. tariff pressure and repeated threats against Canada. Quebec’s leverage over fiscal transfers, energy, language and trade can rise even if a referendum is delayed.",
+      "watch": "The final seat count; which opposition party supports the government; confidence-and-supply negotiations; whether referendum legislation is tabled; polling on sovereignty; federal–provincial fiscal demands; energy and infrastructure bargaining; business relocation signals; and whether U.S. pressure strengthens Canadian unity or Quebec exceptionalism.",
       "lead": false,
-      "group": {"label": "Economy & markets", "title": "A softer economy is no longer enough by itself to produce cheaper long-term money.", "note": "Policy-rate expectations eased; the fiscal and inflation premium remained.", "break": true},
+      "group": {"label": "Political mandates", "title": "Winning power and controlling the constitutional agenda are different outcomes.", "note": "The separatists won the election but need partners to survive and legislate.", "break": false},
       "background": {
-        "title": "The central bank controls the overnight rate, not the whole yield curve",
-        "text": "Long yields reflect expected short rates plus compensation for inflation, uncertainty and the risk of holding a fixed return for years. Governments issuing large volumes of debt can require higher yields even if the next central-bank move is a pause. The weak jobs report therefore changed one component of the price without settling the others.",
-        "known": "Payroll growth slowed materially; prior months were revised lower; long yields remain around levels last seen more than two decades ago.",
-        "new": "Markets now face a clearer conflict between weakening labour demand and a durable long-rate premium."
+        "title": "A minority can raise the question without being able to settle it",
+        "text": "Quebec held sovereignty referendums in 1980 and 1995; the second failed narrowly. Today’s result does not schedule a third vote. It gives the PQ executive power and agenda-setting capacity, while the seat shortfall gives other parties leverage over every confidence matter. Constitutional risk can therefore rise through negotiation and uncertainty before any ballot is called.",
+        "known": "The PQ won the most seats and missed the majority threshold.",
+        "new": "A government committed to another referendum returns, but with a legislature capable of restraining it."
       },
-      "evidence": {"left": {"label": "Growth signal", "text": "September payrolls rose 29,000 and unemployment reached 4.2%."}, "right": {"label": "Financing signal", "text": "The 10-year Treasury remained near 5.27% after touching 5.34%."}},
+      "evidence": {"left": {"label": "Political shift", "text": "The PQ returns to office after more than a decade out of power."}, "right": {"label": "Institutional brake", "text": "Roughly 60 projected seats leave it dependent on opposition support."}},
       "sources": [
-        {"label": "U.S. Bureau of Labor Statistics · September employment situation", "url": "https://www.bls.gov/news.release/empsit.htm"},
-        {"label": "Reuters · global bond selling pushes yields to multi-decade highs", "url": "https://in.marketscreener.com/news/global-bonds-gripped-by-fiscal-worries-us-10-year-yield-hits-24-year-high-ce785ad3df8ff725"},
-        {"label": "AP · bond pressure at the start of the week", "url": "https://apnews.com/article/f83cf147deaf5a2361b1ae7eee74a627"}
+        {"label": "AP · separatists win Quebec but fall short of a majority", "url": "https://apnews.com/article/a4e8ecaa4026c46d0346e9487c5e333d"},
+        {"label": "Reuters · Quebec result complicates Carney’s national-unity task", "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/06/quebec-heads-to-the-polls-with-focus-more-on-trump-than-independence"}
       ]
     },
     {
-      "id": "brazil-bolsonaro-lula-runoff",
+      "id": "nasdaq-record-long-yield-divergence",
       "number": "05",
-      "category": "Brazil, elections & institutions",
-      "sourceNote": "Brazil TSE · Monday",
-      "title": "Flávio Bolsonaro led Lula in Brazil’s first round, sending the presidency to a 25 October runoff that polling had not framed this way.",
-      "changed": "With 99.99% of ballot boxes counted, Brazil’s electoral court reported 47.03% for Senator Flávio Bolsonaro and 45.16% for President Luiz Inácio Lula da Silva. Bolsonaro received about 56.1 million valid votes and Lula 53.9 million. Neither crossed 50%, so the two advance to a runoff on 25 October. Lula acknowledged that the result surprised him; Bolsonaro entered the second round with the lead.",
-      "matters": "Brazil is Latin America’s largest economy, a major commodity producer and a pivotal voice in climate and Global South diplomacy. The first round shows that Bolsonarism remains electorally powerful without Jair Bolsonaro on the ballot. The remaining 7.8% of valid votes, turnout decisions and coalition endorsements now matter more than the national average from pre-election polling.",
-      "watch": "Endorsements from eliminated candidates and governors; regional turnout; congressional results and governability; economic and anti-corruption messaging; misinformation and electoral-court disputes; currency and rate reactions; Amazon policy; relations with the United States and China; and whether either campaign accepts the final count without qualification.",
+      "category": "Markets, AI concentration & sovereign debt",
+      "sourceNote": "Reuters · Monday–Tuesday",
+      "title": "The Nasdaq closed at a record and Nvidia reached a $5.76 trillion value while the U.S. 10-year yield touched 5.35%, deepening the split between AI earnings confidence and the price of capital.",
+      "changed": "Technology shares lifted the Nasdaq to a record close, with Nvidia up 2.1%. Goldman Sachs estimates consensus expects 27% S&P 500 earnings growth in the third quarter, more than half from companies benefiting from AI infrastructure spending. At the same time, the 10-year Treasury yield reached 5.3493%, its highest since 2002, and the 30-year briefly touched 5.7029%. The euro fell near a 17-month low as French fiscal risk persisted and Spain called an election.",
+      "matters": "Equities are pricing exceptional profit growth in a narrow capital-intensive group while bonds are demanding more compensation for inflation, debt issuance and fiscal uncertainty. Both views can hold temporarily. The vulnerability is duration: expensive growth assets and governments both rely on distant cash flows, but only the former are being granted a technology premium.",
+      "watch": "Earnings breadth beyond AI beneficiaries; capex-to-revenue conversion; high-yield spreads; Treasury auctions and term premium; French budget votes; the France–Germany spread; dollar strength; oil near $100; and whether higher financing costs slow data-centre, utility or semiconductor projects.",
       "lead": false,
-      "group": {"label": "Political order", "title": "The runoff begins with the challenger ahead and the incumbent surprised.", "note": "The count is official and nearly complete; coalition transfers are not.", "break": true},
+      "group": {"label": "Economy & markets", "title": "The market is rewarding one future while charging almost everyone more to finance it.", "note": "The record is real; so is the 24-year high in long borrowing costs.", "break": true},
       "background": {
-        "title": "First-round arithmetic does not mechanically become runoff arithmetic",
-        "text": "The two finalists already hold more than 92% of valid votes between them, leaving a smaller pool to win than in many fragmented elections. But abstention can shift, regional machines can mobilise differently and voters do not transfer neatly with their defeated candidate. Congress and state governments will also shape whether the eventual president can govern.",
-        "known": "Bolsonaro led with 47.03%; Lula had 45.16%; the runoff is scheduled for 25 October.",
-        "new": "The son of the former president begins the decisive round ahead of the sitting president and closer to an outright majority."
+        "title": "Index calm can hide concentration and refinancing stress",
+        "text": "A market-cap-weighted index can rise when a handful of very large firms advance even if the cost of capital worsens across the economy. AI leaders may be relatively insensitive because cash flow and expected growth are strong, but suppliers, utilities, governments and customers still refinance at prevailing yields. The question is not whether AI earnings are real; it is whether the ecosystem can fund the buildout at these rates.",
+        "known": "The Nasdaq set a record, Nvidia reached a record close, and long Treasury yields hit fresh 24-year highs.",
+        "new": "The divergence widened after weak jobs data reduced near-term Fed-hike odds but failed to pull down long rates."
       },
-      "evidence": {"left": {"label": "First place", "text": "Flávio Bolsonaro: 56,104,268 votes, or 47.03%."}, "right": {"label": "Second place", "text": "Lula: 53,876,617 votes, or 45.16%."}},
+      "evidence": {"left": {"label": "Profit expectation", "text": "Consensus points to 27% third-quarter S&P earnings growth, heavily concentrated in AI beneficiaries."}, "right": {"label": "Funding constraint", "text": "The 10-year reached 5.3493% and the 30-year 5.7029%."}},
       "sources": [
-        {"label": "Brazil Superior Electoral Court · official first-round result", "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica"},
-        {"label": "Reuters · Bolsonaro and Lula advance to the runoff", "url": "https://www.boursorama.com/actualite-economique/actualites/bresil-presidentielle-bolsonaro-en-tete-et-lula-s-affronteront-au-second-tour-2ea18317abca18c5bd6879a7ccab10f7"}
+        {"label": "Reuters · Asian markets follow the Nasdaq record as long yields hold", "url": "https://sa.marketscreener.com/news/asian-shares-track-wall-street-higher-treasury-yields-near-multi-decade-highs-ce785dd8dc89fe2d"},
+        {"label": "Reuters · Nasdaq record, euro weakness and sovereign-risk pressure", "url": "https://au.marketscreener.com/news/nasdaq-hits-record-as-dollar-and-treasury-yields-climb-oil-prices-ease-ce785dd8db8efe27"}
       ]
     },
     {
-      "id": "flydubai-fz1073-insider-security",
+      "id": "south-korea-ai-bank-hacks",
       "number": "06",
-      "category": "Aviation safety & security",
-      "sourceNote": "UAE MoFA / AP · Wednesday–Monday",
-      "title": "The alleged cockpit attack on flydubai flight FZ1073 has become an insider-security investigation spanning the UAE, Oman, Saudi Arabia, Israel and Australia.",
-      "changed": "A flydubai co-pilot allegedly attacked the captain with the cockpit crash axe and attempted to seize control of the Tel Aviv-bound Boeing 737 MAX 8 on 30 September. Other crew members and people on board intervened, and the aircraft landed safely at Tabuk with 182 people aboard. UAE prosecutors are investigating possible terrorist intent and prior planning. Australia opened a review of the suspect’s years there, while reporting indicated that Oman had previously barred him from flying over extremist concerns.",
-      "matters": "Commercial aviation security is designed heavily around keeping threats out of the cockpit. This case puts the threat inside the authorised crew and raises a different control problem: how airlines share adverse employment, licensing and security information across borders. The safe landing demonstrates crew resilience; it does not answer how a previously flagged pilot may have entered another carrier’s cockpit.",
-      "watch": "Verified employment and licensing records; what flydubai knew at hiring and rostering; the UAE prosecutor’s findings; evidence of direction or accomplices; the captain’s recovery; flight-data and cockpit-voice evidence; changes to crash-axe access and two-person cockpit rules; resumed Israel service; and any regional standard for cross-border pilot vetting.",
+      "category": "Cybersecurity, banks & AI agents",
+      "sourceNote": "Reuters / SBS · Tuesday",
+      "title": "South Korea’s president said AI appears to have been used in a campaign against banks, but authorities still have not disclosed the tools, operator or full breach scale.",
+      "changed": "President Lee Jae Myung ordered an accelerated investigation and new defences suited to the AI era after attacks on major banks and other lenders. At least seven financial institutions have reported personal-data leaks, while other banks blocked attempts linked to shared overseas addresses. Police opened a full investigation. Local reporting found the campaign reached Shinhan, KB Kookmin, Hana, Busan Bank, savings banks and Hyundai Capital; some access attempts date to January.",
+      "matters": "The consequential change is not proof of an autonomous model defeating bank security. It is the possibility that automation let an attacker scan weak public-facing systems, test credentials and repeat requests across many firms faster than incident information travelled between defenders. That turns modest web-control failures into a sector-wide campaign.",
+      "watch": "Forensic disclosure of the models and methods; whether the AI claim survives investigation; the identity and objective of the attackers; confirmed records exposed; common vendors or code; customer fraud; regulator orders; cross-bank indicators; mandatory reporting; and whether banks redesign rate limits, identity checks and public lookup pages.",
       "lead": false,
-      "group": {"label": "Aviation", "title": "The aircraft was saved; the hiring and information-sharing system now has to explain itself.", "note": "The attack is under official investigation, and motive claims remain provisional.", "break": true},
+      "group": {"label": "Technology & control", "title": "AI may have accelerated the attack; fragmented defence amplified it.", "note": "The president confirmed signs of AI use, not the exact tool or degree of autonomy.", "break": true},
       "background": {
-        "title": "Insider risk crosses the boundaries between safety, security and employment law",
-        "text": "Pilots are licensed, medically assessed and recurrently trained, but national authorities and employers do not automatically share every disciplinary or intelligence concern. A restriction in one jurisdiction may not appear as a formal licence revocation elsewhere. The investigation must distinguish verified records from post-event allegation while identifying which information could lawfully and practically have changed the roster decision.",
-        "known": "An in-flight cockpit altercation occurred; crew intervened; the aircraft landed safely; the UAE formed a specialist prosecution team.",
-        "new": "The case now includes a reported prior foreign warning and an Australian review, widening it from one violent event to a cross-border vetting failure."
+        "title": "Scale changes the economics of ordinary vulnerabilities",
+        "text": "Attackers do not need a novel exploit if they can automate discovery, credential testing and extraction against many public interfaces. Shared indicators were eventually circulated, but similar addresses had probed institutions months earlier. The defensive equivalent is continuous rate analysis, coordinated intelligence and controls designed for machine-speed behaviour.",
+        "known": "Multiple financial firms reported attacks and leaks; police and regulators are investigating.",
+        "new": "The president publicly linked some incidents to signs of AI use and demanded AI-era cybersecurity methods."
       },
-      "evidence": {"left": {"label": "Operational success", "text": "On-board intervention secured the aircraft and all 182 people reached a safe landing."}, "right": {"label": "System failure", "text": "Reporting says a prior flying ban over extremist concerns did not prevent later cockpit employment."}},
+      "evidence": {"left": {"label": "Confirmed campaign", "text": "Breaches and attempts affected several banks and non-bank lenders."}, "right": {"label": "Unproven mechanism", "text": "Authorities have not named the AI models, shown the workflow or attributed the actor."}},
       "sources": [
-        {"label": "UAE Ministry of Foreign Affairs · official investigation of FZ1073", "url": "https://www.mofa.gov.ae/en/MediaHub/News/2026/10/1/UAE-fly-dubai"},
-        {"label": "AP · aviation security questions after the cockpit attack", "url": "https://apnews.com/article/be124a20976fc7fd35ba794c0823bc5b"},
-        {"label": "AP · Australia investigates the co-pilot’s history", "url": "https://apnews.com/article/5c0479a4ecb8fefb8f259e6df3800cd8"}
+        {"label": "Reuters · Lee says AI appears to have been used in bank hacks", "url": "https://www.aol.com/articles/south-koreas-lee-says-ai-021243000.html"},
+        {"label": "SBS · shared attacker infrastructure reached at least seven institutions", "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008783802"}
       ]
     },
     {
-      "id": "deutsche-telekom-ai-savings",
+      "id": "fbi-accenture-patch-failure",
       "number": "07",
-      "category": "AI adoption & enterprise economics",
-      "sourceNote": "Deutsche Telekom / Reuters · Monday",
-      "title": "Deutsche Telekom expects AI and automation to remove €2.5 billion of indirect cost by 2030, moving the enterprise-AI argument from demos to a dated operating target.",
-      "changed": "At its AI Investor Day, Deutsche Telekom set a target of roughly €2.5 billion in indirect-cost savings by 2030 versus 2023, including about €1.1 billion of gross savings outside the United States in 2027. It also targeted about €800 million of AI-related business revenue outside the U.S. by 2030. The company says AI already predicts mobile-network peaks, assists service staff, supports software work and handled about 2.6 million customer-service calls in the first half of 2026.",
-      "matters": "Most corporate AI claims describe capability or time saved without connecting either to the income statement. Telekom has supplied a baseline, deadline and operating categories that investors can test. The figures remain management targets, not realised audited savings, and part of the benefit will be reinvested. That makes the story useful precisely because it can later be falsified.",
-      "watch": "Annual disclosure against the 2023 baseline; whether savings are gross or net of compute and transformation costs; headcount and service-quality effects; the split between automation and generative AI; fibre reinvestment; AI revenue margins; customer complaints; and whether peers adopt similarly measurable reporting.",
+      "category": "Enterprise security & third-party risk",
+      "sourceNote": "Reuters · Monday night",
+      "title": "The FBI removed an Accenture contractor after an explicitly supplied security patch was not applied and thousands of employees’ personal details were exposed.",
+      "changed": "The FBI’s cyber chief said the incident came from a security failure on a third-party-managed platform after a contractor failed to install a patch provided to secure it. Reuters sources identified the organisation as Accenture and the platform as Oracle PeopleSoft, which the ShinyHunters group said it exploited through the bureau’s jobs site. The FBI did not publicly name either company. Accenture said it remains proud to support the bureau; Oracle had not commented.",
+      "matters": "This is a governance failure more than a mystery exploit. A known fix existed, responsibility sat outside the agency, and the control did not close. Organisations outsource operation but retain breach consequences. The case is a clean test of patch evidence, vendor accountability, asset ownership and whether critical agencies can verify rather than assume that maintenance happened.",
+      "watch": "The exact PeopleSoft flaw and exposure window; employee harm; whether other agencies use the same managed setup; contract remedies; patch attestations; independent validation; Oracle guidance; congressional scrutiny; and whether the FBI changes access, logging or vendor oversight.",
       "lead": false,
-      "group": {"label": "Technology", "title": "A large operator has finally made its AI productivity claim measurable.", "note": "The target is concrete; achievement, attribution and net economics remain unproven.", "break": true},
+      "group": {"label": "The control layer", "title": "The patch existed; the assurance system failed.", "note": "The FBI confirmed the missed patch. Company and platform identification comes from Reuters sources.", "break": false},
       "background": {
-        "title": "A savings target is evidence of accountability, not evidence of savings",
-        "text": "The 2023 comparison year helps prevent the baseline from moving, while the 2027 and 2030 milestones allow progress checks. But gross savings can coexist with higher cloud, model, integration and change-management spending. Service metrics matter too: fewer calls may reflect successful automation, frustrated abandonment or both. Net cost and customer outcome need to move together.",
-        "known": "Telekom published the targets and named current use cases and volumes.",
-        "new": "The company has attached multi-year euro values to AI and automation rather than relying on adoption anecdotes."
+        "title": "Third-party risk is an ownership problem disguised as procurement",
+        "text": "A service contract divides tasks but cannot divide the underlying asset from the organisation’s mission. Effective governance requires a named owner, a deadline, evidence of installation, exposure monitoring and an exception path. Without that chain, a vendor dashboard can report activity while the vulnerability remains open.",
+        "known": "The FBI confirmed a contractor failed to apply an explicitly provided patch and removed the contractor.",
+        "new": "Reuters linked the failure to an Accenture-managed PeopleSoft environment and a breach affecting thousands of staff."
       },
-      "evidence": {"left": {"label": "Cost target", "text": "Approximately €2.5 billion of indirect-cost savings by 2030 versus 2023."}, "right": {"label": "Revenue target", "text": "Approximately €800 million of non-U.S. AI-related business revenue by 2030."}},
+      "evidence": {"left": {"label": "Agency finding", "text": "A supplied patch was not applied to the third-party-managed platform."}, "right": {"label": "Attribution boundary", "text": "The FBI has not publicly named Accenture, Oracle or an individual contractor."}},
       "sources": [
-        {"label": "Deutsche Telekom · AI Investor Day targets and use cases", "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/10/deutsche-telekom-boosts-growth-efficiency-and-quality-through-t"},
-        {"label": "Reuters · Deutsche Telekom targets €2.5 billion of savings", "url": "https://live.euronext.com/en/financial-news/deutsche-telekom-sees-eu25-billion-savings-ai-automation-2030"}
+        {"label": "Reuters · contractor removed after FBI breach", "url": "https://www.investing.com/news/stock-market-news/exclusiveaccenture-contractor-removed-from-fbi-following-damaging-data-breach-sources-say-4933183"},
+        {"label": "Reuters update · FBI statement and reported PeopleSoft link", "url": "https://www.boursorama.com/bourse/actualites/en-exclusivite-un-sous-traitant-d-accenture-ecarte-du-fbi-apres-une-fuite-de-donnees-prejudiciable-selon-des-sources-8591943466dc34181a5cdb199d624d76"}
       ]
     },
     {
-      "id": "dfi-starbucks-asia-reorganisation",
+      "id": "australia-ai-copyright-licensing",
       "number": "08",
-      "category": "Restaurants, retail & Asian consumption",
-      "sourceNote": "DFI / SGX · Wednesday",
-      "title": "DFI will take direct control of more than 1,100 Starbucks stores across seven Asian markets as it exits its broader Maxim’s joint holding.",
-      "changed": "DFI Retail Group agreed a reorganisation with Maxim’s Caterers under which DFI will receive the Starbucks licensed business in Hong Kong, Macau, Singapore, Thailand, Vietnam, Cambodia and Laos, plus about $340 million in cash before adjustments. Maxim’s will buy back DFI’s 50% stake in the wider restaurant group. The Starbucks network has more than 1,100 stores; completion remains subject to consents, antitrust clearance and separation work.",
-      "matters": "The transaction replaces a diversified associate stake with direct control of one scaled consumer platform. That gives DFI clearer authority over formats, data, procurement and capital allocation across markets, while concentrating exposure to one brand and category. Management expects the business to add revenue and margin immediately, but the strategic test is whether a regional operator can adapt a global coffee brand to very different local demand and rental economics.",
-      "watch": "Regulatory approvals and completion timing; valuation after adjustments; same-store sales; store expansion toward management’s targets; China-adjacent tourism demand in Hong Kong and Macau; Thailand and Vietnam growth; labour and rent pressure; digital loyalty integration; Starbucks brand requirements; and what Maxim’s does with the cash and its remaining restaurant portfolio.",
+      "category": "AI policy, copyright & media",
+      "sourceNote": "Reuters · Tuesday",
+      "title": "Australia’s public broadcaster rejected an AI-training copyright carve-out and argued that licensing is workable even if its archive has already been scraped.",
+      "changed": "At a parliamentary inquiry, ABC legal and content executive Kate Gilchrist said Australia’s existing copyright system is adequate for AI and rejected claims that deals are too difficult. OpenAI and Anthropic have argued for relaxed access to domestically produced material. The ABC believes technology companies probably already scraped its output. In the same inquiry, Anthropic said it is open to laws requiring companies to report AI-agent hacks.",
+      "matters": "The policy argument has moved from whether models need data to who holds bargaining power after training may already have occurred. A carve-out lowers acquisition cost for model developers; collective or direct licensing preserves an economic claim for publishers and creators. Australia is testing whether data-centre investment should buy legal access to culture.",
+      "watch": "The parliamentary recommendation; whether the government rules out a text-and-data-mining exception; opt-in versus opt-out licensing; payment and attribution standards; treatment of past scraping; transparency duties; agreements with the ABC and commercial publishers; and whether hack-reporting obligations enter the same AI package.",
       "lead": false,
-      "group": {"label": "Consumer & restaurants", "title": "A portfolio company is becoming an operator by choosing the platform it wants to control.", "note": "The network is real and scaled; the transaction is conditional and execution has not begun.", "break": true},
+      "group": {"label": "AI regulation", "title": "Training access is becoming an industrial bargain, not a narrow copyright exception.", "note": "The ABC’s scraping belief is not a forensic finding against a named model developer.", "break": false},
       "background": {
-        "title": "Control changes which synergies are available—and which risks remain concentrated",
-        "text": "An associate contributes profit without giving its shareholder full operational authority. A controlled subsidiary lets DFI integrate technology, property decisions, procurement and management incentives. The exchange also removes exposure to Maxim’s other restaurant brands. That can improve strategic focus while making Starbucks performance more visible in DFI’s own results.",
-        "known": "The parties signed a conditional agreement covering over 1,100 stores and approximately $340 million of cash consideration.",
-        "new": "DFI is exchanging its half-share in a broad restaurant group for direct ownership of the regional Starbucks platform."
+        "title": "The sequence of access determines negotiating power",
+        "text": "Licensing works best before use, when a rights holder can withhold the material. Once a model is trained, proving which works contributed to which capability is difficult. That is why disclosure, provenance and collective bargaining matter alongside legal doctrine. The argument is about enforcement architecture as much as statutory wording.",
+        "known": "The ABC opposed a carve-out and told parliament that the current system can support licensing.",
+        "new": "A national public archive is openly framing AI access as a paid transaction after probable unauthorised scraping."
       },
-      "evidence": {"left": {"label": "Operating platform", "text": "More than 1,100 Starbucks coffeehouses across seven Asian markets."}, "right": {"label": "Transaction boundary", "text": "Completion still requires consents, antitrust clearance and internal separation."}},
+      "evidence": {"left": {"label": "Rights-holder position", "text": "The ABC says existing copyright law is adequate and deals are feasible."}, "right": {"label": "Evidence gap", "text": "It has not shown which companies copied which parts of its archive."}},
       "sources": [
-        {"label": "Singapore Exchange · DFI transaction announcement", "url": "https://links.sgx.com/1.0.0/corporate-announcements/7SCIYGSTRHH576IS/"},
-        {"label": "DFI and Jardine Matheson · reorganisation overview", "url": "https://www.jardines.com/newsroom/latest-news/strategy-and-our-portfolio/2026/dfi-retail-group---hongkong-caterers-announce-reorganisation-of-"}
+        {"label": "Reuters · ABC rejects an AI copyright carve-out", "url": "https://www.marketscreener.com/news/australia-s-abc-rejects-ai-copyright-carveout-believes-already-been-scraped-ce785dd8dd8ef320"},
+        {"label": "Australian Communications and Media Authority · AI and media policy evidence", "url": "https://www.acma.gov.au/sites/default/files/2026-04/AI%20in%20media_0.pdf"}
+      ]
+    },
+    {
+      "id": "bd-us-medical-manufacturing",
+      "number": "09",
+      "category": "Industrial policy & medical supply chains",
+      "sourceNote": "Reuters / White House statement · Monday night",
+      "title": "Becton Dickinson agreed to invest $3 billion in U.S. medical-product manufacturing, tying essential supplies to the administration’s planned device tariffs.",
+      "changed": "President Donald Trump said BD will bring more production of essential medical products to the United States, including more than $1 billion in Nebraska and needles made with American steel. The White House separately described a $110 million expansion of prefillable-syringe capacity at the Columbus, Nebraska plant, on top of an earlier $35 million investment. BD had not issued a detailed confirmation or timetable when Reuters published.",
+      "matters": "Needles and syringes are low-glamour, high-dependency products. Domestic capacity can reduce exposure to shipping or trade disruption, but tariff-linked localisation can also raise costs if steel, sterilisation and scale are less efficient. The investment is a test of whether resilience policy builds durable capacity or repackages spending that was already planned.",
+      "watch": "BD’s formal capital schedule; what portion is new; product lines and plants; jobs and unit costs; tariff rates and timing; procurement commitments; sterilisation capacity; U.S.-content definitions; imports displaced; and whether competitors announce similar investment.",
+      "lead": false,
+      "group": {"label": "Industry", "title": "Resilience policy is moving from semiconductors into routine medical essentials.", "note": "The $3 billion commitment was announced by the president; BD’s detailed filing is still needed.", "break": true},
+      "background": {
+        "title": "The bottleneck may sit outside the factory wall",
+        "text": "Medical consumables depend on specialised resins, steel, moulding, quality systems and sterilisation. Expanding a needle line does not create resilience if a single upstream material or steriliser remains constrained. The useful measure is end-to-end domestic throughput and surge capacity, not announced capital alone.",
+        "known": "The administration announced a $3 billion agreement and at least $1 billion of Nebraska spending.",
+        "new": "Medical-device tariffs are being used explicitly to pull essential-product capacity onshore."
+      },
+      "evidence": {"left": {"label": "Announced scale", "text": "$3 billion overall, with more than $1 billion directed to Nebraska."}, "right": {"label": "Disclosure gap", "text": "BD had not yet published the full programme, timing or incremental amount."}},
+      "sources": [
+        {"label": "Reuters · BD’s $3 billion U.S. manufacturing agreement", "url": "https://www.investing.com/news/stock-market-news/trump-says-becton-dickinson-to-invest-3-billion-to-expand-us-medical-product-manufacturing-4933336"},
+        {"label": "BD · latest filed operating and manufacturing risk disclosures", "url": "https://investors.bd.com/sec-filings/all-sec-filings/content/0000010795-26-000035/bdx-20260630.htm"}
+      ]
+    },
+    {
+      "id": "india-energy-drink-label-fight",
+      "number": "10",
+      "category": "Consumer regulation & beverages",
+      "sourceNote": "Reuters · Tuesday",
+      "title": "Reliance joined Red Bull and other beverage groups challenging India’s ban on the label ‘energy drink’, turning two words into a fight over category economics.",
+      "changed": "Reliance’s beverage subsidiary asked a court to overturn the food regulator’s order preventing its Campa products from being marketed as energy drinks. India directed makers of high-caffeine beverages to stop using the description from 30 June because of health concerns and its view that the term is not an authorised product category. Red Bull filed an earlier challenge; Pepsi and Monster are also exposed to the rule. The Indian market is expected to reach about $1.6 billion by 2028.",
+      "matters": "Category language does commercial work. ‘Energy’ promises a use occasion, justifies premium pricing and anchors shelf placement. Removing it without changing the formula tests whether consumer demand belongs to the product or the claim. India is also becoming a laboratory for more assertive food enforcement in a fast-growing mass market.",
+      "watch": "The Delhi High Court’s treatment of Reliance and Red Bull; whether the regulator offers a replacement category; labelling transition periods; youth restrictions; caffeine disclosures; pricing and sales after relabelling; enforcement against retailers; and whether companies reformulate rather than litigate.",
+      "lead": false,
+      "group": {"label": "Consumer behaviour", "title": "Regulation is testing whether the value sits in the drink or in the name of the category.", "note": "The legal challenges are filed; no final ruling has validated either side.", "break": false},
+      "background": {
+        "title": "A descriptor can function like a product feature",
+        "text": "Consumers do not evaluate caffeine, sugar and taurine molecule by molecule. The category tells them when and why to buy. If regulators regard that language as misleading, removing it can reset the competitive field even though the liquid is unchanged. Brands then choose among litigation, new claims, reformulation and lower prices.",
+        "known": "The regulator barred the descriptor and Reliance has challenged the order.",
+        "new": "A domestic mass-market challenger has joined the multinationals, broadening the dispute beyond imported premium brands."
+      },
+      "evidence": {"left": {"label": "Market at stake", "text": "India’s energy-drink market is forecast near $1.6 billion by 2028."}, "right": {"label": "Legal uncertainty", "text": "Courts have not decided whether the regulator followed proper process or can prohibit the term."}},
+      "sources": [
+        {"label": "Reuters · Reliance challenges India’s energy-drink label ban", "url": "https://es.marketscreener.com/noticias/reliance-demanda-al-regulador-alimentario-de-india-por-prohibir-la-etiqueta-bebida-energetica-ce785dd8dc8afe21"},
+        {"label": "Reuters · Red Bull’s earlier challenge and market context", "url": "https://www.marketscreener.com/news/red-bull-sues-india-regulator-for-energy-drink-descriptor-ban-cites-investment-impact-ce785adcdc8cf222"}
       ]
     }
   ],
   "radar": [
-    {"label": "Spain", "title": "Pedro Sánchez called a snap election for 29 November after parliament rejected emergency housing measures.", "text": "Polls favour a PP-led coalition with Vox, but the campaign begins after a specific governing failure rather than a scheduled transfer. Watch the decree, coalition lists and housing agenda.", "url": "https://apnews.com/article/7d8347e35f1a9e2965ea5b0f8c012bd8"},
-    {"label": "Frontier AI", "title": "Sam Altman argued that broad AI access justifies accepting some harmful outcomes, marking a public split with Anthropic’s regulatory posture.", "text": "The distinction is philosophical until it appears in product restrictions, evaluation duties or legislation. Watch the policy mechanism rather than the rhetoric alone.", "url": "https://www.marketscreener.com/news/openai-s-altman-says-ai-benefits-warrant-accepting-some-risks-ce785ddbdc80fe24"},
-    {"label": "Weather", "title": "Flood deaths rose in Thailand and Catalonia after another weekend of intense rain.", "text": "The separate events do not establish one causal story. Watch local forecasts, missing-person reports, transport recovery and attribution work before drawing a climate conclusion.", "url": "https://www.devdiscourse.com/article/international/3986776-reuters-world-news-summary"}
+    {"label": "QATAR", "title": "QNB reports third-quarter results on Thursday.", "text": "The Qatar Stock Exchange says QNB will publish its nine-month financials on 8 October; the share-buyback pause runs through the disclosure window.", "url": "https://www.qe.com.qa/company-profile?CompanyCode=QNBK&InformationCategory=Company&InformationType=News"},
+    {"label": "DATA CENTRES", "title": "Macquarie backed a 2GW Asia-Pacific development pipeline.", "text": "Singapore’s Zerra DC plans capacity across Australia, Japan and India; financial terms were not disclosed.", "url": "https://www.marketscreener.com/news/singapore-s-zerra-dc-lands-macquarie-backing-for-asia-pacific-data-center-expansion-ce785dd8dd8cf424"},
+    {"label": "BRAZIL", "title": "Lula is considering Alckmin as finance minister if re-elected.", "text": "The proposal is an unfinalised signal to centrist voters and markets after the first-round defeat, not an appointment.", "url": "https://www.marketscreener.com/news/brazil-s-lula-weighs-vp-alckmin-as-next-finance-minister-to-woo-centrist-voters-ce785dd8db8cf225"},
+    {"label": "AVIATION", "title": "The Nigeria military-aircraft crash remains under investigation.", "text": "Authorities reported 32 deaths in the southwest; cause and aircraft-specific evidence were not yet sufficient for an aviation-systems conclusion.", "url": "https://www.qna.org.qa/en/general/"}
   ],
-  "attention": {"title": "QCB’s announcement of the Euroclear link", "text": "It is the clearest direct source for understanding what changed in Qatar’s debt-market plumbing and which details remain absent.", "url": "https://qna.org.qa/en/news/news-details?date=5%2F10%2F2026&id=qcb-and-euroclear-to-enhance-global-investors-access-to-qatars-government-debt-market"},
-  "ignore": {"title": "Paris Fashion Week applause as proof that luxury demand has recovered", "text": "Runway reception can shape a brand’s direction, but it is not evidence of orders, conversion or pricing power. Wait for buyer commentary and reported sales."},
+  "attention": {
+    "title": "Read the Mecca Alliance’s own joint statement.",
+    "text": "It is short, primary and unusually revealing in what it confirms—immediate implementation and force mobilisation—and what it withholds: size, mission, timetable and command.",
+    "url": "https://mofa.gov.pk/press-releases/joint-statementemergency-meeting-of-the-strategic-political-and-defense-committee-of-the-makkah-alliance-for-defense-riyadh-5-october-2026"
+  },
+  "ignore": {
+    "title": "Do not treat every AI-linked breach headline as proof of an autonomous attacker.",
+    "text": "South Korea has confirmed a multi-firm campaign and signs of AI use. It has not disclosed a model, an agent workflow or evidence that AI independently penetrated bank cores. The operational lesson is machine-speed repetition against ordinary controls."
+  },
   "history": {
-    "id": "history-eurobond-market-settlement",
-    "number": "09",
-    "readTime": "7 min read",
-    "era": "CAPITAL MARKETS & INFRASTRUCTURE\n1963–2026",
-    "title": "A $15 million motorway bond created a market without a country—and forced finance to invent the plumbing underneath it.",
-    "deck": "In 1963, Italy’s Autostrade raised dollars from international investors through a bond issued outside the United States. The security was modest; the market it opened was not. Bonds could now be distributed across borders, currencies and legal systems without belonging fully to one domestic market. Trading expanded faster than the paperwork could move, so banks built Euroclear and its rival Cedel to settle ownership. The invisible system became as important as the bond itself.",
-    "thesis": "Financial globalisation did not begin when money wanted to cross borders. It accelerated when institutions made cross-border claims standardised, transferable and safe enough to hold at scale.",
+    "id": "history-great-smog-clean-air-state",
+    "number": "039",
+    "readTime": "7 min",
+    "era": "LONDON\n1952–1968",
+    "title": "London had lived with poisonous fog for generations. Five days in 1952 turned a familiar nuisance into a measurable public-health disaster—and made clean air a function of the state.",
+    "deck": "The Great Smog was not a sudden invention of pollution. It was the moment weather, coal, mortality statistics and political pressure made an old cost impossible to keep treating as ordinary.",
+    "thesis": "Reform often begins when a diffuse harm acquires a boundary: a date, a body count, a mechanism and an institution that can be held responsible.",
     "sections": [
-      {"title": "The first Eurobond financed a very physical project", "text": "Autostrade per l’Italia needed capital for the motorway network transforming post-war Italy. In July 1963, S. G. Warburg led a $15 million, 15-year issue paying a 5.5% coupon. The dollars were raised from investors outside the United States. ‘Eurobond’ described the offshore market, not the future euro currency. A dollar bond sold in Europe could connect an Italian borrower to international savings without entering the American domestic bond market."},
-      {"title": "Regulation and tax helped create the opening", "text": "The market grew because domestic boundaries made offshore issuance useful. American controls on capital outflows and taxes on some foreign securities encouraged dollars held outside the United States to find investments elsewhere. Borrowers wanted funding; European banks held dollar deposits; investors wanted transferable assets. The Eurobond joined those needs. Its advantage was not the absence of rules altogether, but the ability to organise an issue across jurisdictions rather than inside one national market."},
-      {"title": "Success exposed the weakness of paper settlement", "text": "Early bonds were commonly represented by bearer certificates. Ownership followed possession, and interest coupons had to be clipped and presented. As trading expanded, certificates moved among banks, couriers and vaults while buyers and sellers waited for delivery and payment. A market designed to ignore borders had recreated them operationally in every shipment. Lost documents, mismatched instructions and delayed cash became a ceiling on growth."},
-      {"title": "Morgan Guaranty turned the certificates into book entries", "text": "In December 1968, Morgan Guaranty’s Brussels office launched the Euroclear System. Participating institutions could leave securities in a common depository network and transfer interests through account entries instead of moving the physical certificate for each trade. The system matched delivery with payment and reduced the time and counterparty risk trapped between them. In 1972, the operating system was sold to a company owned by major financial institutions."},
-      {"title": "Competition made the infrastructure a market standard", "text": "Cedel, the forerunner of Clearstream, opened in 1970. Euroclear and Cedel gave the international bond market two settlement hubs rather than one bank-controlled utility. Dealers also formed the Association of International Bond Dealers in 1969 and developed conventions for trading and documentation. A market without a sovereign rulebook built private institutions to make behaviour predictable. The standards were voluntary in origin but became difficult to avoid once liquidity concentrated around them."},
-      {"title": "Innovation depended on a reliable back office", "text": "Once issuance and settlement were repeatable, the market could support new structures: floating-rate notes in 1970, currency and interest-rate swaps in the 1980s, the first global bond in 1989, and later convertible, risk-linked, green and digital securities. Financial engineering gets the attention, but each product requires someone to record the claim, exchange cash for securities, process interest and principal, and resolve failures. Infrastructure converts a contract into an asset institutions can actually own."},
-      {"title": "Delivery versus payment solved a basic trust problem", "text": "A securities trade creates two obligations: the buyer must pay and the seller must deliver. If the legs happen separately, one party can perform while the other fails. Modern central depositories coordinate delivery versus payment so cash and securities move together. They also safekeep assets, track issuance and support corporate actions. Euroclear now settles international securities and domestic assets across dozens of markets and currencies; the original Eurobond solution became general financial plumbing."},
-      {"title": "Qatar’s new link follows the same logic", "text": "Qatar already has government bonds, sukuk, a central bank and a domestic depository. The Euroclear link does not create the credit or change the riyal peg. It changes how a foreign institution reaches the asset. Eligible securities can sit inside an account and workflow the investor already uses for other markets. The history shows why that apparently technical step can matter: access expands when the cost of proving ownership, moving cash and completing settlement becomes ordinary."},
-      {"title": "Plumbing creates power as well as efficiency", "text": "Centralised settlement reduces risk, but it also concentrates dependence. Sanctions, asset freezes, cyber incidents, legal disputes and operational outages can travel through the same hubs that make markets efficient. The lesson is not that global settlement is fragile by definition. It is that infrastructure governs who can hold, transfer and receive value. Once the plumbing becomes universal, its rules become part of geopolitics even when the system presents itself as neutral administration."}
+      {"title": "The city had normalised smoke", "text": "London’s fog was older than the Industrial Revolution, but coal transformed it. Domestic fireplaces, factories and power stations filled damp air with soot and sulphur compounds. The dirty yellow ‘pea-souper’ became part of the city’s identity. Severe episodes in the nineteenth and early twentieth centuries repeatedly pushed death rates above normal, especially in the low-lying, densely industrial East End. Campaigners asked for cleaner air, but the harm was dispersed across millions of fires and treated as the price of heat, work and urban life. Familiarity protected the system: if everyone contributed and the sky had always looked this way, responsibility was difficult to assign."},
+      {"title": "A weather inversion made the system visible", "text": "On 5 December 1952, cold, still weather settled over London. Households burned more coal for warmth. An anticyclone created a temperature inversion: warmer air above pressed down on colder air near the ground, preventing smoke from rising and dispersing. Moisture condensed around particles and a dense layer of polluted fog formed 100 to 200 metres deep. The Met Office estimates that each day brought roughly 1,000 tonnes of smoke particles and 370 tonnes of sulphur dioxide, much of it converted into sulphuric acid. Visibility fell to a few metres. Buses stopped, ambulances struggled, performances were cancelled when audiences could not see stages, and people became lost in streets they knew."},
+      {"title": "The catastrophe appeared first as interruption, then as mortality", "text": "The fog lifted on 9 December. Its immediate story looked like transport chaos and discomfort. The deeper evidence arrived through hospitals, undertakers and weekly death statistics. Parliament later cited about 4,000 deaths, with bronchitis and other respiratory and cardiovascular illness concentrated among older people, infants and those already unwell. Later estimates placed the toll higher, but the contemporary figure alone destroyed the argument that smoke was merely unpleasant. A chart linking daily smoke, sulphur dioxide and deaths turned an atmospheric condition into an attributable public-health event. Measurement gave the disaster a causal shape that eyewitness horror could not supply on its own."},
+      {"title": "Policy had to change the household energy system", "text": "The government created the Beaver Committee, which reported in 1954. Parliament’s Clean Air Act of 1956 prohibited dark smoke, enabled smoke-control areas and supported conversion from smoky coal to cleaner fuels. This was not simply a ban on factories. It reached into fireplaces and required households, landlords, councils and fuel suppliers to change equipment and habits. Grants and transition periods mattered because clean air was coupled to the cost of staying warm. The state was not only declaring a standard; it was reorganising an energy market and sharing some conversion cost."},
+      {"title": "Responsibility moved from the individual chimney to the urban system", "text": "Before the Act, smoke control was fragmented across local powers and voluntary improvement. The national framework let councils create smoke-control areas in which only authorised fuels and appliances could be used, while industrial furnaces faced new duties and chimney plans came under scrutiny. The design recognised a coordination problem. One household buying cleaner fuel could not clear air shared with thousands of neighbours, and a city could not change if suppliers, equipment and enforcement arrived in the wrong order. Public grants helped households convert fireplaces, turning compliance from a moral demand into a financed transition. The policy still distributed costs unevenly and moved slowly, but it established a durable principle: when pollution is cumulative and shared, individual choice cannot be the only control mechanism."},
+      {"title": "The lesson was institutional, not theatrical", "text": "Smog did not vanish in 1956. London suffered another deadly episode in 1962, and the 1968 Act strengthened controls and chimney requirements. Cleaner fuels, central heating, relocated power generation and later environmental rules gradually changed the air. The durable lesson is not that one shocking week instantly solved pollution. It is that a visible catastrophe can create permission for policy, but implementation depends on infrastructure, finance, enforcement and time. The Great Smog became a boundary in history because government converted evidence into a system that changed what millions of individual chimneys were allowed to emit."}
     ],
     "timeline": [
-      {"date": "1963", "text": "Autostrade issues the widely recognised first Eurobond: $15 million, 15 years, 5.5%."},
-      {"date": "1968", "text": "Morgan Guaranty launches the Euroclear System from Brussels."},
-      {"date": "1969", "text": "Dealers form the Association of International Bond Dealers to develop market conventions."},
-      {"date": "1970", "text": "Cedel opens as a competing settlement system; the first Eurobond floating-rate note follows."},
-      {"date": "1972", "text": "The Euroclear System is transferred to a user-owned company."},
-      {"date": "1981–1989", "text": "Swaps and global bonds widen what the international market can fund and distribute."},
-      {"date": "2000", "text": "Euroclear Bank is created to carry Euroclear’s operating and banking activities."},
-      {"date": "2026", "text": "Qatar announces a link making eligible riyal government bonds and sukuk Euroclearable."}
+      {"date": "5 DEC 1952", "text": "Cold, still air and heavy coal burning begin trapping smoke over London."},
+      {"date": "9 DEC 1952", "text": "The weather changes and the five-day smog disperses."},
+      {"date": "1953", "text": "Official mortality analysis links the fog to thousands of excess deaths."},
+      {"date": "1954", "text": "The Beaver Committee recommends national action against air pollution."},
+      {"date": "5 JUL 1956", "text": "The Clean Air Act receives Royal Assent."},
+      {"date": "1962–1968", "text": "Another deadly smog and further legislation deepen the transition."}
     ],
     "sources": [
-      {"label": "International Capital Market Association · history of the Eurobond market", "url": "https://www.icmagroup.org/about-icma/history/history-of-the-eurobond-market/"},
-      {"label": "Euroclear · institutional history", "url": "https://www.euroclear.com/about/en/history.html"},
-      {"label": "ICMA Quarterly Report · Eurobonds as an international funding market", "url": "https://www.icmagroup.org/assets/documents/Regulatory/Quarterly_Reports/ICMA-Quarterly-Report-Third-Quarter-2025.pdf"},
-      {"label": "European Commission · what central securities depositories do", "url": "https://finance.ec.europa.eu/financial-markets/financial-markets-policy/post-trade-services/central-securities-depositories-csds_en"},
-      {"label": "Euroclear · settlement and delivery-versus-payment", "url": "https://www.euroclear.com/services/en/settlement.html"}
+      {"label": "Met Office · formation, pollutants and impacts of the Great Smog", "url": "https://weather.metoffice.gov.uk/learn-about/weather/case-studies/great-smog"},
+      {"label": "UK Parliament · coal, power and the Clean Air Act", "url": "https://www.parliament.uk/business/publications/research/olympic-britain/technology-and-communication/power-up/"},
+      {"label": "Hansard · 1955 Clean Air Bill debate and the 4,000-death evidence", "url": "https://hansard.parliament.uk/commons/1955-02-04/debates/139ce8ba-de47-4889-9873-90749549817f/CleanAirBill"},
+      {"label": "Wellcome Collection · official 1953 mortality report", "url": "https://wellcomecollection.org/works/eegwz62u"},
+      {"label": "London City Hall · pollution levels in modern context", "url": "https://www.london.gov.uk/programmes-strategies/environment-and-climate-change/environment-and-climate-change-publications/70-years-great-london-smog"}
     ]
   },
   "threads": [
-    {"status": "Escalated today · territory contested", "title": "Yemen and Bab el-Mandeb", "text": "Government offensive · Saudi air support · shipping risk unresolved", "progress": 67},
-    {"status": "Updated today · volume recovered", "title": "Iran war and Hormuz", "text": "18.3m bpd · tanker attacks rise · risk premium persists", "progress": 69},
-    {"status": "New today · infrastructure announced", "title": "Qatar domestic debt market", "text": "Euroclear link · QAR bonds and sukuk · launch details pending", "progress": 43},
-    {"status": "Decision due 25 October", "title": "Brazil presidential election", "text": "Bolsonaro 47.03% · Lula 45.16% · runoff campaign starts", "progress": 73},
-    {"status": "Investigation active · motive unresolved", "title": "flydubai FZ1073", "text": "aircraft secured · cross-border vetting questioned · findings pending", "progress": 52}
+    {"status": "ESCALATING", "title": "Mecca Alliance and Yemen", "text": "The test is no longer treaty language or a single ground advance. Track actual foreign deployments, integrated air and maritime command, Houthi retaliation and commercial passage through Bab el-Mandeb.", "progress": 82},
+    {"status": "OPEN", "title": "High long rates", "text": "Weak U.S. hiring reduced near-term Fed-hike odds without breaking the sovereign-yield climb. Watch auctions, inflation, French politics and credit spreads.", "progress": 71},
+    {"status": "NEW", "title": "Machine-speed cyber campaigns", "text": "South Korea suggests AI-assisted repetition across many institutions; the FBI case shows that ordinary missed patches remain enough. Separate attack novelty from control failure.", "progress": 46},
+    {"status": "DEVELOPING", "title": "AI training rights", "text": "Australia is deciding whether model access should be licensed, exempted or traded for infrastructure investment. Past scraping and future reporting duties remain unresolved.", "progress": 39},
+    {"status": "WATCH", "title": "Political fragmentation", "text": "Spain is voting early over housing, Quebec separatists lack a majority, and Brazil’s runoff is pulling fiscal credibility into campaign personnel choices.", "progress": 58}
   ]
 }

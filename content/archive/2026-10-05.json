@@ -1,0 +1,262 @@
+{
+  "date": {"display": "Monday, 5 October 2026", "edition": "038", "updated": "7:00 AM"},
+  "worldSentence": "Military force, market prices and financial plumbing are converging on the same question: who can keep access open when the route itself becomes the risk?",
+  "standfirst": "Saudi-backed forces claimed effective control of Bab el-Mandeb as Yemen’s dormant war reopened, while record Gulf oil flows met a fresh run of tanker attacks around Hormuz. Qatar connected its domestic government debt market to Euroclear. Global bond yields remained near generational highs despite a weak U.S. jobs report. Brazil moved to a Bolsonaro–Lula runoff, the flydubai cockpit attack exposed an insider-security failure, Deutsche Telekom put a number on AI savings, and DFI took control of more than 1,100 Starbucks stores across Asia.",
+  "listenTime": "32 min",
+  "coverage": [
+    {"count": 2, "label": "Qatar & Gulf"},
+    {"count": 3, "label": "World & security"},
+    {"count": 2, "label": "Economy & markets"},
+    {"count": 1, "label": "Aviation"},
+    {"count": 1, "label": "AI & technology"},
+    {"count": 1, "label": "Consumer & restaurants"}
+  ],
+  "connected": {
+    "title": "Access is not an abstraction; it is a chain of institutions, routes and counterparties.",
+    "signals": [
+      {"label": "BAB EL-MANDEB", "value": "CONTESTED", "text": "Government forces claimed effective control while fighting continued."},
+      {"label": "GULF CRUDE", "value": "18.3M BPD", "text": "The seven-day export average exceeded pre-war levels at September’s end."},
+      {"label": "U.S. 10-YEAR", "value": "5.27%", "text": "Weak hiring cooled rate-hike bets without removing the debt and inflation premium."},
+      {"label": "BRAZIL RUNOFF", "value": "25 OCT", "text": "Flávio Bolsonaro led Lula by 1.87 percentage points in round one."}
+    ],
+    "note": "A strait can be physically open yet commercially dangerous. A domestic bond can exist yet remain awkward for global investors to hold. A technology can perform yet fail to lower costs until it changes operating routines. Today’s strongest stories separate nominal access from access that is secure, liquid and usable."
+  },
+  "stories": [
+    {
+      "id": "yemen-bab-el-mandeb-offensive",
+      "number": "01",
+      "category": "Yemen, Saudi Arabia & Red Sea security",
+      "sourceNote": "Reuters / AP · Monday",
+      "title": "Saudi-backed Yemeni forces seized positions at Bab el-Mandeb as a dormant civil war became an active fight for a global shipping chokepoint.",
+      "changed": "Yemen’s internationally recognised government launched a broad campaign against the Houthis and said its forces had taken key positions in the Dhubab district at the narrowest part of Bab el-Mandeb. Information Minister Moammar al-Eryani told Reuters that government forces had effective control of the strait, although fighting continued and Houthi media disputed government advances elsewhere. Saudi Arabia supplied heavy air support; the coalition said 100 aircraft were involved.",
+      "matters": "Bab el-Mandeb links the Red Sea and Suez route to the Indian Ocean. Control of shoreline positions does not by itself make commercial passage safe, but it changes the military geometry around vessels already exposed to missiles, drones and insurance restrictions. The operation also ends the assumption that Yemen’s long front lines would remain mostly frozen while the wider Iran conflict played out around them.",
+      "watch": "Independent confirmation of territorial control; whether shipping advisories and war-risk premiums change; the durability of government supply lines; Houthi counterattacks around Taiz and Dhubab; civilian displacement; Saudi aircraft losses or escalation; U.N. diplomacy; and whether the campaign stays focused on the strait or expands toward Houthi-held population centres.",
+      "lead": true,
+      "group": {"label": "The lead", "title": "A shipping lane is becoming a battlefield rather than merely a target set.", "note": "Government claims are ahead of independent verification, but the scale and location of the offensive are confirmed.", "break": false},
+      "background": {
+        "title": "Holding the coast is different from securing the route",
+        "text": "The strait is only about 29 kilometres wide at its narrowest point. Land-based missiles, drones, mines and small craft can threaten traffic without a force controlling every kilometre of shoreline. Government troops may therefore improve surveillance and deny launch areas while commercial risk remains elevated. The operational measure is not a flag on a district; it is whether vessels, insurers and navies judge repeated passage sustainable.",
+        "known": "The government announced the offensive; Saudi aircraft are supporting it; forces seized positions around Dhubab; fighting continues.",
+        "new": "The anti-Houthi campaign has moved from planning and local clashes to a declared, Saudi-backed operation at the strait itself."
+      },
+      "evidence": {"left": {"label": "Government claim", "text": "Yemen’s information minister said government forces had effective control of Bab el-Mandeb."}, "right": {"label": "Material uncertainty", "text": "Houthi reports dispute advances on other fronts, and independent territorial verification is incomplete."}},
+      "sources": [
+        {"label": "Reuters · government forces advance on Bab el-Mandeb", "url": "https://au.marketscreener.com/news/yemeni-government-forces-advance-on-bab-el-mandeb-strait-ce785ddbd18cf424"},
+        {"label": "AP · Saudi-led aircraft support Yemen offensive", "url": "https://apnews.com/article/e87beb84a0d146e4f0546b50508f7e32"}
+      ]
+    },
+    {
+      "id": "gulf-oil-flows-tanker-attacks",
+      "number": "02",
+      "category": "Hormuz, Gulf energy & maritime risk",
+      "sourceNote": "Reuters / UKMTO · Monday",
+      "title": "Gulf crude exports briefly exceeded pre-war levels, but seven tanker attacks showed why recovered volume is not the same as a normal market.",
+      "changed": "Provisional Kpler data put the seven-day moving average of regional crude exports at 18.3 million barrels a day on 30 September, with flows above pre-war levels on 14 days during the month. Saudi Arabia loaded through both the Red Sea and Gulf after damage to its East-West pipeline. At the same time, UKMTO recorded a renewed series of attacks near Hormuz, including vessels struck by unknown projectiles, and maritime advisers warned of an increasingly unpredictable kinetic threat.",
+      "matters": "The export recovery weakens the simplest shortage story and shows how producers, escorts and terminals have adapted. Yet each voyage now carries additional security, scheduling and insurance cost. Markets can receive enough barrels while still embedding a persistent risk premium in crude, refined products and freight. That distinction matters for inflation: physical availability can improve before delivered cost and confidence normalise.",
+      "watch": "The origin and pattern of the attacks; casualties or pollution; escort rules; insurer exclusions and premiums; whether the 18.3 million-barrel pace persists; Saudi pipeline repairs; Hormuz and Red Sea traffic counts; diesel availability; and whether Iran, the Houthis or another actor claims responsibility.",
+      "lead": false,
+      "group": {"label": "The Gulf system", "title": "More oil moved through the system just as the system became more dangerous to use.", "note": "Volume answers the supply question; attacks answer the reliability question.", "break": true},
+      "background": {
+        "title": "A resilient flow can still be an expensive flow",
+        "text": "Exports are counted when cargoes move, but customers pay for more than crude. Tanker availability, war-risk cover, naval procedures, route length and refinery compatibility affect the final price. A state-backed cargo under escort can keep national exports moving while an independent operator declines the same route. Aggregate barrels can therefore conceal a narrowing set of firms willing to carry them.",
+        "known": "Kpler observed a temporary export pace above pre-war levels; UKMTO issued multiple attack warnings around Hormuz.",
+        "new": "The strongest physical recovery of the war now coexists with the most concentrated recent burst of vessel attacks."
+      },
+      "evidence": {"left": {"label": "Flow recovered", "text": "The seven-day average reached 18.3 million barrels a day at September’s end."}, "right": {"label": "Passage deteriorated", "text": "At least seven vessels were attacked around the strait in the renewed wave."}},
+      "sources": [
+        {"label": "Reuters · Gulf exports recover as tanker attacks increase", "url": "https://www.marketscreener.com/news/middle-east-oil-exports-top-pre-war-levels-for-part-of-september-but-tanker-attacks-increase-ce785ddbd18ef622"},
+        {"label": "UKMTO · current maritime warnings", "url": "https://www.ukmto.org/"}
+      ]
+    },
+    {
+      "id": "qatar-euroclear-government-debt",
+      "number": "03",
+      "category": "Qatar capital markets",
+      "sourceNote": "Qatar Central Bank / QNA · Monday",
+      "title": "Qatar is linking riyal government bonds and sukuk to Euroclear, removing a practical barrier between the domestic debt market and global investors.",
+      "changed": "Qatar Central Bank and Euroclear announced an international settlement link that will make eligible riyal-denominated government bonds and sukuk accessible through Euroclear Bank. Euroclear will act as issuer central securities depository, Qatar Central Securities Depository as the local investor CSD, and QCB as issuer and paying agent. The announcement did not provide an implementation date or list the first eligible securities.",
+      "matters": "International investors often avoid a market not because the credit is unattractive, but because custody, settlement, cash movement and operational onboarding are fragmented. Euroclearability lets institutions use familiar accounts and processes to hold Qatari instruments. Over time that can broaden demand, improve secondary-market liquidity and strengthen price discovery, though the link itself cannot create issuance depth or trading activity.",
+      "watch": "Launch timing; eligible maturities and sukuk structures; tax and account rules; first foreign participation data; dealer quoting and bid-ask spreads; repo eligibility; settlement volumes; whether more sovereign issuance shifts into riyals; and any inclusion response from fixed-income index providers.",
+      "lead": false,
+      "group": {"label": "Qatar", "title": "The market is gaining international plumbing before it gains international scale.", "note": "The access mechanism is confirmed; its effect on demand and liquidity must be measured after launch.", "break": true},
+      "background": {
+        "title": "Settlement infrastructure can determine who is able to invest",
+        "text": "A central securities depository records ownership and coordinates delivery against payment. When a global investor can settle a Qatari bond through an existing Euroclear relationship, it avoids building a separate local custody chain for each purchase. That reduces friction and operational risk. It does not remove currency, duration or credit risk, and it does not guarantee a liquid secondary market.",
+        "known": "QCB and Euroclear agreed the link and defined the institutional roles for eligible local government debt.",
+        "new": "Qatar’s domestic sovereign instruments are being connected directly to one of the main settlement networks used by global fixed-income investors."
+      },
+      "evidence": {"left": {"label": "Access change", "text": "Eligible QAR bonds and sukuk will become settleable through Euroclear Bank."}, "right": {"label": "Impact unknown", "text": "No go-live date, eligible list or foreign-flow target was announced."}},
+      "sources": [
+        {"label": "Qatar News Agency · QCB and Euroclear announce the settlement link", "url": "https://qna.org.qa/en/news/news-details?date=5%2F10%2F2026&id=qcb-and-euroclear-to-enhance-global-investors-access-to-qatars-government-debt-market"}
+      ]
+    },
+    {
+      "id": "global-bonds-weak-us-jobs",
+      "number": "04",
+      "category": "Global economy, rates & markets",
+      "sourceNote": "BLS / Reuters / AP · Friday–Monday",
+      "title": "Weak U.S. hiring cooled expectations for another near-term rate increase, but long bond yields stayed near two-decade highs.",
+      "changed": "The United States added 29,000 jobs in September, unemployment rose to 4.2%, and July and August payrolls were revised down by a combined 60,000. Traders reduced bets on another Federal Reserve increase in October. Yet the 10-year Treasury yield was still about 5.27% on Monday after reaching 5.34% last week, its highest since 2002. French, Japanese and other government borrowing costs also rose sharply during the global selloff.",
+      "matters": "The labour report weakens the case for immediate monetary tightening, but it does not erase the forces pushing long rates higher: oil-driven inflation risk, heavy government borrowing, fiscal uncertainty and investors demanding more compensation for duration. That separation makes the economy harder to read. A central bank can pause while mortgages, corporate debt and public refinancing remain expensive.",
+      "watch": "Wednesday’s Fed minutes; September inflation; Treasury auctions; the term premium; French budget politics and the France–Germany spread; oil and diesel prices; whether employment revisions continue downward; credit spreads; housing activity; and any sign that higher long rates are breaking leveraged positions.",
+      "lead": false,
+      "group": {"label": "Economy & markets", "title": "A softer economy is no longer enough by itself to produce cheaper long-term money.", "note": "Policy-rate expectations eased; the fiscal and inflation premium remained.", "break": true},
+      "background": {
+        "title": "The central bank controls the overnight rate, not the whole yield curve",
+        "text": "Long yields reflect expected short rates plus compensation for inflation, uncertainty and the risk of holding a fixed return for years. Governments issuing large volumes of debt can require higher yields even if the next central-bank move is a pause. The weak jobs report therefore changed one component of the price without settling the others.",
+        "known": "Payroll growth slowed materially; prior months were revised lower; long yields remain around levels last seen more than two decades ago.",
+        "new": "Markets now face a clearer conflict between weakening labour demand and a durable long-rate premium."
+      },
+      "evidence": {"left": {"label": "Growth signal", "text": "September payrolls rose 29,000 and unemployment reached 4.2%."}, "right": {"label": "Financing signal", "text": "The 10-year Treasury remained near 5.27% after touching 5.34%."}},
+      "sources": [
+        {"label": "U.S. Bureau of Labor Statistics · September employment situation", "url": "https://www.bls.gov/news.release/empsit.htm"},
+        {"label": "Reuters · global bond selling pushes yields to multi-decade highs", "url": "https://in.marketscreener.com/news/global-bonds-gripped-by-fiscal-worries-us-10-year-yield-hits-24-year-high-ce785ad3df8ff725"},
+        {"label": "AP · bond pressure at the start of the week", "url": "https://apnews.com/article/f83cf147deaf5a2361b1ae7eee74a627"}
+      ]
+    },
+    {
+      "id": "brazil-bolsonaro-lula-runoff",
+      "number": "05",
+      "category": "Brazil, elections & institutions",
+      "sourceNote": "Brazil TSE · Monday",
+      "title": "Flávio Bolsonaro led Lula in Brazil’s first round, sending the presidency to a 25 October runoff that polling had not framed this way.",
+      "changed": "With 99.99% of ballot boxes counted, Brazil’s electoral court reported 47.03% for Senator Flávio Bolsonaro and 45.16% for President Luiz Inácio Lula da Silva. Bolsonaro received about 56.1 million valid votes and Lula 53.9 million. Neither crossed 50%, so the two advance to a runoff on 25 October. Lula acknowledged that the result surprised him; Bolsonaro entered the second round with the lead.",
+      "matters": "Brazil is Latin America’s largest economy, a major commodity producer and a pivotal voice in climate and Global South diplomacy. The first round shows that Bolsonarism remains electorally powerful without Jair Bolsonaro on the ballot. The remaining 7.8% of valid votes, turnout decisions and coalition endorsements now matter more than the national average from pre-election polling.",
+      "watch": "Endorsements from eliminated candidates and governors; regional turnout; congressional results and governability; economic and anti-corruption messaging; misinformation and electoral-court disputes; currency and rate reactions; Amazon policy; relations with the United States and China; and whether either campaign accepts the final count without qualification.",
+      "lead": false,
+      "group": {"label": "Political order", "title": "The runoff begins with the challenger ahead and the incumbent surprised.", "note": "The count is official and nearly complete; coalition transfers are not.", "break": true},
+      "background": {
+        "title": "First-round arithmetic does not mechanically become runoff arithmetic",
+        "text": "The two finalists already hold more than 92% of valid votes between them, leaving a smaller pool to win than in many fragmented elections. But abstention can shift, regional machines can mobilise differently and voters do not transfer neatly with their defeated candidate. Congress and state governments will also shape whether the eventual president can govern.",
+        "known": "Bolsonaro led with 47.03%; Lula had 45.16%; the runoff is scheduled for 25 October.",
+        "new": "The son of the former president begins the decisive round ahead of the sitting president and closer to an outright majority."
+      },
+      "evidence": {"left": {"label": "First place", "text": "Flávio Bolsonaro: 56,104,268 votes, or 47.03%."}, "right": {"label": "Second place", "text": "Lula: 53,876,617 votes, or 45.16%."}},
+      "sources": [
+        {"label": "Brazil Superior Electoral Court · official first-round result", "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica"},
+        {"label": "Reuters · Bolsonaro and Lula advance to the runoff", "url": "https://www.boursorama.com/actualite-economique/actualites/bresil-presidentielle-bolsonaro-en-tete-et-lula-s-affronteront-au-second-tour-2ea18317abca18c5bd6879a7ccab10f7"}
+      ]
+    },
+    {
+      "id": "flydubai-fz1073-insider-security",
+      "number": "06",
+      "category": "Aviation safety & security",
+      "sourceNote": "UAE MoFA / AP · Wednesday–Monday",
+      "title": "The alleged cockpit attack on flydubai flight FZ1073 has become an insider-security investigation spanning the UAE, Oman, Saudi Arabia, Israel and Australia.",
+      "changed": "A flydubai co-pilot allegedly attacked the captain with the cockpit crash axe and attempted to seize control of the Tel Aviv-bound Boeing 737 MAX 8 on 30 September. Other crew members and people on board intervened, and the aircraft landed safely at Tabuk with 182 people aboard. UAE prosecutors are investigating possible terrorist intent and prior planning. Australia opened a review of the suspect’s years there, while reporting indicated that Oman had previously barred him from flying over extremist concerns.",
+      "matters": "Commercial aviation security is designed heavily around keeping threats out of the cockpit. This case puts the threat inside the authorised crew and raises a different control problem: how airlines share adverse employment, licensing and security information across borders. The safe landing demonstrates crew resilience; it does not answer how a previously flagged pilot may have entered another carrier’s cockpit.",
+      "watch": "Verified employment and licensing records; what flydubai knew at hiring and rostering; the UAE prosecutor’s findings; evidence of direction or accomplices; the captain’s recovery; flight-data and cockpit-voice evidence; changes to crash-axe access and two-person cockpit rules; resumed Israel service; and any regional standard for cross-border pilot vetting.",
+      "lead": false,
+      "group": {"label": "Aviation", "title": "The aircraft was saved; the hiring and information-sharing system now has to explain itself.", "note": "The attack is under official investigation, and motive claims remain provisional.", "break": true},
+      "background": {
+        "title": "Insider risk crosses the boundaries between safety, security and employment law",
+        "text": "Pilots are licensed, medically assessed and recurrently trained, but national authorities and employers do not automatically share every disciplinary or intelligence concern. A restriction in one jurisdiction may not appear as a formal licence revocation elsewhere. The investigation must distinguish verified records from post-event allegation while identifying which information could lawfully and practically have changed the roster decision.",
+        "known": "An in-flight cockpit altercation occurred; crew intervened; the aircraft landed safely; the UAE formed a specialist prosecution team.",
+        "new": "The case now includes a reported prior foreign warning and an Australian review, widening it from one violent event to a cross-border vetting failure."
+      },
+      "evidence": {"left": {"label": "Operational success", "text": "On-board intervention secured the aircraft and all 182 people reached a safe landing."}, "right": {"label": "System failure", "text": "Reporting says a prior flying ban over extremist concerns did not prevent later cockpit employment."}},
+      "sources": [
+        {"label": "UAE Ministry of Foreign Affairs · official investigation of FZ1073", "url": "https://www.mofa.gov.ae/en/MediaHub/News/2026/10/1/UAE-fly-dubai"},
+        {"label": "AP · aviation security questions after the cockpit attack", "url": "https://apnews.com/article/be124a20976fc7fd35ba794c0823bc5b"},
+        {"label": "AP · Australia investigates the co-pilot’s history", "url": "https://apnews.com/article/5c0479a4ecb8fefb8f259e6df3800cd8"}
+      ]
+    },
+    {
+      "id": "deutsche-telekom-ai-savings",
+      "number": "07",
+      "category": "AI adoption & enterprise economics",
+      "sourceNote": "Deutsche Telekom / Reuters · Monday",
+      "title": "Deutsche Telekom expects AI and automation to remove €2.5 billion of indirect cost by 2030, moving the enterprise-AI argument from demos to a dated operating target.",
+      "changed": "At its AI Investor Day, Deutsche Telekom set a target of roughly €2.5 billion in indirect-cost savings by 2030 versus 2023, including about €1.1 billion of gross savings outside the United States in 2027. It also targeted about €800 million of AI-related business revenue outside the U.S. by 2030. The company says AI already predicts mobile-network peaks, assists service staff, supports software work and handled about 2.6 million customer-service calls in the first half of 2026.",
+      "matters": "Most corporate AI claims describe capability or time saved without connecting either to the income statement. Telekom has supplied a baseline, deadline and operating categories that investors can test. The figures remain management targets, not realised audited savings, and part of the benefit will be reinvested. That makes the story useful precisely because it can later be falsified.",
+      "watch": "Annual disclosure against the 2023 baseline; whether savings are gross or net of compute and transformation costs; headcount and service-quality effects; the split between automation and generative AI; fibre reinvestment; AI revenue margins; customer complaints; and whether peers adopt similarly measurable reporting.",
+      "lead": false,
+      "group": {"label": "Technology", "title": "A large operator has finally made its AI productivity claim measurable.", "note": "The target is concrete; achievement, attribution and net economics remain unproven.", "break": true},
+      "background": {
+        "title": "A savings target is evidence of accountability, not evidence of savings",
+        "text": "The 2023 comparison year helps prevent the baseline from moving, while the 2027 and 2030 milestones allow progress checks. But gross savings can coexist with higher cloud, model, integration and change-management spending. Service metrics matter too: fewer calls may reflect successful automation, frustrated abandonment or both. Net cost and customer outcome need to move together.",
+        "known": "Telekom published the targets and named current use cases and volumes.",
+        "new": "The company has attached multi-year euro values to AI and automation rather than relying on adoption anecdotes."
+      },
+      "evidence": {"left": {"label": "Cost target", "text": "Approximately €2.5 billion of indirect-cost savings by 2030 versus 2023."}, "right": {"label": "Revenue target", "text": "Approximately €800 million of non-U.S. AI-related business revenue by 2030."}},
+      "sources": [
+        {"label": "Deutsche Telekom · AI Investor Day targets and use cases", "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/10/deutsche-telekom-boosts-growth-efficiency-and-quality-through-t"},
+        {"label": "Reuters · Deutsche Telekom targets €2.5 billion of savings", "url": "https://live.euronext.com/en/financial-news/deutsche-telekom-sees-eu25-billion-savings-ai-automation-2030"}
+      ]
+    },
+    {
+      "id": "dfi-starbucks-asia-reorganisation",
+      "number": "08",
+      "category": "Restaurants, retail & Asian consumption",
+      "sourceNote": "DFI / SGX · Wednesday",
+      "title": "DFI will take direct control of more than 1,100 Starbucks stores across seven Asian markets as it exits its broader Maxim’s joint holding.",
+      "changed": "DFI Retail Group agreed a reorganisation with Maxim’s Caterers under which DFI will receive the Starbucks licensed business in Hong Kong, Macau, Singapore, Thailand, Vietnam, Cambodia and Laos, plus about $340 million in cash before adjustments. Maxim’s will buy back DFI’s 50% stake in the wider restaurant group. The Starbucks network has more than 1,100 stores; completion remains subject to consents, antitrust clearance and separation work.",
+      "matters": "The transaction replaces a diversified associate stake with direct control of one scaled consumer platform. That gives DFI clearer authority over formats, data, procurement and capital allocation across markets, while concentrating exposure to one brand and category. Management expects the business to add revenue and margin immediately, but the strategic test is whether a regional operator can adapt a global coffee brand to very different local demand and rental economics.",
+      "watch": "Regulatory approvals and completion timing; valuation after adjustments; same-store sales; store expansion toward management’s targets; China-adjacent tourism demand in Hong Kong and Macau; Thailand and Vietnam growth; labour and rent pressure; digital loyalty integration; Starbucks brand requirements; and what Maxim’s does with the cash and its remaining restaurant portfolio.",
+      "lead": false,
+      "group": {"label": "Consumer & restaurants", "title": "A portfolio company is becoming an operator by choosing the platform it wants to control.", "note": "The network is real and scaled; the transaction is conditional and execution has not begun.", "break": true},
+      "background": {
+        "title": "Control changes which synergies are available—and which risks remain concentrated",
+        "text": "An associate contributes profit without giving its shareholder full operational authority. A controlled subsidiary lets DFI integrate technology, property decisions, procurement and management incentives. The exchange also removes exposure to Maxim’s other restaurant brands. That can improve strategic focus while making Starbucks performance more visible in DFI’s own results.",
+        "known": "The parties signed a conditional agreement covering over 1,100 stores and approximately $340 million of cash consideration.",
+        "new": "DFI is exchanging its half-share in a broad restaurant group for direct ownership of the regional Starbucks platform."
+      },
+      "evidence": {"left": {"label": "Operating platform", "text": "More than 1,100 Starbucks coffeehouses across seven Asian markets."}, "right": {"label": "Transaction boundary", "text": "Completion still requires consents, antitrust clearance and internal separation."}},
+      "sources": [
+        {"label": "Singapore Exchange · DFI transaction announcement", "url": "https://links.sgx.com/1.0.0/corporate-announcements/7SCIYGSTRHH576IS/"},
+        {"label": "DFI and Jardine Matheson · reorganisation overview", "url": "https://www.jardines.com/newsroom/latest-news/strategy-and-our-portfolio/2026/dfi-retail-group---hongkong-caterers-announce-reorganisation-of-"}
+      ]
+    }
+  ],
+  "radar": [
+    {"label": "Spain", "title": "Pedro Sánchez called a snap election for 29 November after parliament rejected emergency housing measures.", "text": "Polls favour a PP-led coalition with Vox, but the campaign begins after a specific governing failure rather than a scheduled transfer. Watch the decree, coalition lists and housing agenda.", "url": "https://apnews.com/article/7d8347e35f1a9e2965ea5b0f8c012bd8"},
+    {"label": "Frontier AI", "title": "Sam Altman argued that broad AI access justifies accepting some harmful outcomes, marking a public split with Anthropic’s regulatory posture.", "text": "The distinction is philosophical until it appears in product restrictions, evaluation duties or legislation. Watch the policy mechanism rather than the rhetoric alone.", "url": "https://www.marketscreener.com/news/openai-s-altman-says-ai-benefits-warrant-accepting-some-risks-ce785ddbdc80fe24"},
+    {"label": "Weather", "title": "Flood deaths rose in Thailand and Catalonia after another weekend of intense rain.", "text": "The separate events do not establish one causal story. Watch local forecasts, missing-person reports, transport recovery and attribution work before drawing a climate conclusion.", "url": "https://www.devdiscourse.com/article/international/3986776-reuters-world-news-summary"}
+  ],
+  "attention": {"title": "QCB’s announcement of the Euroclear link", "text": "It is the clearest direct source for understanding what changed in Qatar’s debt-market plumbing and which details remain absent.", "url": "https://qna.org.qa/en/news/news-details?date=5%2F10%2F2026&id=qcb-and-euroclear-to-enhance-global-investors-access-to-qatars-government-debt-market"},
+  "ignore": {"title": "Paris Fashion Week applause as proof that luxury demand has recovered", "text": "Runway reception can shape a brand’s direction, but it is not evidence of orders, conversion or pricing power. Wait for buyer commentary and reported sales."},
+  "history": {
+    "id": "history-eurobond-market-settlement",
+    "number": "09",
+    "readTime": "7 min read",
+    "era": "CAPITAL MARKETS & INFRASTRUCTURE\n1963–2026",
+    "title": "A $15 million motorway bond created a market without a country—and forced finance to invent the plumbing underneath it.",
+    "deck": "In 1963, Italy’s Autostrade raised dollars from international investors through a bond issued outside the United States. The security was modest; the market it opened was not. Bonds could now be distributed across borders, currencies and legal systems without belonging fully to one domestic market. Trading expanded faster than the paperwork could move, so banks built Euroclear and its rival Cedel to settle ownership. The invisible system became as important as the bond itself.",
+    "thesis": "Financial globalisation did not begin when money wanted to cross borders. It accelerated when institutions made cross-border claims standardised, transferable and safe enough to hold at scale.",
+    "sections": [
+      {"title": "The first Eurobond financed a very physical project", "text": "Autostrade per l’Italia needed capital for the motorway network transforming post-war Italy. In July 1963, S. G. Warburg led a $15 million, 15-year issue paying a 5.5% coupon. The dollars were raised from investors outside the United States. ‘Eurobond’ described the offshore market, not the future euro currency. A dollar bond sold in Europe could connect an Italian borrower to international savings without entering the American domestic bond market."},
+      {"title": "Regulation and tax helped create the opening", "text": "The market grew because domestic boundaries made offshore issuance useful. American controls on capital outflows and taxes on some foreign securities encouraged dollars held outside the United States to find investments elsewhere. Borrowers wanted funding; European banks held dollar deposits; investors wanted transferable assets. The Eurobond joined those needs. Its advantage was not the absence of rules altogether, but the ability to organise an issue across jurisdictions rather than inside one national market."},
+      {"title": "Success exposed the weakness of paper settlement", "text": "Early bonds were commonly represented by bearer certificates. Ownership followed possession, and interest coupons had to be clipped and presented. As trading expanded, certificates moved among banks, couriers and vaults while buyers and sellers waited for delivery and payment. A market designed to ignore borders had recreated them operationally in every shipment. Lost documents, mismatched instructions and delayed cash became a ceiling on growth."},
+      {"title": "Morgan Guaranty turned the certificates into book entries", "text": "In December 1968, Morgan Guaranty’s Brussels office launched the Euroclear System. Participating institutions could leave securities in a common depository network and transfer interests through account entries instead of moving the physical certificate for each trade. The system matched delivery with payment and reduced the time and counterparty risk trapped between them. In 1972, the operating system was sold to a company owned by major financial institutions."},
+      {"title": "Competition made the infrastructure a market standard", "text": "Cedel, the forerunner of Clearstream, opened in 1970. Euroclear and Cedel gave the international bond market two settlement hubs rather than one bank-controlled utility. Dealers also formed the Association of International Bond Dealers in 1969 and developed conventions for trading and documentation. A market without a sovereign rulebook built private institutions to make behaviour predictable. The standards were voluntary in origin but became difficult to avoid once liquidity concentrated around them."},
+      {"title": "Innovation depended on a reliable back office", "text": "Once issuance and settlement were repeatable, the market could support new structures: floating-rate notes in 1970, currency and interest-rate swaps in the 1980s, the first global bond in 1989, and later convertible, risk-linked, green and digital securities. Financial engineering gets the attention, but each product requires someone to record the claim, exchange cash for securities, process interest and principal, and resolve failures. Infrastructure converts a contract into an asset institutions can actually own."},
+      {"title": "Delivery versus payment solved a basic trust problem", "text": "A securities trade creates two obligations: the buyer must pay and the seller must deliver. If the legs happen separately, one party can perform while the other fails. Modern central depositories coordinate delivery versus payment so cash and securities move together. They also safekeep assets, track issuance and support corporate actions. Euroclear now settles international securities and domestic assets across dozens of markets and currencies; the original Eurobond solution became general financial plumbing."},
+      {"title": "Qatar’s new link follows the same logic", "text": "Qatar already has government bonds, sukuk, a central bank and a domestic depository. The Euroclear link does not create the credit or change the riyal peg. It changes how a foreign institution reaches the asset. Eligible securities can sit inside an account and workflow the investor already uses for other markets. The history shows why that apparently technical step can matter: access expands when the cost of proving ownership, moving cash and completing settlement becomes ordinary."},
+      {"title": "Plumbing creates power as well as efficiency", "text": "Centralised settlement reduces risk, but it also concentrates dependence. Sanctions, asset freezes, cyber incidents, legal disputes and operational outages can travel through the same hubs that make markets efficient. The lesson is not that global settlement is fragile by definition. It is that infrastructure governs who can hold, transfer and receive value. Once the plumbing becomes universal, its rules become part of geopolitics even when the system presents itself as neutral administration."}
+    ],
+    "timeline": [
+      {"date": "1963", "text": "Autostrade issues the widely recognised first Eurobond: $15 million, 15 years, 5.5%."},
+      {"date": "1968", "text": "Morgan Guaranty launches the Euroclear System from Brussels."},
+      {"date": "1969", "text": "Dealers form the Association of International Bond Dealers to develop market conventions."},
+      {"date": "1970", "text": "Cedel opens as a competing settlement system; the first Eurobond floating-rate note follows."},
+      {"date": "1972", "text": "The Euroclear System is transferred to a user-owned company."},
+      {"date": "1981–1989", "text": "Swaps and global bonds widen what the international market can fund and distribute."},
+      {"date": "2000", "text": "Euroclear Bank is created to carry Euroclear’s operating and banking activities."},
+      {"date": "2026", "text": "Qatar announces a link making eligible riyal government bonds and sukuk Euroclearable."}
+    ],
+    "sources": [
+      {"label": "International Capital Market Association · history of the Eurobond market", "url": "https://www.icmagroup.org/about-icma/history/history-of-the-eurobond-market/"},
+      {"label": "Euroclear · institutional history", "url": "https://www.euroclear.com/about/en/history.html"},
+      {"label": "ICMA Quarterly Report · Eurobonds as an international funding market", "url": "https://www.icmagroup.org/assets/documents/Regulatory/Quarterly_Reports/ICMA-Quarterly-Report-Third-Quarter-2025.pdf"},
+      {"label": "European Commission · what central securities depositories do", "url": "https://finance.ec.europa.eu/financial-markets/financial-markets-policy/post-trade-services/central-securities-depositories-csds_en"},
+      {"label": "Euroclear · settlement and delivery-versus-payment", "url": "https://www.euroclear.com/services/en/settlement.html"}
+    ]
+  },
+  "threads": [
+    {"status": "Escalated today · territory contested", "title": "Yemen and Bab el-Mandeb", "text": "Government offensive · Saudi air support · shipping risk unresolved", "progress": 67},
+    {"status": "Updated today · volume recovered", "title": "Iran war and Hormuz", "text": "18.3m bpd · tanker attacks rise · risk premium persists", "progress": 69},
+    {"status": "New today · infrastructure announced", "title": "Qatar domestic debt market", "text": "Euroclear link · QAR bonds and sukuk · launch details pending", "progress": 43},
+    {"status": "Decision due 25 October", "title": "Brazil presidential election", "text": "Bolsonaro 47.03% · Lula 45.16% · runoff campaign starts", "progress": 73},
+    {"status": "Investigation active · motive unresolved", "title": "flydubai FZ1073", "text": "aircraft secured · cross-border vetting questioned · findings pending", "progress": 52}
+  ]
+}
