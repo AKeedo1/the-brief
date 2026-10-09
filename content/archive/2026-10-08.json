@@ -1,0 +1,255 @@
+{
+  "date": {"display": "Thursday, 8 October 2026", "edition": "041", "updated": "8:00 AM"},
+  "worldSentence": "Warnings became operating tests overnight: Saudi air defence, Ukraine’s interceptors, Europe’s trade policy, American household credit and the security model for local AI are all being judged by what they can actually withstand.",
+  "standfirst": "Three people were killed in fresh Houthi attacks on Saudi airports as Türkiye began sending defensive support. Russia’s forecast barrage killed at least 25 people across Ukraine, while Europe entered its October trade deadline with China. A late Gulf hurricane removed roughly 511,000 barrels a day of U.S. oil output; American mortgage rates reached 7.49 percent. The IMF warned that energy, debt and the AI boom can amplify one another. Washington auto-created investment accounts for nearly 70 million children, Microsoft pushed AI agents onto PCs with new containment tools, and McDonald’s faces an antitrust test over algorithmic price recommendations.",
+  "listenTime": "39 min",
+  "coverage": [
+    {"count": 2, "label": "Qatar & Gulf"},
+    {"count": 3, "label": "World & security"},
+    {"count": 4, "label": "Economy & markets"},
+    {"count": 2, "label": "AI & technology"},
+    {"count": 2, "label": "Aviation & consumer"}
+  ],
+  "connected": {
+    "title": "The common problem is not recognising a risk. It is building a system that still works when the risk arrives.",
+    "signals": [
+      {"label": "SAUDI AIRPORTS", "value": "3 DEAD", "text": "Abha and Riyadh attacks also wounded 36 people, according to Saudi aviation authorities."},
+      {"label": "UKRAINE", "value": "25+ DEAD", "text": "A warned-about barrage overwhelmed parts of the available defence and hit homes across thirteen regions."},
+      {"label": "U.S. MORTGAGE", "value": "7.49%", "text": "The average 30-year fixed rate reached its highest level since November 2023."},
+      {"label": "LOCAL AI", "value": "120BN+", "text": "Microsoft says its new Surface can run models above 120 billion parameters on the device."}
+    ],
+    "note": "Saudi Arabia knew the Houthi threat and still suffered fatal airport strikes. Ukraine knew a major barrage was coming and still lacked enough protection. Europe has diagnosed its China imbalance but must choose instruments that do not deepen its own industrial costs. Microsoft can move agents from cloud to device, but only if identity and containment travel with them. Awareness is not resilience; the missing layer is execution under stress."
+  },
+  "stories": [
+    {
+      "id": "saudi-airports-fatal-strikes-turkey-support", "number": "01", "category": "Saudi Arabia, Yemen & aviation", "sourceNote": "Saudi aviation authority / AP / Reuters · Wednesday",
+      "title": "Houthi attacks killed three people at Abha and Riyadh airports as Türkiye began sending air-defence, intelligence and drone support to Saudi Arabia.",
+      "changed": "Saudi Arabia’s aviation authority said an attack on Abha airport killed Moroccan and Algerian residents and wounded 28 people; a separate strike on King Khalid International Airport in Riyadh killed a Sudanese national and wounded eight. The Houthis claimed both attacks. Separately, officials told Reuters that Türkiye was sending military equipment, intelligence, surveillance, drone operators, logistics and defensive-planning support under bilateral arrangements while the Mecca Joint Defence Agreement awaits Turkish parliamentary ratification.",
+      "matters": "The threat has moved beyond damaged regional runways to deaths at the capital’s main international airport. That raises the cost for airline confidence, insurance and Saudi air-defence allocation. Türkiye’s contribution is also the first visible evidence that the new alliance can generate usable capability rather than declarations, but its bilateral form shows that the treaty’s legal and command architecture is unfinished.",
+      "watch": "Airport operating status and notices to airmen; further casualties or flight changes; Houthi launch tempo and weapon types; where Turkish systems and operators are deployed; Pakistan’s contribution; Turkish ratification; and whether alliance support remains defensive while the Saudi-backed counteroffensive near Bab el-Mandeb expands.",
+      "lead": true,
+      "group": {"label": "The lead", "title": "The alliance now has a casualty count and an operating test.", "note": "Fatalities and Turkish assistance are reported; interception performance and final command arrangements remain incomplete.", "break": false},
+      "background": {"title": "An airport can stay open while its risk model changes", "text": "Airlines assess more than runway damage. They consider repeated attack probability, diversion options, crew exposure, air-traffic reliability and insurer guidance. Riyadh’s King Khalid airport is a national hub, so a fatal strike there carries a different network signal from damage at a smaller border airport. Defensive support can improve surveillance, targeting and response, but multiple national systems also need shared identification rules and command authority. An alliance that cannot decide who sees, who shoots and who communicates may add equipment without adding resilience.", "known": "Saudi authorities reported three deaths and 36 injuries at two airports; Houthi forces claimed responsibility; officials described Turkish defensive and technical assistance.", "new": "The airport campaign reached Riyadh with fatalities, while the alliance moved from a rapid-deployment promise to identifiable capabilities."},
+      "evidence": {"left": {"label": "Operational shift", "text": "Turkish support includes intelligence, surveillance, drone operators, logistics and defensive planning."}, "right": {"label": "Institutional gap", "text": "Türkiye’s parliament has not ratified the pact, so much of the support is bilateral for now."}},
+      "sources": [
+        {"label": "AP · fatal attacks at Abha and King Khalid airports", "url": "https://apnews.com/article/israel-palestinians-saudi-yemen-iran-us-october-7-2026-4c2cf27f819b6e36940f88a7af49ea78"},
+        {"label": "Reuters · Türkiye sends defensive and technical support", "url": "https://www.reuters.com/world/asia-pacific/turkey-sending-technical-defensive-support-saudi-arabia-help-fight-houthis-2026-10-07/"}
+      ]
+    },
+    {
+      "id": "ukraine-massive-barrage-pryluky", "number": "02", "category": "Ukraine & air-defence scarcity", "sourceNote": "Ukrainian officials / AP / Reuters · Wednesday",
+      "title": "Russia’s anticipated mass barrage killed at least 25 civilians, including five children, exposing the difference between warning of an attack and having enough interceptors to stop it.",
+      "changed": "Russian missiles and drones struck Kyiv and twelve other Ukrainian regions overnight. Ukrainian officials said at least 25 civilians were killed and around 100 wounded. A missile destroyed part of an apartment building in Pryluky, killing 19 people including five children. President Volodymyr Zelenskyy had warned a day earlier that intelligence showed Russia preparing a massive attack, but Ukraine could not fully repel ballistic missiles and new jet-powered drones.",
+      "matters": "Forewarning did not solve the capacity problem. Ukraine can disperse crews, alert civilians and ready batteries, yet ballistic interception still depends heavily on scarce Patriot missiles. The Iran war is competing for the same defensive inventory. Russia’s strategy can therefore extract civilian and infrastructure damage even when surprise is lost, testing whether partners can allocate interceptors across two active theatres.",
+      "watch": "Final casualty counts; energy outages and repair time; the mix of ballistic, cruise and jet-powered drone weapons; Patriot and European interceptor deliveries; whether Russia repeats large salvos faster than stocks can be replenished; and Ukraine’s long-range response against Russian airfields, refining and logistics.",
+      "lead": false,
+      "group": {"label": "World beyond the lead", "title": "Intelligence bought warning time, not immunity.", "note": "The scale and casualties are confirmed by Ukrainian authorities; independent weapon-by-weapon battle damage remains incomplete.", "break": true},
+      "background": {"title": "Air defence is an allocation system", "text": "Different threats demand different sensors and interceptors. Slow drones can be engaged with cheaper guns or short-range missiles; cruise missiles fly low; ballistic missiles descend at high speed and require specialised systems. A defender that uses an expensive interceptor against every cheap target can lose the economic contest even while winning individual engagements. Russia’s mixed salvos aim to saturate this hierarchy. Warning helps operators position systems, but it cannot manufacture missiles or protect every city simultaneously.", "known": "Officials reported at least 25 deaths, roughly 100 injuries and strikes across thirteen regions after a prior public warning.", "new": "The realised attack showed that a known mass strike could still penetrate into a residential building with catastrophic results."},
+      "evidence": {"left": {"label": "Prepared but constrained", "text": "Ukraine said its services and air force were ready before the attack."}, "right": {"label": "Binding resource", "text": "Zelenskyy said ballistic missiles remain the greatest challenge and sought Patriot ammunition worldwide."}},
+      "sources": [
+        {"label": "AP · at least 25 killed in the warned-about attack", "url": "https://apnews.com/article/russia-ukraine-war-kyiv-strike-650e298d7bc3881351533683ff4040ed"},
+        {"label": "Reuters · missile and drone waves hit homes and infrastructure", "url": "https://www.marketscreener.com/news/latest/Russia-hits-Ukraine-with-drones-and-missiles-killing-at-least-15-12426983/"}
+      ]
+    },
+    {
+      "id": "eu-china-trade-deadline", "number": "03", "category": "Europe, China & industrial policy", "sourceNote": "European Parliament / AP · Wednesday",
+      "title": "Europe entered its October deadline with China carrying a €360 billion trade deficit and a parliamentary mandate for reciprocity—without yet choosing the price of confrontation.",
+      "changed": "EU trade commissioner Maroš Šefčovič began a two-day Beijing visit to press Commerce Minister Wang Wentao for measures that narrow the bloc’s roughly €360 billion annual goods deficit with China. The European Parliament voted 454 to 86 for a resolution demanding economic reciprocity and a proportionate response if market access does not improve. The talks arrive after Chinese exports were redirected toward Europe as the United States raised tariffs.",
+      "matters": "The EU is trying to defend steel, vehicles and other industrial capacity while remaining deeply dependent on Chinese inputs and consumer goods. Tariffs or procurement restrictions can buy political time, but they can also raise costs for European manufacturers and fragment the single market if member states act differently. The negotiation will show whether Europe can turn market size into leverage without importing the full U.S. trade model.",
+      "watch": "Any Chinese offer on subsidies, procurement or market access; new EU investigations or duties; electric-vehicle and steel measures; member-state divisions; export diversion into Europe; retaliation against European brands; and whether the Commission defines measurable targets rather than extending the deadline.",
+      "lead": false,
+      "group": {"label": "The wider system", "title": "Europe wants reciprocity but has not priced the transition.", "note": "The deficit and parliamentary vote are established; the Commission’s next instrument and China’s response are not.", "break": true},
+      "background": {"title": "A trade deficit is a symptom, not a policy instruction", "text": "The balance reflects exchange rates, demand, industrial specialisation, subsidies, supply chains and investment—not one barrier that can be removed. Europe’s leverage is its large market and regulatory reach. Its weakness is that firms often rely on Chinese batteries, electronics, machinery and intermediate goods while competing with finished Chinese exports. A durable strategy must distinguish strategic dependence from ordinary comparative advantage and decide who absorbs the cost of diversification.", "known": "Šefčovič travelled to Beijing after Parliament overwhelmingly called for reciprocity and proportionate action.", "new": "The October deadline has arrived with political support for toughness but no public settlement."},
+      "evidence": {"left": {"label": "Political mandate", "text": "The resolution passed 454–86 after lawmakers debated industrial job losses."}, "right": {"label": "Economic exposure", "text": "The EU deficit exceeds $1 billion a day while European supply chains still use Chinese inputs."}},
+      "sources": [
+        {"label": "AP · EU envoy goes to Beijing over the $1 billion-a-day gap", "url": "https://apnews.com/article/china-eu-brussels-beijing-trade-77559db8f9909cd4bbf3c812e1041c6f"},
+        {"label": "European Parliament · procedure file for EU-China economic relations", "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2026%2F2761%28RSP%29"}
+      ]
+    },
+    {
+      "id": "hurricane-isaias-gulf-oil", "number": "04", "category": "Energy, weather & tourism", "sourceNote": "National Hurricane Center / AP · Wednesday night",
+      "title": "Isaias became the Atlantic season’s first hurricane unusually late, shutting roughly a quarter of U.S. Gulf oil production before a Friday landfall.",
+      "changed": "Isaias strengthened to a hurricane with sustained winds near 75 miles per hour and was forecast to make landfall between the Mississippi coast and Florida Panhandle late Friday or early Saturday. About 25 percent of Gulf oil production was temporarily halted—roughly 511,000 barrels a day—and eight of 371 manned platforms were evacuated. Florida and Alabama declared emergencies; a major Alabama tourism festival was cancelled.",
+      "matters": "The production loss is moderate in isolation but lands in an oil market already strained by the Iran war and low accessible inventories. The larger risk is a path through refining, ports or power infrastructure, which can prolong disruption after offshore wells restart. The unusually late first hurricane also shows how a quiet season can still concentrate operational risk into a short warning window.",
+      "watch": "Track and intensity updates; refinery and port closures; offshore restart timing; power outages and storm surge; airline and road disruption; rainfall inland; whether the storm strengthens over warm Gulf water; and whether high oil prices turn a temporary production pause into a sharper product-price move.",
+      "lead": false,
+      "group": {"label": "Physical constraints", "title": "A late storm is removing barrels from an already tight system.", "note": "The current shutdown is measured; landfall location, refining damage and duration remain forecast risks.", "break": true},
+      "background": {"title": "Upstream loss and refinery loss are different shocks", "text": "Offshore platforms can often restart after crews return and inspections finish. Refineries, terminals and electricity networks onshore can take longer if flooded or damaged, and a refinery outage changes the supply of gasoline, diesel and jet fuel rather than crude alone. Markets therefore watch both barrels temporarily shut in and the storm’s approach to the conversion and distribution system. The same wind speed can produce very different economic effects depending on landfall.", "known": "Isaias reached hurricane strength; authorities reported about 511,000 barrels a day offline and emergency declarations in two states.", "new": "The season’s first Atlantic hurricane formed one day short of a 121-year record for lateness and is now affecting energy and tourism before landfall."},
+      "evidence": {"left": {"label": "Immediate loss", "text": "About one quarter of regional offshore oil output was halted."}, "right": {"label": "Tail risk", "text": "Refinery, port and grid damage would matter more than a short precautionary well shutdown."}},
+      "sources": [
+        {"label": "AP · Isaias reaches hurricane strength and disrupts Gulf output", "url": "https://apnews.com/article/tropical-storm-isaias-gulf-atlantic-440bdecf97a5340547ca3ad291b361df"},
+        {"label": "National Hurricane Center · current Atlantic advisories", "url": "https://www.nhc.noaa.gov/"}
+      ]
+    },
+    {
+      "id": "us-mortgage-rate-749", "number": "05", "category": "United States housing & rates", "sourceNote": "Mortgage Bankers Association / Reuters · Wednesday",
+      "title": "The U.S. 30-year mortgage rate jumped to 7.49 percent, translating the bond selloff into the weakest application volume since February 2025.",
+      "changed": "The Mortgage Bankers Association said the average 30-year fixed rate rose 19 basis points in the week ended 2 October to its highest level since November 2023. Mortgage applications fell 4.2 percent for the week; overall volume is nearly half its January level. The increase followed a rise in the 10-year Treasury yield above 5.3 percent as oil-driven inflation and stronger growth changed expectations for Federal Reserve policy.",
+      "matters": "Housing shows how an abstract rise in the term premium reaches households. Owners with older low-rate loans become reluctant to move, potential buyers lose affordability and refinancing disappears. That can suppress transactions before it meaningfully reduces prices because supply is also locked in. With living costs leading voter concerns, mortgages turn the bond market into a political as well as financial constraint.",
+      "watch": "The 10-year Treasury yield; October Fed guidance; purchase versus refinance applications; home listings and builder incentives; whether oil prices retreat; credit spreads; delinquencies; and evidence that lower transaction volumes finally translate into lower home prices rather than continued scarcity.",
+      "lead": false,
+      "group": {"label": "Economy and markets", "title": "Long yields are now closing doors in the housing market.", "note": "The rate and application fall are measured; how much comes through prices, construction or household spending remains open.", "break": true},
+      "background": {"title": "Mortgage lock-in makes housing adjust through volume first", "text": "Many existing owners financed at much lower rates and would sharply increase their monthly payment by moving. They stay put, reducing the homes available to buy. New buyers face both high prices and high financing costs. Builders can use rate buydowns or smaller homes, but existing-home supply adjusts slowly. The result can be a frozen market in which affordability worsens without the immediate price fall that textbook demand logic would suggest.", "known": "The average rate reached 7.49 percent and applications fell to their lowest aggregate level since February 2025.", "new": "A fresh bond-market rise has erased earlier relief and pushed borrowing costs back to a three-year extreme."},
+      "evidence": {"left": {"label": "Price of credit", "text": "The average 30-year fixed rate rose 19 basis points in one week."}, "right": {"label": "Behavioural response", "text": "Applications fell 4.2 percent and are nearly 50 percent below January."}},
+      "sources": [
+        {"label": "Reuters · U.S. mortgage rate reaches 7.49 percent", "url": "https://ca.investing.com/news/economy-news/us-30year-mortgage-rate-hits-highest-in-nearly-three-years-4869431"},
+        {"label": "Mortgage Bankers Association · research and economics", "url": "https://www.mba.org/news-and-research/research-and-economics"}
+      ]
+    },
+    {
+      "id": "imf-energy-debt-ai-warning", "number": "06", "category": "Global economy & financial stability", "sourceNote": "IMF curtain raiser / AP · Wednesday",
+      "title": "The IMF framed the global outlook as a collision between an energy shock, record public debt and an AI investment boom whose benefits lag its financing.",
+      "changed": "Ahead of next week’s IMF–World Bank meetings in Bangkok, managing director Kristalina Georgieva urged governments to reduce debt and address inequality rather than delay difficult choices. She said high energy costs from war are colliding with an AI demand and investment boom that supports growth and corporate earnings but also raises inflation. She warned that weak AI earnings could turn leveraged hyperscalers and concentrated global holdings of U.S. equities into a broader shock.",
+      "matters": "The warning joins three stories often analysed separately. Energy lifts inflation and rates; high rates increase the cost of servicing public and corporate debt; AI investment supports demand while requiring still more capital and power. A disappointment in one corner can travel through bonds, equity concentration, fiscal space and electricity prices. The risk is not simply an AI bubble or sovereign debt problem but their interaction.",
+      "watch": "The IMF’s updated forecasts next week; fiscal plans in heavily indebted economies; hyperscaler free cash flow and debt issuance; AI earnings versus capital expenditure; energy prices; concentration in global portfolios; and whether policymakers can tighten fiscal policy without worsening weak growth or inequality.",
+      "lead": false,
+      "group": {"label": "The macro frame", "title": "Three shocks share one balance sheet.", "note": "The diagnosis is the IMF chief’s risk framework; the updated growth numbers arrive at the annual meetings.", "break": true},
+      "background": {"title": "Positive investment can still create financial fragility", "text": "AI spending can raise productivity and profits while simultaneously bidding up power, chips, construction and skilled labour. If the gains arrive later than debt repayments, the same investment becomes a cash-flow problem. Governments face a related mismatch: energy relief and social support add near-term borrowing while high yields increase debt-service costs. The IMF is asking policymakers to distinguish productive investment from leverage that depends on uninterrupted optimism.", "known": "Georgieva identified high energy prices, debt and AI as interacting forces and warned about leverage and equity concentration.", "new": "The IMF has put the AI capital cycle inside its global financial-stability story before releasing new forecasts in Bangkok."},
+      "evidence": {"left": {"label": "Growth engine", "text": "AI investment is supporting demand, profits and record equity prices."}, "right": {"label": "Transmission risk", "text": "Debt, delayed benefits and concentrated U.S. equity holdings could spread a disappointment."}},
+      "sources": [
+        {"label": "AP · IMF chief links debt, war energy and AI risk", "url": "https://apnews.com/article/war-ai-georgieva-imf-oil-debt-2da9d879e2eb70e1e16d14fd1a307a99"},
+        {"label": "IMF · 2026 Annual Meetings schedule and curtain raiser", "url": "https://www.imf.org/en/meetings/2026/annual/schedule"}
+      ]
+    },
+    {
+      "id": "us-child-investment-auto-accounts", "number": "07", "category": "United States household finance", "sourceNote": "U.S. Treasury / Federal Register / AP · Wednesday",
+      "title": "Washington auto-created investment accounts for nearly 70 million children, turning a small newborn subsidy into national financial infrastructure that still requires families to claim and fund it.",
+      "changed": "The White House said nearly 70 million tax-advantaged accounts now exist for Americans under 18 with Social Security numbers, including more than 60 million created through automatic enrolment. Parents or guardians must claim an account through the programme’s app before managing it or receiving contributions. The government provides a one-time $1,000 seed only for eligible children born from 2025 through 2028; families may make after-tax contributions up to $5,000 a year.",
+      "matters": "Automatic creation removes a major participation barrier, but it does not remove inequality in contributions, financial literacy or the ability to wait for long-term returns. The programme also creates a large administrative system connecting tax data, identity verification, trustees and capital markets. Its success should be measured by claimed, funded and retained accounts—not the number technically opened.",
+      "watch": "Claim rates; delivery of the $1,000 seed; fraud and identity controls; investment fees and default funds; employer and philanthropic contributions; participation by income; withdrawal rules at 18; and whether Congress extends funding beyond the 2025–2028 birth cohort.",
+      "lead": false,
+      "group": {"label": "Policy and participation", "title": "Access has been automated; accumulation has not.", "note": "The accounts exist, but only a subset receives federal money and adult action is still required.", "break": true},
+      "background": {"title": "Defaults change participation more reliably than persuasion", "text": "Savings programmes often lose eligible users at the first form, login or investment choice. Automatic enrolment reverses the burden: an account exists unless the family ignores it. Yet an unclaimed account cannot perform the same function as a funded, managed one. The design therefore moves the bottleneck from opening to verification, contribution and long-term retention. That is progress, but it changes the metric rather than completing the policy.", "known": "The administration says almost 70 million accounts have been created; parents must claim them; only the specified newborn cohort qualifies for $1,000.", "new": "The United States has completed a mass auto-enrolment step that makes child investment accounts a near-universal administrative layer."},
+      "evidence": {"left": {"label": "Scale", "text": "More than 60 million children were added automatically."}, "right": {"label": "Practical limit", "text": "Claiming, funding and sustained participation still depend on families and programme execution."}},
+      "sources": [
+        {"label": "White House · nearly 70 million accounts created", "url": "https://www.whitehouse.gov/releases/2026/10/a-financial-stake-in-the-future-for-nearly-70-million-american-children-trump-accounts-made-it-possible/"},
+        {"label": "Federal Register · temporary rules for automatic enrolment", "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-30/html/2026-20026.htm"},
+        {"label": "AP · accounts are funded only for eligible newborns", "url": "https://apnews.com/article/c3653612100f15c0c4de86daffc08677"}
+      ]
+    },
+    {
+      "id": "microsoft-local-ai-execution-containers", "number": "08", "category": "AI, personal computing & security", "sourceNote": "Microsoft / Reuters · Wednesday",
+      "title": "Microsoft moved the AI agent contest onto the PC, pairing a 120-billion-parameter local-compute claim with operating-system containers meant to restrict what agents can touch.",
+      "changed": "Microsoft unveiled an AI coding model that can run on personal computers, made Microsoft Execution Containers generally available and opened preorders for the Nvidia-powered Surface Laptop Ultra and RTX Spark Dev Box. The company says the laptop can run models above 120 billion parameters locally using up to 128 gigabytes of unified memory and one petaflop of AI compute. Anthropic, OpenAI and Nvidia are expected to use the containment tools.",
+      "matters": "Local inference can keep sensitive work off the cloud, reduce latency and shift compute cost onto customer-owned hardware. But an agent acting on a personal machine can also reach files, credentials and applications. Microsoft’s real product bet is therefore not just a faster laptop; it is an identity and containment layer that makes autonomous local work governable enough for enterprises.",
+      "watch": "Independent performance and battery tests; price and availability; which models run at useful speed; whether containers stop data exfiltration and unauthorised actions; support from AI developers; enterprise policy controls; software compatibility on Nvidia’s architecture; and how much work actually shifts from Azure to devices.",
+      "lead": false,
+      "group": {"label": "Technology", "title": "Local AI needs a security boundary before it needs another benchmark.", "note": "The hardware and containment tools are announced; real-world performance and adversarial resilience are unproven.", "break": true},
+      "background": {"title": "The device becomes both worker and security perimeter", "text": "Cloud AI centralises models and policy inside a provider’s infrastructure. Local AI gives users more control and can keep data near its source, but it moves responsibility onto endpoints that already hold valuable credentials. Execution containers try to isolate the agent’s processes, while separate identity lets administrators distinguish an agent’s action from its user’s. The design question is whether those controls remain legible when an agent crosses browsers, code tools, files and cloud services.", "known": "Microsoft announced local coding, general availability for Execution Containers and two RTX Spark Surface devices.", "new": "Windows is being positioned as a runtime for contained agents rather than only an interface for cloud assistants."},
+      "evidence": {"left": {"label": "Capability claim", "text": "The new Surface is specified for local models above 120 billion parameters."}, "right": {"label": "Trust requirement", "text": "Containment and agent identity must prevent access beyond an authorised task."}},
+      "sources": [
+        {"label": "Microsoft · Windows hybrid intelligence and Execution Containers", "url": "https://news.microsoft.com/source/emea/2026/10/building-windows-for-hybrid-intelligence/"},
+        {"label": "Microsoft · Surface Laptop Ultra specifications", "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra"},
+        {"label": "Reuters · Microsoft brings more AI onto PCs", "url": "https://m.economictimes.com/tech/artificial-intelligence/microsoft-brings-more-ai-to-pcs-as-it-challenges-apple/amp_articleshow/134773844.cms"}
+      ]
+    },
+    {
+      "id": "mcdonalds-ai-pricing-antitrust", "number": "09", "category": "Restaurants, pricing & competition", "sourceNote": "Federal complaint / AP · Wednesday",
+      "title": "A proposed class action against McDonald’s asks whether an AI pricing recommendation becomes coordination when franchisees compete but share nonpublic data through one platform.",
+      "changed": "A federal lawsuit in Illinois alleges that McDonald’s AI-enhanced pricing tool violates antitrust law by pooling nonpublic information such as store-level sales and using it to recommend prices to franchisees in the same market. The plaintiff links the system to higher menu prices. McDonald’s says the complaint is inaccurate, that franchisees set their own prices and that the optional tool neither automates nor fixes them. The company says it has used an AI-enhanced version for more than a decade.",
+      "matters": "Franchising depends on common brand standards alongside legally separate operators. Pricing software makes that boundary harder to see. A recommendation may improve local decisions, but one platform can also reduce the uncertainty that normally makes competitors choose independently. The case could shape how restaurant chains document data access, recommendation logic and franchisee discretion as algorithms become normal operating tools.",
+      "watch": "Whether the court certifies a class; discovery into the model and data flows; the gap between recommended and actual prices; franchise agreements and pressure mechanisms; response from franchisee groups; damages theories; and whether regulators apply the same logic to hotels, rents, groceries or delivery marketplaces.",
+      "lead": false,
+      "group": {"label": "Consumer and restaurants", "title": "The antitrust question sits in the data pipeline.", "note": "The allegations are untested; McDonald’s denies automated or coordinated pricing.", "break": true},
+      "background": {"title": "A franchise system contains cooperation and competition at once", "text": "Franchisees share a brand, menu architecture, promotions and operating systems, yet can compete for the same customer. Chains have long collected sales data and suggested prices. Machine learning can make the recommendation more precise by combining transactions, location and competitor information. That does not automatically create price-fixing, but it raises questions about whether rivals receive a common signal built from data they would not exchange directly and how much freedom they retain to reject it.", "known": "The complaint was filed in federal court; McDonald’s confirms the tool exists and denies that it sets or coordinates menu prices.", "new": "A consumer challenge is testing algorithmic pricing inside a franchise network rather than a third-party property or travel platform."},
+      "evidence": {"left": {"label": "Plaintiff’s claim", "text": "Shared nonpublic data and common recommendations reduce independent pricing."}, "right": {"label": "Company’s defence", "text": "Franchisees make the final decision and the tool is optional."}},
+      "sources": [
+        {"label": "AP · McDonald’s sued over AI-enhanced price recommendations", "url": "https://apnews.com/article/mcdonalds-ai-pricing-lawsuit-competition-franchisees-bb78e854b11b54b394603effa7550bbe"}
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "QATAR",
+      "title": "QNB is due to disclose third-quarter results today.",
+      "text": "The filing should provide a cleaner signal on lending, margins, asset quality and regional conditions than daily share movement.",
+      "url": "https://www.qe.com.qa/company-profile?CompanyCode=QNBK&InformationCategory=Company&InformationType=News"
+    },
+    {
+      "label": "DIPLOMACY",
+      "title": "Qatar says U.S.–Iran messages are still moving even without a breakthrough.",
+      "text": "The foreign ministry says mediation is uninterrupted and covers the concerns of both parties; substance and authority remain undisclosed.",
+      "url": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/10/06/foreign-ministry--mediation-efforts-between-washington-and-tehran-continue"
+    },
+    {
+      "label": "SCIENCE",
+      "title": "The chemistry Nobel recognised control over mirror-image molecules.",
+      "text": "The work matters because two molecular mirror forms can behave differently in medicine; the prize is useful science, not a market-moving event.",
+      "url": "https://apnews.com/"
+    },
+    {
+      "label": "HEALTH",
+      "title": "A Russian plague-laboratory death remains a transparency question, not a confirmed outbreak.",
+      "text": "Russian authorities say tests have not found plague among contacts; the WHO is seeking more detail. Watch verified diagnoses and transmission evidence.",
+      "url": "https://apnews.com/"
+    }
+  ],
+  "attention": {
+    "title": "Open the Saudi airport account because yesterday’s picture changed materially.",
+    "text": "The confirmed story is no longer light injuries at southern airports. The latest official account records deaths at Abha and Riyadh, wider casualties and a direct test for civil aviation.",
+    "url": "https://apnews.com/article/israel-palestinians-saudi-yemen-iran-us-october-7-2026-4c2cf27f819b6e36940f88a7af49ea78"
+  },
+  "ignore": {
+    "title": "Do not treat one laboratory death as proof of a plague outbreak or bioweapon.",
+    "text": "The information gap is real and deserves scrutiny, but Russian testing has not confirmed plague among contacts and public evidence does not establish sustained transmission."
+  },
+  "history": {
+    "id": "history-montreal-protocol-adaptive-treaty", "number": "041", "readTime": "7 min", "era": "GLOBAL\n1974–PRESENT",
+    "title": "The Montreal Protocol worked because it was built to become stricter: science set the direction, finance made participation possible and repeated adjustments turned a modest treaty into a global phase-out system.",
+    "deck": "The ozone crisis was not solved by one perfect agreement in 1987. Governments began with partial controls, created a fund for poorer countries, measured results and repeatedly accelerated the timetable as evidence and substitutes improved.",
+    "thesis": "A durable agreement does not need to know every future answer. It needs verified measurements, obligations that can tighten, money for unequal transition costs and institutions that make revision normal rather than a diplomatic failure.",
+    "sections": [
+      {
+        "title": "A useful chemical created an invisible global risk",
+        "text": "Chlorofluorocarbons were stable, nonflammable chemicals used in refrigeration, air conditioning, foams and aerosols. Their stability made them commercially attractive and environmentally dangerous: they survived long enough to reach the stratosphere, where ultraviolet light released chlorine that catalytically destroyed ozone. The ozone layer absorbs harmful ultraviolet radiation. In 1974, chemists Mario Molina and Sherwood Rowland warned that human-made CFCs could thin it, but the atmospheric mechanism was difficult to see in ordinary life and industry had invested deeply in the chemicals."
+      },
+      {
+        "title": "Antarctica changed the politics of uncertainty",
+        "text": "British Antarctic Survey scientists reported a recurring springtime ozone hole in 1985. The finding did not mean every scientific uncertainty had disappeared, but it made the scale of depletion harder to dismiss. That year, countries adopted the Vienna Convention, which created cooperation on research, monitoring and information without yet imposing the full phase-out later associated with ozone policy. The sequence mattered: governments built a scientific and diplomatic framework before they agreed on the final strength of control."
+      },
+      {
+        "title": "The first protocol was deliberately incomplete",
+        "text": "Adopted on 16 September 1987 and effective in 1989, the Montreal Protocol initially required a 50 percent reduction in major CFC production and consumption by 1998 and froze halons. Those measures were weaker than the eventual solution. What made the treaty powerful was its adjustment mechanism and regular assessment panels. As evidence strengthened and substitutes became available, parties could add chemicals, accelerate schedules and tighten obligations without pretending the first negotiation had solved every technical problem."
+      },
+      {
+        "title": "Finance turned fairness into implementation",
+        "text": "Developing countries argued that they should not bear the same immediate cost as industrial economies that had produced and consumed most ozone-depleting substances. The 1990 London changes created a financial mechanism; the Multilateral Fund began operating in 1991 and became permanent in 1993. It paid agreed incremental costs for technology conversion, training and institutional capacity. Different timetables and real funding made the bargain more than an instruction from rich countries to poor ones. By 2014, UNEP said the fund had provided more than $3 billion."
+      },
+      {
+        "title": "Measurement made tightening credible",
+        "text": "Scientific, environmental, technical and economic assessment panels reported repeatedly to the parties. Countries reported production and consumption, controlled trade and used licensing systems for imports and exports. A non-compliance procedure and implementation committee created a place to address failure without making expulsion the only response. The regime kept changing through adjustments and amendments in London, Copenhagen, Montreal, Beijing, Kigali and other meetings. By 2009, the Vienna Convention and Montreal Protocol had become the first treaties in the United Nations system to reach universal participation."
+      },
+      {
+        "title": "Success did not mean the atmosphere responded quickly",
+        "text": "Ozone-depleting gases persist for decades, and Antarctic weather creates large year-to-year variation. The annual hole could therefore remain large even after policy changed. The latest completed scientific assessment found that controlled substances continue to decline and upper-stratospheric ozone is recovering, while cautioning that evidence differs by region. If current policies hold, ozone is expected to return to 1980 values around 2040 for most of the world, 2045 in the Arctic and 2066 over Antarctica. Long lags made monitoring essential: politics had to keep working before the sky visibly healed."
+      },
+      {
+        "title": "The system learned from its own substitute",
+        "text": "Hydrofluorocarbons replaced many ozone-depleting chemicals. They protect ozone but can be powerful greenhouse gases, turning a technical fix into a climate problem. In 2016, parties adopted the Kigali Amendment to phase down HFCs. The same institution was able to govern a consequence of its earlier success because revision had always been part of its design. The Montreal lesson is not that every global problem is easy. It is that uncertainty becomes manageable when an agreement can ratchet, pay for transition, measure compliance and survive long enough for physical systems to respond."
+      }
+    ],
+    "timeline": [
+      {"date": "1974", "text": "Molina and Rowland publish the warning that CFCs can damage stratospheric ozone."},
+      {"date": "1985", "text": "The Antarctic ozone hole is reported; countries adopt the Vienna Convention."},
+      {"date": "16 SEP 1987", "text": "Governments adopt the Montreal Protocol with initial partial controls."},
+      {"date": "1991", "text": "The Multilateral Fund begins helping developing countries finance conversion."},
+      {"date": "2009", "text": "The ozone treaties achieve universal participation across the UN system."},
+      {"date": "2016", "text": "The Kigali Amendment adds a phase-down of climate-warming HFC substitutes."},
+      {"date": "2040–2066", "text": "Current assessments project regional returns toward 1980 ozone levels if policy holds."}
+    ],
+    "sources": [
+      {"label": "UNEP Ozone Secretariat · treaty evolution and universal participation", "url": "https://ozone.unep.org/treaties/montreal-protocol-substances-deplete-ozone-layer/introduction"},
+      {"label": "UNEP Ozone Secretariat · milestones from discovery to Kigali", "url": "https://ozone.unep.org/ozone-timeline"},
+      {"label": "UNEP · design, responsibilities and stepwise phase-out", "url": "https://www.unep.org/ozonaction/who-we-are/about-montreal-protocol"},
+      {"label": "WMO and NOAA · 2022 scientific assessment and recovery dates", "url": "https://csl.noaa.gov/assessments/ozone/2022/executivesummary/"},
+      {"label": "NASA · the long atmospheric lag and annual variability", "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-continues-healing-in-2024-153523/"}
+    ]
+  },
+  "threads": [
+    {"status": "ESCALATING", "title": "Mecca Alliance and Yemen", "text": "Fatal attacks reached Abha and Riyadh while Türkiye began defensive support. Track airport operations, Turkish ratification, alliance command and the Bab el-Mandeb counteroffensive.", "progress": 94},
+    {"status": "OPEN", "title": "Iran war diplomacy", "text": "Qatar says message exchanges continue; Washington has set an enrichment threshold. Track a measurable counterproposal, inspection sequence and who can bind Tehran.", "progress": 65},
+    {"status": "DETERIORATING", "title": "Global long rates", "text": "The U.S. mortgage rate reached 7.49 percent as Treasury yields touched 24-year highs. Track oil, auctions, Fed guidance and housing activity.", "progress": 83},
+    {"status": "DEVELOPING", "title": "AI physical and financial capacity", "text": "The IMF added leverage and concentration to the constraint map while Microsoft shifted part of the workload to devices. Track realised returns, power and endpoint security.", "progress": 61},
+    {"status": "NEW", "title": "Algorithmic market coordination", "text": "The McDonald’s suit tests how shared data and pricing recommendations operate inside franchise competition. Watch certification, discovery and regulatory spillover.", "progress": 32}
+  ]
+}
