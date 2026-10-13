@@ -30,7 +30,7 @@ jobs:
         run: |
           node scripts/render-edition.mjs
           node scripts/build-static.mjs
-          node --test tests/audio.test.mjs
+          node --test tests/audio.test.mjs tests/archive.test.mjs
           sed -i 's|{{SITE_ORIGIN}}|https://akeedo1.github.io/the-brief|g' dist/site/index.html
       - name: Configure Pages
         uses: actions/configure-pages@v5

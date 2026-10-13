@@ -1,26 +1,27 @@
 import { createServer } from "node:http";
 import { readFile } from "node:fs/promises";
-import { extname, resolve } from "node:path";
+import { extname, relative, resolve } from "node:path";
 import { serveFile } from './serve-file.mjs';
 
-const root = resolve(import.meta.dirname, "..", "public", "edition");
+const root = resolve(import.meta.dirname, "..", "dist", "site");
 const port = Number(process.argv[2] || 8790);
 const host = process.argv[3] || "127.0.0.1";
 const types = { ".html": "text/html; charset=utf-8", ".css": "text/css; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".png": "image/png", ".webmanifest": "application/manifest+json" };
 
 createServer(async (request, response) => {
   const pathname = new URL(request.url, `http://${request.headers.host}`).pathname;
-  const name = pathname === "/" ? "index.html" : pathname.replace(/^\/edition\//, "").replace(/^\//, "");
-  if (!new Set(["index.html", "styles.css", "app.js", "audio-player.js", "og.png", "manifest.webmanifest", ...[32,180,192,512].map(size => `daymark-icon-${size}-v1.png`)]).has(name) && !/^audio\/[\w-]+\/[\w-]+\.mp3$/.test(name)) {
+  const name = pathname === "/" ? "index.html" : `${pathname.replace(/^\//, "")}${pathname.endsWith('/') ? 'index.html' : ''}`;
+  const filePath = resolve(root, name);
+  const insideRoot = relative(root, filePath);
+  if (insideRoot.startsWith('..') || resolve(root, insideRoot) !== filePath) {
     response.writeHead(404).end("Not found");
     return;
   }
   try {
-    if (name.endsWith('.mp3')) { await serveFile(request, response, resolve(root, name), 'audio/mpeg'); return; }
-    const filePath = name === "og.png" ? resolve(root, "..", "og.png") : resolve(root, name);
+    if (name.endsWith('.mp3')) { await serveFile(request, response, filePath, 'audio/mpeg'); return; }
     const body = await readFile(filePath);
-    const payload = name === "index.html" ? body.toString("utf8").replaceAll("{{SITE_ORIGIN}}", `http://${request.headers.host}`) : body;
-    response.writeHead(200, { "content-type": name === "og.png" ? "image/png" : (types[extname(name)] || "application/octet-stream"), "cache-control": "no-cache" }).end(payload);
+    const payload = extname(name) === ".html" ? body.toString("utf8").replaceAll("{{SITE_ORIGIN}}", `http://${request.headers.host}`) : body;
+    response.writeHead(200, { "content-type": types[extname(name)] || "application/octet-stream", "cache-control": "no-cache" }).end(payload);
   } catch {
     response.writeHead(500).end("Preview error");
   }

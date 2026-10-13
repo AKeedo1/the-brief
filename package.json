@@ -9,7 +9,7 @@
     "dev": "node scripts/preview.mjs 8790",
     "build": "node scripts/build-static.mjs",
     "start": "node scripts/preview.mjs 8790",
-    "test": "npm run build && node --test tests/audio.test.mjs",
+    "test": "npm run build && node --test tests/audio.test.mjs tests/archive.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate"
   },
