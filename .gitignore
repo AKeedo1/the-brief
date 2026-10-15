@@ -41,3 +41,6 @@ yarn-error.log*
 /work/
 /.site-stage*/
 /daily-edition-site.tar.gz
+
+/.cache/daymark/
+__pycache__/

@@ -4,30 +4,32 @@ No browser speech fallback. Manifest is replaced only when all selected recordin
 exist and the measured briefing is between three and five minutes.
 """
 import argparse
-import hashlib
 import json
 from pathlib import Path
-import subprocess
-import urllib.request
+from audio_generation import AudioEngine, atomic_write, digest, generation_lock
 
 ROOT = Path(__file__).resolve().parents[1]
 VOICES = {'bf_emma': 'Emma · British', 'bm_george': 'George · British', 'am_michael': 'Michael · American'}
-
-def digest(value):
-    return hashlib.sha256(value.replace(b'\r\n', b'\n')).hexdigest()
-
-def duration(data):
-    result = subprocess.run(['docker', 'exec', '-i', 'kokoro', 'ffprobe', '-v', 'error', '-i', 'pipe:0', '-show_entries', 'packet=duration_time', '-of', 'csv=p=0'], input=data, capture_output=True, check=True)
-    seconds = sum(float(line.strip().strip(',')) for line in result.stdout.decode().splitlines() if line.strip())
-    if seconds <= 0:
-        raise ValueError('No playable audio duration')
-    return round(seconds, 2)
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--samples-only', action='store_true')
     parser.add_argument('--voices', nargs='+', choices=list(VOICES), default=['am_michael'])
+    parser.add_argument('--budget-seconds', type=int, default=600)
     args = parser.parse_args()
+    if args.budget_seconds <= 0:
+        parser.error('--budget-seconds must be positive')
+    with generation_lock(ROOT / '.cache/daymark/audio.lock'):
+        engine = AudioEngine(ROOT / '.cache/daymark/audio', budget=args.budget_seconds)
+        try:
+            generate(args, engine)
+        except Exception as error:
+            engine.report(ROOT / '.cache/daymark/audio-timing.json', 'failed', str(error))
+            raise
+        engine.report(ROOT / '.cache/daymark/audio-timing.json', 'passed')
+
+
+def generate(args, engine):
     edition_bytes = (ROOT / 'content/edition.json').read_bytes()
     script_bytes = (ROOT / 'content/audio-script.json').read_bytes()
     edition, script = json.loads(edition_bytes), json.loads(script_bytes)
@@ -40,20 +42,21 @@ def main():
     audio_root = ROOT / 'public/edition/audio' / script['edition']
     audio_root.mkdir(parents=True, exist_ok=True)
     manifest = {'version': 1, 'edition': script['edition'], 'date': script['date'], 'editionHash': digest(edition_bytes), 'scriptHash': digest(script_bytes), 'defaultVoice': script['defaultVoice'] if script['defaultVoice'] in args.voices else args.voices[0], 'voices': [], 'tracks': {key: {**value, 'recordings': {}} for key, value in tracks.items()}}
+    previous_durations = {}
+    for name in ['audio-manifest.json', 'audio-samples.json']:
+        try:
+            previous = json.loads((ROOT / 'content' / name).read_text(encoding='utf-8'))
+            recordings = [v['sample'] for v in previous.get('voices', [])]
+            recordings += [r for t in previous.get('tracks', {}).values() for r in t.get('recordings', {}).values()]
+            previous_durations.update({r['src']: r['duration'] for r in recordings})
+        except (FileNotFoundError, json.JSONDecodeError, KeyError, TypeError):
+            pass
 
     def generate(voice, key, text):
         audio_hash = digest((voice + '\n1.0\n' + text).encode())[:12]
         file = audio_root / f'{voice}-{key}-{audio_hash}.mp3'
-        if not file.exists():
-            payload = json.dumps({'model':'kokoro', 'voice':voice, 'input':text, 'response_format':'mp3', 'speed':1.0, 'stream':False}).encode()
-            request = urllib.request.Request('http://127.0.0.1:8880/v1/audio/speech', data=payload, headers={'Content-Type':'application/json'})
-            print(f'Generating {voice}: {key}', flush=True)
-            with urllib.request.urlopen(request, timeout=900) as response:
-                data = response.read()
-            seconds = duration(data)
-            file.write_bytes(data)
-        else:
-            seconds = duration(file.read_bytes())
+        print(f'Preparing {voice}: {key}', flush=True)
+        seconds = engine.generate(file, voice, text, previous_durations.get(file.relative_to(ROOT / 'public/edition').as_posix()))
         print(f'  {key}: {seconds:.1f}s', flush=True)
         return {'src': file.relative_to(ROOT / 'public/edition').as_posix(), 'duration': seconds}
 
@@ -67,9 +70,7 @@ def main():
                     raise ValueError(f'Briefing duration {recording["duration"]}s is outside 3–5 minutes; revise the spoken script')
                 manifest['tracks'][key]['recordings'][voice] = recording
     target = ROOT / 'content' / ('audio-samples.json' if args.samples_only else 'audio-manifest.json')
-    temporary = target.with_suffix('.tmp')
-    temporary.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    temporary.replace(target)
+    atomic_write(target, (json.dumps(manifest, ensure_ascii=False, indent=2) + '\n').encode())
     print(f'Saved {target.name}', flush=True)
 
 if __name__ == '__main__':

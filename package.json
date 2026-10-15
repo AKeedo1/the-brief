@@ -10,6 +10,10 @@
     "build": "node scripts/build-static.mjs",
     "start": "node scripts/preview.mjs 8790",
     "test": "npm run build && node --test tests/audio.test.mjs tests/archive.test.mjs",
+    "verify:edition": "node scripts/verify-release.mjs",
+    "verify:live": "node scripts/verify-release.mjs --live",
+    "test:release": "node --test tests/release.test.mjs",
+    "test:generation": "python -m unittest discover -s tests -p test_audio_generation.py",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate"
   },

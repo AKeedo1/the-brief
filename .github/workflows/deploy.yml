@@ -30,7 +30,8 @@ jobs:
         run: |
           node scripts/render-edition.mjs
           node scripts/build-static.mjs
-          node --test tests/audio.test.mjs tests/archive.test.mjs
+          node --test tests/audio.test.mjs tests/archive.test.mjs tests/release.test.mjs
+          python3 -m unittest discover -s tests -p 'test_audio_generation.py'
           sed -i 's|{{SITE_ORIGIN}}|https://akeedo1.github.io/the-brief|g' dist/site/index.html
       - name: Configure Pages
         uses: actions/configure-pages@v5
