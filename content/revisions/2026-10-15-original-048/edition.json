@@ -1,0 +1,531 @@
+{
+  "date": {
+    "display": "Thursday, 15 October 2026",
+    "edition": "048",
+    "updated": "8:00 AM"
+  },
+  "worldSentence": "Markets are discovering the same lesson as shipping lanes, factories, battlefields and airlines: a system can look efficient until the price, network or route it depends on changes suddenly.",
+  "standfirst": "Asian technology shares fell hard after hotter U.S. inflation revived the cost-of-capital question beneath the AI boom. A container ship sank near Hormuz after an unknown projectile caused a fire, Qatar expanded factory freight support to QR400 million, Starlink restrictions slowed Ukrainian drones, Qatar Airways opened a Japanese financing channel for seven aircraft, Anthropic disclosed a reported $16.8 billion quarter ahead of its IPO, and Netflix cut nearly 1,000 jobs despite growing profits.",
+  "listenTime": "42 min",
+  "coverage": [
+    {
+      "count": 3,
+      "label": "Qatar & Gulf"
+    },
+    {
+      "count": 2,
+      "label": "World & security"
+    },
+    {
+      "count": 3,
+      "label": "Economy & markets"
+    },
+    {
+      "count": 2,
+      "label": "AI & technology"
+    },
+    {
+      "count": 2,
+      "label": "Aviation & consumer"
+    }
+  ],
+  "connected": {
+    "title": "The common thread is dependency made visible: on cheap capital, safe sea lanes, subsidised logistics, a private satellite network and specialised financing markets.",
+    "signals": [
+      {
+        "label": "KOSPI",
+        "value": "−8%",
+        "text": "South Korea's technology-heavy market suffered the steepest headline fall after U.S. inflation surprised higher."
+      },
+      {
+        "label": "HORMUZ LOSS",
+        "value": "1 SHIP SUNK",
+        "text": "GFS Pride caught fire and sank; its 21 crew members were evacuated safely."
+      },
+      {
+        "label": "QDB SUPPORT",
+        "value": "QR400M",
+        "text": "The expanded fund can reimburse up to 80% of eligible incremental shipping costs for raw materials."
+      },
+      {
+        "label": "ANTHROPIC Q3",
+        "value": "$16.8BN",
+        "text": "Investor-day attendees reported 45% quarter-on-quarter revenue growth, ahead of a possible IPO."
+      }
+    ],
+    "note": "These events are not one causal chain. They share a diagnostic: concentrated dependencies stay cheap and invisible in normal conditions, then reprice together when inflation, conflict, policy or ownership changes. Resilience comes from alternatives and clear rules, not from assuming yesterday's connection will remain available tomorrow."
+  },
+  "stories": [
+    {
+      "id": "asia-tech-rout-inflation-funding",
+      "number": "01",
+      "category": "Markets, inflation & AI capital",
+      "sourceNote": "AP · Thursday morning",
+      "title": "Asian technology shares fell sharply after hotter U.S. inflation revived rate-hike risk and exposed how dependent the AI boom is on cheap capital.",
+      "changed": "South Korea's Kospi fell 8% and Japan's Nikkei 225 dropped 5% in Thursday trading, while Taiwan's Taiex lost 3.4%. Samsung Electronics fell 9.7%, SK Hynix 11.1% and SoftBank 9.6%, according to AP market reporting. The move followed a 1.9% fall in the Nasdaq after U.S. consumer prices rose 3.7% from a year earlier, strengthening expectations that interest rates may stay higher or rise again.",
+      "matters": "This is more than one volatile session. AI infrastructure has been financed on the assumption that demand will grow quickly enough to outrun enormous chip, data-centre and power costs. Higher bond yields raise the discount rate applied to distant profits and the cost of funding expansion. The steepest losses landed in the companies most exposed to memory, equipment and AI investment, showing where investors see the most stretched expectations.",
+      "watch": "TSMC's earnings and capital-spending guidance; whether the Kospi's fall triggers market safeguards or forced selling; U.S. Treasury yields; the next Federal Reserve communication; credit spreads for data-centre financing; and whether the sell-off broadens beyond AI-linked companies. One session does not establish a durable repricing, but the combination of inflation and concentrated positioning deserves attention.",
+      "lead": true,
+      "group": {
+        "label": "The lead",
+        "title": "The cost of money has returned to the centre of the AI trade.",
+        "note": "The index and company moves are observed market data. The link to future funding conditions is an inference from higher yields and the concentration of losses, not proof that AI demand has weakened.",
+        "break": false
+      },
+      "background": {
+        "title": "Long-duration expectations meet a short-term inflation shock",
+        "text": "High-growth technology companies are valued partly on profits expected years ahead. When government-bond yields rise, those future cash flows are worth less in today's terms, and companies borrowing to build compute face a higher hurdle rate. The effect is amplified when investors hold similar positions and the same small group of suppliers sits beneath many AI strategies.",
+        "known": "U.S. inflation accelerated to 3.7%, yields rose, and the largest Asian declines were concentrated in technology and semiconductor names.",
+        "new": "The sell-off reached unusually large index-level moves in South Korea and Japan, turning an American inflation release into a test of Asia's AI-heavy markets."
+      },
+      "evidence": {
+        "left": {
+          "label": "Observed move",
+          "text": "Kospi −8%; Nikkei 225 −5%; Samsung −9.7%; SK Hynix −11.1%; SoftBank −9.6% in Thursday trading."
+        },
+        "right": {
+          "label": "Not yet established",
+          "text": "There is no evidence from one session that end-demand for AI compute has broken or that a lasting bear market has begun."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · Asian technology sell-off deepens",
+          "url": "https://apnews.com/article/e889ad7dee2b7dd959f1b8bc87366914"
+        },
+        {
+          "label": "AP · U.S. stocks fall as inflation worsens",
+          "url": "https://apnews.com/article/704d3190f0fba2908df07c85f26346ec"
+        }
+      ]
+    },
+    {
+      "id": "gfs-pride-sinks-hormuz-projectile",
+      "number": "02",
+      "category": "Hormuz, shipping & Gulf supply chains",
+      "sourceNote": "Singapore MPA / Reuters / AP · Wednesday",
+      "title": "The Singapore-flagged GFS Pride sank after an unknown projectile caused a fire near Hormuz; all 21 crew were evacuated safely.",
+      "changed": "Singapore's Maritime and Port Authority said the 2,824-TEU container ship GFS Pride was struck while transiting the strait on Tuesday, caught fire and later sank. All 21 crew were evacuated and no injuries were reported. Reuters cited maritime sources and a navigational warning confirming the loss, while Iran's Revolutionary Guard separately claimed that a ship had hit a naval mine. It is not yet clear whether those accounts describe the same incident.",
+      "matters": "The previous edition documented a faster and wider attack pattern. A confirmed sinking turns that threat into a realised hull loss, floating-container hazard and salvage problem. The vessel was small by global-container standards, so the direct capacity loss is limited. The larger consequence is behavioural: crews, insurers and shipowners must decide whether even escorted transit compensates for projectile, mine and rescue risk.",
+      "watch": "Whether investigators identify the weapon; hydrographic warnings and the wreck's position; a second damaged vessel reported near the strait; changes in convoy or escort procedures; war-risk pricing; Qatar-linked LNG and container departures; and whether shipowners divert or pause sailings. Iranian attribution should remain separate from the confirmed facts until independent evidence emerges.",
+      "lead": false,
+      "group": {
+        "label": "Gulf security",
+        "title": "The attack campaign has produced a confirmed sinking, not only near misses and damaged hulls.",
+        "note": "The sinking and safe evacuation are confirmed by Singapore's maritime authority. Whether the ship was hit by a projectile, a mine or more than one mechanism remains unresolved.",
+        "break": true
+      },
+      "background": {
+        "title": "A small ship can produce a large risk signal",
+        "text": "Shipping markets respond to the probability and severity of loss, not only to tonnes removed from service. A wreck can require route warnings and salvage, while an unexplained attack changes underwriting assumptions for every ship with similar exposure. The cost can therefore spread through premiums, crew terms and scheduling even if physical traffic continues.",
+        "known": "GFS Pride caught fire and sank; all 21 crew were evacuated without reported injury.",
+        "new": "This is the clearest confirmed vessel loss in the latest ten-day surge around Hormuz."
+      },
+      "evidence": {
+        "left": {
+          "label": "Confirmed",
+          "text": "Singapore's MPA confirmed the vessel sank after damage and fire during a Hormuz transit."
+        },
+        "right": {
+          "label": "Contested mechanism",
+          "text": "Maritime sources reported an unknown projectile; Iran said a vessel struck a mine; the relationship between the accounts is unclear."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · Iran says a ship sank; Singapore reports two vessels hit",
+          "url": "https://apnews.com/article/7e2c57a29fd5c3afc7ffe0cf63954bf3"
+        },
+        {
+          "label": "Reuters via gCaptain · GFS Pride sinks near Hormuz",
+          "url": "https://gcaptain.com/container-ship-sinks-near-hormuz-after-being-hit-by-projectile-sources-say/"
+        }
+      ]
+    },
+    {
+      "id": "qdb-logistics-support-fund-expands",
+      "number": "03",
+      "category": "Qatar manufacturing & supply-chain resilience",
+      "sourceNote": "QDB / QNA · Wednesday",
+      "title": "Qatar Development Bank expanded its Logistics Support Fund to QR400 million and will reimburse eligible factories for up to 80% of the increase in raw-material shipping costs.",
+      "changed": "QDB raised the fund to QR400 million and broadened support for Qatar-based manufacturers across sectors. The non-repayable grant covers up to 80% of the increase in shipping costs for essential raw materials compared with normal levels before the recent regional disruption. QDB said 154 factories have applied and 436 applications have been approved; air, sea and land routes are eligible through a digital application process.",
+      "matters": "This converts Qatar's resilience policy into a specific operating subsidy for factories facing war-driven freight costs. It may prevent temporary logistics shocks from stopping production or being passed immediately into prices. The design also reveals the intended trade-off: public money absorbs part of an exceptional import-cost spike now, while the fund is meant to return gradually to its original export-support purpose when logistics normalise.",
+      "watch": "Actual disbursements; the average grant per factory; eligibility and audit controls; whether support reaches smaller manufacturers; raw-material lead times; domestic price effects; and the trigger for shifting the fund back toward exports. Application counts are not the same as factories funded, and QDB has not published the distribution by industry or company size.",
+      "lead": false,
+      "group": {
+        "label": "Qatar",
+        "title": "A broad resilience message has become a measurable factory-level intervention.",
+        "note": "The size, reimbursement ceiling and application counts come from QDB. The eventual fiscal cost and production saved cannot yet be measured.",
+        "break": true
+      },
+      "background": {
+        "title": "A targeted bridge instead of a general price control",
+        "text": "Manufacturers can survive a short freight shock if they can keep critical inputs moving. Reimbursing only the increase above a pre-crisis baseline preserves some price signal while sharing the exceptional cost. Because the grant is non-repayable, governance depends on clear baselines, invoices and proof that supported imports are genuinely essential to production.",
+        "known": "The fund is QR400 million, covers multiple transport modes and can reimburse up to 80% of incremental eligible shipping costs.",
+        "new": "QDB disclosed participation and approval counts and formalised a digital route for repeated support."
+      },
+      "evidence": {
+        "left": {
+          "label": "Policy in force",
+          "text": "QDB says 154 factories have applied and 436 applications have been approved across air, sea and land routes."
+        },
+        "right": {
+          "label": "Impact unknown",
+          "text": "No public data yet show disbursement, jobs protected, output maintained or the programme's industry mix."
+        }
+      },
+      "sources": [
+        {
+          "label": "QNA · QDB expands Logistics Support Fund",
+          "url": "https://qna.org.qa/en/news/news-details?id=qdb-expands-support-for-manufacturers-through-non-repayable-grants-under-logistics-support-fund&date=14/10/2026"
+        },
+        {
+          "label": "Qatar Development Bank · Newsroom",
+          "url": "https://www.qdb.qa/en/Pages/NewsRoom.aspx"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-starlink-battlefield-restrictions",
+      "number": "04",
+      "category": "Ukraine, commercial infrastructure & war",
+      "sourceNote": "AP · Wednesday",
+      "title": "Sudden Starlink restrictions slowed Ukrainian drones, exposing how a commercial network can become a battlefield control point.",
+      "changed": "Ukrainian officials told AP that new restrictions on battlefield use of Starlink terminals reduced the speed of some drones. Starlink supports long-range missions, interceptor air defence and front-line logistics. The change arrived as Kyiv endured further Russian missile attacks and Ukraine again said it lacked the usual advance warning. SpaceX and the White House did not immediately explain the restriction; a Ukrainian lawmaker said broader intelligence sharing had not stopped.",
+      "matters": "A privately operated network is embedded deeply enough in Ukraine's defence that an unexplained technical or policy change can alter operational performance immediately. That creates a governance problem beyond this war: militaries may depend on commercial systems whose owners retain service controls, while providers face legal, security and escalation pressures that are not visible to frontline users.",
+      "watch": "A SpaceX explanation; the geographic and technical scope of restrictions; whether Ukraine restores drone performance through other links; allied procurement of redundant communications; Russian exploitation; and whether governments define clearer contractual rules for military service continuity. Ukrainian claims about motive are inference, not proof that the change was political.",
+      "lead": false,
+      "group": {
+        "label": "World beyond the Gulf",
+        "title": "Software controls on civilian infrastructure are now part of battlefield readiness.",
+        "note": "Officials confirm reduced drone performance. The reason, decision-maker and intended duration of the restrictions remain undisclosed.",
+        "break": true
+      },
+      "background": {
+        "title": "Dependency is not ownership",
+        "text": "Commercial satellite networks can be faster to deploy and more resilient than bespoke military systems, but customers do not control every policy, geofence or software update. Redundancy is therefore not only another terminal; it is an alternative network, documented service rules and a command structure that can operate when the commercial layer changes.",
+        "known": "Ukrainian officials say some drones slowed after restrictions, and Starlink remains important to several military functions.",
+        "new": "The operational effect became visible at the same time as concern over weakening warning and political support."
+      },
+      "evidence": {
+        "left": {
+          "label": "Observed effect",
+          "text": "Officials reported slower drones following new terminal restrictions."
+        },
+        "right": {
+          "label": "Cause unproven",
+          "text": "No public evidence establishes who ordered the change, why it occurred or whether it was connected to U.S. policy."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · Ukrainian drones slow after Starlink restrictions",
+          "url": "https://apnews.com/article/9fe44ec1bb361f19d46dfafb58da46f6"
+        },
+        {
+          "label": "AP · Russia-Ukraine coverage hub",
+          "url": "https://apnews.com/hub/russia-ukraine"
+        }
+      ]
+    },
+    {
+      "id": "qatar-airways-jolco-japan-financing",
+      "number": "05",
+      "category": "Qatar Airways, fleet finance & aviation",
+      "sourceNote": "Qatar Airways / QNA · Wednesday afternoon",
+      "title": "Qatar Airways entered Japan's JOLCO market for the first time, financing three Boeing 787-9s in the opening part of a seven-aircraft programme.",
+      "changed": "Qatar Airways signed its first Japanese Operating Lease with Call Option transaction, covering three 787-9 Dreamliners. HSBC acted as debt arranger and sole lender, while JP Lease Products & Services underwrote and arranged the Japanese equity. The airline says this is the first of three planned transactions supporting seven aircraft in total and that it intends to maintain a presence in the Japanese financing market.",
+      "matters": "Aircraft financing is a quiet constraint on airline growth. A JOLCO combines debt with Japanese investor equity and gives the airline a purchase option, potentially widening the capital pool and lowering the cost of funding long-lived assets. The strategic value is diversification: fleet plans become less dependent on a narrow set of banks, lessors or capital markets during a period of regional disruption and expensive global money.",
+      "watch": "Financial terms and lease duration, which were not disclosed; completion of the remaining four-aircraft transactions; delivery timing; whether the structure is used for future orders; Japanese investor appetite after the current market sell-off; and how much funding diversification changes the airline's weighted cost of capital.",
+      "lead": false,
+      "group": {
+        "label": "Aviation",
+        "title": "Fleet growth has gained a new pool of long-term capital.",
+        "note": "The structure and aircraft count are confirmed by the airline. Claims about attractive terms are management's description because pricing was not published.",
+        "break": true
+      },
+      "background": {
+        "title": "Why airlines cultivate financing markets before they need them",
+        "text": "Widebody aircraft require large, long-duration commitments. A JOLCO typically places equity with Japanese investors, adds lender debt and preserves an airline option to acquire the aircraft later. Repeating the structure can build a financing channel that remains available when another market tightens, but the benefit can only be judged fully when pricing and residual-value assumptions are known.",
+        "known": "The first transaction covers three 787-9s; three transactions are planned for seven aircraft; HSBC and JLPS are the named partners.",
+        "new": "This is Qatar Airways' first entry into the Japanese JOLCO market and is presented as a continuing programme rather than a one-off deal."
+      },
+      "evidence": {
+        "left": {
+          "label": "Confirmed structure",
+          "text": "Japanese equity arranged by JLPS, debt arranged and provided by HSBC, with a call option for Qatar Airways."
+        },
+        "right": {
+          "label": "Commercial gap",
+          "text": "Interest rate, lease rentals, equity return, call price and delivery schedule were not disclosed."
+        }
+      },
+      "sources": [
+        {
+          "label": "Qatar Airways · Inaugural Japanese financing agreement",
+          "url": "https://www.qatarairways.com/press-releases/en-WW/273330-qatar-airways-group-signs-inaugural-japanese-financing-agreement-with-partners-hsbc-and-jp-lease/"
+        },
+        {
+          "label": "QNA · JOLCO transaction covers three 787-9s",
+          "url": "https://qna.org.qa/en/news/news-details?id=qatar-airways-group-signs-inaugural-japanese-financing-agreement-with-partners-hsbc-and-jp-lease&date=14/10/2026"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-q3-revenue-preipo-test",
+      "number": "06",
+      "category": "AI economics & public markets",
+      "sourceNote": "Reuters · Wednesday evening",
+      "title": "Anthropic told prospective investors that third-quarter revenue reached $16.8 billion, up 45% quarter on quarter, ahead of a possible post-election IPO.",
+      "changed": "People attending Anthropic's San Francisco investor day told Reuters that revenue rose from $4.7 billion in the first quarter to $11.6 billion in the second and $16.8 billion in the third. They said the company described itself as profitable on an adjusted basis in the latest quarter. Anthropic is targeting a valuation above $2 trillion and may delay its market debut until after the U.S. midterm elections. The company did not answer Reuters' request for comment.",
+      "matters": "The figures make the coming IPO a referendum on AI economics, not merely enthusiasm. Revenue is scaling extraordinarily fast, but the market must weigh it against infrastructure commitments, customer concentration and earlier operating losses. An adjusted profit claim does not reveal cash flow or the capital still required. If listed, Anthropic would force public investors to price a frontier lab with both software-like growth and utility-scale capital needs.",
+      "watch": "A filed prospectus; definitions of revenue and adjusted profit; cash flow; compute and power commitments; customer concentration; pricing durability; the final valuation range; and whether today's technology sell-off changes timing. Until audited filings appear, the numbers remain disclosures relayed by attendees rather than public-company financial statements.",
+      "lead": false,
+      "group": {
+        "label": "Technology",
+        "title": "Frontier AI is moving from private narratives toward public-market accounting.",
+        "note": "Reuters corroborated the figures with attendees, but Anthropic did not comment and the detailed accounting basis is not public.",
+        "break": true
+      },
+      "background": {
+        "title": "Growth rate and economic quality are different questions",
+        "text": "Revenue can expand rapidly while cash consumption remains high if every additional customer requires scarce compute, advance capacity reservations or subsidised pricing. Investors will need gross margin, cash-flow and contract data to judge whether scale improves economics. The IPO matters because audited disclosure would replace fragments from private meetings with comparable statements.",
+        "known": "Attendees reported $16.8 billion of third-quarter revenue and an adjusted profit claim.",
+        "new": "The investor day supplied the first quarter-by-quarter 2026 revenue sequence immediately before a planned listing."
+      },
+      "evidence": {
+        "left": {
+          "label": "Reported trajectory",
+          "text": "$4.7bn in Q1, $11.6bn in Q2 and $16.8bn in Q3, according to people at the investor meeting."
+        },
+        "right": {
+          "label": "Disclosure limits",
+          "text": "No audited filing yet establishes recognition policy, cash flow, gross margin or reconciliation of adjusted profit."
+        }
+      },
+      "sources": [
+        {
+          "label": "Reuters via StreetInsider · Anthropic Q3 revenue rises 45%",
+          "url": "https://www.streetinsider.com/Reuters/Anthropics%2BQ3%2Brevenue%2Bsurges%2B45%25%2Bto%2Bnearly%2B%2417%2Bbillion%C2%A0/27188096.html"
+        },
+        {
+          "label": "Axios · Why private AI financial reports require caution",
+          "url": "https://www.axios.com/2026/10/13/openai-anthropic-revenue-finances"
+        }
+      ]
+    },
+    {
+      "id": "netflix-six-percent-workforce-cuts",
+      "number": "07",
+      "category": "Consumer media & capital allocation",
+      "sourceNote": "AP · Wednesday",
+      "title": "Netflix will cut about 6% of its workforce—nearly 1,000 jobs—even as revenue and profit grow.",
+      "changed": "Co-chief executives Greg Peters and Ted Sarandos told employees that product, technology, legal and human-resources teams would be most affected by the company's largest job cuts in years. Netflix had about 16,000 full-time employees at the end of 2025. The cuts arrive after second-quarter revenue rose 13% to $12.56 billion and profit rose 9% to $3.4 billion, although its third-quarter forecast fell short of Wall Street expectations.",
+      "matters": "This is not a distressed-company layoff. It is an example of profitable digital businesses resetting their cost base while funding new priorities and facing stronger competitors. Streaming has consolidated again after the Paramount-Warner transaction, and Netflix is choosing organisational discipline before reporting its next quarter. For workers, growth no longer guarantees headcount stability; for investors, the question is whether cuts protect margins or weaken product development.",
+      "watch": "Third-quarter results next week; severance and restructuring charges; which products lose staff; hiring in advertising, games or AI; subscriber and engagement trends; and whether other streaming groups follow. Management says the business is strong but has not detailed the specific investments being prioritised or the geographic distribution of cuts.",
+      "lead": false,
+      "group": {
+        "label": "Consumer & media",
+        "title": "Profit growth is no longer insulating technology workforces from reallocation.",
+        "note": "The headcount, affected functions and latest financials are reported. The long-term effect on products and creative output is unknown.",
+        "break": true
+      },
+      "background": {
+        "title": "A mature platform starts behaving like a portfolio",
+        "text": "When subscriber scale is already large, management can no longer justify every team through aggregate growth. Capital shifts toward the few products expected to improve retention, advertising yield or engagement. That can lift margins, but it also creates execution risk if cuts remove capabilities that supported the core service.",
+        "known": "Nearly 1,000 positions, roughly 6% of the workforce, are planned to be cut across several corporate functions.",
+        "new": "The action is Netflix's largest in years and comes despite double-digit revenue growth rather than a collapse in demand."
+      },
+      "evidence": {
+        "left": {
+          "label": "Current strength",
+          "text": "Second-quarter revenue rose 13% to $12.56bn and profit rose 9% to $3.4bn."
+        },
+        "right": {
+          "label": "Strategic uncertainty",
+          "text": "Netflix has not said which products will lose capacity or quantified savings and reinvestment."
+        }
+      },
+      "sources": [
+        {
+          "label": "AP · Netflix to cut nearly 1,000 jobs",
+          "url": "https://apnews.com/article/2290c8472a155adb9c4b85fdc885bc7e"
+        },
+        {
+          "label": "Netflix · Investor relations",
+          "url": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Qatar finance",
+      "title": "Qatar and China extended their local-currency swap for a third time.",
+      "text": "The agreement was first signed in 2014 and is intended to support trade and direct investment. Its size and utilisation were not disclosed.",
+      "url": "https://qna.org.qa/en/news/news-details?id=qatar-central-bank-peoples-bank-of-china-sign-agreement-to-extend-local-currency-swap&date=14/10/2026"
+    },
+    {
+      "label": "Qatar cloud",
+      "title": "Meeza and Microsoft launched a sovereign private cloud based on Azure Local.",
+      "text": "The offer targets enterprises that need local control and compliance. Customer adoption, pricing and independent security assessment remain to be seen.",
+      "url": "https://www.qna.org.qa/en/economy/"
+    },
+    {
+      "label": "Restaurants",
+      "title": "Wagamama ended its walk-in-only model and introduced bookings across its UK restaurants.",
+      "text": "The 34-year operating rule changed in response to customer demand—an example of a strong brand trading ritual for lower friction.",
+      "url": "https://www.thembsgroup.co.uk/mbs-intelligence/"
+    },
+    {
+      "label": "Luxury hospitality",
+      "title": "Raffles opened at Saudi Arabia's Red Sea destination.",
+      "text": "The opening adds another globally recognised luxury operator to the kingdom's destination-build strategy; operating performance will matter more than the launch announcement.",
+      "url": "https://cpp-luxury.com/"
+    }
+  ],
+  "attention": {
+    "title": "Read the Qatar Development Bank logistics-support announcement.",
+    "text": "It is the most concrete local policy item today: the fund's size, reimbursement ceiling, transport coverage and application counts show exactly how Qatar is cushioning factories from the regional freight shock.",
+    "url": "https://qna.org.qa/en/news/news-details?id=qdb-expands-support-for-manufacturers-through-non-repayable-grants-under-logistics-support-fund&date=14/10/2026"
+  },
+  "ignore": {
+    "title": "Ignore attempts to turn one market session into the end of the AI boom.",
+    "text": "The sell-off is consequential because it exposes rate and concentration risk. It does not yet establish that AI demand, semiconductor orders or the investment cycle has reversed."
+  },
+  "history": {
+    "id": "history-india-green-revolution-system",
+    "number": "LV",
+    "readTime": "7 min",
+    "era": "India · 1940s–1970s",
+    "title": "India's Green Revolution was not a miracle seed. It was a machine built around the seed.",
+    "deck": "Semi-dwarf wheat and rice changed what a field could produce, but only irrigation, fertiliser, credit, procurement and political urgency turned genetics into national food security—and created costs that still shape Indian agriculture.",
+    "thesis": "The useful historical lesson is that breakthrough technology becomes transformative only when institutions supply the complementary system. The same system can then lock in new dependencies long after the emergency has passed.",
+    "sections": [
+      {
+        "title": "Hunger was a problem of sovereignty",
+        "text": "Independent India inherited the memory of the Bengal famine and a food system unable to keep pace reliably with population. By the mid-1960s, poor harvests and drought made the country heavily dependent on imported grain. Food aid could prevent immediate disaster, but it also left national policy exposed to foreign decisions. The political objective was therefore larger than raising farm yields: India wanted the capacity to feed itself without living from shipment to shipment."
+      },
+      {
+        "title": "The biological trick was shorter straw",
+        "text": "Traditional wheat and rice plants often grew tall when heavily fertilised. More nutrients could produce more grain, but also top-heavy plants that bent or lodged before harvest. Breeders in Mexico developed disease-resistant semi-dwarf wheat that channelled more energy into grain and could tolerate fertiliser. At the International Rice Research Institute in the Philippines, scientists crossed varieties to produce IR8, released in 1966: short, responsive to nitrogen and capable of much higher yields under controlled water."
+      },
+      {
+        "title": "A seed is only potential",
+        "text": "High-yielding varieties were not self-contained inventions. They performed best with reliable irrigation, fertiliser, pesticides, timely planting and competent extension. Farmers also needed credit to buy inputs and confidence that a bumper harvest would find a buyer. The Green Revolution was therefore a package: genetics changed the production frontier, while canals, tube wells, electricity, banks, research stations and agricultural advice made that frontier reachable."
+      },
+      {
+        "title": "Crisis compressed the decision",
+        "text": "Foreign and Indian scientists had debated new varieties before the emergency peaked, but the food crisis of 1965 and 1966 accelerated adoption. India imported Mexican wheat seed on an exceptional scale and concentrated early efforts in places with irrigation and administrative capacity, especially Punjab, Haryana and western Uttar Pradesh. M. S. Swaminathan and Indian research institutions adapted and tested the material; Norman Borlaug's programme supplied important wheat lines; Indian policy converted them into a national strategy."
+      },
+      {
+        "title": "Prices completed the technology",
+        "text": "The government created institutions that reduced the risk of producing more. The Agricultural Prices Commission recommended support prices; the Food Corporation of India bought, moved and stored grain. Procurement meant a farmer could invest in seed and fertiliser with a clearer floor under the selling price. Public distribution connected the surplus to consumers. Without these market institutions, higher biological yield might have produced local gluts, price collapses and slower adoption."
+      },
+      {
+        "title": "The result was real",
+        "text": "Wheat and rice output rose sharply, and India moved from chronic import dependence toward national food self-sufficiency. FAO analysis records stronger agricultural growth after the Green Revolution began, while international research links agricultural growth to poverty reduction. The achievement should not be diluted into a morality tale about later costs: millions gained from more reliable food availability, rural demand and a state capable of buffering harvest shocks."
+      },
+      {
+        "title": "The geography was uneven",
+        "text": "The package worked first where water, roads, procurement and larger marketable surpluses already existed. Regions without those complements gained less. Farmers able to finance pumps and inputs could adopt faster than those with little land or credit. The Green Revolution was not uniformly unequal everywhere—village evidence can show falling poverty and stable inequality—but its benefits were undeniably concentrated by infrastructure and institutional reach."
+      },
+      {
+        "title": "Success wrote a recurring bill",
+        "text": "Subsidised electricity encouraged pumping; support prices favoured particular grains; repeated rice-wheat cycles reduced diversity; fertiliser imbalances damaged soils and runoff; groundwater tables fell. The World Bank later described India as the world's largest groundwater user and connected cheap pumping both to the agricultural transformation and to aquifer depletion. These were not proof that higher yields were a mistake. They were evidence that emergency incentives had become permanent operating rules."
+      },
+      {
+        "title": "The invention was the bundle",
+        "text": "The Green Revolution is often narrated through heroic breeders or criticised through its environmental legacy. Both views miss the operating mechanism. Semi-dwarf genes mattered enormously, but their impact came from coordination across science, water, energy, finance, prices, storage and distribution. The system solved the scarcity it was designed for, then produced a new challenge: how to retain food security while changing the incentives that overuse water, fertiliser and a narrow crop mix. Transformative technology rarely arrives alone; it arrives inside institutions that determine who can use it, how fast it spreads and what costs persist."
+      }
+    ],
+    "timeline": [
+      {
+        "date": "1943",
+        "text": "The Bengal famine leaves an enduring political memory of mass hunger and fragile food administration."
+      },
+      {
+        "date": "1960",
+        "text": "The International Rice Research Institute is established in the Philippines."
+      },
+      {
+        "date": "1963–64",
+        "text": "Semi-dwarf Mexican wheat lines are tested and promoted in India."
+      },
+      {
+        "date": "1965",
+        "text": "India creates the Agricultural Prices Commission and Food Corporation of India as food pressure intensifies."
+      },
+      {
+        "date": "1965–66",
+        "text": "Back-to-back drought and import dependence turn agricultural reform into an emergency."
+      },
+      {
+        "date": "1966",
+        "text": "IRRI releases IR8, the semi-dwarf rice variety that helps launch Asia's rice transformation."
+      },
+      {
+        "date": "1970",
+        "text": "Norman Borlaug receives the Nobel Peace Prize, symbolising the international Green Revolution."
+      }
+    ],
+    "sources": [
+      {
+        "label": "IRRI · The breeding history of IR8",
+        "url": "https://ricetoday.irri.org/changing-the-world-with-seeds-the-breeding-history-of-ir8/"
+      },
+      {
+        "label": "FAO · India's agricultural growth before and after the Green Revolution",
+        "url": "https://www.fao.org/4/y4632e/y4632e0f.htm"
+      },
+      {
+        "label": "Nobel Prize · Norman Borlaug's 1970 lecture",
+        "url": "https://www.nobelprize.org/prizes/peace/1970/borlaug/lecture/"
+      },
+      {
+        "label": "World Bank · Historical account of the Green Revolution package",
+        "url": "https://documents1.worldbank.org/curated/en/547941468762296226/pdf/multi-page.pdf"
+      },
+      {
+        "label": "World Bank · Groundwater depletion and the legacy of subsidised pumping",
+        "url": "https://ieg.worldbankgroup.org/blog/addressing-groundwater-depletion-lessons-india-worlds-largest-user-groundwater"
+      },
+      {
+        "label": "IFPRI · Agricultural growth and poverty reduction in India",
+        "url": "https://southasia.ifpri.info/2015/11/02/highlights-of-recent-ifpri-food-policy-research-in-india/"
+      }
+    ]
+  },
+  "threads": [
+    {
+      "status": "Escalating",
+      "title": "Hormuz shipping risk",
+      "text": "The story has progressed from a higher attack tempo to a confirmed sinking. Attribution, traffic behaviour and insurance response remain the key unknowns.",
+      "progress": 78
+    },
+    {
+      "status": "Active",
+      "title": "Qatar's fiscal and industrial buffers",
+      "text": "The Amir quantified the revenue shock; QDB has now detailed a QR400 million factory-support mechanism.",
+      "progress": 67
+    },
+    {
+      "status": "Repricing",
+      "title": "AI capital cycle",
+      "text": "Anthropic's reported growth is enormous, but hotter inflation is raising the funding hurdle around the entire AI supply chain.",
+      "progress": 63
+    },
+    {
+      "status": "Fragile",
+      "title": "Ukraine's external dependencies",
+      "text": "Energy strikes continue while warning gaps and commercial-network restrictions expose operational reliance on partners.",
+      "progress": 72
+    },
+    {
+      "status": "Building",
+      "title": "Qatar Airways fleet finance",
+      "text": "The airline has opened a Japanese JOLCO channel covering seven aircraft; commercial terms and repeat use will show its significance.",
+      "progress": 44
+    }
+  ]
+}
