@@ -1,199 +1,208 @@
 {
-  "date": { "display": "Friday, 16 October 2026", "edition": "049", "updated": "7:08 AM" },
-  "worldSentence": "The Gulf's security risk widened from shipping and airports to holy-city airspace and Yemen's seat of government, while technology's legal and financing constraints became harder to dismiss.",
-  "standfirst": "A deliberately shorter morning edition: Houthi attacks and interceptions widened across the Arabian Peninsula; eight U.S. states challenged OpenAI under consumer-protection law; Wall Street's broader market recovered even as the AI trade stayed fragile; Ukraine abandoned a short-lived energy-target truce; and the GCC–EU summit was postponed. Curiosity Corner asks how much language the anaesthetised brain can still process. The Long View returns to Ether Day, when a public demonstration turned pain-free surgery from scattered experiment into a system that could spread.",
-  "listenTime": "23 min",
+  "date": { "display": "Saturday, 17 October 2026", "edition": "050", "updated": "7:00 AM" },
+  "worldSentence": "Washington eased pressure on Moscow just as Beijing moved to control the export of its own strategic technologies, showing how economic leverage is becoming both weapon and bargaining chip.",
+  "standfirst": "A compact Saturday edition: President Trump suspended a Russia-sanctions package two days before implementation; China proposed controls covering 40 technologies; Qatar committed to fund and deliver an initial Lebanese power project; Wall Street ended its worst week since June under pressure from AI financing concerns; and Beirut airport's expired certification complicates direct U.S. flights. Curiosity Corner looks at amateurs using AI to unlock historical ciphers. The Long View follows Samuel Slater, the memorised machinery designs that crossed the Atlantic, and why Britain could not keep industrial knowledge inside its borders.",
+  "listenTime": "22 min",
   "coverage": [
     { "count": 2, "label": "Qatar & Gulf" },
-    { "count": 3, "label": "World & security" },
+    { "count": 2, "label": "World & security" },
     { "count": 2, "label": "Economy & markets" },
-    { "count": 2, "label": "AI & technology" },
-    { "count": 2, "label": "Aviation & consumer" }
+    { "count": 3, "label": "AI & technology" },
+    { "count": 3, "label": "Aviation & consumer" }
   ],
   "connected": {
-    "title": "Today's useful thread is institutional capacity: weapons, capital and algorithms all create risk faster than rules and defences can adapt.",
+    "title": "Today's useful thread is control over strategic systems: sanctions, technical know-how, infrastructure and certification all matter only when institutions can enforce them.",
     "signals": [
-      { "label": "GULF SECURITY", "value": "3 fronts", "text": "Medina airspace, Aden's government district and Saudi aviation and energy sites are now part of the same widening escalation." },
-      { "label": "AI LAW", "value": "8+ states", "text": "State consumer-protection suits are becoming a parallel AI-governance channel outside Congress." },
-      { "label": "U.S. CLOSE", "value": "+0.3% S&P", "text": "The broad index recovered while the Nasdaq managed only a 0.1% gain, preserving the split inside the market." },
-      { "label": "MORTGAGES", "value": "7.4%", "text": "The average U.S. 30-year rate held at its highest level in almost three years." }
+      { "label": "RUSSIA POLICY", "value": "2 days", "text": "The U.S. sanctions package was paused just before its statutory implementation deadline." },
+      { "label": "CHINA TECH", "value": "40 fields", "text": "Beijing's draft catalog reaches AI, chip design, solar manufacturing and biomedicine." },
+      { "label": "U.S. CLOSE", "value": "-2.1% Nasdaq", "text": "Technology shares drove the market's worst week since late June." },
+      { "label": "LEBANON POWER", "value": "Qatar-funded", "text": "An initial solar project is intended to be implemented without cost to the Lebanese state." }
     ],
-    "note": "These developments are not one story. They share a practical constraint: a system is only resilient when its institutions can absorb shocks, assign responsibility and keep operating after the first failure."
+    "note": "These are separate stories, not one coordinated shift. The shared lesson is narrower: nominal power is not the same as operational power. A sanction, an export rule, an infrastructure promise or a safety certificate matters only when the surrounding system can implement it."
   },
   "stories": [
     {
-      "id": "houthi-escalation-medina-aden",
+      "id": "trump-pauses-russia-sanctions",
       "number": "01",
-      "category": "Gulf security, aviation & energy",
-      "sourceNote": "AP / QNA · late Thursday",
-      "title": "The Houthi escalation widened again: a missile was intercepted near Medina and an attack struck Yemen's government district in Aden.",
-      "changed": "The Saudi-led coalition said it intercepted a Houthi cruise missile in the Medina region, while explosions near the presidential palace used by Yemen's internationally recognised government in Aden killed at least two people. A senior Saudi diplomat separately accused Iran of encouraging the campaign against Saudi airports and energy facilities.",
-      "matters": "The pattern now spans civil aviation, oil infrastructure, maritime routes, a holy city and the seat of Yemen's government. Even successful interceptions impose disruption, defensive cost and a larger chance of miscalculation across the Gulf.",
-      "watch": "Independent evidence on targeting and casualties, further airport restrictions, France's reported defensive deployment, any U.S. military decision and whether Iran or the Houthis alter their public positions. Saudi attribution to Iran remains a government claim, not independently established fact.",
+      "category": "Russia, Ukraine & economic statecraft",
+      "sourceNote": "AP · late Friday",
+      "title": "Trump put a sweeping Russia-sanctions package on hold two days before it was due to take effect.",
+      "changed": "President Donald Trump signed an executive order suspending legislation he had signed last month, saying the pause was in the national interest. The package targeted Russian officials, banks and shadow-fleet tankers and directed tariffs of up to 100% on major importers of Russian oil or gas, subject to exceptions.",
+      "matters": "The pause removes an imminent source of pressure on Russian energy revenue and raises a broader credibility question: whether congressional sanctions commitments will survive executive bargaining over fuel prices and the war.",
+      "watch": "The administration's detailed legal rationale, any conditions attached to lifting the pause, congressional challenges, European coordination and whether Russian energy purchases or negotiations change. The order is confirmed; its duration and strategic bargain are not public.",
       "lead": true,
-      "group": { "label": "The lead", "title": "The map of risk is expanding faster than the conflict's political exit.", "note": "The attacks and interceptions are reported by officials; responsibility for operational direction remains contested.", "break": false },
+      "group": { "label": "The lead", "title": "A tool designed to constrain Moscow has become leverage inside Washington's own policy.", "note": "The suspension is official; claims about motive beyond the stated national-interest rationale remain political interpretation.", "break": false },
       "background": {
-        "title": "Why an interception can still be an escalation",
-        "text": "Air defences can prevent a direct hit while leaving airlines, pilgrims, residents and energy operators exposed to repeated alerts and closures. The campaign's significance lies less in any one projectile than in its geographic spread and the political pressure created when civilian and economically critical sites remain within reach.",
-        "known": "Saudi and Yemeni officials reported the Medina interception and the Aden palace-area attack; the Houthis have claimed responsibility for several recent strikes on Saudi targets.",
-        "new": "The latest incidents extended the campaign to Medina's region and Yemen's main government compound as Saudi officials publicly sharpened their accusation against Iran."
+        "title": "Why the timing carries more weight than another sanctions announcement",
+        "text": "Sanctions work partly through expectation. Banks, traders and shipowners adjust before enforcement when they believe penalties are certain. Suspending a package two days before implementation changes that expectation and gives counterparties reason to price future reversals into U.S. policy. The immediate effect is therefore not only which entities escape designation, but how credible the next deadline appears.",
+        "known": "The law covered Russian officials, banks, energy-shipping networks and potential tariffs on leading buyers of Russian oil and gas; Trump signed an order pausing it before implementation.",
+        "new": "The same president who signed the package has invoked national interest to stop it, after also announcing a U.S. purchase of Russian diesel intended to lower energy prices."
       },
       "evidence": {
-        "left": { "label": "Confirmed by officials", "text": "A cruise missile was intercepted in the Medina region and an attack hit near Aden's presidential palace, killing at least two people." },
-        "right": { "label": "Still disputed", "text": "Public evidence does not establish the degree of Iranian operational control or the likelihood of direct U.S. entry into the campaign." }
+        "left": { "label": "Confirmed", "text": "The executive order pauses the package and arrived two days before the legal implementation deadline." },
+        "right": { "label": "Still unknown", "text": "The administration has not published a timetable, a negotiated Russian concession or a clear test for ending the suspension." }
       },
       "sources": [
-        { "label": "AP · attack near Yemen's presidential palace", "url": "https://apnews.com/article/ed4dcdad5cfd4b08033b1af5cf81dca5" },
-        { "label": "AP · Saudi diplomat accuses Iran of encouraging escalation", "url": "https://apnews.com/article/bb1950959d1118d790556584d2b51f75" },
-        { "label": "AP · missile interception near Medina and regional developments", "url": "https://apnews.com/article/ffa2a29fe8f91f400b0b75067d269ad3" }
+        { "label": "AP · Trump pauses the Russia sanctions package", "url": "https://apnews.com/article/russia-sanctions-trump-ukraine-e50c561ab805883bb4e484c092d8fadd" }
       ]
     },
     {
-      "id": "openai-state-consumer-lawsuits",
+      "id": "qatar-lebanon-power-reconstruction",
       "number": "02",
-      "category": "AI products, safety & law",
-      "sourceNote": "AP · Thursday",
-      "title": "At least eight U.S. states sued OpenAI, turning consumer-protection law into a new front in AI governance.",
-      "changed": "State attorneys general accused OpenAI of harming children, deceiving adults and releasing systems without adequate safeguards. The complaints also allege that some models enabled cyber abuse. These are legal allegations; courts have not tested them and OpenAI's liability has not been established.",
-      "matters": "The cases could shape product warnings, age protections, model-release practices and evidence disclosure before federal lawmakers agree on a comprehensive AI regime. For the industry, compliance may fragment state by state.",
-      "watch": "OpenAI's formal responses, requests for injunctions, whether the cases are consolidated, discovery about internal safety decisions and the boundary courts draw between a general-purpose tool and a consumer product making actionable representations.",
+      "category": "Qatar, Lebanon & infrastructure",
+      "sourceNote": "AP / QNA · Friday",
+      "title": "Qatar committed to fund and implement an initial Lebanese power project while backing future reconstruction in the south.",
+      "changed": "During the Qatari prime minister's Beirut visit, QatarEnergy and TotalEnergies reached an agreement to develop a solar plant as the first power-sector project. Lebanon's prime minister said Qatar would fund, implement and activate it without cost to the Lebanese state; Qatar also pledged continued support for the army and future southern reconstruction.",
+      "matters": "Lebanon's electricity system is a central fiscal and service failure, so a delivered project would be more consequential than another aid pledge. It also places Qatar inside the practical reconstruction architecture rather than only the diplomatic conversation.",
+      "watch": "Cabinet approval, project location and capacity, procurement and delivery milestones, the allocation of operating responsibility, and whether reconstruction support is tied to a durable security arrangement. The agreement is announced; its scale, timetable and final contracts are not yet public.",
       "lead": false,
-      "group": { "label": "Technology & business", "title": "AI governance is moving through state courtrooms as well as regulators.", "note": "The filings are confirmed; every claim about harm, deception and responsibility remains to be proved.", "break": true },
+      "group": { "label": "Qatar & Gulf", "title": "Doha is moving from mediation into physical-system repair.", "note": "The commitment is official; execution details will determine whether it changes Lebanon's power supply.", "break": true },
       "background": {
-        "title": "Why state consumer law matters",
-        "text": "State attorneys general do not need to wait for a new federal AI statute to act. Existing rules against deceptive or unfair business practices can reach marketing claims, safety disclosures and the design of products used by minors. That route is slower and messier than one national standard, but it can force document disclosure and concrete remedies.",
-        "known": "At least eight states filed cases under consumer-protection theories and described risks to children and other users.",
-        "new": "The coordinated litigation moves the dispute from voluntary safeguards and policy debate into adversarial proceedings with discovery and judicial review."
+        "title": "The hard part is not installing panels; it is building an operating system around them",
+        "text": "Lebanon's state utility has accumulated roughly $40 billion in losses over decades and often supplies only a few hours of power a day. New generation can help, but durable value also depends on grid connection, collections, maintenance, governance and protection from political capture. Qatar's promise to fund and implement the initial project reduces one financing barrier without resolving the whole system.",
+        "known": "QatarEnergy and TotalEnergies agreed to develop a solar project, and the Lebanese government says Qatar will bear the initial project's cost.",
+        "new": "The Beirut visit paired the power commitment with support for the Lebanese army and coordination on future reconstruction in the south."
       },
       "evidence": {
-        "left": { "label": "Confirmed", "text": "Multiple state attorneys general filed lawsuits identifying alleged product, marketing and safety failures." },
-        "right": { "label": "Not established", "text": "The allegations have not been adjudicated, and the eventual remedies or effect on product releases remain unknown." }
+        "left": { "label": "Confirmed", "text": "Qatari and Lebanese leaders announced the initial solar project and Qatar's financing and implementation role." },
+        "right": { "label": "Not yet specified", "text": "Capacity, cost, site, construction schedule, ownership and long-term operating model remain undisclosed." }
       },
       "sources": [
-        { "label": "AP · states sue OpenAI under consumer-protection laws", "url": "https://apnews.com/article/f29fa6c206cfe41d46ba38ee7be78218" }
+        { "label": "AP · Qatar pledges power and reconstruction support", "url": "https://apnews.com/article/lebanon-qatar-israel-south-electricity-totalenergies-qatarenergy-da8c3798c9b31240752bf35a9912dc0d" },
+        { "label": "QNA · Qatar affirms continued support for Lebanon", "url": "https://www.qna.org.qa/en/qatar" }
       ]
     },
     {
-      "id": "wall-street-ai-split-close",
+      "id": "china-strategic-tech-export-controls",
       "number": "03",
-      "category": "Markets & capital",
-      "sourceNote": "AP · Thursday close",
-      "title": "Wall Street's broad recovery held, but the closing numbers preserved a clear split between ordinary earnings and AI-sensitive assets.",
-      "changed": "The S&P 500 rose 0.3% and the Dow gained 1.1%, while the Nasdaq added only 0.1% after technology-heavy Asian markets had fallen sharply. Strong corporate earnings helped the broad market absorb the inflation and interest-rate shock.",
-      "matters": "The close argues against treating the previous sell-off as a market-wide break. The narrower signal is that expensive capital is testing richly valued and debt-intensive AI exposure first.",
-      "watch": "Treasury yields, data-centre credit spreads, semiconductor guidance and whether the divergence persists beyond one earnings session.",
+      "category": "AI, chips & industrial policy",
+      "sourceNote": "AP · Friday",
+      "title": "China proposed export controls covering 40 technologies, including advanced AI models, chip design and solar manufacturing.",
+      "changed": "A draft catalog from China's commerce and science ministries would prohibit or restrict exports across 23 AI technologies, several chip-design fields, 12 solar technologies and five biomedicine technologies. Proposed AI controls include models trained on sensitive national data and certain systems with at least two trillion parameters.",
+      "matters": "The proposal turns technology controls into a two-way instrument. China is no longer only responding to restricted access to Western chips and equipment; it is defining which parts of its own know-how foreign firms may receive.",
+      "watch": "The consultation outcome, licensing criteria, which companies and technical transfers are captured, implementation dates and whether trading partners retaliate. This is a draft, not a final prohibition, and the government did not name individual models.",
       "lead": false,
-      "group": { "label": "Economy & markets", "title": "The market recovered broadly without resolving the AI financing question.", "note": "The closing moves are facts; a lasting rotation away from AI is still an inference.", "break": true },
+      "group": { "label": "Technology & business", "title": "The contest is shifting from who can buy hardware to who may export knowledge.", "note": "The draft is published; its final scope, enforcement and commercial effect remain uncertain.", "break": true },
+      "background": {
+        "title": "Why controlling know-how is different from controlling a shipment",
+        "text": "A chip or machine crosses a border once. Model weights, manufacturing processes and design methods can be transferred through licensing, joint ventures, staff or technical documentation and then reproduced. That makes the rule harder to police but potentially more durable: it targets the capability to build, not just the finished product. It also increases the compliance burden for multinational research and product teams.",
+        "known": "The draft lists 40 fields and cites national security, misuse prevention and human control of AI as reasons for the restrictions.",
+        "new": "China has put advanced models and agents beside chip, solar and biomedical processes in a single strategic technology-control framework."
+      },
+      "evidence": {
+        "left": { "label": "Published proposal", "text": "Twenty-three AI fields plus chip, solar and biomedical technologies appear in the draft catalog." },
+        "right": { "label": "Open questions", "text": "Licensing standards, final thresholds, named products, timing and retaliation are not settled." }
+      },
       "sources": [
-        { "label": "AP · Wall Street muscles higher despite AI swings", "url": "https://apnews.com/article/e889ad7dee2b7dd959f1b8bc87366914" },
-        { "label": "AP · how the major U.S. indexes finished", "url": "https://apnews.com/article/f0a4f8aa60a6a24237c419aba38f31fd" }
+        { "label": "AP · China proposes new strategic technology export controls", "url": "https://apnews.com/article/china-export-restrictions-ai-chips-solar-us-5ac381c0c6d6628bbea2e0da7d855a5b" }
       ]
     },
     {
-      "id": "ukraine-energy-truce-ends",
+      "id": "wall-street-tech-worst-week-june",
       "number": "04",
-      "category": "Ukraine, energy & diplomacy",
-      "sourceNote": "AP · Thursday",
-      "title": "Ukraine struck a Russian oil refinery and declared the brief energy-target truce over, saying Moscow had not observed it.",
-      "changed": "Ukraine said it attacked a refinery after concluding that Russia had continued striking its energy system. President Volodymyr Zelenskyy also said he felt betrayed by U.S. President Donald Trump's posture toward the war.",
-      "matters": "The collapse of even a narrow restraint restores direct risk to fuel production and electricity infrastructure ahead of winter, while exposing the lack of an enforcement mechanism behind limited battlefield agreements.",
-      "watch": "Verified refinery damage, Russian retaliation, effects on fuel exports and whether mediators can define monitoring and consequences for any replacement arrangement.",
+      "category": "Markets & AI financing",
+      "sourceNote": "AP · Friday close",
+      "title": "Technology shares pulled Wall Street into its worst week since June as investors questioned debt-funded AI spending.",
+      "changed": "The S&P 500 fell 1.1% on Friday and about 2% for the week, erasing the previous week's gain. The Nasdaq lost 2.1% on Friday, while the Dow declined 0.3%; major chipmakers fell sharply and only seven of the S&P 500 technology sector's 75 stocks advanced.",
+      "matters": "The broader index is still near recent records, but the week sharpened the market's test of the AI capital cycle: whether companies can keep financing infrastructure at acceptable returns while bond yields remain high.",
+      "watch": "Data-centre credit, free cash flow, semiconductor orders, Treasury yields and whether weakness spreads beyond technology. A difficult week is confirmed; a lasting break in the AI investment cycle is not.",
       "lead": false,
-      "group": { "label": "World beyond the lead", "title": "A narrow energy restraint failed because neither side trusted the other's compliance.", "note": "The Ukrainian strike and political statement are confirmed; competing claims about earlier violations remain difficult to verify.", "break": true },
+      "group": { "label": "Economy & markets", "title": "The AI trade is being asked to prove its financing, not only its demand.", "note": "Price moves are facts; the duration and economic meaning of the repricing remain uncertain.", "break": true },
       "sources": [
-        { "label": "AP · Ukraine abandons energy-target truce", "url": "https://apnews.com/article/0071b4f3792c9912b977b0ee73505b18" }
+        { "label": "AP · technology sell-off drives the worst week since June", "url": "https://apnews.com/article/stocks-markets-us-ai-oil-tech-warsh-d2655f64db7ec8ae450525d58f97b628" },
+        { "label": "AP · Friday's major U.S. index closes", "url": "https://apnews.com/article/c27809783ae3230b44c26e5ee4bea056" }
       ]
     },
     {
-      "id": "gcc-eu-summit-postponed",
+      "id": "beirut-airport-certification-roadblock",
       "number": "05",
-      "category": "Gulf diplomacy",
-      "sourceNote": "GCC / QNA · Thursday",
-      "title": "The GCC–EU summit scheduled for 24 October in Riyadh was postponed without a new date.",
-      "changed": "The GCC Secretariat said the meeting would be rescheduled to a mutually agreed date but gave no reason for the change.",
-      "matters": "The delay removes a near-term venue for Gulf and European coordination while regional security, energy and trade issues are unusually active; postponement alone does not establish diplomatic disagreement.",
-      "watch": "A replacement date, any explanation from either side and whether ministerial or parliamentary meetings carry parts of the agenda meanwhile.",
+      "category": "Aviation, safety & tourism",
+      "sourceNote": "Reuters · Friday",
+      "title": "Beirut airport's expired certification and emergency-response gaps are delaying hopes for direct U.S. flights.",
+      "changed": "An ICAO technical-assistance report summary seen by Reuters said Beirut's conditional airport certification had expired, its firefighting capability was insufficient for long-haul twin-aisle aircraft and it lacked an emergency plan. Lebanon says corrective work is under way and certification efforts begin Saturday.",
+      "matters": "Political permission to restore a route is not operational approval. Direct U.S. service still requires credible safety systems, FAA and security reviews, and an airline willing to accept regional risk.",
+      "watch": "Lebanese certification, the emergency plan, firefighting upgrades, FAA and TSA reviews, and any carrier commitment. The report findings are attributed to a summary reviewed by Reuters; ICAO did not comment on the specific country assessment.",
       "lead": false,
-      "group": { "label": "Qatar & Gulf", "title": "A planned Gulf–European summit slipped off the calendar at a consequential moment.", "note": "The postponement is official; the cause and diplomatic significance are not public.", "break": true },
+      "group": { "label": "Aviation & tourism", "title": "A route can be diplomatically reopened and still remain operationally closed.", "note": "The deficiencies are reported and Lebanon acknowledges corrective work; the timing of direct service remains unknown.", "break": true },
       "sources": [
-        { "label": "QNA · GCC–EU summit rescheduled", "url": "https://www.qna.org.qa/en/general" }
+        { "label": "Reuters · Beirut airport certification complicates direct U.S. flights", "url": "https://www.marketscreener.com/news/trump-move-to-restart-direct-us-flights-with-lebanon-hits-roadblock-ce785cdadc8fff25" }
       ]
     }
   ],
   "radar": [
     {
       "label": "Curiosity Corner",
-      "title": "An anaesthetised hippocampus can still sort words, detect grammar and anticipate meaning.",
-      "text": "In seven epilepsy-surgery patients, researchers recorded individual hippocampal neurons under propofol anaesthesia. Four heard spoken stories; their neural signals retained information about semantic categories and parts of speech, and even carried predictive information about upcoming words. This does not show conscious understanding or memory: it shows that sophisticated local processing can survive while large-scale conscious access is suppressed.",
-      "url": "https://www.nature.com/articles/s41586-026-10448-0"
+      "title": "AI is helping amateurs crack historical ciphers—and creating a new verification bottleneck.",
+      "text": "Nature reports that non-specialists have used a frontier model to solve an 85-year-old Enigma message and a 217-year-old Napoleonic military cipher by combining image transcription, web research and established decoding algorithms. The interesting capability is orchestration, not magic: the model assembled tools and clues that already existed. Cryptographers warn that plausible false solutions are also flooding their inboxes, so mechanically testable keys and expert validation remain essential.",
+      "url": "https://www.nature.com/articles/d41586-026-03338-y"
     },
     {
-      "label": "Restaurant-to-retail",
-      "title": "A Philippine restaurant chain is using halal, shelf-stable meals to enter Qatar and the wider GCC through retail rather than dining rooms.",
-      "text": "Cabalen's packaged-meal move is one operator's example, not proof of a market-wide shift. The useful mechanism is format expansion: recipes become branded products with longer reach, different unit economics and new quality-control demands.",
-      "url": "https://www.gulf-times.com/article/735598/business/philippine-fb-sector-targets-qatar-gcc-retail-markets-with-ready-to-eat-halal-exports"
+      "label": "Restaurant risk",
+      "title": "A Los Angeles bar group used a prediction-market position to hedge the revenue risk of the Dodgers missing the World Series.",
+      "text": "According to Kalshi, the operator of 25 bars placed $60,000 on the team not advancing and received nearly twice the stake when it did not. One trade is not a mature risk market, but the mechanism is worth noticing: small operators can now hedge event-driven footfall that ordinary insurance and financial products rarely cover.",
+      "url": "https://www.investing.com/news/stock-market-news/la-restaurant-group-used-60000-dodgers-bet-to-hedge-playoff-risk-kalshi-says-4954890"
     },
     {
-      "label": "Hospitality Qatar",
-      "title": "The 2026 exhibition closed with 120 exhibitors—90 local and 30 international—across hospitality, F&B, equipment and technology.",
-      "text": "The count is a market-development signal, not demand data. The next useful evidence is deals signed, procurement won and whether showcased technology moves into operating venues.",
-      "url": "https://www.gulf-times.com/article/735658/qatar/hospitality-qatar-2026-is-spicing-up-tourism-sector-says-qt-official"
+      "label": "Luxury signal",
+      "title": "Chinese carmakers are pitching technology—not heritage—as the basis of premium positioning in Europe.",
+      "text": "At the Paris motor show, brands including Avatr and Denza emphasised advanced driver assistance, rapid charging and cabin technology under the label 'intelligent luxury.' The strategic question is whether feature density can substitute for accumulated trust, resale value and service networks in a category where meaning has traditionally compounded over decades.",
+      "url": "https://www.investing.com/news/stock-market-news/chinese-automakers-make-techled-pitch-for-europes-premium-car-market-4953374"
     },
     {
-      "label": "Household finance",
-      "title": "The average U.S. 30-year mortgage rate held at 7.4%, its highest level in almost three years.",
-      "text": "The seven-week climb stopped, but affordability remains constrained. It is a clean reminder that sticky inflation reaches households through the financing rate, not only the price tag.",
-      "url": "https://apnews.com/article/ae938216d9d45a4e2c829845b40d83f5"
+      "label": "Qatar hospitality",
+      "title": "Qatar's food-production companies are using hospitality procurement to move local farming, processing and packaging further into the supply chain.",
+      "text": "The signal from Hospitality Qatar is not exhibition attendance but integration: hydroponic production, specialised processing and commercial distribution are being presented as one local supplier system. The evidence to watch is recurring hotel and restaurant contracts, volumes and price competitiveness—not showcase claims.",
+      "url": "https://www.gulf-times.com/morearticles/business?pgno=2"
     }
   ],
   "attention": {
-    "title": "Read the AP account of the Houthi campaign's widening geography.",
-    "text": "It is the clearest single guide to why the risk is now operational, not rhetorical: repeated threats to airports, oil facilities, shipping and government sites are forcing defensive decisions across the Gulf even when interceptions succeed.",
-    "url": "https://apnews.com/article/bb1950959d1118d790556584d2b51f75"
+    "title": "Read the AP account of China's proposed technology export controls.",
+    "text": "It is the clearest single source for a change with long reach: AI models, agents, chip design, solar manufacturing and biomedicine are being pulled into one framework for controlling the movement of capability across borders.",
+    "url": "https://apnews.com/article/china-export-restrictions-ai-chips-solar-us-5ac381c0c6d6628bbea2e0da7d855a5b"
   },
   "ignore": {
-    "title": "Ignore declarations that Thursday's market rebound settled the AI bubble argument.",
-    "text": "A broad index recovery and resilient chip demand can coexist with financing risk. The useful evidence will come from credit, margins and actual returns on infrastructure—not one closing bell."
+    "title": "Ignore claims that one bad technology week proves the AI boom is over.",
+    "text": "The repricing is meaningful because financing costs are testing capital-intensive models. It is not yet a verdict. Credit terms, cash generation, orders and utilisation will decide more than a five-day chart."
   },
   "history": {
-    "id": "ether-day-anesthesia-system",
-    "number": "049",
+    "id": "slater-textile-knowledge-crosses-atlantic",
+    "number": "050",
     "readTime": "6 min",
-    "era": "1842–1930s · United States, Britain and global medicine",
-    "title": "Ether Day did not discover painless surgery. It made the idea public, credible and portable.",
-    "deck": "On 16 October 1846, a packed operating theatre saw pain separated from the surgeon's knife—and medicine acquired a new profession, new risks and a different frontier of possibility.",
-    "thesis": "Modern anaesthesia emerged from more than a chemical. Ether was already known, and earlier practitioners had used it. The breakthrough was a convincing public demonstration before a trusted medical audience, followed by rapid publication, replication and the slow construction of specialist practice around keeping an unconscious patient alive.",
+    "era": "1774–1830s · Britain and the United States",
+    "title": "Britain tried to lock up the Industrial Revolution. Samuel Slater carried it out in his head.",
+    "deck": "The first enduring American cotton-spinning mill began with no exported machine and no stolen blueprint—only an apprentice who understood an entire production system well enough to rebuild it.",
+    "thesis": "Early industrial power rested on tacit knowledge: the practical understanding of how machines, water, labour and maintenance worked together. Britain tried to protect that advantage by restricting machinery exports and skilled emigration, but knowledge embodied in people was difficult to contain. Samuel Slater's journey shows both the power and the limits of technology controls—and how copying a machine can also reproduce a labour system.",
     "sections": [
-      { "title": "Before anaesthesia, speed was mercy", "text": "Surgery before the 1840s was constrained by conscious pain. Skilled surgeons prized speed because every extra second meant more suffering, movement and shock. Alcohol, opium, compression and other methods could dull pain, but none made prolonged, controlled unconsciousness reliable enough to transform the operating room. The absence of anaesthesia limited not just compassion but the kinds of operations surgeons could attempt." },
-      { "title": "The chemical was not the secret", "text": "Diethyl ether had been made and inhaled long before 1846, sometimes as entertainment. In 1842, Georgia physician Crawford Long used ether while removing neck cysts, then repeated the method but did not publish until 1849. Dentist Horace Wells tried to demonstrate nitrous oxide at Massachusetts General Hospital in 1845; the patient cried out and the audience dismissed the attempt. Knowledge existed, but it had not yet won institutional trust." },
-      { "title": "A theatre became a proof machine", "text": "On 16 October 1846, dentist William T. G. Morton brought an ether inhaler into Massachusetts General Hospital's surgical amphitheatre. Surgeon John Collins Warren removed a tumour from Edward Gilbert Abbott's neck while Abbott remained insensible to the operation. The audience mattered as much as the device: respected witnesses could judge the result, repeat it and carry the claim beyond a private room." },
-      { "title": "Publication turned spectacle into practice", "text": "Harvard surgeon Henry Jacob Bigelow reported the result in the Boston Medical and Surgical Journal within weeks. News crossed the Atlantic quickly, and British surgeons began using ether before the end of 1846. The episode shows a recurring pattern in innovation: an invention becomes consequential when evidence, distribution and professional networks let strangers reproduce it." },
-      { "title": "Success exposed a harder problem", "text": "Making a patient unconscious was only the beginning. Ether and chloroform could depress breathing, cause vomiting, ignite near flame or deliver an unpredictable dose. As surgery grew longer and more ambitious, someone had to manage the airway, circulation and depth of anaesthesia continuously. That need gradually separated anaesthesia from the surgeon's side task into its own skilled discipline." },
-      { "title": "Pain-free surgery changed surgery itself", "text": "Anaesthesia did not by itself solve infection; operations could be painless and still deadly before antisepsis. But once pain and movement were controlled, surgeons could work more deliberately and enter body cavities that speed alone had made nearly impossible. Anaesthesia and antisepsis then reinforced each other, expanding the feasible frontier of surgery." },
-      { "title": "The lasting invention was a safety system", "text": "By the twentieth century, machines delivered measured gases, endotracheal tubes protected airways, monitoring made hidden deterioration visible and trained anaesthetists managed the whole physiological state. Ether Day is remembered because it changed what the public believed possible. Its deeper legacy is that a dramatic demonstration eventually became a quiet, repeatable system whose success is measured by how little the patient notices." }
+      { "title": "The strategic technology of the 1780s made thread", "text": "Cotton spinning was one of Britain's most valuable technological advantages. Machines associated with Richard Arkwright's system used water power to card fibre, draw it into strands and spin consistent yarn at a scale household production could not match. The advantage did not sit in one patent or device. It lived in a factory system: machine proportions, power transmission, material flow, skilled adjustment and disciplined labour had to work together." },
+      { "title": "Parliament tried to stop the capability from travelling", "text": "Britain restricted the export of textile tools and machinery and barred skilled mechanics from taking their know-how abroad. The policy made economic sense from London's perspective. A machine shipped overseas could seed a competing industry. Yet the controls treated knowledge as if it were cargo—something customs officers could find in a crate—when much of the useful information was stored in trained hands and memory." },
+      { "title": "Slater learned the system from inside", "text": "Born in Derbyshire in 1768, Samuel Slater entered an apprenticeship at a mill run by Jedediah Strutt, an Arkwright partner. He progressed from apprentice toward oversight and learned how the machinery behaved in practice. When he left Britain at 21 in 1789, he could not legally carry plans or equipment. He reportedly disguised himself as a farm worker and travelled without blueprints, relying on what he had memorised." },
+      { "title": "American capital had ambition but incomplete knowledge", "text": "Moses Brown and his partners in Rhode Island wanted mechanised spinning, but their earlier equipment did not work. Slater did not arrive with a finished factory. He arrived with enough systems knowledge to diagnose failures, specify parts and work with local craftspeople. In December 1790, their Pawtucket operation became the first permanent American water-powered cotton-spinning mill." },
+      { "title": "The transfer multiplied through people", "text": "The first mill employed nine children between seven and twelve. Workers and millwrights trained inside the operation, then carried routines and practical knowledge to other sites. By 1800 the Pawtucket mill employed more than 100 people; a decade later, the United States had 61 cotton mills operating more than 31,000 spindles. The decisive asset was not a single copied frame but a growing community able to build, run and repair factories." },
+      { "title": "Industrial diffusion carried social choices too", "text": "Slater's Rhode Island system organised production around whole families and became particularly associated with child labour. That matters because technology transfer is never only about higher output. A production system embeds decisions about authority, wages, time and who bears risk. The machinery crossed the Atlantic together with a model of factory discipline that shaped communities as well as markets." },
+      { "title": "Controls bought time; they did not preserve a monopoly", "text": "By the 1830s, American manufacturing had moved far beyond Slater's first mill toward integrated factories and domestic machine-making. Britain's restrictions had delayed transfer and raised its cost, but they could not erase foreign demand, financial incentives or human mobility. The durable lesson is not that export controls are useless. It is that their effectiveness depends on whether the scarce capability resides in hardware, documentation, supply chains or people—and on how quickly a rival can assemble the surrounding system." }
     ],
     "timeline": [
-      { "date": "30 Mar 1842", "text": "Crawford Long uses ether during removal of neck cysts in Georgia, but does not publish the result for seven years." },
-      { "date": "Jan 1845", "text": "Horace Wells's public nitrous-oxide demonstration in Boston is judged a failure after the patient cries out." },
-      { "date": "16 Oct 1846", "text": "Morton administers ether while Warren removes Edward Abbott's neck tumour at Massachusetts General Hospital." },
-      { "date": "Nov 1846", "text": "Henry Jacob Bigelow publishes a clinical account, helping physicians evaluate and reproduce ether anaesthesia." },
-      { "date": "Dec 1846", "text": "Reports reach Britain and Ireland; ether operations begin across the Atlantic." },
-      { "date": "1847", "text": "Chloroform enters surgical and obstetric practice, bringing easier administration and serious toxicity." },
-      { "date": "1930s", "text": "Dedicated departments, specialist training and increasingly integrated machines help establish modern anaesthesiology." }
+      { "date": "1774", "text": "Britain strengthens restrictions on exporting tools used in cotton and linen manufacture." },
+      { "date": "1783", "text": "Samuel Slater begins his apprenticeship in Jedediah Strutt's textile operation in Derbyshire." },
+      { "date": "1789", "text": "Slater leaves Britain for the United States without machinery or plans, carrying the Arkwright system in memory." },
+      { "date": "Dec 1790", "text": "The Pawtucket mill begins permanent water-powered cotton spinning under Slater's technical direction." },
+      { "date": "1800", "text": "The mill employs more than 100 workers as the Rhode Island system spreads." },
+      { "date": "1810", "text": "Sixty-one U.S. cotton mills operate more than 31,000 spindles." },
+      { "date": "1830s", "text": "Integrated factories, specialist machine tools and domestic engineering deepen American industrial capacity beyond the original transfer." }
     ],
     "sources": [
-      { "label": "Mass General Brigham · institutional history of the 1846 demonstration", "url": "https://www.massgeneralbrigham.org/en/about/history" },
-      { "label": "Wood Library–Museum · history of anaesthesia", "url": "https://www.woodlibrarymuseum.org/history-of-anesthesia/" },
-      { "label": "Wood Library–Museum · Morton's 1846 notice to surgeons", "url": "https://www.woodlibrarymuseum.org/rare-book/morton-wtg-to-surgeons-and-physicians-1846/" },
-      { "label": "PubMed Central · Ether Day and its contested history", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4920664/" },
-      { "label": "PubMed Central · development of the anaesthetic machine", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9373687/" }
+      { "label": "National Park Service · early American manufacturing", "url": "https://www.nps.gov/lowe/learn/photosmultimedia/early_american.htm" },
+      { "label": "National Park Service · Samuel Slater and the Rhode Island system", "url": "https://home.nps.gov/blrv/learn/historyculture/samuel-slater.htm" },
+      { "label": "Smithsonian · Samuel Slater biography and industrial espionage", "url": "https://www.americanhistory.si.edu/explore/exhibitions/american-enterprise/online/merchant-era/biographies-1770s-1850s" },
+      { "label": "Smithsonian · Slater's apprenticeship indenture", "url": "https://americanhistory.si.edu/collections/object/nmah_642455" },
+      { "label": "Library of Congress · the Industrial Revolution in the United States", "url": "https://www.loc.gov/classroom-materials/industrial-revolution-in-the-united-states/" }
     ]
   },
   "threads": [
-    { "status": "Escalating", "title": "Gulf air and maritime security", "text": "The threat surface now includes Medina-region airspace, Aden's government compound, Saudi airports, oil sites and Hormuz shipping.", "progress": 89 },
-    { "status": "Litigating", "title": "AI consumer protection", "text": "At least eight states are asking courts to test chatbot safety and marketing under existing law.", "progress": 44 },
-    { "status": "Repricing", "title": "AI capital cycle", "text": "Broad U.S. equities recovered, but the technology-heavy Nasdaq lagged and financing conditions remain restrictive.", "progress": 70 },
-    { "status": "Broken", "title": "Ukraine energy restraint", "text": "Ukraine says the narrow truce failed and has resumed strikes on Russian oil infrastructure.", "progress": 78 },
-    { "status": "Postponed", "title": "GCC–EU summit", "text": "The 24 October Riyadh meeting has no replacement date or public explanation.", "progress": 25 }
+    { "status": "Suspended", "title": "U.S. pressure on Russia", "text": "The new sanctions package is paused before implementation, with no public endpoint or concession attached.", "progress": 36 },
+    { "status": "Drafting", "title": "Technology export controls", "text": "China's proposed catalog puts advanced AI, chips, solar manufacturing and biomedicine inside one control regime.", "progress": 58 },
+    { "status": "Building", "title": "Qatar in Lebanon", "text": "The initial solar project turns diplomatic support into a test of delivery, governance and reconstruction capacity.", "progress": 42 },
+    { "status": "Repricing", "title": "AI capital cycle", "text": "The Nasdaq's 2.1% Friday fall ended the worst week since June as financing concerns moved to the centre.", "progress": 76 },
+    { "status": "Correcting", "title": "Beirut aviation readiness", "text": "Certification and emergency-response gaps must be resolved before direct U.S. service becomes operationally plausible.", "progress": 31 }
   ]
 }
