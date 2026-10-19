@@ -1,0 +1,230 @@
+{
+  "date": { "display": "Sunday, 18 October 2026", "edition": "051", "updated": "7:05 AM" },
+  "worldSentence": "Commercial shipping risk moved deeper into the Gulf while Saudi Arabia confronted a second, separate threat from the Houthis, turning maritime access and air defence into the region's immediate economic constraints.",
+  "standfirst": "A compact Sunday edition: two tankers were attacked northeast of Al Jubayl; the Houthis' expanding reach is testing Saudi air defence and aviation; Venezuela announced almost $76 billion of oil investment agreements; European diplomats were assaulted in the occupied West Bank; and Hong Kong's AI listing pipeline is still drawing both mainland and international capital. Curiosity Corner follows orangutan mothers who engineer rare playdates for their young. The Long View explains how a tyre company built the world's most influential restaurant rating by turning promotion into a trusted institution.",
+  "listenTime": "21 min",
+  "coverage": [
+    { "count": 3, "label": "Qatar & Gulf" },
+    { "count": 3, "label": "World & security" },
+    { "count": 2, "label": "Economy & markets" },
+    { "count": 2, "label": "AI & technology" },
+    { "count": 3, "label": "Aviation & consumer" }
+  ],
+  "connected": {
+    "title": "Today's useful thread is the cost of making a system credible: sea lanes need enforceable security, air defence needs affordable depth, investment pledges need operating capacity, and ratings need independence.",
+    "signals": [
+      { "label": "GULF SHIPPING", "value": "2 tankers", "text": "UKMTO logged two separate attacks northeast of Al Jubayl; all reported crew were safe." },
+      { "label": "SAUDI SECURITY", "value": "19 killed", "text": "Recent Houthi attacks on the kingdom have reached its main airport and Aramco headquarters." },
+      { "label": "VENEZUELA OIL", "value": "$76bn", "text": "Caracas says agreements cover five years, 17 fields and a plan for 250 rigs." },
+      { "label": "HONG KONG IPOs", "value": "+106%", "text": "Fundraising in the first nine months reached HK$388 billion, according to Citi figures reported by Reuters." }
+    ],
+    "note": "These developments do not form one coordinated story. The common test is implementation: reported attacks must change routing or protection to matter operationally; announced investment must become drilling and output; and market or rating authority survives only when participants trust the process behind it."
+  },
+  "stories": [
+    {
+      "id": "tankers-attacked-off-al-jubayl",
+      "number": "01",
+      "category": "Gulf shipping, energy & security",
+      "sourceNote": "UKMTO / AP · Saturday",
+      "title": "Two tankers were attacked northeast of Al Jubayl, pushing the Gulf's shipping threat beyond the Strait of Hormuz.",
+      "changed": "UK Maritime Trade Operations reported that one tanker was struck by an unknown projectile about 68 nautical miles northeast of Al Jubayl and its crew evacuated safely; a second tanker 10 nautical miles farther out was hit in its aft port quarter by a rocket-propelled grenade fired from a small boat, with its crew also safe.",
+      "matters": "Al Jubayl sits inside the Persian Gulf near major Saudi industrial and energy infrastructure. Attacks there widen the area in which owners, charterers and insurers must price physical risk, even before any interruption to cargo flows is confirmed.",
+      "watch": "Vessel identities, cargoes, damage surveys, environmental effects, attribution, insurance terms and whether ships alter routing or port calls. The two incidents and crew status are official reports; the attackers and full consequences remain unknown.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "The risk map is expanding inside the Gulf.", "note": "Do not merge separate claims: UKMTO has not attributed either Al Jubayl attack, while Iran separately said a supertanker struck a mine in the Strait of Hormuz.", "break": false },
+      "background": {
+        "title": "Why the location matters more than the weapons used",
+        "text": "A projectile and an RPG caused limited reported harm, but the incidents occurred well inside the Gulf rather than only at the Strait of Hormuz or Bab el-Mandeb. Shipping economics respond to the credible attack envelope, not just the damage from one strike. If owners believe small craft or projectiles can reach tankers approaching Saudi ports, war-risk premiums, crew requirements and schedules can change across a much larger operating area.",
+        "known": "UKMTO issued separate attack notices for two tankers northeast of Al Jubayl; both crews were reported safe, one was evacuated, and one vessel had visible aft-port-quarter damage.",
+        "new": "One report describes an RPG fired from a small boat, a close-range method distinct from the projectile and mine incidents more commonly reported around Hormuz."
+      },
+      "evidence": {
+        "left": { "label": "Confirmed", "text": "Two separate incidents, safe crews, evacuation from one tanker and reported damage to the other." },
+        "right": { "label": "Still unknown", "text": "Vessel names, cargoes, attackers, complete damage, environmental effect and any commercial response." }
+      },
+      "sources": [
+        { "label": "UKMTO · recent incident notices 174 and 175", "url": "https://www.ukmto.org/" },
+        { "label": "AP · two vessels attacked in the Persian Gulf", "url": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-17-2026-aaf6d7e5367f99869eaf4b419c66e0df" }
+      ]
+    },
+    {
+      "id": "houthi-reach-tests-saudi-defence",
+      "number": "02",
+      "category": "Saudi Arabia, Yemen & aviation",
+      "sourceNote": "AP analysis · Saturday",
+      "title": "The Houthis' expanding reach is forcing Saudi Arabia into an expensive defence of airports, oil infrastructure and a very large territory.",
+      "changed": "After repeated strikes on Riyadh's main international airport and an attack on Aramco's headquarters, AP assessed that the Houthis now field ballistic and cruise missiles, drones and anti-ship weapons capable of reaching every Gulf state; at least 19 people have been killed in the latest Saudi escalation.",
+      "matters": "Cheap offensive systems are consuming scarce high-end interceptors while threatening the kingdom's aviation, tourism and investment agenda. For regional airlines, the operational problem is no longer a single closure but the durability of safe corridors and diversion planning.",
+      "watch": "Saudi interception rates and stockpiles, Riyadh airport reliability, any Pakistani or Turkish support under their August defence pact, ground-force developments in Yemen and renewed negotiations. Houthi reach and recent damage are documented; a sustainable Saudi response is not yet clear.",
+      "lead": false,
+      "group": { "label": "Qatar & Gulf", "title": "The asymmetry is economic as well as military.", "note": "This Houthi campaign is separate from the unattributed tanker attacks off Al Jubayl, even though both raise regional transport risk.", "break": true },
+      "background": {
+        "title": "Why superior equipment has not produced a stable shield",
+        "text": "Saudi Arabia must protect scattered airports, cities, oil sites and borders across a country roughly three times the size of Texas. The Houthis can disperse launch systems in mountainous terrain and use relatively inexpensive drones and missiles, while defenders expend costly interceptors and cannot guarantee coverage everywhere. Air strikes have repeatedly damaged Houthi positions without removing the organisation's ability to regenerate and launch.",
+        "known": "The Houthis have struck Riyadh airport several times, hit Aramco offices, seized Red Sea territory and maintained weapons able to reach deep into the Gulf.",
+        "new": "The latest campaign is colliding directly with Saudi Arabia's hub strategy: airport continuity, visitor confidence and the perception of secure infrastructure are now part of the battlefield."
+      },
+      "evidence": {
+        "left": { "label": "Documented", "text": "Recent attacks reached Riyadh airport and Aramco headquarters; AP reports at least 19 deaths during the escalation." },
+        "right": { "label": "Unresolved", "text": "How long Saudi interceptor supplies can sustain the defence and whether outside partners will provide direct help." }
+      },
+      "sources": [
+        { "label": "AP · Houthi strikes show growing reach and Saudi defence constraints", "url": "https://apnews.com/article/yemen-war-houthis-iran-weapons-saudi-airports-27173d5eaf4e27e5d5d41d0e6a98768b" }
+      ]
+    },
+    {
+      "id": "west-bank-diplomats-attacked",
+      "number": "03",
+      "category": "West Bank & diplomatic security",
+      "sourceNote": "AP · Saturday",
+      "title": "Israeli police opened an investigation after masked settlers attacked European diplomats in the occupied West Bank.",
+      "changed": "Footage appeared to show diplomats, reportedly including representatives of France, Belgium and Poland, being assaulted in Taybeh. The episode followed a separate settler attack that seriously injured Washington Post photographer Heidi Levine, who required surgery.",
+      "matters": "Violence during the olive harvest has moved from a chronic protection failure for Palestinians into a direct diplomatic incident, increasing external pressure on Israeli authorities to enforce the law against settlers.",
+      "watch": "Arrests, charges, protection for harvest communities and any response from European governments. The police investigation and injuries are confirmed; responsibility for every person visible in the circulating footage has not yet been adjudicated.",
+      "lead": false,
+      "group": { "label": "World beyond the lead", "title": "A long-running civilian protection failure became a diplomatic-security incident.", "note": "The investigation is open; the account preserves the distinction between reported identities and judicial findings.", "break": true },
+      "sources": [
+        { "label": "AP · diplomats attacked during a West Bank visit", "url": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-17-2026-aaf6d7e5367f99869eaf4b419c66e0df" }
+      ]
+    },
+    {
+      "id": "venezuela-oil-investment-plan",
+      "number": "04",
+      "category": "Energy investment & supply",
+      "sourceNote": "Reuters · Saturday",
+      "title": "Venezuela says new agreements could bring almost $76 billion into its oil industry over five years.",
+      "changed": "Acting President Delcy Rodríguez said a bilateral accord with the United States covers 17 oil fields and plans for 250 drilling rigs, within a package of 61 agreements. She also said output in Zulia had risen to 370,000 barrels a day and could reach 400,000 by year-end.",
+      "matters": "Venezuela holds the world's largest proven crude reserves but has produced far below historic levels. Real investment and operational recovery could add meaningful supply over time, though neither announcement solves deteriorated infrastructure or execution risk.",
+      "watch": "Named investors, binding capital commitments, field-level licences, rig mobilisation and independently reported production. The government's announcement is confirmed; the investment, timetable and Zulia comparison have not been independently verified in the report.",
+      "lead": false,
+      "group": { "label": "Economy & markets", "title": "A reserve story is trying to become an execution story.", "note": "Treat the $76 billion as a government-stated pipeline, not delivered capital.", "break": true },
+      "sources": [
+        { "label": "Reuters · Venezuela outlines five-year oil investment agreements", "url": "https://www.investing.com/news/commodities-news/venezuela-expects-nearly-76-billion-in-oil-investment-over-five-years-acting-president-says-4955647" }
+      ]
+    },
+    {
+      "id": "hong-kong-ai-ipo-pipeline",
+      "number": "05",
+      "category": "AI, capital markets & China",
+      "sourceNote": "Reuters · Saturday",
+      "title": "Hong Kong's AI supply-chain listing pipeline is holding up despite the global valuation pullback.",
+      "changed": "Citi's head of China investment banking told Reuters that prospective Chinese AI hardware listings are supported by an approximately even split of domestic and international demand plus rising mainland capital. Hong Kong hosted 118 listings in the first nine months, raising HK$388 billion, up 106% year on year.",
+      "matters": "The financing cycle is diverging rather than simply collapsing: U.S. data-centre valuations are under pressure while Chinese hardware companies still have a deep local buyer base and overseas manufacturing footprints.",
+      "watch": "Actual pricing, post-listing performance and whether next year's model and application companies can show profitability. The fundraising figures and Citi assessment are reported; continued resilience is a forecast from an adviser, not a guaranteed outcome.",
+      "lead": false,
+      "group": { "label": "Technology & business", "title": "AI capital is becoming more selective, not uniformly scarce.", "note": "The banker expects listings to continue but warns that a full U.S. AI-cycle reversal would still reach Hong Kong.", "break": true },
+      "sources": [
+        { "label": "Reuters · China AI supply-chain IPOs hold firm", "url": "https://www.aol.com/articles/china-ai-supply-chain-ipos-072547000.html" }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Curiosity Corner",
+      "title": "Orangutan mothers appear to plan rare playdates—and pay for them in food and travel.",
+      "text": "Fifteen years of data covering 31 wild Bornean mother-offspring pairs found that mothers with similarly aged young used overlapping areas more intensely. Travel rose before, during and after peer play; on play days mothers travelled farther and fed less. The encounters occurred on only about 6% of observed days, but movement toward a partner's core area suggests multi-day planning rather than chance. The study shows how even a largely solitary ape can reorganise its range around a child's social development; whether the effort improves later outcomes is still unknown.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42837467/"
+    },
+    {
+      "label": "Aviation signal",
+      "title": "Qatar Airways' latest winter filing contains fewer flights than its original plan but recovers capacity from the August schedule.",
+      "text": "AeroRoutes' Thursday analysis of the 11 October filing shows 38,825 one-way Doha departures for winter 2026–27: 5.7% below the March plan but above the August filing. Seats are 1.4% below the March plan. The network is reallocating rather than shrinking evenly, with more Bangkok, Berlin and African frequencies alongside reductions to New York, Seattle and Washington. This is an older but operationally useful filing, not a fresh Sunday announcement.",
+      "url": "https://www.aeroroutes.com/eng/261015-qrnw26"
+    }
+  ],
+  "attention": {
+    "title": "Read AP's explanation of why Houthi capability has survived repeated air campaigns.",
+    "text": "It connects weapons range, geography, interceptor economics, divided Yemeni ground forces and Saudi Arabia's aviation-and-investment exposure without pretending there is a simple military fix.",
+    "url": "https://apnews.com/article/yemen-war-houthis-iran-weapons-saudi-airports-27173d5eaf4e27e5d5d41d0e6a98768b"
+  },
+  "ignore": {
+    "title": "Ignore the $76 billion Venezuela headline if it is presented as money already invested.",
+    "text": "The announcement may become important, but the immediate evidence is a government description of agreements. Named investors, binding commitments, deployed rigs and independently measured output are the real milestones."
+  },
+  "history": {
+    "id": "michelin-guide-trust-from-tyres",
+    "number": "051",
+    "readTime": "6 min",
+    "era": "1889–1936 · France and Europe",
+    "title": "The world's most powerful restaurant rating began as a way to sell more tyres.",
+    "deck": "Michelin first gave motorists maps, mechanics and places to eat so they would drive farther. The promotional booklet became an institution only after the company made it independent, scarce and consistent.",
+    "thesis": "The Michelin Guide is a history of demand creation becoming trust infrastructure. A tyre maker reduced the friction of a new behaviour—driving—then discovered that the information layer could acquire more authority than the promotion beneath it. Charging for the guide, removing advertising, using anonymous inspectors and publishing stable criteria turned a useful giveaway into a standard that could move customers, careers and cities.",
+    "sections": [
+      {
+        "title": "The first problem was not tyres; it was reasons to drive",
+        "text": "When André and Édouard Michelin founded their tyre company in Clermont-Ferrand in 1889, France had fewer than 3,000 cars. Better tyres alone could not create a large market if motorists lacked roads knowledge, fuel, repair shops or confidence about where a journey might end. The brothers treated those missing complements as part of their own commercial problem."
+      },
+      {
+        "title": "A free guide supplied the infrastructure around the product",
+        "text": "In 1900 Michelin printed 35,000 guides and distributed them free. The books carried maps, tyre-changing instructions, locations for fuel and mechanics, and listings for hotels and restaurants. Every useful page lowered the cost of taking another trip. More journeys meant more kilometres; more kilometres eventually meant more tyres. The publication was content marketing before the term existed, but its usefulness was concrete."
+      },
+      {
+        "title": "Promotion had to become a product",
+        "text": "For two decades the guide cost nothing. Michelin's own history tells of André finding copies used to prop up a garage workbench and deciding that people respect what they pay for. In 1920 the company began charging seven francs, removed paid advertising and expanded its restaurant coverage. The anecdote may be polished corporate folklore, but the structural change is clear: price and editorial separation made the guide accountable to readers rather than advertisers."
+      },
+      {
+        "title": "Restaurants turned from amenities into destinations",
+        "text": "As the restaurant section gained influence, Michelin recruited anonymous inspectors. It introduced a single restaurant star in 1926, expanded to the familiar one-to-three hierarchy in 1931 and published the criteria in 1936. The language never lost its motoring origin: one star justified a stop, two a detour and three a special journey. A restaurant was no longer merely something found along the road; it could become the reason for the road."
+      },
+      {
+        "title": "Anonymity and consistency created portable authority",
+        "text": "The guide's power did not come from the star symbol alone. Inspectors travelled anonymously, the company removed paid listings, and the same compact rating logic could be carried from place to place. That system was never free from criticism or cultural bias, but it gave diners a legible promise: the recommendation was not bought by the restaurant and could be compared across editions."
+      },
+      {
+        "title": "The side project changed the industry it described",
+        "text": "Once chefs and diners organised decisions around the guide, Michelin no longer merely reflected restaurant quality. It influenced menu ambition, investment, careers, travel patterns and the geography of prestige. The original commercial loop also remained intact: a two-star detour or three-star journey still creates movement. The guide became valuable to Michelin precisely because readers did not experience it as a tyre advertisement."
+      },
+      {
+        "title": "The durable lesson is about earned institutions",
+        "text": "Many companies can publish recommendations; few can make those recommendations consequential. Michelin built authority by solving an adjacent customer problem, then adding independence, a repeatable method and decades of consistency. The deeper business lesson is not simply to make useful content. It is that an information product becomes infrastructure only when users trust how its judgments are made—even when the institution's origin was openly commercial."
+      }
+    ],
+    "timeline": [
+      { "date": "1889", "text": "André and Édouard Michelin establish their tyre company in Clermont-Ferrand." },
+      { "date": "1900", "text": "Michelin distributes 35,000 free guides for French motorists." },
+      { "date": "1904", "text": "A Belgium edition begins the guide's expansion beyond France." },
+      { "date": "1920", "text": "The guide becomes a seven-franc paid publication, removes advertising and gives restaurants greater emphasis." },
+      { "date": "1926", "text": "Michelin introduces a single star for distinguished restaurants." },
+      { "date": "1931", "text": "The one-, two- and three-star hierarchy appears." },
+      { "date": "1936", "text": "Michelin publishes the meaning of each starred level, preserving the language of stops, detours and journeys." }
+    ],
+    "sources": [
+      { "label": "MICHELIN Guide · official history and milestones", "url": "https://guide.michelin.com/us/en/about-us" },
+      { "label": "MICHELIN Guide · the guide's early strategy and star system", "url": "https://guide.michelin.com/kr/en/article/features/history-michelin-guide" },
+      { "label": "Michelin UK · 120 years of the guide", "url": "https://www.michelin.co.uk/blog/articles/history-of-the-michelin-guide" },
+      { "label": "Christie's · short history of the Michelin Guides", "url": "https://www.christies.com/presscenter/pdf/2016/REL_108_MICHELIN_GUIDES_DECEMBER_2016.pdf" }
+    ]
+  },
+  "threads": [
+    {
+      "status": "Expanding",
+      "title": "Gulf shipping risk",
+      "text": "Two attacks off Al Jubayl widen the credible threat area beyond the Strait of Hormuz; attribution and commercial responses remain open.",
+      "progress": 74
+    },
+    {
+      "status": "Straining",
+      "title": "Saudi air defence",
+      "text": "Repeated Houthi strikes are testing interceptor depth, aviation continuity and the kingdom's hub ambitions.",
+      "progress": 68
+    },
+    {
+      "status": "Investigating",
+      "title": "West Bank settler violence",
+      "text": "Police action after attacks on diplomats and a journalist will show whether public condemnation becomes enforcement.",
+      "progress": 39
+    },
+    {
+      "status": "Mobilising",
+      "title": "Venezuela oil recovery",
+      "text": "The announced investment pipeline now needs named capital, deployed rigs and independently measured production.",
+      "progress": 28
+    },
+    {
+      "status": "Selective",
+      "title": "AI capital cycle",
+      "text": "Hong Kong's listing pipeline retains local liquidity even as global investors scrutinise AI valuations and financing.",
+      "progress": 61
+    }
+  ]
+}
