@@ -1,271 +1,250 @@
 {
-  "date": { "display": "Tuesday, 20 October 2026", "edition": "053", "updated": "7:12 AM" },
-  "worldSentence": "Qatar is pairing a new regional defence initiative with local industrial capacity, while strained alliances, disrupted Gulf aviation and a narrow AI-led market rebound show how much today's resilience depends on systems that work under pressure.",
-  "standfirst": "Tuesday's edition follows Qatar's planned regional defence initiative and defence-industries centre, the deepening U.S.–Ukraine rupture, the deadliest Houthi strike on Yemeni government forces in years, Qatar Airways' extended Saudi suspensions, Nvidia's pitch for industrial AI and QSTP's Microsoft startup pathway. Curiosity Corner looks at a mirror array that helps neutral-atom quantum computers speak in photons. The Long View tells the butter–margarine battle as a history of product definition, lobbying and consumer perception.",
-  "listenTime": "24 min",
+  "date": { "display": "Wednesday, 21 October 2026", "edition": "054", "updated": "7:05 AM" },
+  "worldSentence": "Qatar Airways is opening a second Sydney gateway while Britain moves combat aircraft into Saudi air defence and SpaceX's first post-IPO earnings reveal an AI company growing inside a space company.",
+  "standfirst": "Wednesday's edition leads with Qatar Airways' Western Sydney route, then follows Britain's defensive air deployment to Saudi Arabia, a profitable but capital-hungry SpaceX, restored U.S. missile warning for Ukraine, broader U.S. market gains and Anthropic's attempt to give an AI fortune a public-benefit claim. Curiosity Corner meets a giant fungus from Yunnan. The Long View explains how Le Bon Marché turned shopping from a negotiated purchase into a place people could browse, trust and desire.",
+  "listenTime": "18 min",
   "coverage": [
-    { "count": 5, "label": "Qatar & Gulf" },
+    { "count": 4, "label": "Qatar & Gulf" },
     { "count": 3, "label": "World & security" },
     { "count": 3, "label": "Economy & markets" },
-    { "count": 4, "label": "AI & technology" },
+    { "count": 3, "label": "AI & technology" },
     { "count": 3, "label": "Aviation & consumer" }
   ],
   "connected": {
-    "title": "The useful thread is operational resilience: the announcements matter, but the test is whether institutions can keep defending, flying, financing and producing when conditions deteriorate.",
+    "title": "The useful thread is expansion under constraint: networks are still growing, but capital, air defence, airport access and public legitimacy now shape what can actually scale.",
     "signals": [
-      { "label": "QATAR DEFENCE", "value": "Two plans", "text": "A regional capability initiative and a domestic defence-industries centre are promised; partners, capital and scope are still undisclosed." },
-      { "label": "SAUDI FLYING", "value": "24 Oct", "text": "Qatar Airways has extended Riyadh and Dammam suspensions and cut Jeddah from seven to four daily flights." },
-      { "label": "U.S.–UKRAINE", "value": "New low", "text": "Sanctions relief, Russian diesel purchases and disputed satellite constraints are pulling policy in different directions." },
-      { "label": "QSTP STARTUPS", "value": "47 live", "text": "Forty-seven incubated companies have begun using Microsoft's startup programme, up from 32 in August." }
+      { "label": "WESTERN SYDNEY", "value": "3 weekly", "text": "Qatar Airways will start Doha–Western Sydney in December 2027 and says it intends to build toward daily service." },
+      { "label": "SAUDI DEFENCE", "value": "RAF Typhoons", "text": "Britain will fly defensive counter-air missions over Saudi Arabia while extending refuelling support." },
+      { "label": "SPACEX Q3", "value": "$4.4bn", "text": "Quarterly profit arrived alongside $14.6 billion of revenue and $19.6 billion of capital spending." },
+      { "label": "ANTHROPIC FUND", "value": "5% stake", "text": "The promised equity is material, but approval, governance, beneficiaries and distribution remain unsettled." }
     ],
-    "note": "These developments are not one story. Together they distinguish declared capacity from usable capacity: a defence partnership needs command and procurement, an airline schedule needs safe airspace, industrial AI needs deployable workflows, and cloud credits need customers and products rather than merely eligibility."
+    "note": "These are separate developments, not one grand narrative. Together they show why an announcement is only the beginning: a route must fill and connect, air patrols need durable rules and basing, growth must outrun capital consumption, and a social promise needs governance that survives scrutiny."
   },
   "stories": [
     {
-      "id": "qatar-defence-capability-initiative",
+      "id": "qatar-airways-western-sydney",
       "number": "01",
-      "category": "Qatar, defence industry & regional security",
-      "sourceNote": "QNA · Monday",
-      "title": "Qatar will announce a regional defence initiative and a domestic defence-industries centre focused on air defence, drones, electronic warfare and cyber capability.",
-      "changed": "Deputy Prime Minister and Minister of State for Defence Affairs Sheikh Saoud bin Abdulrahman Al-Thani said Qatar had set three capability priorities and would soon unveil both a partnership with regional states and a defence-industries centre at home.",
-      "matters": "This moves Qatar's response to recent attacks beyond procurement toward coalition design and local industrial capacity. The economic question is whether the centre builds engineering, maintenance and intellectual-property depth or functions mainly as a vehicle for imported systems.",
-      "watch": "The partner countries, governance, funding, initial programmes, local-content requirements and whether the initiative integrates with existing U.S., British and French relationships. The plans are official; their scope and timetable are not yet disclosed.",
+      "category": "Qatar Airways, network strategy & Australian tourism",
+      "sourceNote": "Qatar Airways / Australian government · Tuesday night",
+      "title": "Qatar Airways will make Western Sydney its seventh Australian gateway, launching three weekly Doha flights in December 2027 with an intention to grow to daily service.",
+      "changed": "The airline committed a Boeing 777-300ER service from 15 December 2027, using Western Sydney's round-the-clock airport and adding a second Sydney-area gateway alongside the existing Kingsford Smith operation.",
+      "matters": "The route is a network bet, not merely another destination: it targets a large western-Sydney catchment, creates direct cargo access and can feed Doha through the Virgin Australia partnership without depending entirely on constrained central-Sydney slots.",
+      "watch": "Ticket sales from 19 December 2026, the path from three weekly flights to daily, traffic mix, cargo demand, connection quality and whether the new service grows the market or mainly redistributes passengers from Sydney Airport. The launch and initial schedule are confirmed; the ramp-up economics are not public.",
       "lead": true,
-      "group": { "label": "The lead", "title": "Qatar is turning recent security shocks into a capability and industrial-policy agenda.", "note": "The announcement sets priorities; the next disclosure will show whether the machinery matches them.", "break": false },
+      "group": { "label": "The lead", "title": "Qatar Airways is treating a new airport as a second gateway, not a substitute for Sydney.", "note": "The commercial test is whether Western Sydney creates new catchment and connection value before frequency reaches daily scale.", "break": false },
       "background": {
-        "title": "Why the industrial centre matters more than another equipment announcement",
-        "text": "Qatar named air defence, counter-drone systems, electronic warfare and cybersecurity as linked priorities. Those fields depend on continuous integration: sensors must detect low-cost threats, software must classify them, command systems must share a picture and interceptors must be available at sustainable cost. A domestic centre could concentrate maintenance, testing, training and selected production while a regional partnership improves coverage and interoperability. It could also remain shallow if contracts do not transfer skills or create recurring local work. The distinction will be visible in programme ownership, engineering roles and what the centre can maintain without a foreign team permanently embedded.",
-        "known": "Qatar will announce a regional capability initiative and a defence-industries centre; Al Udeid continues to host U.S. forces and representatives from more than 20 countries.",
-        "new": "The government has publicly joined defence readiness, regional cooperation and domestic industrial development into one announced programme."
+        "title": "Why three weekly flights can still be a strategic foothold",
+        "text": "A second airport changes more than the pin on a route map. Western Sydney International can operate around the clock, offering arrival and departure times that are difficult at slot-constrained Sydney Airport. The surrounding catchment also reduces surface travel for western-Sydney residents and gives exporters another cargo path through Doha. Yet three weekly flights do not provide the convenience of a daily business schedule, and a late-evening arrival followed by a next-day departure complicates aircraft utilisation. The launch therefore looks like a staged demand test: secure the airport position, learn the passenger and cargo mix, coordinate with Virgin Australia, then add frequency if the economics hold.",
+        "known": "The route begins on 15 December 2027 with three weekly 777-300ER flights, 42 business seats, 312 economy seats and free Starlink; tickets are due on sale from 19 December 2026.",
+        "new": "Qatar Airways has moved from bilateral access and partnership expansion to a dated, scheduled commitment at Australia's newest major airport."
       },
       "evidence": {
-        "left": { "label": "Confirmed", "text": "The four capability areas, the forthcoming partnership and the planned centre were announced at Doha's Global Security Forum." },
-        "right": { "label": "Not yet known", "text": "Partners, budget, ownership, products, procurement commitments, local-content rules and delivery dates." }
+        "left": { "label": "Confirmed network move", "text": "Western Sydney becomes the carrier's seventh Australian gateway and its second airport serving the Sydney market." },
+        "right": { "label": "Commercial unknown", "text": "No public forecast yet for load factors, yields, cargo contribution, incremental passengers or the timing of daily service." }
       },
       "sources": [
-        { "label": "QNA · Qatar sets defence priorities and plans capability initiative", "url": "https://qna.org.qa/en/news/news-details?date=19%2F10%2F2026&id=deputy-prime-minister-and-minister-of-state-for-defense-qatar-continues-to-strengthen-its-defense-capabilities-while-upholding-mediation-dialogue" },
-        { "label": "Euronews · planned partnership and local production hub", "url": "https://www.euronews.com/2026/10/19/qatar-plans-new-defence-partnership-and-warns-of-energy-crisis-peak" }
+        { "label": "Qatar Airways · Western Sydney route announcement and schedule", "url": "https://www.qatarairways.com/press-releases/en-WW/273619-qatar-airways-to-increase-connectivity-to-australia-with-flights-to-western-sydney-international-airport-in-2027/" },
+        { "label": "Australian government · route support and on-sale date", "url": "https://minister.infrastructure.gov.au/c-king/media-release/wheels-destination-doha" },
+        { "label": "QNA · Western Sydney becomes the seventh Australian gateway", "url": "https://qna.org.qa/en/news/news-details?date=21/10/2026&id=qatar-airways-set-to-operate-direct-service-to-western-sydney-international-airport-in-2027" }
       ]
     },
     {
-      "id": "us-ukraine-alliance-fracture",
+      "id": "uk-typhoons-saudi-defence",
       "number": "02",
-      "category": "Ukraine, Russia & U.S. policy",
-      "sourceNote": "AP · Monday night",
-      "title": "The U.S.–Ukraine relationship reached a new low as Washington waived Russia sanctions, pursued Russian diesel and left responsibility for military satellite constraints unresolved.",
-      "changed": "President Donald Trump said someone other than Volodymyr Zelenskyy might negotiate for Ukraine, after waiving a congressionally approved Russia-sanctions package; Ukraine also reported Starshield speed restrictions and no early warning before the latest Russian power-grid attack.",
-      "matters": "The pressure is no longer one policy disagreement. Sanctions, fuel purchases, intelligence warning and communications infrastructure are all moving in ways that could improve Russia's battlefield and negotiating position while leaving U.S. commitments difficult for allies to price.",
-      "watch": "Whether Congress challenges the waiver, who controls the Starshield limits, restoration of early warning, and any Trump–Putin–Xi meeting that excludes Kyiv. The policy moves and restrictions are reported; responsibility for the satellite limits remains publicly disputed.",
+      "category": "Saudi Arabia, Yemen & Gulf air defence",
+      "sourceNote": "UK Ministry of Defence / AP · Tuesday",
+      "title": "Britain will fly RAF Typhoons on defensive counter-air missions over Saudi Arabia as Houthi attacks intensify and the Shabwa camp death toll rises to 73.",
+      "changed": "The U.K. added fighter patrols, an A400M transport and military advisers, while extending refuelling support; it says its jets may intercept drones and missiles but will not strike Houthi ground targets.",
+      "matters": "A European ally is moving from equipment and support into direct Saudi airspace defence. That can improve interception capacity, but it also places British crews inside an escalation in which defensive patrols, refuelling and Saudi strikes are operationally adjacent even when legally distinguished.",
+      "watch": "Basing, force size, rules of engagement, the duration of patrols, whether airport disruption eases and whether Houthi attacks or the siege of Taiz intensify. The British role is official; its operational scale and effect are not yet disclosed.",
       "lead": false,
-      "group": { "label": "World beyond the lead", "title": "An alliance is becoming uncertain across several systems at once.", "note": "The consequential question is not rhetoric but which forms of support remain dependable.", "break": true },
+      "group": { "label": "The Gulf", "title": "Saudi air defence is becoming more explicitly multinational.", "note": "The word defensive is important, but so is the widening chain of support around the air campaign.", "break": true },
+      "background": {
+        "title": "The deployment widens Britain's role without declaring an offensive mission",
+        "text": "The Ministry of Defence drew a bright line around the Typhoons: they will defend Saudi cities, civilians and critical infrastructure by intercepting airborne threats, not attack Houthi positions on the ground. The wider package is less simple. Britain is also extending aerial refuelling for Saudi defensive operations that can include degrading Houthi military targets in Yemen, while advisers support Saudi staff work and an A400M moves materiel. Operationally, this creates a layered contribution from warning and interception to logistics and endurance. Politically, the distinction between direct defence and support for strikes will matter if civilian harm, mission duration or retaliation grows.",
+        "known": "RAF Typhoons will conduct defensive counter-air missions; an A400M, advisers and extended refuelling support are part of the package.",
+        "new": "Britain has committed its own fighters to patrol Saudi airspace rather than limiting support to equipment, training and enabling functions."
+      },
+      "evidence": {
+        "left": { "label": "Declared limit", "text": "The U.K. says its Typhoons will intercept drones and missiles and will not conduct offensive ground strikes." },
+        "right": { "label": "Escalation risk", "text": "The deployment sits alongside refuelling support, rising casualties in Yemen and attacks on Saudi airports and infrastructure." }
+      },
       "sources": [
-        { "label": "AP · U.S.–Ukraine ties reach a new low", "url": "https://apnews.com/article/trump-zelenskyy-putin-ukraine-russia-war-5ff9a53edf6d0f338f40709af6dc9c11" }
+        { "label": "UK Ministry of Defence · operational update on Saudi support", "url": "https://www.gov.uk/government/news/operational-update-20-october-uk-military-support-to-the-kingdom-of-saudi-arabia" },
+        { "label": "AP · British deployment, Shabwa toll and Taiz siege", "url": "https://apnews.com/article/mideast-yemen-saudi-israel-gaza-october-20-2026-6f69abd6470c9b43b75de7b223011486" }
       ]
     },
     {
-      "id": "houthi-shabwa-strike-saudi-disruption",
+      "id": "spacex-profit-ai-capex",
       "number": "03",
-      "category": "Yemen, Saudi Arabia & regional business",
-      "sourceNote": "AP · Monday",
-      "title": "A Houthi ballistic-missile strike killed at least 53 recruits in Shabwa as Saudi Arabia cancelled next week's global investment conference.",
-      "changed": "Yemeni officials said 200 more people were wounded in one of the deadliest attacks on government forces since the civil war's 2022 ceasefire; the Houthis acknowledged the camp strike and separately claimed six operations across Saudi Arabia.",
-      "matters": "The conflict is again imposing costs beyond the battlefield: air travel, schooling, investment events, oil facilities and confidence in Saudi operating continuity are now all exposed to the same escalation.",
-      "watch": "The death toll, Saudi and Yemeni military response, verification of the six claimed operations and whether cancelled events or remote schooling extend. The Shabwa casualties were reported by provincial authorities; several Saudi attack claims lacked independent confirmation.",
+      "category": "AI infrastructure, space communications & capital markets",
+      "sourceNote": "SpaceX / AP · Tuesday after market",
+      "title": "SpaceX reported a $4.4 billion quarterly profit as AI became its largest revenue business, but capital spending nearly tripled to $19.6 billion.",
+      "changed": "Third-quarter revenue rose 161% to $14.6 billion and the company reversed a year-earlier loss; Musk also confirmed separate SpaceX and Tesla board committees are discussing a possible combination while cautioning that a merger is not certain.",
+      "matters": "The results expose the economics behind the new AI–space conglomerate story: Starlink remains the biggest profit generator, AI now leads revenue, and enormous capital expenditure is required to support compute, satellites and Starship. Growth is real, but so is the financing burden and governance complexity.",
+      "watch": "Fourth-quarter spending of $35–40 billion, segment margins, Starlink growth, next month's attempted full Starship catch and what independent committees actually propose on Tesla. The earnings are reported; a merger remains exploratory.",
       "lead": false,
-      "group": { "label": "Middle East", "title": "Yemen's renewed war is now disrupting Saudi civilian and commercial life.", "note": "Keep the confirmed camp casualties separate from unverified claims of additional operations.", "break": true },
+      "group": { "label": "Technology & capital", "title": "SpaceX's first major earnings signal looks strong—and far more capital-intensive than the profit headline.", "note": "The revealing comparison is not profit versus loss, but profit versus the scale of reinvestment needed to keep the system growing.", "break": true },
+      "background": {
+        "title": "A profitable platform can still be a voracious consumer of capital",
+        "text": "SpaceX now combines three different economic engines. Starlink produces recurring connectivity revenue and remains the largest source of profit. AI has become the largest revenue business, tying the company to the same compute cycle driving chip and data-centre investment. Starship promises lower launch cost but still requires large development spending before regular reuse is proven. That portfolio can reinforce itself—launches place satellites, connectivity produces cash, and AI demands infrastructure—but it also concentrates technical, political and financing risk. The $4.4 billion profit is therefore encouraging without being self-sufficient evidence; last quarter's $19.6 billion of capital expenditure was more than four times as large.",
+        "known": "SpaceX reported $14.6 billion of quarterly revenue, $4.4 billion of profit and $19.6 billion of capital expenditure; AI led revenue and Starlink led profit.",
+        "new": "Public-company reporting now gives investors a first clearer view of how the AI, connectivity and launch businesses divide growth, profit and spending."
+      },
+      "evidence": {
+        "left": { "label": "Operating strength", "text": "Revenue rose 161%, the company reversed a year-earlier loss and Starlink profitability accelerated." },
+        "right": { "label": "Capital intensity", "text": "Quarterly capital spending nearly tripled, and management forecast $35–40 billion for the current quarter." }
+      },
       "sources": [
-        { "label": "AP · Shabwa camp strike and Saudi disruption", "url": "https://apnews.com/article/yemen-houthis-saudi-fighting-6afad4ec4c22dcccd379152ea87cb0e2" }
+        { "label": "SpaceX investor relations · Q3 2026 earnings event", "url": "https://ir.spacex.com/events/event-details/2026/Q3-2026-Earnings/default.aspx" },
+        { "label": "AP · SpaceX profit, segment mix, capex and merger committees", "url": "https://apnews.com/article/spacex-musk-turns-profit-losses-67064446bf0afdf529db55bdec82af69" }
       ]
     },
     {
-      "id": "qatar-airways-saudi-suspensions-extended",
+      "id": "ukraine-warning-restored",
       "number": "04",
-      "category": "Qatar Airways, network operations & regional aviation",
-      "sourceNote": "Qatar Airways / QNA · Monday",
-      "title": "Qatar Airways extended Riyadh and Dammam suspensions to 24 October and cut Jeddah service from seven to four daily flights.",
-      "changed": "The carrier prolonged two Saudi route suspensions and reduced Jeddah frequencies, telling booked passengers to contact it within 48 hours of departure because schedules remain subject to change.",
-      "matters": "This is more than a passenger-service update: repeated short extensions keep aircraft, crews, connections and commercial recovery in a rolling-planning regime. Jeddah's partial operation suggests the network is differentiating risk by airport rather than treating Saudi Arabia as one market.",
-      "watch": "The 24 October review, Riyadh airport conditions, Jeddah load factors, rebooking volumes and whether capacity is redeployed or held ready. The published schedule is confirmed; the cost and operational response have not been disclosed.",
-      "lead": false,
-      "group": { "label": "Aviation", "title": "The Saudi network remains in rolling disruption rather than a clean restart.", "note": "The useful operational signal is selective capacity, not the headline suspension alone.", "break": true },
-      "background": {
-        "title": "Why a four-day extension still creates a long planning problem",
-        "text": "Airlines cannot optimise a disrupted regional network one flight at a time. A suspension affects aircraft rotations, crew legality, airport slots, connecting banks, cargo commitments, customer reaccommodation and the availability of spare capacity elsewhere. Short review windows preserve flexibility when security conditions are changing, but they also postpone the stable schedule needed to sell, roster and route efficiently. Keeping four daily Jeddah flights while suspending Riyadh and Dammam is therefore informative: Qatar Airways is preserving access where it judges operations possible instead of abandoning the whole market. The next question is how long that selective pattern can be sustained without growing cost or passenger uncertainty.",
-        "known": "Riyadh and Dammam are suspended through 24 October; Jeddah is reduced from seven daily flights to four; passengers were told schedules may change.",
-        "new": "The disruption has moved into another planning cycle and the carrier is now publishing differentiated Saudi capacity."
-      },
-      "evidence": {
-        "left": { "label": "Network fact", "text": "Two stations remain suspended and one retains a reduced schedule rather than closing completely." },
-        "right": { "label": "Commercial unknown", "text": "No public figures yet for displaced bookings, incremental costs, lost revenue or aircraft redeployment." }
-      },
-      "sources": [
-        { "label": "QNA · Qatar Airways extends Saudi schedule changes", "url": "https://qna.org.qa/en/news/news-details?id=qatar-airways-extends-suspension-of-flights-to-and-from-riyadh-and-dammam-until-october-24&date=19/10/2026" }
-      ]
-    },
-    {
-      "id": "nvidia-germany-physical-ai",
-      "number": "05",
-      "category": "Industrial AI, manufacturing & European competitiveness",
-      "sourceNote": "AP · Monday",
-      "title": "Nvidia told German manufacturers to treat factory data and engineering expertise as the raw material for physical AI—not as assets separate from the digital economy.",
-      "changed": "At an investment summit with Chancellor Friedrich Merz, Jensen Huang argued that the next AI wave will be robotics, cars and heavy industry, and that specialised midsized manufacturers can use their own data to re-engineer production.",
-      "matters": "This is a sharper adoption thesis than selling chatbots: firms with proprietary process data and machinery know-how may have an advantage that model labs lack. The constraint is turning that data into reliable factory systems without surrendering sensitive information or becoming dependent on foreign compute platforms.",
-      "watch": "Named deployments, measurable productivity, data-governance architecture, European compute capacity and whether small manufacturers can afford integration. The strategic pitch is clear; new investment or adoption results were not announced.",
-      "lead": false,
-      "group": { "label": "Technology & business", "title": "The next AI contest may be fought inside factories rather than browsers.", "note": "Industrial data is potentially valuable, but only if it can be cleaned, connected and used safely in production.", "break": true },
-      "background": {
-        "title": "Why physical AI changes the advantage map",
-        "text": "A general model can write or summarise without knowing the exact tolerances of a machine tool, the failure signature of a pump or the sequence that keeps a production line balanced. Industrial firms accumulate that tacit knowledge in sensor streams, maintenance records, engineering drawings and experienced workers. Connecting it to robotics and simulation could improve inspection, predictive maintenance, scheduling and design. Germany's Mittelstand is rich in precisely this kind of specialised knowledge. Yet the integration burden is heavy: old equipment, fragmented data, safety certification and cyber risk can make a promising pilot difficult to scale. The durable advantage will belong to companies that turn domain knowledge into repeatable operating systems, not those that merely buy more chips.",
-        "known": "Huang explicitly framed robotics, manufacturing, cars and heavy industry as the next AI wave and urged Germany to use its industrial data.",
-        "new": "Nvidia's public European pitch has moved from compute infrastructure toward a national industrial-adoption argument."
-      },
-      "evidence": {
-        "left": { "label": "Structural asset", "text": "Germany has deep manufacturing expertise, specialised suppliers and proprietary machine-readable industrial data." },
-        "right": { "label": "Execution gap", "text": "No new deployment, productivity figure or investment commitment was attached to Monday's argument." }
-      },
-      "sources": [
-        { "label": "AP · Nvidia urges German industry to adopt physical AI", "url": "https://apnews.com/article/jensen-huang-nvidia-merz-germany-economy-artificial-intelligence-f024c1e0d181677a19468657907a9025" }
-      ]
-    },
-    {
-      "id": "qstp-microsoft-startup-pathway",
-      "number": "06",
-      "category": "Qatar startups, cloud infrastructure & market access",
-      "sourceNote": "QSTP / QNA · Monday",
-      "title": "QSTP integrated Microsoft for Startups into its incubator pathway, with 47 companies already using the programme and up to $200,000 in conditional Azure credits available per eligible startup.",
-      "changed": "QSTP said it nominated 105 incubated companies, while active participation rose from 32 in August to 47; the package also includes AI infrastructure, developer tools, engineering sessions and market-access support.",
-      "matters": "The useful part is not free cloud alone but lower early-stage friction across infrastructure, technical support and customer access. The risk is measuring ecosystem success by headline credit value rather than products shipped, revenue earned and companies that survive after subsidies expire.",
-      "watch": "Credit utilisation, eligibility, customer introductions, follow-on funding and the number of participating firms that reach paying users. The maximum $4.7–9.4 million aggregate value is potential access, not guaranteed spending.",
-      "lead": false,
-      "group": { "label": "Entrepreneurship", "title": "Qatar's incubator is turning a global startup programme into a local operating pathway.", "note": "The next evidence should be product and customer outcomes, not nominations.", "break": true },
-      "sources": [
-        { "label": "QNA · QSTP and Microsoft startup programme", "url": "https://qna.org.qa/en/news/news-details?id=qstp-partners-with-microsoft-to-boost-startup-support&date=19/10/2026" }
-      ]
-    },
-    {
-      "id": "ai-led-market-rebound-narrow",
-      "number": "07",
-      "category": "Markets, AI concentration & energy",
+      "category": "Ukraine, intelligence support & diplomacy",
       "sourceNote": "AP · Tuesday",
-      "title": "Wall Street's rebound remained narrow: the Nasdaq rose 1.1% on AI strength while most U.S. stocks fell, the 10-year yield reached 5.14% and Asian markets opened lower.",
-      "changed": "Nvidia helped lift the S&P 500 by 0.4%, but the Dow slipped and South Korea's Kospi fell 2.8% in early Tuesday trading; Brent remained near $109.47 as investors waited for major technology earnings.",
-      "matters": "A rising headline index can hide weaker breadth and a more expensive financing environment. When AI capital spending is increasingly debt-funded, high long yields and earnings concentration make the market more sensitive to evidence that revenue is not catching up with investment.",
-      "watch": "This week's technology earnings, capital-spending guidance, market breadth and the interaction between oil-driven inflation and bond yields. The prices are observed; whether they mark a lasting valuation reset is unknown.",
+      "title": "Ukraine says U.S.-supported missile early warning has resumed after a call with Marco Rubio, even as weapons shortages and wider policy distrust remain.",
+      "changed": "Volodymyr Zelenskyy said partners were again providing warning of incoming ballistic missiles after at least a week of gaps; Rubio denied any deliberate policy change while acknowledging mutual frustration over intelligence and supplies.",
+      "matters": "Early warning can move civilians to shelter and give air-defence units time to intercept. Its restoration removes one immediate danger without resolving sanctions relief for Russia, scarce Patriot ammunition, Starshield constraints or the political rupture described yesterday.",
+      "watch": "Whether warnings remain continuous, Starshield performance changes, Patriot supply improves and U.S. envoy Steve Witkoff's St. Petersburg talks alter the negotiating track. The service restoration is Ukraine's account; the reason for the earlier gap remains disputed.",
       "lead": false,
-      "group": { "label": "Markets", "title": "AI can lift the index while the rest of the market remains cautious.", "note": "Breadth, financing cost and earnings quality matter more than one rebound session.", "break": true },
+      "group": { "label": "World beyond the Gulf", "title": "One critical support channel is working again; the alliance is not repaired.", "note": "Treat restoration as an operational update, not proof that the wider policy direction reversed.", "break": true },
       "sources": [
-        { "label": "AP · Asian shares fall after a narrow Wall Street rebound", "url": "https://apnews.com/article/stock-markets-oil-ai-rates-inflation-b972b64127db5412a2b02c35ecf95c88" }
+        { "label": "AP · Zelenskyy says missile early warning resumed", "url": "https://apnews.com/article/russia-ukraine-zelenskyy-norway-trump-rubio-witkoff-140895c6c0a1682c46f4fe197e056996" }
+      ]
+    },
+    {
+      "id": "us-market-breadth-oil-eases",
+      "number": "05",
+      "category": "Markets, earnings & energy",
+      "sourceNote": "AP · Tuesday close",
+      "title": "Most U.S. stocks rose on earnings while AI names stayed volatile and Brent retreated to $108.79 after approaching $112.",
+      "changed": "The S&P 500 added 0.3% and the Dow gained 1%, while the Nasdaq slipped fractionally; better-than-expected company results broadened participation beyond Monday's AI-led rebound.",
+      "matters": "Breadth is healthier than a rally carried by a few technology names, and cheaper oil offers temporary inflation relief. But high yields and debt-funded AI spending still make future profit guidance more important than one day's index move.",
+      "watch": "Large technology earnings, AI capital-spending guidance, the durability of oil's retreat and the 10-year Treasury yield. Tuesday's breadth is confirmed; whether it marks a durable rotation is not.",
+      "lead": false,
+      "group": { "label": "Economy & markets", "title": "Earnings broadened the rally, but the AI financing question stayed open.", "note": "One better session does not remove the pressure from expensive capital and volatile energy.", "break": true },
+      "sources": [
+        { "label": "AP · U.S. market breadth, oil and AI volatility", "url": "https://apnews.com/article/stock-markets-oil-ai-rates-inflation-b972b64127db5412a2b02c35ecf95c88" }
+      ]
+    },
+    {
+      "id": "anthropic-public-benefit-equity",
+      "number": "06",
+      "category": "AI ownership, public benefit & IPO governance",
+      "sourceNote": "Anthropic / AP · Sunday–Tuesday",
+      "title": "Anthropic proposed putting 5% of its shares into a public-benefit fund that can grow with its valuation, but the governance and beneficiaries are still undefined.",
+      "changed": "Subject to shareholder approval, a wholly owned LLC would receive the initial stake and could gain another 2% for each 50% increase above a valuation baseline; Anthropic says roughly 20% of shares are dedicated to public-good commitments when founder and employee pledges are included.",
+      "matters": "The pledge is larger than a conventional donation and arrives before a possible IPO, making public benefit part of the investment proposition. Its real value depends on who controls the fund, when shares become spendable and whether distributions reach people affected by AI rather than remaining a flexible promise.",
+      "watch": "Shareholder approval, the valuation baseline, board independence, disclosure, liquidation rules and first grants or direct distributions. The equity formula is announced; delivery and governance are pending.",
+      "lead": false,
+      "group": { "label": "AI institutions", "title": "AI companies are trying to make social legitimacy part of their capital structure.", "note": "A percentage sounds concrete; control and distribution determine whether it becomes public value.", "break": true },
+      "sources": [
+        { "label": "Anthropic · proposed Public Benefit Fund structure", "url": "https://www.anthropic.com/news/public-benefit-fund" },
+        { "label": "AP · AI wealth-sharing plans and unresolved questions", "url": "https://apnews.com/article/anthropic-openai-public-benefit-fund-fc16c0ff997c8334dcd71e65d726aadc" }
       ]
     }
   ],
   "radar": [
     {
       "label": "Curiosity Corner",
-      "title": "A quantum computer can be easier to scale when every atom gets its own tiny hall of mirrors.",
-      "text": "Neutral-atom qubits are difficult to read because single atoms emit little light and send it in every direction. Stanford researchers built an array of optical cavities that uses microlenses and mirrors to collect photons from many atoms in parallel: 40 cavities were demonstrated with atoms, alongside a prototype exceeding 500 cavities. The cavities are not a million-qubit machine, but they address a concrete bottleneck—getting information out quickly enough to network modules. Nature highlighted the work on Monday; the original study appeared earlier in 2026.",
-      "url": "https://news.stanford.edu/stories/2026/01/optical-cavity-array-light-based-platform-quantum-supercomputers"
-    },
-    {
-      "label": "Consumer signal",
-      "title": "U.S. restaurant sales rose for an eighth month, but inflation and fuel costs make the topline less comforting than it looks.",
-      "text": "September eating-and-drinking-place sales reached a seasonally adjusted $92.9 billion, up 1.1% from August and 7% from a year earlier, according to data published last week. The figures are not adjusted for inflation, while gasoline-station receipts jumped 6.4%. For operators, the watchpoint is traffic and real spending: nominal resilience does not guarantee better unit economics when customers and input costs are both under pressure.",
-      "url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-sales"
+      "title": "A fungus from Yunnan grows a fruiting body heavier than some house cats—and belongs to a newly described family.",
+      "text": "Researchers named Dianjunus rex after finding upright fungal structures up to 50 centimetres tall and 2.2 kilograms in weight. Morphology, four genetic markers and phylogenomic analysis place it in a distinct new family within the Xylariales; a molecular-clock estimate traces that lineage to roughly 65 million years ago. That date describes the inferred family divergence, not the age of the living specimen. The paper calls its structures the largest fruiting bodies documented in the Ascomycota and, more importantly, shows how much fungal diversity remains undescribed in East Asian forests.",
+      "url": "https://www.frontiersin.org/journals/fungal-biology/articles/10.3389/ffunb.2026.1940464/full"
     }
   ],
   "attention": {
-    "title": "Open Qatar's defence priorities as an industrial-policy announcement, not only a security headline.",
-    "text": "The primary QNA account names the capability areas, the forthcoming regional initiative and the planned domestic centre. Those details make it the best document for judging what Qatar has actually committed to—and what remains announcement-stage.",
-    "url": "https://qna.org.qa/en/news/news-details?date=19%2F10%2F2026&id=deputy-prime-minister-and-minister-of-state-for-defense-qatar-continues-to-strengthen-its-defense-capabilities-while-upholding-mediation-dialogue"
+    "title": "Open the Qatar Airways route announcement for the operating details, then the Australian release for the policy context.",
+    "text": "Together they separate the commercial commitment—aircraft, timings, frequency and ramp-up intent—from the bilateral access and airport-development machinery that made the route possible.",
+    "url": "https://www.qatarairways.com/press-releases/en-WW/273619-qatar-airways-to-increase-connectivity-to-australia-with-flights-to-western-sydney-international-airport-in-2027/"
   },
   "ignore": {
-    "title": "Ignore the idea that Monday's AI-stock rebound settled the market's concern about AI investment.",
-    "text": "The Nasdaq rose, but most U.S. stocks declined, Asian markets opened weaker and long-term yields climbed. One concentrated rebound cannot answer whether the earnings produced by AI capital spending justify its financing cost."
+    "title": "Ignore the assumption that a SpaceX–Tesla merger is already decided.",
+    "text": "Separate board committees are discussing the idea, but Musk explicitly said treating a transaction as certain would overstate the evidence. The earnings and capital-spending figures are facts; the combination is still a possibility."
   },
   "history": {
-    "id": "margarine-butter-regulation",
-    "number": "053",
-    "readTime": "6 min",
-    "era": "1869–1950 · France and the United States",
-    "title": "Margarine became a mass product only after surviving a political fight over what consumers were allowed to see.",
-    "deck": "A cheap butter substitute threatened dairy producers not simply because it cost less, but because it could look the same. The resulting taxes, colour bans and product definitions show how markets are shaped by labels and visual identity as much as by ingredients.",
-    "thesis": "The butter–margarine conflict is a history of category power. Once manufacturers could make one fat resemble another, lawmakers had to decide whether resemblance was useful competition or deception. Dairy interests used tax and colour rules to keep the substitute visibly separate; regulators later moved toward standards and labelling. The enduring lesson is that a product category is not a neutral description. It allocates trust, shelf access and economic advantage.",
+    "id": "le-bon-marche-modern-shopping",
+    "number": "054",
+    "readTime": "5 min",
+    "era": "1852–1900 · Paris",
+    "title": "Le Bon Marché did not invent desire. It built a retail system that made desire safe to explore.",
+    "deck": "Fixed prices, free entry, returns, catalogues and an iron-and-glass stage changed shopping from a guarded negotiation into an experience of browsing. The modern department store emerged when trust, scale and spectacle began reinforcing one another.",
+    "thesis": "Aristide and Marguerite Boucicaut's decisive innovation was not one clever promotion. It was a coherent operating model. Posted prices reduced suspicion, returns reduced the cost of a mistake, low margins and high turnover widened demand, catalogues extended the store beyond Paris, and culture gave people reasons to stay. Le Bon Marché showed that retail could grow by surrendering some control at the counter and designing an environment in which the customer felt free.",
     "sections": [
       {
-        "title": "A shortage created room for an engineered substitute",
-        "text": "Hippolyte Mège-Mouriès developed margarine in France in 1869 amid high butter prices and a government search for a cheaper, durable alternative. The early product used processed animal fat rather than today's familiar vegetable-oil formulations. Its achievement was functional: it could be churned into something consumers used in the same culinary role as butter. That made the invention valuable—and immediately political."
+        "title": "The old shop made the customer negotiate entry",
+        "text": "In mid-nineteenth-century Paris, many specialist shops kept goods behind a counter and prices inside the seller's head. Entering created an obligation to engage a clerk; haggling made the final price depend partly on the buyer's knowledge and appearance. That system worked for small inventories and repeat relationships. It was badly suited to a growing city, mass production and a new middle class that wanted choice without submitting to a private negotiation every time."
       },
       {
-        "title": "The threat was similarity, not just price",
-        "text": "Margarine entered the United States in the 1870s as an affordable spread and a use for meatpacking by-products. Dairy producers argued that sellers could colour and pass it off as butter. The concern mixed legitimate fraud prevention with protection of an established industry. If the substitute could occupy the same visual category, consumers might choose on price before they ever considered the production method."
+        "title": "The Boucicauts replaced bargaining with confidence",
+        "text": "After joining the small Bon Marché in 1852, Aristide and Marguerite Boucicaut assembled practices that changed the customer's risk. Prices were fixed and visible. Entry was free. Goods could be exchanged or returned. Lower margins were paired with faster turnover. Each rule made the next one more powerful: fixed prices made browsing less intimidating, returns made unfamiliar goods easier to try, and scale allowed the store to offer more variety at prices a small shop struggled to match."
       },
       {
-        "title": "Congress defined the category and taxed it",
-        "text": "The federal Oleomargarine Act of 1886 defined butter and oleomargarine, imposed a two-cent-per-pound tax on the substitute and licensed manufacturers and dealers. The House's historical account calls it the start of an era of commercial regulation. Product definition was doing economic work: by deciding which spread counted as butter, the state turned a naming dispute into a tax boundary."
+        "title": "The store became a destination, not a warehouse",
+        "text": "Le Bon Marché added concerts, a reading room, exhibitions and a picture gallery. Its expanding iron-and-glass building brought light across vast selling floors and made movement itself part of the experience. Merchandise could be compared across departments while the building created occasions to linger. The store was not merely wrapping goods in decoration. It was producing footfall, attention and social permission—especially for middle-class women—to occupy a public commercial space."
       },
       {
-        "title": "Colour became the battlefield",
-        "text": "Because margarine was naturally pale, yellow colouring made it more recognisable as a table spread—and more competitive with butter, which was itself sometimes coloured for consistency. Thirty-two states adopted anti-colour laws. Some tried to require deliberately unappealing colours such as pink; courts rejected the most extreme versions, while federal law later imposed a much heavier tax on yellow margarine. Appearance became regulated market access."
+        "title": "The catalogue detached the market from the building",
+        "text": "Catalogues preserved by France's national and municipal libraries show how the business reached beyond Paris. They were mailed to customers, organised around departments and annual exhibitions, and gradually evolved from lists of products and prices into visually ambitious objects. Mail order converted the store's trust into distance selling: the customer who could not enter the grand building could still encounter its assortment, prices and imagery at home."
       },
       {
-        "title": "Consumers finished the manufacturing at home",
-        "text": "Producers responded with white margarine packaged alongside yellow dye. Households could knead the colour through the product themselves, turning a legal constraint into a domestic ritual. The workaround is revealing: demand for the familiar appearance remained strong enough for consumers to perform the final production step. Regulation had separated products at the factory, but could not erase the category people carried in their heads."
+        "title": "Retail scale changed production as well as selling",
+        "text": "A department store needed steady flows of merchandise, coordinated departments, advertising, seasonal events and staff capable of serving large crowds. Clothing workshops appeared inside the store, while bulk buying and rapid turnover linked mass production to mass consumption. The commercial machine did not wait for desire to appear. It studied, staged and refreshed demand, then used purchasing scale to keep the assortment moving."
       },
       {
-        "title": "Standards gradually replaced visual punishment",
-        "text": "Federal food regulation increasingly relied on standards of identity and clear labelling rather than forcing substitutes to look unattractive. The FDA began establishing formal standards in 1939; margarine's standard specified what the product could contain and later required at least 80% fat. Federal taxes on coloured margarine ended in 1950, although state restrictions persisted longer. The regulatory question shifted from 'can this look like butter?' toward 'what is it, and is it labelled honestly?'"
-      },
-      {
-        "title": "Category design still decides who gets to compete",
-        "text": "Modern food debates about plant-based milk, meat alternatives and standards of identity repeat the same underlying contest. Incumbents argue that familiar words and appearances can mislead; challengers argue that functional similarity is precisely what gives consumers a useful choice. Margarine's history does not resolve every labelling dispute. It shows why these disputes become fierce: whoever defines the category influences not only language, but distribution, taxation, trust and the cost of entering the market."
+        "title": "The durable invention was permission to leave empty-handed",
+        "text": "Modern retail still rests on the bargain Le Bon Marché helped normalise: the customer may enter, compare and walk away, while the merchant gains more visits, more trust and a larger pool of future purchases. E-commerce has translated the same logic into transparent prices, search, reviews, free returns and personalised discovery. The lesson is not that spectacle always wins. It is that experience becomes commercially powerful when operational rules make curiosity feel low-risk."
       }
     ],
     "timeline": [
-      { "date": "1869", "text": "Hippolyte Mège-Mouriès develops and patents an early butter substitute in France." },
-      { "date": "1870s", "text": "Oleomargarine enters the U.S. market as an affordable butter alternative." },
-      { "date": "1886", "text": "Congress passes the Oleomargarine Act, defining the products and taxing the substitute." },
-      { "date": "Late 1800s", "text": "States adopt colour restrictions intended to keep margarine visually distinct from butter." },
-      { "date": "1902", "text": "Federal law raises the tax on artificially coloured oleomargarine to ten cents per pound." },
-      { "date": "1939–1941", "text": "Federal standards of identity expand, including a formal margarine standard." },
-      { "date": "1950", "text": "The United States repeals federal oleomargarine taxes and colour restrictions." }
+      { "date": "1838", "text": "The original Bon Marché opens as a small Parisian novelty shop." },
+      { "date": "1852", "text": "Aristide Boucicaut joins the business and begins developing the department-store model with Marguerite." },
+      { "date": "1865 onward", "text": "Surviving catalogues document the expansion of departments, mail order and commercial imagery." },
+      { "date": "1869–1872", "text": "Construction begins on a much larger store designed for scale, light and circulation." },
+      { "date": "1875", "text": "A picture gallery expands the store's role as a cultural and social destination." },
+      { "date": "1883", "text": "Émile Zola publishes Au Bonheur des Dames, drawing on the department-store system Le Bon Marché exemplified." },
+      { "date": "1888", "text": "The store occupies the full Paris block, embodying retail as urban institution." }
     ],
     "sources": [
-      { "label": "Nesta · the 1869 butter-substitute challenge", "url": "https://www.nesta.org.uk/feature/guide-historical-challenge-prizes/the-napoleon-iii-butter-substitute-prize/" },
-      { "label": "U.S. House History · the Oleomargarine Act of 1886", "url": "https://history.house.gov/Historical-Highlights/1851-1900/1886_07_23_Oleomargarine/" },
-      { "label": "National Conference of State Legislatures · margarine's colour laws", "url": "https://www.ncsl.org/resources/map-monday-margarines-colorful-past" },
-      { "label": "FDA · food standards and the 1906 Act", "url": "https://www.fda.gov/about-fda/histories-product-regulation/food-standards-and-1906-act" },
-      { "label": "FDA · standards of identity for food", "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/standards-identity-food" }
+      { "label": "Le Bon Marché heritage archive · the Boucicauts and their retail innovations", "url": "https://www.lebonmarche.com/en/magasin/culture/histoire-lebonmarche" },
+      { "label": "Bibliothèque nationale de France · department stores and modern commerce", "url": "https://www.bnf.fr/fr/mediatheque/les-grands-magasins-aux-sources-du-commerce-moderne" },
+      { "label": "Gallica / BnF · the surviving Bon Marché catalogue corpus", "url": "https://gallica.bnf.fr/selections/fr/html/histoire/les-catalogues-du-bon-marche" },
+      { "label": "Gallica / BnF · fashion, sociability and women in the department store", "url": "https://gallica.bnf.fr/selections/fr/html/histoire/les-catalogues-de-vetements-et-accessoires-du-bon-marche-bnf" },
+      { "label": "French Economy Ministry archives · advertising and customer catalogues", "url": "https://www.economie.gouv.fr/saef/document-du-mois/au-bonheur-des-dames" }
     ]
   },
   "threads": [
     {
-      "status": "Forming",
-      "title": "Qatar defence industry",
-      "text": "The priorities and institutional intent are public; partners, ownership, procurement and local engineering depth are the next evidence.",
-      "progress": 31
+      "status": "Launching",
+      "title": "Western Sydney gateway",
+      "text": "The route, aircraft and date are set; sales, catchment, cargo mix and the climb from three weekly to daily will reveal the economics.",
+      "progress": 34
     },
     {
-      "status": "Disrupted",
-      "title": "Gulf aviation continuity",
-      "text": "Qatar Airways is preserving reduced Jeddah access while Riyadh and Dammam remain suspended through 24 October.",
-      "progress": 44
+      "status": "Escalating",
+      "title": "Gulf air defence",
+      "text": "Britain is moving from enabling support into direct Saudi air patrols while Yemen's fighting and humanitarian risk intensify.",
+      "progress": 67
     },
     {
-      "status": "Fracturing",
+      "status": "Disclosing",
+      "title": "SpaceX economics",
+      "text": "Profit and revenue are now visible, but segment margins, capital intensity and any Tesla combination need much more evidence.",
+      "progress": 46
+    },
+    {
+      "status": "Fragile",
       "title": "U.S.–Ukraine support",
-      "text": "Sanctions, diesel policy, warning intelligence and Starshield access now all require separate confirmation of continuity.",
-      "progress": 24
+      "text": "Missile warning resumed, but ammunition, satellite constraints, sanctions policy and negotiating alignment remain unstable.",
+      "progress": 30
     },
     {
-      "status": "Deploying",
-      "title": "Physical AI",
-      "text": "The industrial thesis is moving into the foreground; measured factory outcomes and secure data architecture remain scarce.",
-      "progress": 53
-    },
-    {
-      "status": "Testing",
-      "title": "Qatar startup infrastructure",
-      "text": "Forty-seven QSTP companies are using the Microsoft pathway; customer, revenue and post-credit survival measures come next.",
-      "progress": 41
+      "status": "Unproven",
+      "title": "AI public-benefit ownership",
+      "text": "Anthropic has named an equity formula; approval, governance, liquidity and actual beneficiaries come next.",
+      "progress": 27
     }
   ]
 }

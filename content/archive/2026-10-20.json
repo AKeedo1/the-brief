@@ -1,0 +1,271 @@
+{
+  "date": { "display": "Tuesday, 20 October 2026", "edition": "053", "updated": "7:12 AM" },
+  "worldSentence": "Qatar is pairing a new regional defence initiative with local industrial capacity, while strained alliances, disrupted Gulf aviation and a narrow AI-led market rebound show how much today's resilience depends on systems that work under pressure.",
+  "standfirst": "Tuesday's edition follows Qatar's planned regional defence initiative and defence-industries centre, the deepening U.S.–Ukraine rupture, the deadliest Houthi strike on Yemeni government forces in years, Qatar Airways' extended Saudi suspensions, Nvidia's pitch for industrial AI and QSTP's Microsoft startup pathway. Curiosity Corner looks at a mirror array that helps neutral-atom quantum computers speak in photons. The Long View tells the butter–margarine battle as a history of product definition, lobbying and consumer perception.",
+  "listenTime": "24 min",
+  "coverage": [
+    { "count": 5, "label": "Qatar & Gulf" },
+    { "count": 3, "label": "World & security" },
+    { "count": 3, "label": "Economy & markets" },
+    { "count": 4, "label": "AI & technology" },
+    { "count": 3, "label": "Aviation & consumer" }
+  ],
+  "connected": {
+    "title": "The useful thread is operational resilience: the announcements matter, but the test is whether institutions can keep defending, flying, financing and producing when conditions deteriorate.",
+    "signals": [
+      { "label": "QATAR DEFENCE", "value": "Two plans", "text": "A regional capability initiative and a domestic defence-industries centre are promised; partners, capital and scope are still undisclosed." },
+      { "label": "SAUDI FLYING", "value": "24 Oct", "text": "Qatar Airways has extended Riyadh and Dammam suspensions and cut Jeddah from seven to four daily flights." },
+      { "label": "U.S.–UKRAINE", "value": "New low", "text": "Sanctions relief, Russian diesel purchases and disputed satellite constraints are pulling policy in different directions." },
+      { "label": "QSTP STARTUPS", "value": "47 live", "text": "Forty-seven incubated companies have begun using Microsoft's startup programme, up from 32 in August." }
+    ],
+    "note": "These developments are not one story. Together they distinguish declared capacity from usable capacity: a defence partnership needs command and procurement, an airline schedule needs safe airspace, industrial AI needs deployable workflows, and cloud credits need customers and products rather than merely eligibility."
+  },
+  "stories": [
+    {
+      "id": "qatar-defence-capability-initiative",
+      "number": "01",
+      "category": "Qatar, defence industry & regional security",
+      "sourceNote": "QNA · Monday",
+      "title": "Qatar will announce a regional defence initiative and a domestic defence-industries centre focused on air defence, drones, electronic warfare and cyber capability.",
+      "changed": "Deputy Prime Minister and Minister of State for Defence Affairs Sheikh Saoud bin Abdulrahman Al-Thani said Qatar had set three capability priorities and would soon unveil both a partnership with regional states and a defence-industries centre at home.",
+      "matters": "This moves Qatar's response to recent attacks beyond procurement toward coalition design and local industrial capacity. The economic question is whether the centre builds engineering, maintenance and intellectual-property depth or functions mainly as a vehicle for imported systems.",
+      "watch": "The partner countries, governance, funding, initial programmes, local-content requirements and whether the initiative integrates with existing U.S., British and French relationships. The plans are official; their scope and timetable are not yet disclosed.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "Qatar is turning recent security shocks into a capability and industrial-policy agenda.", "note": "The announcement sets priorities; the next disclosure will show whether the machinery matches them.", "break": false },
+      "background": {
+        "title": "Why the industrial centre matters more than another equipment announcement",
+        "text": "Qatar named air defence, counter-drone systems, electronic warfare and cybersecurity as linked priorities. Those fields depend on continuous integration: sensors must detect low-cost threats, software must classify them, command systems must share a picture and interceptors must be available at sustainable cost. A domestic centre could concentrate maintenance, testing, training and selected production while a regional partnership improves coverage and interoperability. It could also remain shallow if contracts do not transfer skills or create recurring local work. The distinction will be visible in programme ownership, engineering roles and what the centre can maintain without a foreign team permanently embedded.",
+        "known": "Qatar will announce a regional capability initiative and a defence-industries centre; Al Udeid continues to host U.S. forces and representatives from more than 20 countries.",
+        "new": "The government has publicly joined defence readiness, regional cooperation and domestic industrial development into one announced programme."
+      },
+      "evidence": {
+        "left": { "label": "Confirmed", "text": "The four capability areas, the forthcoming partnership and the planned centre were announced at Doha's Global Security Forum." },
+        "right": { "label": "Not yet known", "text": "Partners, budget, ownership, products, procurement commitments, local-content rules and delivery dates." }
+      },
+      "sources": [
+        { "label": "QNA · Qatar sets defence priorities and plans capability initiative", "url": "https://qna.org.qa/en/news/news-details?date=19%2F10%2F2026&id=deputy-prime-minister-and-minister-of-state-for-defense-qatar-continues-to-strengthen-its-defense-capabilities-while-upholding-mediation-dialogue" },
+        { "label": "Euronews · planned partnership and local production hub", "url": "https://www.euronews.com/2026/10/19/qatar-plans-new-defence-partnership-and-warns-of-energy-crisis-peak" }
+      ]
+    },
+    {
+      "id": "us-ukraine-alliance-fracture",
+      "number": "02",
+      "category": "Ukraine, Russia & U.S. policy",
+      "sourceNote": "AP · Monday night",
+      "title": "The U.S.–Ukraine relationship reached a new low as Washington waived Russia sanctions, pursued Russian diesel and left responsibility for military satellite constraints unresolved.",
+      "changed": "President Donald Trump said someone other than Volodymyr Zelenskyy might negotiate for Ukraine, after waiving a congressionally approved Russia-sanctions package; Ukraine also reported Starshield speed restrictions and no early warning before the latest Russian power-grid attack.",
+      "matters": "The pressure is no longer one policy disagreement. Sanctions, fuel purchases, intelligence warning and communications infrastructure are all moving in ways that could improve Russia's battlefield and negotiating position while leaving U.S. commitments difficult for allies to price.",
+      "watch": "Whether Congress challenges the waiver, who controls the Starshield limits, restoration of early warning, and any Trump–Putin–Xi meeting that excludes Kyiv. The policy moves and restrictions are reported; responsibility for the satellite limits remains publicly disputed.",
+      "lead": false,
+      "group": { "label": "World beyond the lead", "title": "An alliance is becoming uncertain across several systems at once.", "note": "The consequential question is not rhetoric but which forms of support remain dependable.", "break": true },
+      "sources": [
+        { "label": "AP · U.S.–Ukraine ties reach a new low", "url": "https://apnews.com/article/trump-zelenskyy-putin-ukraine-russia-war-5ff9a53edf6d0f338f40709af6dc9c11" }
+      ]
+    },
+    {
+      "id": "houthi-shabwa-strike-saudi-disruption",
+      "number": "03",
+      "category": "Yemen, Saudi Arabia & regional business",
+      "sourceNote": "AP · Monday",
+      "title": "A Houthi ballistic-missile strike killed at least 53 recruits in Shabwa as Saudi Arabia cancelled next week's global investment conference.",
+      "changed": "Yemeni officials said 200 more people were wounded in one of the deadliest attacks on government forces since the civil war's 2022 ceasefire; the Houthis acknowledged the camp strike and separately claimed six operations across Saudi Arabia.",
+      "matters": "The conflict is again imposing costs beyond the battlefield: air travel, schooling, investment events, oil facilities and confidence in Saudi operating continuity are now all exposed to the same escalation.",
+      "watch": "The death toll, Saudi and Yemeni military response, verification of the six claimed operations and whether cancelled events or remote schooling extend. The Shabwa casualties were reported by provincial authorities; several Saudi attack claims lacked independent confirmation.",
+      "lead": false,
+      "group": { "label": "Middle East", "title": "Yemen's renewed war is now disrupting Saudi civilian and commercial life.", "note": "Keep the confirmed camp casualties separate from unverified claims of additional operations.", "break": true },
+      "sources": [
+        { "label": "AP · Shabwa camp strike and Saudi disruption", "url": "https://apnews.com/article/yemen-houthis-saudi-fighting-6afad4ec4c22dcccd379152ea87cb0e2" }
+      ]
+    },
+    {
+      "id": "qatar-airways-saudi-suspensions-extended",
+      "number": "04",
+      "category": "Qatar Airways, network operations & regional aviation",
+      "sourceNote": "Qatar Airways / QNA · Monday",
+      "title": "Qatar Airways extended Riyadh and Dammam suspensions to 24 October and cut Jeddah service from seven to four daily flights.",
+      "changed": "The carrier prolonged two Saudi route suspensions and reduced Jeddah frequencies, telling booked passengers to contact it within 48 hours of departure because schedules remain subject to change.",
+      "matters": "This is more than a passenger-service update: repeated short extensions keep aircraft, crews, connections and commercial recovery in a rolling-planning regime. Jeddah's partial operation suggests the network is differentiating risk by airport rather than treating Saudi Arabia as one market.",
+      "watch": "The 24 October review, Riyadh airport conditions, Jeddah load factors, rebooking volumes and whether capacity is redeployed or held ready. The published schedule is confirmed; the cost and operational response have not been disclosed.",
+      "lead": false,
+      "group": { "label": "Aviation", "title": "The Saudi network remains in rolling disruption rather than a clean restart.", "note": "The useful operational signal is selective capacity, not the headline suspension alone.", "break": true },
+      "background": {
+        "title": "Why a four-day extension still creates a long planning problem",
+        "text": "Airlines cannot optimise a disrupted regional network one flight at a time. A suspension affects aircraft rotations, crew legality, airport slots, connecting banks, cargo commitments, customer reaccommodation and the availability of spare capacity elsewhere. Short review windows preserve flexibility when security conditions are changing, but they also postpone the stable schedule needed to sell, roster and route efficiently. Keeping four daily Jeddah flights while suspending Riyadh and Dammam is therefore informative: Qatar Airways is preserving access where it judges operations possible instead of abandoning the whole market. The next question is how long that selective pattern can be sustained without growing cost or passenger uncertainty.",
+        "known": "Riyadh and Dammam are suspended through 24 October; Jeddah is reduced from seven daily flights to four; passengers were told schedules may change.",
+        "new": "The disruption has moved into another planning cycle and the carrier is now publishing differentiated Saudi capacity."
+      },
+      "evidence": {
+        "left": { "label": "Network fact", "text": "Two stations remain suspended and one retains a reduced schedule rather than closing completely." },
+        "right": { "label": "Commercial unknown", "text": "No public figures yet for displaced bookings, incremental costs, lost revenue or aircraft redeployment." }
+      },
+      "sources": [
+        { "label": "QNA · Qatar Airways extends Saudi schedule changes", "url": "https://qna.org.qa/en/news/news-details?id=qatar-airways-extends-suspension-of-flights-to-and-from-riyadh-and-dammam-until-october-24&date=19/10/2026" }
+      ]
+    },
+    {
+      "id": "nvidia-germany-physical-ai",
+      "number": "05",
+      "category": "Industrial AI, manufacturing & European competitiveness",
+      "sourceNote": "AP · Monday",
+      "title": "Nvidia told German manufacturers to treat factory data and engineering expertise as the raw material for physical AI—not as assets separate from the digital economy.",
+      "changed": "At an investment summit with Chancellor Friedrich Merz, Jensen Huang argued that the next AI wave will be robotics, cars and heavy industry, and that specialised midsized manufacturers can use their own data to re-engineer production.",
+      "matters": "This is a sharper adoption thesis than selling chatbots: firms with proprietary process data and machinery know-how may have an advantage that model labs lack. The constraint is turning that data into reliable factory systems without surrendering sensitive information or becoming dependent on foreign compute platforms.",
+      "watch": "Named deployments, measurable productivity, data-governance architecture, European compute capacity and whether small manufacturers can afford integration. The strategic pitch is clear; new investment or adoption results were not announced.",
+      "lead": false,
+      "group": { "label": "Technology & business", "title": "The next AI contest may be fought inside factories rather than browsers.", "note": "Industrial data is potentially valuable, but only if it can be cleaned, connected and used safely in production.", "break": true },
+      "background": {
+        "title": "Why physical AI changes the advantage map",
+        "text": "A general model can write or summarise without knowing the exact tolerances of a machine tool, the failure signature of a pump or the sequence that keeps a production line balanced. Industrial firms accumulate that tacit knowledge in sensor streams, maintenance records, engineering drawings and experienced workers. Connecting it to robotics and simulation could improve inspection, predictive maintenance, scheduling and design. Germany's Mittelstand is rich in precisely this kind of specialised knowledge. Yet the integration burden is heavy: old equipment, fragmented data, safety certification and cyber risk can make a promising pilot difficult to scale. The durable advantage will belong to companies that turn domain knowledge into repeatable operating systems, not those that merely buy more chips.",
+        "known": "Huang explicitly framed robotics, manufacturing, cars and heavy industry as the next AI wave and urged Germany to use its industrial data.",
+        "new": "Nvidia's public European pitch has moved from compute infrastructure toward a national industrial-adoption argument."
+      },
+      "evidence": {
+        "left": { "label": "Structural asset", "text": "Germany has deep manufacturing expertise, specialised suppliers and proprietary machine-readable industrial data." },
+        "right": { "label": "Execution gap", "text": "No new deployment, productivity figure or investment commitment was attached to Monday's argument." }
+      },
+      "sources": [
+        { "label": "AP · Nvidia urges German industry to adopt physical AI", "url": "https://apnews.com/article/jensen-huang-nvidia-merz-germany-economy-artificial-intelligence-f024c1e0d181677a19468657907a9025" }
+      ]
+    },
+    {
+      "id": "qstp-microsoft-startup-pathway",
+      "number": "06",
+      "category": "Qatar startups, cloud infrastructure & market access",
+      "sourceNote": "QSTP / QNA · Monday",
+      "title": "QSTP integrated Microsoft for Startups into its incubator pathway, with 47 companies already using the programme and up to $200,000 in conditional Azure credits available per eligible startup.",
+      "changed": "QSTP said it nominated 105 incubated companies, while active participation rose from 32 in August to 47; the package also includes AI infrastructure, developer tools, engineering sessions and market-access support.",
+      "matters": "The useful part is not free cloud alone but lower early-stage friction across infrastructure, technical support and customer access. The risk is measuring ecosystem success by headline credit value rather than products shipped, revenue earned and companies that survive after subsidies expire.",
+      "watch": "Credit utilisation, eligibility, customer introductions, follow-on funding and the number of participating firms that reach paying users. The maximum $4.7–9.4 million aggregate value is potential access, not guaranteed spending.",
+      "lead": false,
+      "group": { "label": "Entrepreneurship", "title": "Qatar's incubator is turning a global startup programme into a local operating pathway.", "note": "The next evidence should be product and customer outcomes, not nominations.", "break": true },
+      "sources": [
+        { "label": "QNA · QSTP and Microsoft startup programme", "url": "https://qna.org.qa/en/news/news-details?id=qstp-partners-with-microsoft-to-boost-startup-support&date=19/10/2026" }
+      ]
+    },
+    {
+      "id": "ai-led-market-rebound-narrow",
+      "number": "07",
+      "category": "Markets, AI concentration & energy",
+      "sourceNote": "AP · Tuesday",
+      "title": "Wall Street's rebound remained narrow: the Nasdaq rose 1.1% on AI strength while most U.S. stocks fell, the 10-year yield reached 5.14% and Asian markets opened lower.",
+      "changed": "Nvidia helped lift the S&P 500 by 0.4%, but the Dow slipped and South Korea's Kospi fell 2.8% in early Tuesday trading; Brent remained near $109.47 as investors waited for major technology earnings.",
+      "matters": "A rising headline index can hide weaker breadth and a more expensive financing environment. When AI capital spending is increasingly debt-funded, high long yields and earnings concentration make the market more sensitive to evidence that revenue is not catching up with investment.",
+      "watch": "This week's technology earnings, capital-spending guidance, market breadth and the interaction between oil-driven inflation and bond yields. The prices are observed; whether they mark a lasting valuation reset is unknown.",
+      "lead": false,
+      "group": { "label": "Markets", "title": "AI can lift the index while the rest of the market remains cautious.", "note": "Breadth, financing cost and earnings quality matter more than one rebound session.", "break": true },
+      "sources": [
+        { "label": "AP · Asian shares fall after a narrow Wall Street rebound", "url": "https://apnews.com/article/stock-markets-oil-ai-rates-inflation-b972b64127db5412a2b02c35ecf95c88" }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Curiosity Corner",
+      "title": "A quantum computer can be easier to scale when every atom gets its own tiny hall of mirrors.",
+      "text": "Neutral-atom qubits are difficult to read because single atoms emit little light and send it in every direction. Stanford researchers built an array of optical cavities that uses microlenses and mirrors to collect photons from many atoms in parallel: 40 cavities were demonstrated with atoms, alongside a prototype exceeding 500 cavities. The cavities are not a million-qubit machine, but they address a concrete bottleneck—getting information out quickly enough to network modules. Nature highlighted the work on Monday; the original study appeared earlier in 2026.",
+      "url": "https://news.stanford.edu/stories/2026/01/optical-cavity-array-light-based-platform-quantum-supercomputers"
+    },
+    {
+      "label": "Consumer signal",
+      "title": "U.S. restaurant sales rose for an eighth month, but inflation and fuel costs make the topline less comforting than it looks.",
+      "text": "September eating-and-drinking-place sales reached a seasonally adjusted $92.9 billion, up 1.1% from August and 7% from a year earlier, according to data published last week. The figures are not adjusted for inflation, while gasoline-station receipts jumped 6.4%. For operators, the watchpoint is traffic and real spending: nominal resilience does not guarantee better unit economics when customers and input costs are both under pressure.",
+      "url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/economic-indicators/total-restaurant-industry-sales"
+    }
+  ],
+  "attention": {
+    "title": "Open Qatar's defence priorities as an industrial-policy announcement, not only a security headline.",
+    "text": "The primary QNA account names the capability areas, the forthcoming regional initiative and the planned domestic centre. Those details make it the best document for judging what Qatar has actually committed to—and what remains announcement-stage.",
+    "url": "https://qna.org.qa/en/news/news-details?date=19%2F10%2F2026&id=deputy-prime-minister-and-minister-of-state-for-defense-qatar-continues-to-strengthen-its-defense-capabilities-while-upholding-mediation-dialogue"
+  },
+  "ignore": {
+    "title": "Ignore the idea that Monday's AI-stock rebound settled the market's concern about AI investment.",
+    "text": "The Nasdaq rose, but most U.S. stocks declined, Asian markets opened weaker and long-term yields climbed. One concentrated rebound cannot answer whether the earnings produced by AI capital spending justify its financing cost."
+  },
+  "history": {
+    "id": "margarine-butter-regulation",
+    "number": "053",
+    "readTime": "6 min",
+    "era": "1869–1950 · France and the United States",
+    "title": "Margarine became a mass product only after surviving a political fight over what consumers were allowed to see.",
+    "deck": "A cheap butter substitute threatened dairy producers not simply because it cost less, but because it could look the same. The resulting taxes, colour bans and product definitions show how markets are shaped by labels and visual identity as much as by ingredients.",
+    "thesis": "The butter–margarine conflict is a history of category power. Once manufacturers could make one fat resemble another, lawmakers had to decide whether resemblance was useful competition or deception. Dairy interests used tax and colour rules to keep the substitute visibly separate; regulators later moved toward standards and labelling. The enduring lesson is that a product category is not a neutral description. It allocates trust, shelf access and economic advantage.",
+    "sections": [
+      {
+        "title": "A shortage created room for an engineered substitute",
+        "text": "Hippolyte Mège-Mouriès developed margarine in France in 1869 amid high butter prices and a government search for a cheaper, durable alternative. The early product used processed animal fat rather than today's familiar vegetable-oil formulations. Its achievement was functional: it could be churned into something consumers used in the same culinary role as butter. That made the invention valuable—and immediately political."
+      },
+      {
+        "title": "The threat was similarity, not just price",
+        "text": "Margarine entered the United States in the 1870s as an affordable spread and a use for meatpacking by-products. Dairy producers argued that sellers could colour and pass it off as butter. The concern mixed legitimate fraud prevention with protection of an established industry. If the substitute could occupy the same visual category, consumers might choose on price before they ever considered the production method."
+      },
+      {
+        "title": "Congress defined the category and taxed it",
+        "text": "The federal Oleomargarine Act of 1886 defined butter and oleomargarine, imposed a two-cent-per-pound tax on the substitute and licensed manufacturers and dealers. The House's historical account calls it the start of an era of commercial regulation. Product definition was doing economic work: by deciding which spread counted as butter, the state turned a naming dispute into a tax boundary."
+      },
+      {
+        "title": "Colour became the battlefield",
+        "text": "Because margarine was naturally pale, yellow colouring made it more recognisable as a table spread—and more competitive with butter, which was itself sometimes coloured for consistency. Thirty-two states adopted anti-colour laws. Some tried to require deliberately unappealing colours such as pink; courts rejected the most extreme versions, while federal law later imposed a much heavier tax on yellow margarine. Appearance became regulated market access."
+      },
+      {
+        "title": "Consumers finished the manufacturing at home",
+        "text": "Producers responded with white margarine packaged alongside yellow dye. Households could knead the colour through the product themselves, turning a legal constraint into a domestic ritual. The workaround is revealing: demand for the familiar appearance remained strong enough for consumers to perform the final production step. Regulation had separated products at the factory, but could not erase the category people carried in their heads."
+      },
+      {
+        "title": "Standards gradually replaced visual punishment",
+        "text": "Federal food regulation increasingly relied on standards of identity and clear labelling rather than forcing substitutes to look unattractive. The FDA began establishing formal standards in 1939; margarine's standard specified what the product could contain and later required at least 80% fat. Federal taxes on coloured margarine ended in 1950, although state restrictions persisted longer. The regulatory question shifted from 'can this look like butter?' toward 'what is it, and is it labelled honestly?'"
+      },
+      {
+        "title": "Category design still decides who gets to compete",
+        "text": "Modern food debates about plant-based milk, meat alternatives and standards of identity repeat the same underlying contest. Incumbents argue that familiar words and appearances can mislead; challengers argue that functional similarity is precisely what gives consumers a useful choice. Margarine's history does not resolve every labelling dispute. It shows why these disputes become fierce: whoever defines the category influences not only language, but distribution, taxation, trust and the cost of entering the market."
+      }
+    ],
+    "timeline": [
+      { "date": "1869", "text": "Hippolyte Mège-Mouriès develops and patents an early butter substitute in France." },
+      { "date": "1870s", "text": "Oleomargarine enters the U.S. market as an affordable butter alternative." },
+      { "date": "1886", "text": "Congress passes the Oleomargarine Act, defining the products and taxing the substitute." },
+      { "date": "Late 1800s", "text": "States adopt colour restrictions intended to keep margarine visually distinct from butter." },
+      { "date": "1902", "text": "Federal law raises the tax on artificially coloured oleomargarine to ten cents per pound." },
+      { "date": "1939–1941", "text": "Federal standards of identity expand, including a formal margarine standard." },
+      { "date": "1950", "text": "The United States repeals federal oleomargarine taxes and colour restrictions." }
+    ],
+    "sources": [
+      { "label": "Nesta · the 1869 butter-substitute challenge", "url": "https://www.nesta.org.uk/feature/guide-historical-challenge-prizes/the-napoleon-iii-butter-substitute-prize/" },
+      { "label": "U.S. House History · the Oleomargarine Act of 1886", "url": "https://history.house.gov/Historical-Highlights/1851-1900/1886_07_23_Oleomargarine/" },
+      { "label": "National Conference of State Legislatures · margarine's colour laws", "url": "https://www.ncsl.org/resources/map-monday-margarines-colorful-past" },
+      { "label": "FDA · food standards and the 1906 Act", "url": "https://www.fda.gov/about-fda/histories-product-regulation/food-standards-and-1906-act" },
+      { "label": "FDA · standards of identity for food", "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/standards-identity-food" }
+    ]
+  },
+  "threads": [
+    {
+      "status": "Forming",
+      "title": "Qatar defence industry",
+      "text": "The priorities and institutional intent are public; partners, ownership, procurement and local engineering depth are the next evidence.",
+      "progress": 31
+    },
+    {
+      "status": "Disrupted",
+      "title": "Gulf aviation continuity",
+      "text": "Qatar Airways is preserving reduced Jeddah access while Riyadh and Dammam remain suspended through 24 October.",
+      "progress": 44
+    },
+    {
+      "status": "Fracturing",
+      "title": "U.S.–Ukraine support",
+      "text": "Sanctions, diesel policy, warning intelligence and Starshield access now all require separate confirmation of continuity.",
+      "progress": 24
+    },
+    {
+      "status": "Deploying",
+      "title": "Physical AI",
+      "text": "The industrial thesis is moving into the foreground; measured factory outcomes and secure data architecture remain scarce.",
+      "progress": 53
+    },
+    {
+      "status": "Testing",
+      "title": "Qatar startup infrastructure",
+      "text": "Forty-seven QSTP companies are using the Microsoft pathway; customer, revenue and post-credit survival measures come next.",
+      "progress": 41
+    }
+  ]
+}
