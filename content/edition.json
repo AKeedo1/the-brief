@@ -1,250 +1,246 @@
 {
-  "date": { "display": "Wednesday, 21 October 2026", "edition": "054", "updated": "7:05 AM" },
-  "worldSentence": "Qatar Airways is opening a second Sydney gateway while Britain moves combat aircraft into Saudi air defence and SpaceX's first post-IPO earnings reveal an AI company growing inside a space company.",
-  "standfirst": "Wednesday's edition leads with Qatar Airways' Western Sydney route, then follows Britain's defensive air deployment to Saudi Arabia, a profitable but capital-hungry SpaceX, restored U.S. missile warning for Ukraine, broader U.S. market gains and Anthropic's attempt to give an AI fortune a public-benefit claim. Curiosity Corner meets a giant fungus from Yunnan. The Long View explains how Le Bon Marché turned shopping from a negotiated purchase into a place people could browse, trust and desire.",
+  "date": { "display": "Thursday, 22 October 2026", "edition": "055", "updated": "7:10 AM" },
+  "worldSentence": "A deadly attack at Dammam airport shows Gulf aviation risk spreading even as Riyadh cautiously reopens, while new AI-infrastructure and climate reports turn distant ambitions into harder questions about delivery.",
+  "standfirst": "Thursday's edition leads with the attack on King Fahd International Airport and the partial reopening of Riyadh, then follows Qatar's 2027 budget process, renewed Ukraine talks, NVIDIA's containerised AI factories, UNEP's emissions arithmetic and APEC's warning on economic imbalances. Curiosity Corner finds invisible traces of an eland in 60,000-year-old ochre. The Long View explains how medieval ports invented quarantine to keep trade moving without pretending risk had disappeared.",
   "listenTime": "18 min",
   "coverage": [
     { "count": 4, "label": "Qatar & Gulf" },
     { "count": 3, "label": "World & security" },
     { "count": 3, "label": "Economy & markets" },
     { "count": 3, "label": "AI & technology" },
-    { "count": 3, "label": "Aviation & consumer" }
+    { "count": 2, "label": "Aviation & consumer" }
   ],
   "connected": {
-    "title": "The useful thread is expansion under constraint: networks are still growing, but capital, air defence, airport access and public legitimacy now shape what can actually scale.",
+    "title": "The useful thread is the distance between announcing a system and making it dependable under pressure.",
     "signals": [
-      { "label": "WESTERN SYDNEY", "value": "3 weekly", "text": "Qatar Airways will start Doha–Western Sydney in December 2027 and says it intends to build toward daily service." },
-      { "label": "SAUDI DEFENCE", "value": "RAF Typhoons", "text": "Britain will fly defensive counter-air missions over Saudi Arabia while extending refuelling support." },
-      { "label": "SPACEX Q3", "value": "$4.4bn", "text": "Quarterly profit arrived alongside $14.6 billion of revenue and $19.6 billion of capital spending." },
-      { "label": "ANTHROPIC FUND", "value": "5% stake", "text": "The promised equity is material, but approval, governance, beneficiaries and distribution remain unsettled." }
+      { "label": "DAMMAM AIRPORT", "value": "1 killed", "text": "Eight people were also injured and flights diverted after a late-Wednesday attack whose perpetrator was not immediately identified." },
+      { "label": "QATAR BUDGET", "value": "2027 draft", "text": "Cabinet approved the draft general budget law and referred it to the Shura Council; the fiscal numbers are not yet public." },
+      { "label": "AI DEPLOYMENT", "value": "14 days", "text": "NVIDIA says a prepared site can connect its factory-built DSX POD in as little as two weeks, versus six months for conventional onsite integration." },
+      { "label": "CLIMATE GAP", "value": "45% by 2035", "text": "UNEP says that cut from 2025 emissions is needed for its lowest-overshoot path back toward 1.5°C; current national pledges fall far short." }
     ],
-    "note": "These are separate developments, not one grand narrative. Together they show why an announcement is only the beginning: a route must fill and connect, air patrols need durable rules and basing, growth must outrun capital consumption, and a social promise needs governance that survives scrutiny."
+    "note": "These are separate developments, not one master story. Each exposes an implementation gap: an airport can reopen while the network remains unsafe, a budget can advance before its assumptions are visible, hardware can arrive before power and demand are ready, and a climate target can survive on paper while near-term policy misses it."
   },
   "stories": [
     {
-      "id": "qatar-airways-western-sydney",
+      "id": "saudi-airports-escalation",
       "number": "01",
-      "category": "Qatar Airways, network strategy & Australian tourism",
-      "sourceNote": "Qatar Airways / Australian government · Tuesday night",
-      "title": "Qatar Airways will make Western Sydney its seventh Australian gateway, launching three weekly Doha flights in December 2027 with an intention to grow to daily service.",
-      "changed": "The airline committed a Boeing 777-300ER service from 15 December 2027, using Western Sydney's round-the-clock airport and adding a second Sydney-area gateway alongside the existing Kingsford Smith operation.",
-      "matters": "The route is a network bet, not merely another destination: it targets a large western-Sydney catchment, creates direct cargo access and can feed Doha through the Virgin Australia partnership without depending entirely on constrained central-Sydney slots.",
-      "watch": "Ticket sales from 19 December 2026, the path from three weekly flights to daily, traffic mix, cargo demand, connection quality and whether the new service grows the market or mainly redistributes passengers from Sydney Airport. The launch and initial schedule are confirmed; the ramp-up economics are not public.",
+      "category": "Saudi Arabia, Gulf aviation & regional security",
+      "sourceNote": "Saudi aviation authority / AP · early Thursday",
+      "title": "An attack on Dammam's King Fahd airport killed one person and injured eight as Riyadh airport began a limited domestic reopening and the U.S. ordered some personnel to leave Saudi Arabia.",
+      "changed": "Flights were diverted from Dammam after the late-Wednesday strike caused material damage; separately, Saudia and Flynas restarted a limited number of Riyadh flights with prior permission after King Khalid airport's closure since 10 October.",
+      "matters": "This is no longer a disruption confined to one airport. The attack reached Saudi Arabia's eastern aviation gateway near Bahrain and Qatar, while diplomatic departures and continued foreign-airline suspensions show that operational confidence is deteriorating faster than a partial reopening can restore it.",
+      "watch": "Who carried out the Dammam attack, the airport's operating status, further diversions or closures, restrictions on international carriers and whether air-defence deployments reduce successful strikes. The casualties and damage are official; attribution was not available at publication time.",
       "lead": true,
-      "group": { "label": "The lead", "title": "Qatar Airways is treating a new airport as a second gateway, not a substitute for Sydney.", "note": "The commercial test is whether Western Sydney creates new catchment and connection value before frequency reaches daily scale.", "break": false },
+      "group": { "label": "The lead", "title": "Saudi aviation is reopening one node while another comes under attack.", "note": "The key measure is not whether a runway accepts a few flights, but whether airlines can plan a stable network across the Gulf.", "break": false },
       "background": {
-        "title": "Why three weekly flights can still be a strategic foothold",
-        "text": "A second airport changes more than the pin on a route map. Western Sydney International can operate around the clock, offering arrival and departure times that are difficult at slot-constrained Sydney Airport. The surrounding catchment also reduces surface travel for western-Sydney residents and gives exporters another cargo path through Doha. Yet three weekly flights do not provide the convenience of a daily business schedule, and a late-evening arrival followed by a next-day departure complicates aircraft utilisation. The launch therefore looks like a staged demand test: secure the airport position, learn the passenger and cargo mix, coordinate with Virgin Australia, then add frequency if the economics hold.",
-        "known": "The route begins on 15 December 2027 with three weekly 777-300ER flights, 42 business seats, 312 economy seats and free Starlink; tickets are due on sale from 19 December 2026.",
-        "new": "Qatar Airways has moved from bilateral access and partnership expansion to a dated, scheduled commitment at Australia's newest major airport."
+        "title": "A partial reopening does not yet restore a network",
+        "text": "Riyadh's King Khalid airport reopened to a small number of domestic flights after more than a week of closure and repeated Houthi strikes. The permission-based restart lets Saudi carriers test operations, but major international airlines remain suspended and every schedule change pushes passengers, crews and aircraft into other hubs. The later attack on King Fahd airport widened the problem geographically. Dammam serves the Eastern Province and sits close to Bahrain and Qatar; diversions there can ripple through regional connections even when neighbouring airspace remains open. The United States' ordered departure of nonessential embassy staff and government families adds a separate signal: official risk assessments are moving beyond travel inconvenience toward escalation planning.",
+        "known": "Saudi authorities reported one death, eight injuries and material damage at King Fahd airport; Riyadh handled a limited number of domestic flights on Wednesday; the U.S. ordered some personnel and families to depart.",
+        "new": "The airport threat has spread from repeated strikes on Riyadh to a fatal attack on the eastern gateway at Dammam just as the capital began reopening."
       },
       "evidence": {
-        "left": { "label": "Confirmed network move", "text": "Western Sydney becomes the carrier's seventh Australian gateway and its second airport serving the Sydney market." },
-        "right": { "label": "Commercial unknown", "text": "No public forecast yet for load factors, yields, cargo contribution, incremental passengers or the timing of daily service." }
+        "left": { "label": "Operational progress", "text": "Saudia and Flynas resumed limited Riyadh flights under prior-permission rules." },
+        "right": { "label": "Wider instability", "text": "Dammam suffered casualties and diversions, foreign carriers remain suspended and Washington reduced its Saudi presence." }
       },
       "sources": [
-        { "label": "Qatar Airways · Western Sydney route announcement and schedule", "url": "https://www.qatarairways.com/press-releases/en-WW/273619-qatar-airways-to-increase-connectivity-to-australia-with-flights-to-western-sydney-international-airport-in-2027/" },
-        { "label": "Australian government · route support and on-sale date", "url": "https://minister.infrastructure.gov.au/c-king/media-release/wheels-destination-doha" },
-        { "label": "QNA · Western Sydney becomes the seventh Australian gateway", "url": "https://qna.org.qa/en/news/news-details?date=21/10/2026&id=qatar-airways-set-to-operate-direct-service-to-western-sydney-international-airport-in-2027" }
+        { "label": "AP · Dammam casualties, Riyadh reopening and airline suspensions", "url": "https://apnews.com/article/mideast-yemen-saudi-israel-gaza-october-21-2026-f9b9c553a5b3c8c5be1d75b94" },
+        { "label": "AP · U.S. ordered departure from Saudi Arabia", "url": "https://apnews.com/article/us-saudi-arabia-yemen-houthis-fa9a4806bff404a23a16a8c209afbd2b" }
       ]
     },
     {
-      "id": "uk-typhoons-saudi-defence",
+      "id": "qatar-2027-budget-draft",
       "number": "02",
-      "category": "Saudi Arabia, Yemen & Gulf air defence",
-      "sourceNote": "UK Ministry of Defence / AP · Tuesday",
-      "title": "Britain will fly RAF Typhoons on defensive counter-air missions over Saudi Arabia as Houthi attacks intensify and the Shabwa camp death toll rises to 73.",
-      "changed": "The U.K. added fighter patrols, an A400M transport and military advisers, while extending refuelling support; it says its jets may intercept drones and missiles but will not strike Houthi ground targets.",
-      "matters": "A European ally is moving from equipment and support into direct Saudi airspace defence. That can improve interception capacity, but it also places British crews inside an escalation in which defensive patrols, refuelling and Saudi strikes are operationally adjacent even when legally distinguished.",
-      "watch": "Basing, force size, rules of engagement, the duration of patrols, whether airport disruption eases and whether Houthi attacks or the siege of Taiz intensify. The British role is official; its operational scale and effect are not yet disclosed.",
+      "category": "Qatar fiscal policy & Gulf energy cooperation",
+      "sourceNote": "Qatar News Agency · Wednesday",
+      "title": "Qatar's Cabinet approved the draft 2027 general budget law and sent it to the Shura Council, while also approving an energy-cooperation memorandum with Saudi Arabia.",
+      "changed": "The annual fiscal process moved into legislative review alongside implementing rules for the 2026 Owners' Association law and several bilateral memoranda.",
+      "matters": "The budget will set the state's spending and revenue assumptions for a year shaped by volatile energy prices and regional security costs. For now, the procedural milestone matters more than any inference about the fiscal stance because no headline figures were released.",
+      "watch": "Publication of revenue, expenditure, surplus or deficit assumptions; sector allocations; the hydrocarbon-price premise; Shura Council review; and the scope of the Saudi energy memorandum. Approval of the draft is confirmed; its numbers and policy trade-offs remain unknown.",
       "lead": false,
-      "group": { "label": "The Gulf", "title": "Saudi air defence is becoming more explicitly multinational.", "note": "The word defensive is important, but so is the widening chain of support around the air campaign.", "break": true },
-      "background": {
-        "title": "The deployment widens Britain's role without declaring an offensive mission",
-        "text": "The Ministry of Defence drew a bright line around the Typhoons: they will defend Saudi cities, civilians and critical infrastructure by intercepting airborne threats, not attack Houthi positions on the ground. The wider package is less simple. Britain is also extending aerial refuelling for Saudi defensive operations that can include degrading Houthi military targets in Yemen, while advisers support Saudi staff work and an A400M moves materiel. Operationally, this creates a layered contribution from warning and interception to logistics and endurance. Politically, the distinction between direct defence and support for strikes will matter if civilian harm, mission duration or retaliation grows.",
-        "known": "RAF Typhoons will conduct defensive counter-air missions; an A400M, advisers and extended refuelling support are part of the package.",
-        "new": "Britain has committed its own fighters to patrol Saudi airspace rather than limiting support to equipment, training and enabling functions."
-      },
-      "evidence": {
-        "left": { "label": "Declared limit", "text": "The U.K. says its Typhoons will intercept drones and missiles and will not conduct offensive ground strikes." },
-        "right": { "label": "Escalation risk", "text": "The deployment sits alongside refuelling support, rising casualties in Yemen and attacks on Saudi airports and infrastructure." }
-      },
+      "group": { "label": "Qatar", "title": "The 2027 budget has entered review, but the useful information will be in the numbers.", "note": "Treat this as a procedural signal until the fiscal assumptions and allocations are published.", "break": true },
       "sources": [
-        { "label": "UK Ministry of Defence · operational update on Saudi support", "url": "https://www.gov.uk/government/news/operational-update-20-october-uk-military-support-to-the-kingdom-of-saudi-arabia" },
-        { "label": "AP · British deployment, Shabwa toll and Taiz siege", "url": "https://apnews.com/article/mideast-yemen-saudi-israel-gaza-october-20-2026-6f69abd6470c9b43b75de7b223011486" }
+        { "label": "QNA · Cabinet meeting and 2027 draft budget referral", "url": "https://qna.org.qa/en/news/news-details?date=21/10/2026&id=cabinet-holds-weekly-meeting" }
       ]
     },
     {
-      "id": "spacex-profit-ai-capex",
+      "id": "ukraine-trilateral-talks-return",
       "number": "03",
-      "category": "AI infrastructure, space communications & capital markets",
-      "sourceNote": "SpaceX / AP · Tuesday after market",
-      "title": "SpaceX reported a $4.4 billion quarterly profit as AI became its largest revenue business, but capital spending nearly tripled to $19.6 billion.",
-      "changed": "Third-quarter revenue rose 161% to $14.6 billion and the company reversed a year-earlier loss; Musk also confirmed separate SpaceX and Tesla board committees are discussing a possible combination while cautioning that a merger is not certain.",
-      "matters": "The results expose the economics behind the new AI–space conglomerate story: Starlink remains the biggest profit generator, AI now leads revenue, and enormous capital expenditure is required to support compute, satellites and Starship. Growth is real, but so is the financing burden and governance complexity.",
-      "watch": "Fourth-quarter spending of $35–40 billion, segment margins, Starlink growth, next month's attempted full Starship catch and what independent committees actually propose on Tesla. The earnings are reported; a merger remains exploratory.",
+      "category": "Ukraine, diplomacy & European security",
+      "sourceNote": "AP · Wednesday",
+      "title": "Russia agreed to resume three-way talks with Ukraine and the United States in November, potentially the first such negotiations since February.",
+      "changed": "The Kremlin accepted technical-level talks focused on a postwar security system after Steve Witkoff met Vladimir Putin; Volodymyr Zelenskyy publicly supported restarting negotiations quickly.",
+      "matters": "A functioning channel can test security arrangements and prepare leader-level talks, but the previous rounds produced little beyond prisoner exchanges and the parties' core territorial and security positions remain far apart.",
+      "watch": "A confirmed date and venue, Ukrainian participation, the written agenda, ceasefire sequencing and whether talks produce anything beyond prisoner exchanges. Agreement to meet is reported by the Kremlin and welcomed by Kyiv; a settlement framework does not yet exist.",
       "lead": false,
-      "group": { "label": "Technology & capital", "title": "SpaceX's first major earnings signal looks strong—and far more capital-intensive than the profit headline.", "note": "The revealing comparison is not profit versus loss, but profit versus the scale of reinvestment needed to keep the system growing.", "break": true },
+      "group": { "label": "World beyond the Gulf", "title": "Diplomacy has a channel again, not a breakthrough.", "note": "The first evidence of progress will be a durable agenda and reciprocal steps, not the meeting announcement itself.", "break": true },
+      "sources": [
+        { "label": "AP · Russia agrees to resume U.S.–Ukraine three-way talks", "url": "https://apnews.com/article/russia-ukraine-witkoff-putin-trump-zelenskyy-talks-3f00c0c6fd10bab948c2c3f8502e0a91" }
+      ]
+    },
+    {
+      "id": "nvidia-dsx-pod-ai-factories",
+      "number": "04",
+      "category": "AI infrastructure, industrial systems & capital deployment",
+      "sourceNote": "NVIDIA · Wednesday",
+      "title": "NVIDIA introduced factory-built DSX POD data centres that it says can connect at a prepared site in as little as 14 days, turning AI infrastructure into a repeatable manufactured product.",
+      "changed": "The Vera Rubin systems, networking, rack power and liquid cooling are integrated and tested inside purpose-built containers before shipment; partners including Dell, HPE, Lenovo, Schneider Electric and Vertiv plan deliveries in early 2027.",
+      "matters": "Moving integration from the construction site to a factory can shorten time to revenue and reduce specialised onsite work. It also shifts the bottleneck: the customer still needs power, cooling interfaces, networking, permits, financing and enough workload demand before the container arrives.",
+      "watch": "First commercial deployments, actual time from order to production, power density, reliability, price per useful token and whether prepared sites—not equipment assembly—become the binding constraint. The design and partner roster are announced; the 14-day figure is NVIDIA's forward-looking claim.",
+      "lead": false,
+      "group": { "label": "Technology & business", "title": "AI data centres are being productised like industrial equipment.", "note": "The economic advantage is earlier utilisation, but only when the rest of the site is ready before the hardware arrives.", "break": true },
       "background": {
-        "title": "A profitable platform can still be a voracious consumer of capital",
-        "text": "SpaceX now combines three different economic engines. Starlink produces recurring connectivity revenue and remains the largest source of profit. AI has become the largest revenue business, tying the company to the same compute cycle driving chip and data-centre investment. Starship promises lower launch cost but still requires large development spending before regular reuse is proven. That portfolio can reinforce itself—launches place satellites, connectivity produces cash, and AI demands infrastructure—but it also concentrates technical, political and financing risk. The $4.4 billion profit is therefore encouraging without being self-sufficient evidence; last quarter's $19.6 billion of capital expenditure was more than four times as large.",
-        "known": "SpaceX reported $14.6 billion of quarterly revenue, $4.4 billion of profit and $19.6 billion of capital expenditure; AI led revenue and Starlink led profit.",
-        "new": "Public-company reporting now gives investors a first clearer view of how the AI, connectivity and launch businesses divide growth, profit and spending."
+        "title": "Manufacturing the integration work changes the project economics",
+        "text": "Traditional AI data-centre projects assemble computing racks, networking, cabling, power distribution and liquid cooling through a long sequence of onsite contractors and commissioning tests. DSX POD moves much of that work into a controlled manufacturing environment while the customer prepares the site in parallel. Standardisation can reduce rework, labour coordination and component delays, and it creates a clearer path from capital expenditure to billable model training or inference. The limits are just as important. A container does not manufacture electricity, grid connections, fibre, permits or customers. If those arrive late, faster hardware installation merely reveals the next bottleneck sooner. The most useful comparison will be total order-to-production time and lifetime unit economics, not the advertised onsite connection window alone.",
+        "known": "NVIDIA announced a modular reference design built around Vera Rubin systems, with a broad manufacturing and infrastructure partner group targeting early-2027 delivery.",
+        "new": "The company is packaging the data centre's integration layer—not only chips and racks—as a repeatable factory-built product."
       },
       "evidence": {
-        "left": { "label": "Operating strength", "text": "Revenue rose 161%, the company reversed a year-earlier loss and Starlink profitability accelerated." },
-        "right": { "label": "Capital intensity", "text": "Quarterly capital spending nearly tripled, and management forecast $35–40 billion for the current quarter." }
+        "left": { "label": "Claimed gain", "text": "Integration at a prepared site falls from roughly six months to as little as 14 days." },
+        "right": { "label": "Unmoved constraints", "text": "Power, grid access, permits, financing, network capacity and customer demand still sit outside the container." }
       },
       "sources": [
-        { "label": "SpaceX investor relations · Q3 2026 earnings event", "url": "https://ir.spacex.com/events/event-details/2026/Q3-2026-Earnings/default.aspx" },
-        { "label": "AP · SpaceX profit, segment mix, capex and merger committees", "url": "https://apnews.com/article/spacex-musk-turns-profit-losses-67064446bf0afdf529db55bdec82af69" }
+        { "label": "NVIDIA · DSX POD design, partners and availability", "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment" }
       ]
     },
     {
-      "id": "ukraine-warning-restored",
-      "number": "04",
-      "category": "Ukraine, intelligence support & diplomacy",
-      "sourceNote": "AP · Tuesday",
-      "title": "Ukraine says U.S.-supported missile early warning has resumed after a call with Marco Rubio, even as weapons shortages and wider policy distrust remain.",
-      "changed": "Volodymyr Zelenskyy said partners were again providing warning of incoming ballistic missiles after at least a week of gaps; Rubio denied any deliberate policy change while acknowledging mutual frustration over intelligence and supplies.",
-      "matters": "Early warning can move civilians to shelter and give air-defence units time to intercept. Its restoration removes one immediate danger without resolving sanctions relief for Russia, scarce Patriot ammunition, Starshield constraints or the political rupture described yesterday.",
-      "watch": "Whether warnings remain continuous, Starshield performance changes, Patriot supply improves and U.S. envoy Steve Witkoff's St. Petersburg talks alter the negotiating track. The service restoration is Ukraine's account; the reason for the earlier gap remains disputed.",
-      "lead": false,
-      "group": { "label": "World beyond the Gulf", "title": "One critical support channel is working again; the alliance is not repaired.", "note": "Treat restoration as an operational update, not proof that the wider policy direction reversed.", "break": true },
-      "sources": [
-        { "label": "AP · Zelenskyy says missile early warning resumed", "url": "https://apnews.com/article/russia-ukraine-zelenskyy-norway-trump-rubio-witkoff-140895c6c0a1682c46f4fe197e056996" }
-      ]
-    },
-    {
-      "id": "us-market-breadth-oil-eases",
+      "id": "unep-emissions-gap-2026",
       "number": "05",
-      "category": "Markets, earnings & energy",
-      "sourceNote": "AP · Tuesday close",
-      "title": "Most U.S. stocks rose on earnings while AI names stayed volatile and Brent retreated to $108.79 after approaching $112.",
-      "changed": "The S&P 500 added 0.3% and the Dow gained 1%, while the Nasdaq slipped fractionally; better-than-expected company results broadened participation beyond Monday's AI-led rebound.",
-      "matters": "Breadth is healthier than a rally carried by a few technology names, and cheaper oil offers temporary inflation relief. But high yields and debt-funded AI spending still make future profit guidance more important than one day's index move.",
-      "watch": "Large technology earnings, AI capital-spending guidance, the durability of oil's retreat and the 10-year Treasury yield. Tuesday's breadth is confirmed; whether it marks a durable rotation is not.",
+      "category": "Climate, energy transition & global investment",
+      "sourceNote": "UN Environment Programme · Wednesday",
+      "title": "UNEP says exceeding 1.5°C is now unavoidable under near-term pathways, and its lowest-overshoot route requires global emissions to fall 45% by 2035 from 2025 levels.",
+      "changed": "The 2026 Emissions Gap Report reframes 1.5°C from avoiding any breach to limiting peak warming to roughly 1.7–1.8°C around mid-century and returning to or below 1.5°C by 2100 with about a 50% chance.",
+      "matters": "The new framing does not make 1.5°C irrelevant; it makes the duration and height of overshoot central. For governments and investors, it raises the value of near-term renewable deployment, energy efficiency, methane cuts and credible carbon removal while exposing how far existing pledges lag the required path.",
+      "watch": "Whether 2030 and 2035 national plans move toward the report's benchmarks, delivery of methane and renewable commitments, fossil-fuel supply changes and evidence that carbon removal can scale responsibly. The pathway is a modelled scenario, not a forecast or guarantee.",
       "lead": false,
-      "group": { "label": "Economy & markets", "title": "Earnings broadened the rally, but the AI financing question stayed open.", "note": "One better session does not remove the pressure from expensive capital and volatile energy.", "break": true },
+      "group": { "label": "Economy, energy & climate", "title": "The climate question is shifting from whether 1.5°C is breached to how high and how long the overshoot lasts.", "note": "That makes every tonne avoided before 2035 more valuable, not less.", "break": true },
+      "background": {
+        "title": "A target can survive even when the original route closes",
+        "text": "UNEP's lowest-overshoot scenario allows global warming to peak around 1.7 to 1.8 degrees Celsius before returning to 1.5 by century's end. Reaching it requires emissions cuts of 18% by 2030, 45% by 2035 and 69% by 2040 from 2025 levels, plus increasing carbon removal later in the century. Full implementation of current national pledges would deliver only 5% to 8% by 2030 and 11% to 15% by 2035, leaving a trajectory near 2.6 degrees this century. The gap is therefore not a small technical adjustment. It is a difference between incremental policy and rapid system change across power, transport, industry, buildings, land use and methane. Carbon removal can help with residual emissions, but dependence on future removal also creates technological, land and governance risks.",
+        "known": "UNEP's assessed pathway and current pledges produce sharply different emissions cuts and warming outcomes.",
+        "new": "The report explicitly centres a temporary overshoot-and-return pathway as the lowest feasible route toward the Paris temperature goal."
+      },
+      "evidence": {
+        "left": { "label": "Lowest-overshoot pathway", "text": "Emissions fall 18% by 2030, 45% by 2035 and 69% by 2040 from 2025 levels." },
+        "right": { "label": "Current pledges", "text": "Even full implementation cuts only 5–8% by 2030 and 11–15% by 2035, according to UNEP." }
+      },
       "sources": [
-        { "label": "AP · U.S. market breadth, oil and AI volatility", "url": "https://apnews.com/article/stock-markets-oil-ai-rates-inflation-b972b64127db5412a2b02c35ecf95c88" }
+        { "label": "UNEP · Emissions Gap Report 2026 findings and key figures", "url": "https://www.unep.org/en/publications/report/emissions-gap-report-2026" },
+        { "label": "UNEP repository · full peer-reviewed report", "url": "https://wedocs.unep.org/items/87c02cac-8da8-4c28-ba61-c846ee68ea70/full" }
       ]
     },
     {
-      "id": "anthropic-public-benefit-equity",
+      "id": "apec-global-imbalances",
       "number": "06",
-      "category": "AI ownership, public benefit & IPO governance",
-      "sourceNote": "Anthropic / AP · Sunday–Tuesday",
-      "title": "Anthropic proposed putting 5% of its shares into a public-benefit fund that can grow with its valuation, but the governance and beneficiaries are still undefined.",
-      "changed": "Subject to shareholder approval, a wholly owned LLC would receive the initial stake and could gain another 2% for each 50% increase above a valuation baseline; Anthropic says roughly 20% of shares are dedicated to public-good commitments when founder and employee pledges are included.",
-      "matters": "The pledge is larger than a conventional donation and arrives before a possible IPO, making public benefit part of the investment proposition. Its real value depends on who controls the fund, when shares become spendable and whether distributions reach people affected by AI rather than remaining a flexible promise.",
-      "watch": "Shareholder approval, the valuation baseline, board independence, disclosure, liquidation rules and first grants or direct distributions. The equity formula is announced; delivery and governance are pending.",
+      "category": "Asia-Pacific economy, trade & digital infrastructure",
+      "sourceNote": "APEC · Wednesday",
+      "title": "APEC finance ministers warned that persistent global imbalances threaten growth and financial stability, while endorsing voluntary approaches to finance digital infrastructure.",
+      "changed": "The Hong Kong meeting put fiscal support for households, digital-infrastructure finance, financial access and young financial talent into a four-part cooperation agenda.",
+      "matters": "The statement matters as a diagnosis shared across economies that disagree on trade and industrial policy. Its digital-finance work may improve project structures, but voluntary principles are not the same as new capital or commitments to rebalance demand and supply.",
+      "watch": "Specific financing projects, member adoption of the policy statement, language at November's APEC summit and whether major economies change fiscal, currency or trade policies. The joint diagnosis is official; binding remedies are absent.",
       "lead": false,
-      "group": { "label": "AI institutions", "title": "AI companies are trying to make social legitimacy part of their capital structure.", "note": "A percentage sounds concrete; control and distribution determine whether it becomes public value.", "break": true },
+      "group": { "label": "Global economy", "title": "Asia-Pacific finance ministers agree on the problem more clearly than the remedy.", "note": "The practical test is whether shared language becomes funded infrastructure and measurable policy change.", "break": true },
       "sources": [
-        { "label": "Anthropic · proposed Public Benefit Fund structure", "url": "https://www.anthropic.com/news/public-benefit-fund" },
-        { "label": "AP · AI wealth-sharing plans and unresolved questions", "url": "https://apnews.com/article/anthropic-openai-public-benefit-fund-fc16c0ff997c8334dcd71e65d726aadc" }
+        { "label": "APEC · finance ministers' joint statement and cooperation agenda", "url": "https://www.apec.org/press/news-releases/2026/1021_FMM_MA" }
       ]
     }
   ],
   "radar": [
     {
       "label": "Curiosity Corner",
-      "title": "A fungus from Yunnan grows a fruiting body heavier than some house cats—and belongs to a newly described family.",
-      "text": "Researchers named Dianjunus rex after finding upright fungal structures up to 50 centimetres tall and 2.2 kilograms in weight. Morphology, four genetic markers and phylogenomic analysis place it in a distinct new family within the Xylariales; a molecular-clock estimate traces that lineage to roughly 65 million years ago. That date describes the inferred family divergence, not the age of the living specimen. The paper calls its structures the largest fruiting bodies documented in the Ascomycota and, more importantly, shows how much fungal diversity remains undescribed in East Asian forests.",
-      "url": "https://www.frontiersin.org/journals/fungal-biology/articles/10.3389/ffunb.2026.1940464/full"
+      "title": "A 60,000-year-old red surface contained an animal that left no visible bone, hide or tissue.",
+      "text": "Researchers used palaeoproteomics to recover type-I collagen fragments matching the common eland from two samples of an ochre-rich surface at Klipdrift Shelter in South Africa. The result shows that proteins can identify biological materials after the original object has disappeared, especially in warm places where ancient DNA survives poorly. Eland material may have been deliberately mixed into ochre, or the surface may record ochre-treated hide; the study cannot yet distinguish those uses. Claims of symbolic continuity with much later San traditions are therefore intriguing, not proven. The real discovery is a new way to detect the invisible organic half of ancient material culture.",
+      "url": "https://doi.org/10.1098/rspb.2025.3300"
     }
   ],
   "attention": {
-    "title": "Open the Qatar Airways route announcement for the operating details, then the Australian release for the policy context.",
-    "text": "Together they separate the commercial commitment—aircraft, timings, frequency and ramp-up intent—from the bilateral access and airport-development machinery that made the route possible.",
-    "url": "https://www.qatarairways.com/press-releases/en-WW/273619-qatar-airways-to-increase-connectivity-to-australia-with-flights-to-western-sydney-international-airport-in-2027/"
+    "title": "Open the AP report on Saudi airports for the clearest operational picture of the Gulf aviation risk.",
+    "text": "It places the fatal Dammam attack, Riyadh's permission-based reopening, foreign-airline suspensions and the U.S. ordered departure on one timeline without pretending the perpetrator of the latest strike is already known.",
+    "url": "https://apnews.com/article/mideast-yemen-saudi-israel-gaza-october-21-2026-f9b9c553a5b3c8c5be1d75b94"
   },
   "ignore": {
-    "title": "Ignore the assumption that a SpaceX–Tesla merger is already decided.",
-    "text": "Separate board committees are discussing the idea, but Musk explicitly said treating a transaction as certain would overstate the evidence. The earnings and capital-spending figures are facts; the combination is still a possibility."
+    "title": "Ignore the assumption that renewed Ukraine talks mean a peace framework is already taking shape.",
+    "text": "The parties agreed to return to a technical channel, but previous rounds produced little beyond prisoner exchanges and the central territorial and security demands remain unresolved."
   },
   "history": {
-    "id": "le-bon-marche-modern-shopping",
-    "number": "054",
+    "id": "ragusa-quarantine-trade-system",
+    "number": "055",
     "readTime": "5 min",
-    "era": "1852–1900 · Paris",
-    "title": "Le Bon Marché did not invent desire. It built a retail system that made desire safe to explore.",
-    "deck": "Fixed prices, free entry, returns, catalogues and an iron-and-glass stage changed shopping from a guarded negotiation into an experience of browsing. The modern department store emerged when trust, scale and spectacle began reinforcing one another.",
-    "thesis": "Aristide and Marguerite Boucicaut's decisive innovation was not one clever promotion. It was a coherent operating model. Posted prices reduced suspicion, returns reduced the cost of a mistake, low margins and high turnover widened demand, catalogues extended the store beyond Paris, and culture gave people reasons to stay. Le Bon Marché showed that retail could grow by surrendering some control at the counter and designing an environment in which the customer felt free.",
+    "era": "1347–1903 · Mediterranean ports",
+    "title": "Quarantine began as a way to keep a trading city open while admitting that every arrival could carry an invisible risk.",
+    "deck": "Ragusa's 1377 rule did not cure plague or explain germs. It created a waiting period, a controlled border and an administrative test that let commerce continue under uncertainty. Ports then turned isolation into a network of stations, documents and shared rules.",
+    "thesis": "The durable invention was not the number forty. It was the conversion of fear into a repeatable operating system: separate people and goods, observe them over time, record where a ship came from, assign officials to enforce the boundary and release traffic when the rule was satisfied. Quarantine showed that a city could manage an unknown hazard without choosing only between total closure and unrestricted movement.",
     "sections": [
       {
-        "title": "The old shop made the customer negotiate entry",
-        "text": "In mid-nineteenth-century Paris, many specialist shops kept goods behind a counter and prices inside the seller's head. Entering created an obligation to engage a clerk; haggling made the final price depend partly on the buyer's knowledge and appearance. That system worked for small inventories and repeat relationships. It was badly suited to a growing city, mass production and a new middle class that wanted choice without submitting to a private negotiation every time."
+        "title": "Plague made openness economically dangerous",
+        "text": "The Black Death entered European port networks in the middle of the fourteenth century and killed on a scale that medicine could neither explain nor stop. Commercial cities faced a brutal contradiction. Ships carried grain, cloth, revenue and information; they could also carry infected people, animals and cargo. Closing a port indefinitely threatened the city's survival. Leaving it open without controls threatened the population. Early exclusions and sanitary cordons were blunt attempts to manage that conflict."
       },
       {
-        "title": "The Boucicauts replaced bargaining with confidence",
-        "text": "After joining the small Bon Marché in 1852, Aristide and Marguerite Boucicaut assembled practices that changed the customer's risk. Prices were fixed and visible. Entry was free. Goods could be exchanged or returned. Lower margins were paired with faster turnover. Each rule made the next one more powerful: fixed prices made browsing less intimidating, returns made unfamiliar goods easier to try, and scale allowed the store to offer more variety at prices a small shop struggled to match."
+        "title": "Ragusa made waiting into law",
+        "text": "In 1377, the Adriatic trading republic of Ragusa, now Dubrovnik, required arrivals from plague-affected places to spend thirty days on nearby islands or in designated accommodation before entering the city. Residents were barred from visiting the isolation area unless officially assigned, and violations brought fines and another period of isolation. The rule did not depend on identifying a pathogen. It used time as evidence: if illness did not appear during the wait, entry became less dangerous."
       },
       {
-        "title": "The store became a destination, not a warehouse",
-        "text": "Le Bon Marché added concerts, a reading room, exhibitions and a picture gallery. Its expanding iron-and-glass building brought light across vast selling floors and made movement itself part of the experience. Merchandise could be compared across departments while the building created occasions to linger. The store was not merely wrapping goods in decoration. It was producing footfall, attention and social permission—especially for middle-class women—to occupy a public commercial space."
+        "title": "Thirty days became forty—and the name survived",
+        "text": "The first Ragusan measure was a trentina, a thirty-day period. Forty days later became the standard in several Mediterranean systems, producing quarantina and eventually the English word quarantine. Historians offer medical, classical and religious explanations for the number, but no single origin is certain. The institutional move matters more than the arithmetic: the period was predefined, enforceable and finite, giving merchants a costly but legible route back into the market."
       },
       {
-        "title": "The catalogue detached the market from the building",
-        "text": "Catalogues preserved by France's national and municipal libraries show how the business reached beyond Paris. They were mailed to customers, organised around departments and annual exhibitions, and gradually evolved from lists of products and prices into visually ambitious objects. Mail order converted the store's trust into distance selling: the customer who could not enter the grand building could still encounter its assortment, prices and imagery at home."
+        "title": "Ports built infrastructure around the rule",
+        "text": "Venice opened a permanent plague hospital, or lazaretto, on an island in 1423. Other ports followed. Natural barriers separated suspected cases from dense settlements, while buildings received passengers, crews and merchandise. Officials prescribed how different goods should be aired, washed or held. Lookouts signalled suspect vessels; captains presented their information at a distance. Many theories behind these practices were wrong, yet separation sometimes interrupted real routes of transmission."
       },
       {
-        "title": "Retail scale changed production as well as selling",
-        "text": "A department store needed steady flows of merchandise, coordinated departments, advertising, seasonal events and staff capable of serving large crowds. Clothing workshops appeared inside the store, while bulk buying and rapid turnover linked mass production to mass consumption. The commercial machine did not wait for desire to appear. It studied, staged and refreshed demand, then used purchasing scale to keep the assortment moving."
+        "title": "Information became as important as walls",
+        "text": "Mediterranean ports developed bills of health recording the sanitary status of a ship's origin and its voyage. That turned disease control into a networked information problem. A destination did not have to inspect only the bodies in front of it; it could evaluate the route, recent outbreaks and documents carried by the captain. The system invited evasion and abuse, but it also created an early form of interoperable risk reporting across jurisdictions whose commercial interests were not identical."
       },
       {
-        "title": "The durable invention was permission to leave empty-handed",
-        "text": "Modern retail still rests on the bargain Le Bon Marché helped normalise: the customer may enter, compare and walk away, while the merchant gains more visits, more trust and a larger pool of future purchases. E-commerce has translated the same logic into transparent prices, search, reviews, free returns and personalised discovery. The lesson is not that spectacle always wins. It is that experience becomes commercially powerful when operational rules make curiosity feel low-risk."
+        "title": "Germ theory changed the rules, not the governing problem",
+        "text": "Once nineteenth-century science identified specific agents and transmission routes, quarantine could be redesigned around different diseases rather than one general fear of pestilence. International sanitary conferences eventually pursued shared rules, including a 1903 convention. Modern screening, isolation and travel controls are scientifically different and politically contested, but the original design problem remains: how to preserve movement while reducing a risk that is distributed unevenly and partly invisible. Good systems make the threshold, evidence and burden of restriction explicit."
       }
     ],
     "timeline": [
-      { "date": "1838", "text": "The original Bon Marché opens as a small Parisian novelty shop." },
-      { "date": "1852", "text": "Aristide Boucicaut joins the business and begins developing the department-store model with Marguerite." },
-      { "date": "1865 onward", "text": "Surviving catalogues document the expansion of departments, mail order and commercial imagery." },
-      { "date": "1869–1872", "text": "Construction begins on a much larger store designed for scale, light and circulation." },
-      { "date": "1875", "text": "A picture gallery expands the store's role as a cultural and social destination." },
-      { "date": "1883", "text": "Émile Zola publishes Au Bonheur des Dames, drawing on the department-store system Le Bon Marché exemplified." },
-      { "date": "1888", "text": "The store occupies the full Paris block, embodying retail as urban institution." }
+      { "date": "1347–1352", "text": "The Black Death spreads through European trade routes, exposing the danger faced by open ports." },
+      { "date": "1377", "text": "Ragusa establishes a thirty-day isolation rule for arrivals from plague-affected places." },
+      { "date": "1380s–1400s", "text": "Forty-day detention becomes established in Mediterranean practice and gives quarantine its name." },
+      { "date": "1423", "text": "Venice opens the first permanent plague hospital, or lazaretto, on an island." },
+      { "date": "15th–17th centuries", "text": "Health boards, lazarettos, cordons and bills of health spread across European port systems." },
+      { "date": "19th century", "text": "Identification of pathogens and transmission routes allows disease-specific controls to replace general plague rules." },
+      { "date": "1903", "text": "An international sanitary convention codifies shared rules for cholera, plague and yellow fever." }
     ],
     "sources": [
-      { "label": "Le Bon Marché heritage archive · the Boucicauts and their retail innovations", "url": "https://www.lebonmarche.com/en/magasin/culture/histoire-lebonmarche" },
-      { "label": "Bibliothèque nationale de France · department stores and modern commerce", "url": "https://www.bnf.fr/fr/mediatheque/les-grands-magasins-aux-sources-du-commerce-moderne" },
-      { "label": "Gallica / BnF · the surviving Bon Marché catalogue corpus", "url": "https://gallica.bnf.fr/selections/fr/html/histoire/les-catalogues-du-bon-marche" },
-      { "label": "Gallica / BnF · fashion, sociability and women in the department store", "url": "https://gallica.bnf.fr/selections/fr/html/histoire/les-catalogues-de-vetements-et-accessoires-du-bon-marche-bnf" },
-      { "label": "French Economy Ministry archives · advertising and customer catalogues", "url": "https://www.economie.gouv.fr/saef/document-du-mois/au-bonheur-des-dames" }
+      { "label": "CDC Emerging Infectious Diseases · history of quarantine from plague to influenza", "url": "https://wwwnc.cdc.gov/eid/article/19/2/12-0312_article" },
+      { "label": "CDC Emerging Infectious Diseases · origins of quarantine stations and bills of health", "url": "https://wwwnc.cdc.gov/eid/article/11/5/04-0616_article" },
+      { "label": "Medicina nei Secoli · Ragusa's 1377 decree, trade and health policy", "url": "https://rosa.uniroma1.it/rosa01/medicina_nei_secoli/article/view/1456" },
+      { "label": "Cambridge repository · quarantine, diseased geographies and the Mediterranean system", "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/9de1cd35-ae99-475d-9ffd-a41afe98d304/content" }
     ]
   },
   "threads": [
     {
-      "status": "Launching",
-      "title": "Western Sydney gateway",
-      "text": "The route, aircraft and date are set; sales, catchment, cargo mix and the climb from three weekly to daily will reveal the economics.",
-      "progress": 34
-    },
-    {
       "status": "Escalating",
-      "title": "Gulf air defence",
-      "text": "Britain is moving from enabling support into direct Saudi air patrols while Yemen's fighting and humanitarian risk intensify.",
-      "progress": 67
+      "title": "Gulf aviation security",
+      "text": "Riyadh has begun a limited reopening, but a fatal Dammam attack, foreign suspensions and U.S. departures show the network risk widening.",
+      "progress": 78
     },
     {
-      "status": "Disclosing",
-      "title": "SpaceX economics",
-      "text": "Profit and revenue are now visible, but segment margins, capital intensity and any Tesla combination need much more evidence.",
-      "progress": 46
+      "status": "Pending",
+      "title": "Qatar 2027 budget",
+      "text": "The draft is with the Shura Council; revenue assumptions, spending allocations and the fiscal balance remain to be published.",
+      "progress": 31
     },
     {
-      "status": "Fragile",
-      "title": "U.S.–Ukraine support",
-      "text": "Missile warning resumed, but ammunition, satellite constraints, sanctions policy and negotiating alignment remain unstable.",
-      "progress": 30
+      "status": "Reopening",
+      "title": "Ukraine diplomacy",
+      "text": "Russia, Ukraine and the United States support renewed talks, but the agenda and concessions are not yet defined.",
+      "progress": 25
     },
     {
-      "status": "Unproven",
-      "title": "AI public-benefit ownership",
-      "text": "Anthropic has named an equity formula; approval, governance, liquidity and actual beneficiaries come next.",
-      "progress": 27
+      "status": "Productising",
+      "title": "AI infrastructure",
+      "text": "NVIDIA is moving data-centre integration into factories; real deployments must prove total delivery time and economics.",
+      "progress": 42
+    },
+    {
+      "status": "Off track",
+      "title": "Climate delivery",
+      "text": "UNEP's lowest-overshoot pathway requires emissions cuts far beyond current national pledges through 2035.",
+      "progress": 18
     }
   ]
 }
