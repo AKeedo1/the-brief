@@ -1,244 +1,245 @@
 {
-  "date": { "display": "Friday, 23 October 2026", "edition": "056", "updated": "7:08 AM" },
-  "worldSentence": "Gulf energy is still moving, but through costlier protected routes and longer contracts, while a web-wide security emergency shows how quickly hidden infrastructure risk can become everybody's problem.",
-  "standfirst": "Friday's edition follows the dark tanker shuttle keeping oil moving through Hormuz, QatarEnergy's long U.S. LNG purchase, an urgent PHP patching campaign, a split market selloff and the wartime vulnerability of data centres. Curiosity Corner watches a virus-like shell assemble molecule by molecule. The Long View explains how a painted line on a ship became a global safety standard.",
+  "date": { "display": "Saturday, 24 October 2026", "edition": "057", "updated": "7:22 AM" },
+  "worldSentence": "Regional security risk has moved from ships to people and offices, while $116 oil, storm-grounded flights and attacks on health data show how quickly physical and digital disruption becomes an operating cost.",
+  "standfirst": "Saturday's edition leads with reduced staffing at the U.S. Embassy in Doha and three other regional posts, then follows oil's pressure on markets, Typhoon Champi's aviation disruption, a billion-dollar bet on infrastructure for AI agents and a breach of patient records. Curiosity Corner measures how electrification and smartphones changed sleep. The Long View explains how Saturday became part of the weekend.",
   "listenTime": "17 min",
   "coverage": [
     { "count": 4, "label": "Qatar & Gulf" },
     { "count": 3, "label": "World & security" },
     { "count": 3, "label": "Economy & markets" },
-    { "count": 3, "label": "AI & technology" },
+    { "count": 4, "label": "AI & technology" },
     { "count": 3, "label": "Aviation & consumer" }
   ],
   "connected": {
-    "title": "The useful thread is resilience becoming an operating cost rather than a reassuring slogan.",
+    "title": "The useful thread is that resilience becomes real only when someone is willing to pay for spare capacity before it is needed.",
     "signals": [
-      { "label": "HORMUZ", "value": "28 attacks", "text": "Lloyd's List Intelligence counted 28 reported attacks on ships in October even as protected night transits helped restore oil flows." },
-      { "label": "LNG PORTFOLIO", "value": "4 MTPA", "text": "QatarEnergy agreed to buy up to four million tonnes of U.S. LNG annually from 2031 through 2054." },
-      { "label": "WEB SECURITY", "value": "2 critical flaws", "text": "Supported PHP releases patch remote-code-execution vulnerabilities in memory management and error handling." },
-      { "label": "AI CAPITAL", "value": "Nasdaq −2.6%", "text": "Thursday's selloff punished AI-linked companies despite some solid results, while most stocks in the S&P 500 rose." }
+      { "label": "DOHA", "value": "4 embassies", "text": "The United States is reducing staffing in Qatar, the UAE, Jordan and Lebanon while keeping the posts open." },
+      { "label": "ENERGY", "value": "$116.72", "text": "Brent settled at its highest level since June 2022, broadening market pressure beyond technology shares." },
+      { "label": "AVIATION", "value": "824 flights", "text": "Taiwan's main airport cancelled 563 flights Friday and another 261 Saturday as Champi passed offshore." },
+      { "label": "DIGITAL", "value": "Patient records", "text": "Quest Diagnostics confirmed unauthorized access to records inside a system used to order and retrieve lab tests." }
     ],
-    "note": "These are separate stories with the same practical lesson. Systems survive disruption by paying for spare routes, diversified supply, maintained foundations and physical redundancy before the failure arrives. The bill is visible; the avoided loss is not."
+    "note": "Embassy drawdowns, fuel-price shocks, weather cancellations and cyber incidents are different failures. Each rewards the same quiet investments: distributed operations, tested fallbacks, maintained systems and clear thresholds for acting early."
   },
   "stories": [
     {
-      "id": "hormuz-dark-shuttle-attacks",
+      "id": "us-embassy-doha-staffing-reduction",
       "number": "01",
-      "category": "Strait of Hormuz, Gulf energy & maritime security",
-      "sourceNote": "Associated Press / Lloyd's List Intelligence · Thursday",
-      "title": "A protected night-time tanker shuttle is keeping Gulf oil moving through Hormuz, even as Iran claimed seven vessels were damaged in one night.",
-      "changed": "Lloyd's List Intelligence described tankers sailing near Oman's coast with tracking and phones switched off, then transferring cargo in the Gulf of Oman; Iran separately said seven tankers were struck or hit mines overnight.",
-      "matters": "The workaround has reportedly restored oil shipments to roughly prewar levels, but it converts a blocked chokepoint into a slower, dangerous and expensive relay dependent on U.S. protection, willing crews and ship-to-ship transfers.",
-      "watch": "Independent confirmation of the seven-vessel claim, casualties, further mine or missile incidents, tanker participation, insurance and charter costs, and whether diplomacy reopens normal passage. The shuttle and October attack count are reported by Lloyd's; Iran's latest damage claim was not independently verified by AP or UKMTO at publication time.",
+      "category": "Qatar, regional security & diplomacy",
+      "sourceNote": "Associated Press · Saturday",
+      "title": "The United States is reducing staffing at its embassy in Doha and three other Middle East posts after intelligence of advanced Iranian targeting efforts.",
+      "changed": "The State Department is drawing down personnel in Qatar, the UAE, Jordan and Lebanon; the embassies remain open and departures are not compulsory, unlike the ordered departure of nonessential staff and families from Saudi Arabia.",
+      "matters": "For Qatar, this is a concrete operating change inside Doha rather than another abstract warning about regional tension. It signals a higher official assessment of risk to U.S. personnel without yet becoming an evacuation or embassy closure.",
+      "watch": "Any change in embassy services or travel advice, matching steps by other governments, verified threats inside Qatar, and whether diplomacy with Iran resumes. The staffing reduction and intelligence memo are confirmed by AP; officials deny it signals an imminent new strike.",
       "lead": true,
-      "group": { "label": "The lead", "title": "Oil is moving through Hormuz because operators built a wartime relay, not because the waterway is normal.", "note": "Flow volume alone now hides the price paid in protection, transfer time, insurance and human exposure.", "break": false },
+      "group": { "label": "The lead", "title": "A regional threat assessment has produced a visible change in Doha.", "note": "The distinction matters: a smaller open embassy is neither business as usual nor an evacuation.", "break": false },
       "background": {
-        "title": "A workaround can restore volume without restoring safety",
-        "text": "Tanker operators willing to enter the strait are moving at night through a U.S.-protected lane close to Oman, with location systems and mobile phones turned off. In the Gulf of Oman, they transfer cargo to other tankers that complete the journey to Asian buyers. Lloyd's List Intelligence said this dark shuttle has brought Gulf oil shipments back to roughly prewar levels despite 28 attacks on ships in October, the highest monthly number since the war began. The volume recovery is economically important, but it is not evidence that the chokepoint has reopened. Spot charter rates have risen into the hundreds of thousands of dollars per day and transfers can add several days. Crews absorb the physical risk while producers, traders, insurers and consumers absorb the cost. Iran's claim that seven tankers were damaged overnight would mark a sharp escalation if verified, but the absence of independent confirmation requires keeping the operational fact—the protected shuttle—separate from the unverified incident count.",
-        "known": "A U.S.-protected night shuttle is operating, Lloyd's counted 28 attacks in October and normal transit carries much higher cost and risk than before the war.",
-        "new": "The market has created a repeatable ship-to-ship relay that preserves export volume while the strait itself remains contested."
+        "title": "The action is precautionary, but the geography makes it personally relevant",
+        "text": "A memo to U.S. Secretary of State Marco Rubio said intelligence agencies had received information that Iran had substantially increased efforts to target American personnel and that some plotting had reached advanced stages. The State Department then reduced staffing at four embassies already operating under restrictions: Qatar, the UAE, Jordan and Lebanon. Officials told AP that threats from Iran and the Houthis were related to the change. The posts remain open, and the Qatar drawdown is not an ordered departure like the one announced for nonessential staff and families in Saudi Arabia. That leaves the practical status between routine operations and evacuation. It should be read as evidence of elevated official concern, not proof of a specific attack plan in Doha or evidence that new U.S. strikes are imminent.",
+        "known": "The Doha embassy remains open with a reduced personnel footprint, and the U.S. says the change follows intelligence about increased threats to American personnel.",
+        "new": "Qatar has moved from the background of regional warnings into the small group of posts taking a concrete protective staffing measure."
       },
       "evidence": {
-        "left": { "label": "Flow restored", "text": "Lloyd's says protected transits and offshore transfers have brought oil shipments close to prewar levels." },
-        "right": { "label": "Risk displaced", "text": "The system adds military dependence, dark sailing, costly charters, transfer delays and direct exposure for crews." }
+        "left": { "label": "Confirmed action", "text": "Staffing is being reduced at four named embassies, including Doha, while services have not been described as suspended." },
+        "right": { "label": "Unproven inference", "text": "The action does not establish a specific plot in Qatar or confirm that Washington has decided on another attack on Iran." }
       },
       "sources": [
-        { "label": "AP · tanker attacks, protected lane and dark shuttle", "url": "https://apnews.com/article/iran-united-states-war-hormuz-trump-israel-2abebce2fca2c085e0e0ee717e42cf28" },
-        { "label": "AP · regional update and Dammam attribution", "url": "https://apnews.com/article/mideast-yemen-saudi-israel-october-22-2026-dde5b98a8bf961224514994b02babce9" }
+        { "label": "AP · intelligence memo, affected embassies and operating status", "url": "https://apnews.com/article/iran-war-houthis-embassies-staffing-rubio-9635852ea973064907ed0b7c0fca4799" }
       ]
     },
     {
-      "id": "qatarenergy-us-lng-portfolio",
+      "id": "oil-116-broad-market-pressure",
       "number": "02",
-      "category": "QatarEnergy, LNG trading & long-term supply",
-      "sourceNote": "QatarEnergy · Thursday",
-      "title": "QatarEnergy agreed to buy up to four million tonnes of U.S. LNG a year from Cheniere from 2031 through 2054.",
-      "changed": "Two long-term contracts cover LNG from Sabine Pass in Louisiana and Corpus Christi in Texas on a free-on-board basis, adding U.S.-sourced cargoes to QatarEnergy's global portfolio.",
-      "matters": "A leading LNG producer is buying material third-party volume for more than two decades. That expands QatarEnergy's ability to trade, redirect and fulfil customer commitments across basins instead of tying every sale to cargo loaded in Qatar.",
-      "watch": "The delivery ramp, destination flexibility, shipping deployment, the commercial spread between U.S. feedgas and destination prices, and whether more third-party purchases follow. The contracted volume, start year, end year and FOB structure are confirmed; utilisation and portfolio returns are not yet knowable.",
+      "category": "Markets, energy & financing",
+      "sourceNote": "Associated Press · Friday close",
+      "title": "Brent settled at $116.72 as higher oil prices pushed Wall Street broadly lower and extended the S&P 500's weekly losing streak.",
+      "changed": "Brent rose 3.1% Friday to its highest close since June 2022; the S&P 500 fell 0.5%, the Dow 1.2% and the Nasdaq 0.2%, with nearly three quarters of S&P constituents declining.",
+      "matters": "Thursday's selloff was concentrated in AI shares, but Friday's weakness broadened as expensive energy threatened inflation, rates and margins. The market is now pricing a system-wide input shock as well as doubts about AI returns.",
+      "watch": "The Federal Reserve meeting, September PCE inflation, next week's Alphabet, Microsoft and Amazon results, and whether Brent stays above $115. The prices are confirmed; one week does not establish a lasting bear market.",
       "lead": false,
-      "group": { "label": "Qatar", "title": "QatarEnergy is adding American molecules to a Qatari trading portfolio.", "note": "The strategic asset is not only production capacity; it is the ability to source and route cargoes from more than one basin.", "break": true },
+      "group": { "label": "Economy & markets", "title": "The pressure widened from expensive AI expectations to expensive energy.", "note": "Oil at this level touches transport, food, consumer spending and the path of interest rates.", "break": true },
       "background": {
-        "title": "The contract strengthens the portfolio, not Qatar's domestic gas supply",
-        "text": "QatarEnergy will purchase up to four million tonnes per annum from Cheniere's two U.S. Gulf Coast export terminals, with deliveries expected from 2031 through 2054. Because the contracts are free on board, QatarEnergy takes control at the loading port and can deploy its own shipping and trading network. That matters for a company already selling long-dated LNG from the North Field: U.S. cargoes introduce a second production basin, different feedgas economics and another route to Atlantic or Pacific customers. The arrangement can improve flexibility when one source or route is constrained, but it also creates new exposures to Henry Hub gas, U.S. terminal performance, shipping availability and future destination margins. The announcement describes a portfolio and trading move. It does not show that Qatar lacks gas for domestic use, nor does it reveal the eventual profit on each cargo.",
-        "known": "The two sale-and-purchase agreements total up to four million tonnes per year, begin in 2031, run through 2054 and deliver FOB from Louisiana and Texas.",
-        "new": "QatarEnergy is locking in large third-party U.S. supply as a permanent part of its global LNG portfolio."
+        "title": "Two expensive systems are colliding",
+        "text": "The previous session's decline was dominated by highly valued AI companies. On Friday, nearly three out of four S&P 500 members fell as Brent climbed above $116 a barrel, up from less than $97 at the start of October. That broadening matters. High oil prices pass through unevenly but raise fuel and logistics costs, sustain inflation pressure and make central banks less willing to cut rates. At the same time, much of the AI build-out depends on large upfront spending and, for some companies, borrowed money. The U.S. 10-year Treasury yield ended near 5%, so the cost of funding future data-centre cash flows remains high. Some AI-linked shares recovered Friday, showing that the market is not making one simple anti-technology bet. It is demanding clearer returns while the price of energy and capital rises around them.",
+        "known": "Brent, major U.S. indexes and the 10-year yield all finished Friday at the reported levels, and the S&P 500 logged a second weekly decline.",
+        "new": "The latest session shifted the immediate market burden from a narrow technology repricing toward a broader oil-and-inflation constraint."
       },
       "evidence": {
-        "left": { "label": "Portfolio flexibility", "text": "FOB cargoes give QatarEnergy control over ships and final destinations after loading in the United States." },
-        "right": { "label": "New exposures", "text": "Returns will depend on U.S. feedgas, terminal availability, freight, destination prices and actual contracted flexibility." }
+        "left": { "label": "Broader selling", "text": "About three quarters of the S&P 500 fell Friday, unlike Thursday when most constituents rose beneath a technology-led index decline." },
+        "right": { "label": "Not a clean reversal", "text": "Micron, Intel, Microsoft and AMD gained, so investors are discriminating among AI exposures rather than abandoning the theme wholesale." }
       },
       "sources": [
-        { "label": "QatarEnergy · contract volumes, terminals, start and term", "url": "https://www.qatarenergy.qa/en/MediaCenter/Pages/newsdetails.aspx?ItemId=3922" }
+        { "label": "AP · Friday market close, Brent, yields and coming catalysts", "url": "https://apnews.com/article/stocks-markets-ai-oil-inflation-7b47ef3b037bfba4e34f685329b9b963" }
       ]
     },
     {
-      "id": "php-critical-rce-patching",
+      "id": "daytona-agent-cloud-series-b",
       "number": "03",
-      "category": "Cybersecurity, open-source infrastructure & AI-assisted research",
-      "sourceNote": "PHP Foundation / AP · Wednesday–Thursday",
-      "title": "Two critical PHP flaws triggered an urgent global patching campaign across software that sits underneath much of the web.",
-      "changed": "PHP released fixed versions 8.5.12, 8.4.27, 8.3.36 and 8.2.35 for two vulnerabilities that can allow unauthenticated remote code execution under the right conditions; governments and companies temporarily limited some services while patching.",
-      "matters": "The incident combines a huge deployment base, flaws in memory and error-handling paths touched by ordinary requests, public proof-of-concept pressure and a maintenance team that says an earlier attempt to resolve one root cause stalled for structural reasons.",
-      "watch": "Patch adoption, credible exploitation reports, compromises discovered during review, unsupported PHP branches and whether major users fund sustained security work. The vulnerabilities and fixes are confirmed by the PHP Foundation; no broad successful exploitation was confirmed at release.",
+      "category": "AI infrastructure, entrepreneurship & venture capital",
+      "sourceNote": "Daytona / TechCrunch · Friday",
+      "title": "Daytona raised $60 million at a $1 billion valuation to build cloud infrastructure designed around long-running AI agents.",
+      "changed": "The three-year-old company says its Series B brings total funding to $91 million and will support a platform that gives agents isolated Linux, Windows, macOS and GPU environments for thousands of short, stateful jobs.",
+      "matters": "The investment thesis is that agent software creates a distinct infrastructure market: not one enduring application server, but many temporary computers that must start quickly, retain state, stay isolated and disappear cleanly.",
+      "watch": "Customer usage, security boundaries, gross margins, cloud-provider dependence and whether general platforms absorb the feature set. The financing and product claims are confirmed; the billion-dollar valuation is a private-round price, not proof of revenue or durable advantage.",
       "lead": false,
-      "group": { "label": "Technology & security", "title": "A core layer of the web needed an emergency repair—and the governance failure is part of the story.", "note": "Finding bugs faster helps only when maintainers have the people, authority and distribution machinery to ship safe fixes quickly.", "break": true },
+      "group": { "label": "Technology & enterprise", "title": "Investors are funding the operating layer beneath agents, not only the models above them.", "note": "If agents become normal software workers, secure disposable workspaces may become a category—or merely a feature of existing clouds.", "break": true },
       "background": {
-        "title": "The technical flaw exposed an institutional bottleneck",
-        "text": "The PHP Foundation says CVE-2026-109618 can corrupt memory when a request reaches its memory limit at the wrong moment, while CVE-2026-109619 can leave stale global state after a fatal error. Researchers demonstrated paths to remote code execution without authentication. One root cause had been noticed during work following a 2024 audit, but the security team could not settle competing fixes without risking compatibility, performance or new denial-of-service problems. The Foundation called that delay a structural failure caused by decision processes and too few developers with deep engine knowledge. Later reports from security researchers and AI-assisted tools clarified the impact and pushed the issue to the top of the queue. A leak then accelerated disclosure. The durable lesson is not that AI solved security. AI increased discovery and triage capacity; experienced maintainers still had to judge the fix, coordinate vendors and carry compatibility risk across a vast ecosystem.",
-        "known": "Two critical flaws have supported-version patches, real remote-code-execution paths were demonstrated and several public services limited availability during remediation.",
-        "new": "The maintainers publicly connected the technical delay to under-resourced governance and described how human and AI-assisted research finally converged on the release."
+        "title": "Agent infrastructure changes the unit of computing",
+        "text": "Traditional cloud applications are usually designed as services that remain available, scale with traffic and store state in known databases. Daytona argues that autonomous agents create a different workload. An agent may need its own operating system, files, tools, browser, credentials and GPU for a task that begins without notice, branches into many parallel jobs and pauses while retaining context. The company is therefore selling isolated workspaces that behave like disposable computers across Linux, Windows and macOS. That is a plausible new layer because sandboxing and orchestration are difficult to build repeatedly inside every agent product. It is not yet clear whether the layer can remain independent: hyperscale clouds, developer platforms and model providers can add similar capabilities. The fundraise shows conviction around the need. It does not settle who captures the economics.",
+        "known": "FirstMark Growth led the $60 million round, Daytona reports $91 million in total funding and the product targets stateful, sandboxed agent workloads.",
+        "new": "The infrastructure market is beginning to price an agent's temporary computer as a product category in its own right."
       },
       "evidence": {
-        "left": { "label": "Discovery accelerated", "text": "External audits, specialist researchers and AI-assisted tools surfaced and validated related attack paths." },
-        "right": { "label": "Judgment remained human", "text": "Maintainers still had to balance compatibility, performance, disclosure timing and safe distribution across supported branches." }
+        "left": { "label": "New workload", "text": "Agents can create many short-lived jobs that still need memory, tools, operating-system access and strong isolation." },
+        "right": { "label": "Open moat", "text": "Existing clouds and developer platforms may reproduce these primitives, so adoption and economics matter more than the funding headline." }
       },
       "sources": [
-        { "label": "PHP Foundation · vulnerabilities, patches and security-process account", "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/" },
-        { "label": "AP · government and corporate patching response", "url": "https://apnews.com/article/php-websites-fbi-europe-vulnerability-a0af9576808a0963efca8df14d4b5183" }
+        { "label": "Daytona · Series B announcement and product thesis", "url": "https://www.daytona.io/dotfiles/daytona-raises-60m-series-b-to-build-the-agent-cloud" },
+        { "label": "TechCrunch · round, investors and product context", "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/" }
       ]
     },
     {
-      "id": "ai-stocks-oil-split-market",
+      "id": "typhoon-champi-taiwan-aviation",
       "number": "04",
-      "category": "Markets, AI capital spending & energy",
-      "sourceNote": "Associated Press · Thursday close",
-      "title": "AI-linked shares pulled global markets lower while most S&P 500 stocks rose and Brent crude climbed above $113 a barrel.",
-      "changed": "The S&P 500 fell 1.2% and the Nasdaq 2.6%; Nvidia lost 4.4%, Meta 7% and CoreWeave 10.1%, while the Dow was nearly flat and a majority of S&P constituents gained.",
-      "matters": "The split is more informative than the index headline: investors are demanding more evidence that expensive AI infrastructure will earn adequate returns, while renewed Gulf risk is adding inflation and financing pressure through energy prices.",
-      "watch": "AI companies' capital plans, debt costs, utilisation and margins; Brent's path; and whether selling broadens beyond concentrated technology names. Thursday's prices are confirmed market data; they do not establish that the multi-year AI investment cycle has ended.",
+      "category": "Aviation, Taiwan & severe weather",
+      "sourceNote": "Associated Press · Saturday",
+      "title": "Typhoon Champi disrupted Taiwan without making landfall, cancelling hundreds of flights and cutting power to 280,000 households.",
+      "changed": "Taiwan reported one death and 350 injuries; Taoyuan airport cancelled 563 flights Friday and 261 more Saturday, while about 80% of affected households had power restored by Saturday morning.",
+      "matters": "A storm does not need to cross an airport to break an aviation network. Wide winds, safety closures and displaced aircraft and crews can keep schedules unstable after local conditions improve.",
+      "watch": "Saturday recovery at Taoyuan, aircraft and crew repositioning, onward disruption toward Japan, and updated airline notices. The storm was weakening and Taiwan expected to lift land warnings by evening.",
       "lead": false,
-      "group": { "label": "Economy & markets", "title": "The market punished concentrated AI expectations, not every business equally.", "note": "One difficult session is a valuation signal; the durable test is cash generation against the cost of capital.", "break": true },
+      "group": { "label": "World beyond the Gulf", "title": "Champi shows why network recovery lasts longer than the weather event.", "note": "The operational tail is aircraft, crews and passengers in the wrong places after the wind weakens.", "break": true },
       "sources": [
-        { "label": "AP · U.S. close, AI shares, yields and Brent", "url": "https://apnews.com/article/stocks-markets-rates-earnings-oil-33767691a4a0730b96d6f0c5100ea9b2" }
+        { "label": "AP · casualties, power restoration and flight cancellations", "url": "https://apnews.com/article/5ee312ec7567941b8f6b0f461d7c86d2" },
+        { "label": "China Airlines · passenger advisory and flexible ticketing", "url": "https://www.china-airlines.com/it/en/prepare-for-the-fly/information/announcements" }
       ]
     },
     {
-      "id": "ukraine-russia-data-centres",
+      "id": "quest-quanum-patient-records-breach",
       "number": "05",
-      "category": "Ukraine, digital infrastructure & AI capacity",
-      "sourceNote": "Associated Press · Friday",
-      "title": "Recent Ukrainian strikes damaged major Russian data centres, disrupting everyday digital services and exposing concentrated compute as wartime infrastructure.",
-      "changed": "AP reported strikes this month on three Yandex data centres plus facilities serving Sberbank and VKontakte; payments, commerce, ride-hailing, cloud services and courts experienced interruptions, while satellite images indicated serious physical damage.",
-      "matters": "Data centres concentrate servers, power and cooling into targets where a modest explosive can destroy scarce chips and stored capability. Russia's domestic-data rules also reduce geographic options for resilience.",
-      "watch": "Verified restoration times, service migration, data loss, replacement access to sanctioned chips and whether both sides expand attacks on civilian digital infrastructure. Service disruption and visible damage are reported; estimates that repairs will take months or years remain expert assessments.",
+      "category": "Cybersecurity, healthcare & sensitive data",
+      "sourceNote": "Quest Diagnostics / SEC · Thursday–Friday",
+      "title": "Quest Diagnostics confirmed that an intruder accessed patient records in the Quanum system used to order and retrieve lab tests.",
+      "changed": "Quest said it discovered unauthorized access on 21 October, contained the activity, notified federal law enforcement and engaged external experts; the scope, affected data and number of patients remain under investigation.",
+      "matters": "Lab platforms join identity, billing and clinical information in one operational workflow. A breach can expose records that are difficult to change and valuable for fraud even when testing operations continue.",
+      "watch": "Patient notifications, the types and volume of data taken, the intrusion window, any ransom demand and evidence of misuse. Unauthorized access is confirmed; broad service disruption and the final scale are not.",
       "lead": false,
-      "group": { "label": "World beyond the Gulf", "title": "Compute has joined power and fuel as infrastructure that war can disable far behind the front.", "note": "Digital sovereignty can reduce foreign dependence while increasing physical concentration risk at home.", "break": true },
+      "group": { "label": "Digital foundations", "title": "The web emergency has a healthcare counterpart: maintained services can still lose their most sensitive records.", "note": "Availability and confidentiality are separate tests of resilience.", "break": false },
       "sources": [
-        { "label": "AP · data-centre strikes, service disruptions and satellite evidence", "url": "https://apnews.com/article/russia-ukraine-war-data-yandex-ai-digital-2886cb306264b9429bd317bde4bf01fa" }
+        { "label": "Quest Diagnostics SEC filing · confirmed access and response", "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001022079/8a171b0a-e676-48dd-b38b-e8c01b2dc6f0.pdf" },
+        { "label": "Quest Diagnostics · public incident notice", "url": "https://www.questdiagnostics.com/links/quanum-notice" }
       ]
     }
   ],
   "radar": [
     {
       "label": "Curiosity Corner",
-      "title": "A virus-like shell can find the right shape by making reversible mistakes.",
-      "text": "In an engineered particle built from 60 protein units, Oxford researchers repeatedly weighed one growing structure and watched weak connections form, fail and try again. Stable closed shapes acted as waypoints: once five larger building blocks completed a pentagonal ring, assembly accelerated toward the finished shell. The experiment turns self-assembly from before-and-after snapshots into a molecular movie. Its wider idea is elegant: reliability need not require a blueprint when wrong steps are cheap to undo and correct intermediate states lock themselves in. This is evergreen science published in September, not breaking news.",
-      "url": "https://www.chem.ox.ac.uk/article/new-method-reveals-how-virus-particles-can-build-themselves-molecule-by-molecule"
+      "title": "Electricity and smartphones did not merely fill the evening; a 12-year study watched sleep move later and shrink in real time.",
+      "text": "Researchers followed 156 Toba/Qom participants in northern Argentina across more than 12,000 wrist-tracked sleep events from 2012 to 2024. Both rural and semi-urban groups shifted sleep timing by nearly an hour, while rural participants lost about 35 minutes of sleep over the decade as electricity, internet access and smartphones arrived. The authors caution that no single technology explains the whole change: wider modernization and acculturation likely moved with them. The unusual value is longitudinal evidence—watching the same communities change—rather than comparing two different societies at one moment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42880258/"
     },
     {
-      "label": "Qatar consumer signal",
-      "title": "Al Meera's nine-month profit rose 69.7%, but revenue and margin detail are still needed to explain the jump.",
-      "text": "The listed grocer reported QR82.2 million in net profit and earnings per share of QR0.40 for the first nine months, versus QR48.4 million and QR0.24 a year earlier. The headline is useful for the local consumer watchlist, but profit growth alone cannot distinguish stronger stores from investment income, cost changes or a weak comparison base. The investor call is scheduled for 25 October.",
-      "url": "https://www.qe.com.qa/company-profile?CompanyCode=MERS&FromLocalSite=N&InformationCategory=Company&InformationType=News&MoreNewsTitle=1"
+      "label": "Qatar watch",
+      "title": "Doha's World Investment Forum opens tomorrow with Gulf capital, AI, infrastructure, tourism and supply-chain resilience on the agenda.",
+      "text": "Qatar and UNCTAD expect more than 70 sessions and 211 speakers from 25–27 October. The useful output will not be the stage count but any investable programmes, policy changes or partnerships that survive the event—particularly around private-sector participation and trade-route resilience.",
+      "url": "https://qna.org.qa/en/news/news-details?date=5/10/2026&id=qatar-unctad-to-host-ninth-world-investment-forum-on-october-25"
     },
     {
-      "label": "Aviation watch",
-      "title": "Delta's first Atlanta–Riyadh nonstop is scheduled to begin today into a network still operating under regional security strain.",
-      "text": "The planned route is the first nonstop U.S.-carrier link between the two cities and a long-term tourism and business signal. The immediate question is operational, not promotional: Riyadh only began a limited permission-based reopening this week, so the flight's actual launch and schedule should be verified against live airline notices.",
-      "url": "https://news.delta.com/kingdom-calling-deltas-new-atlanta-riyadh-service-begins-oct-23"
+      "label": "Luxury signal",
+      "title": "Kering's portfolio is recovering unevenly: Gucci remains the drag while jewelry and several smaller houses grow.",
+      "text": "Third-quarter group revenue was down 1% on a comparable basis and Gucci fell 6%, but Kering Jewelry rose 11% and directly operated jewelry retail rose 18%. Kering closed a net 105 stores in nine months and now plans at least 125 closures for the year. The signal is not that luxury demand vanished; product desirability and house-level execution are separating winners inside the same owner.",
+      "url": "https://www.kering.com/en/news/revenue-for-the-3rd-quarter-of-2026/"
     }
   ],
   "attention": {
-    "title": "Open the AP report on Hormuz for the clearest account of how oil is moving through a waterway that has not truly reopened.",
-    "text": "It separates Iran's unverified seven-tanker claim from the observable dark-shuttle system, the October attack count, the U.S.-protected route and the extra time and money required to keep cargo moving.",
-    "url": "https://apnews.com/article/iran-united-states-war-hormuz-trump-israel-2abebce2fca2c085e0e0ee717e42cf28"
+    "title": "Open the AP report on the embassy drawdowns because it makes the Qatar development precise without overstating it.",
+    "text": "It distinguishes reduced staffing from closure or compulsory evacuation, identifies the four affected posts and separates the confirmed protective action from speculation about future military strikes.",
+    "url": "https://apnews.com/article/iran-war-houthis-embassies-staffing-rubio-9635852ea973064907ed0b7c0fca4799"
   },
   "ignore": {
-    "title": "Ignore any confident retelling that seven tankers were definitely struck overnight.",
-    "text": "That number came from Iranian state media and was not independently confirmed by AP; UKMTO had not reported the incidents. The wider rise in October attacks and the protected tanker shuttle are better-established facts."
+    "title": "Ignore any retelling that says the U.S. Embassy in Doha has closed or ordered everyone out.",
+    "text": "The embassy remains open. Staffing is being reduced, and departures from the four newly named posts are not compulsory. That is a serious precaution, but it is not the same operational state as an evacuation."
   },
   "history": {
-    "id": "plimsoll-line-global-safety-standard",
-    "number": "056",
+    "id": "how-saturday-became-weekend",
+    "number": "057",
     "readTime": "5 min",
-    "era": "1860s–1966 · Britain to the global fleet",
-    "title": "The Plimsoll line made a shipowner's private loading decision visible—and then turned that visibility into an enforceable global standard.",
-    "deck": "Victorian Britain lost sailors on overloaded and unseaworthy 'coffin ships.' A circle and line painted on the hull eventually gave crews, inspectors and ports a common threshold for judging whether a vessel had enough reserve buoyancy for the voyage ahead.",
-    "thesis": "The mark worked only after law removed the owner's freedom to define the safe limit alone. The history of the Plimsoll line is therefore not a story about a clever symbol. It is about converting hidden risk into a measurement, assigning an independent authority to set it, adapting the rule to seasons and waters, and making ports recognise the same boundary.",
+    "era": "1840s–1940 · Britain, the United States and an international labour standard",
+    "title": "Saturday became part of the weekend only after workers, factories, religions and law found different reasons to stop the same clock.",
+    "deck": "The two-day weekend feels like a natural unit of time. It is a recent operating agreement: first a Saturday half-holiday, then experiments in five-day production, then an overtime rule that made forty hours the economic boundary of the week.",
+    "thesis": "The weekend endured because it solved several problems at once. It gave workers recovery, let Jewish and Christian rest days coexist, helped factories regularise attendance and made mass leisure part of a consumer economy. Law then converted scattered bargains into a common standard—not by banning longer work, but by making the forty-first hour more expensive.",
     "sections": [
       {
-        "title": "Industrial trade created a lethal incentive problem",
-        "text": "Nineteenth-century British shipping carried coal, grain and manufactured goods through a rapidly expanding commercial system. Some vessels sailed badly maintained or overloaded, with so little hull above the water that a difficult sea could overwhelm them. Insurance could weaken the owner's incentive to retire an unsafe ship, while the crew bore the physical risk. Sailors who refused to sail might face imprisonment. The problem was not that nobody could see a dangerously low hull. It was that there was no binding, trusted threshold at which commercial discretion had to stop."
+        "title": "For industrial workers, Sunday was once the whole weekend",
+        "text": "In much of nineteenth-century Britain and the United States, a six-day working week ended late on Saturday. Sunday carried religious rest, but one day had to absorb worship, family, recovery and domestic work. The word weekend itself appeared only near the end of the nineteenth century. Before the full two-day break, British campaigns won a Saturday half-holiday. Employers could accept the bargain when a shorter Saturday helped replace irregular absences with predictable attendance. Leisure began as a negotiated slice of the production calendar, not a gift from a clock."
       },
       {
-        "title": "Samuel Plimsoll made the invisible bargain political",
-        "text": "Samuel Plimsoll, a coal merchant elected to Parliament in 1868, campaigned against what became known as coffin ships. His 1872 book Our Seamen assembled claims about overloading, poor maintenance, undermanning and over-insurance into a public case. Parliamentary attempts met fierce resistance from shipping interests and officials who doubted that compulsory survey would prevent losses. Plimsoll's importance was not solitary invention: merchants, underwriters and sailors had discussed freeboard measures before him. He made the cost of leaving the decision private impossible for Parliament to ignore."
+        "title": "The eight-hour movement changed the argument from days to limits",
+        "text": "Workers organised around a memorable division: eight hours for work, eight for rest and eight for what they chose. The demand was radical because employers treated long hours as a competitive necessity. In 1866, the United States' National Labor Union issued the first national call for an eight-hour day. The campaign survived defeat and violence, spread through unions and public employment, and gradually made time itself a labour standard. Once the working day could have a legitimate boundary, a shorter week became imaginable rather than idle."
       },
       {
-        "title": "The first compulsory mark still let owners choose the answer",
-        "text": "The Merchant Shipping Act of 1876 required most British ships to carry a circular disc with a horizontal line on each side. Yet the centre initially indicated the maximum load line to which the owner intended to load the vessel. A visible declaration was better than none, but the person benefiting from extra cargo still had influence over the boundary. Some owners reportedly placed marks absurdly high. The episode exposed a general weakness in regulation: disclosure does not control risk when the regulated party still defines the measurement."
+        "title": "International coordination answered the race-to-the-bottom objection",
+        "text": "A country or industry that cut hours could be accused of making itself uncompetitive. The International Labour Organization's first convention in 1919 therefore set an eight-hour day and a 48-hour week for industry. The standard did not instantly create weekends, and adoption varied, but it reframed shorter hours as something economies could coordinate rather than a unilateral handicap. A 1921 convention added the principle of weekly rest. In 1935, the ILO adopted a forty-hour convention while mass unemployment made work-sharing an economic argument as well as a welfare claim."
       },
       {
-        "title": "Data and independent tables turned paint into a safety rule",
-        "text": "Lloyd's Register surveyors accumulated evidence about ship construction, strength and freeboard. Britain introduced Board of Trade load-line tables in 1886 and by 1890 fixed the position of the mark by law. That changed the symbol's meaning. It no longer merely recorded an owner's intention; it represented a standard linked to the vessel's design and the amount of hull that had to remain above water. Inspectors and crews could now compare a ship's actual immersion with a limit set outside the commercial decision to add one more tonne."
+        "title": "Religious accommodation helped make two rest days coherent",
+        "text": "The six-day week created a practical conflict for Jewish workers who observed Saturday as the Sabbath inside societies that shut on Sunday. Some early American five-day schedules were adopted specifically to accommodate them. The solution was institutionally elegant: it did not require everyone to share one religious reason, only to accept a common period containing both days. A calendar arrangement could serve observance, secular recreation and family life at once. That coalition made the weekend stronger than any single justification would have made it."
       },
       {
-        "title": "One line became several because the sea is not one condition",
-        "text": "Safe loading depends on water density, season and route. A ship floats differently in fresh and salt water, while winter conditions can demand more reserve buoyancy than tropical waters. Modern load-line marks therefore include several horizontal lines for different zones and seasons rather than one universal depth. The sophistication is easy to miss because the interface stayed simple: a small set of letters and lines on the hull encodes a larger body of naval architecture, survey and legal responsibility."
+        "title": "Ford made the five-day week look compatible with mass production",
+        "text": "Ford Motor Company tested shorter schedules before moving factory workers to five eight-hour days in 1926. The decision was not simple benevolence. Ford's assembly line had made output faster and work punishingly repetitive; the company had already used higher wages and shorter shifts to reduce extraordinary turnover. More recovery could support effort and retention. Henry Ford also argued that leisure would create demand for cars, travel and other goods. The same worker was both a production input and a consumer. The weekend could therefore enlarge, rather than merely subtract from, an industrial economy."
       },
       {
-        "title": "Ports turned a British reform into a global operating language",
-        "text": "National rules spread, but international shipping still faced incompatible standards until countries negotiated common conventions. The first International Convention on Load Lines arrived in 1930. The 1966 convention under the International Maritime Organization updated the system around reserve buoyancy, watertight integrity and seasonal zones. Every marked vessel carries a local physical fact that other ports can interpret. The line endures because it joins measurement, independent assignment, visible compliance and mutual recognition in one compact interface."
+        "title": "Overtime law turned forty hours into the durable boundary",
+        "text": "The Great Depression gave shorter hours another purpose: spreading limited work among more people. The U.S. Fair Labor Standards Act became law in 1938 after a long political fight. It initially set the overtime threshold at 44 hours, then reduced it to 40 by 1940 for covered workers. The mechanism mattered. Employers could still schedule more work, but hours beyond the threshold cost at least time and a half. The law did not decree Saturday and Sunday by name. It changed the economics around a forty-hour total, allowing the existing eight-hour day and five-day experiments to settle into the familiar weekly shape."
       }
     ],
     "timeline": [
-      { "date": "1860s", "text": "Public concern grows over overloaded, badly maintained and over-insured British merchant ships." },
-      { "date": "1868", "text": "Samuel Plimsoll enters Parliament and begins a sustained campaign for safer merchant shipping." },
-      { "date": "1872", "text": "Plimsoll publishes Our Seamen, turning the coffin-ship issue into a national political cause." },
-      { "date": "1876", "text": "The Merchant Shipping Act requires a circular load-line mark on most British vessels, but owners still state the intended limit." },
-      { "date": "1886–1890", "text": "Board of Trade tables and later law move the mark toward independently determined freeboard standards." },
-      { "date": "1930", "text": "The first International Convention on Load Lines establishes a shared international framework." },
-      { "date": "1966", "text": "The IMO load-lines convention modernises global rules for reserve buoyancy, zones, seasons and ship integrity." }
+      { "date": "1840s–1870s", "text": "British Saturday half-holiday campaigns begin separating a predictable leisure period from the six-day working week." },
+      { "date": "1866", "text": "The U.S. National Labor Union issues the first national call for an eight-hour working day." },
+      { "date": "1919", "text": "The ILO's first convention sets eight hours a day and 48 hours a week as an international industrial standard." },
+      { "date": "1921", "text": "The ILO establishes a principle of weekly rest for industry." },
+      { "date": "1926", "text": "Ford moves factory workers to a five-day, 40-hour week, making the arrangement visible to mass industry." },
+      { "date": "1935", "text": "The ILO adopts the Forty-Hour Week Convention amid mass unemployment and the case for sharing available work." },
+      { "date": "1938–1940", "text": "The U.S. Fair Labor Standards Act phases its overtime threshold down from 44 to 40 hours." }
     ],
     "sources": [
-      { "label": "Lloyd's Register Foundation · the Plimsoll line and the path from owner choice to global standard", "url": "https://heritage.lrfoundation.org.uk/what-is-the-plimsoll-line" },
-      { "label": "UK legislation · Merchant Shipping Act 1876 load-line provisions", "url": "https://www.legislation.gov.uk/ukpga/Vict/39-40/80/pdfs/ukpga_18760080_en.pdf" },
-      { "label": "UK Parliament · 1876 debate on enforcing the marked limit", "url": "https://api.parliament.uk/historic-hansard/commons/1876/apr/28/committee-progress-27th-april" },
-      { "label": "International Maritime Organization · International Convention on Load Lines", "url": "https://www.imo.org/en/about/conventions/pages/international-convention-on-load-lines.aspx" },
-      { "label": "Royal Museums Greenwich · 1875 Plimsoll and coffin-ships medal", "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-37995" }
+      { "label": "Library of Congress · the eight-hour movement and the road to a forty-hour week", "url": "https://guides.loc.gov/this-month-in-business-history/august/national-labor-union-8-hour-work-day" },
+      { "label": "International Labour Organization · Convention No. 1 and the eight-hour principle", "url": "https://www.ilo.org/resource/article/convention-no-1-landmark-workers%E2%80%99-rights" },
+      { "label": "U.S. Department of Labor · the legislative struggle and Fair Labor Standards Act", "url": "https://www.dol.gov/general/aboutdol/history/flsa1938" },
+      { "label": "Library of Congress · Ford's five-day week and the 1938 settlement", "url": "https://blogs.loc.gov/inside_adams/2024/01/40-hours-5-days/" },
+      { "label": "The Atlantic · Saturday half-holidays, Sabbath accommodation and the cultural weekend", "url": "https://www.theatlantic.com/magazine/archive/1991/08/waiting-for-the-weekend/376343/" }
     ]
   },
   "threads": [
     {
-      "status": "Operating under protection",
-      "title": "Strait of Hormuz flows",
-      "text": "A dark tanker shuttle is sustaining oil exports, but attack frequency, military dependence and transfer costs remain high.",
-      "progress": 46
+      "status": "Precaution increased",
+      "title": "Regional security in Doha",
+      "text": "The U.S. embassy remains open with reduced staffing; the next signal is any change in services, travel advice or action by other governments.",
+      "progress": 42
     },
     {
-      "status": "Diversifying",
-      "title": "QatarEnergy LNG portfolio",
-      "text": "Long-term U.S. offtake beginning in 2031 adds a second supply basin and more destination flexibility.",
-      "progress": 58
+      "status": "Broadening pressure",
+      "title": "Oil, inflation and markets",
+      "text": "Brent above $116 has widened the market strain from AI valuation concerns to transport, margins and central-bank policy.",
+      "progress": 65
     },
     {
-      "status": "Patch now",
-      "title": "PHP security exposure",
-      "text": "Supported releases are fixed, but identifying and updating the long tail of deployed systems will take time.",
-      "progress": 39
+      "status": "Category forming",
+      "title": "Infrastructure for AI agents",
+      "text": "Daytona's funding prices disposable, stateful agent computers as a new layer, while the long-term moat remains unproven.",
+      "progress": 36
     },
     {
-      "status": "Repricing",
-      "title": "AI capital cycle",
-      "text": "Markets are demanding clearer returns from costly compute investment while financing and energy costs remain elevated.",
-      "progress": 48
+      "status": "Recovering",
+      "title": "Typhoon Champi aviation disruption",
+      "text": "Taiwan expects warnings to ease, but aircraft, crews and passengers still need to be repositioned across the network.",
+      "progress": 72
     },
     {
-      "status": "Physically exposed",
-      "title": "Wartime data infrastructure",
-      "text": "Russian service disruptions show how concentrated compute, power and cooling can become strategic targets.",
-      "progress": 67
+      "status": "Scope unknown",
+      "title": "Quest patient-record breach",
+      "text": "Unauthorized access is confirmed; the data types, patient count, intrusion window and misuse remain under investigation.",
+      "progress": 29
     }
   ]
 }
