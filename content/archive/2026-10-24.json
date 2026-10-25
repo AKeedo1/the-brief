@@ -1,0 +1,245 @@
+{
+  "date": { "display": "Saturday, 24 October 2026", "edition": "057", "updated": "7:15 AM" },
+  "worldSentence": "Regional security risk has moved from ships to people and offices, while $116 oil, storm-grounded flights and attacks on health data show how quickly physical and digital disruption becomes an operating cost.",
+  "standfirst": "Saturday's edition leads with reduced staffing at the U.S. Embassy in Doha and three other regional posts, then follows oil's pressure on markets, Typhoon Champi's aviation disruption, a billion-dollar bet on infrastructure for AI agents and a breach of patient records. Curiosity Corner measures how electrification and smartphones changed sleep. The Long View explains how Saturday became part of the weekend.",
+  "listenTime": "17 min",
+  "coverage": [
+    { "count": 4, "label": "Qatar & Gulf" },
+    { "count": 3, "label": "World & security" },
+    { "count": 3, "label": "Economy & markets" },
+    { "count": 4, "label": "AI & technology" },
+    { "count": 3, "label": "Aviation & consumer" }
+  ],
+  "connected": {
+    "title": "The useful thread is that resilience becomes real only when someone is willing to pay for spare capacity before it is needed.",
+    "signals": [
+      { "label": "DOHA", "value": "4 embassies", "text": "The United States is reducing staffing in Qatar, the UAE, Jordan and Lebanon while keeping the posts open." },
+      { "label": "ENERGY", "value": "$116.72", "text": "Brent settled at its highest level since June 2022, broadening market pressure beyond technology shares." },
+      { "label": "AVIATION", "value": "824 flights", "text": "Taiwan's main airport cancelled 563 flights Friday and another 261 Saturday as Champi passed offshore." },
+      { "label": "DIGITAL", "value": "Patient records", "text": "Quest Diagnostics confirmed unauthorized access to records inside a system used to order and retrieve lab tests." }
+    ],
+    "note": "Embassy drawdowns, fuel-price shocks, weather cancellations and cyber incidents are different failures. Each rewards the same quiet investments: distributed operations, tested fallbacks, maintained systems and clear thresholds for acting early."
+  },
+  "stories": [
+    {
+      "id": "us-embassy-doha-staffing-reduction",
+      "number": "01",
+      "category": "Qatar, regional security & diplomacy",
+      "sourceNote": "Associated Press · Saturday",
+      "title": "The United States is reducing staffing at its embassy in Doha and three other Middle East posts after intelligence of advanced Iranian targeting efforts.",
+      "changed": "The State Department is drawing down personnel in Qatar, the UAE, Jordan and Lebanon; the embassies remain open and departures are not compulsory, unlike the ordered departure of nonessential staff and families from Saudi Arabia.",
+      "matters": "For Qatar, this is a concrete operating change inside Doha rather than another abstract warning about regional tension. It signals a higher official assessment of risk to U.S. personnel without yet becoming an evacuation or embassy closure.",
+      "watch": "Any change in embassy services or travel advice, matching steps by other governments, verified threats inside Qatar, and whether diplomacy with Iran resumes. The staffing reduction and intelligence memo are confirmed by AP; officials deny it signals an imminent new strike.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "A regional threat assessment has produced a visible change in Doha.", "note": "The distinction matters: a smaller open embassy is neither business as usual nor an evacuation.", "break": false },
+      "background": {
+        "title": "The action is precautionary, but the geography makes it personally relevant",
+        "text": "A memo to U.S. Secretary of State Marco Rubio said intelligence agencies had received information that Iran had substantially increased efforts to target American personnel and that some plotting had reached advanced stages. The State Department then reduced staffing at four embassies already operating under restrictions: Qatar, the UAE, Jordan and Lebanon. Officials told AP that threats from Iran and the Houthis were related to the change. The posts remain open, and the Qatar drawdown is not an ordered departure like the one announced for nonessential staff and families in Saudi Arabia. That leaves the practical status between routine operations and evacuation. It should be read as evidence of elevated official concern, not proof of a specific attack plan in Doha or evidence that new U.S. strikes are imminent.",
+        "known": "The Doha embassy remains open with a reduced personnel footprint, and the U.S. says the change follows intelligence about increased threats to American personnel.",
+        "new": "Qatar has moved from the background of regional warnings into the small group of posts taking a concrete protective staffing measure."
+      },
+      "evidence": {
+        "left": { "label": "Confirmed action", "text": "Staffing is being reduced at four named embassies, including Doha, while services have not been described as suspended." },
+        "right": { "label": "Unproven inference", "text": "The action does not establish a specific plot in Qatar or confirm that Washington has decided on another attack on Iran." }
+      },
+      "sources": [
+        { "label": "AP · intelligence memo, affected embassies and operating status", "url": "https://apnews.com/article/iran-war-houthis-embassies-staffing-rubio-9635852ea973064907ed0b7c0fca4799" }
+      ]
+    },
+    {
+      "id": "oil-116-broad-market-pressure",
+      "number": "02",
+      "category": "Markets, energy & financing",
+      "sourceNote": "Associated Press · Friday close",
+      "title": "Brent settled at $116.72 as higher oil prices pushed Wall Street broadly lower and extended the S&P 500's weekly losing streak.",
+      "changed": "Brent rose 3.1% Friday to its highest close since June 2022; the S&P 500 fell 0.5%, the Dow 1.2% and the Nasdaq 0.2%, with nearly three quarters of S&P constituents declining.",
+      "matters": "Thursday's selloff was concentrated in AI shares, but Friday's weakness broadened as expensive energy threatened inflation, rates and margins. The market is now pricing a system-wide input shock as well as doubts about AI returns.",
+      "watch": "The Federal Reserve meeting, September PCE inflation, next week's Alphabet, Microsoft and Amazon results, and whether Brent stays above $115. The prices are confirmed; one week does not establish a lasting bear market.",
+      "lead": false,
+      "group": { "label": "Economy & markets", "title": "The pressure widened from expensive AI expectations to expensive energy.", "note": "Oil at this level touches transport, food, consumer spending and the path of interest rates.", "break": true },
+      "background": {
+        "title": "Two expensive systems are colliding",
+        "text": "The previous session's decline was dominated by highly valued AI companies. On Friday, nearly three out of four S&P 500 members fell as Brent climbed above $116 a barrel, up from less than $97 at the start of October. That broadening matters. High oil prices pass through unevenly but raise fuel and logistics costs, sustain inflation pressure and make central banks less willing to cut rates. At the same time, much of the AI build-out depends on large upfront spending and, for some companies, borrowed money. The U.S. 10-year Treasury yield ended near 5%, so the cost of funding future data-centre cash flows remains high. Some AI-linked shares recovered Friday, showing that the market is not making one simple anti-technology bet. It is demanding clearer returns while the price of energy and capital rises around them.",
+        "known": "Brent, major U.S. indexes and the 10-year yield all finished Friday at the reported levels, and the S&P 500 logged a second weekly decline.",
+        "new": "The latest session shifted the immediate market burden from a narrow technology repricing toward a broader oil-and-inflation constraint."
+      },
+      "evidence": {
+        "left": { "label": "Broader selling", "text": "About three quarters of the S&P 500 fell Friday, unlike Thursday when most constituents rose beneath a technology-led index decline." },
+        "right": { "label": "Not a clean reversal", "text": "Micron, Intel, Microsoft and AMD gained, so investors are discriminating among AI exposures rather than abandoning the theme wholesale." }
+      },
+      "sources": [
+        { "label": "AP · Friday market close, Brent, yields and coming catalysts", "url": "https://apnews.com/article/stocks-markets-ai-oil-inflation-7b47ef3b037bfba4e34f685329b9b963" }
+      ]
+    },
+    {
+      "id": "daytona-agent-cloud-series-b",
+      "number": "03",
+      "category": "AI infrastructure, entrepreneurship & venture capital",
+      "sourceNote": "Daytona / TechCrunch · Friday",
+      "title": "Daytona raised $60 million at a $1 billion valuation to build cloud infrastructure designed around long-running AI agents.",
+      "changed": "The three-year-old company says its Series B brings total funding to $91 million and will support a platform that gives agents isolated Linux, Windows, macOS and GPU environments for thousands of short, stateful jobs.",
+      "matters": "The investment thesis is that agent software creates a distinct infrastructure market: not one enduring application server, but many temporary computers that must start quickly, retain state, stay isolated and disappear cleanly.",
+      "watch": "Customer usage, security boundaries, gross margins, cloud-provider dependence and whether general platforms absorb the feature set. The financing and product claims are confirmed; the billion-dollar valuation is a private-round price, not proof of revenue or durable advantage.",
+      "lead": false,
+      "group": { "label": "Technology & enterprise", "title": "Investors are funding the operating layer beneath agents, not only the models above them.", "note": "If agents become normal software workers, secure disposable workspaces may become a category—or merely a feature of existing clouds.", "break": true },
+      "background": {
+        "title": "Agent infrastructure changes the unit of computing",
+        "text": "Traditional cloud applications are usually designed as services that remain available, scale with traffic and store state in known databases. Daytona argues that autonomous agents create a different workload. An agent may need its own operating system, files, tools, browser, credentials and GPU for a task that begins without notice, branches into many parallel jobs and pauses while retaining context. The company is therefore selling isolated workspaces that behave like disposable computers across Linux, Windows and macOS. That is a plausible new layer because sandboxing and orchestration are difficult to build repeatedly inside every agent product. It is not yet clear whether the layer can remain independent: hyperscale clouds, developer platforms and model providers can add similar capabilities. The fundraise shows conviction around the need. It does not settle who captures the economics.",
+        "known": "FirstMark Growth led the $60 million round, Daytona reports $91 million in total funding and the product targets stateful, sandboxed agent workloads.",
+        "new": "The infrastructure market is beginning to price an agent's temporary computer as a product category in its own right."
+      },
+      "evidence": {
+        "left": { "label": "New workload", "text": "Agents can create many short-lived jobs that still need memory, tools, operating-system access and strong isolation." },
+        "right": { "label": "Open moat", "text": "Existing clouds and developer platforms may reproduce these primitives, so adoption and economics matter more than the funding headline." }
+      },
+      "sources": [
+        { "label": "Daytona · Series B announcement and product thesis", "url": "https://www.daytona.io/dotfiles/daytona-raises-60m-series-b-to-build-the-agent-cloud" },
+        { "label": "TechCrunch · round, investors and product context", "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/" }
+      ]
+    },
+    {
+      "id": "typhoon-champi-taiwan-aviation",
+      "number": "04",
+      "category": "Aviation, Taiwan & severe weather",
+      "sourceNote": "Associated Press · Saturday",
+      "title": "Typhoon Champi disrupted Taiwan without making landfall, cancelling hundreds of flights and cutting power to 280,000 households.",
+      "changed": "Taiwan reported one death and 350 injuries; Taoyuan airport cancelled 563 flights Friday and 261 more Saturday, while about 80% of affected households had power restored by Saturday morning.",
+      "matters": "A storm does not need to cross an airport to break an aviation network. Wide winds, safety closures and displaced aircraft and crews can keep schedules unstable after local conditions improve.",
+      "watch": "Saturday recovery at Taoyuan, aircraft and crew repositioning, onward disruption toward Japan, and updated airline notices. The storm was weakening and Taiwan expected to lift land warnings by evening.",
+      "lead": false,
+      "group": { "label": "World beyond the Gulf", "title": "Champi shows why network recovery lasts longer than the weather event.", "note": "The operational tail is aircraft, crews and passengers in the wrong places after the wind weakens.", "break": true },
+      "sources": [
+        { "label": "AP · casualties, power restoration and flight cancellations", "url": "https://apnews.com/article/5ee312ec7567941b8f6b0f461d7c86d2" },
+        { "label": "China Airlines · passenger advisory and flexible ticketing", "url": "https://www.china-airlines.com/it/en/prepare-for-the-fly/information/announcements" }
+      ]
+    },
+    {
+      "id": "quest-quanum-patient-records-breach",
+      "number": "05",
+      "category": "Cybersecurity, healthcare & sensitive data",
+      "sourceNote": "Quest Diagnostics / SEC · Thursday–Friday",
+      "title": "Quest Diagnostics confirmed that an intruder accessed patient records in the Quanum system used to order and retrieve lab tests.",
+      "changed": "Quest said it discovered unauthorized access on 21 October, contained the activity, notified federal law enforcement and engaged external experts; the scope, affected data and number of patients remain under investigation.",
+      "matters": "Lab platforms join identity, billing and clinical information in one operational workflow. A breach can expose records that are difficult to change and valuable for fraud even when testing operations continue.",
+      "watch": "Patient notifications, the types and volume of data taken, the intrusion window, any ransom demand and evidence of misuse. Unauthorized access is confirmed; broad service disruption and the final scale are not.",
+      "lead": false,
+      "group": { "label": "Digital foundations", "title": "The web emergency has a healthcare counterpart: maintained services can still lose their most sensitive records.", "note": "Availability and confidentiality are separate tests of resilience.", "break": false },
+      "sources": [
+        { "label": "Quest Diagnostics SEC filing · confirmed access and response", "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001022079/8a171b0a-e676-48dd-b38b-e8c01b2dc6f0.pdf" },
+        { "label": "Quest Diagnostics · public incident notice", "url": "https://www.questdiagnostics.com/links/quanum-notice" }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Curiosity Corner",
+      "title": "Electricity and smartphones did not merely fill the evening; a 12-year study watched sleep move later and shrink in real time.",
+      "text": "Researchers followed 156 Toba/Qom participants in northern Argentina across more than 12,000 wrist-tracked sleep events from 2012 to 2024. Both rural and semi-urban groups shifted sleep timing by nearly an hour, while rural participants lost about 35 minutes of sleep over the decade as electricity, internet access and smartphones arrived. The authors caution that no single technology explains the whole change: wider modernization and acculturation likely moved with them. The unusual value is longitudinal evidence—watching the same communities change—rather than comparing two different societies at one moment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42880258/"
+    },
+    {
+      "label": "Qatar watch",
+      "title": "Doha's World Investment Forum opens tomorrow with Gulf capital, AI, infrastructure, tourism and supply-chain resilience on the agenda.",
+      "text": "Qatar and UNCTAD expect more than 70 sessions and 211 speakers from 25–27 October. The useful output will not be the stage count but any investable programmes, policy changes or partnerships that survive the event—particularly around private-sector participation and trade-route resilience.",
+      "url": "https://qna.org.qa/en/news/news-details?date=5/10/2026&id=qatar-unctad-to-host-ninth-world-investment-forum-on-october-25"
+    },
+    {
+      "label": "Luxury signal",
+      "title": "Kering's portfolio is recovering unevenly: Gucci remains the drag while jewelry and several smaller houses grow.",
+      "text": "Third-quarter group revenue was down 1% on a comparable basis and Gucci fell 6%, but Kering Jewelry rose 11% and directly operated jewelry retail rose 18%. Kering closed a net 105 stores in nine months and now plans at least 125 closures for the year. The signal is not that luxury demand vanished; product desirability and house-level execution are separating winners inside the same owner.",
+      "url": "https://www.kering.com/en/news/revenue-for-the-3rd-quarter-of-2026/"
+    }
+  ],
+  "attention": {
+    "title": "Open the AP report on the embassy drawdowns because it makes the Qatar development precise without overstating it.",
+    "text": "It distinguishes reduced staffing from closure or compulsory evacuation, identifies the four affected posts and separates the confirmed protective action from speculation about future military strikes.",
+    "url": "https://apnews.com/article/iran-war-houthis-embassies-staffing-rubio-9635852ea973064907ed0b7c0fca4799"
+  },
+  "ignore": {
+    "title": "Ignore any retelling that says the U.S. Embassy in Doha has closed or ordered everyone out.",
+    "text": "The embassy remains open. Staffing is being reduced, and departures from the four newly named posts are not compulsory. That is a serious precaution, but it is not the same operational state as an evacuation."
+  },
+  "history": {
+    "id": "how-saturday-became-weekend",
+    "number": "057",
+    "readTime": "5 min",
+    "era": "1840s–1940 · Britain, the United States and an international labour standard",
+    "title": "Saturday became part of the weekend only after workers, factories, religions and law found different reasons to stop the same clock.",
+    "deck": "The two-day weekend feels like a natural unit of time. It is a recent operating agreement: first a Saturday half-holiday, then experiments in five-day production, then an overtime rule that made forty hours the economic boundary of the week.",
+    "thesis": "The weekend endured because it solved several problems at once. It gave workers recovery, let Jewish and Christian rest days coexist, helped factories regularise attendance and made mass leisure part of a consumer economy. Law then converted scattered bargains into a common standard—not by banning longer work, but by making the forty-first hour more expensive.",
+    "sections": [
+      {
+        "title": "For industrial workers, Sunday was once the whole weekend",
+        "text": "In much of nineteenth-century Britain and the United States, a six-day working week ended late on Saturday. Sunday carried religious rest, but one day had to absorb worship, family, recovery and domestic work. The word weekend itself appeared only near the end of the nineteenth century. Before the full two-day break, British campaigns won a Saturday half-holiday. Employers could accept the bargain when a shorter Saturday helped replace irregular absences with predictable attendance. Leisure began as a negotiated slice of the production calendar, not a gift from a clock."
+      },
+      {
+        "title": "The eight-hour movement changed the argument from days to limits",
+        "text": "Workers organised around a memorable division: eight hours for work, eight for rest and eight for what they chose. The demand was radical because employers treated long hours as a competitive necessity. In 1866, the United States' National Labor Union issued the first national call for an eight-hour day. The campaign survived defeat and violence, spread through unions and public employment, and gradually made time itself a labour standard. Once the working day could have a legitimate boundary, a shorter week became imaginable rather than idle."
+      },
+      {
+        "title": "International coordination answered the race-to-the-bottom objection",
+        "text": "A country or industry that cut hours could be accused of making itself uncompetitive. The International Labour Organization's first convention in 1919 therefore set an eight-hour day and a 48-hour week for industry. The standard did not instantly create weekends, and adoption varied, but it reframed shorter hours as something economies could coordinate rather than a unilateral handicap. A 1921 convention added the principle of weekly rest. In 1935, the ILO adopted a forty-hour convention while mass unemployment made work-sharing an economic argument as well as a welfare claim."
+      },
+      {
+        "title": "Religious accommodation helped make two rest days coherent",
+        "text": "The six-day week created a practical conflict for Jewish workers who observed Saturday as the Sabbath inside societies that shut on Sunday. Some early American five-day schedules were adopted specifically to accommodate them. The solution was institutionally elegant: it did not require everyone to share one religious reason, only to accept a common period containing both days. A calendar arrangement could serve observance, secular recreation and family life at once. That coalition made the weekend stronger than any single justification would have made it."
+      },
+      {
+        "title": "Ford made the five-day week look compatible with mass production",
+        "text": "Ford Motor Company tested shorter schedules before moving factory workers to five eight-hour days in 1926. The decision was not simple benevolence. Ford's assembly line had made output faster and work punishingly repetitive; the company had already used higher wages and shorter shifts to reduce extraordinary turnover. More recovery could support effort and retention. Henry Ford also argued that leisure would create demand for cars, travel and other goods. The same worker was both a production input and a consumer. The weekend could therefore enlarge, rather than merely subtract from, an industrial economy."
+      },
+      {
+        "title": "Overtime law turned forty hours into the durable boundary",
+        "text": "The Great Depression gave shorter hours another purpose: spreading limited work among more people. The U.S. Fair Labor Standards Act became law in 1938 after a long political fight. It initially set the overtime threshold at 44 hours, then reduced it to 40 by 1940 for covered workers. The mechanism mattered. Employers could still schedule more work, but hours beyond the threshold cost at least time and a half. The law did not decree Saturday and Sunday by name. It changed the economics around a forty-hour total, allowing the existing eight-hour day and five-day experiments to settle into the familiar weekly shape."
+      }
+    ],
+    "timeline": [
+      { "date": "1840s–1870s", "text": "British Saturday half-holiday campaigns begin separating a predictable leisure period from the six-day working week." },
+      { "date": "1866", "text": "The U.S. National Labor Union issues the first national call for an eight-hour working day." },
+      { "date": "1919", "text": "The ILO's first convention sets eight hours a day and 48 hours a week as an international industrial standard." },
+      { "date": "1921", "text": "The ILO establishes a principle of weekly rest for industry." },
+      { "date": "1926", "text": "Ford moves factory workers to a five-day, 40-hour week, making the arrangement visible to mass industry." },
+      { "date": "1935", "text": "The ILO adopts the Forty-Hour Week Convention amid mass unemployment and the case for sharing available work." },
+      { "date": "1938–1940", "text": "The U.S. Fair Labor Standards Act phases its overtime threshold down from 44 to 40 hours." }
+    ],
+    "sources": [
+      { "label": "Library of Congress · the eight-hour movement and the road to a forty-hour week", "url": "https://guides.loc.gov/this-month-in-business-history/august/national-labor-union-8-hour-work-day" },
+      { "label": "International Labour Organization · Convention No. 1 and the eight-hour principle", "url": "https://www.ilo.org/resource/article/convention-no-1-landmark-workers%E2%80%99-rights" },
+      { "label": "U.S. Department of Labor · the legislative struggle and Fair Labor Standards Act", "url": "https://www.dol.gov/general/aboutdol/history/flsa1938" },
+      { "label": "Library of Congress · Ford's five-day week and the 1938 settlement", "url": "https://blogs.loc.gov/inside_adams/2024/01/40-hours-5-days/" },
+      { "label": "The Atlantic · Saturday half-holidays, Sabbath accommodation and the cultural weekend", "url": "https://www.theatlantic.com/magazine/archive/1991/08/waiting-for-the-weekend/376343/" }
+    ]
+  },
+  "threads": [
+    {
+      "status": "Precaution increased",
+      "title": "Regional security in Doha",
+      "text": "The U.S. embassy remains open with reduced staffing; the next signal is any change in services, travel advice or action by other governments.",
+      "progress": 42
+    },
+    {
+      "status": "Broadening pressure",
+      "title": "Oil, inflation and markets",
+      "text": "Brent above $116 has widened the market strain from AI valuation concerns to transport, margins and central-bank policy.",
+      "progress": 65
+    },
+    {
+      "status": "Category forming",
+      "title": "Infrastructure for AI agents",
+      "text": "Daytona's funding prices disposable, stateful agent computers as a new layer, while the long-term moat remains unproven.",
+      "progress": 36
+    },
+    {
+      "status": "Recovering",
+      "title": "Typhoon Champi aviation disruption",
+      "text": "Taiwan expects warnings to ease, but aircraft, crews and passengers still need to be repositioned across the network.",
+      "progress": 72
+    },
+    {
+      "status": "Scope unknown",
+      "title": "Quest patient-record breach",
+      "text": "Unauthorized access is confirmed; the data types, patient count, intrusion window and misuse remain under investigation.",
+      "progress": 29
+    }
+  ]
+}
