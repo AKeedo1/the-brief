@@ -1,0 +1,194 @@
+{
+  "date": { "display": "Sunday, 25 October 2026", "edition": "058", "updated": "7:05 AM" },
+  "worldSentence": "Missiles aimed at Islam's holiest regions have widened the Saudi conflict's psychological and operating perimeter, while Britain is turning AI risk into institutions and China is reopening North Korea's largest trade gateway.",
+  "standfirst": "Sunday's edition leads with the interception of two Houthi ballistic missiles toward the Makkah and Madinah regions, then follows Britain's new AI-security package, a long-delayed China–North Korea bridge and a limited humanitarian opening in the Ukraine war. Doha's World Investment Forum begins this morning. Curiosity Corner puts a tiny laboratory fireball under the microscope, and the Long View explains how the first world's fair turned a temporary spectacle into permanent institutions.",
+  "listenTime": "15 min",
+  "coverage": [
+    { "count": 4, "label": "Qatar & Gulf" },
+    { "count": 3, "label": "World & security" },
+    { "count": 2, "label": "Economy & markets" },
+    { "count": 3, "label": "AI & technology" },
+    { "count": 3, "label": "Aviation & consumer" }
+  ],
+  "connected": {
+    "title": "The useful thread is that a gateway matters only when the operating system around it works.",
+    "signals": [
+      { "label": "SAUDI", "value": "2 missiles", "text": "Saudi Arabia says it intercepted ballistic missiles aimed toward the Makkah and Madinah regions; debris fell in four western locations." },
+      { "label": "AI POLICY", "value": "£600m+", "text": "Britain announced a package spanning biosecurity, cyber defence, chips, regional adoption and sovereign investment." },
+      { "label": "TRADE", "value": "10-year delay", "text": "The New Yalu River Bridge opened to heavy cargo and round-the-clock traffic between China and North Korea." },
+      { "label": "DOHA", "value": "3 days", "text": "The World Investment Forum opens today, bringing investors and policymakers to Doha through Tuesday." }
+    ],
+    "note": "Air defences, laboratories, bridges and investment forums are all enabling infrastructure. Their visible moment is an interception, announcement or opening; their real value is whether the surrounding institutions can keep people, capital and information moving after the headline passes."
+  },
+  "stories": [
+    {
+      "id": "houthi-missiles-makkah-madinah-regions",
+      "number": "01",
+      "category": "Saudi Arabia, regional security & aviation",
+      "sourceNote": "Saudi Press Agency / Reuters · Saturday night",
+      "title": "Saudi Arabia intercepted two Houthi ballistic missiles aimed toward the Makkah and Madinah regions, with debris falling in Makkah, Jeddah, Taif and Rabigh.",
+      "changed": "Saudi Civil Defense said missile parts and interception debris landed in Wadi Al-Mughammas near Makkah, Jeddah's Al-Nuzha district, Wadi Jalil in Taif and Masturah in Rabigh; it reported the response but did not announce casualties or damage.",
+      "matters": "The attack extends the conflict's psychological reach to Islam's holiest regions and across western Saudi Arabia's pilgrimage, aviation and Red Sea corridor, after weeks of strikes on airports and energy infrastructure.",
+      "watch": "Any casualty or damage update, restrictions around Jeddah or Madinah aviation, pilgrimage guidance, the targets claimed by the Houthis and the Saudi response. The launches and interceptions are confirmed by Saudi authorities; the intended precise targets and absence of harm are not yet independently established.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "The Saudi conflict has reached a more sensitive geography.", "note": "Interception prevented the missiles from reaching their stated regions, but falling debris spread the operating risk across four western locations.", "break": false },
+      "background": {
+        "title": "This is an escalation in geography even before the damage picture is clear",
+        "text": "Saudi Civil Defense said two ballistic missiles launched by the Houthis were intercepted on Saturday while heading toward the Makkah and Madinah regions. It named four debris locations: Wadi Al-Mughammas in Makkah, Al-Nuzha in Jeddah, Wadi Jalil in Taif and Masturah in Rabigh. The official statement described emergency procedures but did not report casualties or damage. That leaves the immediate human outcome uncertain. The strategic signal is clearer. Houthi attacks have already killed civilians, damaged airports and disrupted airline schedules during the latest escalation. Extending launches toward the kingdom's western holy regions raises religious and political sensitivity while putting the Jeddah gateway, pilgrimage flows and Red Sea logistics inside the same risk map. It does not prove that the holy sites themselves were the precise targets: Saudi authorities described the regions, not coordinates, and the Houthis' own account should be checked separately.",
+        "known": "Two missiles were intercepted and debris fell in four named locations across the Makkah region and western Saudi Arabia.",
+        "new": "The latest attack reaches beyond the recent airport and oil targets into geography tied directly to pilgrimage and the western aviation corridor."
+      },
+      "evidence": {
+        "left": { "label": "Confirmed by Saudi authorities", "text": "Civil Defense identified two intercepted ballistic missiles and four debris locations; GCC and OIC officials issued condemnations overnight." },
+        "right": { "label": "Still unconfirmed", "text": "No detailed damage assessment, casualty count or independent evidence of the missiles' precise intended targets was available at publication time." }
+      },
+      "sources": [
+        { "label": "Saudi Press Agency · Civil Defense statement and debris locations", "url": "https://www.spa.gov.sa/en/N2709301" },
+        { "label": "Reuters via Dawn · interception report and western Saudi locations", "url": "https://www.dawn.com/news/2039513" }
+      ]
+    },
+    {
+      "id": "uk-ai-security-biosecurity-package",
+      "number": "02",
+      "category": "AI policy, biosecurity & industrial strategy",
+      "sourceNote": "UK Cabinet Office / HM Treasury · Saturday",
+      "title": "Britain announced a £600 million-plus AI package built around a new biosecurity lab, cyber defence, chip design and sovereign investment.",
+      "changed": "The package includes £100 million of public funding for an independent AI Biosecurity Lab, up to £200 million in model and compute credits from OpenAI and Anthropic, and new spending on AI security, cyber vulnerability detection, domestic firms and regional adoption.",
+      "matters": "This is a shift from discussing AI risk to buying institutional capacity: the same government package treats frontier models as tools for vaccines and threat detection, sources of new biological and cyber risk, and strategic infrastructure that should not be entirely imported.",
+      "watch": "Who leads the lab, when it starts, how model credits are valued and used, the scientific advisory committee, measurable outputs and safeguards for sensitive biological work. The funding commitments are announced; no operating record, director, site or delivery timetable exists yet.",
+      "lead": false,
+      "group": { "label": "Technology & enterprise", "title": "AI policy is becoming an institution-building exercise.", "note": "The package combines safety, industrial policy and adoption rather than treating them as separate files.", "break": true },
+      "background": {
+        "title": "The most interesting part is the institutional design, not the headline total",
+        "text": "The proposed AI Biosecurity Lab will be an independent nonprofit working with Britain's health-security, animal-health and defence laboratories. Its first tasks are early detection of biological threats and faster development of vaccines, treatments and other countermeasures. The government is providing £100 million. OpenAI committed £100 million in compute and model credits, while Anthropic offered up to £100 million in credits, model access and support; Google DeepMind and Basecamp Research are research partners. Around it sits a wider package: £120 million more for the AI Security Institute, £60 million for an agentic cyber shield, £70 million for a vulnerability centre, and funding for sovereign AI investment, procurement, chip-design skills and local adoption. The credits are not equivalent to cash, and the announcements leave governance details open. But the structure reveals a mature policy question: how a state can use frontier capability without outsourcing all of its technical judgement to the companies supplying it.",
+        "known": "The government has published the funding lines, mission and named partners, and says the lab will be an independent nonprofit.",
+        "new": "Britain is combining AI safety, biosecurity, cyber defence and domestic capability in one explicit state-capacity programme."
+      },
+      "evidence": {
+        "left": { "label": "Committed resources", "text": "Public allocations exceed £600 million across the announced programmes, with up to £200 million more offered mainly as company model and compute credits." },
+        "right": { "label": "Missing operating proof", "text": "The biosecurity lab has no announced director, site, launch date or published evaluation framework, and partner credits are not cash investment." }
+      },
+      "sources": [
+        { "label": "UK Cabinet Office · AI Biosecurity Lab mission, structure and partners", "url": "https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab" },
+        { "label": "HM Treasury · full AI investment package and allocations", "url": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai" }
+      ]
+    },
+    {
+      "id": "china-north-korea-yalu-bridge-opens",
+      "number": "03",
+      "category": "China, North Korea & trade",
+      "sourceNote": "Associated Press · Saturday",
+      "title": "Kim Jong Un crossed into China to inaugurate the New Yalu River Bridge, opening a heavy-cargo trade gateway delayed for more than a decade.",
+      "changed": "The bridge between Sinuiju and Dandong is now expected to handle two-way, round-the-clock traffic including containers and heavy trucks; Kim met senior Chinese official Wang Huning during his first China visit in a year.",
+      "matters": "The physical connection can expand North Korea's economic lifeline to China and gives Beijing a practical route for restoring influence after Pyongyang leaned heavily toward Moscow.",
+      "watch": "Actual truck volumes, customs arrangements, sanctions compliance, new trade categories and whether stronger Chinese commerce changes North Korea's military dependence on Russia. The opening is confirmed; its eventual trade scale is not.",
+      "lead": false,
+      "group": { "label": "World beyond the lead", "title": "A geopolitical alignment acquired a working trade bridge.", "note": "The useful measure will be cargo, not ceremony.", "break": true },
+      "sources": [
+        { "label": "AP · bridge opening, Kim visit and trade context", "url": "https://apnews.com/article/south-korea-north-kim-jong-un-china-2459fe49f876ceb0c1c17296c70627f7" }
+      ]
+    },
+    {
+      "id": "ukraine-russia-humanitarian-ceasefire-talks",
+      "number": "04",
+      "category": "Ukraine, Russia & diplomacy",
+      "sourceNote": "Associated Press · Saturday",
+      "title": "Ukraine and Russia backed new U.S.-brokered talks and agreed to a local humanitarian ceasefire, while remaining far apart on territory and security guarantees.",
+      "changed": "The sides agreed to pause fighting locally so aid can reach a stranded town in Kherson next week, and a new negotiating round is tentatively expected in Abu Dhabi around mid-November.",
+      "matters": "A narrow humanitarian mechanism is real progress for civilians, but it is not evidence of a broader peace settlement: Russia still demands territory it does not fully control and Ukraine still requires guarantees against renewed invasion.",
+      "watch": "Whether the Kherson pause holds, whether talks occur on schedule, the form of any security guarantee and battlefield activity before then. The local agreement and willingness to talk are confirmed; movement on the war's core terms is not.",
+      "lead": false,
+      "group": { "label": "Diplomacy", "title": "A small humanitarian opening should be valued without being mistaken for peace.", "note": "The test is whether a bounded agreement can be executed while the strategic positions remain incompatible.", "break": false },
+      "sources": [
+        { "label": "AP · local ceasefire, proposed talks and unresolved terms", "url": "https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-trump-witkoff-94e0aee5d56bcd164f8cbae0918ed1f8" }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Qatar watch",
+      "title": "The World Investment Forum opens at Doha's Sheraton this morning; the useful test is what leaves the room as an investable programme.",
+      "text": "UN Trade and Development's three-day forum brings investors, policymakers and promotion agencies together around sustainable investment, digital transformation and development. For Qatar, the opportunity is not hosting volume but converting convening power into specific partnerships, policy changes and private-sector routes that can be tracked after Tuesday.",
+      "url": "https://www.invest.qa/en/media-centre/events/world-investment-forum-2026"
+    },
+    {
+      "label": "Curiosity Corner",
+      "title": "A laser and a tungsten needle produced a tiny, long-lived plasma ball that behaved like an electromagnetic soliton.",
+      "text": "Researchers concentrated a terahertz pulse at a tungsten tip only about 100 nanometres wide, creating an 80-micrometre sphere of ionised argon that expanded for roughly 100 nanoseconds while keeping its structure. Its light and expansion matched a model in which electromagnetic energy stays trapped inside the plasma. The experiment does not prove that natural ball lightning works this way: the object was microscopic and extremely brief. It gives physicists something rarer than a dramatic claim—a controlled platform for testing one plausible mechanism.",
+      "url": "https://doi.org/10.1038/s41566-026-01899-y"
+    },
+    {
+      "label": "Doha culture",
+      "title": "Mathaf has opened a major exhibition tracing more than seven decades of Iraqi modernism through the Baghdad Modern Art Group.",
+      "text": "'What Lingers in the Artist's Mind' turns an art movement into a way of reading how artists negotiated heritage, modernity and political change. It is a local opportunity to see regional intellectual history through objects rather than commentary.",
+      "url": "https://www.qna.org.qa/en/home/"
+    }
+  ],
+  "attention": {
+    "title": "Open the Saudi Civil Defense statement because the precise wording is more useful than the amplified retellings.",
+    "text": "It confirms two intercepted missiles and four debris locations, but it describes target regions rather than exact target coordinates and does not publish a casualty or damage assessment. Those boundaries matter.",
+    "url": "https://www.spa.gov.sa/en/N2709301"
+  },
+  "ignore": {
+    "title": "Ignore claims that the Saudi statement proves the Grand Mosque or Prophet's Mosque was directly struck.",
+    "text": "Saudi authorities said missiles were launched toward the Makkah and Madinah regions and that debris fell after interception. That is serious enough without converting regional direction into an unverified direct hit on a holy site."
+  },
+  "history": {
+    "id": "great-exhibition-temporary-fair-permanent-institutions",
+    "number": "LV",
+    "readTime": "6 min",
+    "era": "London · 1850–1857",
+    "title": "The first world's fair lasted 141 days. Its more important invention was what happened after the doors closed.",
+    "deck": "The Great Exhibition built a temporary market for comparison inside the Crystal Palace, lowered the price of admission until six million people came, and then converted a £186,437 surplus into museums, colleges and research funding that outlived the building.",
+    "thesis": "A successful forum is not defined by how many people gather. It creates a common language for judging work, attracts an audience beyond insiders and turns temporary attention into permanent capability.",
+    "sections": [
+      {
+        "title": "Britain organised the fair because it feared its own design weakness",
+        "text": "The Great Exhibition is often remembered as Victorian self-confidence under glass. Its practical origins were more anxious. British reformers worried that industrial scale had outrun taste and design, especially as continental manufacturers improved. Prince Albert, Henry Cole and the Royal Society of Arts expanded earlier national exhibitions into an international comparison. A Royal Commission formed in 1850, and the event was deliberately organised around raw materials, machinery, manufactures and fine arts. Bringing rival products into one classified space made judgement public: manufacturers could see competitors, juries could identify standards and consumers could learn to compare rather than merely admire."
+      },
+      {
+        "title": "The Crystal Palace made a global inventory physically possible",
+        "text": "Joseph Paxton's modular iron-and-glass building was designed in six weeks and built in about four months on Hyde Park. Its scale allowed nearly 14,000 exhibitors from 34 nations and more than 30 imperial territories to display over 100,000 objects. The building was not neutral. Britain and its colonies occupied the western half; foreign exhibitors occupied the eastern half, turning industrial comparison into a performance of empire. Yet the same arrangement also exposed British visitors to work they could not dismiss. V&A historians note that Indian textiles and craft became some of the exhibition's most influential lessons in colour, pattern and design."
+      },
+      {
+        "title": "Pricing turned an elite showcase into a mass institution",
+        "text": "Admission began high enough to manage the opening crowds, but organisers later introduced one-shilling days from Monday to Thursday. Railways carried visitors from across Britain. By the close, 6,039,195 admissions had been recorded—roughly one visit for every three people in the country at the time, though many people visited more than once. The fair's reach did not come from architecture alone. It came from an operating decision to lower the price and make the audience much larger than manufacturers, aristocrats and foreign delegations. That mass participation generated revenue, public legitimacy and a market for souvenirs, travel and spectacle around the exhibition."
+      },
+      {
+        "title": "The prizes were really a language for industrial judgement",
+        "text": "Instead of paying cash prizes, the commissioners used medals: a small number of Council Medals for exceptional work, broader Prize Medals for recognised standards, and medals for exhibitors and jurors. The hierarchy made quality visible without pretending every category could be reduced to one number. More important, the exhibition treated art and taste as productive inputs, not decoration added after engineering. British Museum keeper Antonio Panizzi argued that a permanent industrial museum was the logical consequence: manufacturers and the public needed continuing access to exemplary objects so that comparison would not end when the fair closed."
+      },
+      {
+        "title": "A temporary event created permanent capital",
+        "text": "The exhibition earned a surplus of £186,437. The Royal Commission used it to buy land in South Kensington rather than dissolving after the celebration. The estate became home to institutions that evolved into the Victoria and Albert Museum, Science Museum, Natural History Museum, Imperial College and Royal Albert Hall. Experts also purchased 244 exhibition objects for the Government School of Design; those teaching collections helped form the V&A when it opened in 1857. The commission still funds scientific and engineering research. The crucial move was to treat surplus, objects and attention as seed capital for an ecosystem."
+      },
+      {
+        "title": "The building disappeared; the institutional flywheel remained",
+        "text": "The Crystal Palace was dismantled from Hyde Park as planned and later rebuilt at Sydenham, where it eventually burned in 1936. The international-exhibition format spread to Paris, Dublin, New York, Vienna, Chicago and beyond. But the deeper legacy was not the copyable spectacle. A classified display improved public judgement; mass access produced scale; scale produced surplus; surplus purchased land and collections; institutions kept teaching and researching after the crowd left. The Great Exhibition worked because its organisers designed the exit from the beginning. A forum becomes infrastructure only when its temporary concentration of people is converted into durable capability."
+      }
+    ],
+    "timeline": [
+      { "date": "January 1850", "text": "A Royal Commission is established to organise an international exhibition of industry." },
+      { "date": "1850–1851", "text": "Joseph Paxton's modular Crystal Palace is designed and built in Hyde Park on an exceptional timetable." },
+      { "date": "1 May 1851", "text": "The Great Exhibition opens with products arranged by country and industrial class." },
+      { "date": "Summer 1851", "text": "One-shilling weekdays broaden access beyond wealthy visitors and industry insiders." },
+      { "date": "October 1851", "text": "The exhibition closes after 141 days, more than six million admissions and a £186,437 surplus." },
+      { "date": "1852 onward", "text": "The commission buys land in South Kensington for education, culture and research." },
+      { "date": "1857", "text": "The South Kensington Museum, later the V&A, opens with teaching collections shaped by the exhibition." }
+    ],
+    "sources": [
+      { "label": "V&A · global scope, design lessons, medals and the foundation collection", "url": "https://www.vam.ac.uk/articles/the-great-exhibition-of-1851" },
+      { "label": "Royal Collection Trust · planning, exhibitors, visitors and institutional legacy", "url": "https://www.rct.uk/group/381/content/explore/themes/great-exhibition-of-1851" },
+      { "label": "English Heritage · building, public access, surplus and South Kensington legacy", "url": "https://www.english-heritage.org.uk/visit/inspire-me/what-was-the-great-exhibition-of-1851/" },
+      { "label": "Royal Commission for the Exhibition of 1851 · official statistics and continuing trust", "url": "https://royalcommission1851.org/uploads/publications/1851_brochure_v15_text_issuuv2-2.pdf" },
+      { "label": "London Museum · one-shilling days, rail access, imperial context and museums", "url": "https://www.londonmuseum.org.uk/collections/london-stories/what-was-great-exhibition-1851/" }
+    ]
+  },
+  "threads": [
+    { "status": "Escalated geography", "title": "Houthi attacks on Saudi Arabia", "text": "Two missiles were intercepted toward the Makkah and Madinah regions; damage, precise targets and aviation effects remain to be established.", "progress": 78 },
+    { "status": "Institution forming", "title": "AI safety becomes state capacity", "text": "Britain has funded a biosecurity lab and connected programmes, but leadership, delivery dates and evaluation are still open.", "progress": 31 },
+    { "status": "Gateway opened", "title": "China–North Korea trade", "text": "The New Yalu River Bridge is operating after a decade of delay; real cargo flows will show whether symbolism becomes economic change.", "progress": 47 },
+    { "status": "Narrow opening", "title": "Ukraine–Russia diplomacy", "text": "A local humanitarian ceasefire is agreed and talks are proposed, while the central territorial and security dispute is unchanged.", "progress": 24 },
+    { "status": "Opening today", "title": "Doha World Investment Forum", "text": "The next useful signal is a specific policy, partnership or investable programme that can be tracked after the event.", "progress": 18 }
+  ]
+}

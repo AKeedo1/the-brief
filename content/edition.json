@@ -1,194 +1,237 @@
 {
-  "date": { "display": "Sunday, 25 October 2026", "edition": "058", "updated": "7:05 AM" },
-  "worldSentence": "Missiles aimed at Islam's holiest regions have widened the Saudi conflict's psychological and operating perimeter, while Britain is turning AI risk into institutions and China is reopening North Korea's largest trade gateway.",
-  "standfirst": "Sunday's edition leads with the interception of two Houthi ballistic missiles toward the Makkah and Madinah regions, then follows Britain's new AI-security package, a long-delayed China–North Korea bridge and a limited humanitarian opening in the Ukraine war. Doha's World Investment Forum begins this morning. Curiosity Corner puts a tiny laboratory fireball under the microscope, and the Long View explains how the first world's fair turned a temporary spectacle into permanent institutions.",
-  "listenTime": "15 min",
+  "date": { "display": "Monday, 26 October 2026", "edition": "059", "updated": "7:01 AM" },
+  "worldSentence": "Qatar has reopened a diplomatic path between Washington and Tehran as oil markets price both escalation and de-escalation, while Brazil's electorate and the emerging AI blocs expose how much of the world still resists binary choices.",
+  "standfirst": "Monday's edition leads with Qatari mediators in Tehran and the market's immediate response, then follows Lula's surprise comeback in Brazil, fresh Houthi attacks around Riyadh and the global contest between American and Chinese AI stacks. Doha's World Investment Forum is moving from speeches toward proposals for Gulf industrial integration. Curiosity Corner meets a mushroom whose unknown chemistry repeatedly makes people see miniature humans, and the Long View enters the kitchen brigade that made complex restaurant service reproducible.",
+  "listenTime": "18 min",
   "coverage": [
     { "count": 4, "label": "Qatar & Gulf" },
-    { "count": 3, "label": "World & security" },
-    { "count": 2, "label": "Economy & markets" },
+    { "count": 3, "label": "World & politics" },
+    { "count": 3, "label": "Economy & markets" },
     { "count": 3, "label": "AI & technology" },
-    { "count": 3, "label": "Aviation & consumer" }
+    { "count": 2, "label": "Aviation & consumer" }
   ],
   "connected": {
-    "title": "The useful thread is that a gateway matters only when the operating system around it works.",
+    "title": "The useful thread is strategic room to manoeuvre.",
     "signals": [
-      { "label": "SAUDI", "value": "2 missiles", "text": "Saudi Arabia says it intercepted ballistic missiles aimed toward the Makkah and Madinah regions; debris fell in four western locations." },
-      { "label": "AI POLICY", "value": "£600m+", "text": "Britain announced a package spanning biosecurity, cyber defence, chips, regional adoption and sovereign investment." },
-      { "label": "TRADE", "value": "10-year delay", "text": "The New Yalu River Bridge opened to heavy cargo and round-the-clock traffic between China and North Korea." },
-      { "label": "DOHA", "value": "3 days", "text": "The World Investment Forum opens today, bringing investors and policymakers to Doha through Tuesday." }
+      { "label": "DIPLOMACY", "value": "Tehran visit", "text": "Qatari mediators travelled to Iran in a U.S.-coordinated effort to reduce the risk of renewed regional war." },
+      { "label": "BRAZIL", "value": "51.8%", "text": "Lula overturned a first-round deficit to win a fourth non-consecutive term; Flávio Bolsonaro is seeking annulment." },
+      { "label": "AI STACKS", "value": "2 blocs", "text": "Countries are trying to retain access to American frontier capability and Chinese open, lower-cost systems." },
+      { "label": "MARKETS", "value": "$115.48", "text": "Brent eased after Qatar's mediation report but remained near a six-month high after a 6.2% weekly rise." }
     ],
-    "note": "Air defences, laboratories, bridges and investment forums are all enabling infrastructure. Their visible moment is an interception, announcement or opening; their real value is whether the surrounding institutions can keep people, capital and information moving after the headline passes."
+    "note": "Qatar, Brazil and AI 'swing countries' are operating in different arenas, but each is trying to avoid having its choices reduced to someone else's binary. The test is whether mediation, elections and technological hedging create durable autonomy or merely postpone a forced choice."
   },
   "stories": [
     {
-      "id": "houthi-missiles-makkah-madinah-regions",
+      "id": "qatar-mediators-tehran-deescalation",
       "number": "01",
-      "category": "Saudi Arabia, regional security & aviation",
-      "sourceNote": "Saudi Press Agency / Reuters · Saturday night",
-      "title": "Saudi Arabia intercepted two Houthi ballistic missiles aimed toward the Makkah and Madinah regions, with debris falling in Makkah, Jeddah, Taif and Rabigh.",
-      "changed": "Saudi Civil Defense said missile parts and interception debris landed in Wadi Al-Mughammas near Makkah, Jeddah's Al-Nuzha district, Wadi Jalil in Taif and Masturah in Rabigh; it reported the response but did not announce casualties or damage.",
-      "matters": "The attack extends the conflict's psychological reach to Islam's holiest regions and across western Saudi Arabia's pilgrimage, aviation and Red Sea corridor, after weeks of strikes on airports and energy infrastructure.",
-      "watch": "Any casualty or damage update, restrictions around Jeddah or Madinah aviation, pilgrimage guidance, the targets claimed by the Houthis and the Saudi response. The launches and interceptions are confirmed by Saudi authorities; the intended precise targets and absence of harm are not yet independently established.",
+      "category": "Qatar, Iran & regional diplomacy",
+      "sourceNote": "Reuters · Sunday afternoon",
+      "title": "Qatari mediators travelled to Tehran in a U.S.-coordinated effort to lower the risk of renewed escalation with Iran.",
+      "changed": "An official briefed on the effort told Reuters that Qatari mediators were in Tehran on Sunday; Iran separately said messages with Washington were still moving and that it remained open to diplomacy.",
+      "matters": "This is the clearest active channel between two sides simultaneously signalling possible military action, and it places Qatar at the centre of a decision that affects Gulf security, energy flows, aviation and inflation.",
+      "watch": "Whether the visit produces a dated negotiating step, a restraint commitment or terms around Hormuz; the visit and U.S. coordination are reported, but the participants, proposals and Iranian response have not been published.",
       "lead": true,
-      "group": { "label": "The lead", "title": "The Saudi conflict has reached a more sensitive geography.", "note": "Interception prevented the missiles from reaching their stated regions, but falling debris spread the operating risk across four western locations.", "break": false },
+      "group": { "label": "The lead", "title": "A diplomatic channel is open before the next military decision.", "note": "The visit is consequential because the alternative is not a frozen dispute but a live escalation risk across the Gulf.", "break": false },
       "background": {
-        "title": "This is an escalation in geography even before the damage picture is clear",
-        "text": "Saudi Civil Defense said two ballistic missiles launched by the Houthis were intercepted on Saturday while heading toward the Makkah and Madinah regions. It named four debris locations: Wadi Al-Mughammas in Makkah, Al-Nuzha in Jeddah, Wadi Jalil in Taif and Masturah in Rabigh. The official statement described emergency procedures but did not report casualties or damage. That leaves the immediate human outcome uncertain. The strategic signal is clearer. Houthi attacks have already killed civilians, damaged airports and disrupted airline schedules during the latest escalation. Extending launches toward the kingdom's western holy regions raises religious and political sensitivity while putting the Jeddah gateway, pilgrimage flows and Red Sea logistics inside the same risk map. It does not prove that the holy sites themselves were the precise targets: Saudi authorities described the regions, not coordinates, and the Houthis' own account should be checked separately.",
-        "known": "Two missiles were intercepted and debris fell in four named locations across the Makkah region and western Saudi Arabia.",
-        "new": "The latest attack reaches beyond the recent airport and oil targets into geography tied directly to pilgrimage and the western aviation corridor."
+        "title": "The market reaction shows what is riding on a still-opaque visit",
+        "text": "Reuters reported on Sunday that Qatari mediators were in Tehran as part of a de-escalation effort coordinated with the United States. The report arrived while U.S. and Israeli officials continued to signal that another campaign against Iran remained possible, and U.S. personnel in the region were reportedly on heightened alert. Iran said messages were still being passed and that diplomacy remained possible. By Monday morning, Brent crude had fallen 1% to $115.48 a barrel, with Reuters linking the move partly to the mediation report. That is a modest response after a 6.2% weekly rise driven by Houthi attacks in Saudi Arabia and supply fears. The diplomacy is therefore real enough to move expectations, but not yet specific enough to price as an agreement. Qatar's leverage is its ability to carry messages where direct contact is politically difficult. The missing evidence is what was carried, who received it and whether either side changed a position.",
+        "known": "A Qatari team visited Tehran in coordination with the United States, and Iran says indirect messages continue.",
+        "new": "The channel has moved from remote message-passing to an in-person visit during a fresh escalation window."
       },
       "evidence": {
-        "left": { "label": "Confirmed by Saudi authorities", "text": "Civil Defense identified two intercepted ballistic missiles and four debris locations; GCC and OIC officials issued condemnations overnight." },
-        "right": { "label": "Still unconfirmed", "text": "No detailed damage assessment, casualty count or independent evidence of the missiles' precise intended targets was available at publication time." }
+        "left": { "label": "Confirmed report", "text": "Reuters cited an official briefed on the visit; Iran publicly said messages with Washington were continuing." },
+        "right": { "label": "Not yet established", "text": "No proposal, timetable, participant list, mutual commitment or agreed negotiating round has been disclosed." }
       },
       "sources": [
-        { "label": "Saudi Press Agency · Civil Defense statement and debris locations", "url": "https://www.spa.gov.sa/en/N2709301" },
-        { "label": "Reuters via Dawn · interception report and western Saudi locations", "url": "https://www.dawn.com/news/2039513" }
+        { "label": "Reuters via L'Orient Today · Qatari visit and U.S. coordination", "url": "https://today.lorientlejour.com/article/1552027/qatari-mediators-in-tehran-in-us-coordinated-effort-to-ease-tensions-official-says.html" },
+        { "label": "AP · Iranian messaging and the wider regional risk picture", "url": "https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885" },
+        { "label": "Reuters via MarketScreener · oil and markets response", "url": "https://www.marketscreener.com/news/asian-shares-make-cautious-start-brent-eases-from-six-month-high-ce785cdfd181ff26" }
       ]
     },
     {
-      "id": "uk-ai-security-biosecurity-package",
+      "id": "brazil-lula-reelected-bolsonaro-challenge",
       "number": "02",
-      "category": "AI policy, biosecurity & industrial strategy",
-      "sourceNote": "UK Cabinet Office / HM Treasury · Saturday",
-      "title": "Britain announced a £600 million-plus AI package built around a new biosecurity lab, cyber defence, chip design and sovereign investment.",
-      "changed": "The package includes £100 million of public funding for an independent AI Biosecurity Lab, up to £200 million in model and compute credits from OpenAI and Anthropic, and new spending on AI security, cyber vulnerability detection, domestic firms and regional adoption.",
-      "matters": "This is a shift from discussing AI risk to buying institutional capacity: the same government package treats frontier models as tools for vaccines and threat detection, sources of new biological and cyber risk, and strategic infrastructure that should not be entirely imported.",
-      "watch": "Who leads the lab, when it starts, how model credits are valued and used, the scientific advisory committee, measurable outputs and safeguards for sensitive biological work. The funding commitments are announced; no operating record, director, site or delivery timetable exists yet.",
+      "category": "Brazil, elections & markets",
+      "sourceNote": "Brazil electoral court / Associated Press · Sunday night",
+      "title": "Lula won Brazil's presidential runoff with 51.8%, overturning his first-round defeat as Flávio Bolsonaro refused to concede.",
+      "changed": "With all votes counted, the electoral court gave Lula a lead of nearly 4.4 million votes; Bolsonaro asked for annulment after voting was extended by two hours because of transport disruption and heavy rain.",
+      "matters": "Latin America's largest economy has chosen policy continuity and a more independent posture toward Washington, but Lula will govern with a Congress that shifted right and an opposition already contesting the result.",
+      "watch": "Bolsonaro's legal filing and evidence, the electoral courts' response, transition security, the Brazilian real and Lula's route through an unfriendly Congress. The count is official; annulment has been demanded but no court has accepted it.",
       "lead": false,
-      "group": { "label": "Technology & enterprise", "title": "AI policy is becoming an institution-building exercise.", "note": "The package combines safety, industrial policy and adoption rather than treating them as separate files.", "break": true },
+      "group": { "label": "World beyond the lead", "title": "Brazil produced a clear count and an immediate legitimacy test.", "note": "The next issue is not who won the tally, but whether the legal and political system can contain the challenge.", "break": true },
       "background": {
-        "title": "The most interesting part is the institutional design, not the headline total",
-        "text": "The proposed AI Biosecurity Lab will be an independent nonprofit working with Britain's health-security, animal-health and defence laboratories. Its first tasks are early detection of biological threats and faster development of vaccines, treatments and other countermeasures. The government is providing £100 million. OpenAI committed £100 million in compute and model credits, while Anthropic offered up to £100 million in credits, model access and support; Google DeepMind and Basecamp Research are research partners. Around it sits a wider package: £120 million more for the AI Security Institute, £60 million for an agentic cyber shield, £70 million for a vulnerability centre, and funding for sovereign AI investment, procurement, chip-design skills and local adoption. The credits are not equivalent to cash, and the announcements leave governance details open. But the structure reveals a mature policy question: how a state can use frontier capability without outsourcing all of its technical judgement to the companies supplying it.",
-        "known": "The government has published the funding lines, mission and named partners, and says the lab will be an independent nonprofit.",
-        "new": "Britain is combining AI safety, biosecurity, cyber defence and domestic capability in one explicit state-capacity programme."
+        "title": "A comeback victory does not create an easy fourth term",
+        "text": "Lula entered the runoff after losing the first round to Flávio Bolsonaro by more than 2.2 million votes. He finished the second round nearly 4.4 million votes ahead, becoming the first Brazilian presidential candidate since the end of military rule to place second in the first round and win the presidency. The electoral authority reported 51.8% of the vote for Lula. Confusion came just before the scheduled close, when Supreme Court Justice Cristiano Zanin extended voting nationwide by two hours after both campaigns cited access problems: buses in Lula-leaning cities and heavy rain in Bolsonaro-leaning southern areas. Bolsonaro says the change invalidated the vote. The electoral court's president—himself appointed to the Supreme Court by Jair Bolsonaro—said the extension did not affect the result, and a cited election-law professor said the challenger would need to show an effect on free voting. Lula begins a fourth non-consecutive term in January facing weak public finances, cost-of-living pressure and a Congress that moved to the right.",
+        "known": "Brazil's electoral court declared Lula the winner with 100% counted and 51.8% of valid votes.",
+        "new": "Lula reversed a first-round deficit, while Bolsonaro converted an unusual procedural decision into an immediate challenge to the result."
       },
       "evidence": {
-        "left": { "label": "Committed resources", "text": "Public allocations exceed £600 million across the announced programmes, with up to £200 million more offered mainly as company model and compute credits." },
-        "right": { "label": "Missing operating proof", "text": "The biosecurity lab has no announced director, site, launch date or published evaluation framework, and partner credits are not cash investment." }
+        "left": { "label": "Official outcome", "text": "The electoral authority declared a nearly 4.4-million-vote Lula lead after the complete count." },
+        "right": { "label": "Legal uncertainty", "text": "Bolsonaro has demanded annulment, but has not yet shown that the extension changed voters' ability to cast a free ballot." }
       },
       "sources": [
-        { "label": "UK Cabinet Office · AI Biosecurity Lab mission, structure and partners", "url": "https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab" },
-        { "label": "HM Treasury · full AI investment package and allocations", "url": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai" }
+        { "label": "AP · result, voting extension and legal challenge", "url": "https://apnews.com/article/brazil-election-lula-bolsonaro-runoff-vote-president-e2c9fe8fc4aa3e3675b9a8ec15405d93" },
+        { "label": "Reuters · electoral authority confirms Lula's fourth term", "url": "https://www.streetinsider.com/Reuters/Brazils%2BLula%2Breelected%2Bpresident%2Bin%2Brunoff%2Bvote/27229466.html" }
       ]
     },
     {
-      "id": "china-north-korea-yalu-bridge-opens",
+      "id": "us-china-ai-blocs-swing-countries",
       "number": "03",
-      "category": "China, North Korea & trade",
-      "sourceNote": "Associated Press · Saturday",
-      "title": "Kim Jong Un crossed into China to inaugurate the New Yalu River Bridge, opening a heavy-cargo trade gateway delayed for more than a decade.",
-      "changed": "The bridge between Sinuiju and Dandong is now expected to handle two-way, round-the-clock traffic including containers and heavy trucks; Kim met senior Chinese official Wang Huning during his first China visit in a year.",
-      "matters": "The physical connection can expand North Korea's economic lifeline to China and gives Beijing a practical route for restoring influence after Pyongyang leaned heavily toward Moscow.",
-      "watch": "Actual truck volumes, customs arrangements, sanctions compliance, new trade categories and whether stronger Chinese commerce changes North Korea's military dependence on Russia. The opening is confirmed; its eventual trade scale is not.",
+      "category": "AI infrastructure, geopolitics & Gulf strategy",
+      "sourceNote": "Associated Press · Sunday",
+      "title": "The U.S. and China are forming rival AI blocs, while countries from Kazakhstan to Saudi Arabia try to use both technology stacks.",
+      "changed": "The U.S.-led Pax Silica is linking trusted partners to advanced chips and supply chains, while China's 29-country World AI Cooperation Organization offers a more open-source, lower-cost route; several states are deliberately hedging across both.",
+      "matters": "AI sovereignty is becoming a procurement and foreign-policy constraint: access to chips, models, power, standards and capital may increasingly arrive as one strategic package rather than independent choices.",
+      "watch": "Whether Washington makes participation exclusive, how China finances adoption, and which workloads Gulf states place on American versus Chinese systems. The blocs and investments are real; a clean global split is still an interpretation, not a completed fact.",
       "lead": false,
-      "group": { "label": "World beyond the lead", "title": "A geopolitical alignment acquired a working trade bridge.", "note": "The useful measure will be cargo, not ceremony.", "break": true },
+      "group": { "label": "Technology & enterprise", "title": "AI choice is turning into alignment choice.", "note": "For buyers, the important object is no longer just the model—it is the stack of chips, capital, standards and political conditions around it.", "break": true },
+      "background": {
+        "title": "The Gulf is not outside the contest; it is one of the places where the stacks already meet",
+        "text": "Associated Press reporting describes an emerging split between America's Pax Silica, which ties advanced semiconductors and AI supply chains to trusted partners, and China's World AI Cooperation Organization, whose 29 founding countries include Pakistan and Russia. Kazakhstan illustrates the hedge: its AI minister joined the U.S. initiative and, three weeks later, joined China's organisation; it also has an investment agreement worth up to $10 billion involving Nvidia while Chinese investment rises. Saudi Arabia offers an even more relevant combination. Humain has launched a platform built on a Chinese open model while the kingdom also holds a deal with Nvidia for advanced computing. These are not contradictions if governments see frontier capability, affordable deployment and standard-setting influence as separate needs. They become harder to combine if Washington makes access conditional on avoiding China's programme. That means architecture decisions—model, cloud, chip and data location—can create diplomatic dependencies long after the software contract is signed.",
+        "known": "Both initiatives exist, and countries including Kazakhstan are participating in or investing across the two ecosystems.",
+        "new": "The competition is moving from model benchmarks into coalitions that bundle technology access with supply chains and geopolitical trust."
+      },
+      "evidence": {
+        "left": { "label": "Observable hedge", "text": "Kazakhstan joined both initiatives; Saudi Arabia combines a Chinese open model with planned access to Nvidia computing." },
+        "right": { "label": "Open question", "text": "It is not yet clear how strongly either bloc will enforce exclusivity or whether middle powers can preserve mixed stacks." }
+      },
       "sources": [
-        { "label": "AP · bridge opening, Kim visit and trade context", "url": "https://apnews.com/article/south-korea-north-kim-jong-un-china-2459fe49f876ceb0c1c17296c70627f7" }
+        { "label": "AP · U.S.–China AI blocs and the countries trying to bridge them", "url": "https://apnews.com/article/china-us-ai-blocs-9974a3e5dc955a93935d131a4aeb8886" }
       ]
     },
     {
-      "id": "ukraine-russia-humanitarian-ceasefire-talks",
+      "id": "saudi-riyadh-airport-reopens-attacks-continue",
       "number": "04",
-      "category": "Ukraine, Russia & diplomacy",
-      "sourceNote": "Associated Press · Saturday",
-      "title": "Ukraine and Russia backed new U.S.-brokered talks and agreed to a local humanitarian ceasefire, while remaining far apart on territory and security guarantees.",
-      "changed": "The sides agreed to pause fighting locally so aid can reach a stranded town in Kherson next week, and a new negotiating round is tentatively expected in Abu Dhabi around mid-November.",
-      "matters": "A narrow humanitarian mechanism is real progress for civilians, but it is not evidence of a broader peace settlement: Russia still demands territory it does not fully control and Ukraine still requires guarantees against renewed invasion.",
-      "watch": "Whether the Kherson pause holds, whether talks occur on schedule, the form of any security guarantee and battlefield activity before then. The local agreement and willingness to talk are confirmed; movement on the war's core terms is not.",
+      "category": "Saudi Arabia, aviation & security",
+      "sourceNote": "Associated Press / Saudi authorities · Sunday",
+      "title": "Riyadh airport reopened terminals 1 and 2 as Saudi air defences intercepted another Houthi ballistic missile and drone toward the capital.",
+      "changed": "The partial reopening restored domestic and international capacity after the early-October airport strike, but Sunday brought new launches toward Riyadh and two people wounded by interception debris farther south.",
+      "matters": "Saudi aviation is recovering capacity while still operating inside an active attack cycle, so a reopened terminal is an operational improvement rather than an all-clear.",
+      "watch": "Flight schedules, further terminal openings, air-defence supply, debris casualties and whether repeated launches force renewed capacity restrictions. The interceptions and reopening are official; the Houthis' claimed targets were not independently verified.",
       "lead": false,
-      "group": { "label": "Diplomacy", "title": "A small humanitarian opening should be valued without being mistaken for peace.", "note": "The test is whether a bounded agreement can be executed while the strategic positions remain incompatible.", "break": false },
+      "group": { "label": "Regional operations", "title": "Capacity is returning before the threat has receded.", "note": "Passengers and airlines should separate terminal status from the wider security condition.", "break": false },
       "sources": [
-        { "label": "AP · local ceasefire, proposed talks and unresolved terms", "url": "https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-trump-witkoff-94e0aee5d56bcd164f8cbae0918ed1f8" }
+        { "label": "AP · Riyadh terminal reopening, interceptions and debris injuries", "url": "https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885" }
+      ]
+    },
+    {
+      "id": "world-investment-forum-gcc-integration",
+      "number": "05",
+      "category": "Qatar, GCC investment & industrial policy",
+      "sourceNote": "QNA / World Investment Forum · Sunday",
+      "title": "Gulf officials used Doha's World Investment Forum to propose shared industrial strategies, export corridors and regional AI infrastructure.",
+      "changed": "The first day produced proposals to divide production stages across GCC advantages, expand joint investment, build hyperscale computing and advance a GCC–ASEAN free-trade discussion.",
+      "matters": "The worthwhile opportunity is not another national data-centre announcement but a Gulf operating model that connects energy, compute, logistics, manufacturing and external markets.",
+      "watch": "Named projects, responsible institutions, capital commitments, corridor routes and a timetable for GCC–ASEAN trade talks. The proposals are on record; none is yet a funded regional programme.",
+      "lead": false,
+      "group": { "label": "Economy & opportunity", "title": "Doha's forum has moved from attendance numbers to a testable proposition.", "note": "The test is whether regional integration acquires owners, budgets and routes before the forum closes.", "break": true },
+      "sources": [
+        { "label": "QNA via The Peninsula · GCC industrial integration and hyperscale computing", "url": "https://thepeninsulaqatar.com/article/25/10/2026/gulf-officials-propound-initiatives-at-wif-to-foster-joint-investment-bolster-intra-gcc-trade" },
+        { "label": "QNA via The Peninsula · GCC–ASEAN priorities and trade discussion", "url": "https://thepeninsulaqatar.com/article/25/10/2026/world-investment-forum-discusses-asean-experience-in-attracting-investment-strengthening-cooperation-with-gcc" }
+      ]
+    },
+    {
+      "id": "markets-oil-central-banks-ai-earnings",
+      "number": "06",
+      "category": "Markets, rates & technology earnings",
+      "sourceNote": "Reuters · Monday morning",
+      "title": "Brent eased to $115.48, but this week's central-bank meetings and hyperscaler earnings will test whether the oil shock and AI boom can coexist.",
+      "changed": "Oil fell 1% after the Qatar mediation report, while markets prepared for rate decisions and results from Alphabet, Microsoft and Amazon; Reuters' poll expected U.S. core inflation at 3.1% and annualised growth at 3.2%.",
+      "matters": "The same data-centre investment supporting growth is being valued against higher energy costs, 5% U.S. ten-year yields and renewed rate-hike risk.",
+      "watch": "Actual inflation and growth, central-bank language, hyperscaler capital expenditure and whether diplomatic progress produces a durable oil pullback. Monday's prices are observed; the macro figures and earnings are forecasts until released.",
+      "lead": false,
+      "group": { "label": "The week ahead", "title": "Markets must price two expensive infrastructures at once: energy security and AI capacity.", "note": "The useful signal will be cash flow and inflation, not a single morning's index move.", "break": false },
+      "sources": [
+        { "label": "Reuters via MarketScreener · oil, central banks and hyperscaler earnings", "url": "https://www.marketscreener.com/news/asian-shares-make-cautious-start-brent-eases-from-six-month-high-ce785cdfd181ff26" }
       ]
     }
   ],
   "radar": [
     {
-      "label": "Qatar watch",
-      "title": "The World Investment Forum opens at Doha's Sheraton this morning; the useful test is what leaves the room as an investable programme.",
-      "text": "UN Trade and Development's three-day forum brings investors, policymakers and promotion agencies together around sustainable investment, digital transformation and development. For Qatar, the opportunity is not hosting volume but converting convening power into specific partnerships, policy changes and private-sector routes that can be tracked after Tuesday.",
-      "url": "https://www.invest.qa/en/media-centre/events/world-investment-forum-2026"
-    },
-    {
       "label": "Curiosity Corner",
-      "title": "A laser and a tungsten needle produced a tiny, long-lived plasma ball that behaved like an electromagnetic soliton.",
-      "text": "Researchers concentrated a terahertz pulse at a tungsten tip only about 100 nanometres wide, creating an 80-micrometre sphere of ionised argon that expanded for roughly 100 nanoseconds while keeping its structure. Its light and expansion matched a model in which electromagnetic energy stays trapped inside the plasma. The experiment does not prove that natural ball lightning works this way: the object was microscopic and extremely brief. It gives physicists something rarer than a dramatic claim—a controlled platform for testing one plausible mechanism.",
-      "url": "https://doi.org/10.1038/s41566-026-01899-y"
+      "title": "One edible mushroom appears to make people in different cultures see the same thing: crowds of miniature humans.",
+      "text": "When Lanmaoa asiatica is undercooked, reports from China and the Philippines describe vivid 'Lilliputian' figures moving through the real scene. Researchers sequenced 53 specimens across the genus and found none of the canonical genes used to make psilocybin or ibotenic acid, suggesting an unknown psychoactive chemistry. That does not yet identify the active molecule or prove why the visions share a form; it turns a strange recurring report into a testable neurochemical question.",
+      "url": "https://doi.org/10.1080/00275514.2026.2670968"
     },
     {
-      "label": "Doha culture",
-      "title": "Mathaf has opened a major exhibition tracing more than seven decades of Iraqi modernism through the Baghdad Modern Art Group.",
-      "text": "'What Lingers in the Artist's Mind' turns an art movement into a way of reading how artists negotiated heritage, modernity and political change. It is a local opportunity to see regional intellectual history through objects rather than commentary.",
-      "url": "https://www.qna.org.qa/en/home/"
+      "label": "Aviation watch",
+      "title": "Qatar Airways is seriously considering premium economy, but there is no approved product or launch date.",
+      "text": "Group CEO Hamad Ali Al-Khater told reporters in Sydney that the cabin is under study as the airline reduces roughly 25 aircraft configurations toward nine and prepares Qsuite Next Gen. It is strategically meaningful for revenue segmentation, but still a design signal rather than a fleet commitment.",
+      "url": "https://www.executivetraveller.com/news/qatar-airways-premium-economy-news"
+    },
+    {
+      "label": "Forum watch",
+      "title": "The World Investment Forum continues in Doha today; look for the first named programme rather than another statement of ambition.",
+      "text": "Day one produced ideas on GCC value chains, data centres, export corridors and ASEAN cooperation. A named owner, budget, delivery date or signed partnership would be the point at which the forum begins creating an investable outcome.",
+      "url": "https://worldinvestmentforum.unctad.org/home"
     }
   ],
   "attention": {
-    "title": "Open the Saudi Civil Defense statement because the precise wording is more useful than the amplified retellings.",
-    "text": "It confirms two intercepted missiles and four debris locations, but it describes target regions rather than exact target coordinates and does not publish a casualty or damage assessment. Those boundaries matter.",
-    "url": "https://www.spa.gov.sa/en/N2709301"
+    "title": "Open the AP account of Brazil's election because it separates the official count from the procedural challenge.",
+    "text": "It records the complete vote, the reasons both campaigns requested extra time, the electoral court's response and the legal burden Bolsonaro would face. That is more useful than treating either 'clear victory' or 'stolen vote' as a complete description.",
+    "url": "https://apnews.com/article/brazil-election-lula-bolsonaro-runoff-vote-president-e2c9fe8fc4aa3e3675b9a8ec15405d93"
   },
   "ignore": {
-    "title": "Ignore claims that the Saudi statement proves the Grand Mosque or Prophet's Mosque was directly struck.",
-    "text": "Saudi authorities said missiles were launched toward the Makkah and Madinah regions and that debris fell after interception. That is serious enough without converting regional direction into an unverified direct hit on a holy site."
+    "title": "Do not treat the Qatar visit to Tehran as a deal merely because oil fell.",
+    "text": "The visit confirms an active channel and reduced the market's immediate risk premium. No terms, timetable or commitment have been published, so the correct signal is diplomacy in motion—not de-escalation achieved."
   },
   "history": {
-    "id": "great-exhibition-temporary-fair-permanent-institutions",
+    "id": "escoffier-kitchen-brigade-reproducible-service",
     "number": "LV",
     "readTime": "6 min",
-    "era": "London · 1850–1857",
-    "title": "The first world's fair lasted 141 days. Its more important invention was what happened after the doors closed.",
-    "deck": "The Great Exhibition built a temporary market for comparison inside the Crystal Palace, lowered the price of admission until six million people came, and then converted a £186,437 surplus into museums, colleges and research funding that outlived the building.",
-    "thesis": "A successful forum is not defined by how many people gather. It creates a common language for judging work, attracts an audience beyond insiders and turns temporary attention into permanent capability.",
+    "era": "France & London · 1870–1907",
+    "title": "Escoffier did not make the modern kitchen orderly by asking every cook to work harder. He divided one impossible service into stations that could coordinate.",
+    "deck": "The kitchen brigade turned grand-hotel cooking from a collection of complete dishes made by competing individuals into a timed production system with named responsibilities, common recipes and a chain of command. Its descendants still organise restaurant service—even where its military hierarchy has been softened.",
+    "thesis": "Complex service becomes repeatable when work is divided at natural boundaries, responsibility is visible and coordination has its own role. The same structure can also harden into hierarchy, so a durable operating system must preserve clarity without treating rank as competence.",
     "sections": [
       {
-        "title": "Britain organised the fair because it feared its own design weakness",
-        "text": "The Great Exhibition is often remembered as Victorian self-confidence under glass. Its practical origins were more anxious. British reformers worried that industrial scale had outrun taste and design, especially as continental manufacturers improved. Prince Albert, Henry Cole and the Royal Society of Arts expanded earlier national exhibitions into an international comparison. A Royal Commission formed in 1850, and the event was deliberately organised around raw materials, machinery, manufactures and fine arts. Bringing rival products into one classified space made judgement public: manufacturers could see competitors, juries could identify standards and consumers could learn to compare rather than merely admire."
+        "title": "Nineteenth-century haute cuisine had outgrown the way its kitchens worked",
+        "text": "European grand hotels and restaurants were serving larger dining rooms, longer menus and more elaborate dishes, but much kitchen work was still organised around individual cooks or small groups producing dishes from beginning to end. That created repeated competition for the same fires, tools and ingredients. A brilliant chef could improvise through the pressure; an expanding hotel could not build reliability on improvisation alone. Auguste Escoffier inherited the elaborate French repertoire associated with Carême, then confronted a management problem: how to produce complexity for many guests at once without every service becoming chaos."
       },
       {
-        "title": "The Crystal Palace made a global inventory physically possible",
-        "text": "Joseph Paxton's modular iron-and-glass building was designed in six weeks and built in about four months on Hyde Park. Its scale allowed nearly 14,000 exhibitors from 34 nations and more than 30 imperial territories to display over 100,000 objects. The building was not neutral. Britain and its colonies occupied the western half; foreign exhibitors occupied the eastern half, turning industrial comparison into a performance of empire. Yet the same arrangement also exposed British visitors to work they could not dismiss. V&A historians note that Indian textiles and craft became some of the exhibition's most influential lessons in colour, pattern and design."
+        "title": "War showed Escoffier what specialisation could do—and what logistics demanded",
+        "text": "Escoffier served as an army cook during the Franco-Prussian War of 1870–71. The experience exposed him to feeding large numbers, preservation, supply and the logic of a chain of command. Historians are careful not to reduce his later system to one battlefield revelation, because kitchens already contained specialised trades and guild traditions. His contribution was to refine those roles into an operating structure suited to the grand hotel. The kitchen became a brigade: not because cooks were soldiers, but because coordinated specialisation could replace a room full of simultaneous individual battles."
       },
       {
-        "title": "Pricing turned an elite showcase into a mass institution",
-        "text": "Admission began high enough to manage the opening crowds, but organisers later introduced one-shilling days from Monday to Thursday. Railways carried visitors from across Britain. By the close, 6,039,195 admissions had been recorded—roughly one visit for every three people in the country at the time, though many people visited more than once. The fair's reach did not come from architecture alone. It came from an operating decision to lower the price and make the audience much larger than manufacturers, aristocrats and foreign delegations. That mass participation generated revenue, public legitimacy and a market for souvenirs, travel and spectacle around the exhibition."
+        "title": "The station became the basic unit of production",
+        "text": "At the top sat the chef de cuisine, with the sous-chef coordinating the service. Below them, chefs de partie owned defined stations: sauces, fish, roasting, cold preparations, pastry and other functions. Commis cooks worked within those stations. Instead of one person making a whole dish, several specialists produced components that converged at the pass. The saucier could focus on sauces across many tables; the rôtisseur on roasted and grilled items; the garde-manger on cold work. Clear boundaries reduced equipment conflict and made skill, delay and failure easier to locate."
       },
       {
-        "title": "The prizes were really a language for industrial judgement",
-        "text": "Instead of paying cash prizes, the commissioners used medals: a small number of Council Medals for exceptional work, broader Prize Medals for recognised standards, and medals for exhibitors and jurors. The hierarchy made quality visible without pretending every category could be reduced to one number. More important, the exhibition treated art and taste as productive inputs, not decoration added after engineering. British Museum keeper Antonio Panizzi argued that a permanent industrial museum was the logical consequence: manufacturers and the public needed continuing access to exemplary objects so that comparison would not end when the fair closed."
+        "title": "Division of labour only worked because somebody coordinated time",
+        "text": "A plate assembled from multiple stations creates a new risk: each component can be excellent and still arrive at the wrong moment. The sous-chef and the pass became the synchronising layer. Orders had to be called, courses fired and tables completed together. This is what distinguishes a brigade from a list of job titles. Specialisation created local efficiency; orchestration turned it into service. Modern kitchens vary widely in size and language, but the enduring pattern is recognisable whenever an expo or chef coordinates independent stations toward one table."
       },
       {
-        "title": "A temporary event created permanent capital",
-        "text": "The exhibition earned a surplus of £186,437. The Royal Commission used it to buy land in South Kensington rather than dissolving after the celebration. The estate became home to institutions that evolved into the Victoria and Albert Museum, Science Museum, Natural History Museum, Imperial College and Royal Albert Hall. Experts also purchased 244 exhibition objects for the Government School of Design; those teaching collections helped form the V&A when it opened in 1857. The commission still funds scientific and engineering research. The crucial move was to treat surplus, objects and attention as seed capital for an ecosystem."
+        "title": "Le Guide Culinaire turned tacit craft into a portable standard",
+        "text": "Escoffier's 1903 Le Guide Culinaire contained nearly 3,000 descriptions and recipes. It did more than preserve dishes. Concise instructions, named preparations and shared culinary vocabulary allowed training and reproduction across kitchens. Escoffier's partnership with hotelier César Ritz carried the system through elite properties including London's Savoy and Carlton and the Paris Ritz. The combination mattered: the brigade organised people, the book codified product and the hotel network distributed both. A cuisine associated with individual masters became a profession that could be taught internationally."
       },
       {
-        "title": "The building disappeared; the institutional flywheel remained",
-        "text": "The Crystal Palace was dismantled from Hyde Park as planned and later rebuilt at Sydenham, where it eventually burned in 1936. The international-exhibition format spread to Paris, Dublin, New York, Vienna, Chicago and beyond. But the deeper legacy was not the copyable spectacle. A classified display improved public judgement; mass access produced scale; scale produced surplus; surplus purchased land and collections; institutions kept teaching and researching after the crowd left. The Great Exhibition worked because its organisers designed the exit from the beginning. A forum becomes infrastructure only when its temporary concentration of people is converted into durable capability."
+        "title": "The system solved coordination, but its hierarchy was never neutral",
+        "text": "A strict brigade can make accountability legible and create an apprenticeship ladder. It can also concentrate authority, normalise shouting and treat endurance as proof of talent. Contemporary research finds that haute-cuisine brigades remain strongly hierarchical even as leadership moves between formal ranks during service. Many smaller and modern kitchens therefore keep the useful architecture—stations, mise en place, a pass and clear ownership—while flattening titles or cross-training teams. Escoffier's durable invention was not military obedience. It was the recognition that complex hospitality needs an explicit operating system."
       }
     ],
     "timeline": [
-      { "date": "January 1850", "text": "A Royal Commission is established to organise an international exhibition of industry." },
-      { "date": "1850–1851", "text": "Joseph Paxton's modular Crystal Palace is designed and built in Hyde Park on an exceptional timetable." },
-      { "date": "1 May 1851", "text": "The Great Exhibition opens with products arranged by country and industrial class." },
-      { "date": "Summer 1851", "text": "One-shilling weekdays broaden access beyond wealthy visitors and industry insiders." },
-      { "date": "October 1851", "text": "The exhibition closes after 141 days, more than six million admissions and a £186,437 surplus." },
-      { "date": "1852 onward", "text": "The commission buys land in South Kensington for education, culture and research." },
-      { "date": "1857", "text": "The South Kensington Museum, later the V&A, opens with teaching collections shaped by the exhibition." }
+      { "date": "1846", "text": "Auguste Escoffier is born in Villeneuve-Loubet in southern France." },
+      { "date": "1870–1871", "text": "He serves as an army cook during the Franco-Prussian War and works with large-scale supply, preservation and feeding." },
+      { "date": "1884", "text": "Escoffier begins collaborating with hotelier César Ritz at the Grand Hôtel in Monte Carlo." },
+      { "date": "1890", "text": "Ritz and Escoffier take leading roles at London's Savoy Hotel, applying coordinated luxury service at scale." },
+      { "date": "1898", "text": "The Paris Ritz opens, joining hotel design, dining-room service and Escoffier's kitchen organisation." },
+      { "date": "1899", "text": "Escoffier becomes head of the kitchen at London's Carlton Hotel." },
+      { "date": "1903", "text": "Le Guide Culinaire publishes a codified professional repertoire of nearly 3,000 preparations." },
+      { "date": "1907", "text": "The first English adaptation, A Guide to Modern Cookery, extends the system's teaching reach." }
     ],
     "sources": [
-      { "label": "V&A · global scope, design lessons, medals and the foundation collection", "url": "https://www.vam.ac.uk/articles/the-great-exhibition-of-1851" },
-      { "label": "Royal Collection Trust · planning, exhibitors, visitors and institutional legacy", "url": "https://www.rct.uk/group/381/content/explore/themes/great-exhibition-of-1851" },
-      { "label": "English Heritage · building, public access, surplus and South Kensington legacy", "url": "https://www.english-heritage.org.uk/visit/inspire-me/what-was-the-great-exhibition-of-1851/" },
-      { "label": "Royal Commission for the Exhibition of 1851 · official statistics and continuing trust", "url": "https://royalcommission1851.org/uploads/publications/1851_brochure_v15_text_issuuv2-2.pdf" },
-      { "label": "London Museum · one-shilling days, rail access, imperial context and museums", "url": "https://www.londonmuseum.org.uk/collections/london-stories/what-was-great-exhibition-1851/" }
+      { "label": "Library of Congress · Escoffier, scale, wartime logistics and modern cuisine", "url": "https://guides.loc.gov/food-wine-cafe-culture-paris-france" },
+      { "label": "Bibliothèque nationale de France · Escoffier archive and brigade photographs", "url": "https://ccfr.bnf.fr/portailccfr/ark:/16871/004b80364125" },
+      { "label": "Fondation Auguste Escoffier · brigade, professionalisation and standardisation", "url": "https://fondationescoffier.com/a-propos/" },
+      { "label": "Organization Studies · hierarchy and coordination in contemporary kitchen brigades", "url": "https://journals.sagepub.com/doi/10.1177/01708406221134225" },
+      { "label": "Cambridge University Press · A Guide to Modern Cookery and Escoffier's influence", "url": "https://www.cambridge.org/core/books/guide-to-modern-cookery/4049DA5D650A5786805DE45D7B82483B" }
     ]
   },
   "threads": [
-    { "status": "Escalated geography", "title": "Houthi attacks on Saudi Arabia", "text": "Two missiles were intercepted toward the Makkah and Madinah regions; damage, precise targets and aviation effects remain to be established.", "progress": 78 },
-    { "status": "Institution forming", "title": "AI safety becomes state capacity", "text": "Britain has funded a biosecurity lab and connected programmes, but leadership, delivery dates and evaluation are still open.", "progress": 31 },
-    { "status": "Gateway opened", "title": "China–North Korea trade", "text": "The New Yalu River Bridge is operating after a decade of delay; real cargo flows will show whether symbolism becomes economic change.", "progress": 47 },
-    { "status": "Narrow opening", "title": "Ukraine–Russia diplomacy", "text": "A local humanitarian ceasefire is agreed and talks are proposed, while the central territorial and security dispute is unchanged.", "progress": 24 },
-    { "status": "Opening today", "title": "Doha World Investment Forum", "text": "The next useful signal is a specific policy, partnership or investable programme that can be tracked after the event.", "progress": 18 }
+    { "status": "Channel active", "title": "Qatar's U.S.–Iran mediation", "text": "Mediators travelled to Tehran; the next signal is a disclosed proposal, restraint commitment or dated negotiating step.", "progress": 43 },
+    { "status": "Result challenged", "title": "Brazil after the runoff", "text": "Lula has an official 51.8% victory; Bolsonaro is seeking annulment and must now present a legally sufficient case.", "progress": 76 },
+    { "status": "Threat persists", "title": "Houthi attacks on Saudi Arabia", "text": "Riyadh airport restored two terminals while new launches and interception debris showed that operating capacity and security risk are moving separately.", "progress": 81 },
+    { "status": "Stacks diverging", "title": "AI becomes geopolitical infrastructure", "text": "Middle powers are still mixing U.S. chips and Chinese models, but alliance conditions may narrow that freedom.", "progress": 48 },
+    { "status": "Proposals formed", "title": "Doha World Investment Forum", "text": "GCC value chains, hyperscale computing and ASEAN links are on the table; named owners, budgets and agreements are still missing.", "progress": 31 }
   ]
 }
