@@ -1,0 +1,237 @@
+{
+  "date": { "display": "Monday, 26 October 2026", "edition": "059", "updated": "7:01 AM" },
+  "worldSentence": "Qatar has reopened a diplomatic path between Washington and Tehran as oil markets price both escalation and de-escalation, while Brazil's electorate and the emerging AI blocs expose how much of the world still resists binary choices.",
+  "standfirst": "Monday's edition leads with Qatari mediators in Tehran and the market's immediate response, then follows Lula's surprise comeback in Brazil, fresh Houthi attacks around Riyadh and the global contest between American and Chinese AI stacks. Doha's World Investment Forum is moving from speeches toward proposals for Gulf industrial integration. Curiosity Corner meets a mushroom whose unknown chemistry repeatedly makes people see miniature humans, and the Long View enters the kitchen brigade that made complex restaurant service reproducible.",
+  "listenTime": "18 min",
+  "coverage": [
+    { "count": 4, "label": "Qatar & Gulf" },
+    { "count": 3, "label": "World & politics" },
+    { "count": 3, "label": "Economy & markets" },
+    { "count": 3, "label": "AI & technology" },
+    { "count": 2, "label": "Aviation & consumer" }
+  ],
+  "connected": {
+    "title": "The useful thread is strategic room to manoeuvre.",
+    "signals": [
+      { "label": "DIPLOMACY", "value": "Tehran visit", "text": "Qatari mediators travelled to Iran in a U.S.-coordinated effort to reduce the risk of renewed regional war." },
+      { "label": "BRAZIL", "value": "51.8%", "text": "Lula overturned a first-round deficit to win a fourth non-consecutive term; Flávio Bolsonaro is seeking annulment." },
+      { "label": "AI STACKS", "value": "2 blocs", "text": "Countries are trying to retain access to American frontier capability and Chinese open, lower-cost systems." },
+      { "label": "MARKETS", "value": "$115.48", "text": "Brent eased after Qatar's mediation report but remained near a six-month high after a 6.2% weekly rise." }
+    ],
+    "note": "Qatar, Brazil and AI 'swing countries' are operating in different arenas, but each is trying to avoid having its choices reduced to someone else's binary. The test is whether mediation, elections and technological hedging create durable autonomy or merely postpone a forced choice."
+  },
+  "stories": [
+    {
+      "id": "qatar-mediators-tehran-deescalation",
+      "number": "01",
+      "category": "Qatar, Iran & regional diplomacy",
+      "sourceNote": "Reuters · Sunday afternoon",
+      "title": "Qatari mediators travelled to Tehran in a U.S.-coordinated effort to lower the risk of renewed escalation with Iran.",
+      "changed": "An official briefed on the effort told Reuters that Qatari mediators were in Tehran on Sunday; Iran separately said messages with Washington were still moving and that it remained open to diplomacy.",
+      "matters": "This is the clearest active channel between two sides simultaneously signalling possible military action, and it places Qatar at the centre of a decision that affects Gulf security, energy flows, aviation and inflation.",
+      "watch": "Whether the visit produces a dated negotiating step, a restraint commitment or terms around Hormuz; the visit and U.S. coordination are reported, but the participants, proposals and Iranian response have not been published.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "A diplomatic channel is open before the next military decision.", "note": "The visit is consequential because the alternative is not a frozen dispute but a live escalation risk across the Gulf.", "break": false },
+      "background": {
+        "title": "The market reaction shows what is riding on a still-opaque visit",
+        "text": "Reuters reported on Sunday that Qatari mediators were in Tehran as part of a de-escalation effort coordinated with the United States. The report arrived while U.S. and Israeli officials continued to signal that another campaign against Iran remained possible, and U.S. personnel in the region were reportedly on heightened alert. Iran said messages were still being passed and that diplomacy remained possible. By Monday morning, Brent crude had fallen 1% to $115.48 a barrel, with Reuters linking the move partly to the mediation report. That is a modest response after a 6.2% weekly rise driven by Houthi attacks in Saudi Arabia and supply fears. The diplomacy is therefore real enough to move expectations, but not yet specific enough to price as an agreement. Qatar's leverage is its ability to carry messages where direct contact is politically difficult. The missing evidence is what was carried, who received it and whether either side changed a position.",
+        "known": "A Qatari team visited Tehran in coordination with the United States, and Iran says indirect messages continue.",
+        "new": "The channel has moved from remote message-passing to an in-person visit during a fresh escalation window."
+      },
+      "evidence": {
+        "left": { "label": "Confirmed report", "text": "Reuters cited an official briefed on the visit; Iran publicly said messages with Washington were continuing." },
+        "right": { "label": "Not yet established", "text": "No proposal, timetable, participant list, mutual commitment or agreed negotiating round has been disclosed." }
+      },
+      "sources": [
+        { "label": "Reuters via L'Orient Today · Qatari visit and U.S. coordination", "url": "https://today.lorientlejour.com/article/1552027/qatari-mediators-in-tehran-in-us-coordinated-effort-to-ease-tensions-official-says.html" },
+        { "label": "AP · Iranian messaging and the wider regional risk picture", "url": "https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885" },
+        { "label": "Reuters via MarketScreener · oil and markets response", "url": "https://www.marketscreener.com/news/asian-shares-make-cautious-start-brent-eases-from-six-month-high-ce785cdfd181ff26" }
+      ]
+    },
+    {
+      "id": "brazil-lula-reelected-bolsonaro-challenge",
+      "number": "02",
+      "category": "Brazil, elections & markets",
+      "sourceNote": "Brazil electoral court / Associated Press · Sunday night",
+      "title": "Lula won Brazil's presidential runoff with 51.8%, overturning his first-round defeat as Flávio Bolsonaro refused to concede.",
+      "changed": "With all votes counted, the electoral court gave Lula a lead of nearly 4.4 million votes; Bolsonaro asked for annulment after voting was extended by two hours because of transport disruption and heavy rain.",
+      "matters": "Latin America's largest economy has chosen policy continuity and a more independent posture toward Washington, but Lula will govern with a Congress that shifted right and an opposition already contesting the result.",
+      "watch": "Bolsonaro's legal filing and evidence, the electoral courts' response, transition security, the Brazilian real and Lula's route through an unfriendly Congress. The count is official; annulment has been demanded but no court has accepted it.",
+      "lead": false,
+      "group": { "label": "World beyond the lead", "title": "Brazil produced a clear count and an immediate legitimacy test.", "note": "The next issue is not who won the tally, but whether the legal and political system can contain the challenge.", "break": true },
+      "background": {
+        "title": "A comeback victory does not create an easy fourth term",
+        "text": "Lula entered the runoff after losing the first round to Flávio Bolsonaro by more than 2.2 million votes. He finished the second round nearly 4.4 million votes ahead, becoming the first Brazilian presidential candidate since the end of military rule to place second in the first round and win the presidency. The electoral authority reported 51.8% of the vote for Lula. Confusion came just before the scheduled close, when Supreme Court Justice Cristiano Zanin extended voting nationwide by two hours after both campaigns cited access problems: buses in Lula-leaning cities and heavy rain in Bolsonaro-leaning southern areas. Bolsonaro says the change invalidated the vote. The electoral court's president—himself appointed to the Supreme Court by Jair Bolsonaro—said the extension did not affect the result, and a cited election-law professor said the challenger would need to show an effect on free voting. Lula begins a fourth non-consecutive term in January facing weak public finances, cost-of-living pressure and a Congress that moved to the right.",
+        "known": "Brazil's electoral court declared Lula the winner with 100% counted and 51.8% of valid votes.",
+        "new": "Lula reversed a first-round deficit, while Bolsonaro converted an unusual procedural decision into an immediate challenge to the result."
+      },
+      "evidence": {
+        "left": { "label": "Official outcome", "text": "The electoral authority declared a nearly 4.4-million-vote Lula lead after the complete count." },
+        "right": { "label": "Legal uncertainty", "text": "Bolsonaro has demanded annulment, but has not yet shown that the extension changed voters' ability to cast a free ballot." }
+      },
+      "sources": [
+        { "label": "AP · result, voting extension and legal challenge", "url": "https://apnews.com/article/brazil-election-lula-bolsonaro-runoff-vote-president-e2c9fe8fc4aa3e3675b9a8ec15405d93" },
+        { "label": "Reuters · electoral authority confirms Lula's fourth term", "url": "https://www.streetinsider.com/Reuters/Brazils%2BLula%2Breelected%2Bpresident%2Bin%2Brunoff%2Bvote/27229466.html" }
+      ]
+    },
+    {
+      "id": "us-china-ai-blocs-swing-countries",
+      "number": "03",
+      "category": "AI infrastructure, geopolitics & Gulf strategy",
+      "sourceNote": "Associated Press · Sunday",
+      "title": "The U.S. and China are forming rival AI blocs, while countries from Kazakhstan to Saudi Arabia try to use both technology stacks.",
+      "changed": "The U.S.-led Pax Silica is linking trusted partners to advanced chips and supply chains, while China's 29-country World AI Cooperation Organization offers a more open-source, lower-cost route; several states are deliberately hedging across both.",
+      "matters": "AI sovereignty is becoming a procurement and foreign-policy constraint: access to chips, models, power, standards and capital may increasingly arrive as one strategic package rather than independent choices.",
+      "watch": "Whether Washington makes participation exclusive, how China finances adoption, and which workloads Gulf states place on American versus Chinese systems. The blocs and investments are real; a clean global split is still an interpretation, not a completed fact.",
+      "lead": false,
+      "group": { "label": "Technology & enterprise", "title": "AI choice is turning into alignment choice.", "note": "For buyers, the important object is no longer just the model—it is the stack of chips, capital, standards and political conditions around it.", "break": true },
+      "background": {
+        "title": "The Gulf is not outside the contest; it is one of the places where the stacks already meet",
+        "text": "Associated Press reporting describes an emerging split between America's Pax Silica, which ties advanced semiconductors and AI supply chains to trusted partners, and China's World AI Cooperation Organization, whose 29 founding countries include Pakistan and Russia. Kazakhstan illustrates the hedge: its AI minister joined the U.S. initiative and, three weeks later, joined China's organisation; it also has an investment agreement worth up to $10 billion involving Nvidia while Chinese investment rises. Saudi Arabia offers an even more relevant combination. Humain has launched a platform built on a Chinese open model while the kingdom also holds a deal with Nvidia for advanced computing. These are not contradictions if governments see frontier capability, affordable deployment and standard-setting influence as separate needs. They become harder to combine if Washington makes access conditional on avoiding China's programme. That means architecture decisions—model, cloud, chip and data location—can create diplomatic dependencies long after the software contract is signed.",
+        "known": "Both initiatives exist, and countries including Kazakhstan are participating in or investing across the two ecosystems.",
+        "new": "The competition is moving from model benchmarks into coalitions that bundle technology access with supply chains and geopolitical trust."
+      },
+      "evidence": {
+        "left": { "label": "Observable hedge", "text": "Kazakhstan joined both initiatives; Saudi Arabia combines a Chinese open model with planned access to Nvidia computing." },
+        "right": { "label": "Open question", "text": "It is not yet clear how strongly either bloc will enforce exclusivity or whether middle powers can preserve mixed stacks." }
+      },
+      "sources": [
+        { "label": "AP · U.S.–China AI blocs and the countries trying to bridge them", "url": "https://apnews.com/article/china-us-ai-blocs-9974a3e5dc955a93935d131a4aeb8886" }
+      ]
+    },
+    {
+      "id": "saudi-riyadh-airport-reopens-attacks-continue",
+      "number": "04",
+      "category": "Saudi Arabia, aviation & security",
+      "sourceNote": "Associated Press / Saudi authorities · Sunday",
+      "title": "Riyadh airport reopened terminals 1 and 2 as Saudi air defences intercepted another Houthi ballistic missile and drone toward the capital.",
+      "changed": "The partial reopening restored domestic and international capacity after the early-October airport strike, but Sunday brought new launches toward Riyadh and two people wounded by interception debris farther south.",
+      "matters": "Saudi aviation is recovering capacity while still operating inside an active attack cycle, so a reopened terminal is an operational improvement rather than an all-clear.",
+      "watch": "Flight schedules, further terminal openings, air-defence supply, debris casualties and whether repeated launches force renewed capacity restrictions. The interceptions and reopening are official; the Houthis' claimed targets were not independently verified.",
+      "lead": false,
+      "group": { "label": "Regional operations", "title": "Capacity is returning before the threat has receded.", "note": "Passengers and airlines should separate terminal status from the wider security condition.", "break": false },
+      "sources": [
+        { "label": "AP · Riyadh terminal reopening, interceptions and debris injuries", "url": "https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885" }
+      ]
+    },
+    {
+      "id": "world-investment-forum-gcc-integration",
+      "number": "05",
+      "category": "Qatar, GCC investment & industrial policy",
+      "sourceNote": "QNA / World Investment Forum · Sunday",
+      "title": "Gulf officials used Doha's World Investment Forum to propose shared industrial strategies, export corridors and regional AI infrastructure.",
+      "changed": "The first day produced proposals to divide production stages across GCC advantages, expand joint investment, build hyperscale computing and advance a GCC–ASEAN free-trade discussion.",
+      "matters": "The worthwhile opportunity is not another national data-centre announcement but a Gulf operating model that connects energy, compute, logistics, manufacturing and external markets.",
+      "watch": "Named projects, responsible institutions, capital commitments, corridor routes and a timetable for GCC–ASEAN trade talks. The proposals are on record; none is yet a funded regional programme.",
+      "lead": false,
+      "group": { "label": "Economy & opportunity", "title": "Doha's forum has moved from attendance numbers to a testable proposition.", "note": "The test is whether regional integration acquires owners, budgets and routes before the forum closes.", "break": true },
+      "sources": [
+        { "label": "QNA via The Peninsula · GCC industrial integration and hyperscale computing", "url": "https://thepeninsulaqatar.com/article/25/10/2026/gulf-officials-propound-initiatives-at-wif-to-foster-joint-investment-bolster-intra-gcc-trade" },
+        { "label": "QNA via The Peninsula · GCC–ASEAN priorities and trade discussion", "url": "https://thepeninsulaqatar.com/article/25/10/2026/world-investment-forum-discusses-asean-experience-in-attracting-investment-strengthening-cooperation-with-gcc" }
+      ]
+    },
+    {
+      "id": "markets-oil-central-banks-ai-earnings",
+      "number": "06",
+      "category": "Markets, rates & technology earnings",
+      "sourceNote": "Reuters · Monday morning",
+      "title": "Brent eased to $115.48, but this week's central-bank meetings and hyperscaler earnings will test whether the oil shock and AI boom can coexist.",
+      "changed": "Oil fell 1% after the Qatar mediation report, while markets prepared for rate decisions and results from Alphabet, Microsoft and Amazon; Reuters' poll expected U.S. core inflation at 3.1% and annualised growth at 3.2%.",
+      "matters": "The same data-centre investment supporting growth is being valued against higher energy costs, 5% U.S. ten-year yields and renewed rate-hike risk.",
+      "watch": "Actual inflation and growth, central-bank language, hyperscaler capital expenditure and whether diplomatic progress produces a durable oil pullback. Monday's prices are observed; the macro figures and earnings are forecasts until released.",
+      "lead": false,
+      "group": { "label": "The week ahead", "title": "Markets must price two expensive infrastructures at once: energy security and AI capacity.", "note": "The useful signal will be cash flow and inflation, not a single morning's index move.", "break": false },
+      "sources": [
+        { "label": "Reuters via MarketScreener · oil, central banks and hyperscaler earnings", "url": "https://www.marketscreener.com/news/asian-shares-make-cautious-start-brent-eases-from-six-month-high-ce785cdfd181ff26" }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Curiosity Corner",
+      "title": "One edible mushroom appears to make people in different cultures see the same thing: crowds of miniature humans.",
+      "text": "When Lanmaoa asiatica is undercooked, reports from China and the Philippines describe vivid 'Lilliputian' figures moving through the real scene. Researchers sequenced 53 specimens across the genus and found none of the canonical genes used to make psilocybin or ibotenic acid, suggesting an unknown psychoactive chemistry. That does not yet identify the active molecule or prove why the visions share a form; it turns a strange recurring report into a testable neurochemical question.",
+      "url": "https://doi.org/10.1080/00275514.2026.2670968"
+    },
+    {
+      "label": "Aviation watch",
+      "title": "Qatar Airways is seriously considering premium economy, but there is no approved product or launch date.",
+      "text": "Group CEO Hamad Ali Al-Khater told reporters in Sydney that the cabin is under study as the airline reduces roughly 25 aircraft configurations toward nine and prepares Qsuite Next Gen. It is strategically meaningful for revenue segmentation, but still a design signal rather than a fleet commitment.",
+      "url": "https://www.executivetraveller.com/news/qatar-airways-premium-economy-news"
+    },
+    {
+      "label": "Forum watch",
+      "title": "The World Investment Forum continues in Doha today; look for the first named programme rather than another statement of ambition.",
+      "text": "Day one produced ideas on GCC value chains, data centres, export corridors and ASEAN cooperation. A named owner, budget, delivery date or signed partnership would be the point at which the forum begins creating an investable outcome.",
+      "url": "https://worldinvestmentforum.unctad.org/home"
+    }
+  ],
+  "attention": {
+    "title": "Open the AP account of Brazil's election because it separates the official count from the procedural challenge.",
+    "text": "It records the complete vote, the reasons both campaigns requested extra time, the electoral court's response and the legal burden Bolsonaro would face. That is more useful than treating either 'clear victory' or 'stolen vote' as a complete description.",
+    "url": "https://apnews.com/article/brazil-election-lula-bolsonaro-runoff-vote-president-e2c9fe8fc4aa3e3675b9a8ec15405d93"
+  },
+  "ignore": {
+    "title": "Do not treat the Qatar visit to Tehran as a deal merely because oil fell.",
+    "text": "The visit confirms an active channel and reduced the market's immediate risk premium. No terms, timetable or commitment have been published, so the correct signal is diplomacy in motion—not de-escalation achieved."
+  },
+  "history": {
+    "id": "escoffier-kitchen-brigade-reproducible-service",
+    "number": "LV",
+    "readTime": "6 min",
+    "era": "France & London · 1870–1907",
+    "title": "Escoffier did not make the modern kitchen orderly by asking every cook to work harder. He divided one impossible service into stations that could coordinate.",
+    "deck": "The kitchen brigade turned grand-hotel cooking from a collection of complete dishes made by competing individuals into a timed production system with named responsibilities, common recipes and a chain of command. Its descendants still organise restaurant service—even where its military hierarchy has been softened.",
+    "thesis": "Complex service becomes repeatable when work is divided at natural boundaries, responsibility is visible and coordination has its own role. The same structure can also harden into hierarchy, so a durable operating system must preserve clarity without treating rank as competence.",
+    "sections": [
+      {
+        "title": "Nineteenth-century haute cuisine had outgrown the way its kitchens worked",
+        "text": "European grand hotels and restaurants were serving larger dining rooms, longer menus and more elaborate dishes, but much kitchen work was still organised around individual cooks or small groups producing dishes from beginning to end. That created repeated competition for the same fires, tools and ingredients. A brilliant chef could improvise through the pressure; an expanding hotel could not build reliability on improvisation alone. Auguste Escoffier inherited the elaborate French repertoire associated with Carême, then confronted a management problem: how to produce complexity for many guests at once without every service becoming chaos."
+      },
+      {
+        "title": "War showed Escoffier what specialisation could do—and what logistics demanded",
+        "text": "Escoffier served as an army cook during the Franco-Prussian War of 1870–71. The experience exposed him to feeding large numbers, preservation, supply and the logic of a chain of command. Historians are careful not to reduce his later system to one battlefield revelation, because kitchens already contained specialised trades and guild traditions. His contribution was to refine those roles into an operating structure suited to the grand hotel. The kitchen became a brigade: not because cooks were soldiers, but because coordinated specialisation could replace a room full of simultaneous individual battles."
+      },
+      {
+        "title": "The station became the basic unit of production",
+        "text": "At the top sat the chef de cuisine, with the sous-chef coordinating the service. Below them, chefs de partie owned defined stations: sauces, fish, roasting, cold preparations, pastry and other functions. Commis cooks worked within those stations. Instead of one person making a whole dish, several specialists produced components that converged at the pass. The saucier could focus on sauces across many tables; the rôtisseur on roasted and grilled items; the garde-manger on cold work. Clear boundaries reduced equipment conflict and made skill, delay and failure easier to locate."
+      },
+      {
+        "title": "Division of labour only worked because somebody coordinated time",
+        "text": "A plate assembled from multiple stations creates a new risk: each component can be excellent and still arrive at the wrong moment. The sous-chef and the pass became the synchronising layer. Orders had to be called, courses fired and tables completed together. This is what distinguishes a brigade from a list of job titles. Specialisation created local efficiency; orchestration turned it into service. Modern kitchens vary widely in size and language, but the enduring pattern is recognisable whenever an expo or chef coordinates independent stations toward one table."
+      },
+      {
+        "title": "Le Guide Culinaire turned tacit craft into a portable standard",
+        "text": "Escoffier's 1903 Le Guide Culinaire contained nearly 3,000 descriptions and recipes. It did more than preserve dishes. Concise instructions, named preparations and shared culinary vocabulary allowed training and reproduction across kitchens. Escoffier's partnership with hotelier César Ritz carried the system through elite properties including London's Savoy and Carlton and the Paris Ritz. The combination mattered: the brigade organised people, the book codified product and the hotel network distributed both. A cuisine associated with individual masters became a profession that could be taught internationally."
+      },
+      {
+        "title": "The system solved coordination, but its hierarchy was never neutral",
+        "text": "A strict brigade can make accountability legible and create an apprenticeship ladder. It can also concentrate authority, normalise shouting and treat endurance as proof of talent. Contemporary research finds that haute-cuisine brigades remain strongly hierarchical even as leadership moves between formal ranks during service. Many smaller and modern kitchens therefore keep the useful architecture—stations, mise en place, a pass and clear ownership—while flattening titles or cross-training teams. Escoffier's durable invention was not military obedience. It was the recognition that complex hospitality needs an explicit operating system."
+      }
+    ],
+    "timeline": [
+      { "date": "1846", "text": "Auguste Escoffier is born in Villeneuve-Loubet in southern France." },
+      { "date": "1870–1871", "text": "He serves as an army cook during the Franco-Prussian War and works with large-scale supply, preservation and feeding." },
+      { "date": "1884", "text": "Escoffier begins collaborating with hotelier César Ritz at the Grand Hôtel in Monte Carlo." },
+      { "date": "1890", "text": "Ritz and Escoffier take leading roles at London's Savoy Hotel, applying coordinated luxury service at scale." },
+      { "date": "1898", "text": "The Paris Ritz opens, joining hotel design, dining-room service and Escoffier's kitchen organisation." },
+      { "date": "1899", "text": "Escoffier becomes head of the kitchen at London's Carlton Hotel." },
+      { "date": "1903", "text": "Le Guide Culinaire publishes a codified professional repertoire of nearly 3,000 preparations." },
+      { "date": "1907", "text": "The first English adaptation, A Guide to Modern Cookery, extends the system's teaching reach." }
+    ],
+    "sources": [
+      { "label": "Library of Congress · Escoffier, scale, wartime logistics and modern cuisine", "url": "https://guides.loc.gov/food-wine-cafe-culture-paris-france" },
+      { "label": "Bibliothèque nationale de France · Escoffier archive and brigade photographs", "url": "https://ccfr.bnf.fr/portailccfr/ark:/16871/004b80364125" },
+      { "label": "Fondation Auguste Escoffier · brigade, professionalisation and standardisation", "url": "https://fondationescoffier.com/a-propos/" },
+      { "label": "Organization Studies · hierarchy and coordination in contemporary kitchen brigades", "url": "https://journals.sagepub.com/doi/10.1177/01708406221134225" },
+      { "label": "Cambridge University Press · A Guide to Modern Cookery and Escoffier's influence", "url": "https://www.cambridge.org/core/books/guide-to-modern-cookery/4049DA5D650A5786805DE45D7B82483B" }
+    ]
+  },
+  "threads": [
+    { "status": "Channel active", "title": "Qatar's U.S.–Iran mediation", "text": "Mediators travelled to Tehran; the next signal is a disclosed proposal, restraint commitment or dated negotiating step.", "progress": 43 },
+    { "status": "Result challenged", "title": "Brazil after the runoff", "text": "Lula has an official 51.8% victory; Bolsonaro is seeking annulment and must now present a legally sufficient case.", "progress": 76 },
+    { "status": "Threat persists", "title": "Houthi attacks on Saudi Arabia", "text": "Riyadh airport restored two terminals while new launches and interception debris showed that operating capacity and security risk are moving separately.", "progress": 81 },
+    { "status": "Stacks diverging", "title": "AI becomes geopolitical infrastructure", "text": "Middle powers are still mixing U.S. chips and Chinese models, but alliance conditions may narrow that freedom.", "progress": 48 },
+    { "status": "Proposals formed", "title": "Doha World Investment Forum", "text": "GCC value chains, hyperscale computing and ASEAN links are on the table; named owners, budgets and agreements are still missing.", "progress": 31 }
+  ]
+}
