@@ -1,221 +1,212 @@
 {
-  "date": { "display": "Tuesday, 27 October 2026", "edition": "060", "updated": "7:00 AM" },
-  "worldSentence": "Public markets are being asked to finance the AI scale race just as its labour, energy and governance costs become harder to keep outside the prospectus, while Gulf diplomacy tries to keep military risk from setting the region's economic terms.",
-  "standfirst": "Tuesday's edition leads with Anthropic's extraordinary filing for a Nasdaq debut, then follows Microsoft's offer of voluntary exits to 60,000 employees, a wider diplomatic table in Tehran and a QAR 5 billion push to deepen Qatar's asset-management market. U.S. equities rose, but AI financing remained unstable. Curiosity Corner meets the only known amphibian built for a life entirely at sea, and the Long View traces the public share from a risky spice voyage to a transferable claim—and the empire that claim financed.",
+  "date": { "display": "Wednesday, 28 October 2026", "edition": "061", "updated": "7:04 AM" },
+  "worldSentence": "Israel's election has weakened the governing coalition without producing a successor, while evidence about Russian satellite support for attacks on Saudi Arabia shows how regional escalation is being enabled far beyond the immediate battlefield.",
+  "standfirst": "Wednesday's edition leads with AP's investigation into Russian satellite intelligence and precision strikes on Saudi infrastructure, then follows Israel's unresolved election, Dandy's oversubscribed QAR 206 million offering, Apple's on-device AI push and another narrow AI-led market rally. Curiosity Corner meets a parrot-jawed dinosaur built to mash fruit, and the Long View explains how telegraphy turned weather from a local observation into a public warning system.",
   "listenTime": "17 min",
   "coverage": [
     { "count": 4, "label": "Qatar & Gulf" },
-    { "count": 2, "label": "World & politics" },
+    { "count": 4, "label": "World & politics" },
     { "count": 4, "label": "Economy & markets" },
     { "count": 4, "label": "AI & technology" },
-    { "count": 3, "label": "Consumer & travel" }
+    { "count": 2, "label": "Consumer & travel" }
   ],
   "connected": {
-    "title": "The useful thread is that scale is changing who carries the risk.",
+    "title": "The useful thread is that infrastructure can exercise power without appearing on the front line.",
     "signals": [
-      { "label": "ANTHROPIC", "value": "$16bn", "text": "First-half revenue grew fourteenfold, but the company remains unprofitable and is asking public investors to fund the next stage." },
-      { "label": "MICROSOFT", "value": "60,000", "text": "Employees across four countries can volunteer to leave as spending shifts toward AI infrastructure and selected work." },
-      { "label": "DOHA", "value": "QAR 5bn", "text": "Qatar's active-asset-management initiative is almost doubling its planned size and adding managers." },
-      { "label": "TEHRAN", "value": "4 countries", "text": "Saudi, Pakistani and Turkish delegations joined Iran at a new regional table after Qatar's mediation visit." }
+      { "label": "TARGETING", "value": "40 strikes", "text": "A private intelligence firm found Russian state and military satellite activity around every Saudi target it reviewed; the pattern is evidence, not independent proof of tasking." },
+      { "label": "ISRAEL", "value": "52–53", "text": "Exit polls put the opposition narrowly ahead of Netanyahu's 50-seat bloc, but both remain below the 61 seats needed to govern." },
+      { "label": "DANDY", "value": "QAR 206m", "text": "The dairy company's offering was oversubscribed, with 40% free float expected after listing." },
+      { "label": "AI FINANCE", "value": "$63bn", "text": "Broadcom's new financing structure helped lift AI shares even as the market waits for proof that infrastructure spending earns a return." }
     ],
-    "note": "Anthropic is transferring part of the AI capital burden to public shareholders; Microsoft is asking employees to decide whether they still fit the allocation of work; Doha Investment is placing more capital with external managers; and Gulf governments are trying to distribute the security burden through a broader diplomatic group. In each case, the headline is scale. The harder question is who receives control, who absorbs loss and which safeguards remain enforceable after the money or authority moves."
+    "note": "Satellites can make a militia's weapon more precise, Arab parties can decide who governs without joining a coalition, an anchor listing can widen ownership without changing founder control, and local AI hardware can shift capability from a cloud operator onto a user's device. The common mechanism is enabling infrastructure: the visible actor still makes the decision, but the system around that actor changes what is possible and who carries the risk."
   },
   "stories": [
     {
-      "id": "anthropic-files-record-scale-ipo",
+      "id": "russian-satellite-intelligence-saudi-targeting",
       "number": "01",
-      "category": "AI, capital markets & governance",
-      "sourceNote": "Associated Press / regulatory filing · Monday",
-      "title": "Anthropic filed for a Nasdaq listing after generating more than $16 billion of first-half revenue—and an $80.7 billion net loss dominated by a financing charge.",
-      "changed": "The Claude developer filed to trade as ANT next month, disclosing fourteenfold year-on-year revenue growth, continued unprofitability, 50.1% founder voting control and a safety trust with director-appointment powers.",
-      "matters": "The filing turns the AI financing debate into an investable security: public shareholders may fund infrastructure at historic scale while founders and a separate trust retain unusual control over commercial and safety decisions.",
-      "watch": "The final valuation, proceeds, free float, cash operating loss after the $72.4 billion accounting charge, use of funds and the actual powers of the Long-Term Benefit Trust. The filing is public; reports of a $100 billion raise and a $1.5–2 trillion valuation are estimates, not settled terms.",
+      "category": "Gulf security, intelligence & energy",
+      "sourceNote": "Associated Press investigation · Tuesday",
+      "title": "Russian spy satellites repeatedly converged over Saudi targets before 40 missile and drone attacks reviewed by a private intelligence firm.",
+      "changed": "AP reports that Russian government and military satellites gathered over Saudi oil and military sites before attacks by Iranian-backed Houthis and Iraqi militias; officials and a Houthi leader said Russian-derived intelligence reached the groups through Iranian advisers.",
+      "matters": "This would turn the Gulf conflict from a regional proxy war into a wider intelligence contest: modest weapons become more dangerous when a major power supplies location, timing and post-strike assessment.",
+      "watch": "Whether governments release corroborating imagery, whether Riyadh attributes specific strikes to Russian support, and what countermeasures follow. The orbital correlation and interviews are reported; AP could not independently prove who tasked each satellite or tied every pass to a particular strike.",
       "lead": true,
-      "group": { "label": "The lead", "title": "The AI capital race has reached the public market before its economics have settled.", "note": "Revenue growth is exceptional. So are the funding need, governance design and uncertainty hidden by the headline loss.", "break": false },
+      "group": { "label": "The lead", "title": "The weapon may be local; the targeting system is not.", "note": "The investigation matters because intelligence support can change battlefield accuracy without a foreign military firing the missile itself.", "break": false },
       "background": {
-        "title": "A record candidate is also a test of what public ownership means when control stays concentrated",
-        "text": "Anthropic's 335-page filing says first-half revenue exceeded $16 billion, fourteen times the year-earlier level. It also reports an $80.7 billion net loss, including a one-time $72.4 billion accounting charge tied to financing agreements. That distinction matters: the headline loss is not a clean measure of cash burn, but the company still says it is unprofitable and needs enormous infrastructure investment. The filing proposes a Nasdaq listing under ANT and says proceeds could fund acquisitions, technology and expansion. Outside estimates put the raise as high as $100 billion and valuation between $1.5 trillion and $2 trillion, but neither figure has been priced. Governance is equally important. Seven founders would hold 50.1% of votes through a special class, while a Long-Term Benefit Trust can appoint directors to protect public safety. Investors are therefore being offered economic exposure without ordinary proportional control, alongside a safety mechanism whose independence will be tested only when safety and revenue genuinely conflict.",
-        "known": "The filing, ticker, first-half revenue, reported loss, special voting class and trust structure are disclosed.",
-        "new": "A five-year-old frontier-model company is attempting to move directly from private financing into the top tier of global public-market capital raising."
+        "title": "A repeated orbital pattern is strong evidence of support—but not a public chain of command",
+        "text": "AP's reporting combines satellite analysis with interviews rather than relying on one anonymous allegation. Geneva-based AURORAH Geosignal Intelligence reviewed 40 missile and drone attacks against Saudi Arabia between 1 July and 19 October and said Russian government or military satellites passed over the target areas for days before and after every strike. AP also spoke with three officials, including a senior Houthi figure, and a private analyst who said Iranian advisers converted Russian-derived intelligence into target lists or operational guidance. The article connects that support to attacks on the East–West oil pipeline and a military air base where an Italian fighter was damaged. The limit is equally important: a satellite's presence does not reveal its orders, and neither the raw tasking records nor the intelligence products are public. The investigation establishes a pattern and multiple-source attribution, not a declassified command log.",
+        "known": "The reviewed orbital activity, the strikes and the officials' accounts are documented by AP; Saudi officials have publicly alleged outside intelligence support.",
+        "new": "The investigation supplies a systematic 40-strike pattern and describes how Iranian advisers allegedly moved Russian-derived data to armed groups."
       },
       "evidence": {
-        "left": { "label": "Operating signal", "text": "First-half revenue exceeded $16 billion, fourteen times the same period of 2025." },
-        "right": { "label": "Unpriced claims", "text": "Neither the final valuation nor proceeds are established, and most of the headline loss is a one-time accounting charge." }
+        "left": { "label": "Observed pattern", "text": "Russian state or military satellites appeared over all 40 reviewed target areas around the time of attack, according to AURORAH." },
+        "right": { "label": "Evidence limit", "text": "Orbital coincidence does not by itself disclose tasking, product delivery or causation for each strike." }
       },
       "sources": [
-        { "label": "Associated Press · filing, revenue, loss, valuation estimates and governance", "url": "https://apnews.com/article/anthropic-ipo-shares-public-ca2f4c282bef3201a392e59e3df2300c" }
+        { "label": "Associated Press · satellite analysis, official interviews and limits of attribution", "url": "https://apnews.com/article/russia-iran-satellite-intelligence-houthis-iraqi-militias-0989403fb38ccd9d7c9ad11a16e28d24" }
       ]
     },
     {
-      "id": "microsoft-voluntary-exit-offer-ai-shift",
+      "id": "israel-election-deadlock-exit-polls",
       "number": "02",
-      "category": "Enterprise AI, work & capital allocation",
-      "sourceNote": "Microsoft / Associated Press · Monday",
-      "title": "Microsoft offered voluntary buyouts to 60,000 employees—about 27% of its global workforce—as AI infrastructure spending accelerates.",
-      "changed": "Eligible employees in Canada, India, the United Kingdom and the United States can take a new voluntary exit offer; Microsoft had about 223,000 staff in June and reports quarterly results on Wednesday.",
-      "matters": "This is not evidence that AI has already replaced 60,000 jobs. It is a large-scale invitation to reshape the workforce while capital moves into data centres, chips and the work Microsoft says matters most.",
-      "watch": "Take-up, eligibility and severance terms, whether involuntary cuts follow, where headcount changes concentrate, and Wednesday's capital-expenditure and productivity evidence. The offer is confirmed; the causal share attributable to AI rather than wider cost discipline is not quantified.",
+      "category": "Israel, coalition politics & regional policy",
+      "sourceNote": "Associated Press · overnight",
+      "title": "Israel's exit polls put the opposition narrowly ahead, but neither bloc has a path to the 61 seats needed to govern.",
+      "changed": "The first national vote since the 7 October 2023 attack appears to have reduced Benjamin Netanyahu's bloc to about 50 seats, versus 52–53 for Gadi Eisenkot's opposition, with Arab parties holding an estimated 17–18.",
+      "matters": "The result is a rebuke without a transfer of power. Coalition bargaining could leave Netanyahu as caretaker for weeks or produce another election while decisions on Gaza, Iran and the West Bank remain live.",
+      "watch": "Official results due later this week, President Isaac Herzog's consultations, and whether Arab-led parties support a minority government from outside it. These are exit-poll estimates, not a declared result, and small changes can alter coalition arithmetic.",
       "lead": false,
-      "group": { "label": "Technology & work", "title": "AI spending is becoming a workforce-design decision, not only a technology budget.", "note": "The revealing number will be how many people accept—and what work Microsoft rebuilds after they leave.", "break": true },
+      "group": { "label": "World beyond the lead", "title": "The electorate moved, but the governing majority did not appear.", "note": "The next contest is not the count alone; it is whether parties that reject partnership can still coordinate enough to seat a government.", "break": true },
       "background": {
-        "title": "A voluntary programme reduces friction, but it does not answer what the organisation will look like afterward",
-        "text": "Microsoft's chief people officer described the programme as a new Voluntary Exit Offer available to eligible employees in four major labour markets. The 60,000-person scope is more than a quarter of the global workforce, although an offer is not a completed departure. The company had already announced 4,800 job cuts in July and reportedly considered U.S. buyouts for about 8,750 people in May. At the same time, industry data-centre investment is expected to exceed $700 billion this year, raising the cost of chips, memory and power. That creates a visible allocation choice: spend more on compute while reducing or redirecting labour. The honest interpretation is narrower than 'AI took the jobs.' Microsoft has not published how many roles it expects to eliminate, how many volunteers it wants or how savings map to AI investment. But it has made organisational participation optional at a scale large enough to change skills, institutional memory and delivery risk.",
-        "known": "The offer covers 60,000 eligible employees in four countries and follows earlier reductions this year.",
-        "new": "Microsoft is testing voluntary attrition as a global restructuring instrument while its AI capital programme expands."
+        "title": "Israel chooses parties first and a prime minister through coalition arithmetic afterward",
+        "text": "No single Israeli party is expected to approach a majority in the 120-seat Knesset. Exit polls reported by AP placed Netanyahu's right-wing bloc on about 50 seats, Eisenkot's opposition on 52 or 53, and Arab-led parties on 17 or 18. That gives neither principal bloc the 61 votes required to govern. After final results, President Isaac Herzog will consult party leaders and ask the person most likely to assemble a coalition to try. That candidate can receive up to six weeks; if the attempt fails, another leader may be given a chance. Arab parties could become decisive even if they do not enter government: outside support or abstention could allow a minority cabinet to pass its investiture vote. Both main blocs have so far rejected partnership with them, which is why an apparent opposition edge is not yet a governing victory. If negotiations fail, another election is possible and Netanyahu's government would remain in caretaker office.",
+        "known": "Exit polls show both main blocs short of 61 and a historically consequential Arab-party delegation; the formal coalition process follows certified results.",
+        "new": "Voters appear to have removed the incumbent bloc's majority without giving the opposition a self-sufficient replacement majority."
       },
       "evidence": {
-        "left": { "label": "Confirmed scope", "text": "60,000 employees can receive the offer; that is roughly 27% of a 223,000-person workforce." },
-        "right": { "label": "Still unknown", "text": "Microsoft has not disclosed expected acceptance, role mix, savings or whether the offer prevents later layoffs." }
+        "left": { "label": "Exit-poll arithmetic", "text": "Opposition 52–53; Netanyahu bloc 50; Arab parties 17–18; governing threshold 61." },
+        "right": { "label": "Unresolved", "text": "Final results may move seats, and no coalition agreement or presidential mandate exists yet." }
       },
       "sources": [
-        { "label": "Associated Press · offer scope, countries, prior cuts and AI spending context", "url": "https://apnews.com/article/microsoft-buyout-ai-layoff-xbox-c5a639f53615be198db1799adf6837e1" }
+        { "label": "Associated Press · exit-poll seats, coalition process and uncertainty", "url": "https://apnews.com/article/israel-election-netanyahu-results-explainer-3b38fd7c304ac2a68281a891cbfe6063" }
       ]
     },
     {
-      "id": "tehran-four-country-talks-yemen-escalation",
+      "id": "dandy-ipo-oversubscribed-qatar",
       "number": "03",
-      "category": "Gulf diplomacy, Iran & Yemen",
-      "sourceNote": "Associated Press / regional statements · Monday",
-      "title": "Saudi Arabia, Pakistan and Turkey joined Iran in Tehran for a new four-country security meeting as fighting widened in Yemen.",
-      "changed": "The four governments agreed to continue talks on regional peace and security one day after Qatar's U.S.-coordinated mediation visit; separately, the Saudi-led coalition said it destroyed Houthi missile tunnels and launchers, and Egypt approved support for Saudi defence.",
-      "matters": "The diplomatic table is broader, but so is the military coalition around the Saudi–Houthi front. That makes the meeting a channel for managing escalation, not evidence that escalation has stopped.",
-      "watch": "A dated follow-up, concrete restraint terms, treatment of Hormuz and Yemen, and independent evidence on the coalition's strike claims. The meeting and agreement to continue are confirmed; no negotiating text, timetable or ceasefire was announced.",
+      "category": "Qatar, consumer business & capital markets",
+      "sourceNote": "Qatar News Agency / company statement · Tuesday",
+      "title": "Dandy's QAR 206 million initial public offering was oversubscribed, giving Qatar's exchange another locally rooted consumer listing.",
+      "changed": "The dairy producer completed a 41.2 million-share offer at QAR 5 per share: 28.84 million public shares and 12.36 million institutional shares, with founders retaining 60% and free float expected at 40% after listing.",
+      "matters": "Oversubscription is evidence of demand at the offer price, while the 40% free float creates enough public ownership for price discovery. It is not evidence that post-listing returns or operating growth are assured.",
+      "watch": "Final allocation and refunds, the confirmed listing date, first-week liquidity, use of proceeds, margins and governance after conversion. The offer result and structure are confirmed; the degree of oversubscription was not disclosed.",
       "lead": false,
-      "group": { "label": "World beyond the lead", "title": "Regional diplomacy widened at the same time as the war widened.", "note": "A larger room matters only if it produces reciprocal limits before battlefield logic sets the terms.", "break": true },
-      "sources": [
-        { "label": "Associated Press · Tehran delegations, Qatar mediation and the regional risk", "url": "https://apnews.com/article/iran-israel-us-war-10-26-2026-36486edb61b3bf4e0df67e8a17123e44" },
-        { "label": "Associated Press · coalition strike claim and Egyptian support", "url": "https://apnews.com/article/mideast-news-october-26-2026-7d1bcf08210539085ea0b5ed56ef4d4c" }
-      ]
-    },
-    {
-      "id": "doha-investment-active-management-five-billion",
-      "number": "04",
-      "category": "Qatar, capital markets & asset management",
-      "sourceNote": "Qatar News Agency · Monday",
-      "title": "Doha Investment increased Qatar's Active Asset Management Initiative to QAR 5 billion from QAR 2.6 billion.",
-      "changed": "The 2024 initiative has deployed QAR 2.6 billion through Ashmore, Fiera Capital, Franklin Templeton and Lesha Bank; the larger mandate is intended to add managers and deepen Qatar's public-market ecosystem.",
-      "matters": "The policy is trying to create more than a temporary buying programme: external managers receive investable scale, while Qatar seeks analyst coverage, liquidity, competition and a larger domestic asset-management industry.",
-      "watch": "New manager appointments, mandate sizes, benchmark and risk rules, domestic versus regional allocation, fees, measured liquidity effects and whether private local managers gain capability. QAR 5 billion is the expanded initiative size; it is not evidence that the additional QAR 2.4 billion has already been deployed.",
-      "lead": false,
-      "group": { "label": "Qatar & capital", "title": "Qatar is using an anchor mandate to try to build a market around the money.", "note": "The quality test is not only returns; it is whether the programme leaves behind deeper local research, trading and management capability.", "break": true },
+      "group": { "label": "Qatar & capital", "title": "A familiar consumer company is becoming a public-market instrument.", "note": "The useful signal is demand plus meaningful free float; the real test begins when operating performance meets a daily market price.", "break": true },
       "background": {
-        "title": "An anchor allocation can change market plumbing—but only if the mandate creates durable participants",
-        "text": "The initiative began under the Qatar Investment Authority in 2024 and has so far placed QAR 2.6 billion with four local and international managers. Doha Investment has now lifted the programme to QAR 5 billion and says it will broaden participation. An anchor mandate can solve a coordination problem: managers may not build local teams, research or products until assets are available, while capital owners may hesitate to allocate until that ecosystem exists. Committed capital can move both sides at once. But a larger pool does not automatically create a healthier market. The programme's value depends on mandate duration, performance discipline, fee economics, trading behaviour and whether knowledge remains in Qatar when a contract ends. Public information does not yet show the size or terms of each mandate, how the additional capital will be staged or what ecosystem outcomes will be measured beyond investment performance.",
-        "known": "The initiative is increasing to QAR 5 billion and currently works with four named asset managers.",
-        "new": "Qatar is nearly doubling the programme after the first QAR 2.6 billion of deployment, signalling continuation rather than a one-off pilot."
+        "title": "The offer widens ownership, but founders still retain a controlling majority",
+        "text": "Dandy said demand exceeded the available shares during the 7–20 October subscription period. The public tranche comprised 28.84 million shares, equal to 70% of the offering, while institutions received 12.36 million shares through book-building. At QAR 5 per share, the total offer value is QAR 206 million; public subscribers paid QAR 5.01 including listing and offering fees. After completion, founding shareholders are expected to own 60% of issued capital and the listed free float 40%. That balance matters. A 40% float can support trading and outside scrutiny, while a 60% founder stake preserves control and alignment—but also means minority shareholders cannot direct strategy on their own. QNA's report does not disclose how many times the offer was covered, final allocations, a listing date or how proceeds will translate into capacity and earnings. Oversubscription closes the financing stage; it does not settle valuation.",
+        "known": "The offer size, price, tranche split, founder retention and expected free float are disclosed in the company statement carried by QNA.",
+        "new": "Subscription demand exceeded the QAR 206 million offer, completing the capital raise ahead of allocation and listing."
       },
       "evidence": {
-        "left": { "label": "Deployed base", "text": "QAR 2.6 billion has been placed through four managers since the 2024 launch." },
-        "right": { "label": "Execution gap", "text": "The announcement does not yet disclose new managers, mandate terms, deployment dates or ecosystem targets." }
+        "left": { "label": "Offer structure", "text": "41.2 million shares at QAR 5 each; 70% public and 30% institutional." },
+        "right": { "label": "Still missing", "text": "Coverage multiple, final allocation, listing date, use-of-proceeds detail and public-market valuation after trading begins." }
       },
       "sources": [
-        { "label": "Qatar News Agency · expanded size, current managers and stated purpose", "url": "https://qna.org.qa/en/news/news-details?date=26/10/2026&id=doha-investment-raises-active-asset-management-initiative-to-qr-5-billion" }
+        { "label": "Qatar News Agency · offer completion, tranches, price and ownership structure", "url": "https://qna.org.qa/en/news/news-details?date=27/10/2026&id=dandy-announces-successful-completion-of-its-initial-public-offering" }
       ]
     },
     {
-      "id": "markets-ai-financing-monday-rebound",
-      "number": "05",
-      "category": "Markets, AI capital & rates",
-      "sourceNote": "Associated Press · Monday close",
-      "title": "The S&P 500 rose 0.7%, but violent swings in AI-financing names showed that Monday's rebound did not settle the capital question.",
-      "changed": "Nvidia rose 2.4%, Meta reversed repeatedly after outlining up to $95 billion of equity financing, CoreWeave swung from a 5.5% fall to a 6.6% gain, and the ten-year Treasury yield eased to 4.98%.",
-      "matters": "The market is distinguishing demand for AI from confidence in its financing structures: circular customers, chip suppliers, landlords and borrowers can support growth while concentrating the same underlying risk.",
-      "watch": "Alphabet and Microsoft's Wednesday results, Amazon on Thursday, capital expenditure, cash generation and debt terms. Monday's closes are observed; the durability of the rebound depends on earnings and financing detail.",
+      "id": "apple-m6-on-device-ai-macbook",
+      "number": "04",
+      "category": "Consumer technology & on-device AI",
+      "sourceNote": "Apple · Tuesday",
+      "title": "Apple put a dual Neural Engine into the M6 MacBook Pro, making private on-device AI part of the standard laptop proposition rather than a specialist add-on.",
+      "changed": "The new 14-inch model uses a 12-core CPU, 12-core GPU with per-core Neural Accelerators and dual 16-core Neural Engines; it starts at $1,999, opens for preorder today and ships 6 November.",
+      "matters": "Apple is competing on where AI runs as much as what the model can do. Faster local inference can reduce latency and cloud exposure, but vendor benchmarks do not establish performance across real user workloads.",
+      "watch": "Independent M6 tests, sustained thermal performance, memory limits for local models, app support and whether Siri AI works reliably across personal context. Hardware specifications and Apple's claims are confirmed; comparative results remain vendor-tested.",
       "lead": false,
-      "group": { "label": "Economy & markets", "title": "The index recovered; conviction inside the AI trade did not.", "note": "This week's earnings matter because they can connect infrastructure spending to cash returns—or leave the financing loop exposed.", "break": false },
+      "group": { "label": "Technology & consumer", "title": "The next AI distribution fight is moving onto the personal computer.", "note": "A local model is valuable only when software, memory and privacy controls make the chip useful outside a launch demo.", "break": true },
       "sources": [
-        { "label": "Associated Press · U.S. close, AI financing swings, yields and earnings calendar", "url": "https://apnews.com/article/stocks-markets-oil-earnings-trump-be3a56f58a77c5be863f0289d280be92" }
+        { "label": "Apple Newsroom · M6 architecture, claimed performance, price and availability", "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/" }
+      ]
+    },
+    {
+      "id": "ai-stocks-broadcom-financing-rally",
+      "number": "05",
+      "category": "Markets, AI financing & rates",
+      "sourceNote": "Associated Press · Tuesday close",
+      "title": "AI shares lifted U.S. indexes again, but most S&P 500 constituents fell and the rally depended on another giant financing structure.",
+      "changed": "The S&P 500 rose 0.6% and Nasdaq 1.2%; Broadcom gained 4% after a $63 billion financing deal linked to Anthropic's access to its accelerators, while CoreWeave rose 7.9%. Most stocks in the S&P 500 declined.",
+      "matters": "The index can look calm while market breadth and financing remain fragile. AI demand is supporting the largest weights, but the return still depends on whether debt and equity structures produce enough cash flow.",
+      "watch": "Today's Federal Reserve decision and results from Alphabet and Microsoft, followed by Amazon on Thursday. Tuesday's prices are observed; the sustainability of the rally depends on rates, earnings and financing terms.",
+      "lead": false,
+      "group": { "label": "Economy & markets", "title": "The rebound broadened across AI names, not across the market.", "note": "A rising index supported by a falling majority is a concentration signal, not proof that the financing debate is over.", "break": false },
+      "sources": [
+        { "label": "Associated Press · U.S. close, market breadth and Broadcom financing", "url": "https://apnews.com/article/stocks-markets-ai-earnings-oil-e11a2240fc3283c4507d44b9833f30a2" }
       ]
     }
   ],
   "radar": [
     {
       "label": "Curiosity Corner",
-      "title": "A 74-centimetre armoured amphibian appears to have lived its entire life in a salty Triassic sea—something no living amphibian can do.",
-      "text": "Two nearly complete 237-million-year-old skeletons of Gerrothorax maritimus were preserved far from the ancient shoreline, and strontium isotopes in the bones match seawater from the period. The researchers propose that bony armour limited the skin-based water and salt exchange that makes modern amphibians poor ocean residents, shifting regulation toward gills and gut. The fossils strongly support a marine life; soft tissue is gone, so the exact salt-control mechanism remains an inference.",
-      "url": "https://www.nature.com/articles/s41559-026-03209-9"
+      "title": "A turkey-sized 'hell chicken' appears to have mashed soft fruit with a parrot-like forward-and-back chewing stroke 66 million years ago.",
+      "text": "The nearly complete skull of Infernogallus jamesi preserves a jaw-muscle arrangement unknown in other non-bird theropods but convergent with fruit-eating parrots. Ridges and grooves on opposing mouth surfaces could process soft food even without teeth. The anatomy makes specialised fruit eating a strong hypothesis, not a fossilised menu: direct gut contents are absent and the paper says its role in spreading flowering plants remains unclear.",
+      "url": "https://www.nature.com/articles/s41467-026-78343-w"
     },
     {
-      "label": "Consumer signal",
-      "title": "A recent U.S. card-data release shows delivery growing 11.3% while limited-service restaurant spending barely grew and luxury lost momentum.",
-      "text": "Consumer Edge's 16 October Q3 analysis found third-party delivery up 11.3% year on year, limited-service restaurants up 0.2%, full-service restaurants flat and luxury up 1.5% but 2.4 points slower than in the first half. It is U.S. card data, not a Qatar demand measure, yet it cleanly separates channel growth from restaurant growth: a platform can accelerate while the underlying category stalls.",
-      "url": "https://www.consumeredge.com/resources/insight-flash/consumer-spending-trends-heading-into-the-holiday-season/"
-    },
-    {
-      "label": "Aviation & tourism",
-      "title": "No fresh aviation development cleared the threshold this morning; travel demand remains firm despite higher fares in the latest consumer data.",
-      "text": "Consumer Edge measured U.S. travel spending up 4.8% year on year in Q3, accelerating modestly from the first half. That is a useful demand signal, but not enough on its own to infer Qatar Airways traffic, yields or Gulf tourism performance.",
-      "url": "https://www.consumeredge.com/resources/insight-flash/consumer-spending-trends-heading-into-the-holiday-season/"
+      "label": "Aviation watch",
+      "title": "JetBlue says sustained operating profit should return next year, but the market is still valuing recovery rather than demonstrated earnings.",
+      "text": "JetBlue shares jumped 19% even after the airline reported a larger summer loss than analysts expected. Management targeted sustained operating profit in 2027 and at least $1 of earnings per share in 2028. It is a U.S. turnaround signal, not a Gulf demand read; watch capacity, unit revenue and whether the operating plan closes the gap between guidance and realised profit.",
+      "url": "https://apnews.com/article/stocks-markets-ai-earnings-oil-e11a2240fc3283c4507d44b9833f30a2"
     }
   ],
   "attention": {
-    "title": "Open Anthropic's filing coverage for the rare combination of growth, loss and governance detail.",
-    "text": "The AP account separates the disclosed $16 billion revenue figure, the accounting-heavy $80.7 billion loss and the founder-control structure from still-unpriced valuation and proceeds. That distinction is the whole investment story.",
-    "url": "https://apnews.com/article/anthropic-ipo-shares-public-ca2f4c282bef3201a392e59e3df2300c"
+    "title": "Open AP's satellite investigation because it turns an allegation into a testable pattern—and shows where the evidence still stops.",
+    "text": "The article combines orbital analysis across 40 strikes with accounts from Saudi, Houthi and private-intelligence sources. It also leaves the key limitation visible: public data can show convergence over targets, but not the classified order or product behind each pass.",
+    "url": "https://apnews.com/article/russia-iran-satellite-intelligence-houthis-iraqi-militias-0989403fb38ccd9d7c9ad11a16e28d24"
   },
   "ignore": {
-    "title": "Do not convert Microsoft's 60,000-person offer into a 60,000-job AI displacement count.",
-    "text": "It is a voluntary offer, not an announced completed reduction, and Microsoft has not attributed every targeted role to automation. The consequential question is take-up and the operating model left behind."
+    "title": "Do not treat Israel's exit-poll edge as a change of government.",
+    "text": "Neither bloc reaches 61 seats, final results are pending and coalition formation can take weeks. The vote weakened the incumbent alliance; it did not install a successor."
   },
   "history": {
-    "id": "voc-transferable-share-permanent-capital",
+    "id": "fitzroy-telegraph-public-weather-forecast",
     "number": "LV",
     "readTime": "6 min",
-    "era": "Dutch Republic & maritime Asia · 1594–1799",
-    "title": "The modern share began as an answer to a voyage too long, expensive and dangerous for one merchant to finance—and became a claim on an empire.",
-    "deck": "The VOC pooled public subscriptions, recorded ownership in ledgers and allowed those claims to be sold without recalling the ships. That separation between an enduring enterprise and a liquid investor helped create a securities market. It also financed monopoly, coercion and colonial violence on a scale private voyages could not reach.",
-    "thesis": "Transferable ownership solved a real capital problem: investors could exit without forcing the enterprise to liquidate. The same abstraction also widened the distance between owners and the human consequences of what their capital funded. Liquidity is an institutional achievement, not a moral verdict on the activity it makes scalable.",
+    "era": "Britain & the Irish Sea · 1854–1879",
+    "title": "The weather forecast became possible when the telegraph made distant observations simultaneous—and a shipwreck made delay intolerable.",
+    "deck": "Robert FitzRoy did not invent weather. He assembled a system that could observe conditions along a coast, transmit them before the storm arrived, turn them into a judgment and display that judgment where sailors could act. The forecast began as infrastructure: instruments, standards, wires, charts, signals and institutional permission.",
+    "thesis": "Prediction creates public value only when observation reaches a decision-maker faster than the hazard reaches the public. The first national forecast was therefore not one brilliant calculation but a chain that compressed time. Its early suppression also showed that a service can be scientifically imperfect yet socially valuable enough for users to demand its return.",
     "sections": [
       {
-        "title": "A single voyage tied up capital until ships returned—or disappeared",
-        "text": "The first Dutch ventures to Asia were expedition companies. Merchants pooled money for a particular fleet, bought ships and cargo, waited years for the round trip and then divided whatever survived. The first Amsterdam fleet left in 1595 with four ships and 249 people; two ships and 87 people returned in 1597. Its cargo only roughly covered the cost, but it proved the route. More companies followed, competing for crews, supplies and Asian trade. Each expedition reset the financing problem. Long distance, warfare, disease and uncertain prices made the venture too capital-hungry and slow for ordinary partnership finance."
+        "title": "Before a network, weather knowledge arrived too late to warn anyone",
+        "text": "Nineteenth-century sailors understood clouds, wind shifts and falling barometers, but each observation was local. A storm moving across the Bay of Biscay or Irish Sea might be visible in one port hours before it reached another, yet the information could not outrun the weather. The Meteorological Department founded under Robert FitzRoy in 1854 initially focused on marine climatology: collecting standardised observations from ships so recurring wind and pressure patterns could be studied. That produced knowledge about seasons and routes. A warning required something different—many stations reporting at nearly the same moment, a central office able to see the pattern and a channel back to ports before conditions changed. The electric telegraph supplied the missing speed."
       },
       {
-        "title": "The 1602 charter pooled rivals and opened the subscription book",
-        "text": "The States General merged six regional trading groups into the Verenigde Oostindische Compagnie, or VOC, and granted it a monopoly east of the Cape of Good Hope. From August 1602, residents of the Dutch Republic could subscribe in an amount of their choosing. Amsterdam's archive counts 1,143 subscribers there, including 466 investors who committed no more than 1,000 guilders: bakers, carpenters, surgeons, lawyers and household servants as well as rich merchants. Capital was recorded in a shareholder register rather than represented by a standard-value paper certificate. The important innovation was not a pretty document. It was a legally recognised claim on a continuing pool of enterprise assets."
+        "title": "The Royal Charter gale converted a scientific possibility into a public demand",
+        "text": "On 25 and 26 October 1859, a slow-moving storm crossed the British Isles with winds estimated above 100 miles per hour. The Met Office records 800 deaths, 133 ships lost and another 90 badly damaged. The steam clipper Royal Charter, returning from Melbourne, broke apart on the Anglesey coast; about 459 people died and only 40 survived. FitzRoy reconstructed the storm from coastal observations and argued that its path could have been tracked. The disaster did not make forecasting accurate overnight. It made the cost of failing to organise existing information impossible to ignore. Government allowed the Meteorological Office to test a national storm-warning service despite prominent scientific doubt that weather could be predicted meaningfully."
       },
       {
-        "title": "Transferability let the investor leave while the ships stayed at work",
-        "text": "VOC shares could be sold, exchanged or pledged as collateral. Transfers were entered by a company bookkeeper and witnessed by directors. That meant an investor who needed cash did not have to demand that the company sell a ship or wind up a voyage. Another investor could buy the claim. A surviving receipt bought by Amsterdam grocer Theunis Jansz in 1606 passed through several owners before it was sold from an orphan's estate in 1739. The object endured because ownership had become separable from the original subscriber. Liquidity did not remove the commercial risk; it made the risk transferable."
+        "title": "Telegraph reports turned scattered instruments into one operational picture",
+        "text": "From 1 September 1860, coastal stations sent weather observations to London by electric telegraph. FitzRoy could compare pressure, temperature, wind strength and direction across locations on the same day, then draw charts showing how a system was moving. The first storm warning went out on 5 February 1861. Ports displayed combinations of cones and drums on tall staffs, a low-bandwidth code visible from harbour and sea. The signal did not explain atmospheric physics. It translated a central judgment into an immediate decision: stay, shelter or prepare. On the Tyne an early warning was ignored and lives were lost; its accuracy helped persuade other mariners to heed later signals. The service became popular because its output was actionable, not because every mechanism was settled."
       },
       {
-        "title": "A market grew around one company's uncertain future",
-        "text": "The company initially expected to account after ten years, but its capital became effectively long-lived. By 1611 Amsterdam had a purpose-built bourse, supported by the Exchange Bank established in 1609, where merchants could meet, settle payments and trade. VOC prospects were uncertain enough to sustain both investment and speculation: returns depended on war, weather, Asian prices and ships that could take years to come home. Share trading, forward contracts, options and short selling developed around those unknowns. The stock market was not designed in one act. It accumulated from registers, notaries, settlement institutions, gathering places and repeated disputes."
+        "title": "FitzRoy slipped a prediction underneath the observations",
+        "text": "Daily Weather Reports already circulated to newspapers. On 31 July 1861, FitzRoy added a forecast for the following two days, dividing Britain into broad regions and using plain terms such as fine, moderate and fresh. The Times printed it on 1 August. He had permission for maritime warnings, not a general land forecast, so the public service began partly through administrative improvisation. The language was cautious because the data and models were crude. The east of the country was absent from the first version and added days later. Yet the institutional leap was enormous: an official office was no longer recording what had happened. It was accepting responsibility for a statement about what was likely to happen next."
       },
       {
-        "title": "Even the dividend showed how physical the enterprise remained",
-        "text": "Modern shares feel abstract because distributions arrive as numbers in an account. Early VOC dividends could arrive as the cargo itself. Amsterdam's archive records Agneta Cock receiving portions of her entitlement in pepper, mace and nutmeg. The company later paid cash, commodities, bonds or nothing, depending on directors and circumstances. That gap between a tradeable claim in Amsterdam and warehouses full of spice, timber and textiles reveals the financial machine clearly: the share converted uncertain material flows across oceans into an ownership account that could circulate at home before the goods did."
+        "title": "Error became a political problem because people could now plan around the forecast",
+        "text": "A forecast changes behaviour, so false alarms and missed storms carry visible costs. FitzRoy refined his regions and terminology as observations accumulated, but inevitable failures attracted criticism from scientists who doubted both the methods and the office's authority. The pressure affected his health; he died by suicide in 1865. A review then recommended that the office retreat to data collection. Public forecasts ended in May 1866, and storm warnings were also stopped. This looked methodologically cautious, but it removed a service mariners had incorporated into decisions. When deaths increased, public and parliamentary pressure forced storm warnings to resume in 1867. General public forecasts did not return until 1879."
       },
       {
-        "title": "The financial breakthrough cannot be separated from the coercive charter",
-        "text": "The VOC was not merely a clever logistics company. Its charter authorised treaty-making, fortification, force and administration of justice. It used those powers to seize territory, enforce spice monopolies and subject people across the Indonesian archipelago to violence and exploitation. Public subscription and liquid trading did not cause colonialism, but they gave the enterprise a larger, more persistent capital base and allowed distant owners to trade claims without confronting each operation directly. The institutional lesson therefore has two halves: permanent, transferable capital can organise risk and build capacity across generations; it can also scale domination while making responsibility feel remote."
+        "title": "The durable invention was the observation-to-action chain",
+        "text": "Modern forecasting uses satellites, radar, numerical models and supercomputers that FitzRoy could not imagine. Its operating logic is still recognisable. Instruments create comparable observations; communications gather them before conditions change; models and forecasters turn them into probabilities; warnings translate probability into action; and feedback reveals where the system failed. The first service was rough and contested, but it proved a network could make the atmosphere legible at a useful speed. The lesson is not that imperfect predictions should be trusted blindly. It is that accuracy, communication and action are separate design problems—and public safety depends on all three working before the hazard arrives."
       }
     ],
     "timeline": [
-      { "date": "1594", "text": "Nine Amsterdam merchants form the Compagnie van Verre to organise direct trade with Asia." },
-      { "date": "1595–1597", "text": "The first fleet makes the dangerous round trip; its cargo roughly covers the expedition's cost." },
-      { "date": "20 MAR 1602", "text": "The States General charters the VOC by merging six regional companies and granting a trade monopoly." },
-      { "date": "AUG 1602", "text": "Public subscriptions open; residents can invest amounts of their choosing in company ledgers." },
-      { "date": "1609", "text": "Amsterdam establishes the Exchange Bank to improve settlement across its international market." },
-      { "date": "1611", "text": "A purpose-built bourse opens on the Rokin, giving merchants and securities traders a central meeting place." },
-      { "date": "1612", "text": "The expected ten-year liquidation is set aside, turning the pooled capital into a continuing base." },
-      { "date": "31 DEC 1799", "text": "The bankrupt VOC is formally dissolved after almost two centuries of trade, war and colonial rule." }
+      { "date": "1854", "text": "FitzRoy establishes the Meteorological Department to collect and standardise marine weather observations." },
+      { "date": "25–26 OCT 1859", "text": "The Royal Charter gale kills about 800 people and destroys 133 ships around the British Isles." },
+      { "date": "1 SEP 1860", "text": "Coastal stations begin sending daily observations to London by electric telegraph." },
+      { "date": "5 FEB 1861", "text": "The Meteorological Office issues its first national storm warning." },
+      { "date": "31 JUL 1861", "text": "FitzRoy writes the first public forecast for the following two days." },
+      { "date": "1 AUG 1861", "text": "The Times publishes the forecast beneath the daily observations." },
+      { "date": "MAY 1866", "text": "Forecasting is halted after a review recommends that the office restrict itself to data collection." },
+      { "date": "1867", "text": "Public and parliamentary pressure restores storm warnings after losses rise." },
+      { "date": "APR 1879", "text": "General public weather forecasts resume after a thirteen-year interruption." }
     ],
     "sources": [
-      { "label": "Dutch National Archives · capital subscriptions, transferable shares and dividends", "url": "https://www.nationaalarchief.nl/sites/default/files/afbeeldingen/toegangen/NL-HaNA_1.04.02_introduction-VOC.pdf" },
-      { "label": "Amsterdam City Archives · 1602 company formation, public capital and colonial power", "url": "https://www.amsterdam.nl/stadsarchief/canon-amsterdam-2008/1602-voc/" },
-      { "label": "Amsterdam City Archives · one transferable share across owners and generations", "url": "https://www.amsterdam.nl/stadsarchief/stukken/geld/onbekend-voc-aandeel/" },
-      { "label": "Amsterdam City Archives · small subscribers and dividends paid in spices", "url": "https://www.amsterdam.nl/stadsarchief/stukken/geld/voc-aandeel-wees/" },
-      { "label": "Amsterdam City Archives · the 1611 bourse and growth of securities trading", "url": "https://www.amsterdam.nl/stadsarchief/canon/windows/11/" },
-      { "label": "EH.Net · the distinction between a market in shares and a formal stock exchange", "url": "https://eh.net/book_reviews/the-worlds-first-stock-exchange/" },
-      { "label": "World History Encyclopedia · charter, initial subscription and continued capital", "url": "https://www.worldhistory.org/Dutch_East_India_Company/" }
+      { "label": "Met Office · FitzRoy, the first public forecast and the suspension of forecasting", "url": "https://www.metoffice.gov.uk/research/library-and-archive/archive-hidden-treasures/robert-fitzroy" },
+      { "label": "Met Office · Royal Charter gale, telegraph network and first storm warning", "url": "https://www.metoffice.gov.uk/research/library-and-archive/archive-hidden-treasures/royal-charter" },
+      { "label": "Met Office · institutional history of marine and public forecasting", "url": "https://www.metoffice.gov.uk/about-us/who-we-are/our-history" },
+      { "label": "Met Office archive · FitzRoy's 1863 Weather Book", "url": "https://darwin-online.org.uk/converted/pdf/1863_FitzRoy_weatherbook_A4152.pdf" }
     ]
   },
   "threads": [
-    { "status": "Filed, not priced", "title": "Anthropic's public-market test", "text": "The filing discloses extraordinary growth, losses and control; valuation, proceeds and cash economics still need pricing.", "progress": 42 },
-    { "status": "Offer open", "title": "Microsoft's workforce redesign", "text": "60,000 employees can volunteer to leave; take-up and the resulting work design are unknown.", "progress": 36 },
-    { "status": "Table widened", "title": "Regional de-escalation", "text": "Qatar's channel now sits beside a Saudi–Pakistan–Turkey–Iran format, while military operations continue in Yemen.", "progress": 49 },
-    { "status": "Mandate expanded", "title": "Qatar's asset-management ecosystem", "text": "The programme is rising to QAR 5 billion; manager additions, deployment and ecosystem measures come next.", "progress": 58 },
-    { "status": "Financing unsettled", "title": "AI capital cycle", "text": "The index recovered, but Meta, CoreWeave and other financing-sensitive names still swung sharply ahead of earnings.", "progress": 54 }
+    { "status": "Evidence emerging", "title": "External targeting support in the Gulf", "text": "AP reports a 40-strike satellite pattern and multiple official accounts; raw tasking evidence and formal attribution remain undisclosed.", "progress": 61 },
+    { "status": "No majority", "title": "Israel's government formation", "text": "Exit polls weaken Netanyahu's bloc but leave every path below 61 without Arab-party support or abstention.", "progress": 34 },
+    { "status": "Offer complete", "title": "Dandy's public listing", "text": "The QAR 206 million offer is oversubscribed; allocation, listing and traded valuation come next.", "progress": 67 },
+    { "status": "Preorders open", "title": "On-device AI distribution", "text": "Apple's M6 moves more AI capacity into standard personal hardware; independent workload evidence is still pending.", "progress": 47 },
+    { "status": "Rally narrow", "title": "AI capital cycle", "text": "AI shares rose on a new $63 billion structure even as most S&P 500 constituents fell ahead of earnings and the Fed.", "progress": 56 }
   ]
 }
