@@ -1,0 +1,222 @@
+{
+  "date": { "display": "Thursday, 29 October 2026", "edition": "062", "updated": "7:03 AM" },
+  "worldSentence": "The Gulf is preparing for a possible new round of U.S. strikes on Iran just as central banks hold rates against stubborn inflation and the largest AI platforms show that demand is real but increasingly capital-intensive.",
+  "standfirst": "Thursday's edition leads with U.S. warnings that regional allies should prepare for possible post-election strikes on Iran and retaliation against critical infrastructure. Qatar advances a wider capital-markets framework for digital securities, Microsoft and Alphabet put hard numbers behind the AI boom, and Chipotle shows why restaurant traffic can rise while margins still fall. Curiosity Corner crosses the Empty Quarter in search of water and toolstone; the Long View enters Venice's state shipyard, where reserves and supply chains made sudden naval mobilisation possible.",
+  "listenTime": "17 min",
+  "coverage": [
+    { "count": 5, "label": "Qatar & Gulf" },
+    { "count": 3, "label": "World & politics" },
+    { "count": 5, "label": "Economy & markets" },
+    { "count": 4, "label": "AI & technology" },
+    { "count": 3, "label": "Consumer & travel" }
+  ],
+  "connected": {
+    "title": "The day's common thread is capacity built before demand becomes urgent.",
+    "signals": [
+      { "label": "GULF RISK", "value": "After 3 Nov", "text": "Two diplomats say U.S. allies were told to prepare for possible renewed strikes on Iran after the midterms; Trump has not made a final decision." },
+      { "label": "QATAR", "value": "Draft law", "text": "Cabinet approved amendments extending QFMA oversight to digital securities, off-market activity and collective investments, then referred them to the Shura Council." },
+      { "label": "AI DEMAND", "value": "$94.6bn", "text": "Microsoft Cloud and Google Cloud together generated about $94.6 billion in the quarter, while both companies kept expanding the infrastructure behind that growth." },
+      { "label": "RESTAURANTS", "value": "+0.8%", "text": "Chipotle transactions rose for a third consecutive quarter, but labour and overhead still pushed restaurant-level margin down 1.2 percentage points." }
+    ],
+    "note": "Military readiness, market regulation, cloud capacity and restaurant expansion look unrelated, but each exposes the same operating question: what must exist before the moment of use? The quality of the reserve—ships, rules, compute, people or cash—often determines whether demand becomes opportunity or disruption."
+  },
+  "stories": [
+    {
+      "id": "us-warns-allies-post-election-iran-strikes",
+      "number": "01",
+      "category": "Gulf security, energy & diplomacy",
+      "sourceNote": "Associated Press · overnight",
+      "title": "The U.S. has warned regional allies to prepare for possible renewed strikes on Iran after the midterms—and retaliation against energy infrastructure.",
+      "changed": "Two diplomats briefed on U.S. messages told AP that allies were urged to take precautions for a possible several-day American operation after 3 November and a potentially longer Iranian response; President Trump has not made a final decision.",
+      "matters": "This moves escalation risk from campaign rhetoric into operational preparation. For Gulf states, the immediate exposure is not only direct attack but disruption to oil, airports, shipping and airspace.",
+      "watch": "Whether Washington or regional governments confirm the warnings, whether mediation produces a ceasefire framework, and any change in force posture or airspace guidance. The briefings are reported by two diplomats; the White House declined comment and no strike order is confirmed.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "Preparation is not a decision—but it changes the regional risk window.", "note": "The useful distinction is between credible contingency planning and an authorised operation. The former is now reported; the latter is not.", "break": false },
+      "background": {
+        "title": "The warning is about the second-order response as much as the first strike",
+        "text": "AP reports that U.S. diplomatic and defence officials told several Middle East countries and allies to prepare for possible renewed action against Iran after the 3 November midterm elections. The two diplomats briefed on those messages said allies were advised that an American operation could last several days and that Iran or aligned groups might retaliate for longer, including against energy facilities and other critical infrastructure. The Pentagon already sent the USS Theodore Roosevelt group and amphibious ships with Marines toward the Persian Gulf, bringing roughly 9,000 personnel; AP says the wider naval presence could exceed 20,000 sailors and Marines. That force posture raises readiness but does not prove intent. Trump has publicly threatened further action while also saying the conflict could end soon. Iran says it is still giving diplomacy a chance, and the UAE publicly urged political solutions. The confirmed development is contingency preparation around a plausible post-election window, not a final decision to strike.",
+        "known": "Two diplomats describe warnings to allies and precautionary planning; additional U.S. naval forces have been deployed to the region.",
+        "new": "Regional partners are now being told to prepare specifically for a post-election operation and retaliation against vital infrastructure."
+      },
+      "evidence": {
+        "left": { "label": "Reported preparation", "text": "Allies were urged to take precautions for a possible several-day U.S. operation and a longer retaliatory cycle." },
+        "right": { "label": "Not established", "text": "No presidential strike decision, timetable or target set has been publicly confirmed." }
+      },
+      "sources": [
+        { "label": "Associated Press · diplomatic briefings, force posture and limits of what is decided", "url": "https://apnews.com/article/trump-iran-strikes-midterm-elections-c7df622f1e87de6035173be8fb8c4add" }
+      ]
+    },
+    {
+      "id": "qatar-qfma-digital-securities-draft-law",
+      "number": "02",
+      "category": "Qatar, capital markets & financial regulation",
+      "sourceNote": "Qatar News Agency · Wednesday",
+      "title": "Qatar's Cabinet approved a draft law that would bring digital securities and off-market activity inside a wider QFMA mandate.",
+      "changed": "The proposed amendments to Law No. 8 of 2012 also consolidate investment-fund and collective-scheme oversight, strengthen enforcement mechanisms and restructure penalties; the draft now goes to the Shura Council.",
+      "matters": "A legal perimeter is prerequisite infrastructure for tokenised assets and private-market products. The draft signals where Qatar wants regulation to extend, but it does not yet authorise a product or create a live market.",
+      "watch": "Shura Council review, the enacted text, implementing rules, custody and settlement standards, eligible issuers and investor protections. Cabinet approval is confirmed; timing and final requirements remain unknown.",
+      "lead": false,
+      "group": { "label": "Qatar & capital", "title": "The market architecture is widening before the products arrive.", "note": "The important move is regulatory scope, not a claim that tokenised markets are already operating.", "break": true },
+      "background": {
+        "title": "The draft treats digital instruments as part of capital markets, not as a separate novelty",
+        "text": "Qatar's Cabinet approved amendments prepared by the Qatar Financial Markets Authority and other entities, then referred the draft to the Shura Council. QNA says the proposal would extend QFMA jurisdiction to digital securities and off-market activity; place investment funds and collective investment schemes under consolidated supervision; strengthen mechanisms for addressing violations; and restructure penalties for capital-market offences. That combination matters more than the word digital alone. A token can change how ownership is represented or transferred, but investor protection still depends on who may issue it, where it trades, how assets are held, what disclosures apply and how misconduct is punished. Bringing new forms into the same supervisory perimeter can reduce gaps between conventional and digital channels. Yet this remains a legislative stage. The public summary does not define digital security, specify settlement technology, name eligible assets or set an implementation date. Those details will determine whether the framework changes market access in practice.",
+        "known": "Cabinet approved the draft's scope and referred it to the Shura Council; the published summary lists the areas of expanded oversight.",
+        "new": "Digital securities and off-market activity are explicitly included in the proposed QFMA remit."
+      },
+      "evidence": {
+        "left": { "label": "Policy direction", "text": "One regulator would cover digital securities, off-market activity, funds and collective schemes with stronger enforcement tools." },
+        "right": { "label": "Still to come", "text": "Legislative passage, definitions, technical rules, licensing conditions and a launch timetable." }
+      },
+      "sources": [
+        { "label": "Qatar News Agency · Cabinet decision and published scope of the amendments", "url": "https://qna.org.qa/en/news/news-details?date=28/10/2026&id=cabinet-holds-weekly-meeting" }
+      ]
+    },
+    {
+      "id": "microsoft-alphabet-ai-cloud-earnings",
+      "number": "03",
+      "category": "AI infrastructure, cloud & capital allocation",
+      "sourceNote": "Microsoft / Alphabet · Wednesday close",
+      "title": "Microsoft and Alphabet turned AI demand into faster cloud growth—but the results also exposed how much capital the boom consumes.",
+      "changed": "Microsoft revenue rose 19% to $92.3 billion as Azure grew 48%; Alphabet revenue rose 25% to $127.6 billion as Google Cloud doubled to $30.7 billion, while its quarterly capital expenditure reached $51.4 billion and free cash flow turned negative.",
+      "matters": "The demand side of the AI thesis is becoming measurable in cloud revenue and backlog. The investment case now hinges less on whether customers want compute and more on the cost, financing and durability of supplying it.",
+      "watch": "Cloud backlog quality, customer concentration, capital spending, free cash flow and whether AI-led search and agents monetise without eroding margins. Company results are reported; forward returns remain management expectations and investor inference.",
+      "lead": false,
+      "group": { "label": "Technology & markets", "title": "AI revenue is arriving; the capital-efficiency argument is still unfinished.", "note": "Two hyperscalers now show rapid demand and profitable cloud operations, but neither makes the infrastructure bill disappear.", "break": true },
+      "background": {
+        "title": "The quarter separates product demand from investment economics",
+        "text": "Microsoft reported $92.3 billion of revenue, up 19%, with Azure revenue up 48%, Microsoft Cloud at $63.9 billion and commercial remaining performance obligations up 73% to $677 billion. Alphabet reported $127.6 billion of revenue, up 25%; Google Cloud grew 103% to $30.7 billion and cloud operating income more than tripled to $11.1 billion. Search revenue still rose 12%, evidence that AI features have not yet displaced the core advertising engine. Those are strong adoption signals. They do not settle capital efficiency. Alphabet's third-quarter capital expenditure reached $51.4 billion, producing negative free cash flow of $9.1 billion, and it expects 2027 spending to rise further. Microsoft is also building against a very large contracted backlog. The useful investor question has changed: not simply whether AI creates revenue, but how much debt, equity and depreciation are required for each durable dollar of operating cash flow. Reported growth is fact; the eventual return on infrastructure is still a forecast.",
+        "known": "Both companies reported accelerating cloud demand, profitable cloud operations and large contracted commitments.",
+        "new": "Google Cloud revenue doubled and Microsoft Azure grew 48%, while the scale of required infrastructure spending became harder to treat as a temporary phase."
+      },
+      "evidence": {
+        "left": { "label": "Demand", "text": "Azure +48%; Google Cloud +103%; Microsoft commercial obligations $677 billion." },
+        "right": { "label": "Capital test", "text": "Alphabet spent $51.4 billion in the quarter and reported negative $9.1 billion free cash flow." }
+      },
+      "sources": [
+        { "label": "Microsoft Investor Relations · fiscal 2027 first-quarter results and product metrics", "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast" },
+        { "label": "Alphabet earnings release · third-quarter results distributed via EDGAR", "url": "https://www.publicnow.com/view/ED018F4AAE12FB3B1BD1E9649EA9BF381E69B00F" },
+        { "label": "Associated Press · investor reaction and the gap between cloud growth and spending", "url": "https://www.ksat.com/business/2026/10/28/google-misses-wall-street-expectations-alphabet-stock-sinks-in-early-after-hours-trading/" }
+      ]
+    },
+    {
+      "id": "chipotle-traffic-up-margin-down-q3",
+      "number": "04",
+      "category": "Restaurants, pricing & unit economics",
+      "sourceNote": "Chipotle · Wednesday close",
+      "title": "Chipotle grew transactions and comparable sales, yet labour and overhead still compressed restaurant margins.",
+      "changed": "Comparable sales rose 2.1%, including 0.8% transaction growth and 1.3% higher average checks, but restaurant-level margin fell from 24.5% to 23.3% and diluted earnings per share declined 6.9%. Digital reached 38.8% of food-and-beverage revenue.",
+      "matters": "Traffic growth is healthier than price-only sales growth, but it does not guarantee profit. Higher compensation, insurance and support labour absorbed gains even as food and packaging costs improved.",
+      "watch": "October traffic, measured price increases, labour productivity and whether 340–360 planned North American openings in 2027 dilute or improve unit returns. The quarter is reported; expansion guidance is forward-looking.",
+      "lead": false,
+      "group": { "label": "Consumer & operations", "title": "More guests did not automatically mean more margin.", "note": "The clean lesson is operational: traffic, price, mix and labour productivity must be read separately.", "break": true },
+      "sources": [
+        { "label": "Chipotle Investor Relations · sales, transactions, cost mix, margins and outlook", "url": "https://ir.chipotle.com/2026-10-28-CHIPOTLE-ANNOUNCES-THIRD-QUARTER-2026-RESULTS" }
+      ]
+    },
+    {
+      "id": "fed-qcb-hold-rates-inflation",
+      "number": "05",
+      "category": "Monetary policy, Qatar & inflation",
+      "sourceNote": "Federal Reserve / QCB · Wednesday",
+      "title": "The Federal Reserve and Qatar Central Bank held rates, but U.S. markets still price another increase as inflation remains elevated.",
+      "changed": "The Fed kept its benchmark near 3.9% after September's increase, with two officials voting to hike; Qatar retained deposit, lending and repo rates at 4.10%, 4.60% and 4.35% respectively.",
+      "matters": "A pause is not an easing signal. Higher financing costs continue to affect households, property, corporate borrowing and the debt-funded AI buildout, while Qatar's dollar peg keeps U.S. policy directly relevant locally.",
+      "watch": "Today's PCE inflation data and the Fed's 8–9 December meeting; markets put the probability of a quarter-point increase near 85%. The holds are confirmed; the next move is not.",
+      "lead": false,
+      "group": { "label": "Economy & rates", "title": "Policy paused while the inflation test continued.", "note": "Neither central bank signalled relief for borrowers; the next U.S. inflation reading lands today.", "break": false },
+      "sources": [
+        { "label": "Associated Press · Fed decision, dissents, inflation and December expectations", "url": "https://apnews.com/article/inflation-warsh-interest-rates-federal-reserve-c06793b0c50641444701d5d098ccc2c8" },
+        { "label": "Qatar News Agency · QCB deposit, lending and repo rates", "url": "https://qna.org.qa/en/news/news-details?date=28/10/2026&id=qatar-central-bank-keeps-interest-rates-unchanged" }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Curiosity Corner",
+      "title": "Ancient people repeatedly bypassed a green, lake-filled Empty Quarter because water without knappable stone was not enough.",
+      "text": "A Nature survey found no archaeological evidence across 55 palaeolake sites in the Rub' al Khali's central basin despite abundant old freshwater and more than 95% ground visibility. Settlement instead tracked places where water and stone suitable for making tools co-occurred. The authors argue that sustained occupation needed both daily survival and a renewable tool-making supply; occasional long-distance transport could not support generations of residents. Future finds may reveal brief visits, but the systematic absence challenges the simple idea that rain alone opened Arabia to settlement.",
+      "url": "https://www.nature.com/articles/s41586-026-11180-5"
+    },
+    {
+      "label": "Qatar AI watch",
+      "title": "Scale AI is turning its Qatar partnership into a nearly 2,000-square-metre long-term office at The Pearl.",
+      "text": "Scale says its Doha team has grown to nearly 100 people, about half technical engineers, and that its ALIF programme with MCIT and Qatar Digital Academy has trained almost 6,000 government employees. The office is evidence of local operating presence, not proof of economic impact. Watch hiring, locally built evaluation capacity and measurable public-service outcomes.",
+      "url": "https://scale.com/blog/scales-long-term-investment-in-qatar"
+    },
+    {
+      "label": "Aviation watch",
+      "title": "Boeing's 737-7 and 737-10 certifications advanced, but commercial-aircraft production costs still kept the division under pressure.",
+      "text": "Boeing reported higher deliveries and progress on both MAX variants, yet its commercial-airplanes unit remained the weak point in the quarter. For airline planning, certification is only one gate; stable production, supplier health and delivery reliability determine when capacity actually arrives.",
+      "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-Reports-Third-Quarter-Results/default.aspx"
+    }
+  ],
+  "attention": {
+    "title": "Open AP's Iran warning because it separates the reported contingency plan from the decision that has not been made.",
+    "text": "The article identifies who was warned, what infrastructure is considered vulnerable, what forces have moved and where the evidence stops. It is the clearest guide to the Gulf risk window without treating preparation as inevitable war.",
+    "url": "https://apnews.com/article/trump-iran-strikes-midterm-elections-c7df622f1e87de6035173be8fb8c4add"
+  },
+  "ignore": {
+    "title": "Do not read one evening's post-earnings share moves as the verdict on AI economics.",
+    "text": "Microsoft and Alphabet disclosed real cloud growth, backlog and spending. The durable question is cash return over several years, not whether a stock moved up or down before the next market open."
+  },
+  "history": {
+    "id": "venice-arsenal-reserve-supply-chain",
+    "number": "LV",
+    "readTime": "6 min",
+    "era": "Venice & the Adriatic · c. 1200–1633",
+    "title": "Venice could mobilise a fleet quickly because the Arsenal treated readiness as a system of reserves, standards, forests and accounts.",
+    "deck": "The Venetian Arsenal was not a modern factory hiding in the Renaissance. It was something more instructive: a state production network built for violent swings between peacetime maintenance and wartime urgency. Its advantage came from keeping hulls ready, concentrating trades, controlling strategic materials and learning to see work in process.",
+    "thesis": "Speed at the moment of crisis was created years earlier. Venice shortened naval mobilisation by holding partially completed capacity, standardising repeatable work and extending control upstream into forests, hemp and finance. The spectacular launch was only the visible end of a much slower readiness system.",
+    "sections": [
+      {
+        "title": "A trading republic needed a permanent answer to an irregular problem",
+        "text": "Venice depended on ships for commerce, defence and political reach, but naval demand arrived in bursts. A private yard optimised for ordinary trade could not instantly supply a state facing war. The government therefore concentrated shipbuilding inside a protected complex first documented around the end of the twelfth century and enlarged in the fourteenth and fifteenth. By the late Middle Ages, the Arsenal no longer acted as a collection of unrelated workshops. It brought hull building, sails, oars, rope, artillery, powder, storage and fitting-out into one managed space. This integration did not eliminate specialised craft. It made many crafts answer to one mobilisation problem: how to move from a standing reserve to a deployable fleet before an adversary could exploit delay."
+      },
+      {
+        "title": "The decisive inventory was a fleet of incomplete but prepared ships",
+        "text": "Venice did not need every galley fully crewed and provisioned in peacetime. It kept a reserve of light-galley hulls ready to be equipped when required. The prescribed reserve reached 50 in 1525 and rose during later wars. This was postponement before the term existed: invest early in the slow, structural part of the product, then add fittings, arms, provisions and crews when the mission is known. Historian Luciano Pezzolo records that the Arsenal could launch 100 fully equipped galleys in fewer than 50 days at its sixteenth-century peak because the reserve already existed. The speed did not mean a ship was built from trees in half a day. It meant the long-cycle work had been separated from the final configuration."
+      },
+      {
+        "title": "Flow through specialised stages made the reserve usable",
+        "text": "A bare hull had value only if hundreds of missing components appeared in the right sequence. The Arsenal organised carpenters, caulkers, mast makers, oar makers, rope makers, armourers and storekeepers around a connected process. In 1574, during Henry III of France's visit, workers reportedly took a galley from bare hull to launched and armed in a few hours—an orchestrated demonstration made possible by prepared stock and labour, not spontaneous construction. Historians describe standardisation and tight supervision that anticipated aspects of the factory system, while cautioning against projecting a modern moving assembly line backward. The deeper innovation was coordination: work, parts and authority were arranged so a vessel could pass through successive decisions without waiting for an entire supply network to wake up."
+      },
+      {
+        "title": "The shipyard's boundary extended all the way to living trees",
+        "text": "Timber was the system's hardest constraint. Sixteenth-century galley construction required an estimated 50,000 to 60,000 cubic metres a year, and suitable oak could not be manufactured on demand. Venice appointed officials over state forests, restricted unauthorised felling and imposed transport duties on rural communities. Later research shows the supply system evolving from harvesting available woodland to planned planting, cultivation and even shaping trees while they grew so their natural curves would fit future ship components. The lead time was measured in decades. Readiness therefore depended on governance far beyond the Arsenal walls: forestry, roads, labour obligations and ecological control. The fast final flow rested on a slow biological pipeline."
+      },
+      {
+        "title": "Scale created a new problem: the state could mobilise resources it could not yet properly cost",
+        "text": "A large integrated operation can hide waste as easily as it creates speed. In 1586 the Venetian Senate ordered triennial stocktaking and production accounts for individual galleys using double-entry records of materials and work in process, both in quantity and value. Earlier control had focused mainly on limiting allocated funds for wages, oars and supplies. The new instruction attempted to map expenditure onto the production flow itself. Evidence of sophisticated galley costing appears in a 1633 report, though implementation was gradual. This matters because operational visibility lagged operational capability. Venice learned that reserves and throughput were not enough; managers also needed to know where value was accumulating, disappearing or waiting."
+      },
+      {
+        "title": "The Arsenal's durable lesson is not 'invent the assembly line' but design the reserve",
+        "text": "Venice eventually lost relative naval advantage as Atlantic powers, new ship types and resource constraints changed the competitive system. The Arsenal was neither timeless nor universally efficient. Its useful legacy is narrower and stronger. When demand is volatile and the product takes years to prepare, the organisation must choose what to finish early, what to postpone, which inputs to control and what information managers need before urgency arrives. A reserve is not idle stock if it removes the longest delay from a critical response. But reserve without replenishment, standards and accounting becomes expensive decay. The visible moment—100 galleys entering service—was the output of decisions made in workshops, ledgers and forests long before anyone ordered the fleet to sail."
+      }
+    ],
+    "timeline": [
+      { "date": "LATE 12TH C.", "text": "The Venetian state Arsenal is first documented as a protected shipbuilding complex." },
+      { "date": "14TH–15TH C.", "text": "Successive expansions turn the yard into an integrated state manufacturing and storage system." },
+      { "date": "1525", "text": "Venice sets a reserve target of 50 light galleys ready to be equipped." },
+      { "date": "1537–1540", "text": "Wartime requirements raise the prescribed reserve to 100 light and 12 great galleys." },
+      { "date": "1571", "text": "Venetian galleys form a major part of the Christian fleet at the Battle of Lepanto." },
+      { "date": "1574", "text": "The Arsenal demonstrates rapid fitting-out of a galley during Henry III of France's visit." },
+      { "date": "1586", "text": "The Senate orders triennial stocktaking and galley accounts tracking materials and work in process." },
+      { "date": "1590", "text": "Records show 18 large and 118 light galleys complete or under construction in the Arsenal." },
+      { "date": "1633", "text": "A magistrate's report contains a sophisticated calculation of galley production costs." }
+    ],
+    "sources": [
+      { "label": "University of Glasgow / Journal of Management History · forests, production and the long supply chain", "url": "https://eprints.gla.ac.uk/294294/" },
+      { "label": "Luciano Pezzolo · Venetian naval logistics, galley reserves and strategic materials", "url": "https://people.bu.edu/chamley/HSFref/Pezzolo06(Venice).pdf" },
+      { "label": "Max Planck Institute for the History of Science · scale, management, Henry III demonstration and Galileo", "url": "https://echo.mpiwg-berlin.mpg.de/content/shipbuilding/venice_arsenal/lettura_gal" },
+      { "label": "Accounting History Review abstract · the 1586 stocktaking order and emergence of galley costing", "url": "https://ideas.repec.org/a/taf/acbsfi/v17y2007i1p105-128.html" },
+      { "label": "Johns Hopkins University Press · Arsenal workers and the preindustrial state complex", "url": "https://muse.jhu.edu/book/20673" }
+    ]
+  },
+  "threads": [
+    { "status": "Contingency planning", "title": "Iran war and Gulf infrastructure", "text": "U.S. allies are reportedly preparing for a possible post-election strike cycle; no final American decision is confirmed.", "progress": 58 },
+    { "status": "Draft referred", "title": "Qatar capital-market reform", "text": "Digital securities and off-market activity are inside the proposed QFMA remit; legislative and technical rules remain ahead.", "progress": 42 },
+    { "status": "Demand proven", "title": "AI capital cycle", "text": "Azure and Google Cloud accelerated, shifting the debate toward capital efficiency, cash conversion and concentration.", "progress": 64 },
+    { "status": "Traffic positive", "title": "Restaurant value and margins", "text": "Chipotle grew transactions while labour and overhead compressed margin—a clean separation of demand from unit economics.", "progress": 53 },
+    { "status": "Rates held", "title": "Inflation and borrowing costs", "text": "The Fed and QCB paused; PCE and December expectations will determine whether the pause becomes another hike.", "progress": 49 }
+  ]
+}
