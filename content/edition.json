@@ -1,192 +1,372 @@
 {
-  "date": { "display": "Friday, 30 October 2026", "edition": "063", "updated": "7:00 AM" },
-  "worldSentence": "Growth is proving stronger than confidence, but inflation, energy and AI infrastructure are making that growth unusually expensive to finance and deliver.",
-  "standfirst": "Friday's edition leads with a U.S. economy expanding at a 3.4% annual rate while September inflation accelerates. Qatar is pushing a diplomatic off-ramp as Washington reviews the Iran blockade, Amazon's fastest AWS growth in nearly five years comes with a $42.4 billion cash outflow, and rising fuel costs force IndiGo to rethink fares and capacity. Curiosity Corner watches a spider enter two stages of sleep; the Long View returns to Apollo 11, where a tiny computer survived overload by deciding what not to do.",
-  "listenTime": "17 min",
+  "date": {
+    "display": "Thursday, 5 November 2026",
+    "edition": "069",
+    "updated": "8:00 PM"
+  },
+  "worldSentence": "Washington is moving from election arithmetic to divided government, markets are repricing the chance of a narrower Iran war, and aviation, restaurants and AI are offering cleaner evidence about where scale is actually working.",
+  "standfirst": "Thursday's edition confirms that Democrats won both chambers of Congress and separates the political result from the market assumptions now attached to it. Tehran welcomed the rebuke to Donald Trump without softening its own rhetoric; Avolon made the largest 737 MAX order ever placed by a lessor; McDonald's global growth concealed a small U.S. comparable-sales decline; and Pangram shipped image and video detection with strong company-run benchmarks that still need independent testing. Curiosity Corner asks how entropy can emerge from quantum mechanics. The Long View follows aircraft leasing from two 1970s pioneers through Ireland's talent cluster and the legal plumbing that turned aircraft into mobile financial assets.",
+  "listenTime": "15 min",
   "coverage": [
-    { "count": 3, "label": "Qatar & Gulf" },
-    { "count": 4, "label": "World & politics" },
-    { "count": 6, "label": "Economy & markets" },
-    { "count": 3, "label": "AI & technology" },
-    { "count": 5, "label": "Consumer & travel" }
+    {
+      "count": 4,
+      "label": "Qatar & Gulf"
+    },
+    {
+      "count": 4,
+      "label": "World & politics"
+    },
+    {
+      "count": 4,
+      "label": "Economy & markets"
+    },
+    {
+      "count": 4,
+      "label": "AI & technology"
+    },
+    {
+      "count": 5,
+      "label": "Consumer & travel"
+    }
   ],
   "connected": {
-    "title": "The day's common thread is growth purchased with expensive inputs.",
+    "title": "Today's common thread is that scale only becomes useful when the operating mechanism is visible.",
     "signals": [
-      { "label": "U.S. GROWTH", "value": "+3.4%", "text": "Output accelerated as consumers and businesses spent heavily, especially on services and information-processing equipment." },
-      { "label": "INFLATION", "value": "+3.6%", "text": "Annual PCE inflation rose from 3.4% to 3.6% in September, while real consumer spending was flat for the month." },
-      { "label": "AWS", "value": "+39.3%", "text": "Amazon's cloud revenue reached $46.0 billion, but AI-led property and equipment spending pushed trailing free cash flow to a $42.4 billion outflow." },
-      { "label": "AVIATION", "value": "37.8%", "text": "Fuel consumed 37.8% of IndiGo's quarterly expenses, prompting fare and capacity action despite strong festive demand." }
+      {
+        "label": "U.S. CONGRESS",
+        "value": "BOTH CHAMBERS",
+        "text": "Democrats secured House and Senate control; the policy constraint begins with the new Congress in January."
+      },
+      {
+        "label": "BRENT",
+        "value": "−8.7%",
+        "text": "Oil fell sharply as traders priced a greater chance of restraint in the Iran war, not a peace agreement."
+      },
+      {
+        "label": "AVOLON",
+        "value": "140 JETS",
+        "text": "The lessor is buying capacity years ahead because airlines increasingly rent balance-sheet flexibility."
+      },
+      {
+        "label": "MCDONALD'S U.S.",
+        "value": "−0.2% COMPS",
+        "text": "Global sales grew, but the home market still needed a value intervention."
+      }
     ],
-    "note": "The headline numbers say demand remains alive. The operating numbers say it is costly: households are saving less, central banks face renewed inflation, hyperscalers are converting cash into infrastructure and airlines are absorbing exceptional fuel prices. Growth is not the same thing as easy economics. The useful question is who can keep converting demand into cash after the expensive inputs are paid for."
+    "note": "Election control, an aircraft order, a restaurant sales line and an AI benchmark all look definitive from a distance. One layer down, each remains conditional: legislation starts next year, aircraft must be delivered and placed, U.S. guests must return, and detection claims must survive unfamiliar data."
   },
   "stories": [
     {
-      "id": "us-gdp-growth-inflation-q3",
+      "id": "democrats-control-congress-market-repricing",
       "number": "01",
-      "category": "Global economy, inflation & markets",
-      "sourceNote": "U.S. Bureau of Economic Analysis · Thursday",
-      "title": "The U.S. economy grew at a 3.4% annual rate, but September inflation accelerated and real consumer spending stalled.",
-      "changed": "Advance data showed third-quarter GDP rising 3.4%, with private domestic demand up 4.9%; annual PCE inflation increased from 3.4% to 3.6% in September and inflation-adjusted consumer spending was unchanged that month.",
-      "matters": "The economy entered the fourth quarter with more momentum than expected, powered by services and equipment investment, yet the final month shows higher prices absorbing nominal spending. That combination strengthens the case for another Federal Reserve increase rather than relief for borrowers.",
-      "watch": "The 25 November second estimate, October jobs and prices, and the Fed's 8–9 December meeting. GDP is an advance estimate and will be revised; the reported September price acceleration is confirmed, but its persistence is not.",
+      "category": "United States, policy & global markets",
+      "sourceNote": "Associated Press · Wednesday and Thursday",
+      "title": "Democrats won both chambers of Congress; markets immediately priced gridlock and a lower chance of renewed Iran escalation.",
+      "changed": "The Associated Press called Democratic control of the House and Senate, with at least 54 Senate seats and a House majority already beyond 218; U.S. stocks rallied, defence shares fell and Brent crude dropped 8.7% on Wednesday.",
+      "matters": "Congress can block legislation, control committees and investigations, and shape spending after 3 January, but the market move also embeds an unproven assumption that electoral pressure will restrain Trump's Iran policy.",
+      "watch": "The lame-duck funding fight, Democratic leadership and committee plans, and any concrete change in military orders or Qatari-mediated terms. Chamber control and price moves are confirmed; de-escalation is a market inference.",
       "lead": true,
-      "group": { "label": "The lead", "title": "The economy is not weak; the price of keeping it strong is the problem.", "note": "Quarterly growth and monthly household strain can both be true. The difference lies in timing, distribution and the cost of the inputs behind demand.", "break": false },
-      "background": {
-        "title": "AI investment and services carried the quarter while September exposed the pressure underneath",
-        "text": "The Bureau of Economic Analysis estimates that real GDP rose at a 3.4% annual rate in the third quarter, up from 2.2% in the second. Consumer spending increased at a 3.8% rate and business equipment investment surged 20.9%, with information-processing equipment making the largest contribution. Final sales to private domestic purchasers—a cleaner measure of underlying private demand—grew 4.9%. Yet the September detail was less comfortable. The PCE price index rose 0.5% in the month and 3.6% from a year earlier; core PCE rose 3.1% over twelve months. Nominal consumer spending increased 0.5%, but after inflation it was flat, and the saving rate slipped to 3.8%. This is not a contradiction so much as a change in the composition of growth. Strong third-quarter services and AI-related investment lifted the aggregate, while higher energy and goods prices narrowed household purchasing power at quarter-end. The advance estimate establishes momentum; it does not guarantee the fourth quarter.",
-        "known": "Official data show faster output, strong private demand and accelerating September prices.",
-        "new": "The quarter's strength and September's flat real spending now sit inside the same economic picture."
+      "group": {
+        "label": "The lead",
+        "title": "The vote settled control; it did not settle the war or the economy.",
+        "note": "The practical shift is institutional power in January. Wednesday's rally was a fast hypothesis about what that power might do.",
+        "break": false
       },
-      "evidence": { "left": { "label": "Growth", "text": "Consumer spending +3.8%; equipment investment +20.9%; private domestic demand +4.9%." }, "right": { "label": "Price pressure", "text": "September PCE +0.5% month-on-month and +3.6% year-on-year; real consumer spending unchanged." } },
+      "background": {
+        "title": "Political control and market interpretation moved at different speeds",
+        "text": "Democrats will enter the 120th Congress with majorities in both chambers after gains that reached deeply Republican states. That ends unified Republican control and gives the new Congress the power to set committee agendas, compel testimony, refuse legislation and contest spending. The transition is not immediate: Republicans retain the current Congress through the lame-duck session, including any funding bill and nominations. Markets nevertheless repriced the result within hours. The Dow rose more than 1,500 points, the S&P 500 gained 1.6%, defence contractors fell and Brent crude dropped 8.7% to $94.62. Part of that move reflected a familiar preference for constrained government; part reflected an assumption that Democratic control will pressure the administration away from renewed Iran strikes. The first mechanism is constitutional and dated. The second depends on choices by the president, Congress and Iran that have not happened.",
+        "known": "The Associated Press has called Democratic control of both chambers; at least 54 Senate seats and more than 218 House seats are secured.",
+        "new": "The result is a much wider Democratic majority than the unresolved arithmetic available in Wednesday's edition.",
+        "unknown": "How aggressively Congress will use spending and oversight powers, and whether those powers actually change Iran policy."
+      },
+      "evidence": {
+        "left": {
+          "label": "Institutional result",
+          "text": "Democrats hold both chambers when the new Congress begins on 3 January 2027."
+        },
+        "right": {
+          "label": "Market hypothesis",
+          "text": "Stocks rose and oil and defence shares fell as investors priced gridlock and possible war restraint."
+        }
+      },
       "sources": [
-        { "label": "U.S. Bureau of Economic Analysis · advance GDP estimate and contribution detail", "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026" },
-        { "label": "Reuters · consumer spending, equipment investment, saving rate and September inflation", "url": "https://www.marketscreener.com/news/us-economic-growth-accelerates-in-third-quarter-ce785cd3d08ffe2d" }
+        {
+          "label": "Associated Press · congressional control, seat thresholds and transition",
+          "url": "https://apnews.com/article/congress-democratic-blue-wave-midterms-house-senate-9c5c4c5283f58b1ae0786e2f410c21a0"
+        },
+        {
+          "label": "Associated Press · global market, oil and defence-sector reaction",
+          "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e"
+        }
       ]
     },
     {
-      "id": "qatar-iran-mediation-us-blockade-review",
+      "id": "iran-election-rhetoric-talks-unchanged",
       "number": "02",
-      "category": "Qatar diplomacy, Gulf security & energy",
-      "sourceNote": "Axios / Associated Press · overnight",
-      "title": "Qatar's Iran mediation and U.S. military planning are now running in parallel ahead of the American midterms.",
-      "changed": "CENTCOM commander Adm. Brad Cooper briefed President Trump on the Iran war and naval blockade as Qatar-led mediators pursued a deal; a U.S. envoy said the sides were close, while Iran continued to demand relief before nuclear talks.",
-      "matters": "The two tracks narrow the decision window for the Gulf. A diplomatic framework could reduce immediate infrastructure and shipping risk; failure would leave a prepared American force and a retaliatory threat in the same theatre.",
-      "watch": "Whether Iran accepts inspections or nuclear discussion, whether Washington offers sanctions, funds or oil relief, and any confirmed change in blockade or strike posture. The briefing and mediation are reported; no signed agreement or final strike order is confirmed.",
+      "category": "Iran, Qatar mediation & Gulf security",
+      "sourceNote": "Associated Press · Wednesday",
+      "title": "Iran treated the U.S. election as a rejection of war, but its public posture remained defiant and talks produced no new terms.",
+      "changed": "Iran's chief negotiator said Americans had voted against war while the supreme leader warned against expecting a change in U.S. behaviour; back-channel negotiations continued after Monday's limited strikes.",
+      "matters": "The election may alter Washington's political incentives, but neither side has converted that pressure into a shipping, blockade or ceasefire arrangement through Qatar's channel.",
+      "watch": "A written sequence on Hormuz passage, attacks, port access and verification. The rhetoric and continuing talks are confirmed; a softer Iranian bargaining position is not.",
       "lead": false,
-      "group": { "label": "Qatar & the region", "title": "The diplomatic off-ramp is being tested while the military option is kept ready.", "note": "The important signal is not that a deal is certain, but that the issues blocking one are now being negotiated against a visible deadline.", "break": true },
-      "background": {
-        "title": "The dispute has moved from whether to talk toward the sequence of concessions",
-        "text": "Two U.S. officials told Axios that Adm. Brad Cooper briefed Trump on Thursday about the state of the Iran war, with particular attention to whether the naval blockade is working. At the same time, a Qatar-led group of mediators is trying to prevent renewed combat after the 3 November midterms. U.S. Ambassador to Turkey Tom Barrack said Washington and Tehran were very close to a de-escalation deal. Iran's position, however, still demands steps such as lifting the blockade, releasing frozen funds and allowing oil sales before negotiations on its nuclear programme. Earlier reporting described Qatar's effort to link limited sanctions relief to access for UN inspectors at bombed nuclear sites. AP separately reported that Tehran received a message from Vice President JD Vance but did not disclose its contents. The sequence is the substance: each side wants the other to move first. Qatar's task is therefore not merely to carry messages, but to construct reciprocal steps that neither side reads as surrender. Claims of proximity are diplomatic assessments, not evidence of a concluded agreement.",
-        "known": "The CENTCOM commander briefed Trump, Qatar-led mediation is active, and both sides have specified issues that must be addressed.",
-        "new": "The military review and diplomatic push are occurring simultaneously as the post-midterm risk window approaches."
+      "group": {
+        "label": "Qatar & the Gulf",
+        "title": "The bargaining context changed faster than the bargaining positions.",
+        "note": "Tehran can welcome pressure on Trump while still refusing concessions. Doha's test is whether electoral shock produces text, not commentary.",
+        "break": true
       },
-      "evidence": { "left": { "label": "Diplomatic track", "text": "Qatar-led mediators are testing reciprocal steps on inspections, sanctions, funds, oil and negotiations." }, "right": { "label": "Military track", "text": "The CENTCOM commander briefed Trump on blockade performance; no final strike order is confirmed." } },
       "sources": [
-        { "label": "Axios · CENTCOM briefing, Qatar-led mediation and the parties' positions", "url": "https://www.axios.com/2026/10/29/brad-cooper-briefs-trump-iran-naval-blockade" },
-        { "label": "Associated Press · Vance message, disputed claims and limits of confirmed information", "url": "https://apnews.com/article/mideast-iran-israel-elections-netanyahu-october-282026-c11dac838a072af25ba8d0eb81d01035" }
+        {
+          "label": "Associated Press · Iranian reaction, continuing talks and Strait developments",
+          "url": "https://apnews.com/article/us-iran-midterm-election-f3c48a92df2bd8a658d3e704a7291d11"
+        },
+        {
+          "label": "Qatar Ministry of Foreign Affairs · confirmed status of the mediation channel",
+          "url": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/11/03/advisor-to-prime-minister--official-spokesperson-for-ministry-of-foreign-affairs--qatar-continues-its-efforts-to-bridge-gap-between-washington--tehran"
+        }
       ]
     },
     {
-      "id": "amazon-aws-growth-ai-cash-burn-q3",
+      "id": "avolon-140-737-10-order-leasing-signal",
       "number": "03",
-      "category": "AI infrastructure, retail & capital allocation",
-      "sourceNote": "Amazon · Thursday close",
-      "title": "Amazon posted its fastest AWS growth in nearly five years—and a $42.4 billion trailing free-cash-flow outflow.",
-      "changed": "AWS revenue rose 39.3% to $46.0 billion and operating income reached $17.8 billion, while Amazon's total operating margin hit a record 13.9%; AI-led property and equipment spending turned trailing free cash flow from a $14.8 billion inflow to a $42.4 billion outflow.",
-      "matters": "This is unusually clear evidence of both AI demand and its financing burden inside the same company. Amazon's operations are generating more cash, but infrastructure purchases are consuming it faster.",
-      "watch": "The conversion of AWS backlog into revenue, 2026 cash capital expenditure of about $220 billion, fourth-quarter retail demand and whether 2027–28 cloud growth meets management's forecast. Results are reported; future growth and returns are company guidance.",
+      "category": "Aviation, fleet finance & capacity",
+      "sourceNote": "Boeing and Avolon · Wednesday",
+      "title": "Avolon finalised an order for 140 Boeing 737-10s, the largest 737 MAX purchase ever placed by a lessor.",
+      "changed": "The transaction lifts Avolon's unfilled 737 MAX backlog above 240 aircraft and follows U.S. certification of the 737-10 on 20 October; lessors have placed more than 230 firm orders for the type this year.",
+      "matters": "A lessor is committing capital to the largest MAX variant because airlines want more seats and lower unit cost without each carrier carrying the full ownership and residual-value risk.",
+      "watch": "Delivery timing, Boeing production stability, airline placements and lease rates. The order is firm and certification complete; Boeing's demand and economics claims are manufacturer forecasts.",
       "lead": false,
-      "group": { "label": "Technology & consumer", "title": "The cloud engine is accelerating; the cash engine is being rebuilt around it.", "note": "Amazon shows why strong operating profit and negative free cash flow can coexist during an infrastructure cycle.", "break": true },
-      "background": {
-        "title": "A profitable quarter does not remove the balance-sheet test",
-        "text": "Amazon's third-quarter net sales rose 12% to $201.9 billion and operating income increased 61% to $28.1 billion, producing the company's highest operating margin at 13.9%. AWS was the centre of gravity: sales reached $46.0 billion, up 39.3%, and segment operating income rose to $17.8 billion. The cash-flow statement tells a different but compatible story. Trailing operating cash flow increased 29% to $168.3 billion, yet net property and equipment purchases reached $210.7 billion. Amazon therefore reported a $42.4 billion trailing free-cash-flow outflow, versus a $14.8 billion inflow a year earlier, and attributed the increase mainly to artificial-intelligence investment. Management still expects roughly $220 billion of cash capital expenditure in 2026 and projects AWS growth above 40% in both 2027 and 2028. Those forecasts may prove right; they are not results. The investor question is how quickly this physical build turns into durable cash after depreciation, energy and financing costs.",
-        "known": "AWS revenue and profit accelerated, Amazon achieved a record operating margin, and trailing capital purchases exceeded operating cash flow.",
-        "new": "The scale of the AI build has moved Amazon from positive to deeply negative trailing free cash flow even while operating performance improves."
+      "group": {
+        "label": "Aviation",
+        "title": "The order is a bet on airline demand—and on the balance-sheet value of renting capacity.",
+        "note": "The aircraft matters, but the financing model explains why one buyer can intermediate fleet growth across 138 airlines.",
+        "break": true
       },
-      "evidence": { "left": { "label": "Operating strength", "text": "AWS revenue $46.0bn; AWS operating income $17.8bn; group operating margin 13.9%." }, "right": { "label": "Cash burden", "text": "Net property and equipment purchases $210.7bn TTM; free cash flow negative $42.4bn." } },
+      "background": {
+        "title": "A large order turns fleet demand into a capital-allocation decision",
+        "text": "Avolon owns, manages or has committed 1,092 aircraft across 138 airline customers in 62 countries. Its 140-aircraft purchase is therefore not a route plan for one carrier; it is inventory for a global placement business. The 737-10 can seat up to 230 passengers and fly 3,100 nautical miles, putting it in the high-capacity single-aisle segment where airlines can lower cost per seat on dense short- and medium-haul routes. The FAA certified the type in October after a long programme, but order value still depends on production and placement. Boeing has acknowledged that stabilising 737 output has taken longer than expected. Avolon must receive the jets on useful dates, finance them at workable rates, choose credits and jurisdictions carefully, and manage residual values across cycles. The headline is 140 aircraft. The business is matching mobile assets, airline cash flows and long-dated capital.",
+        "known": "Avolon finalised 140 firm orders and now has more than 240 unfilled 737 MAX orders.",
+        "new": "Lessors have ordered more than 230 737-10s in 2026, five times their backlog for the variant at the end of 2025.",
+        "unknown": "The delivery schedule, customer placements, financing cost and realised lease yield."
+      },
+      "evidence": {
+        "left": {
+          "label": "Asset",
+          "text": "Up to 230 seats and 3,100 nautical miles in the largest certified 737 MAX variant."
+        },
+        "right": {
+          "label": "Platform",
+          "text": "Avolon serves 138 airlines in 62 countries with 1,092 owned, managed and committed aircraft."
+        }
+      },
       "sources": [
-        { "label": "Amazon Investor Relations · results, segment economics, cash flow and guidance", "url": "https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf" },
-        { "label": "Reuters · holiday outlook and the split between retail and cloud", "url": "https://www.investing.com/news/stock-market-news/amazon-projects-fourth-quarter-sales-below-estimates-4984966" }
+        {
+          "label": "Boeing · order size, backlog, aircraft specification and Avolon fleet",
+          "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Avolon-Finalizes-Order-for-140-Boeing-737-10-Jets/default.aspx"
+        },
+        {
+          "label": "Boeing · FAA certification, tests and programme status",
+          "url": "https://investors.boeing.com/investors/news/press-release-details/2026/U-S--FAA-certifies-Boeing-737-10-largest-member-of-737-MAX-family/default.aspx"
+        }
       ]
     },
     {
-      "id": "ecb-lagarde-resignation-rates",
+      "id": "mcdonalds-global-growth-us-value-gap",
       "number": "04",
-      "category": "Europe, monetary policy & institutions",
-      "sourceNote": "European Central Bank · Thursday",
-      "title": "The ECB held rates as energy inflation rose, while Christine Lagarde announced an early February departure.",
-      "changed": "The ECB kept its deposit rate at 2.50% and said higher energy prices threaten both inflation and growth; Lagarde will step down on 7 February 2027, nearly nine months before her term ends.",
-      "matters": "Europe now faces a monetary-policy handover during an energy shock and tighter bond markets. The appointment process adds political negotiation without changing today's inflation constraint.",
-      "watch": "December inflation and the 17 December meeting, plus the European Council's nomination process. The rate decision and departure date are official; a successor and December move are not.",
+      "category": "Restaurants, value & consumer behaviour",
+      "sourceNote": "McDonald's · Wednesday",
+      "title": "McDonald's global comparable sales rose 1.5%, while the U.S. slipped 0.2% despite improvement after a value intervention.",
+      "changed": "Systemwide sales exceeded $38 billion and rose 4%, but comparable sales split sharply: the U.S. fell 0.2%, international operated markets rose 1.4% and developmental licensed markets rose 4.2%.",
+      "matters": "The largest restaurant system is signalling that value architecture, not brand scale alone, is the immediate U.S. demand problem; international markets carried the comp while loyalty sales surpassed $11 billion for the quarter.",
+      "watch": "U.S. guest counts, the price-and-mix contribution, franchisee economics and whether value offers improve traffic rather than merely discount existing demand. Company results are confirmed; the cause of recovery is management's interpretation.",
       "lead": false,
-      "group": { "label": "World beyond the lead", "title": "Policy continuity meets institutional transition.", "note": "The ECB says it remains data-dependent; leadership speculation should not be mistaken for a change in the current stance.", "break": true },
+      "group": {
+        "label": "Consumer & restaurants",
+        "title": "Global scale protected the quarter, but the home market still asked a value question.",
+        "note": "A strong franchise system can absorb uneven regions. An individual operator cannot, which makes traffic, ticket and offer economics worth separating.",
+        "break": true
+      },
+      "background": {
+        "title": "Three different scoreboards prevent the headline from hiding the customer",
+        "text": "McDonald's reported more than $38 billion of systemwide sales, a 4% increase, and consolidated operating income up 7%. Those figures describe the economic scale of company and franchised restaurants together. Comparable sales describe mature locations, and there the picture was mixed: global comps rose 1.5%, the U.S. declined 0.2%, international operated markets rose 1.4% and developmental licensed markets increased 4.2%. Management said the U.S. improved as the quarter progressed after an intervention on value, but the release does not disclose guest counts or the precise split between price and mix. Loyalty adds another layer. Identified members generated more than $11 billion in quarterly systemwide sales across 70 markets, a powerful distribution and measurement asset, but not proof that incremental visits are profitable. The useful operating discipline is to read total system sales, comparable demand and offer-level economics separately.",
+        "known": "Global comparable sales, systemwide sales and operating income grew; U.S. comparable sales declined slightly.",
+        "new": "International markets more than offset the U.S. decline, while quarterly loyalty-member sales exceeded $11 billion.",
+        "unknown": "Whether U.S. improvement came from more visits, higher ticket or heavier promotion, and how value offers affected franchise margins."
+      },
+      "evidence": {
+        "left": {
+          "label": "Global system",
+          "text": "Systemwide sales above $38 billion; global comparable sales +1.5%; operating income +7%."
+        },
+        "right": {
+          "label": "U.S. signal",
+          "text": "Comparable sales −0.2%; management says results improved after a value intervention."
+        }
+      },
       "sources": [
-        { "label": "European Central Bank · rate decision and inflation assessment", "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html" },
-        { "label": "European Central Bank · Lagarde departure and appointment process", "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html" }
+        {
+          "label": "McDonald's · third-quarter comparable sales, system sales and loyalty figures",
+          "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/Q3-2026-results.html"
+        },
+        {
+          "label": "McDonald's · full release and operating definitions",
+          "url": "https://mcdonalds.mediaroom.com/2026-11-04-McDONALDS-REPORTS-THIRD-QUARTER-2026-RESULTS"
+        }
       ]
     },
     {
-      "id": "indigo-fuel-fares-capacity-q2",
+      "id": "pangram-image-video-detector-release",
       "number": "05",
-      "category": "Aviation, fuel & network economics",
-      "sourceNote": "IndiGo / Reuters · Thursday",
-      "title": "IndiGo says fare increases are inevitable as fuel reaches 37.8% of expenses and network capacity is reviewed flight by flight.",
-      "changed": "Quarterly expenses rose 19.2% and fuel represented 37.8% of the total; IndiGo forecast low-single-digit December-quarter capacity growth and said international deployment would carry more of the restraint.",
-      "matters": "Fuel inflation is passing from an accounting pressure into network and pricing decisions. For Gulf-connected traffic, capacity discipline can change fares and route economics before passenger demand visibly weakens.",
-      "watch": "Jet-fuel prices, international schedule cuts, passenger revenue per seat and whether festive demand absorbs higher fares. The quarter and capacity guidance are reported; actual fare increases and route changes remain to be observed.",
+      "category": "AI, media authenticity & product claims",
+      "sourceNote": "Pangram · Wednesday",
+      "title": "Pangram released image and video detectors with heatmaps, low-resolution support and browser integration.",
+      "changed": "Pangram Image 1.0 now localises suspected synthetic regions, accepts 256-pixel inputs with a confidence warning, and pairs with a faster video model that analyses frames through an extension or API.",
+      "matters": "Detection is moving from a forensic upload tool toward an ambient layer in feeds, listings and shopping, where false positives and unfamiliar generators matter as much as headline accuracy.",
+      "watch": "Independent tests, false-positive rates on edited real media and performance after new generators appear. Pangram reports 99.96% on its own 1,200-image mirror set and 98.7% on DF26; those are vendor claims, not independent validation.",
       "lead": false,
-      "group": { "label": "Aviation & travel", "title": "The fuel shock is becoming a network decision.", "note": "Strong demand offers pricing power, but every flight still has to clear a much higher input-cost hurdle.", "break": false },
-      "sources": [ { "label": "Reuters · IndiGo results, fuel share, fares and capacity guidance", "url": "https://www.marketscreener.com/news/india-s-indigo-narrows-quarterly-loss-aided-by-pricing-actions-ce785cd3de8ff224" } ]
+      "group": {
+        "label": "Technology",
+        "title": "Provenance tools are becoming products, but benchmark ownership still matters.",
+        "note": "A detector can be useful without being an oracle. The decisive evidence is error behaviour on media the vendor did not design the test around.",
+        "break": true
+      },
+      "sources": [
+        {
+          "label": "Pangram · release features, evaluation design and stated limitations",
+          "url": "https://www.pangram.com/blog/introducing-pangram-image-1-0"
+        }
+      ]
     }
   ],
   "radar": [
     {
       "label": "Curiosity Corner",
-      "title": "A spider can enter two distinct stages of regulated sleep—including one that looks strikingly like REM.",
-      "text": "University of Bonn researchers filmed the Australian jumping spider Portia fimbriata over several days and used acoustic stimuli and sleep disruption to test whether rest was regulated. They found two stages, including a REM-like phase with retinal movements and muscle twitches. The study provides behavioural evidence, not proof that spiders dream; no brain activity was measured. Its value is evolutionary: a tiny, very different nervous system may help reveal which functions of sleep are ancient and universal.",
-      "url": "https://www.uni-bonn.de/en/news/221-2026"
+      "title": "A new proof shows how entropy can rise inside closed quantum many-body systems without smuggling in macroscopic assumptions.",
+      "text": "Researchers defined thermal equilibrium and allowed operations using quantities that remain meaningful at large scale, then derived the law of increasing entropy for any quantum state representing equilibrium. The result does not replace thermodynamics; it tightens the bridge between reversible microscopic rules and the one-way behaviour we experience.",
+      "url": "https://www.s.u-tokyo.ac.jp/en/press/11279/"
     },
     {
-      "label": "Qatar retail watch",
-      "title": "Ulta Beauty opened its first Qatar store with more than 250 brands and a second location already dated for November.",
-      "text": "The 702-square-metre Doha Festival City store combines mass and prestige brands, beauty services and two private treatment rooms; Alshaya says a Villaggio location will follow on 25 November. The useful signal is format, not novelty alone: a large specialist retailer is betting that category breadth, services and loyalty can concentrate beauty spending that previously sat across department stores, pharmacies and boutiques.",
-      "url": "https://www.zawya.com/en/press-release/companies-news/ulta-beauty-launches-in-qatar-in-partnership-with-alshaya-group-1856468"
+      "label": "Markets",
+      "title": "The post-election rally mixed one fact with two forecasts.",
+      "text": "Democratic control is settled. Gridlock is likely. A less aggressive Iran war is only a scenario. Brent's 8.7% fall and defence-stock losses show how much of Wednesday's move depended on the third proposition.",
+      "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e"
     },
     {
-      "label": "Passenger behaviour",
-      "title": "Middle East travellers are the world's most active AI travel planners, while immigration complexity is becoming a larger demand barrier.",
-      "text": "IATA's survey of more than 10,000 passengers found 72% of Middle East respondents had used AI for travel planning and 91% were interested in digital passports for online check-in. Globally, 43% said immigration requirements had discouraged a destination visit, up from 33% in 2025. This is survey evidence rather than bookings data, but it points to a commercial gap: discovery is becoming conversational faster than border and airline systems are becoming interoperable.",
-      "url": "https://www.iata.org/en/pressroom/2026-releases/10-28-iata-2026-global-passenger-survey-travelers-biometrics-ai-entry-requirements/"
+      "label": "Tourism",
+      "title": "Dubai's winter connectivity is rebuilding unevenly.",
+      "text": "British Airways resumed London–Dubai service on 3 November, with Lufthansa-group returns planned later in the month, while regional security disruptions still affect other routes. The signal is recovery by corridor, not a fully normal network.",
+      "url": "https://gulfnews.com/business/aviation/uae-flight-status-emirates-etihad-travel-updates-cancellations-delays-1.500735354"
     }
   ],
   "attention": {
-    "title": "Open Amazon's own results because one page shows both the AI demand and the financing cost.",
-    "text": "The release puts AWS growth, segment profit, operating cash flow, property purchases and capital guidance in the same document. It is a cleaner basis for judging the infrastructure cycle than the share-price reaction around the announcement.",
-    "url": "https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf"
+    "title": "Open Boeing's Avolon order release, then read the Long View beside it.",
+    "text": "The release gives the present transaction—140 aircraft, more than 240 unfilled MAX orders and 138 airline customers. The history explains the quieter system underneath: how leasing moved aircraft demand from individual airline balance sheets into a specialised global capital network.",
+    "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Avolon-Finalizes-Order-for-140-Boeing-737-10-Jets/default.aspx"
   },
   "ignore": {
-    "title": "Ignore the instant contest over who should replace Lagarde.",
-    "text": "The ECB has announced a departure date, not a successor. Until the European Council makes a nomination, personality speculation adds little to the confirmed policy signal: rates are unchanged, energy inflation is the concern and the bank remains meeting-by-meeting."
+    "title": "Ignore attempts to turn Wednesday's market rally into proof that the Iran conflict is ending.",
+    "text": "Prices can move on changed probabilities. Qatar confirms that proposals are still being exchanged, but neither Washington nor Tehran has announced enforceable terms on shipping, ports or military action."
   },
   "history": {
-    "id": "apollo-guidance-computer-priority-overload",
-    "number": "LV",
-    "readTime": "6 min",
-    "era": "United States & the Moon · 1961–1972",
-    "title": "Apollo's guidance computer did not survive the Moon landing by being powerful. It survived by knowing what mattered first.",
-    "deck": "Minutes before Apollo 11 touched down, the lunar module's computer began reporting 1201 and 1202 alarms. The machine had less working memory than a modern email attachment and was being asked to fly, navigate, display and respond at once. Its decisive feature was not raw capacity but a priority system built to discard lower-value work under overload.",
-    "thesis": "Reliable systems do not assume overload will never happen. They define the work that must survive it, make failure visible and preserve enough context to restart safely. Apollo's computer succeeded because hardware, software, simulation and human judgement formed one recovery system.",
+    "id": "history-aircraft-leasing-mobile-capital",
+    "number": "06",
+    "readTime": "7 min",
+    "era": "1973–present",
+    "title": "How aircraft leasing turned airplanes into a global capital network",
+    "deck": "Two 1970s pioneers separated the use of an aircraft from its ownership. Ireland then combined a failed giant's talent, tax treaties and commercial law with an international registry that made the asset easier to finance across borders.",
+    "thesis": "Aircraft leasing became dominant not because airlines stopped caring about fleets, but because specialist owners became better at pooling capital, residual-value risk, legal rights and remarketing across many airlines and jurisdictions.",
     "sections": [
-      { "title": "The Moon forced guidance into the vehicle", "text": "When NASA awarded MIT's Instrumentation Laboratory the Apollo guidance contract in 1961, a signal to the Moon and back took too long for Earth to fly every second of the landing. The computer had to travel with the crew. It also had to survive launch vibration, radiation, scarce electrical power and severe limits on weight. NASA chose MIT partly because its Polaris missile work had already forced navigation into constrained hardware. Even so, requirements remained unsettled until late 1962, and engineers later said that a complete early specification might have made the problem look impossible. Autonomy began not as a product feature but as a physical consequence of distance. The machine needed to turn navigation measurements into control decisions when Houston could advise but could not steer in real time." },
-      { "title": "Scarcity made priorities part of the architecture", "text": "The Apollo Guidance Computer packed roughly 2,000 sixteen-bit words of erasable memory and 36,000 words of fixed core-rope memory into about one cubic foot. Fixed programs were physically encoded by threading wires through or around magnetic cores; late software changes therefore had manufacturing consequences. With so little working memory and processing time, the executive could not treat every task equally. It scheduled work by priority and linked jobs to events. Guidance and engine control belonged above display updates or calculations that could wait. This was more than making code small. The designers embedded a theory of mission value inside the operating system: when capacity became scarce, the machine needed a principled answer to which work would continue. The architecture converted scarcity from an accident into a condition the software could manage." },
-      { "title": "Testing created the confidence to continue through an alarm", "text": "Priority scheduling alone could not tell Mission Control whether a particular alarm was safe. NASA and MIT built high-fidelity digital and hardware-in-the-loop simulations, exercised flight programs and catalogued computer responses. During training, guidance officer Steve Bales and computer specialist Jack Garman had confronted overload alarms and developed rules for when the landing could continue. Garman kept a handwritten list of alarm codes at his console. This mattered because the four-digit display did not explain itself to the astronauts. It compressed an internal condition into a code that only a trained organisation could interpret. The alarm was therefore a handoff between layers: the computer detected overload, the code exposed it, specialists interpreted it and the flight director retained authority to abort. Reliability existed in the relationship among them." },
-      { "title": "On 20 July 1969, the computer became overloaded for a reason nobody understood in real time", "text": "As Eagle descended, Buzz Aldrin called a 1202 alarm. More 1201 and 1202 alarms followed. The computer's executive queues were overloaded, in part because the rendezvous radar switch caused the system to keep seeking data it did not need for landing. Nobody in the room immediately knew that full causal chain. What they could see was more important: after each restart, the computer resumed the highest-priority guidance work and continued producing credible navigation. Garman advised that the mission could proceed; Bales passed the go recommendation; flight director Gene Kranz accepted it. The decision was not blind faith in software. It was a bounded inference: essential tasks were still executing, the alarm matched a known class and the spacecraft remained within expected behaviour. Apollo 11 landed with a computer that had shed work without surrendering control." },
-      { "title": "The restart was selective, not amnesia", "text": "A conventional crash-and-reboot story misses the clever part. The Apollo software used restart protection to preserve the state of critical programs and re-establish essential jobs after an overload. Lower-priority tasks that had contributed to congestion were not all resumed. The system could therefore recover while the vehicle was still moving. That property turned an overload from a total discontinuity into controlled degradation. It also explains why the alarms were evidence of the design working, even though the trigger exposed a systems-integration flaw involving switch settings, radar inputs and assumptions across teams. NASA investigated immediately after landing because the lunar module had to launch again. Telemetry and simulation revealed the radar-related cycle stealing. The lesson was not that testing had failed completely. It was that complex systems can meet unanticipated combinations only if their recovery behaviour is designed before the combination occurs." },
-      { "title": "Apollo's durable lesson is to engineer what survives overload", "text": "Apollo's computer never suffered a hardware failure in flight, but its historical importance is broader than perfect hardware. The programme joined strict production quality, priority-driven software, simulation, alarms and disciplined human authority into one system. Modern software often treats overload as a capacity-planning problem: add processors, memory or servers. Apollo's deeper answer was to decide in advance which functions could degrade and which could not. That principle now appears in fault-tolerant aircraft, medical devices, payments and online services, though the details differ. Redundancy without priority can preserve too much work; alarms without trained interpretation can merely export confusion. Reliable systems do not promise that nothing will go wrong. They preserve the work that matters, expose what changed and give people enough evidence to make the next decision." }
+      {
+        "title": "The breakthrough was to separate flying from owning",
+        "text": "Commercial airlines once bought most of the aircraft they operated, tying large amounts of capital to assets that would remain on the balance sheet through traffic cycles and technology changes. International Lease Finance Corporation was founded in Los Angeles in 1973; Guinness Peat Aviation followed at Shannon in 1975. Their proposition was simple in outline and demanding in execution: a specialist owner could buy aircraft in volume, lease them to several airlines over their lives, monitor maintenance and move them when a customer failed or a market changed. U.S. deregulation in 1978 accelerated demand and helped leasing's share rise sharply in North America. Globally, leased aircraft grew from roughly 10% of the fleet in the 1970s to 58% by the end of 2023."
+      },
+      {
+        "title": "GPA's collapse preserved the skill that made Ireland a hub",
+        "text": "During the 1980s, GPA became the world's largest commercial aircraft lessor and built an unusually dense team of engineers, marketers, financiers and lawyers around a global aircraft portfolio. Its attempted 1992 flotation failed in a market weakened by the Gulf War, leaving a liquidity crisis against an order book of about 700 aircraft. The company did not survive in its original form, but the capability did. Former GPA people founded or staffed a succession of lessors, including businesses that became AerCap, GECAS and other Dublin platforms. Ireland reinforced the cluster with tax treaties, an English-language legal system, financial-services infrastructure and policy support. Failure destroyed one balance sheet while dispersing an operating school."
+      },
+      {
+        "title": "Mobile assets needed law that could travel with them",
+        "text": "An aircraft can cross several jurisdictions in a day, while its owner, lender and airline may sit in three others. Before common rules, a financier could not be equally certain that title, security or repossession rights would be recognised everywhere the asset travelled. The 2001 Cape Town Convention and Aircraft Protocol created a framework for international interests in aircraft objects, an electronic registry and remedies including deregistration and export. The point was not abstract legal harmony. More predictable enforcement lowered creditor risk, made cross-border financing cheaper and widened the set of airlines able to lease modern equipment. The asset became more financeable because the property right became more portable."
+      },
+      {
+        "title": "The modern lessor is a risk-and-information platform",
+        "text": "Today the lessor does more than rent metal. It raises long-dated capital, orders aircraft before individual airlines need them, evaluates airline credit, negotiates maintenance reserves, manages technical records, places assets across regions and takes residual-value risk when a lease ends. Airlines gain fleet flexibility and avoid funding the entire purchase price; lessors gain diversification but inherit concentration, funding and repossession risks. Ireland's 2024 aircraft-leasing sector reported €19.5 billion in operational leasing income, €268 billion of assets and 3,005 employees. The small headcount beside the asset base reveals the model: this is an expertise-intensive financial and technical network whose physical collateral happens to fly."
+      }
     ],
     "timeline": [
-      { "date": "AUG 1961", "text": "NASA contracts MIT's Instrumentation Laboratory to develop Apollo guidance, navigation and software." },
-      { "date": "1962", "text": "Mission requirements become clearer as MIT confronts the limits of early-1960s computing technology." },
-      { "date": "1965–1966", "text": "Apollo software grows into a large real-time programme; testing and configuration control become central risks." },
-      { "date": "DEC 1968", "text": "Apollo 8 carries the guidance computer around the Moon, proving the system in crewed lunar flight." },
-      { "date": "20 JUL 1969", "text": "Apollo 11 receives repeated 1201 and 1202 alarms; Mission Control continues after confirming essential tasks survive." },
-      { "date": "21 JUL 1969", "text": "MIT and NASA reproduce the overload and trace it to radar-related cycle stealing after the landing." },
-      { "date": "1972", "text": "NASA's reliability review records 17 flight computers and strict production and failure-analysis procedures." }
+      {
+        "date": "1973",
+        "text": "International Lease Finance Corporation is established in Los Angeles."
+      },
+      {
+        "date": "1975",
+        "text": "Guinness Peat Aviation is founded at Shannon, creating the nucleus of Ireland's leasing cluster."
+      },
+      {
+        "date": "1992",
+        "text": "GPA's failed flotation triggers a liquidity crisis, but its trained workforce disperses through the industry."
+      },
+      {
+        "date": "2001",
+        "text": "The Cape Town Convention and Aircraft Protocol establish portable international interests and a registry."
+      },
+      {
+        "date": "2004",
+        "text": "Leased aircraft first exceed half of the global commercial fleet, according to IATA's later series."
+      },
+      {
+        "date": "2024",
+        "text": "Irish aircraft lessors hold €268 billion of assets and earn €19.5 billion from operational leasing."
+      }
     ],
     "sources": [
-      { "label": "NASA history · the MIT contract and Apollo as an early large-scale real-time software programme", "url": "https://www.nasa.gov/wp-content/uploads/static/history/computers/Ch2-2.html" },
-      { "label": "NASA Apollo 11 Lunar Surface Journal · technical account of the alarms, priority executive and investigation", "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.1201-fm.html" },
-      { "label": "NASA Apollo 11 Lunar Surface Journal · mission summary and go decision during descent", "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.summary.html" },
-      { "label": "NASA Technical Reports Server · reliability history of the Apollo guidance computer", "url": "https://ntrs.nasa.gov/citations/19750004273" },
-      { "label": "Smithsonian National Air and Space Museum · Apollo flight-software archive from Margaret Hamilton's team", "url": "https://airandspace.si.edu/collection-archive/apollo-flight-guidance-computer-software-collection-hamilton/sova-nasm-1986-0158" }
+      {
+        "label": "IATA · the leased share of the world fleet, 1970–2023",
+        "url": "https://www.iata.org/en/iata-repository/publications/economic-reports/more-aircraft-are-leased-than-owned-by-airlines-globally/"
+      },
+      {
+        "label": "AerCap · ILFC, GPA and the Irish industry lineage",
+        "url": "https://www.aercap.com/about-us/celebrating-50-years-of-flight"
+      },
+      {
+        "label": "KPMG Ireland · GPA's failed flotation and order-book liquidity crisis",
+        "url": "https://assets.kpmg.com/content/dam/kpmg/ie/pdf/2020/03/ie-aviation-finance-leasing-series-how-have-public-aircraft-leasing-companies-performed.pdf"
+      },
+      {
+        "label": "UNIDROIT · Cape Town Convention objectives, registry and remedies",
+        "url": "https://www.unidroit.org/instruments/security-interests/cape-town-convention/overview/"
+      },
+      {
+        "label": "Central Statistics Office Ireland · 2024 income, assets and employment",
+        "url": "https://www.cso.ie/en/releasesandpublications/ep/p-ali/aircraftleasinginireland2024/keyfindings/"
+      }
     ]
   },
   "threads": [
-    { "status": "Advance estimate", "title": "Growth, inflation and rates", "text": "U.S. output accelerated, but September inflation and flat real spending keep a December hike live.", "progress": 57 },
-    { "status": "Two tracks active", "title": "Iran war and Gulf infrastructure", "text": "Qatar is testing reciprocal diplomatic steps while Washington reviews blockade performance and military options.", "progress": 61 },
-    { "status": "Cash conversion test", "title": "AI capital cycle", "text": "AWS growth accelerated as Amazon's infrastructure purchases pushed trailing free cash flow deeply negative.", "progress": 69 },
-    { "status": "Leadership transition", "title": "European monetary policy", "text": "The ECB held rates against energy inflation; Lagarde leaves in February and no successor is nominated.", "progress": 44 },
-    { "status": "Capacity discipline", "title": "Aviation fuel shock", "text": "IndiGo is moving from fuel-cost commentary to fare and route-level capacity decisions.", "progress": 58 }
+    {
+      "status": "Control settled",
+      "title": "U.S. Congress after the midterms",
+      "text": "Democrats secured both chambers; the transition to committee, spending and oversight power begins in January.",
+      "progress": 86
+    },
+    {
+      "status": "Channel active",
+      "title": "Hormuz access and Gulf security",
+      "text": "Iran welcomed electoral pressure on Trump, but Qatar's mediation has not produced enforceable terms.",
+      "progress": 50
+    },
+    {
+      "status": "Capital committed",
+      "title": "Airline fleet growth",
+      "text": "Avolon ordered 140 737-10s; delivery, placement and lease economics now determine the value.",
+      "progress": 63
+    },
+    {
+      "status": "Value test",
+      "title": "Restaurant visits and pricing",
+      "text": "McDonald's global system grew while U.S. comparable sales slipped and management intervened on value.",
+      "progress": 46
+    }
   ]
 }

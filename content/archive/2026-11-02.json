@@ -1,0 +1,193 @@
+{
+  "date": { "display": "Monday, 2 November 2026", "edition": "066", "updated": "7:00 AM" },
+  "worldSentence": "A Qatari LNG carrier was struck but remained operational, while successful humanitarian coordination in Ukraine and a record crypto breach showed that resilience can be real without making the underlying system safe.",
+  "standfirst": "Monday's edition begins with Nakilat's disclosure that Al Mayeda was hit by unidentified objects in the Arabian Gulf. The crew is safe and the carrier remains operational, but responsibility, weapon and damage are unresolved. The Oleshky truce ended after a completed humanitarian mission; Binance reopened withdrawals after the largest reported crypto theft; and Middle East aviation demand remains the global outlier. Curiosity Corner enters the developing human brain; the Long View visits Murano, where regulation, trade and craft made glass into a luxury industry.",
+  "listenTime": "15 min",
+  "coverage": [
+    { "count": 4, "label": "Qatar & Gulf" },
+    { "count": 3, "label": "World & politics" },
+    { "count": 4, "label": "Economy & markets" },
+    { "count": 3, "label": "AI & technology" },
+    { "count": 3, "label": "Consumer & travel" }
+  ],
+  "connected": {
+    "title": "Today's common thread is recovery without resolution.",
+    "signals": [
+      { "label": "AL MAYEDA", "value": "OPERATIONAL", "text": "The crew is safe, but the attacker and weapon are unidentified." },
+      { "label": "OLESHKY", "value": "6 DAYS", "text": "The local truce ended after a completed aid and evacuation mission." },
+      { "label": "BINANCE", "value": "$6.3bn", "text": "Withdrawals resumed after the largest reported crypto theft." },
+      { "label": "MIDEAST AIR", "value": "−7.5%", "text": "September international passenger demand fell year on year." }
+    ],
+    "note": "A ship can keep sailing, an exchange can reopen and a ceasefire can complete its task. Those are meaningful operating results. None establishes who attacked the ship, whether a compromised platform is secure or whether a local pause can become peace. The useful distinction is between restoring service and removing the cause of failure."
+  },
+  "stories": [
+    {
+      "id": "nakilat-al-mayeda-gulf-strike",
+      "number": "01",
+      "category": "Qatar, LNG shipping & Gulf security",
+      "sourceNote": "Nakilat / Associated Press · Sunday disclosure",
+      "title": "Nakilat says its LNG carrier Al Mayeda was hit by unidentified objects in the Arabian Gulf.",
+      "changed": "Nakilat disclosed that Al Mayeda was struck Friday evening; no crew member was injured, no environmental impact was reported and the vessel remained safe and operational while damage was assessed.",
+      "matters": "A direct strike on a Qatari LNG carrier turns regional risk into an operating event for the fleet that moves Qatar's core export, even though this incident did not interrupt the voyage.",
+      "watch": "Qatar's investigation, the object or weapon, precise location, physical damage, attribution and any change to routing or insurance. The owner's account is confirmed; responsibility and intent are unknown.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "The ship kept moving; the unanswered attribution is the larger risk.", "note": "Operational continuity limits the immediate loss. An unexplained strike leaves every operator unable to price whether this was isolated or repeatable.", "break": false },
+      "background": {
+        "title": "The incident arrived as Gulf officials publicly questioned their collective defence",
+        "text": "At the Manama Dialogue on Sunday, UAE presidential adviser Anwar Gargash said Gulf states had responded nationally and bilaterally to the Iran war but had not collectively risen to the challenge. The forum also heard that national responses working through separate U.S. command links sometimes hindered overall defence. That admission does not establish who struck Al Mayeda, and it should not be used as attribution. It does clarify the operational question raised by the incident: how quickly can maritime warning, investigation and defensive information be shared across six states when a vessel crosses common waters? Qatar is simultaneously mediating with Iran over a possible Hormuz reopening. The ship attack and the talks are connected by the same shipping system, but no evidence read establishes that they were coordinated.",
+        "known": "Nakilat says the vessel was struck, the crew was unhurt and the carrier remained operational; Qatar says an investigation is under way.",
+        "new": "A Qatari LNG asset has now been physically hit during the regional crisis, while no public source identifies the attacker or weapon."
+      },
+      "evidence": { "left": { "label": "Operating result", "text": "No injuries or environmental impact reported; Al Mayeda remained safe and operational." }, "right": { "label": "Open questions", "text": "Object, location, damage, attacker and intent have not been disclosed." } },
+      "sources": [
+        { "label": "Nakilat · Al Mayeda vessel incident statement", "url": "https://nakilat.com/al-mayeda-vessel-incident-in-the-arabian-gulf/" },
+        { "label": "Associated Press · incident and Qatar investigation", "url": "https://apnews.com/article/mideast-news-november-1-2026-b918f44d8f212d7daf7f2f9a98c91a0b" },
+        { "label": "Associated Press · Gulf defence coordination at Manama Dialogue", "url": "https://apnews.com/article/uae-iran-war-gulf-diplomacy-bahrain-forum-470d52d5df78eeb6bf9b9fb15a37d0e6" }
+      ]
+    },
+    {
+      "id": "oleshky-truce-completes-expires",
+      "number": "02",
+      "category": "Ukraine, humanitarian access & diplomacy",
+      "sourceNote": "Associated Press / Reuters · Sunday",
+      "title": "The Oleshky truce expired after completing its humanitarian mission without reported violations.",
+      "changed": "The six-day local ceasefire ended Sunday after aid entered Russian-held Oleshky and residents crossed into Ukrainian territory; Ukraine separately evacuated 167 people from threatened areas of Kherson as the pause expired.",
+      "matters": "The result strengthens the case for repeating a narrow civilian-protection protocol, while continued strikes elsewhere show that it did not become a wider ceasefire.",
+      "watch": "A verified final evacuation count, aid access for those who stayed and whether the two ombudsmen reuse the mechanism. Completion is reported; claims that it created national peace momentum remain inference.",
+      "lead": false,
+      "group": { "label": "World beyond the lead", "title": "A temporary agreement ended on time after doing the job it was designed to do.", "note": "That is more useful than symbolic talks, but much smaller than peace.", "break": true },
+      "sources": [
+        { "label": "Associated Press · civilians prepare as the local truce ends", "url": "https://apnews.com/article/22a9bcde97cf12c96328aacf88486e40" },
+        { "label": "Reuters · ceasefire expiry and 167 additional evacuations", "url": "https://new.streetinsider.com/Reuters/Oleshky%2Bceasefire%2Bexpires%2C%2BUkraine%2Bevacuates%2Bcivilians%2Bfrom%2Bparts%2Bof%2BKherson%2Bregion/27267742.html" }
+      ]
+    },
+    {
+      "id": "binance-withdrawals-record-hack",
+      "number": "03",
+      "category": "Cybersecurity, crypto markets & operational resilience",
+      "sourceNote": "Binance / Reuters · Sunday",
+      "title": "Binance reopened major withdrawals after covering most of a $6.3 billion theft, then absorbed billions in outflows.",
+      "changed": "Bitcoin, ether and selected stablecoin withdrawals resumed in phases after Binance said it had covered 95% of stolen tokens; the platform recorded about $3.64 billion of net outflows during the first nine and a half hours of reopening.",
+      "matters": "The exchange has demonstrated balance-sheet capacity to meet a run so far. That is different from proving the breach is contained, every asset is liquid or custody controls are repaired.",
+      "watch": "Full withdrawal restoration, independently verifiable reserves and liabilities, forensic findings, recovered assets and whether outflows stabilise. Reopened networks and reported flows are observable; the complete attack path remains unresolved.",
+      "lead": false,
+      "group": { "label": "Technology & markets", "title": "The first post-hack test is not the token price. It is whether customers can leave.", "note": "A reserve is useful only when assets are available, liabilities are complete and withdrawals clear under stress.", "break": true },
+      "background": {
+        "title": "Solvency, liquidity and security are three separate questions",
+        "text": "Binance says it set aside company funds to replace losses and helped freeze part of the stolen pool. Reopening major networks tests liquidity: can the exchange deliver assets when customers request them? Proof of reserves addresses a narrower solvency question by showing assets, but it is incomplete without liabilities, ownership and encumbrances. Security is narrower still: how did an attacker obtain authority to move funds, which systems were exposed and what prevents a repeat? The reported outflow is large in absolute terms but only a fraction of assets Binance says it holds. Early stability therefore supports neither a collapse narrative nor a clean bill of health. The decisive evidence will be continued withdrawals and an independently inspectable account of the breach and balance sheet.",
+        "known": "Major withdrawals resumed, customers removed billions and Binance says it has replenished most stolen assets.",
+        "new": "The recovery has moved from promises to a live liquidity test, but not yet to an independently verified security resolution."
+      },
+      "evidence": { "left": { "label": "Liquidity test", "text": "About $3.64bn in reported net outflows during the first 9.5 hours after reopening." }, "right": { "label": "Security test", "text": "The full breach path, remediation and independently reconciled liabilities remain open." } },
+      "sources": [
+        { "label": "Binance · phased withdrawal restoration notice", "url": "https://www.binance.com/en-GB/support/announcement/security-incident-recovery-update-4-withdrawals-resume-in-phases-2026-11-01-73911fb819b240f88b88256bdd318eda" },
+        { "label": "Reuters · withdrawals resume after 95% coverage", "url": "https://www.fidelity.com/news/article/company-news/202610312357RTRSNEWSCOMBINED_KCN3WC0ZW-OUSBS_1" },
+        { "label": "Associated Press · what is known about the $6.3bn theft", "url": "https://apnews.com/article/550e9b876550f71f07098494fe735beb" }
+      ]
+    },
+    {
+      "id": "iata-middle-east-demand-september",
+      "number": "04",
+      "category": "Aviation, travel demand & network economics",
+      "sourceNote": "IATA · September data released Friday",
+      "title": "Middle East airline demand remained the global outlier: international traffic fell 7.5% in September.",
+      "changed": "IATA reported total global passenger demand down 0.5% year on year, but Middle East international demand fell 7.5% against a 3.3% capacity reduction, pulling load factor down 3.6 points to 78.3%.",
+      "matters": "For Gulf hub carriers, demand is falling faster than seats are being removed. That gap pressures yield, schedule economics and connecting flows even as most other international regions returned to growth.",
+      "watch": "October and November bookings, route suspensions, fuel cost, capacity discipline and the Middle East–Asia corridor, which fell 8.8%. The September comparison is measured; how much reflects security, price or route availability is not isolated.",
+      "lead": false,
+      "group": { "label": "Aviation & tourism", "title": "The global headline is mild; the regional divergence is not.", "note": "A network can preserve seats for strategic reasons, but sustained demand below capacity eventually appears in fare, frequency or margin.", "break": true },
+      "background": {
+        "title": "Capacity adjustment has not yet matched the regional demand shock",
+        "text": "International demand grew 0.4% globally in September and improved across most major route areas compared with August. Middle Eastern carriers instead recorded a 7.5% decline, with the Middle East–Asia corridor down 8.8% and Middle East–North America down 3%. Capacity fell, but by less than demand, producing the lowest regional international load factor in IATA's table. This is an industry aggregate, not Qatar Airways' result, and it cannot reveal whether a particular carrier gained share or protected premium yield. It does show the environment in which Gulf network decisions are being made: volatile fuel, disrupted airspace and softer connecting traffic. The next useful evidence is not another regional anecdote but route-level capacity, load factor and fare behaviour over several months.",
+        "known": "IATA's September data show Middle East demand declined more sharply than capacity and more than every other region.",
+        "new": "Global traffic improved from August, but the Middle East remained materially separated from that recovery."
+      },
+      "evidence": { "left": { "label": "Middle East", "text": "International demand −7.5%; capacity −3.3%; load factor 78.3%." }, "right": { "label": "World", "text": "International demand +0.4%; capacity +0.5%; load factor 83.6%." } },
+      "sources": [
+        { "label": "IATA · September 2026 passenger-market release and regional table", "url": "https://www.iata.org/en/pressroom/2026-releases/10-30-air-passenger-falls-september/" }
+      ]
+    },
+    {
+      "id": "qse-nine-month-profits-down",
+      "number": "05",
+      "category": "Qatar economy & listed companies",
+      "sourceNote": "Qatar News Agency / QSE · Sunday",
+      "title": "QSE main-market companies reported nine-month profit of QAR 35 billion, down 14.71% year on year.",
+      "changed": "The aggregate fell from QAR 41 billion, with two companies outside the reported set; in the same Sunday session the QSE index rose 4.64% on QAR 1.07 billion of turnover.",
+      "matters": "The earnings aggregate and the one-day market rebound point in opposite directions, making sector mix and company-level cash generation more useful than either headline alone.",
+      "watch": "The two delayed disclosures, sector contributions, energy and banking concentration, and whether the market move persists. The aggregate is official; no cause for the decline is established by the release.",
+      "lead": false,
+      "group": { "label": "Qatar economy", "title": "A strong market day did not erase a weaker nine-month earnings base.", "note": "Price is forward-looking; reported profit is backward-looking. The analytical work begins by reconciling the two.", "break": true },
+      "sources": [
+        { "label": "Qatar News Agency · QSE listed-company profit aggregate", "url": "https://qna.org.qa/en/news/news-details?id=qse-listed-companies-reported-qr-35-billion-for-3rd-quarter-of-2026&date=1/11/2026" },
+        { "label": "Qatar News Agency · Sunday index close and turnover", "url": "https://qna.org.qa/en/news/news-details?id=qse-index-closes-higher&date=1/11/2026" }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Curiosity Corner",
+      "title": "The developing human brain may run a genome-quality-control process around birth.",
+      "text": "Researchers sequenced 2,357 individual neurons and found widespread chromosomal copy-number abnormalities in an average 25.9% of prenatal cortical neurons, falling roughly four- to five-fold after birth. Surviving cells were depleted of changes affecting dosage-sensitive and neurodevelopmental genes. The study links that decline to programmed cell death and synaptic development, but does not yet establish every mechanism or a clinical intervention.",
+      "url": "https://www.nature.com/articles/s41586-026-11190-3"
+    },
+    {
+      "label": "AI capital",
+      "title": "OpenAI reportedly secured about $11 billion toward an initial $30 billion fundraising target.",
+      "text": "The Wall Street Journal report, carried by Reuters, says the company lowered its ambition to as much as $20 billion and may approach family offices. Treat the figure as reported commitments, not a final close. The signal is useful because investor resistance is appearing at the financing layer after the market's cash-flow repricing.",
+      "url": "https://uk.investing.com/news/company-news/openai-raises-just-11bn-of-30bn-target-as-ai-investor-appetite-cools--wsj-4947059"
+    },
+    {
+      "label": "Qatar logistics",
+      "title": "Mwani Qatar handled more than 59,000 containers in October, up 9% from September.",
+      "text": "Ports received 249 vessels, up 56% month on month, while general cargo reached more than 66,000 tonnes. A single-month comparison can reflect scheduling and base effects; another two or three months will show whether the increase represents sustained trade flow during regional disruption.",
+      "url": "https://qna.org.qa/en/news/news-details?id=mwani-qatar-handles-over-59000-containers-in-october&date=1/11/2026"
+    }
+  ],
+  "attention": {
+    "title": "Open Nakilat's statement first because its restraint defines exactly what is known and what is not.",
+    "text": "The primary account confirms the strike, crew safety, environmental status and continued operation. It does not name a weapon, location or attacker. That boundary is the most important fact in a story already attracting geopolitical attribution.",
+    "url": "https://nakilat.com/al-mayeda-vessel-incident-in-the-arabian-gulf/"
+  },
+  "ignore": {
+    "title": "Ignore claims that Sunday's 4.64% QSE rise cancels the earnings decline.",
+    "text": "A one-session price move and nine months of reported profit measure different things. The market may be repricing future risk, liquidity or policy; the aggregate release does not establish why."
+  },
+  "history": {
+    "id": "murano-glass-innovation-cluster",
+    "number": "LV",
+    "readTime": "6 min",
+    "era": "Venice & Murano · 982–1700",
+    "title": "Murano became the capital of glass because Venice concentrated danger, skill and trade on one island.",
+    "deck": "A fire-safety order moved furnaces out of Venice. What followed was not simple isolation: the republic regulated ingredients, rewarded invention, guarded knowledge and sold the results through a global trading city. Murano turned a risky craft into one of Europe's earliest luxury clusters.",
+    "thesis": "Clusters become powerful when proximity makes specialised knowledge, labour and suppliers accumulate faster than rivals can copy them. Murano's advantage came from that density plus Venice's eastern trade, state protection and access to wealthy buyers—not from secrecy alone. Its eventual diffusion also shows the limit of trying to imprison knowledge that lives in people.",
+    "sections": [
+      { "title": "Glass arrived through a trading lagoon", "text": "The earliest documentary reference to a Venetian glassmaker dates to 982, but the craft did not arise in isolation. Venice sat between European buyers and the sophisticated glass traditions of the eastern Mediterranean, particularly Syria. Traders brought finished objects, raw materials and technical ideas through the lagoon. By the thirteenth century glassmaking was organised enough to have guild regulations. The industry therefore began with circulation: of materials, styles and people. Murano's later reputation would rest on making those borrowed and local capabilities unusually dense." },
+      { "title": "The government moved the furnaces because the city could burn", "text": "Glass furnaces required continuous, intense heat in a city built densely from timber. In 1291 Venice's Great Council ordered furnaces moved away from the urban core, consolidating new production on Murano. Fire safety was the stated reason, and glassworks had already begun gathering there. The decree did more than relocate a hazard. It placed masters, apprentices, furnace owners and specialist suppliers close enough to observe one another, hire from the same labour pool and improve a shared craft. A safety rule accidentally supplied the geography of an industrial district." },
+      { "title": "Clear glass changed the market", "text": "In the mid-fifteenth century Murano makers developed cristallo, a highly transparent glass that resembled prized rock crystal. Angelo Barovier is closely associated with the breakthrough. Careful selection and preparation of silica, plus manganese used to reduce unwanted colour, produced a material unlike the brown or green cast common in European glass. Clear, thin vessels gave designers a new language: elegant shapes, enamel, coloured threads and later filigree. Murano stopped competing only as a maker of useful bottles. It could sell lightness, purity and virtuosity to courts and wealthy households." },
+      { "title": "Venice protected invention—but could not freeze it", "text": "The republic encouraged good ingredients and technical development while restricting the export of raw materials and know-how. Glassworkers faced rules on travel and disclosure, although some received permission to work abroad during the seasonal furnace closure. The policy made sense: the valuable asset was not a mine or a machine but tacit skill carried in a master's hands. Yet that also made perfect containment impossible. By the sixteenth and seventeenth centuries Venetian-trained makers established workshops across Europe, producing glass à la façon de Venise. Murano's methods spread because skilled people moved despite the rules." },
+      { "title": "The durable product was a system for making distinction", "text": "Murano's lead did not rest on one recipe. Makers repeatedly produced new effects—cristallo, marbled calcedonio, opaque glass, filigree canes and fantastical stems—then presented them through Venice's commercial and cultural network. Concentration made experimentation cumulative: one generation inherited furnaces, apprenticeships, suppliers and demanding clients from the last. Imitators could copy a form, but the cluster kept generating the next form. The useful lesson is not that governments should lock artisans on an island. It is that a luxury industry becomes defensible when material science, skilled labour, design language, provenance and route to market reinforce one another." }
+    ],
+    "timeline": [
+      { "date": "982", "text": "A Venetian document names Dominic, a glassmaker—the lagoon's earliest known written reference to the craft." },
+      { "date": "1271", "text": "The glassmakers' guild records its first surviving set of regulations." },
+      { "date": "1291", "text": "The Great Council orders furnaces moved out of Venice's urban core; Murano becomes the industry's centre." },
+      { "date": "c. 1450", "text": "Angelo Barovier is associated with cristallo, a glass clear enough to resemble rock crystal." },
+      { "date": "LATE 1400s", "text": "Cristallo and other Murano wares appear in elite inventories and export records across Europe." },
+      { "date": "1500s–1600s", "text": "Venetian-trained makers carry the style abroad, creating glass à la façon de Venise." }
+    ],
+    "sources": [
+      { "label": "Museo Correr · documentary origins and the 1291 furnace decree", "url": "https://archivio-correr.visitmuve.it/en/mostre-en/archivio-mostre-en/the-adventure-of-glass-a-millennium-of-venetian-art/2011/10/5801/dalle-origini-al-quattrocento-1/" },
+      { "label": "Glass Museum, Murano · medieval and Renaissance production", "url": "https://museovetro.visitmuve.it/en/il-museo/layout-and-collections/glass-14th-17th-century/" },
+      { "label": "Corning Museum of Glass · cristallo, filigree and diffusion of Venetian methods", "url": "https://whatson.cmog.org/exhibitions-galleries/rise-venetian-glassmaking" },
+      { "label": "Victoria and Albert Museum · guild, ingredients, invention and guarded knowledge", "url": "https://www.vam.ac.uk/articles/a-z-of-glass" },
+      { "label": "J. Paul Getty Museum · Murano glass and Angelo Barovier's cristallo", "url": "https://www.getty.edu/publications/resources/virtuallibrary/0892362553.pdf" }
+    ]
+  },
+  "threads": [
+    { "status": "Investigation open", "title": "Gulf shipping and Qatar assets", "text": "Al Mayeda remains operational; the weapon, attacker, damage and implications for routing are unresolved.", "progress": 54 },
+    { "status": "Mission completed", "title": "Ukraine humanitarian access", "text": "The Oleshky truce expired after aid and evacuations; repeatability is now the useful test.", "progress": 64 },
+    { "status": "Withdrawals live", "title": "Crypto custody resilience", "text": "Binance has met early outflows after replenishing most losses; independent security and liability evidence is still due.", "progress": 57 },
+    { "status": "Regional divergence", "title": "Gulf aviation demand", "text": "September Middle East traffic fell faster than capacity while most international regions improved.", "progress": 38 }
+  ]
+}

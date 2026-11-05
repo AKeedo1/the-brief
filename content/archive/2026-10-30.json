@@ -1,0 +1,192 @@
+{
+  "date": { "display": "Friday, 30 October 2026", "edition": "063", "updated": "7:00 AM" },
+  "worldSentence": "Growth is proving stronger than confidence, but inflation, energy and AI infrastructure are making that growth unusually expensive to finance and deliver.",
+  "standfirst": "Friday's edition leads with a U.S. economy expanding at a 3.4% annual rate while September inflation accelerates. Qatar is pushing a diplomatic off-ramp as Washington reviews the Iran blockade, Amazon's fastest AWS growth in nearly five years comes with a $42.4 billion cash outflow, and rising fuel costs force IndiGo to rethink fares and capacity. Curiosity Corner watches a spider enter two stages of sleep; the Long View returns to Apollo 11, where a tiny computer survived overload by deciding what not to do.",
+  "listenTime": "17 min",
+  "coverage": [
+    { "count": 3, "label": "Qatar & Gulf" },
+    { "count": 4, "label": "World & politics" },
+    { "count": 6, "label": "Economy & markets" },
+    { "count": 3, "label": "AI & technology" },
+    { "count": 5, "label": "Consumer & travel" }
+  ],
+  "connected": {
+    "title": "The day's common thread is growth purchased with expensive inputs.",
+    "signals": [
+      { "label": "U.S. GROWTH", "value": "+3.4%", "text": "Output accelerated as consumers and businesses spent heavily, especially on services and information-processing equipment." },
+      { "label": "INFLATION", "value": "+3.6%", "text": "Annual PCE inflation rose from 3.4% to 3.6% in September, while real consumer spending was flat for the month." },
+      { "label": "AWS", "value": "+39.3%", "text": "Amazon's cloud revenue reached $46.0 billion, but AI-led property and equipment spending pushed trailing free cash flow to a $42.4 billion outflow." },
+      { "label": "AVIATION", "value": "37.8%", "text": "Fuel consumed 37.8% of IndiGo's quarterly expenses, prompting fare and capacity action despite strong festive demand." }
+    ],
+    "note": "The headline numbers say demand remains alive. The operating numbers say it is costly: households are saving less, central banks face renewed inflation, hyperscalers are converting cash into infrastructure and airlines are absorbing exceptional fuel prices. Growth is not the same thing as easy economics. The useful question is who can keep converting demand into cash after the expensive inputs are paid for."
+  },
+  "stories": [
+    {
+      "id": "us-gdp-growth-inflation-q3",
+      "number": "01",
+      "category": "Global economy, inflation & markets",
+      "sourceNote": "U.S. Bureau of Economic Analysis · Thursday",
+      "title": "The U.S. economy grew at a 3.4% annual rate, but September inflation accelerated and real consumer spending stalled.",
+      "changed": "Advance data showed third-quarter GDP rising 3.4%, with private domestic demand up 4.9%; annual PCE inflation increased from 3.4% to 3.6% in September and inflation-adjusted consumer spending was unchanged that month.",
+      "matters": "The economy entered the fourth quarter with more momentum than expected, powered by services and equipment investment, yet the final month shows higher prices absorbing nominal spending. That combination strengthens the case for another Federal Reserve increase rather than relief for borrowers.",
+      "watch": "The 25 November second estimate, October jobs and prices, and the Fed's 8–9 December meeting. GDP is an advance estimate and will be revised; the reported September price acceleration is confirmed, but its persistence is not.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "The economy is not weak; the price of keeping it strong is the problem.", "note": "Quarterly growth and monthly household strain can both be true. The difference lies in timing, distribution and the cost of the inputs behind demand.", "break": false },
+      "background": {
+        "title": "AI investment and services carried the quarter while September exposed the pressure underneath",
+        "text": "The Bureau of Economic Analysis estimates that real GDP rose at a 3.4% annual rate in the third quarter, up from 2.2% in the second. Consumer spending increased at a 3.8% rate and business equipment investment surged 20.9%, with information-processing equipment making the largest contribution. Final sales to private domestic purchasers—a cleaner measure of underlying private demand—grew 4.9%. Yet the September detail was less comfortable. The PCE price index rose 0.5% in the month and 3.6% from a year earlier; core PCE rose 3.1% over twelve months. Nominal consumer spending increased 0.5%, but after inflation it was flat, and the saving rate slipped to 3.8%. This is not a contradiction so much as a change in the composition of growth. Strong third-quarter services and AI-related investment lifted the aggregate, while higher energy and goods prices narrowed household purchasing power at quarter-end. The advance estimate establishes momentum; it does not guarantee the fourth quarter.",
+        "known": "Official data show faster output, strong private demand and accelerating September prices.",
+        "new": "The quarter's strength and September's flat real spending now sit inside the same economic picture."
+      },
+      "evidence": { "left": { "label": "Growth", "text": "Consumer spending +3.8%; equipment investment +20.9%; private domestic demand +4.9%." }, "right": { "label": "Price pressure", "text": "September PCE +0.5% month-on-month and +3.6% year-on-year; real consumer spending unchanged." } },
+      "sources": [
+        { "label": "U.S. Bureau of Economic Analysis · advance GDP estimate and contribution detail", "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026" },
+        { "label": "Reuters · consumer spending, equipment investment, saving rate and September inflation", "url": "https://www.marketscreener.com/news/us-economic-growth-accelerates-in-third-quarter-ce785cd3d08ffe2d" }
+      ]
+    },
+    {
+      "id": "qatar-iran-mediation-us-blockade-review",
+      "number": "02",
+      "category": "Qatar diplomacy, Gulf security & energy",
+      "sourceNote": "Axios / Associated Press · overnight",
+      "title": "Qatar's Iran mediation and U.S. military planning are now running in parallel ahead of the American midterms.",
+      "changed": "CENTCOM commander Adm. Brad Cooper briefed President Trump on the Iran war and naval blockade as Qatar-led mediators pursued a deal; a U.S. envoy said the sides were close, while Iran continued to demand relief before nuclear talks.",
+      "matters": "The two tracks narrow the decision window for the Gulf. A diplomatic framework could reduce immediate infrastructure and shipping risk; failure would leave a prepared American force and a retaliatory threat in the same theatre.",
+      "watch": "Whether Iran accepts inspections or nuclear discussion, whether Washington offers sanctions, funds or oil relief, and any confirmed change in blockade or strike posture. The briefing and mediation are reported; no signed agreement or final strike order is confirmed.",
+      "lead": false,
+      "group": { "label": "Qatar & the region", "title": "The diplomatic off-ramp is being tested while the military option is kept ready.", "note": "The important signal is not that a deal is certain, but that the issues blocking one are now being negotiated against a visible deadline.", "break": true },
+      "background": {
+        "title": "The dispute has moved from whether to talk toward the sequence of concessions",
+        "text": "Two U.S. officials told Axios that Adm. Brad Cooper briefed Trump on Thursday about the state of the Iran war, with particular attention to whether the naval blockade is working. At the same time, a Qatar-led group of mediators is trying to prevent renewed combat after the 3 November midterms. U.S. Ambassador to Turkey Tom Barrack said Washington and Tehran were very close to a de-escalation deal. Iran's position, however, still demands steps such as lifting the blockade, releasing frozen funds and allowing oil sales before negotiations on its nuclear programme. Earlier reporting described Qatar's effort to link limited sanctions relief to access for UN inspectors at bombed nuclear sites. AP separately reported that Tehran received a message from Vice President JD Vance but did not disclose its contents. The sequence is the substance: each side wants the other to move first. Qatar's task is therefore not merely to carry messages, but to construct reciprocal steps that neither side reads as surrender. Claims of proximity are diplomatic assessments, not evidence of a concluded agreement.",
+        "known": "The CENTCOM commander briefed Trump, Qatar-led mediation is active, and both sides have specified issues that must be addressed.",
+        "new": "The military review and diplomatic push are occurring simultaneously as the post-midterm risk window approaches."
+      },
+      "evidence": { "left": { "label": "Diplomatic track", "text": "Qatar-led mediators are testing reciprocal steps on inspections, sanctions, funds, oil and negotiations." }, "right": { "label": "Military track", "text": "The CENTCOM commander briefed Trump on blockade performance; no final strike order is confirmed." } },
+      "sources": [
+        { "label": "Axios · CENTCOM briefing, Qatar-led mediation and the parties' positions", "url": "https://www.axios.com/2026/10/29/brad-cooper-briefs-trump-iran-naval-blockade" },
+        { "label": "Associated Press · Vance message, disputed claims and limits of confirmed information", "url": "https://apnews.com/article/mideast-iran-israel-elections-netanyahu-october-282026-c11dac838a072af25ba8d0eb81d01035" }
+      ]
+    },
+    {
+      "id": "amazon-aws-growth-ai-cash-burn-q3",
+      "number": "03",
+      "category": "AI infrastructure, retail & capital allocation",
+      "sourceNote": "Amazon · Thursday close",
+      "title": "Amazon posted its fastest AWS growth in nearly five years—and a $42.4 billion trailing free-cash-flow outflow.",
+      "changed": "AWS revenue rose 39.3% to $46.0 billion and operating income reached $17.8 billion, while Amazon's total operating margin hit a record 13.9%; AI-led property and equipment spending turned trailing free cash flow from a $14.8 billion inflow to a $42.4 billion outflow.",
+      "matters": "This is unusually clear evidence of both AI demand and its financing burden inside the same company. Amazon's operations are generating more cash, but infrastructure purchases are consuming it faster.",
+      "watch": "The conversion of AWS backlog into revenue, 2026 cash capital expenditure of about $220 billion, fourth-quarter retail demand and whether 2027–28 cloud growth meets management's forecast. Results are reported; future growth and returns are company guidance.",
+      "lead": false,
+      "group": { "label": "Technology & consumer", "title": "The cloud engine is accelerating; the cash engine is being rebuilt around it.", "note": "Amazon shows why strong operating profit and negative free cash flow can coexist during an infrastructure cycle.", "break": true },
+      "background": {
+        "title": "A profitable quarter does not remove the balance-sheet test",
+        "text": "Amazon's third-quarter net sales rose 12% to $201.9 billion and operating income increased 61% to $28.1 billion, producing the company's highest operating margin at 13.9%. AWS was the centre of gravity: sales reached $46.0 billion, up 39.3%, and segment operating income rose to $17.8 billion. The cash-flow statement tells a different but compatible story. Trailing operating cash flow increased 29% to $168.3 billion, yet net property and equipment purchases reached $210.7 billion. Amazon therefore reported a $42.4 billion trailing free-cash-flow outflow, versus a $14.8 billion inflow a year earlier, and attributed the increase mainly to artificial-intelligence investment. Management still expects roughly $220 billion of cash capital expenditure in 2026 and projects AWS growth above 40% in both 2027 and 2028. Those forecasts may prove right; they are not results. The investor question is how quickly this physical build turns into durable cash after depreciation, energy and financing costs.",
+        "known": "AWS revenue and profit accelerated, Amazon achieved a record operating margin, and trailing capital purchases exceeded operating cash flow.",
+        "new": "The scale of the AI build has moved Amazon from positive to deeply negative trailing free cash flow even while operating performance improves."
+      },
+      "evidence": { "left": { "label": "Operating strength", "text": "AWS revenue $46.0bn; AWS operating income $17.8bn; group operating margin 13.9%." }, "right": { "label": "Cash burden", "text": "Net property and equipment purchases $210.7bn TTM; free cash flow negative $42.4bn." } },
+      "sources": [
+        { "label": "Amazon Investor Relations · results, segment economics, cash flow and guidance", "url": "https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf" },
+        { "label": "Reuters · holiday outlook and the split between retail and cloud", "url": "https://www.investing.com/news/stock-market-news/amazon-projects-fourth-quarter-sales-below-estimates-4984966" }
+      ]
+    },
+    {
+      "id": "ecb-lagarde-resignation-rates",
+      "number": "04",
+      "category": "Europe, monetary policy & institutions",
+      "sourceNote": "European Central Bank · Thursday",
+      "title": "The ECB held rates as energy inflation rose, while Christine Lagarde announced an early February departure.",
+      "changed": "The ECB kept its deposit rate at 2.50% and said higher energy prices threaten both inflation and growth; Lagarde will step down on 7 February 2027, nearly nine months before her term ends.",
+      "matters": "Europe now faces a monetary-policy handover during an energy shock and tighter bond markets. The appointment process adds political negotiation without changing today's inflation constraint.",
+      "watch": "December inflation and the 17 December meeting, plus the European Council's nomination process. The rate decision and departure date are official; a successor and December move are not.",
+      "lead": false,
+      "group": { "label": "World beyond the lead", "title": "Policy continuity meets institutional transition.", "note": "The ECB says it remains data-dependent; leadership speculation should not be mistaken for a change in the current stance.", "break": true },
+      "sources": [
+        { "label": "European Central Bank · rate decision and inflation assessment", "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html" },
+        { "label": "European Central Bank · Lagarde departure and appointment process", "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html" }
+      ]
+    },
+    {
+      "id": "indigo-fuel-fares-capacity-q2",
+      "number": "05",
+      "category": "Aviation, fuel & network economics",
+      "sourceNote": "IndiGo / Reuters · Thursday",
+      "title": "IndiGo says fare increases are inevitable as fuel reaches 37.8% of expenses and network capacity is reviewed flight by flight.",
+      "changed": "Quarterly expenses rose 19.2% and fuel represented 37.8% of the total; IndiGo forecast low-single-digit December-quarter capacity growth and said international deployment would carry more of the restraint.",
+      "matters": "Fuel inflation is passing from an accounting pressure into network and pricing decisions. For Gulf-connected traffic, capacity discipline can change fares and route economics before passenger demand visibly weakens.",
+      "watch": "Jet-fuel prices, international schedule cuts, passenger revenue per seat and whether festive demand absorbs higher fares. The quarter and capacity guidance are reported; actual fare increases and route changes remain to be observed.",
+      "lead": false,
+      "group": { "label": "Aviation & travel", "title": "The fuel shock is becoming a network decision.", "note": "Strong demand offers pricing power, but every flight still has to clear a much higher input-cost hurdle.", "break": false },
+      "sources": [ { "label": "Reuters · IndiGo results, fuel share, fares and capacity guidance", "url": "https://www.marketscreener.com/news/india-s-indigo-narrows-quarterly-loss-aided-by-pricing-actions-ce785cd3de8ff224" } ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Curiosity Corner",
+      "title": "A spider can enter two distinct stages of regulated sleep—including one that looks strikingly like REM.",
+      "text": "University of Bonn researchers filmed the Australian jumping spider Portia fimbriata over several days and used acoustic stimuli and sleep disruption to test whether rest was regulated. They found two stages, including a REM-like phase with retinal movements and muscle twitches. The study provides behavioural evidence, not proof that spiders dream; no brain activity was measured. Its value is evolutionary: a tiny, very different nervous system may help reveal which functions of sleep are ancient and universal.",
+      "url": "https://www.uni-bonn.de/en/news/221-2026"
+    },
+    {
+      "label": "Qatar retail watch",
+      "title": "Ulta Beauty opened its first Qatar store with more than 250 brands and a second location already dated for November.",
+      "text": "The 702-square-metre Doha Festival City store combines mass and prestige brands, beauty services and two private treatment rooms; Alshaya says a Villaggio location will follow on 25 November. The useful signal is format, not novelty alone: a large specialist retailer is betting that category breadth, services and loyalty can concentrate beauty spending that previously sat across department stores, pharmacies and boutiques.",
+      "url": "https://www.zawya.com/en/press-release/companies-news/ulta-beauty-launches-in-qatar-in-partnership-with-alshaya-group-1856468"
+    },
+    {
+      "label": "Passenger behaviour",
+      "title": "Middle East travellers are the world's most active AI travel planners, while immigration complexity is becoming a larger demand barrier.",
+      "text": "IATA's survey of more than 10,000 passengers found 72% of Middle East respondents had used AI for travel planning and 91% were interested in digital passports for online check-in. Globally, 43% said immigration requirements had discouraged a destination visit, up from 33% in 2025. This is survey evidence rather than bookings data, but it points to a commercial gap: discovery is becoming conversational faster than border and airline systems are becoming interoperable.",
+      "url": "https://www.iata.org/en/pressroom/2026-releases/10-28-iata-2026-global-passenger-survey-travelers-biometrics-ai-entry-requirements/"
+    }
+  ],
+  "attention": {
+    "title": "Open Amazon's own results because one page shows both the AI demand and the financing cost.",
+    "text": "The release puts AWS growth, segment profit, operating cash flow, property purchases and capital guidance in the same document. It is a cleaner basis for judging the infrastructure cycle than the share-price reaction around the announcement.",
+    "url": "https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf"
+  },
+  "ignore": {
+    "title": "Ignore the instant contest over who should replace Lagarde.",
+    "text": "The ECB has announced a departure date, not a successor. Until the European Council makes a nomination, personality speculation adds little to the confirmed policy signal: rates are unchanged, energy inflation is the concern and the bank remains meeting-by-meeting."
+  },
+  "history": {
+    "id": "apollo-guidance-computer-priority-overload",
+    "number": "LV",
+    "readTime": "6 min",
+    "era": "United States & the Moon · 1961–1972",
+    "title": "Apollo's guidance computer did not survive the Moon landing by being powerful. It survived by knowing what mattered first.",
+    "deck": "Minutes before Apollo 11 touched down, the lunar module's computer began reporting 1201 and 1202 alarms. The machine had less working memory than a modern email attachment and was being asked to fly, navigate, display and respond at once. Its decisive feature was not raw capacity but a priority system built to discard lower-value work under overload.",
+    "thesis": "Reliable systems do not assume overload will never happen. They define the work that must survive it, make failure visible and preserve enough context to restart safely. Apollo's computer succeeded because hardware, software, simulation and human judgement formed one recovery system.",
+    "sections": [
+      { "title": "The Moon forced guidance into the vehicle", "text": "When NASA awarded MIT's Instrumentation Laboratory the Apollo guidance contract in 1961, a signal to the Moon and back took too long for Earth to fly every second of the landing. The computer had to travel with the crew. It also had to survive launch vibration, radiation, scarce electrical power and severe limits on weight. NASA chose MIT partly because its Polaris missile work had already forced navigation into constrained hardware. Even so, requirements remained unsettled until late 1962, and engineers later said that a complete early specification might have made the problem look impossible. Autonomy began not as a product feature but as a physical consequence of distance. The machine needed to turn navigation measurements into control decisions when Houston could advise but could not steer in real time." },
+      { "title": "Scarcity made priorities part of the architecture", "text": "The Apollo Guidance Computer packed roughly 2,000 sixteen-bit words of erasable memory and 36,000 words of fixed core-rope memory into about one cubic foot. Fixed programs were physically encoded by threading wires through or around magnetic cores; late software changes therefore had manufacturing consequences. With so little working memory and processing time, the executive could not treat every task equally. It scheduled work by priority and linked jobs to events. Guidance and engine control belonged above display updates or calculations that could wait. This was more than making code small. The designers embedded a theory of mission value inside the operating system: when capacity became scarce, the machine needed a principled answer to which work would continue. The architecture converted scarcity from an accident into a condition the software could manage." },
+      { "title": "Testing created the confidence to continue through an alarm", "text": "Priority scheduling alone could not tell Mission Control whether a particular alarm was safe. NASA and MIT built high-fidelity digital and hardware-in-the-loop simulations, exercised flight programs and catalogued computer responses. During training, guidance officer Steve Bales and computer specialist Jack Garman had confronted overload alarms and developed rules for when the landing could continue. Garman kept a handwritten list of alarm codes at his console. This mattered because the four-digit display did not explain itself to the astronauts. It compressed an internal condition into a code that only a trained organisation could interpret. The alarm was therefore a handoff between layers: the computer detected overload, the code exposed it, specialists interpreted it and the flight director retained authority to abort. Reliability existed in the relationship among them." },
+      { "title": "On 20 July 1969, the computer became overloaded for a reason nobody understood in real time", "text": "As Eagle descended, Buzz Aldrin called a 1202 alarm. More 1201 and 1202 alarms followed. The computer's executive queues were overloaded, in part because the rendezvous radar switch caused the system to keep seeking data it did not need for landing. Nobody in the room immediately knew that full causal chain. What they could see was more important: after each restart, the computer resumed the highest-priority guidance work and continued producing credible navigation. Garman advised that the mission could proceed; Bales passed the go recommendation; flight director Gene Kranz accepted it. The decision was not blind faith in software. It was a bounded inference: essential tasks were still executing, the alarm matched a known class and the spacecraft remained within expected behaviour. Apollo 11 landed with a computer that had shed work without surrendering control." },
+      { "title": "The restart was selective, not amnesia", "text": "A conventional crash-and-reboot story misses the clever part. The Apollo software used restart protection to preserve the state of critical programs and re-establish essential jobs after an overload. Lower-priority tasks that had contributed to congestion were not all resumed. The system could therefore recover while the vehicle was still moving. That property turned an overload from a total discontinuity into controlled degradation. It also explains why the alarms were evidence of the design working, even though the trigger exposed a systems-integration flaw involving switch settings, radar inputs and assumptions across teams. NASA investigated immediately after landing because the lunar module had to launch again. Telemetry and simulation revealed the radar-related cycle stealing. The lesson was not that testing had failed completely. It was that complex systems can meet unanticipated combinations only if their recovery behaviour is designed before the combination occurs." },
+      { "title": "Apollo's durable lesson is to engineer what survives overload", "text": "Apollo's computer never suffered a hardware failure in flight, but its historical importance is broader than perfect hardware. The programme joined strict production quality, priority-driven software, simulation, alarms and disciplined human authority into one system. Modern software often treats overload as a capacity-planning problem: add processors, memory or servers. Apollo's deeper answer was to decide in advance which functions could degrade and which could not. That principle now appears in fault-tolerant aircraft, medical devices, payments and online services, though the details differ. Redundancy without priority can preserve too much work; alarms without trained interpretation can merely export confusion. Reliable systems do not promise that nothing will go wrong. They preserve the work that matters, expose what changed and give people enough evidence to make the next decision." }
+    ],
+    "timeline": [
+      { "date": "AUG 1961", "text": "NASA contracts MIT's Instrumentation Laboratory to develop Apollo guidance, navigation and software." },
+      { "date": "1962", "text": "Mission requirements become clearer as MIT confronts the limits of early-1960s computing technology." },
+      { "date": "1965–1966", "text": "Apollo software grows into a large real-time programme; testing and configuration control become central risks." },
+      { "date": "DEC 1968", "text": "Apollo 8 carries the guidance computer around the Moon, proving the system in crewed lunar flight." },
+      { "date": "20 JUL 1969", "text": "Apollo 11 receives repeated 1201 and 1202 alarms; Mission Control continues after confirming essential tasks survive." },
+      { "date": "21 JUL 1969", "text": "MIT and NASA reproduce the overload and trace it to radar-related cycle stealing after the landing." },
+      { "date": "1972", "text": "NASA's reliability review records 17 flight computers and strict production and failure-analysis procedures." }
+    ],
+    "sources": [
+      { "label": "NASA history · the MIT contract and Apollo as an early large-scale real-time software programme", "url": "https://www.nasa.gov/wp-content/uploads/static/history/computers/Ch2-2.html" },
+      { "label": "NASA Apollo 11 Lunar Surface Journal · technical account of the alarms, priority executive and investigation", "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.1201-fm.html" },
+      { "label": "NASA Apollo 11 Lunar Surface Journal · mission summary and go decision during descent", "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.summary.html" },
+      { "label": "NASA Technical Reports Server · reliability history of the Apollo guidance computer", "url": "https://ntrs.nasa.gov/citations/19750004273" },
+      { "label": "Smithsonian National Air and Space Museum · Apollo flight-software archive from Margaret Hamilton's team", "url": "https://airandspace.si.edu/collection-archive/apollo-flight-guidance-computer-software-collection-hamilton/sova-nasm-1986-0158" }
+    ]
+  },
+  "threads": [
+    { "status": "Advance estimate", "title": "Growth, inflation and rates", "text": "U.S. output accelerated, but September inflation and flat real spending keep a December hike live.", "progress": 57 },
+    { "status": "Two tracks active", "title": "Iran war and Gulf infrastructure", "text": "Qatar is testing reciprocal diplomatic steps while Washington reviews blockade performance and military options.", "progress": 61 },
+    { "status": "Cash conversion test", "title": "AI capital cycle", "text": "AWS growth accelerated as Amazon's infrastructure purchases pushed trailing free cash flow deeply negative.", "progress": 69 },
+    { "status": "Leadership transition", "title": "European monetary policy", "text": "The ECB held rates against energy inflation; Lagarde leaves in February and no successor is nominated.", "progress": 44 },
+    { "status": "Capacity discipline", "title": "Aviation fuel shock", "text": "IndiGo is moving from fuel-cost commentary to fare and route-level capacity decisions.", "progress": 58 }
+  ]
+}
