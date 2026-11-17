@@ -1,0 +1,136 @@
+{
+  "date": { "display": "Sunday, 15 November 2026", "edition": "079", "updated": "8:00 AM" },
+  "worldSentence": "A reusable-space milestone and Southeast Asia's first binding regional digital framework pointed toward lower friction, while Gulf diplomacy moved from military de-escalation toward the harder work of reopening trade and reaching a durable settlement.",
+  "standfirst": "Sunday's edition leads with SpaceX catching a Starship upper stage after a 22-hour orbital flight—a first that advances recovery without yet proving rapid, economical reuse. ASEAN has signed a region-wide digital economy agreement covering a market projected to exceed $1 trillion by 2035, while Washington says further military action against Iran is not needed and Qatar continues to mediate the unresolved terms. US airline schedules are expected to normalize by tonight after thousands of cancellations. Curiosity Corner finds possible plant poison on 125,000-year-old hunting weapons in Saudi Arabia. The Long View revisits Chile's Project Cybersyn.",
+  "listenTime": "15 min",
+  "coverage": [
+    { "count": 9, "label": "Qatar & Gulf" },
+    { "count": 10, "label": "World & politics" },
+    { "count": 9, "label": "Economy & markets" },
+    { "count": 13, "label": "AI & technology" },
+    { "count": 9, "label": "Consumer & travel" }
+  ],
+  "connected": {
+    "title": "Today's common thread is infrastructure that becomes valuable only when it can coordinate the next step: returning a spacecraft, moving data across borders, reopening a waterway or restoring an airline network.",
+    "signals": [
+      { "label": "STARSHIP ORBIT", "value": "22 HOURS", "text": "The upper stage returned to Starbase and was caught after roughly 14 orbits." },
+      { "label": "ASEAN DEFA", "value": "11 STATES", "text": "The agreement is intended to make the region's digital market more open, secure and interoperable." },
+      { "label": "IRAN POLICY", "value": "NO NEW STRIKES", "text": "US officials now say further military action is unnecessary, but the blockade and diplomatic terms remain unresolved." },
+      { "label": "US AVIATION", "value": "SUNDAY", "text": "The FAA expects schedules to normalize by the end of today after the nationwide ground stop." }
+    ],
+    "note": "A successful demonstration is not yet a mature operating system: reuse, regulatory implementation, diplomacy and airline recovery all need repeatable performance beyond the first visible milestone."
+  },
+  "stories": [
+    {
+      "id": "starship-first-orbital-tower-catch",
+      "number": "01",
+      "category": "Space, technology & capital intensity",
+      "sourceNote": "SpaceX and Associated Press · Saturday",
+      "title": "SpaceX caught a Starship upper stage at its launch tower after a 22-hour orbital mission, the first recovery of the spacecraft from orbit.",
+      "changed": "Starship completed about 14 orbits, deployed 26 Starlink V3 satellites, survived re-entry and was caught by the tower arms at Starbase; the Super Heavy booster was not recovered after its catch attempt was called off.",
+      "matters": "Recovering the upper stage removes one of the hardest physical barriers to a fully reusable heavy-launch system, but the economic breakthrough depends on refurbishment time, reliability and recovering both stages on the same mission.",
+      "watch": "Post-flight heat-shield inspection, the reason the booster recovery was abandoned, turnaround time, repeat catches, in-space propellant transfer and NASA's lunar-lander milestones. The catch and payload deployment are confirmed; rapid and inexpensive reuse is not yet demonstrated.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "The spacecraft came home to its tower; the next test is whether recovery can become routine operations.", "note": "A spectacular catch is an engineering milestone, not yet a unit-economics result.", "break": false },
+      "background": { "title": "Reuse becomes transformative only when inspection and relaunch are faster than rebuilding", "text": "Starship's fifteenth flight launched from Texas, deployed useful payload and returned the orbital upper stage to its launch tower. The planned double recovery did not happen because SpaceX called off the Super Heavy booster's catch. A fully reusable system still needs both stages, repeatable landing performance and limited refurbishment.", "known": "The upper stage completed an orbital mission and was caught at Starbase.", "new": "SpaceX has demonstrated return-to-launch-site recovery of the orbital spacecraft itself.", "unknown": "Refurbishment requirements, booster failure chain and achievable cost and cadence." },
+      "evidence": { "left": { "label": "Technical milestone", "text": "An orbital upper stage survived re-entry and was mechanically captured." }, "right": { "label": "Economic milestone", "text": "Rapid turnaround and reliable two-stage recovery remain unproved." } },
+      "sources": [
+        { "label": "SpaceX · Flight 15 objectives, timeline and payload", "url": "https://www.spacex.com/launches/starship-flight-15" },
+        { "label": "Associated Press · completed catch and booster outcome", "url": "https://apnews.com/article/df394c1b5a0f85e11194f9ff7db9ee6b" }
+      ]
+    },
+    {
+      "id": "asean-digital-economy-framework-signed",
+      "number": "02",
+      "category": "Digital trade, entrepreneurship & Asia",
+      "sourceNote": "ASEAN · Saturday",
+      "title": "ASEAN signed a region-wide Digital Economy Framework Agreement designed to make cross-border digital business more interoperable.",
+      "changed": "The 11 member states signed DEFA in Manila after negotiations launched in 2023; ASEAN says the binding framework is expected to enter into force in early 2027.",
+      "matters": "Common rules for data, digital payments, online trade, identity and security can reduce the cost of serving Southeast Asia as one market rather than navigating 11 separate regulatory systems.",
+      "watch": "The final legal text, domestic ratification and implementation, data-transfer exceptions, payment interoperability and treatment of smaller firms.",
+      "lead": false,
+      "group": { "label": "Technology & opportunity", "title": "Southeast Asia is trying to make its digital market function more like one regional system.", "note": "The opportunity is in the implementation details, not the size projection alone.", "break": true },
+      "background": { "title": "A regional rulebook can become economic infrastructure", "text": "Digital commerce crosses borders through payments, data transfer, consumer protection, cybersecurity, digital identity and electronic documents. Shared rules can reduce duplicate compliance, but national execution will determine whether businesses experience a single market.", "known": "All ASEAN members signed the framework and expect a 2027 start.", "new": "The region has moved from negotiation to a signed rulebook.", "unknown": "How consistently national implementation will handle data flows and exceptions." },
+      "evidence": { "left": { "label": "Rulebook", "text": "A common framework can make electronic transactions legible across the region." }, "right": { "label": "Execution", "text": "Commercial effect depends on national law and technical standards." } },
+      "sources": [
+        { "label": "ASEAN · official signing announcement", "url": "https://asean.org/secretary-general-of-asean-attends-the-signing-ceremony-of-the-asean-digital-economic-framework-agreement-defa/" }
+      ]
+    },
+    {
+      "id": "us-iran-military-deescalation-qatar-mediation",
+      "number": "03",
+      "category": "Qatar, Gulf security & energy",
+      "sourceNote": "Associated Press and Qatar News Agency · Saturday",
+      "title": "Washington says further military action against Iran is not needed, shifting attention to Qatar's effort to turn de-escalation into an agreement.",
+      "changed": "Secretary of State Marco Rubio said economic pressure had weakened Iran enough that new strikes were unnecessary while negotiations continue through Qatar.",
+      "matters": "A pause in strikes reduces immediate regional risk, but energy prices and maritime confidence depend on reopening the Strait of Hormuz and replacing military ambiguity with sustainable terms.",
+      "watch": "Safe passage through Hormuz, changes to the naval blockade, nuclear terms and a published interim agreement.",
+      "lead": false,
+      "group": { "label": "Qatar & the Gulf", "title": "The military phase may be pausing, but the economic and diplomatic settlement remains unfinished.", "note": "De-escalation is meaningful without being confused with peace.", "break": true },
+      "background": { "title": "No new strikes is not yet a durable settlement", "text": "Washington's language reduced immediate escalation risk, but the blockade, shipping exposure and nuclear terms remained unresolved. Qatar continued mediating an interim arrangement that could restore traffic through Hormuz before every political dispute was settled.", "known": "Senior US officials said additional military action was not needed.", "new": "Washington was publicly framing negotiation rather than strikes as the immediate path.", "unknown": "Whether the sides could agree on the blockade, navigation and nuclear restrictions." },
+      "evidence": { "left": { "label": "De-escalation signal", "text": "Washington said it did not currently need additional military action." }, "right": { "label": "Settlement evidence", "text": "Hormuz access and reciprocal obligations remained unresolved." } },
+      "sources": [
+        { "label": "Associated Press · US policy shift and Qatar mediation", "url": "https://apnews.com/article/02378df1ec3073d2c0f8f162e697d181" },
+        { "label": "Qatar News Agency · mediation status", "url": "https://qna.org.qa/en/news/news-details?date=10%2F11%2F2026&id=foreign-ministry-qatari-mediation-efforts-continue-to-bridge-views-between-washington-tehran" }
+      ]
+    },
+    {
+      "id": "us-airlines-sunday-recovery",
+      "number": "04",
+      "category": "Aviation & network recovery",
+      "sourceNote": "Associated Press and FAA · Saturday",
+      "title": "US airlines expect schedules to normalize by Sunday night after the nationwide ground stop triggered thousands of cancellations.",
+      "changed": "The FAA said the system was stable and the worst disruption had passed, but carriers continued cancelling flights while repositioning aircraft and crews.",
+      "matters": "Reopening a shared control system does not immediately restore a network whose people and assets are in the wrong places.",
+      "watch": "Sunday completion factors, residual cancellations, crew recovery and the FAA root-cause report.",
+      "lead": false,
+      "group": { "label": "Aviation", "title": "The control system recovered first; the airline network is catching up today.", "note": "Watch completed flights rather than the announcement that departures resumed.", "break": true },
+      "sources": [
+        { "label": "Associated Press · cancellation totals and recovery forecast", "url": "https://apnews.com/article/1fbf4992f0ddaa4c463b0e4990b6e291" },
+        { "label": "FAA · operations plan", "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=1" }
+      ]
+    }
+  ],
+  "radar": [
+    { "label": "Curiosity Corner", "title": "Stone points in Saudi Arabia may preserve the oldest evidence yet of plant poison used on hunting weapons.", "text": "Researchers found impact damage, animal residues and chemical biomarkers associated with Acokanthera schimperi on points dated to about 125,000 years ago. The authors describe evidence consistent with poisoned weapons, not a settled first.", "url": "https://www.cenieh.es/en/press/news/evidence-plant-derived-poison-125000-year-old-hunting-weapons-arabia" },
+    { "label": "Markets this week", "title": "US retail sales and Federal Reserve minutes will test whether inflation is reducing discretionary demand.", "text": "Separate the nominal headline from volumes and category mix.", "url": "https://apnews.com/article/336b95f88ac197f7d0e84199bda23136" },
+    { "label": "Diplomatic calendar", "title": "The ASEAN summit opens today with trade, the South China Sea and Myanmar on the agenda.", "text": "Implementation and enforceable maritime steps matter more than summit language alone.", "url": "https://apnews.com/article/c6424379b1a551099f40b8f4a0318427" },
+    { "label": "Space economics", "title": "Starship's 26 V3 satellites are part of the business case, not a side note.", "text": "Verify delivered capacity and launch cadence before turning design capacity into a revenue forecast.", "url": "https://www.spacex.com/launches/starship-flight-15" }
+  ],
+  "attention": { "title": "SpaceX's Flight 15 mission page", "text": "The timeline shows what was attempted, when the return milestones occurred and how payload deployment fit into the mission.", "url": "https://www.spacex.com/launches/starship-flight-15" },
+  "ignore": { "title": "Calling Starship fully reusable after one upper-stage catch", "text": "The booster was not recovered, and reuse economics require inspection, turnaround and repeated two-stage recovery." },
+  "history": {
+    "id": "history-project-cybersyn-industrial-feedback",
+    "number": "06",
+    "readTime": "6 min",
+    "era": "1970–1973",
+    "title": "Project Cybersyn tried to make a national economy observable before it tried to make it controllable",
+    "deck": "Chile's most famous computer room was only the visible tip of a system built from factory data, statistical alerts, one mainframe and hundreds of ordinary telex machines.",
+    "sections": [
+      { "title": "Nationalization created an information problem", "text": "As Salvador Allende's government expanded public ownership, CORFO acquired responsibility for an industrial system it could not observe quickly enough. Fernando Flores approached British management cybernetician Stafford Beer, who proposed a feedback system that preserved factory autonomy while escalating exceptions." },
+      { "title": "The network was made from infrastructure Chile already had", "text": "With one suitable mainframe and no modern data network, the team used hundreds of stored telex machines. Plants sent selected production indicators; Cyberstride looked for changes beyond agreed limits and CHECO explored scenarios." },
+      { "title": "The operations room turned data into a shared conversation", "text": "Gui Bonsiepe and Chilean collaborators designed a hexagonal room with wall displays and armrest controls. It was a prototype interface for group decision-making, not a completed all-seeing command economy." },
+      { "title": "The truckers' strike became its most important field test", "text": "During the October 1972 strike, the telex network helped officials exchange information about shortages, transport and factories. Research suggests it improved information and supported output alongside emergency committees and improvised logistics." },
+      { "title": "The coup ended the experiment before its hardest questions were answered", "text": "The 11 September 1973 coup ended the project and the room was dismantled. Cybersyn left no proof that cybernetics could run a national economy, but it showed that information systems embed choices about autonomy, thresholds and escalation." }
+    ],
+    "timeline": [
+      { "date": "1970", "text": "Salvador Allende is elected president." },
+      { "date": "July 1971", "text": "Fernando Flores contacts Stafford Beer." },
+      { "date": "November 1971", "text": "Beer arrives in Santiago and the project begins inside CORFO." },
+      { "date": "October 1972", "text": "The telex network is used during the truckers' strike." },
+      { "date": "1972–1973", "text": "Cyberstride, CHECO and the operations-room prototype are developed." },
+      { "date": "11 September 1973", "text": "The military coup ends Project Cybersyn." }
+    ],
+    "sources": [
+      { "label": "MIT Press Reader · Eden Medina on Project Cybersyn", "url": "https://thereader.mitpress.mit.edu/project-cybersyn-chiles-radical-experiment-in-cybernetic-socialism/" },
+      { "label": "MIT Press · Cybernetic Revolutionaries", "url": "https://doi.org/10.7551/mitpress/8417.001.0001" },
+      { "label": "Chile Ministry of Science · official history", "url": "https://www.minciencia.gob.cl/uploads/pdf_encrustados/LibroIngenioChileno_digital-.pdf" }
+    ]
+  },
+  "threads": [
+    { "status": "First ship catch", "title": "Starship reuse", "text": "Refurbishment time, booster recovery and repeat reliability are the next evidence.", "progress": 61 },
+    { "status": "Signed", "title": "ASEAN digital market", "text": "National implementation and technical interoperability begin in 2027.", "progress": 55 },
+    { "status": "Military pause", "title": "US–Iran settlement", "text": "Hormuz access, blockade posture and nuclear terms remain unresolved.", "progress": 59 },
+    { "status": "Recovering today", "title": "US air-traffic modernization", "text": "Schedule normalization is expected Sunday; engineering diagnosis is still pending.", "progress": 68 }
+  ]
+}

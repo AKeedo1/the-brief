@@ -1,0 +1,185 @@
+{
+  "date": { "display": "Friday, 13 November 2026", "edition": "077", "updated": "7:00 AM" },
+  "worldSentence": "Nvidia has lost the founder who embodied the AI boom just as Gulf security, oil prices and inflation are again tightening the conditions around it.",
+  "standfirst": "Friday's edition leads with Jensen Huang's immediate resignation from Nvidia and the governance test now facing the company at the centre of the AI stack. Washington stepped back from an Iran deal, pushing oil higher and making Qatar's mediation and the inflation outlook more consequential. Qatar reported a QAR 22.8 billion third-quarter budget deficit, widened Doha–Manila air rights and advanced a new Gulf-to-Europe fibre corridor through Iraq. Curiosity Corner opens the first major Euclid data release. The Long View follows the compulsory journeys that helped turn Tokugawa political control into roads, post towns and a national market.",
+  "listenTime": "16 min",
+  "coverage": [
+    { "count": 9, "label": "Qatar & Gulf" },
+    { "count": 7, "label": "World & politics" },
+    { "count": 9, "label": "Economy & markets" },
+    { "count": 11, "label": "AI & technology" },
+    { "count": 8, "label": "Consumer & travel" }
+  ],
+  "connected": {
+    "title": "Today's common thread is succession under pressure: leaders, fiscal buffers and physical routes all matter most when conditions turn.",
+    "signals": [
+      { "label": "NVIDIA TRANSITION", "value": "IMMEDIATE", "text": "Colette Kress is interim CEO while the board searches inside and outside the company." },
+      { "label": "QATAR Q3 DEFICIT", "value": "QAR 22.8BN", "text": "Quarterly expenditure exceeded reported revenue by more than two to one." },
+      { "label": "DOHA–MANILA RIGHTS", "value": "28 WEEKLY", "text": "The new memorandum permits 28 passenger flights in each direction plus more cargo capacity." },
+      { "label": "EUCLID RELEASE", "value": ">1BN OBJECTS", "text": "Thirteen months of observations begin the mission's three-dimensional map of the dark Universe." }
+    ],
+    "note": "A founder-led company is testing institutional depth; Qatar's budget is testing the gap between current revenue and strategic spending; and new aviation and fibre rights still need operators to turn permission into capacity."
+  },
+  "stories": [
+    {
+      "id": "nvidia-huang-resigns-kress-interim",
+      "number": "01",
+      "category": "AI, governance & markets",
+      "sourceNote": "Nvidia, SEC and Associated Press · Thursday",
+      "title": "Jensen Huang resigned from Nvidia immediately, leaving the AI era's most important chip company to search for a permanent successor.",
+      "changed": "Nvidia said Huang resigned as president, chief executive and director; finance chief Colette Kress became interim CEO, and independent director Harvey C. Jones became the company's first independent board chair.",
+      "matters": "Nvidia's technology roadmap, developer ecosystem and supply relationships are institutional assets, but Huang personally concentrated strategy, customer trust and public authority to an unusual degree at the most influential bottleneck in AI infrastructure.",
+      "watch": "The 17 November earnings call, the permanent-CEO search, retention of senior technical leaders, the board's independent investigation and whether product, export-control and capacity commitments continue without delay. The transition is confirmed; the reported conduct behind it and any security impact remain under investigation.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "The AI stack has encountered a succession-risk test, not a technology failure.", "note": "The next evidence comes from operating continuity and the quality of the permanent appointment.", "break": false },
+      "background": {
+        "title": "Nvidia must separate what Huang built from what only Huang could do",
+        "text": "The official facts are narrow and consequential. Nvidia's board accepted Huang's resignation effective immediately, appointed long-serving chief financial officer Colette Kress as interim chief executive and began a search that will consider internal and external candidates. It also installed Harvey C. Jones as the first independent chair. Huang co-founded Nvidia in 1993 and led its evolution from graphics chips into the dominant supplier of accelerated-computing systems for artificial intelligence. The company's advantage is not one person: it includes CUDA software, chip architecture, networking, systems engineering, developer adoption and years of supplier and customer relationships. Yet Huang fused those assets into a single external narrative and personally carried unusual influence with customers, governments and investors. The immediate risk is therefore coordination rather than the disappearance of the product moat. Kress offers financial and institutional continuity, but she is holding both chief executive and finance roles temporarily. Nvidia's next earnings report arrives on 17 November, giving the market a near-term test of management depth. Reports surrounding Huang's departure involve alleged personal conduct and national-security concerns; Nvidia has confirmed an independent investigation, but its outcome and any effect on company information are not established.",
+        "known": "Huang left all three roles immediately, Kress is interim CEO, Jones is independent chair and the board has opened a permanent search.",
+        "new": "The company has moved from founder control to a formally separated chair and interim executive structure within days.",
+        "unknown": "Who becomes permanent CEO, what the investigation establishes and whether customers, employees or regulators change behaviour."
+      },
+      "evidence": {
+        "left": { "label": "Institutional moat", "text": "Nvidia's software, engineers, product pipeline and ecosystem remain in place." },
+        "right": { "label": "Concentrated leadership", "text": "Strategy, persuasion and external trust were unusually identified with one founder." }
+      },
+      "sources": [
+        { "label": "Nvidia · official CEO transition announcement", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition" },
+        { "label": "SEC · Nvidia Form 8-K on the resignation and interim appointment", "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm" },
+        { "label": "Associated Press · succession and investigation context", "url": "https://apnews.com/article/5403f152a601cf82ce939f1d24fffa0f" }
+      ]
+    },
+    {
+      "id": "us-steps-back-iran-deal-oil-rises",
+      "number": "02",
+      "category": "Gulf security, energy & inflation",
+      "sourceNote": "Associated Press and Reuters · Thursday night",
+      "title": "Washington said it no longer needs an Iran deal, reversing the week's diplomatic optimism and lifting oil prices.",
+      "changed": "President Trump said the United States no longer needed an agreement with Iran and redirected Vice President Vance toward domestic priorities; Brent settled 3.4% higher at $95.95 a barrel after hopes for a negotiated easing faded.",
+      "matters": "For Qatar, the move weakens a mediation track tied directly to regional security, Hormuz reliability and energy flows; for markets, another oil shock complicates already-high inflation and the path of interest rates.",
+      "watch": "Actual shipping through Hormuz, tanker security, whether Washington and Tehran keep back channels open, and any operational military change. The statement and market reaction are confirmed; whether it is a negotiating tactic or a durable policy shift is not.",
+      "lead": false,
+      "group": { "label": "World beyond the lead", "title": "The Gulf risk premium returned before diplomacy had produced a document.", "note": "Separate rhetoric, physical shipping and military action; they can move on different timelines.", "break": true },
+      "background": {
+        "title": "Oil is transmitting diplomacy into monetary policy",
+        "text": "The change matters because the market had begun to price a path from Qatar-mediated talks toward a more reliable Strait of Hormuz and lower energy risk. Trump instead said Washington did not need a deal and directed Vance away from the Iran file. Brent crude settled at $95.95, up 3.4% for the session, while the U.S. ten-year Treasury yield had already moved above 5% amid concern about inflation. Hormuz shipments have recovered close to prewar levels, but physical recovery does not make the route politically secure. The United States can maintain financial and military pressure while cargo still moves, and Iran can preserve limited flows while retaining escalation leverage. That is why one post cannot resolve the outlook. Qatar's diplomatic role remains relevant precisely because neither side has published an alternative settlement. The near-term market test is whether insurance, freight, tanker movements and official military posture deteriorate alongside the rhetoric. If they do not, the price jump may be mostly risk premium. If they do, higher energy costs will feed transport, food and central-bank decisions far beyond the Gulf.",
+        "known": "Trump publicly stepped back from the deal effort and Brent rose sharply on Thursday.",
+        "new": "Diplomatic optimism that had lowered the Gulf risk premium earlier in the week was abruptly reversed.",
+        "unknown": "Whether back-channel talks continue, whether flows are disrupted and whether the statement precedes renewed military action."
+      },
+      "evidence": {
+        "left": { "label": "Physical system", "text": "Hormuz oil flows have recovered close to prewar levels." },
+        "right": { "label": "Political system", "text": "No agreement has locked that recovery into a durable security arrangement." }
+      },
+      "sources": [
+        { "label": "Associated Press · policy statement, Hormuz flows and regional context", "url": "https://apnews.com/article/d9671cbf66e3c2e337f4fb3485ad07d0" },
+        { "label": "Reuters · Brent close and market reaction", "url": "https://www.investing.com/news/commodities-news/oil-prices-hold-gains-as-trump-sidelines-vance-from-iran-diplomacy-5023781" }
+      ]
+    },
+    {
+      "id": "qatar-q3-budget-deficit",
+      "number": "03",
+      "category": "Qatar economy & public finance",
+      "sourceNote": "Qatar News Agency and Ministry of Finance · Thursday",
+      "title": "Qatar reported a QAR 22.8 billion third-quarter budget deficit as expenditure reached QAR 39.9 billion.",
+      "changed": "Third-quarter revenue was QAR 17.1 billion, including QAR 10.748 billion of oil revenue and QAR 6.327 billion of non-oil revenue, against QAR 39.9 billion of expenditure; the deficit widened from QAR 21.2 billion in the second quarter.",
+      "matters": "The quarter shows the fiscal sensitivity created when strategic spending and the wage bill continue through a period of weaker recognised hydrocarbon revenue, even though one quarter is not the same as the state's full-year financial position.",
+      "watch": "The Ministry's cumulative full-year statement, debt issuance, hydrocarbon receipts, capital-project execution and whether the quarterly classification includes timing effects. The reported quarter is confirmed; the cause of the revenue shortfall and the full-year result are not yet explained.",
+      "lead": false,
+      "group": { "label": "Qatar & the economy", "title": "A quarterly deficit larger than the annual budget assumption needs reconciliation, not panic.", "note": "The missing piece is the cumulative statement and the timing of hydrocarbon receipts.", "break": true },
+      "background": {
+        "title": "The spending composition is visible; the revenue timing is not",
+        "text": "Qatar's Ministry of Finance reported QAR 17.1 billion of revenue and QAR 39.9 billion of expenditure in the third quarter. Salaries and wages accounted for QAR 16.856 billion, current expenditure for QAR 15.437 billion, major capital expenditure for QAR 6.878 billion and minor capital expenditure for QAR 706 million. The resulting QAR 22.8 billion deficit followed QAR 21.2 billion in the second quarter. For context, the approved 2026 budget expected QAR 199.0 billion of revenue, QAR 220.8 billion of spending and a QAR 21.8 billion full-year deficit, based on an assumed oil price of $55 a barrel. The fact that the reported quarterly gap exceeds the original annual forecast is a reason to ask about recognition and timing, not to multiply the quarter by four. Hydrocarbon receipts can be lumpy, budget reporting may not match corporate cash timing, and Qatar's broader public balance sheet extends beyond one quarterly statement. The operational message is still real: persistent current spending and planned capital work require either stronger receipts, financing or adjustment. Government tenders and auctions worth QAR 6 billion in the quarter show that procurement activity continued alongside the deficit.",
+        "known": "The Ministry published the quarter's revenue, expenditure, deficit and spending categories.",
+        "new": "The deficit widened by QAR 1.6 billion from Q2 while reported quarterly revenue remained well below expenditure.",
+        "unknown": "The cumulative nine-month balance, timing of hydrocarbon receipts and how much of the gap is structural rather than timing-related."
+      },
+      "evidence": {
+        "left": { "label": "Quarterly revenue", "text": "QAR 17.1 billion, of which QAR 10.748 billion was oil revenue." },
+        "right": { "label": "Quarterly expenditure", "text": "QAR 39.9 billion, led by wages and current spending." }
+      },
+      "sources": [
+        { "label": "Qatar News Agency · Q3 budget figures", "url": "https://qna.org.qa/en/news/news-details?date=12%2F11%2F2026&id=state-budget-posts-qar-228-billion-deficit-in-q3-2026" },
+        { "label": "Ministry of Finance · approved 2026 state budget", "url": "https://www.mof.gov.qa/en/statebudget2026" },
+        { "label": "Qatar News Agency · Q3 tenders and auctions", "url": "https://qna.org.qa/en/news/news-details?date=12%2F11%2F2026&id=finance-ministry-government-tenders-reach-qar-6-billion-in-q3-2026" }
+      ]
+    },
+    {
+      "id": "qatar-philippines-air-rights-28-flights",
+      "number": "04",
+      "category": "Aviation & connectivity",
+      "sourceNote": "Qatar Civil Aviation Authority via QNA · Thursday",
+      "title": "Qatar and the Philippines expanded air rights to 28 weekly passenger flights in each direction between Doha and Manila.",
+      "changed": "A new memorandum permits designated airlines from both countries to operate up to 28 passenger flights a week in each direction and also increases cargo capacity.",
+      "matters": "The rights create room for more labour, family, tourism and freight connectivity through Doha, but bilateral permission is capacity an airline may use—not a published schedule or proof of demand.",
+      "watch": "Carrier filings, slots, launch dates, fares, load factors and the size of the cargo increase. The memorandum and passenger ceiling are confirmed; actual frequencies and commercial deployment are still unknown.",
+      "lead": false,
+      "group": { "label": "Aviation & travel", "title": "A traffic right is an option; the network decision comes next.", "note": "Watch what airlines schedule, not only what governments permit.", "break": true },
+      "sources": [ { "label": "Qatar News Agency · Qatar–Philippines air-services memorandum", "url": "https://qna.org.qa/en/news/news-details?date=12%2F11%2F2026&id=qatar-and-the-philippines-sign-mou-to-enhance-air-traffic-rights-and-increase-flights" } ]
+    },
+    {
+      "id": "ooredoo-iraq-fiber-transit-authorization",
+      "number": "05",
+      "category": "Digital infrastructure & Gulf business",
+      "sourceNote": "Ooredoo and Qatar News Agency · Thursday",
+      "title": "Ooredoo gained authorization for a fibre transit corridor across Iraq to the Turkish border.",
+      "changed": "Ooredoo Fibre Networks can develop terrestrial infrastructure across Iraq and connect it with the planned Fibre in the Gulf subsea system, creating another route from the Gulf toward Türkiye and Europe.",
+      "matters": "A shorter, controlled route can add latency, capacity and resilience options for operators, cloud providers and AI infrastructure while giving Iraq a larger role in regional data transit.",
+      "watch": "Construction milestones, remaining permits, route security, commercial customers, actual latency and the service-ready date. Authorization is confirmed; cost, completion timing and contracted utilisation are not disclosed.",
+      "lead": false,
+      "group": { "label": "Technology & infrastructure", "title": "The Gulf's AI ambition needs routes as much as data centres.", "note": "Permission and topology are valuable; utilisation will prove the economics.", "break": true },
+      "sources": [
+        { "label": "Qatar News Agency · Iraq transit authorization", "url": "https://qna.org.qa/en/news/news-details?date=12%2F11%2F2026&id=ooredoo-secures-authorization-to-build-international-fiber-optic-transit-network-across-iraq" },
+        { "label": "Ooredoo · FIG and Iraq dark-fibre programme", "url": "https://www.ooredoo.com/en/media/news_view/ofn-signs-dark-fibre-agreement-with-iq-networks-to-advance-iraq-transit-corridor-fig-landing-partnership-with-itpc/" }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Curiosity Corner",
+      "title": "Euclid has released enough sky to begin drawing a three-dimensional map of the dark Universe.",
+      "text": "The European Space Agency's first major Euclid data release contains about 13 months of observations, more than one billion detected objects and an area equivalent to roughly 9,500 full Moons. Images supply shapes and positions; spectra help estimate distance. By combining how galaxies cluster with the tiny distortions caused by intervening mass, researchers can reconstruct the cosmic web and test how dark matter and dark energy shaped it. The curious part is methodological: the telescope studies what cannot be seen directly by measuring how invisible structure bends light and changes the distribution of visible galaxies.",
+      "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-lays-the-foundation-for-its-best-ever-3d-map-of-the-universe"
+    },
+    { "label": "Aviation economics", "title": "Asia-Pacific airlines filled a record share of seats while demand growth slowed.", "text": "AAPA says passenger demand grew 1.9% in the first nine months of 2026 and average load factor reached a record 83%. High utilisation supports yield, but delivery delays, maintenance bottlenecks and labour shortages constrain the capacity airlines can add.", "url": "https://www.aapairlines.org/wp-content/uploads/2026/11/AAPA_PR_Issue17_Outlook_12Nov26.pdf" },
+    { "label": "Rates", "title": "The Federal Reserve's next argument is between a hike and a larger hike.", "text": "October CPI rose 0.4% and core CPI 0.3%. Governor Waller said he leans toward a 25-basis-point December increase and would consider 50 basis points if inflation remained broad and persistent. One governor is not the committee, but the easing narrative has clearly broken.", "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm" },
+    { "label": "Customs technology", "title": "Qatar Customs launched an AI strategy for 2027–2030; the useful detail has not yet been published.", "text": "The direction is automation, risk targeting and digital operations. Watch for named workflows, accountable owners, baselines and error rates before treating the launch as operating progress.", "url": "https://www.qna.org.qa/en/economy/" }
+  ],
+  "attention": { "title": "Nvidia's own transition announcement and SEC filing", "text": "Read the confirmed changes in roles and governance before the surrounding allegations. The narrow official record is the best base for judging the much larger succession story.", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition" },
+  "ignore": { "title": "Treating Nvidia's intraday share-price swing as a verdict on its long-term moat", "text": "The durable evidence will be leadership retention, product execution, customer behaviour and the permanent appointment—not the first session after a founder's exit." },
+  "history": {
+    "id": "history-sankin-kotai-roads-markets",
+    "number": "06",
+    "readTime": "6 min",
+    "era": "1603–1862",
+    "title": "The journeys meant to control Japan's lords helped build a national market",
+    "deck": "Tokugawa rulers required regional lords to maintain two political lives and travel repeatedly to Edo. The system constrained rebellion, but its processions also financed roads, post towns, urban consumption and the circulation of culture.",
+    "thesis": "Institutions built for control can create infrastructure and markets their designers did not primarily intend, because repeated compulsory movement generates demand for coordination.",
+    "sections": [
+      { "title": "Peace left the shogunate with a coordination problem", "text": "After a century of civil conflict, the Tokugawa shogunate ruled a country whose more than 250 domains retained their own lords, retainers and fiscal bases. Victory could establish supremacy, but it could not make those regional power centres disappear. The solution was not a single centralized bureaucracy. It was a system of obligations that made autonomy expensive and visible. Daimyo needed permission for matters such as castle work and marriage, and their territorial position could be changed by the shogun. Most consequentially, they were drawn into the political orbit of Edo, the new seat of military government." },
+      { "title": "Alternate attendance turned loyalty into a recurring journey", "text": "Attendance at the ruler's court had precedents, but the 1635 warrior regulations under Tokugawa Iemitsu made the system known as sankin kōtai compulsory. In principle, a daimyo alternated residence between his domain and Edo, while his wife and heirs remained in Edo. The arrangement gave the shogunate leverage over families and required each lord to maintain establishments in two places. It also forced power to move on a schedule. Processions displayed rank, carried retainers and equipment and consumed money that might otherwise support an independent military challenge. Control was embedded not in a one-time oath but in repeated, observable compliance." },
+      { "title": "A political ritual became a transport economy", "text": "The journeys were enormous logistical events. Japan's transport ministry notes that many processions involved 150 to 300 people, while the largest could reach several thousand. They needed roads, bridges, horses, porters, food, lodging and places able to receive officials according to rank. Spending passed through post towns and merchants along the routes, while Edo absorbed the cost of residences and retinues. The five great highways radiating from Nihonbashi were not created by alternate attendance alone, but the predictable flow of elite travellers gave the network recurring demand and political importance. A rule for supervising lords helped support infrastructure ordinary commerce could also use." },
+      { "title": "Two households pulled domains deeper into cash and credit", "text": "Daimyo income was still measured largely through agricultural output, especially rice, but attendance expenses had to be paid in cash. Maintaining an Edo residence, staging a procession and provisioning retainers pushed domains toward merchants who could convert rice revenues, move goods and extend credit. The system was deliberately burdensome, yet its economic effect was not simple impoverishment. It concentrated consumers in Edo, connected castle towns to the capital and strengthened the intermediaries who financed movement between them. Cultural practices, foods, fashions and information travelled with the people. A mechanism designed to limit regional military capacity helped deepen interregional dependence." },
+      { "title": "The legacy is an unintended network, not a simple master plan", "text": "It is tempting to say the shoguns built modern Japan by design. That is too neat. Alternate attendance primarily served political order, rank and surveillance, and its costs strained domains. Nor did it alone create roads, cities or commerce. Its significance lies in repetition. When hundreds of powerful households must move predictably through a shared system, service capacity accumulates around the requirement. The shogunate later relaxed the rules under fiscal pressure, and the system ended as Tokugawa rule weakened. But by then Edo was a vast consumer city, highways linked political centres and merchants had become indispensable to the movement of value. The control mechanism had helped produce the connected economy within which later change would occur." }
+    ],
+    "timeline": [
+      { "date": "1603", "text": "Tokugawa Ieyasu becomes shogun and establishes the military government at Edo." },
+      { "date": "1615", "text": "The shogunate issues the first major Laws for the Military Houses after defeating the Toyotomi at Osaka." },
+      { "date": "1635", "text": "Tokugawa Iemitsu's revised regulations formalize compulsory alternate attendance for daimyo." },
+      { "date": "1722", "text": "The Kyōhō reforms temporarily relax attendance requirements as the shogunate confronts fiscal strain." },
+      { "date": "1862", "text": "The system is substantially relaxed during the political crisis preceding the end of Tokugawa rule." }
+    ],
+    "sources": [
+      { "label": "Japan Ministry of Land, Infrastructure, Transport and Tourism · procession scale and economic effects", "url": "https://www.mlit.go.jp/common/001157854.pdf" },
+      { "label": "Harvard East Asian Monographs via JSTOR · the institution's structure and political purpose", "url": "https://www.jstor.org/stable/j.ctt1tg5mzk" },
+      { "label": "Metropolitan Museum of Art · a daimyo procession handscroll", "url": "https://www.metmuseum.org/art/collection/search/835028" },
+      { "label": "Stanford APARC · alternate attendance, credible commitment and economic development", "url": "https://aparc.fsi.stanford.edu/publications/sankin_kotai_institutionalized_trust_as_the_foundation_for_economic_development_in_the_tokugawa_era" }
+    ]
+  },
+  "threads": [
+    { "status": "Interim CEO", "title": "Nvidia succession", "text": "Kress holds the role while the board searches and the investigation continues.", "progress": 24 },
+    { "status": "$95.95 Brent", "title": "Iran diplomacy and Hormuz", "text": "Physical flows recovered, but a settlement no longer appears close.", "progress": 43 },
+    { "status": "QAR 22.8bn Q3 gap", "title": "Qatar fiscal position", "text": "The cumulative balance and revenue timing need reconciliation.", "progress": 37 },
+    { "status": "Authorized", "title": "Gulf–Iraq–Europe fibre corridor", "text": "Construction, customers and service readiness remain the proof.", "progress": 31 }
+  ]
+}

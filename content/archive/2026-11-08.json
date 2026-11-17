@@ -1,0 +1,148 @@
+{
+  "date": { "display": "Sunday, 8 November 2026", "edition": "072", "updated": "8:00 AM" },
+  "worldSentence": "Doha is putting technology builders and rule-makers in the same building, while AI capital, luxury events and public markets are all being tested on whether scale produces durable value rather than spectacle.",
+  "standfirst": "Sunday's edition leads with MWC26 Doha opening beside the ITU's four-year policy conference, a rare collision of product demonstrations and global rule-making. OpenAI has closed the first $11 billion of a funding round at a reported $1.25 trillion valuation; Qatar Boat Show ended with 31,150 visitors, 70% returning exhibitors and sold-out hospitality; and the U.S. midterms produced a sector rotation rather than a simple market verdict. A deadly attack in Krakow is kept concise. Curiosity Corner finds two faint companions of the Milky Way in Rubin Observatory preview data. The Long View explains why the ITU began by making telegrams cross borders without being translated at every frontier.",
+  "listenTime": "15 min",
+  "coverage": [
+    { "count": 5, "label": "Qatar & Gulf" },
+    { "count": 4, "label": "World & politics" },
+    { "count": 5, "label": "Economy & markets" },
+    { "count": 6, "label": "AI & technology" },
+    { "count": 5, "label": "Consumer & travel" }
+  ],
+  "connected": {
+    "title": "Today's common thread is the difference between attracting attention and building an institution.",
+    "signals": [
+      { "label": "DOHA TECH WEEK", "value": "BUILDERS + RULES", "text": "MWC opens today and the ITU Plenipotentiary opens Monday at the same venue." },
+      { "label": "OPENAI", "value": "$11B CLOSED", "text": "The first tranche of a larger round reportedly values the company at $1.25 trillion." },
+      { "label": "BOAT SHOW", "value": "70% RETURNING", "text": "Repeat exhibitors are a stronger commercial signal than a one-off visitor count." },
+      { "label": "U.S. MARKETS", "value": "SECTOR ROTATION", "text": "Post-election winners and losers reflected policy exposure more than one unified risk-on or risk-off move." }
+    ],
+    "note": "A conference matters when meetings become contracts or standards. A funding round matters when capital becomes productive capacity. An event matters when exhibitors return. A market move matters when the policy mechanism persists after the first session."
+  },
+  "stories": [
+    {
+      "id": "mwc-doha-itu-policy-week", "number": "01", "category": "Qatar, technology & digital policy", "sourceNote": "GSMA and International Telecommunication Union · Sunday",
+      "title": "MWC26 Doha opens today as the ITU's highest policy-making conference prepares to open beside it.",
+      "changed": "MWC26 Doha begins its three-day programme at the Doha Exhibition and Convention Center, while the ITU Plenipotentiary Conference starts Monday at the same venue for a three-week meeting that will set policy, strategy, finance and leadership for the next four years.",
+      "matters": "Doha is not only hosting a technology exhibition: the first co-location places product builders, operators, ministers and the 194-state standards body close enough for commercial demonstrations and regulatory choices to influence the same conversations.",
+      "watch": "Concrete operator deployments, signed partnerships, Qatar-based investment or capability, and the ITU's 2028–2031 roadmap. The programmes and co-location are confirmed; economic impact and policy outcomes are not.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "Doha has assembled the market and the rulebook in one place.", "note": "The useful output will not be attendance or stage volume. It will be decisions, deployments and relationships that continue after the delegates leave.", "break": false },
+      "background": {
+        "title": "The co-location compresses two different technology clocks",
+        "text": "MWC moves at the speed of products and partnerships. Sunday's agenda includes enterprise transformation, terrestrial and non-terrestrial network integration, digital inclusion, AI and connected infrastructure. The ITU Plenipotentiary moves at the speed of states: every four years members set the Union's general policies, adopt strategic and financial plans, elect senior leadership and choose members of the Council and Radio Regulations Board. PP-26 runs from 9 to 27 November and will agree the roadmap for 2028–2031. Bringing the two into the same venue does not guarantee better rules or better products. It does reduce the physical distance between people building networks and those deciding how spectrum, satellite orbits, technical standards and digital development are coordinated. For Qatar, the test is whether hosting creates local capability and durable commercial access—not only a crowded calendar.",
+        "known": "MWC26 runs 8–10 November, PP-26 runs 9–27 November, and a joint ministerial programme spans the opening days.",
+        "new": "The programmes are now beginning in Doha, making the planned co-location an operating event rather than a future announcement.",
+        "unknown": "Which announcements become deployments, how the ITU roadmap changes and how much activity remains anchored in Qatar."
+      },
+      "evidence": { "left": { "label": "Industry clock", "text": "Three days of demonstrations, operator use cases, investment discussions and partnership announcements." }, "right": { "label": "Institutional clock", "text": "Three weeks of state negotiations on policy, finance, leadership, standards and the governance of shared resources." } },
+      "sources": [
+        { "label": "MWC Doha · official 8 November agenda", "url": "https://www.mwcdoha.com/agenda" },
+        { "label": "GSMA · MWC26 Doha and first co-location with PP-26", "url": "https://www.gsma.com/newsroom/press-release/gsma-mwc26-doha-to-co-locate-alongside-the-itu-plenipotentiary-conference-in-november-2026/" },
+        { "label": "ITU · what PP-26 decides and the 2028–2031 roadmap", "url": "https://www.itu.int/en/mediacentre/backgrounders/Pages/what-you-need-to-know-ahead-of-pp.aspx" }
+      ]
+    },
+    {
+      "id": "krakow-square-attack", "number": "02", "category": "Europe & public security", "sourceNote": "Associated Press · Saturday",
+      "title": "A gunman killed six people in Krakow's main square before police wounded him.",
+      "changed": "Polish authorities said a 25-year-old man drove through several parts of Krakow's Old Town square and opened fire with an automatic weapon, killing six people and injuring 15; officials described ultranationalist views and said evidence so far indicates he acted alone.",
+      "matters": "Mass shootings are rare in Poland, and the attack struck a major public and tourist space, prompting mourning in Krakow and additional protective barriers in Warsaw.",
+      "watch": "Victim identification, the investigation into motive and weapons, the deaths found at the suspect's home, and whether authorities uncover any network. The casualties and arrest are confirmed; the full sequence and motive remain under investigation.",
+      "lead": false,
+      "group": { "label": "World beyond the lead", "title": "A rare mass-casualty attack hit the civic heart of Krakow.", "note": "The immediate facts justify attention; speculation about a wider plot does not.", "break": true },
+      "sources": [ { "label": "Associated Press · Krakow attack, casualties and investigation", "url": "https://apnews.com/article/076b972f107df14a1f71e12a74d4d8e5" } ]
+    },
+    {
+      "id": "openai-eleven-billion-funding", "number": "03", "category": "AI, capital & infrastructure", "sourceNote": "Reuters · Friday",
+      "title": "OpenAI closed $11 billion at a reported $1.25 trillion valuation while the AI trade was being repriced.",
+      "changed": "A source told Reuters that OpenAI closed the initial $11 billion tranche of a funding round valuing the company at $1.25 trillion, with the wider raise potentially continuing after the company reduced its original target during the technology sell-off.",
+      "matters": "The financing shows that enormous private capital remains available to a frontier lab even as public investors question data-centre economics, but the valuation also raises the future revenue and cash-flow hurdle that the business must clear.",
+      "watch": "The final size and investor mix, reported use of funds, infrastructure commitments, enterprise growth and any updated IPO timetable. The first close is sourced reporting, not a company announcement; the final round remains open.",
+      "lead": false,
+      "group": { "label": "AI & capital", "title": "Capital is still flowing, but it is asking a harder question about conversion into value.", "note": "A funding close proves access to money. It does not prove that every promised campus, model or valuation earns its cost.", "break": true },
+      "background": {
+        "title": "Private funding and public-market scepticism can coexist",
+        "text": "OpenAI's reported first close arrived after a severe public-market sell-off in AI-linked shares and after the company reportedly reduced the round's target. Those facts are not contradictory. A small group of private investors may accept long lock-ups and strategic exposure that diversified public shareholders will not price the same way. OpenAI also needs capital before revenue alone can fund its infrastructure ambitions. The $1.25 trillion valuation is therefore both a resource and a burden: it can support compute procurement and company expansion, but it establishes a very high reference point for any later listing or secondary sale. The useful questions are not whether the number is impressive or absurd in isolation. They are how much cash is actually raised, what claims investors receive, how the money is deployed and whether revenue, margins and customer retention grow faster than the capital base.",
+        "known": "Reuters reported an $11 billion initial close at a $1.25 trillion valuation.",
+        "new": "A major financing closed during a week when AI infrastructure and technology shares were under political and market pressure.",
+        "unknown": "The final round size, complete terms, investor list, cash-burn path and timing of any public offering."
+      },
+      "evidence": { "left": { "label": "Capital signal", "text": "$11 billion reportedly closed even after the company reduced its target during the sell-off." }, "right": { "label": "Execution burden", "text": "A $1.25 trillion reference valuation requires exceptional future revenue, margins and financing discipline." } },
+      "sources": [ { "label": "Reuters · OpenAI's $11 billion first close and valuation", "url": "https://www.marketscreener.com/news/openai-secures-11-billion-funding-at-1-25-trillion-valuation-bloomberg-news-reports-ce785fd2dc8bf622" } ]
+    },
+    {
+      "id": "qatar-boat-show-final-metrics", "number": "04", "category": "Qatar, luxury & event economics", "sourceNote": "Qatar News Agency · Saturday",
+      "title": "Qatar Boat Show closed with 31,150 visitors, sold-out hospitality and 70% returning exhibitors.",
+      "changed": "The four-day show reported 31,150 visitors, 546 brands across 277,000 square metres, a 30% increase in GCC participation, 70% returning exhibitors and sold-out hospitality on all four days; Qatari exhibitors represented 55% of participation.",
+      "matters": "The return rate and commercial agreements are more useful than footfall alone: they suggest Old Doha Port is building a repeat platform for marine manufacturing, distribution, hospitality and yacht tourism rather than staging a one-off lifestyle event.",
+      "watch": "Renewals for 2027, sales and export volumes, Mina Link usage, the performance of Kuwait and Maldives distribution agreements, and paid hospitality yield. The event figures are organizer-reported; transaction values and downstream impact were not disclosed.",
+      "lead": false,
+      "group": { "label": "Consumer, luxury & tourism", "title": "The show ended with evidence of repeat participation, not only spectacle.", "note": "The next proof is commercial follow-through: sales, distribution, operator usage and exhibitors choosing to return again.", "break": true },
+      "background": {
+        "title": "Returning exhibitors are the most interesting number in the release",
+        "text": "Visitor volume tells an organizer that attention was available; a 70% exhibitor return rate says suppliers believed the previous edition justified another commitment of time, inventory and money. The 2026 show added a stronger GCC manufacturing presence, several new boat launches, a three-year Mina Link operating agreement, a Kuwait agency for Doha Craft and a Maldives representation agreement for Halul Boats. It also sold out its hospitality offer across all four days. None of those facts yet proves a profitable event or a material increase in yacht tourism. Contract values, boat sales, visitor origin and operator economics were not published. But the mix is directionally stronger than attendance alone because it connects local manufacturing, destination experience, distribution and repeat B2B participation. A durable event compounds when the network becomes harder to recreate elsewhere.",
+        "known": "The organizer reported 31,150 visitors, 546 brands, sold-out hospitality and 70% returning exhibitors.",
+        "new": "The final release adds event-wide participation and retention measures to the agreements reported during the show.",
+        "unknown": "Revenue, profitability, completed boat sales, international visitor share and the commercial value of the announced agreements."
+      },
+      "evidence": { "left": { "label": "Audience", "text": "31,150 visitors and hospitality sold out across all four days." }, "right": { "label": "Commercial continuity", "text": "70% returning exhibitors, more GCC builders and distribution agreements beyond Qatar." } },
+      "sources": [ { "label": "Qatar News Agency · final attendance, exhibitor and partnership figures", "url": "https://qna.org.qa/en/news/news-details?date=8%2F11%2F2026&id=qatar-boat-show-2026-concludes-with-over-30000-visitors" } ]
+    },
+    {
+      "id": "midterm-market-rotation", "number": "05", "category": "Markets, policy & capital allocation", "sourceNote": "Associated Press · Saturday",
+      "title": "The U.S. midterms produced a policy-sensitive market rotation rather than one clean risk verdict.",
+      "changed": "In the three sessions after the election, investors marked down Trump Media, selected defence contractors, AI-power and data-centre names and tariff-exposed alcohol companies, while consumer staples and some clean-energy shares gained.",
+      "matters": "The durable signal is not the index move but the repricing of regulatory, war, tariff and infrastructure exposure after control of Congress changed.",
+      "watch": "Actual legislation, appropriations, permitting rules, tariffs and company guidance. The price moves are confirmed; markets are anticipating policy that has not yet been enacted.",
+      "lead": false,
+      "group": { "label": "Economy & markets", "title": "Investors are separating policy exposures inside the index.", "note": "Treat the rotation as a map of expectations, not evidence that Congress has already changed cash flows.", "break": true },
+      "sources": [ { "label": "Associated Press · sector moves after the U.S. midterms", "url": "https://apnews.com/article/4ac9a6a3c35aeec37374fc8083bf9395" } ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Curiosity Corner",
+      "title": "Rubin preview data found two different kinds of hidden Milky Way companion in only 7% of the sky.",
+      "text": "Aquarius IV is an ultra-faint satellite candidate about 109 kiloparsecs away, detected from a sparse concentration of ancient, metal-poor stars; Rubin-GC1 is a compact, dust-shrouded globular cluster about 31 kiloparsecs away and likely associated with the Sagittarius stream. One may be among the smallest dark-matter-dominated galaxies, the other a remnant carried in by a larger galaxy. Both show how much structure can hide in low light or behind foreground dust.",
+      "url": "https://doi.org/10.3847/2515-5172/ae993b"
+    },
+    { "label": "Qatar mediation", "title": "The U.S.–Iran channel remains live, but no common starting point has been announced.", "text": "Qatar conveyed proposals and the parties have discussed navigation, sequencing and the nuclear file. Watch participation, restraint near Hormuz and verified shipping conditions rather than another round of optimistic language.", "url": "https://apnews.com/article/iran-war-nuclear-program-negotiations-trump-53ed5d271b9aef6f880aebc133ea6a55" },
+    { "label": "Week ahead", "title": "U.S. inflation, housing and jobless claims will test Friday's stronger payroll story.", "text": "The calendar matters because a resilient labour market alongside persistent inflation would keep the cost of capital high even if political risk changes. Read the data together rather than turning each release into a new narrative.", "url": "https://apnews.com/article/40dba34b39bf5bc08c71547e538e3355" }
+  ],
+  "attention": { "title": "Open the official MWC Doha agenda and look for deployable work, not conference theatre.", "text": "The strongest sessions are those tied to enterprise transformation, network integration, digital inclusion and named announcements. They provide a concrete checklist against which the week's claims can be judged.", "url": "https://www.mwcdoha.com/agenda" },
+  "ignore": { "title": "Treating a single post-election sector move as settled policy", "text": "Markets repriced expectations immediately. Congress, regulators and companies still have to convert those expectations into legislation, permits, budgets and cash flows." },
+  "history": {
+    "id": "history-itu-cross-border-standards", "number": "06", "readTime": "6 min", "era": "1849–present",
+    "title": "The first global technology union began because telegrams stopped at borders",
+    "deck": "Early telegraph networks used incompatible equipment, codes, tariffs and accounting. Twenty states created a permanent institution in 1865 so a message could cross Europe as one service—and the same institution later learned to coordinate radio spectrum and satellite orbits.",
+    "sections": [
+      { "title": "A wire could cross a frontier before a service could", "text": "By the middle of the nineteenth century, telegraph lines connected major cities and submarine cables crossed the English Channel. But national networks had been built under different governments and technical systems. At a border, a message might have to stop, be read and then be retransmitted using the next jurisdiction's equipment and procedures. Tariffs were equally fragmented. A sender was not buying one end-to-end service; the message passed through a chain of local rules, currencies, priorities and accounting arrangements. Bilateral agreements linked individual countries, but every new connection added another negotiation. The technology moved information faster than the institutions could agree on how information should move." },
+      { "title": "Regional agreements proved that interoperability could be negotiated", "text": "Prussia and Austria signed an international telegraph agreement in 1849. The Austro-German Telegraph Union followed in 1850 and expanded to other states. Its members agreed to interconnect lines, use Morse apparatus on international routes and calculate tariffs through shared zones. The detail was operational, not ceremonial: a common station at the frontier initially passed messages between networks, government and railway traffic received priority, and even-day and odd-day rules managed direction before duplex transmission existed. These arrangements demonstrated that rival sovereign networks could preserve local control while adopting a shared layer for international traffic. They also showed the cost of stopping at a regional patchwork." },
+      { "title": "Paris turned a patchwork into a permanent union", "text": "Representatives of twenty states met in Paris from March to May 1865. The International Telegraph Convention they signed created the International Telegraph Union and placed service regulations beside the treaty. The agreement standardised international operating procedures, adopted Morse code and instruments for cross-border service, simplified tariffs and used the French franc as the common accounting unit. Crucially, the institution could revise the rules as the technology changed. The founders were not agreeing that every national network should be owned or operated the same way. They were agreeing that the boundaries between networks were a collective engineering and accounting problem. The Convention entered into force on 1 January 1866." },
+      { "title": "Wireless made coordination a problem of scarcity, not only connection", "text": "Telephones were added to international regulations in 1885. Radio then changed the problem: a signal did not respect borders or remain inside one cable. At the 1906 Berlin conference, thirty maritime states adopted the first international radiotelegraph convention and required intercommunication between ships and shore stations using different equipment. Distress messages received priority, interference had to be reduced and frequencies were allocated. Later conferences created bodies to study technical questions and register frequency use. With satellites, orbital positions joined spectrum as globally shared resources. The rulebook grew from fifteen pages in 1906 to more than a thousand because the invisible commons became more crowded and valuable." },
+      { "title": "The durable product is a forum that can keep rewriting the interface", "text": "The Union became a United Nations specialised agency in 1947 and today brings together 194 member states and more than a thousand companies, universities and organisations. It develops standards, coordinates spectrum and satellite orbits and supports telecommunication development. Its conferences can be slow and political because the resources are consequential and states do not share identical interests. Yet that friction is part of the function. Devices and networks can innovate privately; the points where they meet require a place to settle definitions, priorities and access. The ITU's long history is not a claim that one institution designed modern communication. It is evidence that global networks depend on an institution capable of updating the agreement at their edges." }
+    ],
+    "timeline": [
+      { "date": "1849", "text": "Prussia and Austria sign an early treaty linking their telegraph systems." },
+      { "date": "1850", "text": "The Austro-German Telegraph Union creates regional rules for interconnected service." },
+      { "date": "1865", "text": "Twenty states sign the International Telegraph Convention in Paris and create the Union." },
+      { "date": "1885", "text": "International telephone service is added to the regulatory framework." },
+      { "date": "1906", "text": "The Berlin radiotelegraph conference establishes shared maritime radio rules and intercommunication." },
+      { "date": "1947", "text": "The renamed International Telecommunication Union becomes a United Nations specialised agency." },
+      { "date": "2026", "text": "Member states meet in Doha to set policy, finance and leadership for the next four-year cycle." }
+    ],
+    "sources": [
+      { "label": "ITU History · why incompatible border networks led to the 1865 Union", "url": "https://www.itu.int/en/history/pages/ITUsHistory.aspx" },
+      { "label": "ITU History · the 1865 Paris conference, tariffs and service regulations", "url": "https://www.itu.int/en/history/Pages/ITUBorn1865.aspx" },
+      { "label": "ITU History · standardisation from telegraph to telephone", "url": "https://www.itu.int/en/history/Pages/FocusOnStandardization.aspx" },
+      { "label": "ITU History · 1906 radio rules and the shared spectrum", "url": "https://www.itu.int/en/history/pages/focusonradiocommunication.aspx" }
+    ]
+  },
+  "threads": [
+    { "status": "Programmes opened", "title": "Doha technology-policy week", "text": "MWC is under way and PP-26 opens Monday; judge the week by signed work, standards and local capability.", "progress": 30 },
+    { "status": "$11B first close", "title": "AI capital and infrastructure", "text": "OpenAI has fresh capital at a higher valuation while public markets and host communities demand stronger economics.", "progress": 53 },
+    { "status": "Final metrics reported", "title": "Qatar Boat Show platform", "text": "Attendance, retention and hospitality were strong; sales, export volumes and repeat commercial use remain the proof.", "progress": 72 },
+    { "status": "Proposals under review", "title": "Iran war, Hormuz and Qatar mediation", "text": "The channel remains active, but participation, restraint and shipping conditions have not yet confirmed an off-ramp.", "progress": 52 }
+  ]
+}

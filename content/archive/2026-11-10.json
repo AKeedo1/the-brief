@@ -1,0 +1,178 @@
+{
+  "date": { "display": "Tuesday, 10 November 2026", "edition": "074", "updated": "7:00 AM" },
+  "worldSentence": "Qatar's mediation has moved Washington away from renewed strikes, while the harder work begins: turning a presidential declaration into a durable Iran settlement and turning the AI build-out into infrastructure that communities will accept and finance.",
+  "standfirst": "Tuesday's edition leads with Donald Trump's declaration, after meeting Qatar's prime minister, that the Iran war is militarily effectively over—without a ceasefire, troop drawdown or nuclear agreement. The U.S. Senate advanced a bipartisan permitting bill that would accelerate energy projects and make data centres cover more grid costs. Asian markets rebounded as China's annual trade surplus passed $1 trillion. Singapore Airlines committed more than S$2 billion to a new long-haul cabin system. Curiosity Corner listens to chimpanzees learning when a raspberry means something. The Long View explains how M-PESA made ordinary shops the physical infrastructure of digital money.",
+  "listenTime": "15 min",
+  "coverage": [
+    { "count": 7, "label": "Qatar & Gulf" },
+    { "count": 6, "label": "World & politics" },
+    { "count": 8, "label": "Economy & markets" },
+    { "count": 8, "label": "AI & technology" },
+    { "count": 6, "label": "Consumer & travel" }
+  ],
+  "connected": {
+    "title": "Today's common thread is legitimacy at the edge: a system works only when the people carrying its cost can see a credible exchange.",
+    "signals": [
+      { "label": "QATAR MEDIATION", "value": "NO NEW STRIKES", "text": "Trump said the military phase is effectively over after meeting Sheikh Mohammed, but kept the blockade and forces in place." },
+      { "label": "U.S. ENERGY", "value": "73–25", "text": "The Senate advanced a permitting bargain that combines faster approvals with data-centre cost responsibility." },
+      { "label": "CHINA TRADE", "value": ">$1TN", "text": "The 2026 surplus passed one trillion dollars as October exports and imports both surged." },
+      { "label": "SIA CABINS", "value": ">S$2BN", "text": "The airline is redesigning all four long-haul cabin classes for deployment from late 2027." }
+    ],
+    "note": "Diplomacy needs verifiable reciprocal steps, infrastructure needs an accepted allocation of costs, trade needs durable demand rather than one record balance, and a premium cabin needs to improve the whole journey rather than add one photogenic seat."
+  },
+  "stories": [
+    {
+      "id": "qatar-trump-iran-military-pause", "number": "01", "category": "Qatar, diplomacy & energy", "sourceNote": "Associated Press · Monday",
+      "title": "After meeting Qatar's prime minister, Trump said the Iran war is militarily effectively over.",
+      "changed": "President Donald Trump moved away from renewed U.S. strikes and predicted the conflict could end fairly soon, while keeping the naval blockade and deployed forces in place.",
+      "matters": "Qatar appears to have helped convert a threatened escalation into negotiating space, reducing immediate risk to Gulf security, shipping and energy—but the statement does not itself end the war or settle Iran's nuclear programme.",
+      "watch": "A formal ceasefire, any easing of the blockade, an IAEA inspection invitation, verified Hormuz conditions and the treatment of Iran's enriched uranium. Trump's statement and meeting are confirmed; a settlement, drawdown and agreed sequence are not.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "The military threat has receded further than the legal and diplomatic conflict.", "note": "The statement changes near-term conditions. It does not yet create the reciprocal obligations that would make de-escalation durable.", "break": false },
+      "background": {
+        "title": "The useful change is restraint; the missing change is an agreement",
+        "text": "On Monday morning, Qatar's reported two-day proposal was still an unaccepted sequence: the United States would lift its blockade and release some frozen funds, Iran would invite inspectors to damaged nuclear sites, the Strait of Hormuz would reopen and negotiations would resume. After meeting Sheikh Mohammed, Trump said the war was militarily effectively over and that renewed action did not seem necessary. That is the clearest reduction in escalation risk during the current cycle. Yet he also said U.S. forces remain ready, kept the naval blockade in place and offered no troop drawdown. Iran's published demands—including sanctions relief, unfrozen assets and an end to regional hostilities—still exceed what Washington has publicly accepted. Qatar has therefore helped create a pause with political weight, not a completed bargain. The next proof is not another reassuring sentence. It is a sequence that both sides perform and outside observers can verify.",
+        "known": "Trump met Qatar's prime minister and publicly moved away from renewed strikes while saying talks had positive momentum.",
+        "new": "The White House language shifted from a conditional threat of attack to a claim that the military phase is effectively over.",
+        "unknown": "Whether either side accepts Qatar's sequence, when the blockade changes, whether inspectors gain access and what happens to Iran's enriched uranium."
+      },
+      "evidence": {
+        "left": { "label": "De-escalation", "text": "Trump said military action no longer appeared necessary and predicted the conflict could end fairly soon." },
+        "right": { "label": "Unfinished settlement", "text": "The blockade, deployed forces, nuclear dispute and Iranian demands remain in place without a signed agreement." }
+      },
+      "sources": [
+        { "label": "Associated Press · Trump's post-meeting declaration and unresolved conditions", "url": "https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff" },
+        { "label": "Axios · Qatar's proposed two-day confidence-building sequence", "url": "https://www.axios.com/2026/11/09/trump-qatar-prime-minister-iran-war-mediation" }
+      ]
+    },
+    {
+      "id": "us-senate-energy-data-centre-permitting", "number": "02", "category": "AI infrastructure, energy & regulation", "sourceNote": "Associated Press and U.S. Senate · Monday",
+      "title": "The U.S. Senate advanced a rare bipartisan bargain: build energy faster, but make data centres carry more of the grid cost.",
+      "changed": "Senators voted 73–25 to take up the American Affordability and Jobs Act, which would shorten federal permitting timelines for energy and infrastructure projects while assigning major data-centre loads their associated transmission costs.",
+      "matters": "AI's constraint is becoming political and physical rather than computational alone: access to power now depends on who pays for new lines, how quickly projects clear review and whether host communities believe households are subsidising private demand.",
+      "watch": "Final Senate passage, House changes, judicial-review and environmental provisions, the precise cost-allocation rules and whether Trump accepts wind-energy provisions he criticised. The procedural vote is complete; the bill is not law.",
+      "lead": false,
+      "group": { "label": "World beyond the lead", "title": "The AI build-out is becoming a bargain over permission, power and price.", "note": "The coalition agrees that America needs more energy infrastructure. It has not settled how much environmental review or community challenge should remain.", "break": true },
+      "background": {
+        "title": "The compromise tries to solve the queue and the bill at the same time",
+        "text": "Energy projects can spend years in federal review and grid-interconnection queues while AI data centres create unusually large, concentrated electricity demand. The Senate bill attempts a cross-party trade: shorter timelines and stronger permit durability in exchange for requiring data centres to cover associated transmission costs and expanding community information and assistance. That explains the unusual coalition of clean-energy developers, fossil-fuel groups, Democrats and Republicans. It also explains the opposition. Environmental organizations warn that changes to NEPA, endangered-species review and court access could accelerate harmful projects. The 73–25 vote shows room for a bargain; final passage and House acceptance will reveal whether the coalition survives contact with the details. The policy signal is already clear: access to power is no longer being treated as an invisible subsidy to the AI industry.",
+        "known": "The Senate voted to proceed, and the bill includes faster reviews, transmission provisions and data-centre cost responsibility.",
+        "new": "Election backlash against AI data centres has been converted into a national legislative condition on the build-out rather than only local moratoria.",
+        "unknown": "The final text, House path, environmental effect and whether data-centre cost allocation meaningfully protects household bills."
+      },
+      "evidence": {
+        "left": { "label": "Capacity", "text": "New generation and transmission can spend years in review while electricity demand accelerates." },
+        "right": { "label": "Consent", "text": "Speed alone cannot answer who pays or which harms communities may challenge." }
+      },
+      "sources": [
+        { "label": "Associated Press · 73–25 vote, bill scope and opposition", "url": "https://apnews.com/article/permitting-reform-energy-projects-environment-c6290598e26a7b01622e5c4eec571516" },
+        { "label": "U.S. Senate Energy Committee · data-centre and community provisions", "url": "https://www.energy.senate.gov/press/dem/video-heinrich-and-whitehouse-urge-senate-passage-of-bipartisan-american-affordability-and-jobs-act/" }
+      ]
+    },
+    {
+      "id": "china-october-trade-surplus-record", "number": "03", "category": "Global economy & markets", "sourceNote": "Associated Press · Tuesday",
+      "title": "China's 2026 trade surplus has already passed $1 trillion after an exceptional October.",
+      "changed": "Customs data showed October exports up 35.2% from a year earlier and imports up 41.6%, while Asian technology shares rebounded sharply from last week's sell-off.",
+      "matters": "The scale confirms strong external throughput and demand, but a record surplus will intensify scrutiny of Chinese capacity and trade balances even as rising imports complicate a simple weak-domestic-demand story.",
+      "watch": "Product and destination detail, currency effects, tariff responses and whether the October surge persists. The customs figures are reported; one month does not establish the durability or cause of the acceleration.",
+      "lead": false,
+      "group": { "label": "Economy & markets", "title": "A market rebound and a record trade balance are facts; neither resolves the policy tension underneath them.", "note": "Investors regained risk appetite, while China's surplus gives trading partners another reason to debate capacity, access and reciprocity.", "break": true },
+      "sources": [
+        { "label": "Associated Press · China trade data and Asian market rebound", "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-ffe205fbc4fddf65c3e8e64e740355b7" }
+      ]
+    },
+    {
+      "id": "singapore-airlines-long-haul-cabin-system", "number": "04", "category": "Aviation, design & premium travel", "sourceNote": "Singapore Airlines · Friday",
+      "title": "Singapore Airlines is spending more than S$2 billion to redesign all four long-haul cabin classes.",
+      "changed": "The carrier unveiled new First, Business, Premium Economy and Economy products for 41 retrofitted A350s and its future 777-9 fleet, with progressive entry into service from the second half of 2027.",
+      "matters": "The investment treats premium travel as a coherent portfolio across cabins, controls and entertainment—not one photogenic flagship seat—and creates a direct product benchmark for long-haul competitors.",
+      "watch": "Final seat counts, retrofit cadence, 777-9 delivery, operating reliability and whether the programme improves fare mix or loyalty. The products and budget are announced; the customer and financial results will arrive years later.",
+      "lead": false,
+      "group": { "label": "Aviation & customer experience", "title": "The premium signal is orchestration, not one oversized seat.", "note": "SIA is betting that a coherent journey across cabins can defend pricing better than a spectacular feature available to very few customers.", "break": true },
+      "background": {
+        "title": "The redesign treats the cabin as a portfolio rather than a hierarchy of compromises",
+        "text": "Airline cabin announcements naturally focus on First and Business Class because doors, beds and private spaces photograph well. SIA's larger commitment is the simultaneous redesign of every long-haul cabin and the control layer around them. First Class adds enclosed suites and companion dining; Business Class adds privacy, flexible personal space and companion beds; Premium Economy and Economy receive more space, comfort and entertainment options. Smart controls in the premium cabins will remember settings across journeys, while the wider programme includes next-generation KrisWorld and high-speed connectivity. The work was informed by research with more than 5,000 travellers, employees and industry specialists. Commercially, the hard part is deployment: 41 A350 retrofits consume aircraft time, the new 777-9 depends on delivery schedules and different fleets must still feel like one brand. The spend creates an asset. Consistency, reliability and yield will determine whether it becomes an advantage.",
+        "known": "SIA committed more than S$2 billion and named the aircraft, cabin classes, suppliers and second-half-2027 start.",
+        "new": "The airline has expanded a premium-cabin retrofit into a full long-haul experience system across four classes.",
+        "unknown": "Final seat counts, retrofit cadence, delivery effects, operating reliability and the return through fare mix or loyalty."
+      },
+      "evidence": {
+        "left": { "label": "Experience design", "text": "More than 5,000 participants informed how travellers work, dine, rest and use personal space." },
+        "right": { "label": "Operating reality", "text": "The value arrives only through a multi-year retrofit and new-aircraft programme exposed to downtime and delivery risk." }
+      },
+      "sources": [
+        { "label": "Singapore Airlines · cabin features, fleet and investment", "url": "https://www.singaporeair.com/en_UK/jp/corporate/newsroom/press-release/2026/oct-to-dec-2026/Next_generation_Long_Haul_cabin_products/" },
+        { "label": "Singapore Airlines · KrisWorld and high-speed connectivity programme", "url": "https://www.singaporeair.com/en_UK/us/corporate/newsroom/press-release/2026/oct-to-dec-2026/singapore-airlines-introduces-new-range-of-in-flight-amenities-a/Inflight_entertainment_next_generation_KrisWorld_high_speed/" }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Curiosity Corner",
+      "title": "Chimpanzees may learn when a raspberry means something.",
+      "text": "Researchers compared 91 chimpanzees in four wild communities and four sanctuary groups. Wild chimps used the lip-made sound almost only while grooming, while peer-raised juveniles used it more flexibly; one sanctuary group's usage became more consistent after an adult arrived. The finding suggests communities can learn the function of an existing call even if chimpanzees rarely invent new vocal sounds. It is evidence for a signal convention, not proof of human-like language.",
+      "url": "https://doi.org/10.1073/pnas.2606837123"
+    },
+    { "label": "MWC Doha", "title": "Qatar University's new industry agreements still need to become scoped projects.", "text": "QMIC signed memoranda with Es'hailSat for AI-assisted troubleshooting and with Vodafone Qatar for technology collaboration. The agreements confirm partners and direction; watch for named problems, budgets, milestones and deployed results.", "url": "https://qna.org.qa/en/news/news-details?date=9%2F11%2F2026&id=qu-advances-industry-collaboration-with-new-agreements-at-mwc26-doha" },
+    { "label": "Today in Doha", "title": "MWC's closing agenda shifts from showcase to enterprise adoption and network integration.", "text": "The closing programme includes enterprise transformation, terrestrial and satellite integration, quantum-safe networks, agentic AI and 6G. Treat the agenda as a watchlist; named products and partnerships still need evidence after the conference.", "url": "https://www.mwcdoha.com/agenda" }
+  ],
+  "attention": {
+    "title": "Read the permitting bill as the first national price placed on AI's physical footprint.",
+    "text": "The important mechanism is not a generic pro- or anti-AI label. It is the attempt to accelerate energy supply while assigning more transmission cost to the concentrated loads creating it.",
+    "url": "https://apnews.com/article/permitting-reform-energy-projects-environment-c6290598e26a7b01622e5c4eec571516"
+  },
+  "ignore": {
+    "title": "Turning the Nvidia chief executive's private life into an AI investment thesis",
+    "text": "The investigation may matter if it establishes national-security exposure or compromised company information. Personal allegations without that evidence do not explain chip demand, data-centre economics or Nvidia's operating performance."
+  },
+  "history": {
+    "id": "history-mpesa-agent-network",
+    "number": "05",
+    "readTime": "6 min",
+    "era": "2000–2016",
+    "title": "M-PESA became digital money because thousands of ordinary shops made it physical",
+    "deck": "The phone moved information. The agent network moved cash, trust and help across distance. Kenya's mobile-money breakthrough emerged when a loan-repayment experiment became a simple way to send money home—and a regulator allowed the system to learn before writing a complete rulebook.",
+    "sections": [
+      {
+        "title": "The first product solved the wrong problem",
+        "text": "In 2000, Britain's development ministry created a fund to share the risk of private projects that might widen access to finance. Vodafone received nearly £1 million, which it matched, to explore mobile financial services in East Africa. The resulting Kenyan pilot began in 2005 with Safaricom, a bank and the microfinance institution Faulu. Its intended job was narrow: let borrowers repay small loans through mobile phones instead of travelling with cash. Field research revealed something larger. Participants were already using the balances to trade, buy airtime for relatives and move money between places. Urban workers regularly supported family members in rural areas, but sending cash through friends or bus drivers was slow, risky and difficult to verify. The technology team had built a repayment channel. Customers showed them a national remittance problem."
+      },
+      {
+        "title": "Send money home was simpler than mobile banking",
+        "text": "Safaricom launched M-PESA commercially in March 2007 around one promise: deposit cash with an agent, send electronic value by text message and let the recipient withdraw cash from another agent. Users did not need a smartphone, internet connection or traditional bank account. The product was marketed as Send Money Home rather than as a miniature bank. That choice compressed the learning burden into a familiar behaviour. It also gave both sides of the transaction an immediate reason to join: a worker in Nairobi could send value cheaply, while a relative elsewhere could turn it back into usable cash. Adoption reached about two million customers in less than a year. The software mattered, but the proposition mattered more because it described a problem people already understood."
+      },
+      {
+        "title": "Every agent was a tiny two-sided balance sheet",
+        "text": "Digital value is not useful when the surrounding economy still runs on notes and coins unless someone can reliably convert between them. Safaricom recruited airtime dealers, phone shops, grocers and petrol stations as agents. Each needed enough cash to pay withdrawals and enough electronic float to accept deposits. Agents earned commissions on both directions. As their number grew—from roughly 4,000 in early 2008 to 33,000 in 2010 and more than 88,000 in 2013—distance to the service collapsed. The system therefore scaled through thousands of local liquidity decisions: an agent who ran out of cash or float could strand customers even when the central platform worked perfectly. Training, branding, monitoring and rebalancing were not support functions around the product. They were the product's physical infrastructure."
+      },
+      {
+        "title": "Regulation arrived as supervised permission to learn",
+        "text": "Kenya had no rulebook designed for mobile money in 2007. Treating every shop as a bank branch could have stopped the network before it formed; ignoring the risks could have exposed customer funds and the financial system. The Central Bank of Kenya used a risk-based approach, allowing the service to proceed while requiring safeguards, reporting and continued oversight. Safaricom's existing national scale and trusted brand helped it reach critical mass, but regulatory tolerance let the model adapt to observed use. The result was not deregulation. It was supervised permission to learn which risks were real before freezing the product around assumptions."
+      },
+      {
+        "title": "The last physical mile changed household resilience",
+        "text": "Money could travel across a family network at the moment of illness, crop loss or another shock instead of after a physical journey. A six-year household study published in Science estimated that access to M-PESA increased consumption and lifted about 194,000 Kenyan households—roughly 2% of households—out of poverty, with stronger effects for female-headed households and changes in women's movement from subsistence agriculture into business. The estimate is a research finding, not a claim that one payment service solved poverty. Its useful lesson is narrower and more durable: digital infrastructure becomes economically meaningful when the last physical mile is trusted, liquid and close enough to use."
+      }
+    ],
+    "timeline": [
+      { "date": "2000", "text": "A UK development fund backs private experiments intended to widen access to financial services." },
+      { "date": "2005", "text": "Vodafone, Safaricom, a bank and Faulu begin a Kenyan pilot focused on microfinance loan repayment." },
+      { "date": "2007", "text": "M-PESA launches commercially with the simple promise to send money home." },
+      { "date": "2008", "text": "The system reaches about two million customers in less than a year and begins rapidly expanding its agent network." },
+      { "date": "2013", "text": "More than 88,000 agents connect cash and electronic value across Kenya." },
+      { "date": "2016", "text": "A Science study estimates that wider agent access lifted about 194,000 households out of poverty." }
+    ],
+    "sources": [
+      { "label": "FSD Kenya · pilot, product redesign, regulation and early adoption", "url": "https://www.fsdkenya.org/thematic-areas/digital-finance/an-overview-of-m-pesa/" },
+      { "label": "World Bank · agent-network growth and cash-in/cash-out mechanics", "url": "https://documents1.worldbank.org/curated/en/099500512112328940/pdf/IDU0eab9af6003fac049d008c5505c5d308c67b5.pdf" },
+      { "label": "World Bank · risk-based regulation and later network scale", "url": "https://thedocs.worldbank.org/en/doc/305a39cbb6f35567db78bda6709c5cd8-0430012025/original/World-Bank-DFS-Whitepaper-DigitalFinancialServices.pdf" },
+      { "label": "Science · long-run poverty and gender impacts", "url": "https://doi.org/10.1126/science.aah5309" }
+    ]
+  },
+  "threads": [
+    { "status": "Military pause", "title": "Iran war, Hormuz and Qatar mediation", "text": "Trump moved away from strikes after meeting Sheikh Mohammed; a ceasefire, blockade change, inspections and nuclear terms remain open.", "progress": 68 },
+    { "status": "73–25 to proceed", "title": "AI power and political permission", "text": "The Senate is testing a national bargain between faster energy construction and data-centre responsibility for grid costs.", "progress": 54 },
+    { "status": ">S$2B committed", "title": "Premium aviation product cycle", "text": "SIA has designed the system; certification, fleet downtime, delivery timing and customer response come next.", "progress": 38 },
+    { "status": "4 licenses + 2 MoUs", "title": "Qatar research commercialization", "text": "The handoffs are multiplying; scoped projects, validation, approvals and paid deployment remain the proof.", "progress": 40 }
+  ]
+}

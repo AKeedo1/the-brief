@@ -1,372 +1,207 @@
 {
-  "date": {
-    "display": "Thursday, 5 November 2026",
-    "edition": "069",
-    "updated": "8:00 PM"
-  },
-  "worldSentence": "Washington is moving from election arithmetic to divided government, markets are repricing the chance of a narrower Iran war, and aviation, restaurants and AI are offering cleaner evidence about where scale is actually working.",
-  "standfirst": "Thursday's edition confirms that Democrats won both chambers of Congress and separates the political result from the market assumptions now attached to it. Tehran welcomed the rebuke to Donald Trump without softening its own rhetoric; Avolon made the largest 737 MAX order ever placed by a lessor; McDonald's global growth concealed a small U.S. comparable-sales decline; and Pangram shipped image and video detection with strong company-run benchmarks that still need independent testing. Curiosity Corner asks how entropy can emerge from quantum mechanics. The Long View follows aircraft leasing from two 1970s pioneers through Ireland's talent cluster and the legal plumbing that turned aircraft into mobile financial assets.",
+  "date": { "display": "Tuesday, 17 November 2026", "edition": "081", "updated": "8:00 AM" },
+  "worldSentence": "The financial architecture behind the AI buildout is becoming as consequential as the technology itself, while Qatar's newest public company and new rules for cloud compute show capital markets and governments adapting around the same investment wave.",
+  "standfirst": "Tuesday's edition leads with the Federal Reserve's clearest warning yet about the leverage underneath AI infrastructure: advanced-computing debt has reached more than $680 billion this year and off-balance-sheet obligations may exceed $3 trillion. In Doha, Dandy became the Qatar Stock Exchange's 56th company after a QAR 206 million IPO. Washington closed a cloud-compute route around physical chip controls, and Sabre pushed travel agents toward booking and servicing trips by conversation. Curiosity Corner finds glass conducting heat when it narrows to a single atom. The Long View returns to Le Bon Marché and the system that turned shopping into a modern mass business.",
   "listenTime": "15 min",
   "coverage": [
-    {
-      "count": 4,
-      "label": "Qatar & Gulf"
-    },
-    {
-      "count": 4,
-      "label": "World & politics"
-    },
-    {
-      "count": 4,
-      "label": "Economy & markets"
-    },
-    {
-      "count": 4,
-      "label": "AI & technology"
-    },
-    {
-      "count": 5,
-      "label": "Consumer & travel"
-    }
+    { "count": 9, "label": "Qatar & Gulf" },
+    { "count": 11, "label": "World & politics" },
+    { "count": 12, "label": "Economy & markets" },
+    { "count": 14, "label": "AI & technology" },
+    { "count": 10, "label": "Consumer & travel" }
   ],
   "connected": {
-    "title": "Today's common thread is that scale only becomes useful when the operating mechanism is visible.",
+    "title": "Today's common thread is infrastructure becoming finance, regulation and distribution: compute needs debt, chips need controls that follow them into the cloud, and travel inventory needs interfaces that software agents can use.",
     "signals": [
-      {
-        "label": "U.S. CONGRESS",
-        "value": "BOTH CHAMBERS",
-        "text": "Democrats secured House and Senate control; the policy constraint begins with the new Congress in January."
-      },
-      {
-        "label": "BRENT",
-        "value": "−8.7%",
-        "text": "Oil fell sharply as traders priced a greater chance of restraint in the Iran war, not a peace agreement."
-      },
-      {
-        "label": "AVOLON",
-        "value": "140 JETS",
-        "text": "The lessor is buying capacity years ahead because airlines increasingly rent balance-sheet flexibility."
-      },
-      {
-        "label": "MCDONALD'S U.S.",
-        "value": "−0.2% COMPS",
-        "text": "Global sales grew, but the home market still needed a value intervention."
-      }
+      { "label": "AI DEBT", "value": "$680bn+", "text": "Advanced-computing-related issuance through October was about five times 2023's full-year total." },
+      { "label": "OFF BALANCE SHEET", "value": "$3tn+", "text": "The Fed's maximum nominal estimate includes leases, guarantees and long-term contracts." },
+      { "label": "DANDY IPO", "value": "QAR 206m", "text": "Forty percent of the Qatari food producer's capital entered the public market." },
+      { "label": "FREE FLOAT", "value": "40%", "text": "Founders retain 60%, with lock-up restrictions during the first two years." }
     ],
-    "note": "Election control, an aircraft order, a restaurant sales line and an AI benchmark all look definitive from a distance. One layer down, each remains conditional: legislation starts next year, aircraft must be delivered and placed, U.S. guests must return, and detection claims must survive unfamiliar data."
+    "note": "None of these figures proves a bust or a success. They show where execution risk now sits: revenue must catch up with infrastructure commitments, compliance must identify the real compute user, and a listed consumer company must earn its valuation through disclosed operating performance."
   },
   "stories": [
     {
-      "id": "democrats-control-congress-market-repricing",
+      "id": "fed-ai-infrastructure-leverage",
       "number": "01",
-      "category": "United States, policy & global markets",
-      "sourceNote": "Associated Press · Wednesday and Thursday",
-      "title": "Democrats won both chambers of Congress; markets immediately priced gridlock and a lower chance of renewed Iran escalation.",
-      "changed": "The Associated Press called Democratic control of the House and Senate, with at least 54 Senate seats and a House majority already beyond 218; U.S. stocks rallied, defence shares fell and Brent crude dropped 8.7% on Wednesday.",
-      "matters": "Congress can block legislation, control committees and investigations, and shape spending after 3 January, but the market move also embeds an unproven assumption that electoral pressure will restrain Trump's Iran policy.",
-      "watch": "The lame-duck funding fight, Democratic leadership and committee plans, and any concrete change in military orders or Qatari-mediated terms. Chamber control and price moves are confirmed; de-escalation is a market inference.",
+      "category": "AI, markets & financial stability",
+      "sourceNote": "US Federal Reserve · Friday and Monday",
+      "title": "The Federal Reserve mapped the debt underneath the AI buildout—and the hidden obligations are larger than the bonds.",
+      "changed": "The Fed's November stability report estimates advanced-computing-related debt issuance exceeded $680 billion through October, while Governor Michael Barr said potential off-balance-sheet obligations across leases, guarantees and contracts now exceed $3 trillion.",
+      "matters": "The central question for AI investment is no longer only whether the technology works; it is whether future revenues arrive fast enough to support an increasingly connected financing system without a pullback spreading through utilities, private credit, equipment suppliers and corporate spending.",
+      "watch": "AI service revenue, utilization of new data centres, project-finance spreads, hyperscaler lease and guarantee disclosures and whether weaker borrowers keep turning to complex asset-backed structures. The Fed is identifying transmission channels, not forecasting a crash.",
       "lead": true,
-      "group": {
-        "label": "The lead",
-        "title": "The vote settled control; it did not settle the war or the economy.",
-        "note": "The practical shift is institutional power in January. Wednesday's rally was a fast hypothesis about what that power might do.",
-        "break": false
-      },
+      "group": { "label": "The lead", "title": "AI's physical buildout has acquired a financial system of its own.", "note": "Follow the obligations, not only the equity valuations.", "break": false },
       "background": {
-        "title": "Political control and market interpretation moved at different speeds",
-        "text": "Democrats will enter the 120th Congress with majorities in both chambers after gains that reached deeply Republican states. That ends unified Republican control and gives the new Congress the power to set committee agendas, compel testimony, refuse legislation and contest spending. The transition is not immediate: Republicans retain the current Congress through the lame-duck session, including any funding bill and nominations. Markets nevertheless repriced the result within hours. The Dow rose more than 1,500 points, the S&P 500 gained 1.6%, defence contractors fell and Brent crude dropped 8.7% to $94.62. Part of that move reflected a familiar preference for constrained government; part reflected an assumption that Democratic control will pressure the administration away from renewed Iran strikes. The first mechanism is constitutional and dated. The second depends on choices by the president, Congress and Iran that have not happened.",
-        "known": "The Associated Press has called Democratic control of both chambers; at least 54 Senate seats and more than 218 House seats are secured.",
-        "new": "The result is a much wider Democratic majority than the unresolved arithmetic available in Wednesday's edition.",
-        "unknown": "How aggressively Congress will use spending and oversight powers, and whether those powers actually change Iran policy."
+        "title": "A profitable technology can still produce a fragile investment cycle if financing outruns cash flow",
+        "text": "The Federal Reserve's November Financial Stability Report separates three risks inside the advanced-computing boom: the speed of debt growth, circular relationships among firms and obligations that sit outside ordinary corporate bonds. Issuance related to data centres and computing infrastructure rose from about $130 billion in all of 2023 to more than $680 billion through October 2026. The seven largest AI firms are expected to carry more than $800 billion of on-balance-sheet debt by year-end. More important, the potential maximum value of long-term compute leases, energy contracts, residual-value guarantees and other off-balance-sheet commitments exceeds $3 trillion. Strong technology firms often support projects involving weaker developers, utilities or customers. That can fund useful infrastructure, but it also makes the location of risk harder to see if expected AI revenue or asset values disappoint. The Fed's comparison with the telecom buildout is a stress test, not a claim that history will repeat.",
+        "known": "AI infrastructure is increasingly financed through debt, leases, guarantees and project structures rather than retained cash alone.",
+        "new": "The Fed has quantified the scale and highlighted circular financing and contingent obligations as possible amplifiers.",
+        "unknown": "How much of the maximum obligation will become actual exposure, how quickly AI revenue catches up and which projects remain economic under higher funding costs."
       },
       "evidence": {
-        "left": {
-          "label": "Institutional result",
-          "text": "Democrats hold both chambers when the new Congress begins on 3 January 2027."
-        },
-        "right": {
-          "label": "Market hypothesis",
-          "text": "Stocks rose and oil and defence shares fell as investors priced gridlock and possible war restraint."
-        }
+        "left": { "label": "Visible financing", "text": "Advanced-computing debt issuance exceeded $680 billion through October, and related public debt outstanding topped $1.1 trillion." },
+        "right": { "label": "Contingent financing", "text": "Potential off-balance-sheet obligations exceed $3 trillion, though that is a maximum nominal value rather than expected loss." }
       },
       "sources": [
-        {
-          "label": "Associated Press · congressional control, seat thresholds and transition",
-          "url": "https://apnews.com/article/congress-democratic-blue-wave-midterms-house-senate-9c5c4c5283f58b1ae0786e2f410c21a0"
-        },
-        {
-          "label": "Associated Press · global market, oil and defence-sector reaction",
-          "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e"
-        }
+        { "label": "Federal Reserve · November 2026 Financial Stability Report", "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf" },
+        { "label": "Federal Reserve · Governor Barr on AI and financial stability", "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm" }
       ]
     },
     {
-      "id": "iran-election-rhetoric-talks-unchanged",
+      "id": "dandy-qse-first-session",
       "number": "02",
-      "category": "Iran, Qatar mediation & Gulf security",
-      "sourceNote": "Associated Press · Wednesday",
-      "title": "Iran treated the U.S. election as a rejection of war, but its public posture remained defiant and talks produced no new terms.",
-      "changed": "Iran's chief negotiator said Americans had voted against war while the supreme leader warned against expecting a change in U.S. behaviour; back-channel negotiations continued after Monday's limited strikes.",
-      "matters": "The election may alter Washington's political incentives, but neither side has converted that pressure into a shipping, blockade or ceasefire arrangement through Qatar's channel.",
-      "watch": "A written sequence on Hormuz passage, attacks, port access and verification. The rhetoric and continuing talks are confirmed; a softer Iranian bargaining position is not.",
+      "category": "Qatar, consumer & capital markets",
+      "sourceNote": "Qatar Stock Exchange · Monday",
+      "title": "Dandy joined the Qatar Stock Exchange after a QAR 206 million IPO, adding a rare local food manufacturer to the public market.",
+      "changed": "All 103 million shares began trading on Monday at a QAR 5 reference price; the 41.2 million-share offer represents a 40% free float and values the company at QAR 515 million at listing.",
+      "matters": "For Qatar's market, this adds an operating consumer-goods business rather than another financial or property proxy; for Dandy, public disclosure will make its dairy, beverage, ice-cream, packaging and export economics visible over time.",
+      "watch": "The prospectus and first post-listing results: revenue mix, margins, working capital, export growth, capital spending and use of IPO proceeds. A first-day range of QAR 4.88 to QAR 5.30 is price discovery, not evidence of long-term value.",
       "lead": false,
-      "group": {
-        "label": "Qatar & the Gulf",
-        "title": "The bargaining context changed faster than the bargaining positions.",
-        "note": "Tehran can welcome pressure on Trump while still refusing concessions. Doha's test is whether electoral shock produces text, not commentary.",
-        "break": true
+      "group": { "label": "Qatar & markets", "title": "A familiar food brand is becoming a public operating company.", "note": "The listing matters more for the information it will reveal than for one day's price.", "break": true },
+      "background": {
+        "title": "Dandy gives investors a direct view into a part of Qatar's real consumer economy",
+        "text": "Dandy was established in Qatar in 1978 and sells more than 200 products across dairy, beverages and ice cream. It also runs its own plastic-packaging facility, distribution network and private-label production, and exports ice cream to Saudi Arabia and African markets. The IPO sold 41.2 million shares at QAR 5 each: 12.36 million through institutional book-building and 28.84 million through public subscription. Founders retain 60%. They cannot sell their original holdings in the first year, and in the second year their combined stake cannot fall below 40%. That structure provides a meaningful free float while retaining concentrated control. The investment question now moves from brand familiarity and oversubscription to operating evidence: margins, cash conversion, capital intensity, export economics and governance under continuing disclosure.",
+        "known": "Dandy listed with a QAR 515 million reference market value and a 40% free float after an oversubscribed IPO.",
+        "new": "QSE investors can now buy a direct local exposure to dairy, beverages, ice cream and related manufacturing.",
+        "unknown": "The valuation implied by normalized earnings, the pace of regional growth and how efficiently the company deploys new capital."
+      },
+      "evidence": {
+        "left": { "label": "Public float", "text": "Forty percent of capital was offered for QAR 206 million, with institutions receiving 30% of offer shares." },
+        "right": { "label": "Founder control", "text": "Founding shareholders retain 60% and face a staged lock-up during the first two years." }
       },
       "sources": [
-        {
-          "label": "Associated Press · Iranian reaction, continuing talks and Strait developments",
-          "url": "https://apnews.com/article/us-iran-midterm-election-f3c48a92df2bd8a658d3e704a7291d11"
-        },
-        {
-          "label": "Qatar Ministry of Foreign Affairs · confirmed status of the mediation channel",
-          "url": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/11/03/advisor-to-prime-minister--official-spokesperson-for-ministry-of-foreign-affairs--qatar-continues-its-efforts-to-bridge-gap-between-washington--tehran"
-        }
+        { "label": "Qatar Stock Exchange · Dandy listing announcement", "url": "https://www.qe.com.qa/en/displaynewsdetails?InfoID=47415" },
+        { "label": "Qatar Stock Exchange · Dandy company profile and filings", "url": "https://www.qe.com.qa/en/static-company-profile" }
       ]
     },
     {
-      "id": "avolon-140-737-10-order-leasing-signal",
+      "id": "us-remote-compute-chip-rule",
       "number": "03",
-      "category": "Aviation, fleet finance & capacity",
-      "sourceNote": "Boeing and Avolon · Wednesday",
-      "title": "Avolon finalised an order for 140 Boeing 737-10s, the largest 737 MAX purchase ever placed by a lessor.",
-      "changed": "The transaction lifts Avolon's unfilled 737 MAX backlog above 240 aircraft and follows U.S. certification of the 737-10 on 20 October; lessors have placed more than 230 firm orders for the type this year.",
-      "matters": "A lessor is committing capital to the largest MAX variant because airlines want more seats and lower unit cost without each carrier carrying the full ownership and residual-value risk.",
-      "watch": "Delivery timing, Boeing production stability, airline placements and lease rates. The order is firm and certification complete; Boeing's demand and economics claims are manufacturer forecasts.",
+      "category": "Technology, trade & regulation",
+      "sourceNote": "US Bureau of Industry and Security · Monday",
+      "title": "US chip controls now follow advanced computing into overseas data centres instead of stopping at the hardware border.",
+      "changed": "A new interim rule restricts overseas data centres that remotely supply large amounts of US-chip compute to entities in countries of concern and adds customer due-diligence and licensing requirements for higher-diversion-risk destinations.",
+      "matters": "Export control is shifting from counting physical chips to identifying who ultimately uses computing capacity, changing compliance for cloud providers, data-centre operators, chip exporters and customers across third countries.",
+      "watch": "The final rule, implementation guidance, license processing and whether restricted firms reorganize access through smaller providers or multiple jurisdictions. Commercial recommendation systems are excluded, and the practical burden will depend on thresholds and end-user verification.",
       "lead": false,
-      "group": {
-        "label": "Aviation",
-        "title": "The order is a bet on airline demand—and on the balance-sheet value of renting capacity.",
-        "note": "The aircraft matters, but the financing model explains why one buyer can intermediate fleet growth across 138 airlines.",
-        "break": true
-      },
+      "group": { "label": "Technology & trade", "title": "The controlled object is becoming compute access, not only a shipped chip.", "note": "Cloud architecture has forced export rules to follow the end user.", "break": true },
       "background": {
-        "title": "A large order turns fleet demand into a capital-allocation decision",
-        "text": "Avolon owns, manages or has committed 1,092 aircraft across 138 airline customers in 62 countries. Its 140-aircraft purchase is therefore not a route plan for one carrier; it is inventory for a global placement business. The 737-10 can seat up to 230 passengers and fly 3,100 nautical miles, putting it in the high-capacity single-aisle segment where airlines can lower cost per seat on dense short- and medium-haul routes. The FAA certified the type in October after a long programme, but order value still depends on production and placement. Boeing has acknowledged that stabilising 737 output has taken longer than expected. Avolon must receive the jets on useful dates, finance them at workable rates, choose credits and jurisdictions carefully, and manage residual values across cycles. The headline is 140 aircraft. The business is matching mobile assets, airline cash flows and long-dated capital.",
-        "known": "Avolon finalised 140 firm orders and now has more than 240 unfilled 737 MAX orders.",
-        "new": "Lessors have ordered more than 230 737-10s in 2026, five times their backlog for the variant at the end of 2025.",
-        "unknown": "The delivery schedule, customer placements, financing cost and realised lease yield."
+        "title": "Cloud access made physical export controls incomplete",
+        "text": "A company does not need to import an advanced accelerator if it can rent the same computing power from a data centre in another country. The US Bureau of Industry and Security's interim rule responds by applying restrictions to overseas facilities that remotely supply significant compute to companies headquartered in specified countries of concern. Data centres, foundries and chip exporters must perform due diligence on customers and on direct or indirect ownership and control. The rule also adds licensing requirements for advanced-semiconductor transfers to destinations considered unusually exposed to diversion. It exempts commercial recommendation systems such as retail and social-media ranking. The strategic shift is clear: regulators are trying to control the service produced by hardware, not only the hardware's border crossing. The uncertain part is enforcement across layered cloud resellers and corporate structures.",
+        "known": "The interim rule extends controls to certain remote-compute arrangements and raises end-user due-diligence requirements.",
+        "new": "Overseas data-centre access is now explicitly treated as a potential route around physical chip restrictions.",
+        "unknown": "How compliance thresholds will work in practice, how quickly licenses will be processed and how providers will verify indirect users."
       },
       "evidence": {
-        "left": {
-          "label": "Asset",
-          "text": "Up to 230 seats and 3,100 nautical miles in the largest certified 737 MAX variant."
-        },
-        "right": {
-          "label": "Platform",
-          "text": "Avolon serves 138 airlines in 62 countries with 1,092 owned, managed and committed aircraft."
-        }
+        "left": { "label": "Old control point", "text": "Licensing focused primarily on the export, re-export or in-country transfer of advanced chips." },
+        "right": { "label": "New control point", "text": "The rule also examines remote compute supplied by overseas data centres and the identity behind the customer." }
       },
       "sources": [
-        {
-          "label": "Boeing · order size, backlog, aircraft specification and Avolon fleet",
-          "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Avolon-Finalizes-Order-for-140-Boeing-737-10-Jets/default.aspx"
-        },
-        {
-          "label": "Boeing · FAA certification, tests and programme status",
-          "url": "https://investors.boeing.com/investors/news/press-release-details/2026/U-S--FAA-certifies-Boeing-737-10-largest-member-of-737-MAX-family/default.aspx"
-        }
+        { "label": "US BIS · remote-access rule announcement", "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology" },
+        { "label": "US BIS · interim final rule text", "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf" }
       ]
     },
     {
-      "id": "mcdonalds-global-growth-us-value-gap",
+      "id": "sabre-agentic-travel-connector",
       "number": "04",
-      "category": "Restaurants, value & consumer behaviour",
-      "sourceNote": "McDonald's · Wednesday",
-      "title": "McDonald's global comparable sales rose 1.5%, while the U.S. slipped 0.2% despite improvement after a value intervention.",
-      "changed": "Systemwide sales exceeded $38 billion and rose 4%, but comparable sales split sharply: the U.S. fell 0.2%, international operated markets rose 1.4% and developmental licensed markets rose 4.2%.",
-      "matters": "The largest restaurant system is signalling that value architecture, not brand scale alone, is the immediate U.S. demand problem; international markets carried the comp while loyalty sales surpassed $11 billion for the quarter.",
-      "watch": "U.S. guest counts, the price-and-mix contribution, franchisee economics and whether value offers improve traffic rather than merely discount existing demand. Company results are confirmed; the cause of recovery is management's interpretation.",
+      "category": "Aviation, travel & AI",
+      "sourceNote": "Sabre · Tuesday",
+      "title": "Sabre is opening search, booking and post-booking servicing to conversational agents—and making disruption response event-driven.",
+      "changed": "The travel-distribution company announced a beta Mosaic Travel Connector for AI assistants plus APIs designed to trigger action when fares change or flights are disrupted, rather than wait for a fresh customer prompt.",
+      "matters": "Travel's valuable layer is moving beyond itinerary suggestions toward fulfillment and servicing, where inventory rules, payments, changes and airline relationships are much harder to reproduce than chat-based search.",
+      "watch": "Which assistants and travel sellers adopt the connector, who holds customer liability, how consent works for automatic changes and whether airlines retain control of offers and service recovery. The product is entering beta, not yet proven at scale.",
       "lead": false,
-      "group": {
-        "label": "Consumer & restaurants",
-        "title": "Global scale protected the quarter, but the home market still asked a value question.",
-        "note": "A strong franchise system can absorb uneven regions. An individual operator cannot, which makes traffic, ticket and offer economics worth separating.",
-        "break": true
-      },
-      "background": {
-        "title": "Three different scoreboards prevent the headline from hiding the customer",
-        "text": "McDonald's reported more than $38 billion of systemwide sales, a 4% increase, and consolidated operating income up 7%. Those figures describe the economic scale of company and franchised restaurants together. Comparable sales describe mature locations, and there the picture was mixed: global comps rose 1.5%, the U.S. declined 0.2%, international operated markets rose 1.4% and developmental licensed markets increased 4.2%. Management said the U.S. improved as the quarter progressed after an intervention on value, but the release does not disclose guest counts or the precise split between price and mix. Loyalty adds another layer. Identified members generated more than $11 billion in quarterly systemwide sales across 70 markets, a powerful distribution and measurement asset, but not proof that incremental visits are profitable. The useful operating discipline is to read total system sales, comparable demand and offer-level economics separately.",
-        "known": "Global comparable sales, systemwide sales and operating income grew; U.S. comparable sales declined slightly.",
-        "new": "International markets more than offset the U.S. decline, while quarterly loyalty-member sales exceeded $11 billion.",
-        "unknown": "Whether U.S. improvement came from more visits, higher ticket or heavier promotion, and how value offers affected franchise margins."
-      },
-      "evidence": {
-        "left": {
-          "label": "Global system",
-          "text": "Systemwide sales above $38 billion; global comparable sales +1.5%; operating income +7%."
-        },
-        "right": {
-          "label": "U.S. signal",
-          "text": "Comparable sales −0.2%; management says results improved after a value intervention."
-        }
-      },
+      "group": { "label": "Aviation & opportunity", "title": "AI travel is crossing from advice into transaction infrastructure.", "note": "Servicing a disrupted trip is the harder and more valuable test.", "break": true },
       "sources": [
-        {
-          "label": "McDonald's · third-quarter comparable sales, system sales and loyalty figures",
-          "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/Q3-2026-results.html"
-        },
-        {
-          "label": "McDonald's · full release and operating definitions",
-          "url": "https://mcdonalds.mediaroom.com/2026-11-04-McDONALDS-REPORTS-THIRD-QUARTER-2026-RESULTS"
-        }
+        { "label": "Sabre · Mosaic connector and proactive travel APIs", "url": "https://sabre.gcs-web.com/node/20256/pdf" }
       ]
     },
     {
-      "id": "pangram-image-video-detector-release",
+      "id": "trump-asia-nuclear-summit",
       "number": "05",
-      "category": "AI, media authenticity & product claims",
-      "sourceNote": "Pangram · Wednesday",
-      "title": "Pangram released image and video detectors with heatmaps, low-resolution support and browser integration.",
-      "changed": "Pangram Image 1.0 now localises suspected synthetic regions, accepts 256-pixel inputs with a confidence warning, and pairs with a faster video model that analyses frames through an extension or API.",
-      "matters": "Detection is moving from a forensic upload tool toward an ambient layer in feeds, listings and shopping, where false positives and unfamiliar generators matter as much as headline accuracy.",
-      "watch": "Independent tests, false-positive rates on edited real media and performance after new generators appear. Pangram reports 99.96% on its own 1,200-image mirror set and 98.7% on DF26; those are vendor claims, not independent validation.",
+      "category": "Geopolitics & Asia",
+      "sourceNote": "Associated Press · Monday",
+      "title": "Trump began an Asia trip built around Southeast Asian trade deals and unprecedented three-way nuclear talks with Xi and Putin.",
+      "changed": "The US president departed for Manila and Shenzhen, said Ukraine would now be discussed in the three-leader meeting and left open a possible encounter with North Korea's Kim Jong Un.",
+      "matters": "The meeting bundles nuclear stability, Ukraine, the Iran war, technology restrictions and trade into one high-risk diplomatic forum where a broad declaration could conceal unresolved implementation.",
+      "watch": "Whether the talks produce verifiable nuclear measures, defined trade commitments or Ukraine decisions made with Kyiv and Europe at the table. The agenda is confirmed; outcomes are not.",
       "lead": false,
-      "group": {
-        "label": "Technology",
-        "title": "Provenance tools are becoming products, but benchmark ownership still matters.",
-        "note": "A detector can be useful without being an oracle. The decisive evidence is error behaviour on media the vendor did not design the test around.",
-        "break": true
-      },
+      "group": { "label": "The world beyond the lead", "title": "A summit with an unusually broad agenda begins before its terms are settled.", "note": "Separate ceremony from commitments that can be verified.", "break": true },
       "sources": [
-        {
-          "label": "Pangram · release features, evaluation design and stated limitations",
-          "url": "https://www.pangram.com/blog/introducing-pangram-image-1-0"
-        }
+        { "label": "Associated Press · Trump Asia trip and summit agenda", "url": "https://apnews.com/article/trump-china-manila-xi-putin-ffc5e5a2d384f00960034ec10087502e" }
       ]
     }
   ],
   "radar": [
     {
       "label": "Curiosity Corner",
-      "title": "A new proof shows how entropy can rise inside closed quantum many-body systems without smuggling in macroscopic assumptions.",
-      "text": "Researchers defined thermal equilibrium and allowed operations using quantities that remain meaningful at large scale, then derived the law of increasing entropy for any quantum state representing equilibrium. The result does not replace thermodynamics; it tightens the bridge between reversible microscopic rules and the one-way behaviour we experience.",
-      "url": "https://www.s.u-tokyo.ac.jp/en/press/11279/"
+      "title": "Glass stops behaving like an insulator when the bridge narrows to a single atom.",
+      "text": "Researchers pulled a silica contact thinner until only an atomic-scale connection remained and measured heat moving in discrete steps. The conductance reached about 40% of the quantum limit for a single channel—unexpectedly efficient for a material whose disordered structure normally scatters the vibrations that carry heat. At one atom wide, there is too little room for the usual disorder to interrupt the path. The result is a laboratory measurement, not a ready-made cooling technology, but the microscope gives engineers a new way to see how heat crosses the smallest contacts inside future electronics.",
+      "url": "https://www.nature.com/articles/s41565-026-02308-9"
     },
     {
-      "label": "Markets",
-      "title": "The post-election rally mixed one fact with two forecasts.",
-      "text": "Democratic control is settled. Gridlock is likely. A less aggressive Iran war is only a scenario. Brent's 8.7% fall and defence-stock losses show how much of Wednesday's move depended on the third proposition.",
-      "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e"
+      "label": "Climate & energy",
+      "title": "A COP31 draft targets electricity at 35% of global final energy use by 2035.",
+      "text": "The number is useful only with the system behind it: generation, grids, storage, industrial equipment and consumer adoption. Watch whether the final agreement preserves the target and assigns credible national implementation paths.",
+      "url": "https://unfccc.int/cop31"
     },
     {
-      "label": "Tourism",
-      "title": "Dubai's winter connectivity is rebuilding unevenly.",
-      "text": "British Airways resumed London–Dubai service on 3 November, with Lufthansa-group returns planned later in the month, while regional security disruptions still affect other routes. The signal is recovery by corridor, not a fully normal network.",
-      "url": "https://gulfnews.com/business/aviation/uae-flight-status-emirates-etihad-travel-updates-cancellations-delays-1.500735354"
+      "label": "Qatar capability",
+      "title": "Qatar's General Tax Authority and ACCA are creating an accredited local Tax Specialist programme.",
+      "text": "The near-term value is professional capacity rather than a policy change. Watch curriculum, eligibility and whether employers treat the qualification as a practical route into Qatar tax work.",
+      "url": "https://www.qna.org.qa/en/economy/"
+    },
+    {
+      "label": "Travel distribution",
+      "title": "Sabre says more than 99% of its compute is now in the cloud and it processes over one billion travel-shopping requests each day.",
+      "text": "That scale is why agent interfaces matter: the defensible asset may be access to live inventory and servicing rules, not the conversational layer a traveller sees.",
+      "url": "https://sabre.gcs-web.com/node/20256/pdf"
     }
   ],
   "attention": {
-    "title": "Open Boeing's Avolon order release, then read the Long View beside it.",
-    "text": "The release gives the present transaction—140 aircraft, more than 240 unfilled MAX orders and 138 airline customers. The history explains the quieter system underneath: how leasing moved aircraft demand from individual airline balance sheets into a specialised global capital network.",
-    "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Avolon-Finalizes-Order-for-140-Boeing-737-10-Jets/default.aspx"
+    "title": "The Federal Reserve's box on leverage in the data-centre buildout",
+    "text": "It is today's best source because it turns the AI-capital-spending debate into a map of actual financing channels: corporate debt, project finance, leases, guarantees, utilities and circular commercial relationships. Read the figures as exposure estimates and stress paths, not as a forecast of losses.",
+    "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf"
   },
   "ignore": {
-    "title": "Ignore attempts to turn Wednesday's market rally into proof that the Iran conflict is ending.",
-    "text": "Prices can move on changed probabilities. Qatar confirms that proposals are still being exchanged, but neither Washington nor Tehran has announced enforceable terms on shipping, ports or military action."
+    "title": "Treating Dandy's first trading range as an investment verdict",
+    "text": "A new listing's first session mixes allocations, liquidity and price discovery. The useful evidence will come from filings on margins, cash generation, capital spending, exports and governance."
   },
   "history": {
-    "id": "history-aircraft-leasing-mobile-capital",
+    "id": "history-le-bon-marche-modern-retail-system",
     "number": "06",
-    "readTime": "7 min",
-    "era": "1973–present",
-    "title": "How aircraft leasing turned airplanes into a global capital network",
-    "deck": "Two 1970s pioneers separated the use of an aircraft from its ownership. Ireland then combined a failed giant's talent, tax treaties and commercial law with an international registry that made the asset easier to finance across borders.",
-    "thesis": "Aircraft leasing became dominant not because airlines stopped caring about fleets, but because specialist owners became better at pooling capital, residual-value risk, legal rights and remarketing across many airlines and jurisdictions.",
+    "readTime": "6 min",
+    "era": "1838–1887",
+    "title": "Le Bon Marché did not invent one retail trick—it assembled the operating system of modern shopping",
+    "deck": "Fixed prices, returns, rapid stock turnover, catalogues and spectacle reinforced one another. A Paris shop became a department store by replacing personal bargaining with a system that could earn trust and move goods at scale.",
     "sections": [
-      {
-        "title": "The breakthrough was to separate flying from owning",
-        "text": "Commercial airlines once bought most of the aircraft they operated, tying large amounts of capital to assets that would remain on the balance sheet through traffic cycles and technology changes. International Lease Finance Corporation was founded in Los Angeles in 1973; Guinness Peat Aviation followed at Shannon in 1975. Their proposition was simple in outline and demanding in execution: a specialist owner could buy aircraft in volume, lease them to several airlines over their lives, monitor maintenance and move them when a customer failed or a market changed. U.S. deregulation in 1978 accelerated demand and helped leasing's share rise sharply in North America. Globally, leased aircraft grew from roughly 10% of the fleet in the 1970s to 58% by the end of 2023."
-      },
-      {
-        "title": "GPA's collapse preserved the skill that made Ireland a hub",
-        "text": "During the 1980s, GPA became the world's largest commercial aircraft lessor and built an unusually dense team of engineers, marketers, financiers and lawyers around a global aircraft portfolio. Its attempted 1992 flotation failed in a market weakened by the Gulf War, leaving a liquidity crisis against an order book of about 700 aircraft. The company did not survive in its original form, but the capability did. Former GPA people founded or staffed a succession of lessors, including businesses that became AerCap, GECAS and other Dublin platforms. Ireland reinforced the cluster with tax treaties, an English-language legal system, financial-services infrastructure and policy support. Failure destroyed one balance sheet while dispersing an operating school."
-      },
-      {
-        "title": "Mobile assets needed law that could travel with them",
-        "text": "An aircraft can cross several jurisdictions in a day, while its owner, lender and airline may sit in three others. Before common rules, a financier could not be equally certain that title, security or repossession rights would be recognised everywhere the asset travelled. The 2001 Cape Town Convention and Aircraft Protocol created a framework for international interests in aircraft objects, an electronic registry and remedies including deregistration and export. The point was not abstract legal harmony. More predictable enforcement lowered creditor risk, made cross-border financing cheaper and widened the set of airlines able to lease modern equipment. The asset became more financeable because the property right became more portable."
-      },
-      {
-        "title": "The modern lessor is a risk-and-information platform",
-        "text": "Today the lessor does more than rent metal. It raises long-dated capital, orders aircraft before individual airlines need them, evaluates airline credit, negotiates maintenance reserves, manages technical records, places assets across regions and takes residual-value risk when a lease ends. Airlines gain fleet flexibility and avoid funding the entire purchase price; lessors gain diversification but inherit concentration, funding and repossession risks. Ireland's 2024 aircraft-leasing sector reported €19.5 billion in operational leasing income, €268 billion of assets and 3,005 employees. The small headcount beside the asset base reveals the model: this is an expertise-intensive financial and technical network whose physical collateral happens to fly."
-      }
+      { "title": "Retail began as a negotiation between a customer and a specialist", "text": "In early nineteenth-century Paris, most clothing and household goods were bought from small specialist shops. Prices were often negotiated, ready-made choice was limited and browsing without buying could be uncomfortable. The shopkeeper's knowledge and relationship with the customer were part of the transaction, but the model did not scale easily. Au Bon Marché began as a modest novelty shop around 1838. When Aristide Boucicaut joined the business in 1852, it had roughly a dozen employees and four departments. The opportunity was not merely to make the shop larger. It was to redesign how strangers could trust a retailer." },
+      { "title": "Fixed prices made browsing possible because they removed a hidden negotiation", "text": "Boucicaut and his wife Marguerite built around visible fixed prices, entry without an obligation to buy and the ability to exchange or return goods. Those policies moved risk away from the customer. A shopper no longer needed to judge whether a clerk had named a fair price or whether touching a product created a social debt. Fixed prices also changed management. Goods could be compared across departments, clerks could sell through a common system and advertising could state an offer before a customer entered the building. Trust became partially embedded in rules rather than dependent on one salesperson." },
+      { "title": "Low margins worked only because the store accelerated turnover", "text": "Le Bon Marché paired fixed prices with lower margins, broad choice and fast renewal of stock. The mechanism was cumulative: attractive prices drew more customers; more customers supported larger orders; volume and rapid turnover allowed the store to refresh its assortment and keep reducing the cost of stale inventory. Seasonal sales created demand for goods that might otherwise sit idle. The famous January sales of white household linen became a repeatable calendar event and were copied by competitors. What looked like promotion was inventory management, customer acquisition and habit formation in one move." },
+      { "title": "Architecture and media turned distribution into an experience", "text": "From 1869 the company built an iron-and-glass complex designed to hold expanding departments, dramatic displays and crowds. Catalogues and mail order extended the store beyond Paris; home delivery separated purchasing from carrying; reading rooms, exhibitions and concerts made time in the building part of the product. By 1887 the store occupied a full urban block. Émile Zola studied the Bon Marché and other stores for his 1883 novel Au Bonheur des Dames because the new retail format was changing labour, gender, desire and the physical city, not only the sale of fabric." },
+      { "title": "The real innovation was a reinforcing system—and it created new costs", "text": "No single practice belonged only to Le Bon Marché, and historians debate which business deserves the title of first department store. Its significance lies in assembling practices that strengthened one another: fixed prices supported advertising; returns reduced purchase anxiety; lower margins required turnover; catalogues expanded reach; architecture produced attention; salaried departments made the assortment manageable. The same system also concentrated market power, displaced smaller retailers and imposed demanding labour discipline. Modern retail inherited both sides. The durable lesson is not that spectacle wins. It is that a customer promise becomes transformative only when pricing, inventory, service, distribution and operations make the same promise together." }
     ],
     "timeline": [
-      {
-        "date": "1973",
-        "text": "International Lease Finance Corporation is established in Los Angeles."
-      },
-      {
-        "date": "1975",
-        "text": "Guinness Peat Aviation is founded at Shannon, creating the nucleus of Ireland's leasing cluster."
-      },
-      {
-        "date": "1992",
-        "text": "GPA's failed flotation triggers a liquidity crisis, but its trained workforce disperses through the industry."
-      },
-      {
-        "date": "2001",
-        "text": "The Cape Town Convention and Aircraft Protocol establish portable international interests and a registry."
-      },
-      {
-        "date": "2004",
-        "text": "Leased aircraft first exceed half of the global commercial fleet, according to IATA's later series."
-      },
-      {
-        "date": "2024",
-        "text": "Irish aircraft lessors hold €268 billion of assets and earn €19.5 billion from operational leasing."
-      }
+      { "date": "c. 1838", "text": "Au Bon Marché opens in Paris as a small novelty shop selling items such as fabrics and accessories." },
+      { "date": "1852", "text": "Aristide and Marguerite Boucicaut begin transforming the store around fixed prices, broad assortment and customer guarantees." },
+      { "date": "1863", "text": "Boucicaut takes full control after buying out partner Paul Videau and accelerates expansion." },
+      { "date": "1867", "text": "Mail-order catalogues extend the store's reach beyond customers who can visit Paris." },
+      { "date": "1869", "text": "Construction begins on a purpose-built iron-and-glass department-store complex." },
+      { "date": "1883", "text": "Émile Zola publishes Au Bonheur des Dames after researching the new department-store system." },
+      { "date": "1887", "text": "The expanded complex fills the block and the business operates at a scale unimaginable in its four-department beginning." }
     ],
     "sources": [
-      {
-        "label": "IATA · the leased share of the world fleet, 1970–2023",
-        "url": "https://www.iata.org/en/iata-repository/publications/economic-reports/more-aircraft-are-leased-than-owned-by-airlines-globally/"
-      },
-      {
-        "label": "AerCap · ILFC, GPA and the Irish industry lineage",
-        "url": "https://www.aercap.com/about-us/celebrating-50-years-of-flight"
-      },
-      {
-        "label": "KPMG Ireland · GPA's failed flotation and order-book liquidity crisis",
-        "url": "https://assets.kpmg.com/content/dam/kpmg/ie/pdf/2020/03/ie-aviation-finance-leasing-series-how-have-public-aircraft-leasing-companies-performed.pdf"
-      },
-      {
-        "label": "UNIDROIT · Cape Town Convention objectives, registry and remedies",
-        "url": "https://www.unidroit.org/instruments/security-interests/cape-town-convention/overview/"
-      },
-      {
-        "label": "Central Statistics Office Ireland · 2024 income, assets and employment",
-        "url": "https://www.cso.ie/en/releasesandpublications/ep/p-ali/aircraftleasinginireland2024/keyfindings/"
-      }
+      { "label": "Bibliothèque nationale de France · department stores and modern commerce", "url": "https://www.bnf.fr/fr/mediatheque/les-grands-magasins-aux-sources-du-commerce-moderne" },
+      { "label": "BnF · Le Bon Marché, Zola and the department-store operating model", "url": "https://multimedia-ext.bnf.fr/pdf/Bonheur-des-dames.pdf" },
+      { "label": "JSTOR · Le Bon Marché and the transformation of shopping", "url": "https://about.jstor.org/blog/shopping-paradise-emile-zola-and-the-worlds-first-department-store/" },
+      { "label": "Gallica · the January white-sale tradition", "url": "https://gallica.bnf.fr/accueil/fr/html/les-ventes-promotionnelles-de-blanc-des-grands-magasins" }
     ]
   },
   "threads": [
-    {
-      "status": "Control settled",
-      "title": "U.S. Congress after the midterms",
-      "text": "Democrats secured both chambers; the transition to committee, spending and oversight power begins in January.",
-      "progress": 86
-    },
-    {
-      "status": "Channel active",
-      "title": "Hormuz access and Gulf security",
-      "text": "Iran welcomed electoral pressure on Trump, but Qatar's mediation has not produced enforceable terms.",
-      "progress": 50
-    },
-    {
-      "status": "Capital committed",
-      "title": "Airline fleet growth",
-      "text": "Avolon ordered 140 737-10s; delivery, placement and lease economics now determine the value.",
-      "progress": 63
-    },
-    {
-      "status": "Value test",
-      "title": "Restaurant visits and pricing",
-      "text": "McDonald's global system grew while U.S. comparable sales slipped and management intervened on value.",
-      "progress": 46
-    }
+    { "status": "Financing expands", "title": "AI infrastructure", "text": "Revenue, utilization and complex obligations will determine whether leverage amplifies the boom or its repricing.", "progress": 72 },
+    { "status": "Now public", "title": "Dandy", "text": "The first post-listing disclosures will replace brand familiarity with comparable operating evidence.", "progress": 55 },
+    { "status": "Rule issued", "title": "Compute controls", "text": "Cloud providers must turn end-user identity into an enforceable compliance process.", "progress": 61 },
+    { "status": "Entering beta", "title": "Agentic travel", "text": "Booking and disruption servicing will test whether assistants can carry responsibility as well as conversation.", "progress": 46 }
   ]
 }

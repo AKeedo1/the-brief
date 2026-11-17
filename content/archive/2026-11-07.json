@@ -1,0 +1,371 @@
+{
+  "date": {
+    "display": "Saturday, 7 November 2026",
+    "edition": "071",
+    "updated": "8:00 AM"
+  },
+  "worldSentence": "Qatar is trying to turn a live exchange of force into a negotiation, while AI infrastructure, American employment and global travel all show growth becoming more conditional rather than simply disappearing.",
+  "standfirst": "Saturday's edition begins where Qatar's mediation and a new American strike on Iran collided within hours. OpenAI answered the political backlash against data centres with commitments on power, water, disclosure and local consent; the U.S. added 165,000 jobs but also more involuntary part-time work; Airbnb posted its fastest revenue growth in more than three years as it expanded into hotels and services; and the Qatar Boat Show converted a lifestyle event into operating and distribution agreements. Curiosity Corner finds direct chemical evidence of psychoactive cannabis use 2,800 years ago. The Long View follows Braille from a teenager's six-dot invention through institutional resistance and the long fight for a shared code.",
+  "listenTime": "16 min",
+  "coverage": [
+    {
+      "count": 5,
+      "label": "Qatar & Gulf"
+    },
+    {
+      "count": 4,
+      "label": "World & politics"
+    },
+    {
+      "count": 4,
+      "label": "Economy & markets"
+    },
+    {
+      "count": 5,
+      "label": "AI & technology"
+    },
+    {
+      "count": 5,
+      "label": "Consumer & travel"
+    }
+  ],
+  "connected": {
+    "title": "Today's common thread is the price of keeping growth legitimate.",
+    "signals": [
+      {
+        "label": "QATAR MEDIATION",
+        "value": "PROPOSALS LIVE",
+        "text": "Iran is reviewing ideas conveyed by Qatar even as the United States struck an air-defence target on Qeshm Island."
+      },
+      {
+        "label": "OPENAI CAMPUSES",
+        "value": "LOCAL COMPACTS",
+        "text": "Future company-owned sites are promised disclosure, financial assurances and full payment of dedicated infrastructure costs."
+      },
+      {
+        "label": "U.S. PAYROLLS",
+        "value": "+165,000",
+        "text": "Hiring beat the prior twelve-month average, but involuntary part-time work increased by 339,000."
+      },
+      {
+        "label": "AIRBNB",
+        "value": "+19% REVENUE",
+        "text": "Growth accelerated as the marketplace added hotels, services and new distribution partnerships."
+      }
+    ],
+    "note": "Military pressure needs a diplomatic off-ramp; compute needs community permission; labour growth needs job quality; a travel platform needs useful adjacencies. The headline expansion is real in each case, but so is the condition attached to it."
+  },
+  "stories": [
+    {
+      "id": "qatar-iran-proposals-qeshm-strike",
+      "number": "01",
+      "category": "Qatar, Iran & Gulf security",
+      "sourceNote": "Qatar News Agency and Associated Press · Friday",
+      "title": "Qatar's Iran proposals remained live as the United States struck an air-defence target on Qeshm Island.",
+      "changed": "Iran was reviewing Qatari proposals on the nuclear dispute and a possible negotiation framework when President Trump said U.S. forces carried out a limited strike on an Iranian air-defence system; Iranian media reported explosions on Qeshm Island beside the Strait of Hormuz.",
+      "matters": "The same day contained both a real mediation channel and fresh military action near the waterway that carries Gulf energy, making Qatar's ability to keep the parties engaged more consequential—and more fragile.",
+      "watch": "Iran's response, whether Tehran accepts talks under any of its stated conditions, the treatment of Hormuz in a package and independent details on the U.S. target. The proposals and strike are confirmed; a breakthrough is not.",
+      "lead": true,
+      "group": {
+        "label": "The lead",
+        "title": "Diplomacy and force are now operating on the same clock.",
+        "note": "That can create leverage, but it can also destroy the room in which leverage is meant to work. The next evidence is participation and restraint, not optimistic language.",
+        "break": false
+      },
+      "background": {
+        "title": "The proposals matter because they put a testable structure around a vague off-ramp",
+        "text": "Qatar's Amir and President Trump discussed efforts to bridge the parties and reach a comprehensive agreement, with Sheikh Tamim emphasising diplomacy, maritime freedom and energy security. Two regional officials told the Associated Press that Tehran was reviewing proposals presented by Qatar, but one said Iran still would not enter nuclear talks until the United States accepted several ceasefire conditions. Iraqi state media separately described Iran's vision as linking the reopening of Hormuz, a timetable for negotiations and nuclear issues. Hours later, Trump said U.S. forces had destroyed a newly built Iranian air-defence system; Iranian media placed explosions in the Suza area of Qeshm Island. These facts do not establish a coordinated pressure strategy or an imminent deal. They establish that negotiators now have concrete subjects—navigation, sequencing and the nuclear file—while military action continues close to the infrastructure whose security a deal is supposed to restore. Qatar's value is the maintained channel. Its limit is that neither party has yet accepted a common starting point.",
+        "known": "Qatar conveyed proposals, the Amir and Trump discussed de-escalation, and the United States reported a limited strike on an Iranian air-defence target.",
+        "new": "The mediation channel and a strike on Qeshm Island occurred within the same day, tightening the connection between talks and immediate Gulf risk.",
+        "unknown": "Iran's military response, the precise terms under review, whether Washington accepts sequencing conditions and whether negotiations begin."
+      },
+      "evidence": {
+        "left": {
+          "label": "Diplomatic channel",
+          "text": "Qatar says it is bridging gaps toward a comprehensive agreement covering regional stability, navigation and energy security."
+        },
+        "right": {
+          "label": "Military reality",
+          "text": "A fresh U.S. strike was reported on Qeshm, an island adjacent to the Strait of Hormuz; target details remain limited."
+        }
+      },
+      "sources": [
+        {
+          "label": "Qatar News Agency · Amir–Trump call and Qatar's stated priorities",
+          "url": "https://qna.org.qa/en/news/news-details?date=6/11/2026&id=hh-the-amir-receive-phone-call-from-us-president"
+        },
+        {
+          "label": "Associated Press · strike, Qatari proposals and Iran's conditions",
+          "url": "https://apnews.com/article/iran-war-nuclear-program-negotiations-trump-53ed5d271b9aef6f880aebc133ea6a55"
+        },
+        {
+          "label": "Associated Press · regional diplomacy, Hormuz and Yemen developments",
+          "url": "https://apnews.com/article/mideast-news-november-6-2026-ab62071e056c046fe6034216e14b8bb7"
+        }
+      ]
+    },
+    {
+      "id": "openai-community-compact-data-center-backlash",
+      "number": "02",
+      "category": "AI infrastructure, energy & public permission",
+      "sourceNote": "OpenAI and Associated Press · Thursday and Friday",
+      "title": "OpenAI answered the data-centre backlash with a national compact for future company-owned campuses.",
+      "changed": "OpenAI committed to early resident input, public reporting, site-level water and electricity disclosure, full payment of the energy and infrastructure it uses, and financial assurances against delayed or cancelled projects; protests at a Microsoft site in Amsterdam showed the backlash is not confined to U.S. elections.",
+      "matters": "Compute is becoming a permissioned infrastructure business: access to chips and capital is insufficient if power bills, water, noise and opaque municipal agreements make host communities reject the project.",
+      "watch": "Whether the compact becomes enforceable in host agreements, how it applies to partner-owned Stargate sites, actual site disclosures, grid-cost allocation and project delays. The commitments are published; compliance and political acceptance are untested.",
+      "lead": false,
+      "group": {
+        "label": "AI & infrastructure",
+        "title": "Social licence has moved onto the critical path for compute.",
+        "note": "The industry is beginning to describe community costs as design requirements. The next question is whether contracts and operating data make those promises durable.",
+        "break": true
+      },
+      "background": {
+        "title": "The compact converts a political problem into an operating specification",
+        "text": "OpenAI's National Community Compact applies to future compute campuses it owns and operates. It promises local consultation before plans harden, a continuing point of contact, annual public reporting, water plans favouring closed-loop or low-water cooling, advance construction and noise studies, site-level energy and water use, payment of the full cost of power and supporting infrastructure, and financial assurances so other customers are not left paying if a project shrinks or stops. Those are unusually specific commitments, but the scope matters: they do not automatically govern every facility built or financed by a partner. The announcement followed an election in which many successful U.S. candidates supported stronger data-centre restrictions, while protesters entered a Microsoft construction site in Amsterdam on Friday. The strategic shift is larger than a rebrand from data centre to compute campus. Developers are acknowledging that the limiting resource is not only megawatts. It is a credible local bargain over who pays, who decides and who can verify the result.",
+        "known": "OpenAI published a compact for future campuses it owns and operates, including cost, disclosure and consultation commitments.",
+        "new": "Community opposition has become explicit enough to shape national policy proposals and construction risk on both sides of the Atlantic.",
+        "unknown": "How many sites fall inside the compact, whether terms are contractually enforceable and whether disclosure changes local approval."
+      },
+      "evidence": {
+        "left": {
+          "label": "Promised protections",
+          "text": "Full infrastructure cost, project financial assurance, local input, annual reporting and site-level water and power disclosure."
+        },
+        "right": {
+          "label": "Scope limit",
+          "text": "The commitment is framed around future OpenAI-owned and operated campuses; partner projects may require separate terms."
+        }
+      },
+      "sources": [
+        {
+          "label": "OpenAI · National Community Compact and policy blueprint",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/"
+        },
+        {
+          "label": "Associated Press · U.S. political backlash and industry exposure",
+          "url": "https://apnews.com/article/63b33be8884d867d3ac831040d683a2c"
+        },
+        {
+          "label": "Associated Press · protest at Microsoft's Amsterdam construction site",
+          "url": "https://apnews.com/article/b4f3f9f368697bb37416bcb4fabdd67c"
+        }
+      ]
+    },
+    {
+      "id": "us-jobs-october-resilience",
+      "number": "03",
+      "category": "Economy, labour & monetary policy",
+      "sourceNote": "U.S. Bureau of Labor Statistics · Friday",
+      "title": "The United States added 165,000 jobs, but the quality signal was less uniformly strong than the headline.",
+      "changed": "October payrolls rose by 165,000, unemployment edged to 4.1%, prior months were revised up by 84,000 and wages increased 3.1% from a year earlier; people working part time for economic reasons rose by 339,000 to 4.8 million.",
+      "matters": "The report weakens a simple recession story and keeps inflation and interest-rate risk alive, while the rise in involuntary part-time work shows that aggregate hiring can coexist with pressure on hours and household purchasing power.",
+      "watch": "November payrolls, participation, real wage growth, consumer spending and whether the part-time increase persists. The October figures are estimates subject to revision; one month does not establish a new trend.",
+      "lead": false,
+      "group": {
+        "label": "Economy & markets",
+        "title": "The labour market is more resilient than the recent slowdown implied, but not frictionless.",
+        "note": "Hiring and revisions improved. Hours, prices and involuntary part-time work are the counterweight.",
+        "break": true
+      },
+      "sources": [
+        {
+          "label": "U.S. Bureau of Labor Statistics · October employment report",
+          "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-platform-reacceleration",
+      "number": "04",
+      "category": "Travel, platforms & tourism demand",
+      "sourceNote": "Airbnb · Thursday",
+      "title": "Airbnb's growth reaccelerated as hotels and services began feeding the core homes marketplace.",
+      "changed": "Third-quarter revenue rose 19% to $4.9 billion, gross booking value 21% to $27.7 billion and nights and seats booked 16%; every region delivered double-digit nights growth, while the company raised its full-year revenue and margin outlook.",
+      "matters": "The important strategic move is not only strong travel demand: Airbnb is using boutique hotels, car rental, delivery and other services to acquire guests and increase the number of travel needs handled inside one platform.",
+      "watch": "Hotel share, conversion from a first hotel booking into a home stay, service economics, Middle East demand, host supply and whether fourth-quarter growth holds after currency effects. The quarter is confirmed; cross-selling durability is early evidence.",
+      "lead": false,
+      "group": {
+        "label": "Travel & consumer",
+        "title": "A category marketplace is becoming a broader travel operating layer.",
+        "note": "The expansion works only if adjacencies recruit or retain travellers without making the core proposition less clear.",
+        "break": true
+      },
+      "background": {
+        "title": "Hotels are functioning as an acquisition channel, not simply extra inventory",
+        "text": "Airbnb reported its fastest revenue growth in more than three years: revenue rose 19% to $4.9 billion, gross booking value reached $27.7 billion and nights and seats booked increased 16%. North American nights grew at their fastest pace in four years, first-time booker growth reached 13% and Gen Z was the fastest-growing cohort. The strategic detail sits below the totals. Airbnb now lists thousands of boutique and independent hotels across more than 60 major destinations; hotels remain a single-digit share of nights, but the company says about 35% of guests whose first Airbnb booking is a hotel return to book a home within a year. It has also added car rentals, meal and grocery delivery, laundry, baby gear and destination services, while an American Express partnership creates another distribution channel. This is not proof that every adjacency has attractive economics. It is evidence that a trusted booking relationship can be used to reduce the cost of entering a neighbouring category. The operating test is repeat behaviour and contribution margin, not feature count.",
+        "known": "Revenue, bookings and adjusted EBITDA all grew, every region posted double-digit nights growth and management raised its 2026 outlook.",
+        "new": "Hotels and services are being positioned as entry points that can lead travellers back into the homes marketplace.",
+        "unknown": "The long-run margin of the new services, retention by acquisition channel and the durability of demand amid regional conflict."
+      },
+      "evidence": {
+        "left": {
+          "label": "Marketplace momentum",
+          "text": "Revenue +19%; gross booking value +21%; nights and seats +16%; first-time bookers +13%."
+        },
+        "right": {
+          "label": "Adjacency test",
+          "text": "About 35% of first-time hotel guests later booked a home, according to Airbnb's cohort analysis."
+        }
+      },
+      "sources": [
+        {
+          "label": "Airbnb · third-quarter results, product expansion and outlook",
+          "url": "https://news.airbnb.com/airbnb-q3-2026-financial-results"
+        }
+      ]
+    },
+    {
+      "id": "qatar-boat-show-commercial-agreements",
+      "number": "05",
+      "category": "Qatar, marine tourism & entrepreneurship",
+      "sourceNote": "Qatar News Agency · Friday",
+      "title": "The Qatar Boat Show produced operating and distribution agreements, not only exhibits.",
+      "changed": "Old Doha Port signed a three-year operator agreement for the Mina Link shuttle service, while Qatari manufacturers and commercial partners announced regional distribution and international representation arrangements during the show's third day.",
+      "matters": "The agreements are modest individually but show how a luxury and tourism event can become commercial infrastructure for local makers, distributors and the destination itself.",
+      "watch": "Service usage, disclosed distribution volumes, repeat exhibitors and whether the agreements translate into exports or sustained marine-tourism spending. The contracts are confirmed; their economic value was not disclosed.",
+      "lead": false,
+      "group": {
+        "label": "Qatar & opportunity",
+        "title": "The event is beginning to perform a market-making role.",
+        "note": "The stronger measure will be transactions and repeat business after the boats leave the harbour.",
+        "break": true
+      },
+      "sources": [
+        {
+          "label": "Qatar News Agency · third-day operating and commercial agreements",
+          "url": "https://qna.org.qa/en/news/news-details?date=7/11/2026&id=qatar-boat-show-drives-marine-business-with-third-day-agreements"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Curiosity Corner",
+      "title": "Hair from a 2,800-year-old Siberian tomb preserved chemical evidence of psychoactive cannabis use.",
+      "text": "Researchers directly dated seeds from an eighth-century B.C. Scythian burial and found hair signals consistent with cannabinol, which forms as THC oxidises, plus weaker THC-consistent signals. The combination is stronger than finding seeds alone: it links the plant to human use, while still leaving the dose and whether it was inhaled or eaten unknown.",
+      "url": "https://mediarelations.unibe.ch/media_releases/2026/media_releases_2026/cannabis_was_used_as_an_intoxicant_as_early_as_2800_years_ago/index_eng.html"
+    },
+    {
+      "label": "Markets",
+      "title": "AI shares bounced on Friday, but the week still ended with a material loss.",
+      "text": "The S&P 500 gained 0.3% and the Nasdaq 1.1%, while the S&P still lost 2.7% for its worst week since April 2025. A rebound changes the price path, not the underlying questions about financing and data-centre permission.",
+      "url": "https://apnews.com/article/markets-japan-nikkei-oil-ai-bba6f0bf9035a6e6b1c4fef3e8230b89"
+    },
+    {
+      "label": "Qatar calendar",
+      "title": "MWC Doha begins Sunday, bringing the next technology signal into the local market.",
+      "text": "The 8–10 November event follows a week in which AI infrastructure moved from a capital story to a policy and community story. Watch for operator use cases and regional investment commitments rather than conference volume alone.",
+      "url": "https://www.qatartourism.com/en/business-events/events-submission/Qatar-calendar-event"
+    }
+  ],
+  "attention": {
+    "title": "Read the AP account of the Qeshm strike beside Qatar's official account of the Amir–Trump call.",
+    "text": "Together they show the full operating picture: a live mediation channel, unresolved Iranian conditions, continued force and the direct importance of Hormuz to Qatar's stated objective.",
+    "url": "https://apnews.com/article/iran-war-nuclear-program-negotiations-trump-53ed5d271b9aef6f880aebc133ea6a55"
+  },
+  "ignore": {
+    "title": "Treating Friday's AI-stock rebound as proof that the infrastructure problem is over",
+    "text": "The Nasdaq recovered part of Thursday's fall. The slower variables—local approvals, power costs, financing terms and actual capital budgets—have not resolved in one session."
+  },
+  "history": {
+    "id": "history-braille-shared-six-dot-code",
+    "number": "06",
+    "readTime": "6 min",
+    "era": "1821–2016",
+    "title": "Braille succeeded because it let blind readers write—and because readers eventually defeated a century of incompatible standards.",
+    "deck": "A teenage student reduced a twelve-dot military code to six tactile dots. The elegant invention was only the beginning: schools resisted it, rival systems divided the book supply, and users spent generations forcing institutions to agree on one language.",
+    "sections": [
+      {
+        "title": "Raised letters made books visible to touch, but kept writing under institutional control",
+        "text": "The first embossed books for blind readers reproduced ordinary letter shapes in relief. They could be read slowly, but producing them required specialised presses, and a reader could not easily write the same forms by hand. That asymmetry mattered. Literacy was being treated as access to material chosen and manufactured by a sighted institution, not as the ability to take notes, send a letter or compose an argument independently. Charles Barbier's tactile code offered a different starting point. Designed around patterns of twelve raised dots, it showed that information could be encoded for the fingertip rather than imitate ink. When Barbier demonstrated it at the Paris school for blind youth in 1821, one of the students was Louis Braille."
+      },
+      {
+        "title": "Six dots turned a code into a writing tool",
+        "text": "Braille was fifteen when he devised the core of the system that bears his name. He reduced Barbier's large twelve-dot cell to six dots arranged in two columns of three, small enough for a fingertip to recognise as one unit. Patterns represented letters and punctuation rather than phonetic sounds, and a simple slate and stylus let a person punch dots into paper without a printing press. Braille published his method in 1829 and refined it to include contractions, music and other notation. Its advantage was therefore not only compactness or reading speed. The same code travelled in both directions: from book to reader and from reader back to paper. A student could become an author without waiting for an institution to manufacture the page."
+      },
+      {
+        "title": "The people who controlled the presses resisted the system their students preferred",
+        "text": "Braille spread among blind students before many schools accepted it officially. Sighted educators had invested in embossed Roman alphabets they could read with their eyes and were reluctant to learn arbitrary dot patterns. At Perkins in Boston, students used braille for correspondence and notes while Boston Line Type remained the school's official printing system until 1908. The Missouri School for the Blind became the first U.S. school to adopt braille in 1860, but rival codes multiplied: American Braille assigned the simplest patterns to frequent English letters; New York Point used cells of variable width; publishers and schools defended their own equipment and libraries. The user faced the cost of that fragmentation. Helen Keller's generation had to learn several systems because books available in one code could be inaccessible to readers trained in another."
+      },
+      {
+        "title": "The War of the Dots showed that a superior interface is not yet a network",
+        "text": "From the 1880s into the twentieth century, advocates fought over English Braille, American Braille, New York Point and raised alphabets. Each choice had plausible local advantages—fewer dots for common letters, less paper, familiar shapes or an existing stock of books—but every additional standard divided a small publishing market. A Uniform Type Committee formed in 1905 and used legibility tests, yet proposed compromises created more resistance. Britain standardised earlier; American institutions took longer. In 1932 a committee travelled to London and agreed on Grade 2 Braille, which the Library of Congress adopted. Later work produced Unified English Braille, implemented in the United States in 2016, to handle modern notation and digital addresses more consistently. The durable achievement was not six dots alone. It was a community of readers forcing schools, printers and countries to treat interoperability as part of literacy."
+      }
+    ],
+    "timeline": [
+      {
+        "date": "1821",
+        "text": "Charles Barbier demonstrates a twelve-dot tactile code at the Paris school attended by Louis Braille."
+      },
+      {
+        "date": "1824",
+        "text": "The fifteen-year-old Braille develops the core six-dot system, compact enough to read as one cell."
+      },
+      {
+        "date": "1829",
+        "text": "Braille publishes his method for writing words, music and plainsong in dots."
+      },
+      {
+        "date": "1854",
+        "text": "France officially adopts Braille's system, two years after his death."
+      },
+      {
+        "date": "1860",
+        "text": "The Missouri School for the Blind becomes the first U.S. school to adopt braille."
+      },
+      {
+        "date": "1932",
+        "text": "The London agreement establishes a common Grade 2 code for English-language readers."
+      },
+      {
+        "date": "2016",
+        "text": "Unified English Braille becomes the U.S. standard, extending the shared code to contemporary text and notation."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Perkins School for the Blind · emergence of braille and institutional resistance",
+        "url": "https://www.perkins.org/archives/historic-curriculum/reading-and-writing/"
+      },
+      {
+        "label": "Perkins School for the Blind · competing codes, the War of the Dots and 1932 standardisation",
+        "url": "https://www.perkins.org/tactile-books/"
+      },
+      {
+        "label": "American Printing House for the Blind · timeline of the War of the Dots",
+        "url": "https://www.aph.org/blog/blindness-history-basics-the-war-on-the-dots/"
+      },
+      {
+        "label": "Perkins Archives · historical guide to braille books, codes and tools",
+        "url": "https://www.perkins.org/history-of-braille/"
+      }
+    ]
+  },
+  "threads": [
+    {
+      "status": "Proposals under review",
+      "title": "Iran war, Hormuz and Qatar mediation",
+      "text": "Qatar's channel remains active, but a fresh U.S. strike near Hormuz shows that force and negotiation are still proceeding together.",
+      "progress": 52
+    },
+    {
+      "status": "Compact published",
+      "title": "AI infrastructure permission",
+      "text": "OpenAI has specified local commitments; site coverage, enforceability and operating disclosure now become the test.",
+      "progress": 44
+    },
+    {
+      "status": "Growth reaccelerated",
+      "title": "Travel platform expansion",
+      "text": "Airbnb is using hotels and services to widen acquisition; repeat behaviour and unit economics remain the proof.",
+      "progress": 67
+    },
+    {
+      "status": "Transfer started",
+      "title": "Qatar food-safety authority",
+      "text": "Mandates are moving into one regulator; no new operator standard or filing deadline has been published.",
+      "progress": 35
+    }
+  ]
+}

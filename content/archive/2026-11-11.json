@@ -1,0 +1,172 @@
+{
+  "date": { "display": "Wednesday, 11 November 2026", "edition": "075", "updated": "7:00 AM" },
+  "worldSentence": "Inflation is tightening the price of money while two different systems—Qatar's small-business finance and airline dining—are using transaction data to turn observed demand into better decisions.",
+  "standfirst": "Wednesday's edition leads with hotter-than-expected U.S. inflation and the possibility of a larger Federal Reserve rate increase. Russia and Ukraine completed nearly four hours of U.S.-mediated talks without closing their central gap. Qatar opened a new route for small businesses to borrow against verified card sales, and Qatar Airways extended meal pre-ordering to premium passengers on medium-haul flights. Infineon's results show how much of the AI build-out is becoming a power-electronics business. Curiosity Corner looks inside a hummingbird's impossible magenta. The Long View explains how the credit card became a network rather than a piece of plastic.",
+  "listenTime": "16 min",
+  "coverage": [
+    { "count": 7, "label": "Qatar & Gulf" },
+    { "count": 6, "label": "World & politics" },
+    { "count": 8, "label": "Economy & markets" },
+    { "count": 7, "label": "AI & technology" },
+    { "count": 7, "label": "Consumer & travel" }
+  ],
+  "connected": {
+    "title": "Today's common thread is information becoming an operating input rather than a retrospective report.",
+    "signals": [
+      { "label": "U.S. INFLATION", "value": "+0.4%", "text": "October prices rose more than forecast, keeping a December rate increase—and possibly a larger one—in play." },
+      { "label": "QATAR MSME CREDIT", "value": "UP TO 30%", "text": "Verified electronic-payment revenue can support financing of up to 30% of average annual revenue." },
+      { "label": "QR DINING", "value": "14 DAYS–24H", "text": "Premium passengers on flights of two hours or more can choose a main course before departure." },
+      { "label": "AI POWER", "value": "~€4BN", "text": "Infineon expects data-centre power-supply revenue to approach €4 billion in fiscal 2027." }
+    ],
+    "note": "Inflation data changes the cost of capital; payment data can change access to it; pre-orders can change catering decisions before departure; and demand for compute is showing up in the electrical system surrounding the chips."
+  },
+  "stories": [
+    {
+      "id": "us-october-inflation-fed-rate-risk", "number": "01", "category": "Global economy, rates & consumer demand", "sourceNote": "U.S. Bureau of Labor Statistics and Associated Press · Tuesday",
+      "title": "U.S. inflation stayed too broad for comfort, putting a larger December rate increase back on the table.",
+      "changed": "Consumer prices rose 0.4% in October and core prices rose 0.3%, both one-tenth above forecasts; Federal Reserve governor Christopher Waller said a half-point December increase was possible.",
+      "matters": "Higher borrowing costs would tighten valuations, consumer credit and business investment even as falling oil prices may ease one source of pressure; restaurant prices rose 0.5% in the month, their largest increase since January 2024.",
+      "watch": "December rate guidance, November energy and food prices, services inflation and whether softer oil reaches transport and retail prices. The October figures and Waller's statement are confirmed; the size and number of future rate increases are not.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "The energy shock is easing faster than the inflation it helped spread.", "note": "The Fed must decide whether October's breadth is a lasting process or lagged transmission that will fade as oil falls.", "break": false },
+      "background": {
+        "title": "The difficult part is that the pressure is no longer confined to gasoline",
+        "text": "Headline inflation slowed from September's 0.6% monthly increase, but that was not enough to reassure. Shelter rose 0.3%, food at home 0.4%, food away from home 0.5% and electricity 0.9%. Airline fares and delivery services also increased. Core prices rose 0.3% for another month. The Bureau of Labor Statistics could not publish a clean annual comparison because the 2025 government shutdown prevented October data collection, so the monthly composition matters more than one missing headline number. Oil prices have fallen as the Iran conflict has moved toward diplomacy, which should help future fuel costs. The policy risk is timing: broader services and goods inflation may remain elevated after the original energy impulse weakens. A December increase now appears likely, but Waller's half-point possibility remains a warning, not a committee decision.",
+        "known": "October headline CPI rose 0.4%, core CPI rose 0.3%, and food, shelter, electricity and several transport categories increased.",
+        "new": "The report exceeded forecasts while a Fed governor publicly opened the door to a half-point increase in December.",
+        "unknown": "How quickly cheaper oil passes through, whether services inflation persists and how much tightening the full committee chooses."
+      },
+      "evidence": { "left": { "label": "Confirmed breadth", "text": "Food, shelter, electricity, transport services and several consumer categories contributed to the increase." }, "right": { "label": "Policy uncertainty", "text": "One governor raised a half-point option, but the committee has not decided the December move." } },
+      "sources": [
+        { "label": "U.S. Bureau of Labor Statistics · October CPI release", "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm" },
+        { "label": "Associated Press · inflation breadth and Fed response", "url": "https://apnews.com/article/consumer-prices-holiday-inflation-tariffs-trump-fcd3c7766d3cdb36057f6dab19ff3a8e" }
+      ]
+    },
+    {
+      "id": "russia-ukraine-abu-dhabi-talks", "number": "02", "category": "Geopolitics & Europe", "sourceNote": "Associated Press · Tuesday",
+      "title": "Russia and Ukraine held nearly four hours of U.S.-mediated talks in Abu Dhabi, but still disagree on whether a ceasefire comes first.",
+      "changed": "Senior delegations met for the first three-way talks since February while Russian strikes hit Ukrainian energy infrastructure as winter approaches.",
+      "matters": "The return to a negotiating room is consequential, but Moscow still demands territorial and military concessions before a halt while Kyiv insists that a ceasefire must precede a wider settlement.",
+      "watch": "Any joint statement after the second day, a limited energy ceasefire, prisoner exchanges or movement toward leader-level talks. The meeting occurred; claims that gaps narrowed have not produced an agreed text.",
+      "lead": false,
+      "group": { "label": "World beyond the lead", "title": "Diplomacy has restarted without suspending the war it is meant to end.", "note": "The test is not meeting length but whether either side accepts a verifiable interim step.", "break": true },
+      "sources": [{ "label": "Associated Press · delegations, demands and unresolved sequence", "url": "https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-uae-3d878a3e56d5df5bd198a6d20c824d18" }]
+    },
+    {
+      "id": "us-china-trade-rebalancing-talks", "number": "03", "category": "Trade, industry & global economy", "sourceNote": "Associated Press · Tuesday",
+      "title": "Washington framed next week's Trump–Xi meeting around a harder bargain: America should produce more and China should consume more.",
+      "changed": "Treasury Secretary Scott Bessent called for a more balanced relationship before talks in Shenzhen, while China's ambassador also used the language of reciprocity.",
+      "matters": "The shared vocabulary lowers the rhetorical temperature, but agricultural purchases, rare earths, critical minerals and U.S. restrictions remain unresolved before a fragile trade truce expires in January.",
+      "watch": "Concrete commitments at the leaders' meeting, implementation dates and whether either side changes tariffs or technology controls. The speeches are confirmed; a rebalancing package is not.",
+      "lead": false,
+      "group": { "label": "Economy & markets", "title": "The language is cooperative; the balance sheet is still contested.", "note": "Reciprocity can mean more Chinese purchases to Washington and fewer U.S. restrictions to Beijing.", "break": true },
+      "sources": [{ "label": "Associated Press · Bessent, Xie Feng and the Shenzhen agenda", "url": "https://apnews.com/article/trump-xi-bessent-china-trade-67d0030d68ba42bdcbedd0eacf92d4b3" }]
+    },
+    {
+      "id": "qatar-pos-revenue-msme-financing", "number": "04", "category": "Qatar, small business & finance", "sourceNote": "Qatar Central Bank via QNA · Monday",
+      "title": "Qatar will let small businesses use verified card sales as the evidence behind a bank loan.",
+      "changed": "New rules allow qualifying micro, small and medium enterprises to borrow against point-of-sale and other verified domestic electronic-payment revenue, up to 30% of average annual revenue over a two-year term with no more than six months' grace.",
+      "matters": "For restaurants and other transaction-rich businesses, the framework can replace part of the collateral conversation with observed sales performance and make working-capital decisions faster—if banks implement it with sensible pricing and eligibility rules.",
+      "watch": "Bank product launches, effective rates and fees, revenue lookback periods, guarantees, settlement controls, approval speed and early arrears. The regulatory route and headline limits are confirmed; commercial terms and availability at each bank are not.",
+      "lead": false,
+      "group": { "label": "Qatar & business", "title": "A sales stream can become financeable evidence rather than merely money already earned.", "note": "The value depends on how banks translate permission into products that fit real cash cycles.", "break": true },
+      "background": {
+        "title": "The rule changes what a bank can treat as proof of repayment capacity",
+        "text": "Small businesses often have visible daily sales but limited fixed assets to pledge. Qatar Central Bank's framework allows banks to underwrite against verified POS and other licensed electronic-payment revenues, including revenues processed through another bank. The public summary sets a ceiling of 30% of average total annual revenue, a two-year repayment period and a grace period of up to six months. For an operator, that can align evidence with the business itself: sales history, settlement flows and seasonality become central to the credit decision. It does not make the money automatically cheap or safe. A short repayment period can create a heavy monthly burden, and borrowing against future sales can amplify a downturn. The next useful document is a bank term sheet showing pricing, repayment mechanics, guarantees, exclusions and treatment of volatile or seasonal revenue.",
+        "known": "QCB authorised revenue-backed MSME financing and published the main ceiling, term and grace-period controls.",
+        "new": "Verified electronic-payment flows can support credit even when the POS device belongs to a bank other than the lender.",
+        "unknown": "Which banks launch first, the all-in cost, detailed eligibility, underwriting lookback and treatment of weak sales months."
+      },
+      "evidence": { "left": { "label": "Access", "text": "Banks may rely on provable sales flows rather than requiring the same traditional collateral for every borrower." }, "right": { "label": "Affordability", "text": "The public rule does not reveal pricing, guarantees or whether repayment flexes with monthly revenue." } },
+      "sources": [
+        { "label": "Qatar News Agency · QCB rules and headline controls", "url": "https://qna.org.qa/en/news/news-details?date=9/11/2026&id=qcb-issues-new-financing-rules-for-smes-against-point-of-sale-revenues" },
+        { "label": "Al Tamimi & Company · circular scope and QAR 10 million cap", "url": "https://www.tamimi.com/news/qcb-enables-financing-for-msmes-against-pos-revenues/" }
+      ]
+    },
+    {
+      "id": "qatar-airways-medium-haul-preorder-dining", "number": "05", "category": "Aviation, food & customer experience", "sourceNote": "Qatar Airways · Tuesday",
+      "title": "Qatar Airways extended meal pre-ordering to premium passengers on flights of two hours or more.",
+      "changed": "First and Business Class passengers on eligible medium-haul routes can select a main course through the website or app from 14 days until 24 hours before departure.",
+      "matters": "Pre-ordering is a customer feature and an operations signal at once: it improves confidence of choice while giving catering teams earlier information about demand, with potential effects on loading, substitution and waste.",
+      "watch": "Route coverage, take-up, selection accuracy, late aircraft changes, unavailable items, food waste and whether the service expands beyond premium cabins. The feature window is confirmed; operational and financial results are not published.",
+      "lead": false,
+      "group": { "label": "Aviation & consumer", "title": "Choice becomes more valuable when the operation learns about it before boarding.", "note": "The experience will be judged at the digital, catering, crew and seat-delivery handoffs.", "break": true },
+      "background": {
+        "title": "A simple digital promise creates an end-to-end operating obligation",
+        "text": "The visible proposition is straightforward: a premium passenger chooses a main course before travel instead of hoping a preferred dish remains available onboard. Qatar Airways has extended that option to flights of two hours or more, with selection available between 14 days and 24 hours before departure. Behind the interface sits a chain of work: the booking must remain attached to the passenger through schedule or aircraft changes; the chosen meal must reach the correct catering station and flight; loading must reflect selections without eliminating useful flexibility; and the crew must see reliable information at service. If those handoffs work, pre-order data can reduce guesswork and improve availability while potentially lowering avoidable over-catering. If they fail, the broken promise feels worse than having offered no choice. The measures that matter are take-up, fulfilment accuracy, substitution, waste and recovery when the operating plan changes.",
+        "known": "The service covers eligible First and Business Class journeys of two hours or more and accepts choices from 14 days to 24 hours before departure.",
+        "new": "A feature associated with longer journeys now reaches a significantly larger share of the network.",
+        "unknown": "The exact destination list, adoption, fulfilment accuracy, catering effect and whether the model broadens to other cabins."
+      },
+      "evidence": { "left": { "label": "Customer value", "text": "Passengers can secure a preferred main course before onboard constraints begin." }, "right": { "label": "Execution test", "text": "Every booking, catering and crew handoff must preserve the choice through operational changes." } },
+      "sources": [{ "label": "Qatar Airways · service scope, booking window and channel", "url": "https://www.qatarairways.com/press-releases/en-WW/274344-qatar-airways-brings-pre-order-dining-to-medium-haul-flights-in-first-and-business-class/" }]
+    },
+    {
+      "id": "infineon-ai-power-supply-outlook", "number": "06", "category": "AI infrastructure & semiconductors", "sourceNote": "Infineon · Tuesday",
+      "title": "Infineon expects data-centre power-supply revenue to approach €4 billion next year.",
+      "changed": "After fiscal 2026 revenue rose 12% to €16.35 billion, the chipmaker forecast more than 20% growth for fiscal 2027 and planned €3.0–€3.5 billion of investment.",
+      "matters": "The forecast shows that AI capital spending extends far beyond accelerators: converting, controlling and delivering electricity to dense racks is becoming a large semiconductor market of its own.",
+      "watch": "Customer project schedules, power-electronics capacity, margins and free cash flow as investment rises. The company outlook is confirmed; it is a forecast exposed to project delays and changing data-centre plans.",
+      "lead": false,
+      "group": { "label": "Technology & capital", "title": "The AI stack is increasingly an electrical system around the compute.", "note": "Power suppliers benefit, but forecasts depend on announced capacity becoming operating racks.", "break": true },
+      "sources": [{ "label": "Infineon · fiscal 2026 results and fiscal 2027 outlook", "url": "https://www.infineon.com/press-release/2026/infpr202611-025" }]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Curiosity Corner",
+      "title": "A hummingbird makes magenta with a buried optical duet, not a magenta pigment.",
+      "text": "Magenta is non-spectral: no single wavelength produces it. Researchers examining Anna's hummingbird throat feathers found a previously overlooked pair of intermediate melanosome layers. The deep stack strengthens a red reflection, while interaction between the surface and middle layers creates the secondary blue peak that the eye combines into magenta. Removing the surface layer erased that blue peak. The result is a graded nanoscale reflector—and a possible design cue for colour-shifting displays and security markings.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13714409/"
+    },
+    {
+      "label": "Qatar mediation",
+      "title": "Doha says both Washington and Tehran responded positively; the word still needs a sequence behind it.",
+      "text": "Qatar's foreign ministry said mediation continues to end the region's state of 'no war, no peace.' Treat the statement as a directional update, not a settlement: a ceasefire, blockade change, inspections and shipping guarantees remain the observable tests.",
+      "url": "https://www.aa.com.tr/en/us-israel-iran-war/qatar-says-us-iran-give-positive-responses-to-mediation-efforts/4118765"
+    }
+  ],
+  "attention": {
+    "title": "Read Qatar's POS-financing rule, then wait for the bank term sheets.",
+    "text": "The rule changes what can count as underwriting evidence. Its value will be visible in pricing, repayment mechanics, guarantees and approval speed.",
+    "url": "https://qna.org.qa/en/news/news-details?date=9/11/2026&id=qcb-issues-new-financing-rules-for-smes-against-point-of-sale-revenues"
+  },
+  "ignore": {
+    "title": "Treating one down day in AI-linked shares as a verdict on the whole build-out",
+    "text": "A market move can reflect rates, positioning or one project revision. Supplier revenue, power access, project economics and customer demand are better evidence."
+  },
+  "history": {
+    "id": "history-credit-card-network", "number": "07", "readTime": "6 min", "era": "1928–1976",
+    "title": "The credit card became universal when competing banks agreed to honour one another's promises",
+    "deck": "Plastic made the instrument portable. The deeper invention was a shared system connecting customers, merchants, issuing banks and acquiring banks—then authorising, clearing and settling their obligations quickly enough for trust to scale.",
+    "thesis": "The valuable product was not the card. It was the rulebook and settlement network that let strangers accept a distant bank's promise as if it were local money.",
+    "sections": [
+      { "title": "Credit began as a private relationship", "text": "Long before general-purpose cards, department stores, petrol companies, railroads and hotels extended credit to known customers. The arrangement worked inside one merchant's ledger: the seller knew the buyer, recorded the purchase and collected later. Devices such as the embossed Charga-Plate, introduced in 1928, made it faster to copy account details onto a sales slip, but they did not make one merchant's trust portable to another. A wallet could fill with separate tokens, each useful only inside the business that issued it. The constraint was not plastic. It was that every commercial relationship remained its own small island." },
+      { "title": "Diners Club bundled merchants into one promise", "text": "Diners Club launched in 1950 with a different proposition: one card and one monthly bill across participating restaurants and other higher-end businesses. The company stood between diners and merchants, recruited both sides and collected a fee from establishments in exchange for bringing customers and handling the accounts. It was primarily a charge card, requiring payment in full rather than carrying a revolving balance, but it proved that acceptance could travel across unrelated businesses. The work was already two-sided. A card was more useful when more merchants accepted it; merchants cared more when more desirable customers carried it. Each side made the other worth joining." },
+      { "title": "BankAmericard added scale—and discovered the cost of uncontrolled scale", "text": "In 1958, Bank of America launched BankAmericard in California, beginning with a mass mailing in Fresno and expanding across the state. Unlike a monthly charge card, it supported revolving credit: customers could carry balances and pay interest. The bank's large branch network, consumer accounts, computers and telephone systems made a broader product possible, but the early rollout also brought fraud, bad debt and confusion among people who had received cards they had not requested. The episode revealed both sides of general-purpose credit. Distribution could create a market quickly; weak controls could create losses just as quickly. Congress later barred unsolicited card mailings through changes to the Truth in Lending framework." },
+      { "title": "Licensing turned one bank's product into an interbank network", "text": "Bank of America could cover California, but a genuinely national card had to work where another bank served the customer or merchant. In 1966 it began licensing BankAmericard to other banks. That same year, a separate bank cooperative formed the Interbank network that would become Mastercard. The institutions remained competitors: each could choose cardholder terms and recruit merchants. Yet they needed common marks, operating rules, transaction formats and a way to transfer money between the bank that issued the customer's card and the bank that served the merchant. Interchange was the bridge. It converted a purchase involving several private balance sheets into one accepted transaction." },
+      { "title": "The invisible machinery became the real product", "text": "As volume grew, paper slips, warning bulletins and telephone approval became bottlenecks. Networks developed faster authorisation, data processing, clearing and daily settlement, reducing fraud risk and the time merchants waited for certainty. In 1970 BankAmericard's participating banks formed an independent member organisation, National BankAmericard Inc.; in 1976 the name became Visa, designed to travel across languages and borders. The familiar rectangle survived, but its value increasingly came from infrastructure no customer could see. A payment at an unfamiliar merchant worked because standards, incentives, consumer protections and competing institutions had been made interoperable. The history is less about spending without cash than about manufacturing trust between parties who never meet." }
+    ],
+    "timeline": [
+      { "date": "1928", "text": "The embossed Charga-Plate mechanises account identification but remains tied to individual merchants." },
+      { "date": "1950", "text": "Diners Club launches a multi-merchant charge card with one monthly statement." },
+      { "date": "1958", "text": "Bank of America launches BankAmericard in California with revolving credit." },
+      { "date": "1966", "text": "Bank of America begins licensing BankAmericard; competing banks form the Interbank network." },
+      { "date": "1970", "text": "Participating banks create National BankAmericard Inc. as an independent organisation." },
+      { "date": "1976", "text": "BankAmericard is renamed Visa as the network expands internationally." }
+    ],
+    "sources": [
+      { "label": "Federal Reserve History · bank cards, licensing, regulation and point-of-sale infrastructure", "url": "https://www.federalreservehistory.org/essays/electronic-point-of-sale-payments" },
+      { "label": "Smithsonian · store cards, Diners Club and general-purpose cards", "url": "https://www.americanhistory.si.edu/explore/exhibitions/value-money/online/innovations-money/plastic-payments" },
+      { "label": "Federal Reserve Bank of Richmond · network roles and interchange", "url": "https://www.richmondfed.org/publications/research/economic_brief/2011/eb_11-05" },
+      { "label": "U.S. Department of Justice · shared rules, authorisation, processing and settlement", "url": "https://www.justice.gov/sites/default/files/atr/legacy/2006/11/03/p-1234.pdf" }
+    ]
+  },
+  "threads": [
+    { "status": "0.4% monthly CPI", "title": "Inflation and the price of capital", "text": "October's breadth makes a December increase likely; the size and persistence remain open.", "progress": 63 },
+    { "status": "Rules issued", "title": "Qatar revenue-backed MSME finance", "text": "The route exists; bank pricing, eligibility and repayment design are the next proof.", "progress": 35 },
+    { "status": "Medium-haul live", "title": "Qatar Airways pre-order dining", "text": "Adoption, fulfilment, waste and disruption recovery will show the operating value.", "progress": 52 },
+    { "status": "Talks resumed", "title": "Russia–Ukraine negotiating track", "text": "Delegations are meeting while the sequence of ceasefire and settlement remains unresolved.", "progress": 29 }
+  ]
+}
+

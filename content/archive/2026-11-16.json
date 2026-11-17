@@ -1,0 +1,189 @@
+{
+  "date": { "display": "Monday, 16 November 2026", "edition": "080", "updated": "8:00 AM" },
+  "worldSentence": "Qatar's first flash GDP estimate showed a severe but narrowing energy-led contraction, while Japan's near-stall and renewed risk at Bab el-Mandeb showed how the same regional shock is still travelling through import bills, trade routes and real activity.",
+  "standfirst": "Monday's edition leads with Qatar's economy: real GDP was 11.8% lower than a year earlier in the third quarter, an improvement from the second quarter as hydrocarbon exports partially recovered. Japan's economy slipped at a 0.1% annualized rate as expensive imported oil weakened consumption, while the Houthis paired a large prisoner release with a stronger position around Bab el-Mandeb. Shenzhen offers a live view of an operating technology cluster. Curiosity Corner finds a dietary trap hidden inside radiocarbon dates. The Long View revisits Copenhagen's first major pedestrian experiment.",
+  "listenTime": "15 min",
+  "coverage": [
+    { "count": 10, "label": "Qatar & Gulf" },
+    { "count": 9, "label": "World & politics" },
+    { "count": 10, "label": "Economy & markets" },
+    { "count": 12, "label": "AI & technology" },
+    { "count": 9, "label": "Consumer & travel" }
+  ],
+  "connected": {
+    "title": "Today's common thread is an energy and shipping shock moving through different systems: Qatar's exports, Japan's household demand and Yemen's leverage over a second maritime chokepoint.",
+    "signals": [
+      { "label": "QATAR GDP", "value": "−11.8%", "text": "The year-on-year contraction narrowed from 15.7% in the second quarter." },
+      { "label": "HYDROCARBONS", "value": "−29.5%", "text": "The decline eased sharply from 50.7% as shipping and export conditions improved." },
+      { "label": "JAPAN GDP", "value": "−0.1%", "text": "Annualized third-quarter output was essentially flat, but consumption weakened." },
+      { "label": "YEMEN RELEASE", "value": "~600", "text": "The Houthis freed detainees while consolidating their position near Bab el-Mandeb." }
+    ],
+    "note": "Improvement is not normalization. Qatar's output remains far below last year, Japan is absorbing a higher energy bill, and maritime risk has shifted rather than disappeared."
+  },
+  "stories": [
+    {
+      "id": "qatar-q3-2026-flash-gdp",
+      "number": "01",
+      "category": "Qatar, economy & energy",
+      "sourceNote": "National Planning Council via QNA · Sunday",
+      "title": "Qatar's real GDP contraction narrowed to 11.8% in the third quarter as hydrocarbon exports began to recover.",
+      "changed": "The National Planning Council's first flash GDP release showed the year-on-year decline improving from 15.7% in Q2; the hydrocarbon contraction narrowed from 50.7% to 29.5% as shipping and export conditions gradually improved.",
+      "matters": "The figures are the clearest early measure yet of how the Hormuz and export shock is moving through Qatar's economy: the direction improved materially, but output remains well below last year and the recovery is still concentrated in the sector that fell furthest.",
+      "watch": "The regular estimate within 90 days, LNG shipment volumes, fiscal revenue, the non-hydrocarbon growth rate and whether trade, accommodation and food-service gains persist. The flash estimate is based on early incomplete data and does not publish an aggregate Q3 non-hydrocarbon growth rate.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "Qatar's economy has turned toward recovery, but the first step is still deep inside contraction.", "note": "Read the change in direction and the level together.", "break": false },
+      "background": {
+        "title": "A smaller fall is meaningful when the export engine is restarting, but it is not yet growth",
+        "text": "Qatar's National Planning Council has introduced a flash estimate to show the economy's direction before the regular quarterly release. The first reading puts real GDP in the third quarter 11.8% below the same period of 2025, compared with a 15.7% fall in the second quarter. Most of the improvement came from hydrocarbons. That sector's contraction narrowed by 21.2 percentage points, from 50.7% to 29.5%, as shipping and export conditions gradually improved. The flash release also identifies growth in wholesale and retail trade and in accommodation and food services, supported by domestic demand and hosted events, but it does not give an aggregate non-hydrocarbon rate. The next evidence is operational: LNG volumes, fiscal receipts and whether recovery broadens beyond the sector that fell furthest.",
+        "known": "Qatar's year-on-year GDP and hydrocarbon contractions both narrowed materially in the third quarter.",
+        "new": "The first flash estimate provides an earlier official reading of the economy's direction.",
+        "unknown": "The final estimate, the Q3 aggregate non-hydrocarbon growth rate and the pace of full export normalization."
+      },
+      "evidence": {
+        "left": { "label": "Technical improvement", "text": "The GDP decline narrowed by 3.9 percentage points and the hydrocarbon decline by 21.2 points." },
+        "right": { "label": "Economic level", "text": "GDP and hydrocarbon output remain substantially below their year-earlier levels." }
+      },
+      "sources": [
+        { "label": "Qatar News Agency · National Planning Council flash estimate", "url": "https://qna.org.qa/en/news/news-details?date=15%2F11%2F2026&id=national-planning-council-gradual-improvement-in-qatars-real-gdp-for-q3-2026" },
+        { "label": "Qatar Open Data · quarterly GDP dataset", "url": "https://www.data.gov.qa/explore/dataset/estimates-of-quarterly-gross-domestic-product-by-economic-activities-at-current-prices/information/?flg=en-gb" }
+      ]
+    },
+    {
+      "id": "japan-q3-2026-oil-consumption",
+      "number": "02",
+      "category": "Global economy, energy & Asia",
+      "sourceNote": "Japan Cabinet Office and Associated Press · Monday",
+      "title": "Japan's economy slipped at a 0.1% annualized rate as expensive imported oil and weak consumption offset strong business investment.",
+      "changed": "Preliminary data showed Q3 output essentially flat but technically contracting after three quarters of growth; private consumption fell at a 1.1% annualized rate while non-residential investment grew 6.8%.",
+      "matters": "Japan imports almost all its oil, so the Hormuz shock and a weak yen reach households through higher prices even while companies continue spending on digital capacity.",
+      "watch": "Revisions, household real-income data, the yen, oil prices and whether digital investment continues if consumption remains weak. The preliminary estimate confirms stagnation, not a broad collapse.",
+      "lead": false,
+      "group": { "label": "Economy & markets", "title": "Japan is showing the importer's side of the Gulf energy shock.", "note": "Investment resilience and consumer weakness are pulling in opposite directions.", "break": true },
+      "background": {
+        "title": "The same oil shock that reduced Gulf export volumes is raising the bill for Asian importers",
+        "text": "Japan's preliminary national accounts put third-quarter GDP almost exactly flat from the previous quarter and down at a 0.1% annualized rate. The composition is more informative than the headline. Private consumption fell at a 1.1% annualized pace as households faced higher prices and poor weather, while private non-residential investment rose 6.8% on solid digital demand. Japan is unusually exposed because it imports virtually all the crude it uses. The effective blockage of the Strait of Hormuz pushed up energy costs, while a dollar near 160 yen makes each imported barrel more expensive in local currency. This is evidence of uneven transmission, not yet a deep recession.",
+        "known": "Japan's preliminary Q3 GDP was essentially flat, consumption weakened and business investment remained strong.",
+        "new": "The regional energy shock is now visible in a major importing economy's national accounts.",
+        "unknown": "Whether revisions erase the small contraction and whether household demand recovers before investment slows."
+      },
+      "evidence": {
+        "left": { "label": "Households", "text": "Private consumption fell at a 1.1% annualized rate amid higher prices." },
+        "right": { "label": "Companies", "text": "Non-residential investment grew 6.8%, supported by digital demand." }
+      },
+      "sources": [
+        { "label": "Associated Press · Japan Q3 GDP and oil-import pressure", "url": "https://apnews.com/article/japan-economy-growth-oil-energy-inflation-263988f2ec1894d3bf88522fd12500a6" },
+        { "label": "Japan Cabinet Office · national accounts", "url": "https://www.esri.cao.go.jp/en/sna/menu.html" }
+      ]
+    },
+    {
+      "id": "yemen-detainee-release-bab-el-mandeb",
+      "number": "03",
+      "category": "Middle East, shipping & security",
+      "sourceNote": "Associated Press · Sunday",
+      "title": "The Houthis freed about 600 detainees while their opponents withdrew from positions near Bab el-Mandeb.",
+      "changed": "A Houthi official described the release as the largest unilateral prisoner release of Yemen's 12-year civil war; separately, Southern Armed Forces pulled back toward Aden and Taiz after sustained attacks, allowing the Houthis to strengthen their position around the Red Sea chokepoint.",
+      "matters": "The humanitarian gesture and the military shift point in different directions: prisoner releases can create negotiating space, while greater control near Bab el-Mandeb increases leverage over shipping and regional security.",
+      "watch": "Reciprocal releases, UN-mediated talks, attacks on shipping, the security of Aden and Taiz supply routes and whether the withdrawal becomes permanent. The release and pullback are reported; a broader settlement is not in place.",
+      "lead": false,
+      "group": { "label": "The world beyond the lead", "title": "A humanitarian opening arrived beside a strategic military setback.", "note": "Do not treat one gesture as evidence that the conflict is resolving.", "break": true },
+      "background": {
+        "title": "Prisoner releases can reduce human suffering without changing the balance around a chokepoint",
+        "text": "The Houthis said they released about 600 detainees captured during the latest escalation, the largest unilateral release reported in Yemen's long civil war. On the same day, forces aligned with the Saudi-backed government said they had withdrawn from areas near Bab el-Mandeb after relentless attacks and would concentrate on Aden and the besieged city of Taiz. Those developments should be read separately. A large unilateral release can build confidence and create pressure for reciprocal steps. A territorial pullback near the strait can also strengthen the Houthis' ability to threaten one of the world's most important shipping corridors. The next evidence is reciprocity and restraint.",
+        "known": "About 600 detainees were freed, and anti-Houthi forces announced a pullback from positions near Bab el-Mandeb.",
+        "new": "The conflict produced its largest reported unilateral release while the military balance around a key strait shifted toward the Houthis.",
+        "unknown": "Whether releases will be reciprocated and whether stronger coastal control leads to bargaining, escalation or both."
+      },
+      "evidence": {
+        "left": { "label": "Humanitarian signal", "text": "Hundreds of detainees were released without a reported exchange." },
+        "right": { "label": "Strategic signal", "text": "Opposing forces retreated from coastal positions after sustained Houthi attacks." }
+      },
+      "sources": [
+        { "label": "Associated Press · detainee release and Bab el-Mandeb pullback", "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-november-15-2026-3b4adde832dadd333451fd2f7a51908c" }
+      ]
+    },
+    {
+      "id": "shenzhen-technology-cluster-apec",
+      "number": "04",
+      "category": "Technology, entrepreneurship & China",
+      "sourceNote": "Associated Press · Monday",
+      "title": "Shenzhen is using APEC to display an operating technology cluster, not only a collection of products.",
+      "changed": "Ahead of this week's summit, AP documented commercial robotaxis, service robots and drone delivery alongside manufacturers, software teams, regulators and customers concentrated in one city.",
+      "matters": "The cluster shortens feedback loops: suppliers can deliver parts within hours, engineers can visit customers the same day and regulators can move firms through staged testing toward commercial service.",
+      "watch": "Robotaxi utilization beyond summit restrictions, safety data, economics without first-ride discounts and whether other cities can reproduce the supplier-and-customer density. The services are operating, but only in approved areas and at limited scale.",
+      "lead": false,
+      "group": { "label": "Technology & opportunity", "title": "Shenzhen's advantage is the distance between an idea, a part, a regulator and a customer.", "note": "The ecosystem is more consequential than any one robot demonstration.", "break": true },
+      "sources": [
+        { "label": "Associated Press · Shenzhen's technology ecosystem ahead of APEC", "url": "https://apnews.com/article/china-shenzhen-apec-technology-df655739f3881e2025c873c13b1fed70" }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Curiosity Corner",
+      "title": "Freshwater fish can make a medieval skeleton appear to predate the monastery where it was buried.",
+      "text": "Researchers re-examined 27 people buried at Danish monasteries and found six radiocarbon dates that conflicted with known construction dates. One Svendborg skeleton appeared to date from 1100–1155 even though the monastery was founded in 1236. The mechanism is a freshwater reservoir effect: fish can incorporate old carbon released from lake and river sediments, and that depleted carbon-14 signal enters human bone through diet. Unlike the marine effect, the freshwater offset can vary from almost nothing to many centuries, so there is no safe universal correction. A measurement can be precise while the model connecting it to calendar time is wrong.",
+      "url": "https://www.sdu.dk/en/om-sdu/fakulteterne/naturvidenskab/nyheder-2026/freshwater-fish-archaology"
+    },
+    {
+      "label": "Doha public realm",
+      "title": "Qatar Tourism will open Skeek Al Doha on 24 November as a cultural walking route through historic Doha.",
+      "text": "The useful test is repeat footfall: wayfinding, shade, evening comfort, programming and whether local shops and food operators gain sustained visits along the route.",
+      "url": "https://www.qna.org.qa/en/economy/"
+    },
+    {
+      "label": "This week in markets",
+      "title": "US retail sales and Federal Reserve minutes will test the gap between nominal spending and household purchasing power.",
+      "text": "Higher fuel costs can lift the cash value of sales while reducing the volume of discretionary purchases. Read category mix and real volumes before treating the headline as resilience.",
+      "url": "https://apnews.com/article/336b95f88ac197f7d0e84199bda23136"
+    },
+    {
+      "label": "APEC technology",
+      "title": "Shenzhen's robotaxis remain geographically constrained despite visible commercial operation.",
+      "text": "Pony.ai says its cars use 34 sensors and operate from designated pickup points inside approved zones. Utilization, interventions and economics matter more than a smooth demonstration ride.",
+      "url": "https://apnews.com/article/china-shenzhen-apec-technology-df655739f3881e2025c873c13b1fed70"
+    }
+  ],
+  "attention": {
+    "title": "Qatar's first Q3 flash GDP release",
+    "text": "It is the most relevant new source today because it gives an early official reading of both the national contraction and the pace at which hydrocarbon activity is recovering. Keep its limitations in view: the data are early and incomplete, and the aggregate non-hydrocarbon growth rate is not published in the release.",
+    "url": "https://qna.org.qa/en/news/news-details?date=15%2F11%2F2026&id=national-planning-council-gradual-improvement-in-qatars-real-gdp-for-q3-2026"
+  },
+  "ignore": {
+    "title": "Calling Qatar's Q3 number a return to growth",
+    "text": "The contraction narrowed, which is real improvement, but total output remained 11.8% below a year earlier. A recovery in direction is not yet a recovered level."
+  },
+  "history": {
+    "id": "history-stroget-pedestrian-experiment",
+    "number": "06",
+    "readTime": "6 min",
+    "era": "1962–present",
+    "title": "Copenhagen learned whether people wanted a car-free city by closing one street first",
+    "deck": "Strøget began as a disputed experiment in a city that believed its weather and habits made outdoor public life unlikely. Its success came from making a reversible change, observing what people actually did and expanding the system in measured steps.",
+    "sections": [
+      { "title": "The postwar city was being redesigned around the car", "text": "During the 1950s and early 1960s, rising car ownership filled Copenhagen's old centre with traffic and parked vehicles. Streets built for a compact medieval city were asked to carry buses, lorries, cars, shoppers and residents at once. Gammeltorv and Nytorv functioned as parking lots, and planners proposed wider roads and new highways. Across Europe and North America, the car represented prosperity and modern planning. The cost was paid in the public realm: narrow pavements became congested, squares lost their social function and noise and exhaust made lingering unpleasant. Opposition grew, but there was no settled proof that a northern city could support a large pedestrian district." },
+      { "title": "Strøget was proposed as an experiment, not a final theory", "text": "In 1962 Copenhagen converted the old central shopping route between City Hall Square and Kongens Nytorv into a pedestrian street. The decision met resistance from shopkeepers, transport operators and politicians. Critics argued that customers would disappear with their cars, that Danish weather was too cold and wet, and that Copenhageners did not possess the outdoor habits of southern Europeans. The power of the trial was that it turned a cultural argument into an observable question. Instead of debating indefinitely whether Danes were the kind of people who would use a car-free street, the city created the conditions and watched what happened." },
+      { "title": "People arrived before the theory was finished", "text": "From the beginning, thousands of people used the street. Shopping and window-shopping remained important, but the absence of moving traffic changed the range of possible behaviour. People could stop, meet, sit, perform and occupy the space without negotiating constantly with vehicles. Shops and department stores benefited rather than collapsing, and the arrangement became permanent. The result did not prove that every street should be closed to cars. It showed that access and commerce did not have to be organized around parking directly outside each shop, and that a street could create demand for activities that were almost invisible under the previous design." },
+      { "title": "Measurement turned a success into a system", "text": "Copenhagen did not stop at the symbolic opening. Researchers including architect Jan Gehl counted pedestrians and documented how long people stayed and what they did. The city expanded car-free streets and squares in stages: from about 15,800 square metres in 1962 to more than 95,000 by 1996. Each addition changed the network, making it easier to move between public spaces without re-entering heavy traffic. The method mattered as much as the design. Small interventions produced evidence; evidence reduced political risk; repeated observation showed where seating, edges, crossings and maintenance affected use." },
+      { "title": "The experiment succeeded because the street was treated as operating infrastructure", "text": "Strøget's long life also exposed the work hidden behind pedestrianization. A car-free street still needs deliveries, cleaning, policing, waste bins, winter maintenance, transit connections and rules for vendors and performers. Commercial success can raise rents and replace local shops with global chains. The historical lesson is narrower and more useful than 'remove cars'. Copenhagen created a reversible test, measured behaviour, made the successful change permanent and then kept adapting the operating system around it. The street became evidence that people respond to the environments cities make available—not to fixed national habits that planners imagine in advance." }
+    ],
+    "timeline": [
+      { "date": "1950s", "text": "Car ownership and traffic rise rapidly, filling central streets and squares with moving and parked vehicles." },
+      { "date": "1962", "text": "Copenhagen opens the 1.1-kilometre Strøget route as an experimental pedestrian street." },
+      { "date": "1960s", "text": "Heavy use and strong retail performance make the closure permanent; observation of public life becomes more systematic." },
+      { "date": "1968", "text": "The central car-free street-and-square area grows to about 22,860 square metres." },
+      { "date": "1973", "text": "Further streets and squares bring the pedestrian area to about 49,200 square metres." },
+      { "date": "1996", "text": "The network reaches roughly 95,750 square metres, six times the original area." }
+    ],
+    "sources": [
+      { "label": "City of Copenhagen · Strøget history and public-space use", "url": "https://www.kk.dk/sites/default/files/agenda/2d9d35cf-7067-4907-8ff2-cb61cc0a9067/606d1d71-94f4-4d57-939d-f9c5c5d7f21b-bilag-1.pdf" },
+      { "label": "Urban Design Group · Jan Gehl, Public Spaces, Public Life", "url": "https://www.udg.org.uk/sites/default/files/publications/68%20OCTOBER%201998%20-%20ISSUE%2068%20text%20under%20image.pdf" },
+      { "label": "City of Copenhagen · expansion of pedestrian streets and squares", "url": "https://www.kk.dk/sites/default/files/agenda/79cef671-0a97-4be9-bc4e-e1816c536b58/17a3cb1e-df0e-4d3c-b036-aa185933ff14-bilag-2.pdf" }
+    ]
+  },
+  "threads": [
+    { "status": "Early recovery", "title": "Qatar output", "text": "Regular Q3 data, LNG cargoes and non-hydrocarbon growth will show how broad the turn is.", "progress": 42 },
+    { "status": "Import shock", "title": "Japan demand", "text": "Consumption weakened while digital investment remained strong.", "progress": 38 },
+    { "status": "Mixed signals", "title": "Yemen and Bab el-Mandeb", "text": "A large detainee release sits beside greater Houthi coastal leverage.", "progress": 47 },
+    { "status": "Operating at limited scale", "title": "Shenzhen autonomy", "text": "Commercial services exist inside approved zones; economics and repeat safety remain the test.", "progress": 63 }
+  ]
+}
