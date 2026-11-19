@@ -1,0 +1,236 @@
+{
+  "date": { "display": "Wednesday, 18 November 2026", "edition": "082", "updated": "8:00 AM" },
+  "worldSentence": "The AI boom is being tested from both sides of the ledger: Nvidia's revenue is still doubling while Microsoft is turning enterprise agents into governed, measurable infrastructure, and Qatar is moving AI from strategy into classrooms.",
+  "standfirst": "Wednesday's edition leads with Nvidia's $115.8 billion quarter, the strongest operating evidence yet that demand is catching up with the financing behind AI infrastructure. Microsoft is making enterprise context, agent identity, security and cost measurement into a single control layer. In Doha, national AI assistants are moving into schools and Qatar University. Elsewhere, Washington is asking Congress for $50.1 billion after the US air-traffic system failed, luxury brands are discovering how dependent demand has become on technology wealth, and an attack on the Kerch Bridge raises the stakes before major-power talks in Shenzhen. Curiosity Corner meets a bright-blue coral that needed both anatomy and genomics to earn a new genus. The Long View follows the clock, prize and public testing system that made longitude usable at sea.",
+  "listenTime": "18 min",
+  "coverage": [
+    { "count": 9, "label": "Qatar & Gulf" },
+    { "count": 13, "label": "World & politics" },
+    { "count": 15, "label": "Economy & markets" },
+    { "count": 18, "label": "AI & technology" },
+    { "count": 12, "label": "Consumer & travel" }
+  ],
+  "connected": {
+    "title": "Today's common thread is proof: AI capital needs revenue, enterprise agents need measured outcomes, and public-sector assistants need evidence that they improve learning rather than merely exist.",
+    "signals": [
+      { "label": "NVIDIA REVENUE", "value": "$115.8bn", "text": "Fiscal third-quarter revenue rose 20% sequentially and 103% from a year earlier." },
+      { "label": "DATA CENTRE", "value": "$107.6bn", "text": "More than nine-tenths of Nvidia's quarterly revenue came from data-centre demand." },
+      { "label": "AGENT ESTATE", "value": "50m+", "text": "Microsoft says more than 50 million agents are registered in Agent 365." },
+      { "label": "QATAR SCHOOLS", "value": "Grades 4–12", "text": "The national Smart Assistant covers six subjects and adds teacher planning and progress tools." }
+    ],
+    "note": "None of these numbers proves durable value on its own. The next test is whether customers keep using expensive infrastructure, whether agent telemetry measures real work rather than activity, and whether Qatar's education tools improve outcomes under human oversight."
+  },
+  "stories": [
+    {
+      "id": "nvidia-q3-ai-demand-proof",
+      "number": "01",
+      "category": "AI, markets & infrastructure",
+      "sourceNote": "Nvidia · Tuesday",
+      "title": "Nvidia's $115.8 billion quarter shows AI demand is still catching up with the capital being committed to supply it.",
+      "changed": "Nvidia reported fiscal third-quarter revenue of $115.8 billion, up 103% year on year, with $107.6 billion from data centres; it guided to $130 billion for the next quarter and assumed no China data-centre compute revenue.",
+      "matters": "A day after the Federal Reserve mapped the leverage underneath AI infrastructure, Nvidia supplied the other half of the picture: extraordinarily fast revenue growth and a 74.8% gross margin are currently supporting the buildout, even as execution and leadership risk have increased.",
+      "watch": "Vera Rubin deployment, customer concentration, gross margin falling toward 71–72% next quarter, the absence of China compute revenue and whether cloud customers convert infrastructure spending into their own durable cash flows.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "The AI investment cycle now has an operating result large enough to test the financing story against.", "note": "Revenue is real; the durability and distribution of the returns remain the question.", "break": false },
+      "background": {
+        "title": "The useful comparison is not boom versus bubble; it is obligations versus cash generation",
+        "text": "Nvidia's quarter ended 25 October with revenue of $115.8 billion, 20% above the previous quarter and 103% above a year earlier. Data-centre revenue alone reached $107.6 billion. GAAP operating income was $77.5 billion and net income $65.3 billion, while gross margin held at 74.8%. The company expects $130 billion of revenue in the next quarter, which contains an extra week, but expects gross margin to ease to 71–72%. Those figures do not resolve the Federal Reserve's concern about debt, leases and guarantees around the wider data-centre ecosystem. They do show that the central supplier is already generating cash on an exceptional scale. The harder question is whether Nvidia's customers and the projects financed around them can earn returns as quickly as they are adding capacity.",
+        "known": "Demand for Nvidia's systems produced another quarter of triple-digit year-on-year growth and the company has begun shipping Vera Rubin NVL72.",
+        "new": "The $130 billion outlook excludes China data-centre compute revenue, so management is forecasting further growth without assuming that restricted market reopens.",
+        "unknown": "How concentrated demand is among a few buyers, how quickly end-user revenue follows infrastructure spending and how the leadership transition affects execution."
+      },
+      "evidence": {
+        "left": { "label": "Operating proof", "text": "$65.3 billion of GAAP net income on $115.8 billion of revenue in one quarter." },
+        "right": { "label": "Investment test", "text": "Customers and project-finance vehicles still need to turn purchased capacity into cash flows that support their own commitments." }
+      },
+      "sources": [
+        { "label": "Nvidia · fiscal Q3 2027 results", "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx" },
+        { "label": "US SEC · Nvidia current report", "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm" }
+      ]
+    },
+    {
+      "id": "qatar-ai-education-assistants",
+      "number": "02",
+      "category": "Qatar, education & AI adoption",
+      "sourceNote": "MCIT, MoEHE and Qatar University · Tuesday",
+      "title": "Qatar moved two national AI assistants into education: one for school learning and teaching, another for university advising.",
+      "changed": "MCIT, the education ministry and Qatar University unveiled a curriculum-grounded Smart Assistant for grades four to 12 across six subjects and an Academic Adviser Assistant connected to the university's student information system.",
+      "matters": "This is a shift from AI strategy and training toward tools embedded in public services, with Qatar attempting to combine approved local content, student-level data and human oversight rather than deploy a general chatbot beside the classroom.",
+      "watch": "Rollout dates, Arabic performance, privacy and access controls, teacher adoption, false or misleading guidance, and outcome measures such as learning progress, adviser workload and registration errors.",
+      "lead": false,
+      "group": { "label": "Qatar & adoption", "title": "The national AI programme is crossing into everyday institutional work.", "note": "The decisive evidence will come from use, safeguards and outcomes—not the launch event.", "break": true },
+      "background": {
+        "title": "The design is useful because it assigns AI a bounded job inside an existing institution",
+        "text": "The school assistant supports guided explanations, textbook-linked questions, exercises and personalised feedback. Teachers receive lesson-planning, assignment and progress-monitoring tools. At Qatar University, the adviser assistant is intended to answer questions about courses, graduation requirements and regulations, arrange appointments and surface students who may need human attention. The university platform follows a collaboration agreement announced in October; Tuesday's event presented the two initiatives together as operating national applications. Both are built with Scale AI and are meant to use approved educational content while leaving assessment and academic decisions under human control. The risk is not only factual error. It is whether the system quietly changes how students learn or how advisers allocate attention without producing evidence that the change helps.",
+        "known": "The school tool covers grades four to 12 in six subjects, and the university tool is designed to connect to student records and advising workflows.",
+        "new": "Qatar has presented the two systems as national education applications rather than isolated pilots or general AI access.",
+        "unknown": "The scale and timetable of deployment, measured learning effects, data-governance implementation and how frequently human intervention will be needed."
+      },
+      "evidence": {
+        "left": { "label": "Grounded scope", "text": "Approved curriculum, course rules and institutional procedures define what the assistants are supposed to know." },
+        "right": { "label": "Outcome test", "text": "Progress, registration accuracy, adviser time and student satisfaction should show whether the tools add value." }
+      },
+      "sources": [
+        { "label": "Gulf Times · Qatar brings AI into classrooms and campuses", "url": "https://www.gulf-times.com/article/738499/qatar/qatar-brings-ai-into-classrooms-campuses" },
+        { "label": "Qatar MCIT · AI-powered academic advising collaboration", "url": "https://www.mcit.gov.qa/ar/News/QU-MCIT-and-Scale-AI-collaborate-on-national-AI-powered-academic-advising-platform" }
+      ]
+    },
+    {
+      "id": "microsoft-agent-governance-value",
+      "number": "03",
+      "category": "Enterprise AI & work systems",
+      "sourceNote": "Microsoft Ignite · Tuesday",
+      "title": "Microsoft is turning enterprise agents into a managed estate with identity, risk, cost and value attached to each one.",
+      "changed": "At Ignite, Microsoft expanded Agent 365 with dynamic risk, agent-specific access controls, cost limits and business analytics, while Microsoft IQ connects context across Microsoft 365, Fabric, Foundry and third-party systems.",
+      "matters": "Enterprise advantage is moving away from access to one model and toward governed context, reusable skills and evidence of value; the architecture closely matches the problem companies face when many people create agents faster than IT can see or evaluate them.",
+      "watch": "How assisted hours and value are calculated, licensing, interoperability beyond Microsoft's stack, whether local-agent controls work reliably and whether employees accept an observability layer that can inspect agent activity.",
+      "lead": false,
+      "group": { "label": "Enterprise AI", "title": "The agent layer is acquiring the management systems that software and employees already have.", "note": "Inventory and telemetry are prerequisites; they are not proof of return.", "break": true },
+      "background": {
+        "title": "The important product is the control system around agents, not another assistant",
+        "text": "Microsoft says more than 50 million agents are already registered in Agent 365. The new layer treats each agent as an identity with an owner, permissions, runtime risk, activity and cost. Dynamic risk can change as an agent receives new code or takes new actions. Conditional Access can require approval for sensitive operations while allowing low-risk work to continue. Cost Management can set limits by user, group or model, while Business Analytics tries to classify completed work and estimate assisted hours, value, success and satisfaction. Microsoft IQ then exposes shared organisational context across Microsoft and third-party systems through connectors and business plugins. The direction is important, but Microsoft is also selling the measurement system. Buyers will need to test its value calculations against independently observed outcomes.",
+        "known": "Microsoft is combining agent inventory, security, identity, spend and business analytics in one enterprise control plane.",
+        "new": "The system is beginning to measure AI in work completed rather than only tokens consumed, and it includes selected local and non-Microsoft agents.",
+        "unknown": "Whether the value measures survive audit, how much lock-in the shared context creates and how complete third-party visibility will be."
+      },
+      "evidence": {
+        "left": { "label": "Control", "text": "Identity, access, runtime protection, DLP, model choice, spending limits and alerts can be applied to agents." },
+        "right": { "label": "Value", "text": "Microsoft proposes assisted hours, assisted value, success and satisfaction as the business layer above usage." }
+      },
+      "sources": [
+        { "label": "Microsoft · Agent 365 at Ignite 2026", "url": "https://techcommunity.microsoft.com/blog/agent-365-blog/whats-new-in-microsoft-agent-365-ignite-2026/4571753" },
+        { "label": "Microsoft · building the frontier ecosystem", "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/" }
+      ]
+    },
+    {
+      "id": "us-air-traffic-modernization-request",
+      "number": "04",
+      "category": "Aviation & public infrastructure",
+      "sourceNote": "Associated Press · Tuesday",
+      "title": "Washington asked Congress for $50.1 billion to modernise US aviation after a router failure triggered a nationwide ground stop.",
+      "changed": "The administration proposed roughly $10 billion each for five aviation categories while the FAA paused new Juniper-router installations and disabled the functionality linked to Friday's failure.",
+      "matters": "Aviation resilience depends on unglamorous shared infrastructure whose failure can stop every carrier at once; the request also exposes disagreement over which upgrades are safety-critical and who should pay for terminals and industry assets.",
+      "watch": "What Congress funds, the technical root-cause report, replacement of copper with fibre, independent testing before router installations resume and whether airlines are asked to share more of the cost.",
+      "lead": false,
+      "group": { "label": "Aviation", "title": "A four-day-old failure has become a capital-allocation argument.", "note": "The $50.1 billion request is a proposal, not approved funding.", "break": true },
+      "sources": [
+        { "label": "Associated Press · US air-traffic investment request", "url": "https://apnews.com/article/nationwide-ground-stop-trump-air-travel-faa-a638c9651f1fabe8f95d20353779ee5b" }
+      ]
+    },
+    {
+      "id": "luxury-demand-ai-wealth-link",
+      "number": "05",
+      "category": "Luxury, consumer demand & markets",
+      "sourceNote": "Reuters · Tuesday",
+      "title": "Luxury's US growth engine is becoming visibly tied to technology wealth while its global customer base narrows.",
+      "changed": "European luxury shares fell about 2% as investors connected the AI-stock selloff with weaker spending by wealthy US consumers; Reuters reported that China remains soft and brands are selling more to a smaller base of buyers.",
+      "matters": "A sector that hoped the US could offset China now carries a second-order exposure to technology valuations: even without direct AI disruption, a concentrated wealth effect can change confidence and discretionary demand quickly.",
+      "watch": "US high-end transaction data, tourist spending, new-customer acquisition, discounting and whether Nvidia's strong results steady technology wealth without restoring broader consumer growth.",
+      "lead": false,
+      "group": { "label": "Consumer & luxury", "title": "Luxury's diversification story has developed a hidden concentration risk.", "note": "One day's share move is the signal; customer breadth is the underlying issue.", "break": true },
+      "sources": [
+        { "label": "Reuters · luxury demand and AI wealth", "url": "https://www.investing.com/news/stock-market-news/luxury-stocks-slip-on-fears-ai-falls-will-curb-spending-by-wealthy-5033605" }
+      ]
+    },
+    {
+      "id": "us-thailand-trade-substantial-conclusion",
+      "number": "06",
+      "category": "Trade & Southeast Asia",
+      "sourceNote": "White House · Tuesday",
+      "title": "The United States and Thailand said their reciprocal-trade negotiations are substantially complete—but the agreement is not yet signed or in force.",
+      "changed": "Trump and Thai Prime Minister Anutin Charnvirakul signed a joint statement in Manila confirming substantial conclusion and beginning each country's internal process toward a final agreement.",
+      "matters": "The statement turns tariff pressure into a potential bilateral framework during a week dominated by APEC and major-power diplomacy, but the economic effect cannot be judged until the operative terms are published.",
+      "watch": "The final text, tariff schedules, non-tariff commitments, ratification steps and the date of entry into force. Treat public claims about market access as provisional until they appear in the agreement.",
+      "lead": false,
+      "group": { "label": "World beyond the lead", "title": "A trade negotiation reached the threshold between politics and legal text.", "note": "Substantial conclusion is progress, not implementation.", "break": true },
+      "sources": [
+        { "label": "White House · US–Thailand reciprocal-trade joint statement", "url": "https://www.whitehouse.gov/briefings-statements/2026/11/joint-statement-on-an-agreement-between-the-united-states-of-america-and-the-kingdom-of-thailand-on-reciprocal-trade/" }
+      ]
+    },
+    {
+      "id": "ukraine-kerch-bridge-strike",
+      "number": "07",
+      "category": "War & infrastructure",
+      "sourceNote": "Associated Press · Tuesday",
+      "title": "Ukraine struck the Kerch Bridge linking Russia with occupied Crimea during a second night of exceptionally large drone attacks.",
+      "changed": "Zelenskyy described an unprecedented combined drone-and-missile operation against the bridge while Russia said it intercepted 1,441 drones; independent confirmation of the full damage remains limited.",
+      "matters": "The bridge is both a logistics route and political symbol, so renewed attacks can disrupt movement, force defensive resources away from other fronts and raise escalation risk before Thursday's US–China–Russia talks.",
+      "watch": "Verified structural damage, traffic restrictions, Russian retaliation and whether infrastructure attacks enter or complicate the Shenzhen diplomatic agenda.",
+      "lead": false,
+      "group": { "label": "Geopolitics", "title": "The war's infrastructure campaign intensified before diplomacy begins.", "note": "Separate confirmed targets from claims about the scale of damage.", "break": true },
+      "sources": [
+        { "label": "Associated Press · Kerch Bridge strike", "url": "https://apnews.com/article/df4b867cf8f70e88843d8fefea5d643c" }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Curiosity Corner",
+      "title": "A coral can be so blue that colour draws attention—but it took 2,438 genomic regions to show it belonged to a new genus.",
+      "text": "Divers collected three bright-blue octocoral colonies from rocky seabeds 19–27 metres deep in the East and South China seas. Their tree-like form, retractable polyps and tiny skeletal structures did not fit existing genera cleanly. Researchers compared anatomy and 2,438 ultraconserved genomic regions across 55 specimens; both lines of evidence supported Curvagorgia caerulea as the first species of a new genus. The blue pigment dissolves in alcohol and may involve azulene-related compounds, but its chemistry remains untested. It is a lovely example of modern taxonomy: appearance proposes a difference, anatomy describes it, and genomics tests whether the evolutionary branch is real.",
+      "url": "https://www.maxapress.com/article/doi/10.48130/jzser-0026-0001?viewType=HTML"
+    },
+    {
+      "label": "Critical infrastructure",
+      "title": "Equinor detected an ongoing cyberattack but reported no production disruption or evidence of stolen data.",
+      "text": "Europe's largest gas supplier says it mobilised resources to neutralise the attack and restore integrity. The useful watchpoint is whether the incident stays confined to IT systems or changes the company's assessment of operations and data exposure.",
+      "url": "https://www.equinor.com/news/20261711-equinor-detected-cyber-attack"
+    },
+    {
+      "label": "Qatar diplomacy",
+      "title": "The Amir begins state visits to Switzerland and Germany with trade, investment, energy and regional security on the agenda.",
+      "text": "The itinerary matters when it produces agreements or capital commitments. For now, watch the official communiqués after the two-day Swiss visit and Friday's talks in Germany rather than treating a scheduled agenda as an outcome.",
+      "url": "https://www.gulf-times.com/article/738495/qatar/hh-the-amir-embarks-today-on-visits-to-switzerland-germany"
+    },
+    {
+      "label": "AI model economics",
+      "title": "Microsoft released specialised coding, cyber and decision models alongside access to licensed MAI weights for selected customers.",
+      "text": "The strategy is to match model cost and capability to a task instead of sending every request to the largest system. Watch independent evaluation, pricing and whether enterprise customers can genuinely move workloads across models without rebuilding the surrounding workflow.",
+      "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/"
+    }
+  ],
+  "attention": {
+    "title": "Nvidia's fiscal third-quarter release and outlook",
+    "text": "It is today's best source because it puts operating cash generation beside yesterday's financing-risk story. Read the segment revenue, margins and $130 billion outlook, then keep the unanswered question separate: whether the customers buying the systems will earn adequate returns on the capacity.",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+  },
+  "ignore": {
+    "title": "Treating Nvidia's after-hours share move as the verdict on the AI buildout",
+    "text": "A few hours of price discovery mixes expectations, positioning and leadership risk. The durable evidence is revenue quality, customer economics, capacity use and how gross margin changes as Vera Rubin scales."
+  },
+  "history": {
+    "id": "history-longitude-clock-prize-system",
+    "number": "08",
+    "readTime": "6 min",
+    "era": "1675–1840s",
+    "title": "Longitude was not solved by one brilliant clock—it became usable when invention, public trials, astronomical tables and mass production formed a system",
+    "deck": "John Harrison made accurate time portable at sea. The Board of Longitude made claims testable, astronomers built a competing method and later clockmakers made precision affordable. Navigation changed when a discovery became an institution and then a product.",
+    "sections": [
+      { "title": "Sailors could measure north and south long before they could reliably measure east and west", "text": "Latitude could be estimated from the height of the Sun or stars. Longitude required knowing the time difference between a ship's current position and a reference meridian: Earth turns 15 degrees in an hour, so the difference could become distance east or west. At sea, however, pendulum clocks were disturbed by motion, temperature and humidity. Dead reckoning accumulated errors across long voyages. Longitude was therefore not an abstract scientific puzzle. A wrong position could put a fleet onto rocks, misplace an island or turn trade and naval power into a gamble." },
+      { "title": "Britain turned a dangerous uncertainty into a public reward with measurable conditions", "text": "The Royal Observatory had been founded in 1675 partly to improve astronomical navigation. In 1714 Parliament went further, offering rewards up to £20,000 for a method accurate enough on a voyage to the West Indies. The Longitude Act created commissioners who could examine proposals, fund promising work and arrange trials. This did not produce a quick contest winner. It created a durable institution able to spend public money on clocks, astronomy, voyages and tables. The prize mattered because it defined performance in the environment where the invention had to work." },
+      { "title": "John Harrison kept changing the object until a sea clock became a large watch", "text": "Harrison was a carpenter and self-taught clockmaker whose longcase clocks were extraordinarily accurate. His first marine timekeeper, H1, used linked balances to resist a ship's motion and performed well on a 1736 voyage to Lisbon. Yet he did not simply refine one design. H2 exposed a flaw; H3 consumed 19 years; H4, completed in 1759, abandoned the large-clock form and resembled an oversized pocket watch. On a voyage to Jamaica in 1761–62, H4 lost only seconds. A clock could now carry the time of a reference port across an ocean." },
+      { "title": "The dispute over the prize revealed the difference between a demonstration and a public technology", "text": "Harrison believed the successful trial deserved the full reward. The commissioners wanted repetition, disclosure and proof that another maker could reproduce the method. Further tests at Greenwich produced contested results, and Harrison accused the Board and Astronomer Royal Nevil Maskelyne of obstruction. Parliament eventually compensated him, though not in the clean triumph often retold. The conflict was painful, but the institutional question was legitimate: a state navigation system could not depend on one sealed instrument and one inventor's private knowledge." },
+      { "title": "Chronometers won at scale alongside the Moon, not by immediately replacing it", "text": "Maskelyne's Nautical Almanac, first issued for 1767, made lunar-distance calculations practical enough to provide a second route to longitude. Early chronometers remained expensive. Later makers including John Arnold and Thomas Earnshaw simplified the mechanism and produced accurate instruments in greater numbers. Navigators could compare methods and check one against another. By the nineteenth century chronometers were increasingly indispensable, though the Royal Navy did not make them standard issue everywhere at once. The longitude solution became reliable because clocks, observations, published tables, reference time, training and procurement reinforced one another." }
+    ],
+    "timeline": [
+      { "date": "1675", "text": "The Royal Observatory is founded at Greenwich to improve astronomy and navigation." },
+      { "date": "1714", "text": "Parliament passes the Longitude Act and authorises rewards tied to accuracy at sea." },
+      { "date": "1736", "text": "Harrison's H1 completes its Lisbon sea trial and correctly exposes a 60-mile navigation error near England." },
+      { "date": "1759", "text": "Harrison completes H4, a radically smaller watch-form marine timekeeper." },
+      { "date": "1761–62", "text": "H4 performs successfully on a transatlantic trial to Jamaica." },
+      { "date": "1767", "text": "The first Nautical Almanac gives navigators published lunar-distance tables for finding longitude." },
+      { "date": "Early 1800s", "text": "Simpler, cheaper chronometers spread more widely as specialist makers turn precision into a reproducible product." }
+    ],
+    "sources": [
+      { "label": "Royal Museums Greenwich · Harrison's timekeepers and the longitude problem", "url": "https://www.rmg.co.uk/stories/time/harrisons-clocks-longitude-problem" },
+      { "label": "Smithsonian · the marine chronometer", "url": "https://timeandnavigation.si.edu/navigating-at-sea/longitude-problem/solving-longitude-problem/chronometer" },
+      { "label": "Cambridge University Library · Board of Longitude archive", "url": "https://www.lib.cam.ac.uk/research/digital-humanities/case-studies/editioning-archive-board-longitude-project" }
+    ]
+  },
+  "threads": [
+    { "status": "Revenue accelerates", "title": "AI infrastructure", "text": "Nvidia's results support demand; customer returns and complex financing still decide the cycle's durability.", "progress": 78 },
+    { "status": "Entering institutions", "title": "Qatar AI adoption", "text": "Education assistants now need transparent rollout, safeguards and measured outcomes.", "progress": 57 },
+    { "status": "Control layer expands", "title": "Enterprise agents", "text": "Inventory, identity, cost and value measurement are becoming part of the production stack.", "progress": 65 },
+    { "status": "Funding proposed", "title": "Aviation resilience", "text": "Congress must separate immediate safety work from the wider $50.1 billion capital request.", "progress": 41 }
+  ]
+}

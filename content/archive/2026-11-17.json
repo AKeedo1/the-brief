@@ -1,0 +1,207 @@
+{
+  "date": { "display": "Tuesday, 17 November 2026", "edition": "081", "updated": "8:00 AM" },
+  "worldSentence": "The financial architecture behind the AI buildout is becoming as consequential as the technology itself, while Qatar's newest public company and new rules for cloud compute show capital markets and governments adapting around the same investment wave.",
+  "standfirst": "Tuesday's edition leads with the Federal Reserve's clearest warning yet about the leverage underneath AI infrastructure: advanced-computing debt has reached more than $680 billion this year and off-balance-sheet obligations may exceed $3 trillion. In Doha, Dandy became the Qatar Stock Exchange's 56th company after a QAR 206 million IPO. Washington closed a cloud-compute route around physical chip controls, and Sabre pushed travel agents toward booking and servicing trips by conversation. Curiosity Corner finds glass conducting heat when it narrows to a single atom. The Long View returns to Le Bon Marché and the system that turned shopping into a modern mass business.",
+  "listenTime": "15 min",
+  "coverage": [
+    { "count": 9, "label": "Qatar & Gulf" },
+    { "count": 11, "label": "World & politics" },
+    { "count": 12, "label": "Economy & markets" },
+    { "count": 14, "label": "AI & technology" },
+    { "count": 10, "label": "Consumer & travel" }
+  ],
+  "connected": {
+    "title": "Today's common thread is infrastructure becoming finance, regulation and distribution: compute needs debt, chips need controls that follow them into the cloud, and travel inventory needs interfaces that software agents can use.",
+    "signals": [
+      { "label": "AI DEBT", "value": "$680bn+", "text": "Advanced-computing-related issuance through October was about five times 2023's full-year total." },
+      { "label": "OFF BALANCE SHEET", "value": "$3tn+", "text": "The Fed's maximum nominal estimate includes leases, guarantees and long-term contracts." },
+      { "label": "DANDY IPO", "value": "QAR 206m", "text": "Forty percent of the Qatari food producer's capital entered the public market." },
+      { "label": "FREE FLOAT", "value": "40%", "text": "Founders retain 60%, with lock-up restrictions during the first two years." }
+    ],
+    "note": "None of these figures proves a bust or a success. They show where execution risk now sits: revenue must catch up with infrastructure commitments, compliance must identify the real compute user, and a listed consumer company must earn its valuation through disclosed operating performance."
+  },
+  "stories": [
+    {
+      "id": "fed-ai-infrastructure-leverage",
+      "number": "01",
+      "category": "AI, markets & financial stability",
+      "sourceNote": "US Federal Reserve · Friday and Monday",
+      "title": "The Federal Reserve mapped the debt underneath the AI buildout—and the hidden obligations are larger than the bonds.",
+      "changed": "The Fed's November stability report estimates advanced-computing-related debt issuance exceeded $680 billion through October, while Governor Michael Barr said potential off-balance-sheet obligations across leases, guarantees and contracts now exceed $3 trillion.",
+      "matters": "The central question for AI investment is no longer only whether the technology works; it is whether future revenues arrive fast enough to support an increasingly connected financing system without a pullback spreading through utilities, private credit, equipment suppliers and corporate spending.",
+      "watch": "AI service revenue, utilization of new data centres, project-finance spreads, hyperscaler lease and guarantee disclosures and whether weaker borrowers keep turning to complex asset-backed structures. The Fed is identifying transmission channels, not forecasting a crash.",
+      "lead": true,
+      "group": { "label": "The lead", "title": "AI's physical buildout has acquired a financial system of its own.", "note": "Follow the obligations, not only the equity valuations.", "break": false },
+      "background": {
+        "title": "A profitable technology can still produce a fragile investment cycle if financing outruns cash flow",
+        "text": "The Federal Reserve's November Financial Stability Report separates three risks inside the advanced-computing boom: the speed of debt growth, circular relationships among firms and obligations that sit outside ordinary corporate bonds. Issuance related to data centres and computing infrastructure rose from about $130 billion in all of 2023 to more than $680 billion through October 2026. The seven largest AI firms are expected to carry more than $800 billion of on-balance-sheet debt by year-end. More important, the potential maximum value of long-term compute leases, energy contracts, residual-value guarantees and other off-balance-sheet commitments exceeds $3 trillion. Strong technology firms often support projects involving weaker developers, utilities or customers. That can fund useful infrastructure, but it also makes the location of risk harder to see if expected AI revenue or asset values disappoint. The Fed's comparison with the telecom buildout is a stress test, not a claim that history will repeat.",
+        "known": "AI infrastructure is increasingly financed through debt, leases, guarantees and project structures rather than retained cash alone.",
+        "new": "The Fed has quantified the scale and highlighted circular financing and contingent obligations as possible amplifiers.",
+        "unknown": "How much of the maximum obligation will become actual exposure, how quickly AI revenue catches up and which projects remain economic under higher funding costs."
+      },
+      "evidence": {
+        "left": { "label": "Visible financing", "text": "Advanced-computing debt issuance exceeded $680 billion through October, and related public debt outstanding topped $1.1 trillion." },
+        "right": { "label": "Contingent financing", "text": "Potential off-balance-sheet obligations exceed $3 trillion, though that is a maximum nominal value rather than expected loss." }
+      },
+      "sources": [
+        { "label": "Federal Reserve · November 2026 Financial Stability Report", "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf" },
+        { "label": "Federal Reserve · Governor Barr on AI and financial stability", "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm" }
+      ]
+    },
+    {
+      "id": "dandy-qse-first-session",
+      "number": "02",
+      "category": "Qatar, consumer & capital markets",
+      "sourceNote": "Qatar Stock Exchange · Monday",
+      "title": "Dandy joined the Qatar Stock Exchange after a QAR 206 million IPO, adding a rare local food manufacturer to the public market.",
+      "changed": "All 103 million shares began trading on Monday at a QAR 5 reference price; the 41.2 million-share offer represents a 40% free float and values the company at QAR 515 million at listing.",
+      "matters": "For Qatar's market, this adds an operating consumer-goods business rather than another financial or property proxy; for Dandy, public disclosure will make its dairy, beverage, ice-cream, packaging and export economics visible over time.",
+      "watch": "The prospectus and first post-listing results: revenue mix, margins, working capital, export growth, capital spending and use of IPO proceeds. A first-day range of QAR 4.88 to QAR 5.30 is price discovery, not evidence of long-term value.",
+      "lead": false,
+      "group": { "label": "Qatar & markets", "title": "A familiar food brand is becoming a public operating company.", "note": "The listing matters more for the information it will reveal than for one day's price.", "break": true },
+      "background": {
+        "title": "Dandy gives investors a direct view into a part of Qatar's real consumer economy",
+        "text": "Dandy was established in Qatar in 1978 and sells more than 200 products across dairy, beverages and ice cream. It also runs its own plastic-packaging facility, distribution network and private-label production, and exports ice cream to Saudi Arabia and African markets. The IPO sold 41.2 million shares at QAR 5 each: 12.36 million through institutional book-building and 28.84 million through public subscription. Founders retain 60%. They cannot sell their original holdings in the first year, and in the second year their combined stake cannot fall below 40%. That structure provides a meaningful free float while retaining concentrated control. The investment question now moves from brand familiarity and oversubscription to operating evidence: margins, cash conversion, capital intensity, export economics and governance under continuing disclosure.",
+        "known": "Dandy listed with a QAR 515 million reference market value and a 40% free float after an oversubscribed IPO.",
+        "new": "QSE investors can now buy a direct local exposure to dairy, beverages, ice cream and related manufacturing.",
+        "unknown": "The valuation implied by normalized earnings, the pace of regional growth and how efficiently the company deploys new capital."
+      },
+      "evidence": {
+        "left": { "label": "Public float", "text": "Forty percent of capital was offered for QAR 206 million, with institutions receiving 30% of offer shares." },
+        "right": { "label": "Founder control", "text": "Founding shareholders retain 60% and face a staged lock-up during the first two years." }
+      },
+      "sources": [
+        { "label": "Qatar Stock Exchange · Dandy listing announcement", "url": "https://www.qe.com.qa/en/displaynewsdetails?InfoID=47415" },
+        { "label": "Qatar Stock Exchange · Dandy company profile and filings", "url": "https://www.qe.com.qa/en/static-company-profile" }
+      ]
+    },
+    {
+      "id": "us-remote-compute-chip-rule",
+      "number": "03",
+      "category": "Technology, trade & regulation",
+      "sourceNote": "US Bureau of Industry and Security · Monday",
+      "title": "US chip controls now follow advanced computing into overseas data centres instead of stopping at the hardware border.",
+      "changed": "A new interim rule restricts overseas data centres that remotely supply large amounts of US-chip compute to entities in countries of concern and adds customer due-diligence and licensing requirements for higher-diversion-risk destinations.",
+      "matters": "Export control is shifting from counting physical chips to identifying who ultimately uses computing capacity, changing compliance for cloud providers, data-centre operators, chip exporters and customers across third countries.",
+      "watch": "The final rule, implementation guidance, license processing and whether restricted firms reorganize access through smaller providers or multiple jurisdictions. Commercial recommendation systems are excluded, and the practical burden will depend on thresholds and end-user verification.",
+      "lead": false,
+      "group": { "label": "Technology & trade", "title": "The controlled object is becoming compute access, not only a shipped chip.", "note": "Cloud architecture has forced export rules to follow the end user.", "break": true },
+      "background": {
+        "title": "Cloud access made physical export controls incomplete",
+        "text": "A company does not need to import an advanced accelerator if it can rent the same computing power from a data centre in another country. The US Bureau of Industry and Security's interim rule responds by applying restrictions to overseas facilities that remotely supply significant compute to companies headquartered in specified countries of concern. Data centres, foundries and chip exporters must perform due diligence on customers and on direct or indirect ownership and control. The rule also adds licensing requirements for advanced-semiconductor transfers to destinations considered unusually exposed to diversion. It exempts commercial recommendation systems such as retail and social-media ranking. The strategic shift is clear: regulators are trying to control the service produced by hardware, not only the hardware's border crossing. The uncertain part is enforcement across layered cloud resellers and corporate structures.",
+        "known": "The interim rule extends controls to certain remote-compute arrangements and raises end-user due-diligence requirements.",
+        "new": "Overseas data-centre access is now explicitly treated as a potential route around physical chip restrictions.",
+        "unknown": "How compliance thresholds will work in practice, how quickly licenses will be processed and how providers will verify indirect users."
+      },
+      "evidence": {
+        "left": { "label": "Old control point", "text": "Licensing focused primarily on the export, re-export or in-country transfer of advanced chips." },
+        "right": { "label": "New control point", "text": "The rule also examines remote compute supplied by overseas data centres and the identity behind the customer." }
+      },
+      "sources": [
+        { "label": "US BIS · remote-access rule announcement", "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology" },
+        { "label": "US BIS · interim final rule text", "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf" }
+      ]
+    },
+    {
+      "id": "sabre-agentic-travel-connector",
+      "number": "04",
+      "category": "Aviation, travel & AI",
+      "sourceNote": "Sabre · Tuesday",
+      "title": "Sabre is opening search, booking and post-booking servicing to conversational agents—and making disruption response event-driven.",
+      "changed": "The travel-distribution company announced a beta Mosaic Travel Connector for AI assistants plus APIs designed to trigger action when fares change or flights are disrupted, rather than wait for a fresh customer prompt.",
+      "matters": "Travel's valuable layer is moving beyond itinerary suggestions toward fulfillment and servicing, where inventory rules, payments, changes and airline relationships are much harder to reproduce than chat-based search.",
+      "watch": "Which assistants and travel sellers adopt the connector, who holds customer liability, how consent works for automatic changes and whether airlines retain control of offers and service recovery. The product is entering beta, not yet proven at scale.",
+      "lead": false,
+      "group": { "label": "Aviation & opportunity", "title": "AI travel is crossing from advice into transaction infrastructure.", "note": "Servicing a disrupted trip is the harder and more valuable test.", "break": true },
+      "sources": [
+        { "label": "Sabre · Mosaic connector and proactive travel APIs", "url": "https://sabre.gcs-web.com/node/20256/pdf" }
+      ]
+    },
+    {
+      "id": "trump-asia-nuclear-summit",
+      "number": "05",
+      "category": "Geopolitics & Asia",
+      "sourceNote": "Associated Press · Monday",
+      "title": "Trump began an Asia trip built around Southeast Asian trade deals and unprecedented three-way nuclear talks with Xi and Putin.",
+      "changed": "The US president departed for Manila and Shenzhen, said Ukraine would now be discussed in the three-leader meeting and left open a possible encounter with North Korea's Kim Jong Un.",
+      "matters": "The meeting bundles nuclear stability, Ukraine, the Iran war, technology restrictions and trade into one high-risk diplomatic forum where a broad declaration could conceal unresolved implementation.",
+      "watch": "Whether the talks produce verifiable nuclear measures, defined trade commitments or Ukraine decisions made with Kyiv and Europe at the table. The agenda is confirmed; outcomes are not.",
+      "lead": false,
+      "group": { "label": "The world beyond the lead", "title": "A summit with an unusually broad agenda begins before its terms are settled.", "note": "Separate ceremony from commitments that can be verified.", "break": true },
+      "sources": [
+        { "label": "Associated Press · Trump Asia trip and summit agenda", "url": "https://apnews.com/article/trump-china-manila-xi-putin-ffc5e5a2d384f00960034ec10087502e" }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "label": "Curiosity Corner",
+      "title": "Glass stops behaving like an insulator when the bridge narrows to a single atom.",
+      "text": "Researchers pulled a silica contact thinner until only an atomic-scale connection remained and measured heat moving in discrete steps. The conductance reached about 40% of the quantum limit for a single channel—unexpectedly efficient for a material whose disordered structure normally scatters the vibrations that carry heat. At one atom wide, there is too little room for the usual disorder to interrupt the path. The result is a laboratory measurement, not a ready-made cooling technology, but the microscope gives engineers a new way to see how heat crosses the smallest contacts inside future electronics.",
+      "url": "https://www.nature.com/articles/s41565-026-02308-9"
+    },
+    {
+      "label": "Climate & energy",
+      "title": "A COP31 draft targets electricity at 35% of global final energy use by 2035.",
+      "text": "The number is useful only with the system behind it: generation, grids, storage, industrial equipment and consumer adoption. Watch whether the final agreement preserves the target and assigns credible national implementation paths.",
+      "url": "https://unfccc.int/cop31"
+    },
+    {
+      "label": "Qatar capability",
+      "title": "Qatar's General Tax Authority and ACCA are creating an accredited local Tax Specialist programme.",
+      "text": "The near-term value is professional capacity rather than a policy change. Watch curriculum, eligibility and whether employers treat the qualification as a practical route into Qatar tax work.",
+      "url": "https://www.qna.org.qa/en/economy/"
+    },
+    {
+      "label": "Travel distribution",
+      "title": "Sabre says more than 99% of its compute is now in the cloud and it processes over one billion travel-shopping requests each day.",
+      "text": "That scale is why agent interfaces matter: the defensible asset may be access to live inventory and servicing rules, not the conversational layer a traveller sees.",
+      "url": "https://sabre.gcs-web.com/node/20256/pdf"
+    }
+  ],
+  "attention": {
+    "title": "The Federal Reserve's box on leverage in the data-centre buildout",
+    "text": "It is today's best source because it turns the AI-capital-spending debate into a map of actual financing channels: corporate debt, project finance, leases, guarantees, utilities and circular commercial relationships. Read the figures as exposure estimates and stress paths, not as a forecast of losses.",
+    "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf"
+  },
+  "ignore": {
+    "title": "Treating Dandy's first trading range as an investment verdict",
+    "text": "A new listing's first session mixes allocations, liquidity and price discovery. The useful evidence will come from filings on margins, cash generation, capital spending, exports and governance."
+  },
+  "history": {
+    "id": "history-le-bon-marche-modern-retail-system",
+    "number": "06",
+    "readTime": "6 min",
+    "era": "1838–1887",
+    "title": "Le Bon Marché did not invent one retail trick—it assembled the operating system of modern shopping",
+    "deck": "Fixed prices, returns, rapid stock turnover, catalogues and spectacle reinforced one another. A Paris shop became a department store by replacing personal bargaining with a system that could earn trust and move goods at scale.",
+    "sections": [
+      { "title": "Retail began as a negotiation between a customer and a specialist", "text": "In early nineteenth-century Paris, most clothing and household goods were bought from small specialist shops. Prices were often negotiated, ready-made choice was limited and browsing without buying could be uncomfortable. The shopkeeper's knowledge and relationship with the customer were part of the transaction, but the model did not scale easily. Au Bon Marché began as a modest novelty shop around 1838. When Aristide Boucicaut joined the business in 1852, it had roughly a dozen employees and four departments. The opportunity was not merely to make the shop larger. It was to redesign how strangers could trust a retailer." },
+      { "title": "Fixed prices made browsing possible because they removed a hidden negotiation", "text": "Boucicaut and his wife Marguerite built around visible fixed prices, entry without an obligation to buy and the ability to exchange or return goods. Those policies moved risk away from the customer. A shopper no longer needed to judge whether a clerk had named a fair price or whether touching a product created a social debt. Fixed prices also changed management. Goods could be compared across departments, clerks could sell through a common system and advertising could state an offer before a customer entered the building. Trust became partially embedded in rules rather than dependent on one salesperson." },
+      { "title": "Low margins worked only because the store accelerated turnover", "text": "Le Bon Marché paired fixed prices with lower margins, broad choice and fast renewal of stock. The mechanism was cumulative: attractive prices drew more customers; more customers supported larger orders; volume and rapid turnover allowed the store to refresh its assortment and keep reducing the cost of stale inventory. Seasonal sales created demand for goods that might otherwise sit idle. The famous January sales of white household linen became a repeatable calendar event and were copied by competitors. What looked like promotion was inventory management, customer acquisition and habit formation in one move." },
+      { "title": "Architecture and media turned distribution into an experience", "text": "From 1869 the company built an iron-and-glass complex designed to hold expanding departments, dramatic displays and crowds. Catalogues and mail order extended the store beyond Paris; home delivery separated purchasing from carrying; reading rooms, exhibitions and concerts made time in the building part of the product. By 1887 the store occupied a full urban block. Émile Zola studied the Bon Marché and other stores for his 1883 novel Au Bonheur des Dames because the new retail format was changing labour, gender, desire and the physical city, not only the sale of fabric." },
+      { "title": "The real innovation was a reinforcing system—and it created new costs", "text": "No single practice belonged only to Le Bon Marché, and historians debate which business deserves the title of first department store. Its significance lies in assembling practices that strengthened one another: fixed prices supported advertising; returns reduced purchase anxiety; lower margins required turnover; catalogues expanded reach; architecture produced attention; salaried departments made the assortment manageable. The same system also concentrated market power, displaced smaller retailers and imposed demanding labour discipline. Modern retail inherited both sides. The durable lesson is not that spectacle wins. It is that a customer promise becomes transformative only when pricing, inventory, service, distribution and operations make the same promise together." }
+    ],
+    "timeline": [
+      { "date": "c. 1838", "text": "Au Bon Marché opens in Paris as a small novelty shop selling items such as fabrics and accessories." },
+      { "date": "1852", "text": "Aristide and Marguerite Boucicaut begin transforming the store around fixed prices, broad assortment and customer guarantees." },
+      { "date": "1863", "text": "Boucicaut takes full control after buying out partner Paul Videau and accelerates expansion." },
+      { "date": "1867", "text": "Mail-order catalogues extend the store's reach beyond customers who can visit Paris." },
+      { "date": "1869", "text": "Construction begins on a purpose-built iron-and-glass department-store complex." },
+      { "date": "1883", "text": "Émile Zola publishes Au Bonheur des Dames after researching the new department-store system." },
+      { "date": "1887", "text": "The expanded complex fills the block and the business operates at a scale unimaginable in its four-department beginning." }
+    ],
+    "sources": [
+      { "label": "Bibliothèque nationale de France · department stores and modern commerce", "url": "https://www.bnf.fr/fr/mediatheque/les-grands-magasins-aux-sources-du-commerce-moderne" },
+      { "label": "BnF · Le Bon Marché, Zola and the department-store operating model", "url": "https://multimedia-ext.bnf.fr/pdf/Bonheur-des-dames.pdf" },
+      { "label": "JSTOR · Le Bon Marché and the transformation of shopping", "url": "https://about.jstor.org/blog/shopping-paradise-emile-zola-and-the-worlds-first-department-store/" },
+      { "label": "Gallica · the January white-sale tradition", "url": "https://gallica.bnf.fr/accueil/fr/html/les-ventes-promotionnelles-de-blanc-des-grands-magasins" }
+    ]
+  },
+  "threads": [
+    { "status": "Financing expands", "title": "AI infrastructure", "text": "Revenue, utilization and complex obligations will determine whether leverage amplifies the boom or its repricing.", "progress": 72 },
+    { "status": "Now public", "title": "Dandy", "text": "The first post-listing disclosures will replace brand familiarity with comparable operating evidence.", "progress": 55 },
+    { "status": "Rule issued", "title": "Compute controls", "text": "Cloud providers must turn end-user identity into an enforceable compliance process.", "progress": 61 },
+    { "status": "Entering beta", "title": "Agentic travel", "text": "Booking and disruption servicing will test whether assistants can carry responsibility as well as conversation.", "progress": 46 }
+  ]
+}
